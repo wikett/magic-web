@@ -1,7 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxt/content'],
+  modules: [
+    '@nuxt/content',
+    '@zadigetvoltaire/nuxt-gtm'
+  ],
   components: [
     { path: '~/components/common'},
     { path: '~/components/global'}
@@ -16,4 +19,18 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    public: {
+      gtm: {
+        id: 'GTM-N7BN33VN',
+        defer: false,
+        compatibility: false,
+        nonce: '2726c7f26c',
+        enabled: true,
+        debug: true,
+        trackOnNextTick: false,
+        devtools: true,
+      }
+    }
+  }
 })
