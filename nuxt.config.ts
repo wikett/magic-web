@@ -19,6 +19,12 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+    }
+  },
   runtimeConfig: {
     public: {
       gtm: {
@@ -26,7 +32,7 @@ export default defineNuxtConfig({
         defer: false,
         compatibility: false,
         nonce: '2726c7f26c',
-        enabled: true,
+        enabled: false,
         debug: true,
         trackOnNextTick: false,
         devtools: true,
