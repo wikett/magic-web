@@ -3,14 +3,29 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxt/content',
-    '@zadigetvoltaire/nuxt-gtm'
+    '@zadigetvoltaire/nuxt-gtm',
+    'nuxt-simple-sitemap',
+    ['@nuxtjs/robots', [
+      {
+        UserAgent: '*',
+        Allow: '/'
+      },
+      {
+        UserAgent: 'GPTBot',
+        Disallow: '/'
+      },
+      {
+        UserAgent: 'chatGPT-user',
+        Disallow: '/'
+      }
+    ]]
   ],
   components: [
     { path: '~/components/common'},
     { path: '~/components/global'}
   ],
   content: {
-    // https://content.nuxtjs.org/api/configuration
+    documentDriven: true
   },
   css: ['~/assets/css/main.css'],
   postcss: {
@@ -19,10 +34,14 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  site: {
+    url: 'https://comolimpiarcomoexpertas.com',
+  },
   app: {
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
+      htmlAttrs: { dir: 'ltr', lang: 'es'}
     }
   },
   runtimeConfig: {

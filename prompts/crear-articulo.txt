@@ -1,0 +1,9 @@
+Por favor,  escribe un artículo en español sobre "como limpiar la plata" sobre las 2000 palabras, como una persona que sabe el 80% de español, utilizando palabras muy sencillas de entender y dándoles matices, que contenga las siguientes secciones:
+- INTRODUCCIÓN (200 palabras),
+- ¿POR QUÉ ES IMPORTANTE LIMPIAR LA PLATA? (200 palabras),
+- MÉTODOS PARA LIMPIAR LA PLATA EN CASA (600 palabras),
+- PRODUCTOS COMERCIALES PARA LIMPIAR LA PLATA (400 palabras),
+- CONSEJOS PARA PREVENIR LA OXIDACIÓN Y EL DESGASTE DE LA PLATA (300 palabras),
+- PREGUNTAS FRECUENTES (300 palabras).
+Cada sección tiene entre paréntesis el número aproximado de palabras que debe contener. El resultado redáctalo en Markdown, resaltando algunas partes del texto y utiliza cada sección como h2. Introduce un titulo clickbait referente a la palabra clave como h1.
+No uses palabras normales de Inteligencia Artificial.

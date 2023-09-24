@@ -2,21 +2,64 @@ import OpenAI from 'openai'
 import 'dotenv/config'
 import fs from 'fs/promises'
 import slugify from '@sindresorhus/slugify';
+import axios from 'axios'
 
 let guiaSEO = ""
 let tituloSEO = ""
+let urlSEO = ""
 let categoriaSEO = ""
+let articuloPathSEO = ""
+let seccionesParaPrompt = ""
+let imagenPrincipalSEO = ""
+const youtubeApiKey = process.env.YOUTUBE_API_KEY;
 
 function getPromptGuia(titulo) {
-  return `Create an outline for an article that will be 2,000 words on the keyword "${titulo}" based on the top 10 results from Google in Spanish.Include every relevant heading possible. Keep the keyword density of the headings high.For each section of the outline, include the word count.Include FAQs section in the outline too, based on people also ask section from Google for the keyword.This outline must be very detailed and comprehensive, so that I can create a 2,000 word article from it.Generate a long list of LSI and NLP keywords related to my keyword. Also include any other words related to the keyword.Give me a list of 3 relevant external links to include and the recommended anchor text. Make sure they're not competing articles.`
+  // return `Create an outline for an article that will be 2,000 words on the keyword "${titulo}" based on the top 10 results from Google in Spanish.Include every relevant heading possible. Keep the keyword density of the headings high.For each section of the outline, include the word count.Include FAQs section in the outline too, based on people also ask section from Google for the keyword.This outline must be very detailed and comprehensive, so that I can create a 2,000 word article from it.Generate a long list of LSI and NLP keywords related to my keyword. Also include any other words related to the keyword.Give me a list of 3 relevant external links to include and the recommended anchor text. Make sure they're not competing articles.`
+  return `Crea un guión en español para un artículo sobre las 2000 palabras para la palabra clave "${titulo}" basado en el top 10 resultados de Google de España. Incluye cada título relevante posible. Mantén la densidad de la palbra clave alta.Añade un titulo ClickBait para la palabra clave. Para cada sección del guión, incluye el total de palabras y este listado debe comenzar por la palabra "Sección". Incluye también una sección de Preguntas Frecuentes, basado en lo que las personas preguntan en Google para esta palabra clave. Este guión debe estar muy detallado y completo, del cual pueda crear un artículo de 2000 palabras aproximadamente. Además general una lista de LSI y NLP palabras claves relacionadas con mi palabra clave. Estate seguro que lo los articulos no compiten entre sí`
 }
 
-function getPromptTitulo(titulo, palabras) {
-  return `Write an article around ${palabras} words about '${titulo}', like a guy who knows 80% English, use very easy-to-understand English words, and give them nuance. Write this article in Spanish. Do not use normal AI words. Could you use markdown and emphasize some parts of the text?`
+function getPromptTitulo(titulo, palabras=200) {
+  //return `Write an article around ${palabras} words about '${titulo}', like a guy who knows 80% English, use very easy-to-understand English words, and give them nuance. Write this article in Spanish. Do not use normal AI words. Could you use markdown and emphasize some parts of the text?`
+  return `Escribe un artículo en español sobre "${titulo}" que tenga un total de ${palabras} aproximadamente, como una persona que sabe el 80% de español, utilizando palabras muy sencillas de entender y dándoles matices. No uses palabras normales de Inteligencia Artificial. ¿Podrías utilizar markdown y resaltar algunas partes del texto?`
 }
 
 function getPromptCategorias(titulo) {
-  return `Podrías clasificar esta frase "${titulo}" en alguna de estas categorías: hogar, electrodomesticos, ropa, tecnologia, salud u otros. En la respuesta indica solo la categoría, por favor.`
+  return `Podrías clasificar esta frase "${titulo}" en alguna de estas categorías: hogar, ropa, tecnologia, salud u otros. En la respuesta indica solo la categoría, por favor.`
+}
+
+function getPromptArticulo() {
+  console.log('generar articulo para: '+tituloSEO)
+  return `Por favor,  escribe un artículo en español sobre "${tituloSEO}" de unas 2000 palabras, como una persona que sabe el 80% de español, utilizando palabras muy sencillas de entender y dándoles matices, que contenga las siguientes secciones:\n${seccionesParaPrompt}. El resultado redáctalo en Markdown, resaltando algunas partes del texto y utiliza cada sección como h2. No uses palabras normales de Inteligencia Artificial. Manten una densidad alta de la palbra clave. Incluye un título ClickBait al principio del artículo.`
+}
+
+function getMetaData(keywords, tituloClickBait, categoria, imagen, url) {
+  const currentDate = new Date();
+  return `head:
+  meta:
+    - name: 'keywords'
+      content: '${keywords}'
+    - name: 'robots'
+      content: 'index, follow'
+    - name: 'og:title'
+      content: '${keywords}'
+    - name: 'og:description'
+      content: '${tituloClickBait}'
+    - name: 'og:type'
+      content: 'article'
+    - name: 'article:published_time'
+      content: '${currentDate.toISOString()}'
+    - name: 'article:modified_time'
+      content: '${currentDate.toISOString()}'
+    - name: 'article:section'
+      content: '${categoria}'
+    - name: 'article:author'
+      content: 'Mayte y Sonia'
+    - name: 'og:image'
+      content: '${imagen}'
+    - name: 'og:url'
+      content: '${url}'
+    - name: 'copyright'
+      content: '© ${new Date().getFullYear()} comolimpiarcomoexpertas.com'`
 }
 
 const filepath = 'keywords.txt';
@@ -24,8 +67,6 @@ const filepath = 'keywords.txt';
 function asignarCategoria(categoria) {
   if (categoria.includes('hogar'))
     return 'hogar'
-  if (categoria.includes('electrodomesticos'))
-    return 'electrodomesticos'
   if (categoria.includes('ropa'))
     return 'ropa'
   if (categoria.includes('tecnologia'))
@@ -34,6 +75,7 @@ function asignarCategoria(categoria) {
 }
 
 async function obtenerCategoria() {
+  console.log('Obteniendo categoria...')
   try {
     // Read the contents of the file
     const data = await fs.readFile(filepath, 'utf8');
@@ -44,22 +86,34 @@ async function obtenerCategoria() {
     categoriaSEO = await chatgptMagic(getPromptCategorias(tituloSEO))
     
     categoriaSEO = asignarCategoria(categoriaSEO)
-    console.log('Categoria', categoriaSEO)
+
+    imagenPrincipalSEO = await obtenerImagen(tituloSEO);
+    console.log(imagenPrincipalSEO)
 
     if (!categoriaSEO.includes("salud")) {
-      // Creamos articulo SEO
+      // Creamos fichero con lo basico
       try {
-        const filepathArticulo = `./content/${categoriaSEO}/${slugify(tituloSEO, {separator: '-'})}`
-        const contenidoArticulo = `---\ntitle: ${tituloSEO}\n---\n`
-        await fs.writeFile(filepathArticulo, contenidoArticulo, 'utf8');
-        console.log('File written successfully!');
+        let date = new Date().toUTCString().slice(5, 16);
+        urlSEO = slugify(tituloSEO, {separator: '-'})
+        articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`
+        const primeraMayuscula =  tituloSEO.charAt(0).toUpperCase() + tituloSEO.slice(1);
+        let contenidoArticulo = `---\ntitle: ${tituloSEO}\ndescription: ${tituloSEO}\ncategory: ${categoriaSEO}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
+        contenidoArticulo += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), tituloSEO, categoriaSEO, imagenPrincipalSEO, 'https://comolimpiarcomoexpertas.com/'+categoriaSEO+'/'+urlSEO)
+        contenidoArticulo += '\n---\n'
+        await fs.writeFile(articuloPathSEO, contenidoArticulo, 'utf8');
       } catch (err) {
         console.error(err);
       }
 
       console.log('Preparando guia SEO...')
-      // guiaSEO = await chatgptMagic(getPromptGuia(tituloSEO), "gpt-4");
-      // console.log(guiaSEO);
+      guiaSEO = await chatgptMagic(getPromptGuia(tituloSEO), "gpt-4");
+      //console.log(guiaSEO)
+      guiaSEO = guiaSEO.split(/\r\n|\r|\n/)
+      guiaSEO = guiaSEO.filter((letter) => letter !== "")
+      
+      await processContent(guiaSEO)
+      await createArticle()
+      console.log('Articulo creado correctamente')
     }
 
     // Remove the first line
@@ -71,20 +125,10 @@ async function obtenerCategoria() {
     // Write the modified string back to the file
     await fs.writeFile(filepath, modifiedContent, 'utf8');
 
-    console.log('First line removed successfully!');
   } catch (err) {
     console.error(err);
   }
 }
-
-
-console.log('inicio')
-obtenerCategoria();
-
-// example();
-
-
-console.log('--------------------------------')
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_GPT_API
@@ -94,15 +138,24 @@ function letrasaquitar(titulo) {
     for (let index = 0; index < titulo.length; index++) {
         const element = titulo[index];
         if(element === ' ' && index>1) {
+        // if(element === ':'){
             return index;
         }        
     }
+}
+function letrasaquitarES(titulo) {
+  for (let index = 0; index < titulo.length; index++) {
+      const element = titulo[index];
+      if(element === ':'){
+          return index + 1;
+      }        
+  }
 }
 
 function letrasaquitarFinal(titulo) {
     for (let index = titulo.length; index > 1; index--) {
         const element = titulo[index];
-        if(element === '(') {
+        if(element === '-') {
             return index;
         }        
     }
@@ -118,47 +171,103 @@ function numeroPalabras(titulo){
     }
 }
 
-function limpiarGuiones(titulo) {
-  let nuevoTitulo = titulo.replace(' -', '-')
-  nuevoTitulo = nuevoTitulo.replace(' I', 'I')
-  nuevoTitulo = nuevoTitulo.replace(' V', 'V')
-  nuevoTitulo = nuevoTitulo.replace(' X', 'X')
-  return nuevoTitulo;
-}
-function limpiarTitulo(titulo) {
-  // const tituloLimpiado = limpiarGuiones(titulo);
-  const letrasAQuitar = letrasaquitar(titulo);
-  console.log('letrasAQuitar: '+letrasAQuitar)
+function limpiarSeccion(titulo) {
+  titulo = titulo.replace(/['"]+/g, '')
+  const letrasAQuitar = letrasaquitarES(titulo);
   const letrasAQuitarAtras = letrasaquitarFinal(titulo);
   let tituloFinal = titulo.substring(letrasAQuitar, letrasAQuitarAtras)
   tituloFinal = tituloFinal.trim()
   return tituloFinal;
 }
 
+function limpiarTituloConNumero(titulo) {
+  return titulo.match(/(?:"[^"]*"|^[^"]*$)/)[0].replace(/"/g, "")
+}
+
+function limpiarTituloDirecto(titulo) {
+  titulo = titulo.replace('Título: ','')
+  return titulo.replace('"','')
+}
+function limpiarArticulo(articulo) {
+  console.log(articulo)
+  articulo = articulo.replace('Sección 1 – ','')
+  articulo = articulo.replace('Sección 2 – ','')
+  articulo = articulo.replace('Sección 3 – ','')
+  articulo = articulo.replace('Sección 4 – ','')
+  articulo = articulo.replace('Sección 5 – ','')
+  articulo = articulo.replace('Sección 5 – ','')
+  articulo = articulo.replace('Sección 6 – ','')
+  articulo = articulo.replace('Sección 7 – ','')
+  articulo = articulo.replace('Sección 8 – ','')
+  articulo = articulo.replace('Sección 9 – ','')
+  articulo = articulo.replace('Sección 10 – ','')
+  
+  if(articulo.includes('Título ClickBait: ')) {
+    articulo = articulo.replace('Título ClickBait:','#')
+  }
+
+  return articulo
+}
+
+async function createArticle() {
+  let articulo = await chatgptMagic(getPromptArticulo(), 'gpt-4')
+  articulo = limpiarArticulo(articulo)
+  try {
+    await fs.appendFile(articuloPathSEO, articulo);
+  } catch (error) {
+    console.error('Error appending content to file:', error);
+  }
+}
 
 async function processContent(contenido) {
-  // console.log(contenido);
-  let headings = []
-  let titulosLimpios = []
+  console.log('procesando contenido...')
+  // console.log(contenido)
+  
+
   for (let i = 0; i < contenido.length; i++) {
     const element = contenido[i];
-    console.log(element)
-    if (element.includes('I.') || element.includes('V.') || element.includes('X.')) {
-      headings.push(i);      
-      titulosLimpios.push(limpiarTitulo(element))
-    }    
-  }
-  for (let i = 0; i < contenido.length; i++) {
-    const element = contenido[i];
-    if (headings.includes(i)) {
-      // Creamos H2
-    }
-    else {
-      // Creamos contenido correspondiente utilizando chatGPT 
-      console.log()
-    }
+    let tituloLimpio = ""
+    // Obtenemos titulo
+    // if (element.includes('Título') || element.includes('Titulo')) {
+    //   console.log('procesamos h1 limpiarTitulo...')
+    //   tituloLimpio = limpiarTituloDirecto(element)
+    //   try {
+    //     await fs.appendFile(articuloPathSEO, tituloLimpio);
+    //   } catch (error) {
+    //     console.error('Error appending content to file:', error);
+    //   }
+    // }
+    if (element.includes('Sección')) { 
+      tituloLimpio = limpiarSeccion(element);
+      seccionesParaPrompt += `- ${tituloLimpio},\n`
+
       
-  }
+      // if (!(tituloLimpio.includes('Introduction') || tituloLimpio.includes('Introducción'))) {
+      //   console.log('---- H2 ------')
+      //   console.log(tituloLimpio + ': '+numeroPalabras(element))
+        
+      //   console.log('- H2 -')
+      //   console.log(tituloLimpio)
+      //   console.log('Generando parrafo...')
+      //   let totalPalabras = numeroPalabras(element)
+      //   console.log('totalPalabras: ' + totalPalabras)
+      //   totalPalabras = totalPalabras < 100 ? 200 : totalPalabras
+      //   const parrafo = await chatgptMagic(getPromptTitulo(tituloLimpio, totalPalabras), 'gpt-4')
+      //   tituloLimpio = `## ${tituloLimpio}\n${parrafo}`
+      //   try {
+      //     await fs.appendFile(articuloPathSEO, tituloLimpio);
+      //   } catch (error) {
+      //     console.error('Error appending content to file:', error);
+      //   }
+      // }
+      
+    }
+
+    
+
+  } // end for
+  console.log('================================================================')
+  console.log(seccionesParaPrompt)
 }
 
 async function chatgptMagic(contenido, model = 'gpt-3.5-turbo') {
@@ -175,58 +284,21 @@ async function chatgptMagic(contenido, model = 'gpt-3.5-turbo') {
   return completion.choices[0].message.content
 }
 
-// const gtpPrueba = await chatgptMagic('2');
-// console.log('Resultado')
-// console.log(gtpPrueba[0].message.content)
+async function obtenerImagen(titulo){
+  const baseApiUrl = 'https://www.googleapis.com/youtube/v3';
+  const url = `${baseApiUrl}/search?key=${youtubeApiKey}&type=video&part=snippet&q=${titulo}`
+  const response = await axios.get(url)
+  console.log(response.data.items[0].snippet.thumbnails.high)
+  
+  return response.data.items[0].snippet.thumbnails.high.url;
+}
 
-let prueba = `I. Introduction (200 words)
-- II. ¿Qué es la plata y por qué se ensucia? (200 words)
-III. La importancia de la limpieza de la plata (200 words)
-- ¿Por qué es importante limpiar la plata?
-- ¿Cómo afecta la suciedad a la plata?
 
-IV. Métodos de limpieza de plata domésticos (400 words)
-- Uso de bicarbonato de sodio y papel de aluminio
-- El vinagre y sal como solución de limpieza
-- Cómo limpiar plata con pasta de dientes
-- El uso de jugo de limón y agua
-- El uso de maíz y agua
+await obtenerCategoria();
 
-V. Ideas equivocadas sobre la limpieza de plata (200 words)
-- El uso de Coca-Cola para limpiar la plata
-- Limpieza de silver con  jugo de naranja
-- Usar peróxido de hidrógeno para limpiar plata
 
-VI. Productos profesionales para limpiar plata (200 words)
-- Líquidos y polvos de limpieza de plata
-- Cremas y toallitas para limpiar plata
-- Limpiador ultrasónico
 
- VII. Consejos y advertencias para la limpieza de plata (300 words)
-- Cuándo buscar ayuda profesional para la limpieza de plata
-- Cómo almacenar la plata para reducir la necesidad de limpieza
-- Pasos de precaución al limpiar plata antigua o valiosa
-
-VIII. Preguntas frecuentes sobre la limpieza de plata (300 words)
-- ¿Por qué la plata se oscurece y cómo se puede prevenir?
-- ¿Se puede limpiar plata con productos de limpieza comunes del hogar?
-- ¿Qué efectos pueden tener productos químicos duraderos en la plata?
-- ¿Cómo limpiar la plata que está gravemente empañada?
-
-IX. Conclusion (100 words)
-
-LSI and NLP keywords:
-Limpieza, quitar oscurecimiento, joyería, plata esterlina, solución de limpieza, bicarbonato de sodio, vinagre, sal, pasta de dientes, jugo de limón, maíz, agua, Coca-Cola, jugo de naranja, peróxido de hidrógeno, líquidos de limpieza, polvos de limpieza, cremas, toallitas, limpiador ultrasónico, protección de la plata, almacenamiento de plata, antigüedades, piezas de plata valiosas.
-
-External Links:
-1. Instituto Gemológico Español guide on caring for silver (Anchor text: "Guía del Instituto Gemológico Español sobre el cuidado de la plata")
-2. Chemical explanation of why silver tarnishes from RSC.org (Anchor text: "Explicación química del por qué se empaña la plata")
-3. Selection of professional silver cleaning products from El Corte Ingles (Anchor text: "Selección de productos profesionales para limpiar plata de El Corte Ingles").`
-// const seoArticle = await chatgptMagic(promptArticle)
-prueba = prueba.split(/\r\n|\r|\n/)
-prueba = prueba.filter((letter) => letter !== "")
-// console.log(prueba)
-// await processContent(prueba)
+// await processContent(prueba);
 
 // const tituloPrueba =  'A. Importancia de limpiar plata (50 palabras)';
 // console.log(tituloPrueba)
