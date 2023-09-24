@@ -34,7 +34,12 @@ head:
       content: '© 2023 comolimpiarcomoexpertas.com'
 ---
 # ¡Recupera el Brillo de Tus Joyas! Guía Definitiva para Limpiar la Plata
-
+::photo-article
+---
+title: Como limpiar la plata
+imageurl: https://i.ytimg.com/vi/uGQKD585Uzc/hqdefault.jpg
+---
+::
 ## Introducción
 
 La **plata** siempre ha sido valorada por su belleza y elegancia. Joyas, cubiertos, accesorios; todos pueden añadir un toque de distinción a nuestra apariencia o hogar. Pero con el paso del tiempo, la plata puede perder su brillo y oscurecerse. Afortunadamente, existen varios métodos simples para **limpiar la plata** y devolverle su lustre original.

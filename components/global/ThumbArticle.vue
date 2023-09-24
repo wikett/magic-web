@@ -52,5 +52,4 @@ const props = defineProps({
         required: true,
   },
 });
-const { review } = props;
 </script>

@@ -188,5 +188,4 @@
   }
   </script>
   
-  <style></style>
   

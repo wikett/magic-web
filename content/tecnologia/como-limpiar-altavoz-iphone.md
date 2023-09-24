@@ -34,6 +34,12 @@ head:
       content: '© 2023 comolimpiarcomoexpertas.com'
 ---
 # ¡Tu altavoz del iPhone puede estar más sucio de lo que piensas! Aprende a limpiarlo adecuadamente
+::photo-article
+---
+title: como limpiar altavoz iphone
+imageurl: https://i.ytimg.com/vi/3h7Z3NFqMIY/hqdefault.jpg
+---
+::
 
 ## Introducción hacia la importancia de limpiar el altavoz del iPhone
 
