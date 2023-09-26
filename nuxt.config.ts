@@ -5,20 +5,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@zadigetvoltaire/nuxt-gtm',
     'nuxt-simple-sitemap',
-    ['@nuxtjs/robots', [
-      {
-        UserAgent: '*',
-        Allow: '/'
-      },
-      {
-        UserAgent: 'GPTBot',
-        Disallow: '/'
-      },
-      {
-        UserAgent: 'chatGPT-user',
-        Disallow: '/'
-      }
-    ]]
+    'nuxt-jsonld'
   ],
   components: [
     { path: '~/components/common'},

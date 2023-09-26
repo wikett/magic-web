@@ -2,48 +2,48 @@
   <div class="bg-white px-6 py-8 lg:px-8">
     <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
       <TransitionRoot as="template" :show="open">
-    <Dialog as="div" class="relative z-10" @close="open = false">
-      <div class="fixed inset-0" />
+        <Dialog as="div" class="relative z-10" @close="open = false">
+          <div class="fixed inset-0" />
 
-      <div class="fixed inset-0 overflow-hidden">
-        <div class="absolute inset-0 overflow-hidden">
-          <div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
-            <TransitionChild as="template" enter="transform transition ease-in-out duration-500 sm:duration-700" enter-from="translate-x-full" enter-to="translate-x-0" leave="transform transition ease-in-out duration-500 sm:duration-700" leave-from="translate-x-0" leave-to="translate-x-full">
-              <DialogPanel class="pointer-events-auto w-screen max-w-md">
-                <div class="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
-                  <div class="px-4 sm:px-6">
-                    <div class="flex items-start justify-between">
-                      <DialogTitle class="text-base font-semibold leading-6 text-gray-900">📰 Tabla de Contenido</DialogTitle>
-                      <div class="ml-3 flex h-7 items-center">
-                        <button type="button" class="relative rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" @click="open = false">
-                          <span class="absolute -inset-2.5" />
-                          <span class="sr-only">Close panel</span>
-                          <XMarkIcon class="h-6 w-6" aria-hidden="true" />
-                        </button>
+          <div class="fixed inset-0 overflow-hidden">
+            <div class="absolute inset-0 overflow-hidden">
+              <div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
+                <TransitionChild as="template" enter="transform transition ease-in-out duration-500 sm:duration-700" enter-from="translate-x-full" enter-to="translate-x-0" leave="transform transition ease-in-out duration-500 sm:duration-700" leave-from="translate-x-0" leave-to="translate-x-full">
+                  <DialogPanel class="pointer-events-auto w-screen max-w-md">
+                    <div class="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
+                      <div class="px-4 sm:px-6">
+                        <div class="flex items-start justify-between">
+                          <DialogTitle class="text-base font-semibold leading-6 text-gray-900">📰 Tabla de Contenido</DialogTitle>
+                          <div class="ml-3 flex h-7 items-center">
+                            <button type="button" class="relative rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2" @click="open = false">
+                              <span class="absolute -inset-2.5" />
+                              <span class="sr-only">Close panel</span>
+                              <XMarkIcon class="h-6 w-6" aria-hidden="true" />
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="relative mt-6 flex-1 px-4 sm:px-6">
+                        <!-- Your content -->
+                        <ul v-if="toc && toc.links">
+                          <li v-for="link in toc.links" :key="link.text">
+                            <a @click="open=false" :href="`#${link.id}`">
+                              {{ link.text }}
+                            </a>
+                          </li>
+                        </ul>
                       </div>
                     </div>
-                  </div>
-                  <div class="relative mt-6 flex-1 px-4 sm:px-6">
-                    <!-- Your content -->
-                    <ul v-if="toc && toc.links">
-                      <li v-for="link in toc.links" :key="link.text">
-                        <a @click="open=false" :href="`#${link.id}`">
-                          {{ link.text }}
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </DialogPanel>
-            </TransitionChild>
+                  </DialogPanel>
+                </TransitionChild>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </Dialog>
-  </TransitionRoot>
+        </Dialog>
+      </TransitionRoot>
       
       <div class="max-w-2xl">
-        <span class="cursor-pointer" @click="open = true">📰 Tabla de Contenido</span>
+        <a href="#" class="cursor-pointer" @click="open = true">📰 Tabla de Contenido</a>
         <ContentDoc v-slot="{ doc }">
           <!-- <a :href="`/${doc.category}`">
             <p class="text-base font-semibold leading-7 text-indigo-600">{{ doc.category.charAt(0).toUpperCase() + doc.category.slice(1)  }}</p>
@@ -97,23 +97,6 @@
     <NuxtLink v-if="prev" :to="prev._path">{{ prev.title }}</NuxtLink>
     <NuxtLink v-if="next" :to="next._path">{{ next.title }}</NuxtLink>
   </div>
-    <!-- <div>
-      <div>
-      <ul v-if="toc && toc.links">
-        <li v-for="link in toc.links" :key="link.text">
-          <a :href="`#${link.id}`">
-            {{ link.text }}
-          </a>
-        </li>
-      </ul>
-    </div>
-      <main>
-        <ContentDoc v-slot="{ doc }">
-          <ContentRenderer :value="doc" />
-        </ContentDoc>
-      </main>
-      
-    </div> -->
     
   </template>
 <script setup lang="ts">
@@ -124,15 +107,41 @@ import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } fro
 import { XMarkIcon } from '@heroicons/vue/24/outline'
 
 const open = ref(false)
-  const { toc, prev, next } = useContent()
-  const route = useRoute()
-  useHead({
-    meta: [
-      { name: 'description', content: 'pepito'}
-    ],
-    link: [
-      { rel: 'canonical', href: `https://comolimpiarcomoexpertas.com${route.path}`}
-    ]
-  })
+const { toc, prev, next } = useContent()
+const route = useRoute()
+const { data } = await useAsyncData('article', () => queryContent(route.params.slug[0], route.params.slug[1]).findOne())
+console.log('hola')
+console.log(data.value?.imageUrl)
+useHead({
+  link: [
+    { rel: 'canonical', href: `https://comolimpiarcomoexpertas.com${route.path}`}
+  ]
+})
+useJsonld({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  'headline': data.value?.title,
+  'image': {
+    '@type': 'ImageObject',
+    'url': data.value?.imageUrl,
+    'width': '480',
+    'height': '360'
+  },
+  'author': {
+    '@type': 'Person',
+    'name': 'Mayte y Diana'
+  },
+  'publisher': {
+    '@type': 'Organization',
+    'name': 'comolimpiarcomoexpertas.com',
+    'logo': {
+      '@type': 'ImageObject',
+      'url': 'https://comolimpiarcomoexpertas.com/img/como-limpiar-logo.png',
+      'width': '600',
+      'height': '200'
+    }
+  },
+  'datePublished': data.value?.published_time
+});
 </script>
   

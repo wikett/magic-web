@@ -7,3 +7,9 @@ Por favor,  escribe un artículo en español sobre "como limpiar la plata" sobre
 - PREGUNTAS FRECUENTES (300 palabras).
 Cada sección tiene entre paréntesis el número aproximado de palabras que debe contener. El resultado redáctalo en Markdown, resaltando algunas partes del texto y utiliza cada sección como h2. Introduce un titulo clickbait referente a la palabra clave como h1.
 No uses palabras normales de Inteligencia Artificial.
+
+Crea un guión en español para un artículo sobre las 2000 palabras para la palabra clave "${titulo}" basado en el top 10 resultados de Google de España. 
+Incluye cada título relevante posible. Mantén la densidad de la palbra clave alta.Añade un titulo ClickBait para la palabra clave. 
+Para cada sección del guión, incluye el total de palabras y este listado debe comenzar por la palabra "Sección". 
+Incluye también una sección de Preguntas Frecuentes, basado en lo que las personas preguntan en Google para esta palabra clave. 
+Este guión debe estar muy detallado y completo, del cual pueda crear un artículo de 2000 palabras aproximadamente. Estate seguro que lo los articulos no compiten entre sí
