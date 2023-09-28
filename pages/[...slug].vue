@@ -90,12 +90,16 @@
             <p><strong>DISCLAIMER: </strong>Al leer esto, acepta todo lo siguiente: entiende que esto es una <strong>expresión de opiniones y no un consejo profesional</strong>. Usted es el único responsable del uso de cualquier contenido y exime a ©COMOLIMPIARCOMOEXPERTAS.COM y a todos los miembros y afiliados de cualquier evento o reclamo. La información proporcionada en el sitio podrá contener errores, tanto gramaticales como de contexto y/o información, le recomendamos que haga su propia investigación por los medios que considere pertinentes para satisfacer su intención de búsqueda. Si compra algo a través de un enlace, debe asumir que tenemos una relación de afiliado con la empresa que proporciona el producto o servicios que compra y se nos pagará de alguna manera. Le recomendamos que haga su propia investigación independiente antes de comprar cualquier cosa.</p>
   </blockquote>
 
-
-    </div>
+  <h3>Más artículos que te pueden interesar</h3>
+  <div
+          class="mx-auto grid max-w-2xl auto-rows-fr grid-cols-2 gap-8 sm:mt-8 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+        >
+    <ThumbArticle
+        :post="anterior" />
+    <ThumbArticle
+        :post="siguiente" />
   </div>
-  <div>
-    <NuxtLink v-if="prev" :to="prev._path">{{ prev.title }}</NuxtLink>
-    <NuxtLink v-if="next" :to="next._path">{{ next.title }}</NuxtLink>
+    </div>
   </div>
     
   </template>
@@ -110,8 +114,19 @@ const open = ref(false)
 const { toc, prev, next } = useContent()
 const route = useRoute()
 const { data } = await useAsyncData('article', () => queryContent(route.params.slug[0], route.params.slug[1]).findOne())
-console.log('hola')
-console.log(data.value?.imageUrl)
+const anterior = {
+  imageUrl: prev.value?.imageUrl,
+  created: prev.value?.created,
+  _path: prev.value?._path,
+  title: prev.value?.title
+}
+const siguiente = {
+  imageUrl: next.value?.imageUrl,
+  created: next.value?.created,
+  _path: next.value?._path,
+  title: next.value?.title
+}
+
 useHead({
   link: [
     { rel: 'canonical', href: `https://comolimpiarcomoexpertas.com${route.path}`}
@@ -129,7 +144,8 @@ useJsonld({
   },
   'author': {
     '@type': 'Person',
-    'name': 'Mayte y Diana'
+    'name': 'Mayte y Diana',
+    'url': 'https://comolimpiarcomoexpertas.com/quienes-somos'
   },
   'publisher': {
     '@type': 'Organization',
