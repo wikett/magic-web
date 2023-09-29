@@ -1,6 +1,6 @@
 ---
 title: como limpiar alfombras
-description: *¡Hazlo Tú Mismo! El Secreto Definitivo Para Limpiar Tus Alfombras Como un Profesional**
+description: ¡Hazlo Tú Mismo! El Secreto Definitivo Para Limpiar Tus Alfombras Como un Profesional
 category: hogar
 published_time: 2023-09-29T10:39:25.483Z
 url: como-limpiar-alfombras
@@ -15,7 +15,7 @@ head:
     - name: 'og:title'
       content: 'como limpiar alfombras'
     - name: 'og:description'
-      content: '*¡Hazlo Tú Mismo! El Secreto Definitivo Para Limpiar Tus Alfombras Como un Profesional**'
+      content: '¡Hazlo Tú Mismo! El Secreto Definitivo Para Limpiar Tus Alfombras Como un Profesional'
     - name: 'og:type'
       content: 'article'
     - name: 'article:published_time'
