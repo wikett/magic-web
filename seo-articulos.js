@@ -171,8 +171,8 @@ function getDescription(contenido) {
   description = description.substring(2, description.length)
   console.log('Click bait---')
   console.log(description)
-  description = description.replace('*','')
-  return description.replace(':', ' ')
+  description = description.replaceAll('*','')
+  return description.replaceAll(':', ' ')
 }
 
 function addPicture(contenido, imageUrl, caption) {

@@ -1,6 +1,6 @@
 ---
 title: como limpiar converse blancas
-description: *¿Las amas no las limas? Trucos geniales para mantener tus Converse Blancas impecables siempre**
+description: ¿Las amas no las limas? Trucos geniales para mantener tus Converse Blancas impecables siempre
 category: hogar
 published_time: 2023-09-29T11:02:40.673Z
 url: como-limpiar-converse-blancas
@@ -15,7 +15,7 @@ head:
     - name: 'og:title'
       content: 'como limpiar converse blancas'
     - name: 'og:description'
-      content: '*¿Las amas no las limas? Trucos geniales para mantener tus Converse Blancas impecables siempre**'
+      content: '¿Las amas no las limas? Trucos geniales para mantener tus Converse Blancas impecables siempre'
     - name: 'og:type'
       content: 'article'
     - name: 'article:published_time'
