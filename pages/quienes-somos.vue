@@ -8,7 +8,7 @@
   </template>
   
   <script setup>
-  import { defineComponent, h, ref } from 'vue'
+  import { defineComponent, h } from 'vue'
   import { Dialog, DialogPanel } from '@headlessui/vue'
   import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
   
