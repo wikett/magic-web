@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "magic": "node seo-articulos.js && git add . && git commit -m 'new articles' && git push --all"
+    "magic": "node seo-articulos.js && git add . && git commit -m `articles` && git push --all"
   },
   "devDependencies": {
     "@nuxt/content": "^2.8.2",
