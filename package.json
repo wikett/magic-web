@@ -29,6 +29,7 @@
     "dotenv": "^16.3.1",
     "fs.promises": "^0.1.2",
     "nuxt-jsonld": "^2.0.8",
-    "openai": "^4.7.0"
+    "openai": "^4.7.0",
+    "twitter-api-v2": "^1.15.1"
   }
 }
