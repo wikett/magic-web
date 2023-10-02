@@ -8,9 +8,9 @@
         <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
           
           <div class="sm:col-span-3">
-            <label for="first-name" class="block font-medium leading-6 text-gray-900">Nombre</label>
+            <label for="name" class="block font-medium leading-6 text-gray-900">Nombre</label>
             <div class="mt-2">
-              <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:sm:leading-6" />
+              <input type="text" name="name" id="name" autocomplete="name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:sm:leading-6" />
             </div>
           </div>
 
@@ -22,9 +22,9 @@
           </div>
 
           <div class="col-span-full">
-            <label for="about" class="block font-medium leading-6 text-gray-900">Mensaje</label>
+            <label for="message" class="block font-medium leading-6 text-gray-900">Mensaje</label>
             <div class="mt-2">
-              <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:sm:leading-6" />
+              <textarea id="message" name="message" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:sm:leading-6" />
             </div>
             <p class="mt-3 leading-6 text-gray-600">Escribe en unas pocas líneas tu duda/comentario/pregunta.</p>
           </div>

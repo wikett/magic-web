@@ -53,7 +53,7 @@ title: como limpiar un sofa de tela
 imageurl: https://i.ytimg.com/vi/bMg7ScSxvqw/hqdefault.jpg
 ---
 ::
-## **Introducción**
+## **como limpiar un sofa de tela**
 
 A lo largo de nuestras agitadas vidas, el *sofá de tela* se convierte en nuestro cómodo refugio, el lugar que nos hace sentir relajados y acogidos después de una estresante jornada. Pero aunque a veces nos olvidamos de ello, este "amigo fiel" también necesita un poco de cuidado y atención. Este artículo te mostrará cómo puedes devolverle a tu sofá de tela esa frescura y aspecto de "como nuevo" con un simple y práctico procedimiento de limpieza.
 
