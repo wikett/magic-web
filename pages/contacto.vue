@@ -1,120 +1,43 @@
 <template>
-  <div class="relative max-w-xl mx-auto mt-10">
-    <svg
-      class="absolute transform translate-x-1/2 left-full"
-      width="404"
-      height="404"
-      fill="none"
-      viewBox="0 0 404 404"
-      aria-hidden="true"
-    >
-      <defs>
-        <pattern
-          id="85737c0e-0916-41d7-917f-596dc7edfa27"
-          x="0"
-          y="0"
-          width="20"
-          height="20"
-          patternUnits="userSpaceOnUse"
-        >
-          <rect
-            x="0"
-            y="0"
-            width="4"
-            height="4"
-            class="text-gray-200"
-            fill="currentColor"
-          />
-        </pattern>
-      </defs>
-      <rect
-        width="404"
-        height="404"
-        fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)"
-      />
-    </svg>
-    <svg
-      class="absolute bottom-0 transform -translate-x-1/2 right-full"
-      width="404"
-      height="404"
-      fill="none"
-      viewBox="0 0 404 404"
-      aria-hidden="true"
-    >
-      <defs>
-        <pattern
-          id="85737c0e-0916-41d7-917f-596dc7edfa27"
-          x="0"
-          y="0"
-          width="20"
-          height="20"
-          patternUnits="userSpaceOnUse"
-        >
-          <rect
-            x="0"
-            y="0"
-            width="4"
-            height="4"
-            class="text-gray-200"
-            fill="currentColor"
-          />
-        </pattern>
-      </defs>
-      <rect
-        width="404"
-        height="404"
-        fill="url(#85737c0e-0916-41d7-917f-596dc7edfa27)"
-      />
-    </svg>
-    <div class="text-center">
-      <h2
-        class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
-      >
-        Contacto
-      </h2>
-      <p class="mt-4 text-lg leading-6 text-gray-500">
-        Ponte en contacto con nosotros con cualquier duda, sugerencia o
-        inquietud.
-      </p>
+  <form name="contact" method="POST" class="mb-24" netlify>
+    <div class="space-y-12">
+      <div class="pb-6">
+        <h2 class="font-semibold leading-7 text-gray-900">Contacto</h2>
+        <p class="mt-1 leading-6 text-gray-600">Con cualquier duda, sugerencia o pregunta que tengas, estaremos encantados de darte una respuesta lo más rápido posible 😊</p>
+
+        <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+          
+          <div class="sm:col-span-3">
+            <label for="first-name" class="block font-medium leading-6 text-gray-900">Nombre</label>
+            <div class="mt-2">
+              <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:sm:leading-6" />
+            </div>
+          </div>
+
+          <div class="sm:col-span-3">
+            <label for="last-name" class="block font-medium leading-6 text-gray-900">Email</label>
+            <div class="mt-2">
+              <input id="email" name="email" type="email" autocomplete="email" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:sm:leading-6" />
+            </div>
+          </div>
+
+          <div class="col-span-full">
+            <label for="about" class="block font-medium leading-6 text-gray-900">Mensaje</label>
+            <div class="mt-2">
+              <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:sm:leading-6" />
+            </div>
+            <p class="mt-3 leading-6 text-gray-600">Escribe en unas pocas líneas tu duda/comentario/pregunta.</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="mt-12">
-      <form name="contact" method="POST" data-netlify="true">
-        <p>
-          <label>Your Name: <input type="text" name="name" /></label>
-        </p>
-        <p>
-          <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <label
-            >Your Role:
-            <select name="role[]" multiple>
-              <option value="leader">Leader</option>
-              <option value="follower">Follower</option>
-            </select></label
-          >
-        </p>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
+
+    <div class="mt-2 flex items-center justify-end gap-x-6">
+      <button type="submit" class="rounded-md bg-emerald-600 px-3 py-2 font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Enviar</button>
     </div>
-    <input type="hidden" name="form-name" value="contact">
-  </div>
+  </form>
 </template>
-  
-  <script>
-export default {
-  data() {
-    return {
-      accepted: false,
-      error: false,
-    };
-  },
-};
+
+<script setup>
+
 </script>
-  
-  
