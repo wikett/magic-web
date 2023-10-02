@@ -4,9 +4,11 @@ import fs from 'fs/promises'
 import slugify from '@sindresorhus/slugify';
 import axios from 'axios'
 import { TwitterApi } from 'twitter-api-v2';
+import * as deepl from 'deepl-node';
 
 let guiaSEO = ""
 let tituloSEO = ""
+let tituloSEOEnglish = ""
 let urlSEO = ""
 let categoriaSEO = ""
 let articuloPathSEO = ""
@@ -24,6 +26,7 @@ const client = new TwitterApi({
 });
 
 const bearer = new TwitterApi(process.env.TWITTER_BEAR_TOKEN);
+const translator = new deepl.Translator(process.env.DEEPL_AUTH);
 
 const twitterClient = client.readWrite;
 const twitterBearer = bearer.readOnly;
@@ -304,5 +307,22 @@ async function obtenerImagen(titulo){
   
   return response.data.items[0].snippet.thumbnails.high.url;
 }
+// await obtenerCategoria();
 
-await obtenerCategoria();
+async function generateImage() {
+  console.log('Generando imagen...')
+  const image = await openai.images.generate({
+    size: '1024x1024',
+    prompt: `a photograph of someone doing '${tituloSEOEnglish}', realistic` });
+
+  console.log(image.data);
+}
+async function translateTitle(title) {
+  console.log('Traduciendo titulo...')
+  const result = await translator.translateText(title, null, 'en-GB');
+  tituloSEOEnglish = result.text; // Bonjour, le monde !
+}
+
+await translateTitle('como limpiar lavadora por dentro')
+console.log(tituloSEOEnglish);
+await generateImage();
