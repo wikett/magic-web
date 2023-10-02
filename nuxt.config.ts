@@ -31,6 +31,11 @@ export default defineNuxtConfig({
       htmlAttrs: { dir: 'ltr', lang: 'es'}
     }
   },
+  nitro: {
+    prerender: {
+      ignore: ['/contacto', '/quienes-somos', '/hogar', '/ropa', '/tecnologia', '/otros', '/']
+    }
+  },
   runtimeConfig: {
     public: {
       gtm: {
