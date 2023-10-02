@@ -14,7 +14,9 @@ let categoriaSEO = ""
 let articuloPathSEO = ""
 let seccionesParaPrompt = ""
 let imagenPrincipalSEO = ""
+let imagenDiscover = ""
 let descripcionSEO = ""
+let pasosSEO = ""
 const currentDate = new Date();
 const youtubeApiKey = process.env.YOUTUBE_API_KEY;
 
@@ -25,11 +27,9 @@ const client = new TwitterApi({
   accessSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
 
-const bearer = new TwitterApi(process.env.TWITTER_BEAR_TOKEN);
 const translator = new deepl.Translator(process.env.DEEPL_AUTH);
 
 const twitterClient = client.readWrite;
-const twitterBearer = bearer.readOnly;
 
 function getPromptGuia(titulo) {
   // return `Create an outline for an article that will be 2,000 words on the keyword "${titulo}" based on the top 10 results from Google in Spanish.Include every relevant heading possible. Keep the keyword density of the headings high.For each section of the outline, include the word count.Include FAQs section in the outline too, based on people also ask section from Google for the keyword.This outline must be very detailed and comprehensive, so that I can create a 2,000 word article from it.Generate a long list of LSI and NLP keywords related to my keyword. Also include any other words related to the keyword.Give me a list of 3 relevant external links to include and the recommended anchor text. Make sure they're not competing articles.`
@@ -48,6 +48,10 @@ function getPromptCategorias(titulo) {
 function getPromptArticulo() {
   console.log('generar articulo para: '+tituloSEO)
   return `Por favor,  escribe un artículo en español sobre "${tituloSEO}" de unas 2000 palabras, como una persona que sabe el 80% de español, utilizando palabras muy sencillas de entender y dándoles matices, que contenga las siguientes secciones:\n${seccionesParaPrompt}. El resultado redáctalo en Markdown, resaltando algunas partes del texto y utiliza cada sección como h2. No uses palabras normales de Inteligencia Artificial. Manten una densidad alta de la palbra clave. Incluye un título ClickBait al principio del artículo.`
+}
+
+function getPromptPasosMasLinks() {
+  return `Puedes decirme los pasos de '${tituloSEO}' y darme un lista de los productos que necesito comprar para poderlo hacer? Incluye un par de enlaces externos que sirvan de fuente para este conocimiento. El resultado redáctalo en Markdown, resaltando algunas partes del texto y que solo aparezcan h2 y h3 como títulos (ningún h1)`
 }
 
 async function tweetAricle() {
@@ -110,6 +114,22 @@ function asignarCategoria(categoria) {
   return 'otros'
 }
 
+async function generateImage() {
+  console.log('Generando imagen...')
+  const image = await openai.images.generate(
+    {
+      size: '1024x1024',
+      prompt: `a photograph of someone doing '${tituloSEOEnglish}', realistic` 
+    });
+  console.log(image.data[0].url)
+  imagenDiscover = image.data[0].url
+}
+async function translateTitle(title) {
+  console.log('Traduciendo titulo...')
+  const result = await translator.translateText(title, null, 'en-GB');
+  tituloSEOEnglish = result.text; // Bonjour, le monde !
+}
+
 async function obtenerCategoria() {
   
   try {
@@ -118,6 +138,8 @@ async function obtenerCategoria() {
 
     const lines = data.split('\n');
     tituloSEO = lines[0];
+    await translateTitle(tituloSEO)
+    await generateImage();
     console.log(`\x1bCreando la magia para: ${tituloSEO}\x1b[0m`);
     categoriaSEO = await chatgptMagic(getPromptCategorias(tituloSEO))
     
@@ -230,6 +252,29 @@ imageurl: ${imageUrl}
           + stringToAdd + contenido.substring(indexPosition)
   return newString
 }
+
+function addDiscover(contenido, pasos) {
+  let re = new RegExp("##","ig");
+  let spaces = [];
+  let matched = "";
+  while ((matched = re.exec(contenido))) {
+    spaces.push(matched.index);
+  }
+  console.log(spaces);
+  let stringToAdd = `${pasos}
+::photo-discover
+---
+imageurl: ${imagenDiscover}
+---
+::
+`;
+let indexPosition = spaces[2]
+const newString = contenido.substring(0, indexPosition)
++ stringToAdd + contenido.substring(indexPosition)
+console.log('new String: ' + newString)
+return newString
+
+}
 function limpiarArticulo(articulo) {
   articulo = articulo.replace('Sección 1 – ','')
   articulo = articulo.replace('Sección 2 – ','')
@@ -246,6 +291,9 @@ function limpiarArticulo(articulo) {
   if(articulo.includes('Título ClickBait: ')) {
     articulo = articulo.replace('Título ClickBait:','#')
   }
+  let newTitulo = tituloSEO.replaceAll('*','')
+  const str2 = newTitulo.charAt(0).toUpperCase() + newTitulo.slice(1);
+  articulo = articulo.replace('Introducción', str2)
 
   return articulo
 }
@@ -257,12 +305,16 @@ async function createArticle() {
   console.log('getDescription')
   console.log(descripcion)
   descripcionSEO = descripcion
-  let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcion}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
-  cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), descripcion, categoriaSEO, imagenPrincipalSEO, 'https://comolimpiarcomoexpertas.com/'+categoriaSEO+'/'+urlSEO)
+  pasosSEO = await chatgptMagic(getPromptPasosMasLinks(), 'gpt-4')
+  console.log('pasos SEO')
+  console.log(pasosSEO)
+  let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcion}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenDiscover}\n`
+  cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), descripcion, categoriaSEO, imagenDiscover, 'https://comolimpiarcomoexpertas.com/'+categoriaSEO+'/'+urlSEO)
   cabeceroMarkdown += '\n---\n'
   articulo = cabeceroMarkdown + articulo
   articulo = limpiarArticulo(articulo)
-  articulo = addPicture(articulo, imagenPrincipalSEO, tituloSEO)  
+  articulo = addPicture(articulo, imagenPrincipalSEO, tituloSEO)
+  articulo = addDiscover(articulo, pasosSEO)
 
   try {
     await fs.writeFile(articuloPathSEO, articulo)
@@ -307,22 +359,4 @@ async function obtenerImagen(titulo){
   
   return response.data.items[0].snippet.thumbnails.high.url;
 }
-// await obtenerCategoria();
-
-async function generateImage() {
-  console.log('Generando imagen...')
-  const image = await openai.images.generate({
-    size: '1024x1024',
-    prompt: `a photograph of someone doing '${tituloSEOEnglish}', realistic` });
-
-  console.log(image.data);
-}
-async function translateTitle(title) {
-  console.log('Traduciendo titulo...')
-  const result = await translator.translateText(title, null, 'en-GB');
-  tituloSEOEnglish = result.text; // Bonjour, le monde !
-}
-
-await translateTitle('como limpiar lavadora por dentro')
-console.log(tituloSEOEnglish);
-await generateImage();
+await obtenerCategoria();
