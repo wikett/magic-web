@@ -31,9 +31,6 @@ export default defineNuxtConfig({
       htmlAttrs: { dir: 'ltr', lang: 'es'}
     }
   },
-  routeRules: {
-    '/contacto': { prerender: true },
-  },
   runtimeConfig: {
     public: {
       gtm: {
