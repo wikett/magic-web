@@ -12,6 +12,9 @@
   defineProps({
     imageurl: {
         type: String
+    },
+    title: {
+        type: String
     }
 })
   </script>
