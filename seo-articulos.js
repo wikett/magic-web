@@ -268,7 +268,7 @@ imageurl: ${imagenDiscover}
 ---
 ::
 `;
-let indexPosition = spaces[2]
+let indexPosition = spaces[1]
 const newString = contenido.substring(0, indexPosition)
 + stringToAdd + contenido.substring(indexPosition)
 console.log('new String: ' + newString)
@@ -293,7 +293,7 @@ function limpiarArticulo(articulo) {
   }
   let newTitulo = tituloSEO.replaceAll('*','')
   const str2 = newTitulo.charAt(0).toUpperCase() + newTitulo.slice(1);
-  articulo = articulo.replace('Introducción', str2)
+  articulo = articulo.replace('Introducción', 'Guia de '+str2)
 
   return articulo
 }
