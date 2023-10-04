@@ -95,7 +95,7 @@ Las brochas deben dejarse secar colgando hacia abajo o acostadas. Nunca se deben
 
 - **Champú suave**. Un champú suave sin sulfatos es perfecto para la limpieza de las brochas, ya que no dañará las cerdas.
 
-- **Limpiador de brochas especializado**. Las marcas de belleza a menudo venden limpiadores de brochas que están formulados especialmente para limpiar a fondo sin dañar las cerdas. [Sigma Spa Brush Cleansing Mat](https://www.sigmabeauty.com/sigma-spa-brush-cleaning-mat.html) y [MAC Brush Cleanser](https://www.maccosmetics.com/product/13812/287/products/brushes-tools/brush-cleanser/brush-cleanser) son buenos ejemplos.
+- **Limpiador de brochas especializado**. Las marcas de belleza a menudo venden limpiadores de brochas que están formulados especialmente para limpiar a fondo sin dañar las cerdas. Sigma Spa Brush Cleansing Mat y MAC Brush Cleanser son buenos ejemplos.
 
 - **Toallas**. Necesitarás una toalla suave para secar las brochas después de lavarlas.
 
