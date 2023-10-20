@@ -79,7 +79,7 @@
           <img class="aspect-square object-cover rounded-xl bg-indigo-50 lg:rounded-3xl" src="/img/mayte-y-diana.png" alt="Mayte y Diana" />
         </div>
         <figcaption class="text-base lg:col-start-1 lg:row-start-3">
-          <div class="font-semibold text-gray-900">Mayte y Diana</div>
+          <div class="font-semibold text-blue-900"><a href="/quienes-somos">Mayte y Diana</a></div>
           <div class="mt-1 text-gray-500">Editoras en <span class="text-indigo-400 italic">comolimpiarcomoexpertas.com</span></div>
         </figcaption>
       </figure>

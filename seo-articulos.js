@@ -3,7 +3,7 @@ import 'dotenv/config'
 import fs from 'fs/promises'
 import slugify from '@sindresorhus/slugify';
 import axios from 'axios'
-import { TwitterApi } from 'twitter-api-v2';
+// import { TwitterApi } from 'twitter-api-v2';
 import * as deepl from 'deepl-node';
 
 let guiaSEO = ""
@@ -14,22 +14,23 @@ let categoriaSEO = ""
 let articuloPathSEO = ""
 let seccionesParaPrompt = ""
 let imagenPrincipalSEO = ""
+let imagenSecundariaSEO = ""
 let imagenDiscover = ""
 let descripcionSEO = ""
 let pasosSEO = ""
 const currentDate = new Date();
 const youtubeApiKey = process.env.YOUTUBE_API_KEY;
 
-const client = new TwitterApi({
-  appKey: process.env.TWITTER_API_KEY,
-  appSecret: process.env.TWITTER_API_KEY_SECRET,
-  accessToken: process.env.TWITTER_ACCESS_TOKEN,
-  accessSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
-});
+// const client = new TwitterApi({
+//   appKey: process.env.TWITTER_API_KEY,
+//   appSecret: process.env.TWITTER_API_KEY_SECRET,
+//   accessToken: process.env.TWITTER_ACCESS_TOKEN,
+//   accessSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
+// });
 
 const translator = new deepl.Translator(process.env.DEEPL_AUTH);
 
-const twitterClient = client.readWrite;
+// const twitterClient = client.readWrite;
 
 function getPromptGuia(titulo) {
   // return `Create an outline for an article that will be 2,000 words on the keyword "${titulo}" based on the top 10 results from Google in Spanish.Include every relevant heading possible. Keep the keyword density of the headings high.For each section of the outline, include the word count.Include FAQs section in the outline too, based on people also ask section from Google for the keyword.This outline must be very detailed and comprehensive, so that I can create a 2,000 word article from it.Generate a long list of LSI and NLP keywords related to my keyword. Also include any other words related to the keyword.Give me a list of 3 relevant external links to include and the recommended anchor text. Make sure they're not competing articles.`
@@ -51,14 +52,14 @@ function getPromptArticulo() {
 }
 
 function getPromptPasosMasLinks() {
-  return `Puedes decirme los pasos de '${tituloSEO}' y darme un lista de los productos que necesito comprar para poderlo hacer? Incluye un par de enlaces externos que sirvan de fuente para este conocimiento. El resultado redáctalo en Markdown, resaltando algunas partes del texto y que solo aparezcan h2 y h3 como títulos (ningún h1)`
+  return `Puedes decirme los pasos de '${tituloSEO}' y hacer un lista de los productos que necesito comprar para poderlo hacer? Incluye un par de enlaces externos que sirvan de fuente para este conocimiento. El resultado redáctalo en Markdown, crea la lista en formato Markdown, resaltando algunas partes del texto y que solo aparezcan h2 y h3 como títulos (ningún h1)`
 }
 
 async function tweetAricle() {
   const fullUrl = 'https://comolimpiarcomoexpertas.com/'+categoriaSEO+'/'+urlSEO
   const tweet = `${descripcionSEO} ${fullUrl} #limpiar #DIY #trucos #comolimpiar`
   
-  await twitterClient.v2.tweet(tweet);
+  // await twitterClient.v2.tweet(tweet);
 }
 
 function getMetaData(keywords, tituloClickBait, categoria, imagen, url) {
@@ -144,7 +145,7 @@ async function obtenerCategoria() {
     categoriaSEO = await chatgptMagic(getPromptCategorias(tituloSEO))
     
     categoriaSEO = asignarCategoria(categoriaSEO)
-    imagenPrincipalSEO = await obtenerImagen(tituloSEO);
+    await obtenerImagen(tituloSEO);
 
     if (!categoriaSEO.includes("salud")) {
         urlSEO = slugify(tituloSEO, {separator: '-'})
@@ -318,7 +319,7 @@ async function createArticle() {
 
   try {
     await fs.writeFile(articuloPathSEO, articulo)
-    await tweetAricle() 
+    // await tweetAricle() 
   } catch (error) {
     console.error('Error appending content to file:', error);
   }
@@ -356,7 +357,8 @@ async function obtenerImagen(titulo){
   const url = `${baseApiUrl}/search?key=${youtubeApiKey}&type=video&part=snippet&q=${titulo}`
   const response = await axios.get(url)
   console.log(response.data.items[0].snippet.thumbnails.high)
-  
-  return response.data.items[0].snippet.thumbnails.high.url;
+
+  imagenPrincipalSEO = response.data.items[0].snippet.thumbnails.high.url
+  imagenSecundariaSEO = response.data.items[1].snippet.thumbnails.high.url
 }
 await obtenerCategoria();
