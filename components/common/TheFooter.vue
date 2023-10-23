@@ -65,11 +65,10 @@
   console.log(data._value.length)
   for (let index = 0; index < 4; index++) {
     let randomNumber = Math.floor(Math.random() * (data._value.length + 1))
-    console.log(randomNumber)
     const element = data._value[randomNumber];
     lastArticles.push({
       name: element.title,
-      href: `${element.url}`
+      href: `${element._path}`
     })    
   }
   
