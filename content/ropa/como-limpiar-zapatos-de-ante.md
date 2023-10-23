@@ -1,6 +1,6 @@
 ---
 title: como limpiar zapatos de ante
-description: "Luce siempe impecable aprendiendo cómo limpiar tus zapatos de ante en casa"
+description: Luce siempe impecable aprendiendo cómo limpiar tus zapatos de ante en casa
 category: ropa
 published_time: 2023-09-29T12:09:27.043Z
 url: como-limpiar-zapatos-de-ante
@@ -15,7 +15,7 @@ head:
     - name: 'og:title'
       content: 'como limpiar zapatos de ante'
     - name: 'og:description'
-      content: '"Luce siempe impecable aprendiendo cómo limpiar tus zapatos de ante en casa"'
+      content: 'Luce siempe impecable aprendiendo cómo limpiar tus zapatos de ante en casa'
     - name: 'og:type'
       content: 'article'
     - name: 'article:published_time'
@@ -33,7 +33,7 @@ head:
     - name: 'copyright'
       content: '© 2023 comolimpiarcomoexpertas.com'
 ---
-# "**Luce siempe impecable aprendiendo cómo limpiar tus zapatos de ante en casa**"
+# **Luce siempe impecable aprendiendo cómo limpiar tus zapatos de ante en casa**
 
 ::photo-article
 ---

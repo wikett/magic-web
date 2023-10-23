@@ -84,7 +84,7 @@ Para llevar a cabo esta tarea de forma efectiva y segura necesitarás los siguie
 
 1. **Recipiente grande.** Necesitarás un recipiente lo suficientemente grande para sumergir todas tus brochas de maquillaje a la vez. 
 
-2. **Champú suave.** Un champú suave y ligero puede ser perfecto para limpiar tus brochas sin dañar las cerdas. Puedes usar [Este champú suave.](https://www.amazon.com)
+2. **Champú suave.** Un champú suave y ligero puede ser perfecto para limpiar tus brochas sin dañar las cerdas. Puedes usar [Este champú suave.](https://www.amazon.es/Generic-Limpiador-maquillaje-limpiador-herramientas/dp/B0C2TVCDCK?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14LV9X0MGMDE7&keywords=champu+para+limpiar+brochas&qid=1698094230&sprefix=champu+para+limpiar+brochas%2Caps%2C90&sr=8-2&linkCode=ll1&tag=comolimpiarcomoexpertas-21&linkId=ee29c0dffd1cb35d4529c1bf8abf62e6&language=es_ES&ref_=as_li_ss_tl)
 
 3. **Agua.** Lógicamente necesitarás agua. Preferiblemente, utiliza agua que esté a una temperatura entre fría y tibia. 
 
@@ -99,11 +99,11 @@ Enlaces de interés:
 
 ### Champú suave
 
-Para un champú suave que sea efectivo y seguro para tus brochas, te recomendamos [Este champú suave de Johnson's.](https://www.amazon.com/Johnsons-Baby-Shampoo-27-1-Fl/dp/B0054J2GT0)
+Para un champú suave que sea efectivo y seguro para tus brochas, te recomendamos [eneric Limpiador de brochas de maquillaje](https://www.amazon.es/Generic-Limpiador-maquillaje-limpiador-herramientas/dp/B0C2TVCDCK?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14LV9X0MGMDE7&keywords=champu+para+limpiar+brochas&qid=1698094230&sprefix=champu+para+limpiar+brochas%2Caps%2C90&sr=8-2&linkCode=ll1&tag=comolimpiarcomoexpertas-21&linkId=ee29c0dffd1cb35d4529c1bf8abf62e6&language=es_ES&ref_=as_li_ss_tl)
 
 ### Toallas
 
-Las toallas de microfibra son una excelente opción para secar tus brochas de maquillaje. Estas toallas [S&T INC.](https://www.amazon.com/ST-INC-Absorbent-Microfiber-50-Pack/dp/B07Y5Y1XN4/) son altamente absorbentes y no dejarán pelusa en tus brochas.
+Las toallas de microfibra son una excelente opción para secar tus brochas de maquillaje. Estas toallas [Amazon Basics](https://www.amazon.es/AmazonBasics-Bayeta-limpieza-microfibra-unidades/dp/B009FUF6DM?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=MZRIRDBYI31C&keywords=toallitas%2Bde%2Bmicrofibra&qid=1698094300&sprefix=toallitas%2Bde%2Bmicrofibra%2Caps%2C95&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll1&tag=comolimpiarcomoexpertas-21&linkId=fb8cee68265fd55ee37f63b14f106bbe&language=es_ES&ref_=as_li_ss_tl) son altamente absorbentes y no dejarán pelusa en tus brochas.
 
 Fuente: 
 - [Wikihow - Cómo limpiar brochas de maquillaje](https://www.wikihow.com/Clean-Makeup-Brushes)

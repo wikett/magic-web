@@ -361,4 +361,7 @@ async function obtenerImagen(titulo){
   imagenPrincipalSEO = response.data.items[0].snippet.thumbnails.high.url
   imagenSecundariaSEO = response.data.items[1].snippet.thumbnails.high.url
 }
-await obtenerCategoria();
+for (let index = 0; index < 50; index++) {
+  console.log('Calculando articulo: '+index)
+  await obtenerCategoria();  
+}

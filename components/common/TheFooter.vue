@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-gray-900" aria-labelledby="footer-heading">
+    <footer class="bg-gray-900 mt-12" aria-labelledby="footer-heading">
       <h2 id="footer-heading" class="sr-only">Footer</h2>
       <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div class="xl:grid xl:grid-cols-3 xl:gap-8">
@@ -19,8 +19,8 @@
                 <h3 class="text-sm font-semibold leading-6 text-white">&nbsp;</h3>
               </div>
               <div class="mt-10 md:mt-0">
-                <h3 class="text-sm font-semibold leading-6 text-white">Últimos artículos</h3>
-                <ul role="list" class="mt-6 space-y-4">
+                <h3 class="text-sm font-semibold leading-6 text-white">Otros artículos</h3>
+                <ul role="list" class="list-none ml-0 mt-6 space-y-4">
                   <li v-for="item in navigation.support" :key="item.name">
                     <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
                   </li>
@@ -30,7 +30,7 @@
             <div class="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 class="text-sm font-semibold leading-6 text-white">Nosotr@s</h3>
-                <ul role="list" class="mt-6 space-y-4">
+                <ul role="list" class="list-none ml-0 mt-6 space-y-4">
                   <li v-for="item in navigation.company" :key="item.name">
                     <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
                   </li>
@@ -38,7 +38,7 @@
               </div>
               <div class="mt-10 md:mt-0">
                 <h3 class="text-sm font-semibold leading-6 text-white">Legal</h3>
-                <ul role="list" class="mt-6 space-y-4">
+                <ul role="list" class="list-none ml-0 mt-6 space-y-4">
                   <li v-for="item in navigation.legal" :key="item.name">
                     <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
                   </li>
@@ -60,9 +60,13 @@
   const year = ref(fechaActual)
   let lastArticles = []
 
-  const { data } = await useAsyncData('home', () => queryContent('/').sort({ 'published_time': 1 }).limit(4).find())
-  for (let index = 0; index < data._value.length; index++) {
-    const element = data._value[index];
+  const { data } = await useAsyncData('home', () => queryContent('/').find())
+
+  console.log(data._value.length)
+  for (let index = 0; index < 4; index++) {
+    let randomNumber = Math.floor(Math.random() * (data._value.length + 1))
+    console.log(randomNumber)
+    const element = data._value[randomNumber];
     lastArticles.push({
       name: element.title,
       href: `${element.url}`
