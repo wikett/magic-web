@@ -4,7 +4,13 @@
       <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div class="xl:grid xl:grid-cols-3 xl:gap-8">
           <div class="space-y-8">
-            <img src="/img/como-limpiar-logo-blanco.png" width="200" height="80" alt="comolimpiarcomoexpertas.com" />
+            <!-- <img
+              srcset="/img/mayte-y-diana-logo-mobile.webp 64w, 
+                    /img/mayte-y-diana-logo.webp 288w"
+              sizes="(max-width: 1024px) 64px,
+                    288px"
+              src="/img/mayte-y-diana-logo-mobile.webp"
+              alt="mayte y diana" /> -->
             <p class="text-sm leading-6 text-gray-300">¡Hola a todos! Somos Mayte y Diana, madre e hija adictas a la limpieza. Hemos decidido compartir con el mundo nuestros trucos y tips sobre cómo mantener nuestra casa, ropa y otras cositas limpia y reluciente.</p>
             <div class="flex space-x-6">
               <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-500 hover:text-gray-400">
@@ -58,19 +64,24 @@
   import { defineComponent, h } from 'vue'
   const fechaActual = (new Date()).getFullYear()
   const year = ref(fechaActual)
-  let lastArticles = []
-
-  const { data } = await useAsyncData('home', () => queryContent('/').find())
-
-  console.log(data._value.length)
-  for (let index = 0; index < 4; index++) {
-    let randomNumber = Math.floor(Math.random() * (data._value.length + 1))
-    const element = data._value[randomNumber];
-    lastArticles.push({
-      name: element.title,
-      href: `${element._path}`
-    })    
-  }
+  let lastArticles = [
+    {
+      name: 'Limpiar Zapatillas Blancas',
+      href: '/ropa/como-limpiar-zapatillas-blancas'
+    },
+    {
+      name: 'Limpiar Plancha Quemada con Vinagre',
+      href: '/hogar/como-limpiar-la-plancha-quemada'
+    },
+    {
+      name: 'Cómo limpiar la vitrocerámica',
+      href: '/hogar/como-limpiar-la-vitroceramica'
+    },
+    {
+      name: 'Cómo limpiar el microondas',
+      href: '/hogar/como-limpiar-el-microondas'
+    },
+  ]
   
   let navigation = {
     solutions: [],
