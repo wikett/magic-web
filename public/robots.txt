@@ -1,8 +1,2 @@
 UserAgent: '*',
 Allow: '/'
-
-UserAgent: 'GPTBot',
-Disallow: '/'
-
-UserAgent: 'chatGPT-user',
-Disallow: '/'

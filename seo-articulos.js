@@ -5,6 +5,7 @@ import slugify from '@sindresorhus/slugify';
 import axios from 'axios'
 // import { TwitterApi } from 'twitter-api-v2';
 import * as deepl from 'deepl-node';
+import sharp from 'sharp';
 
 let guiaSEO = ""
 let tituloSEO = ""
@@ -52,7 +53,11 @@ function getPromptArticulo() {
 }
 
 function getPromptPasosMasLinks() {
-  return `Puedes decirme los pasos de '${tituloSEO}' y hacer un lista de los productos que necesito comprar para poderlo hacer? Incluye un par de enlaces externos que sirvan de fuente para este conocimiento. El resultado redáctalo en Markdown, crea la lista en formato Markdown, resaltando algunas partes del texto y que solo aparezcan h2 y h3 como títulos (ningún h1)`
+  return `Dime los pasos de '${tituloSEO}' y haz un lista de los productos que necesito comprar para poderlo hacer. El resultado redáctalo en Markdown, crea la lista en formato Markdown, resaltando algunas partes del texto y que solo aparezcan h2 y h3 como títulos (ningún h1)`
+}
+
+function getPromptAnecdotaPersonal() {
+  return `Escribe una anecdota personal de '${tituloSEO}'. Escríbela en primera persona del plural en femenino. El resultado redáctalo en Markdown, resaltando algunas partes del texto, sin que contenga h1. No uses palabras normales de Inteligencia Artificial.`
 }
 
 async function tweetAricle() {
@@ -84,7 +89,7 @@ function getMetaData(keywords, tituloClickBait, categoria, imagen, url) {
     - name: 'article:author'
       content: 'Mayte y Sonia'
     - name: 'og:image'
-      content: '${imagen}'
+      content: '${imagenPrincipalSEO}'
     - name: 'og:url'
       content: '${url}'
     - name: 'twitter:domain'
@@ -98,7 +103,7 @@ function getMetaData(keywords, tituloClickBait, categoria, imagen, url) {
     - name: 'twitter:description'
       content: '${keywords}'
     - name: 'twitter:image'
-      content: '${imagen}'
+      content: '${imagenPrincipalSEO}'
     - name: 'copyright'
       content: '© ${new Date().getFullYear()} comolimpiarcomoexpertas.com'`
 }
@@ -113,6 +118,41 @@ function asignarCategoria(categoria) {
   if (categoria.includes('tecnologia'))
     return 'tecnologia'
   return 'otros'
+}
+
+async function downloadImage(urlYoutube) {
+  try {
+      const url = urlYoutube;
+      const path = `./public/img/content/${urlSEO}.jpg` 
+      const pathWebp = `./public/img/content/${urlSEO}.webp`
+      const publicPicture = `https://comolimpiarcomoexpertas.com/img/content/${urlSEO}.webp`
+
+      const response = await axios.get(url, { responseType: 'arraybuffer' });
+      
+      if(response.status === 200) {
+          await fs.writeFile(path, response.data);
+          console.log("Image downloaded successfully!");
+          sharp(path)
+          .webp()
+          .toFile(pathWebp, (err, info) => {
+            if (err) {
+              console.error('Error occurred while converting image to WebP:', err);
+            } else {
+              console.log('Image successfully converted to WebP:', info);
+              imagenPrincipalSEO = publicPicture
+              fs.unlink(path, function (err) {
+                if (err) throw err;
+                console.log('File deleted!');
+              });
+            }
+          });
+      } else {
+          console.error("Error: ", response.status);
+          console.log('Unable to download the image');
+      }
+  } catch (error) {
+      console.error("An error occurred while downloading the image: ", error);
+  }
 }
 
 async function generateImage() {
@@ -140,17 +180,17 @@ async function obtenerCategoria() {
     const lines = data.split('\n');
     tituloSEO = lines[0];
     await translateTitle(tituloSEO)
-    await generateImage();
-    console.log(`\x1bCreando la magia para: ${tituloSEO}\x1b[0m`);
+    // await generateImage();
+    console.log(`Creando la magia para: ${tituloSEO}`);
     categoriaSEO = await chatgptMagic(getPromptCategorias(tituloSEO))
     
     categoriaSEO = asignarCategoria(categoriaSEO)
+    urlSEO = slugify(tituloSEO, {separator: '-'})
     await obtenerImagen(tituloSEO);
 
     if (!categoriaSEO.includes("salud")) {
-        urlSEO = slugify(tituloSEO, {separator: '-'})
+        
         articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`
-
         guiaSEO = await chatgptMagic(getPromptGuia(tituloSEO), "gpt-4");
         guiaSEO = guiaSEO.split(/\r\n|\r|\n/)
         guiaSEO = guiaSEO.filter((letter) => letter !== "")
@@ -274,8 +314,14 @@ const newString = contenido.substring(0, indexPosition)
 + stringToAdd + contenido.substring(indexPosition)
 console.log('new String: ' + newString)
 return newString
-
 }
+
+function addAnecdota(contenido, anecdota) {
+  contenido += `\n\n## Anecdota personal\n`
+  contenido += anecdota
+  return contenido
+}
+
 function limpiarArticulo(articulo) {
   articulo = articulo.replace('Sección 1 – ','')
   articulo = articulo.replace('Sección 2 – ','')
@@ -309,6 +355,7 @@ async function createArticle() {
   pasosSEO = await chatgptMagic(getPromptPasosMasLinks(), 'gpt-4')
   console.log('pasos SEO')
   console.log(pasosSEO)
+  const anecdota = await chatgptMagic(getPromptAnecdotaPersonal(), 'gpt-4')
   let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcion}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenDiscover}\n`
   cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), descripcion, categoriaSEO, imagenDiscover, 'https://comolimpiarcomoexpertas.com/'+categoriaSEO+'/'+urlSEO)
   cabeceroMarkdown += '\n---\n'
@@ -316,6 +363,7 @@ async function createArticle() {
   articulo = limpiarArticulo(articulo)
   articulo = addPicture(articulo, imagenPrincipalSEO, tituloSEO)
   articulo = addDiscover(articulo, pasosSEO)
+  articulo = addAnecdota(articulo, anecdota)
 
   try {
     await fs.writeFile(articuloPathSEO, articulo)
@@ -358,10 +406,13 @@ async function obtenerImagen(titulo){
   const response = await axios.get(url)
   console.log(response.data.items[0].snippet.thumbnails.high)
 
-  imagenPrincipalSEO = response.data.items[0].snippet.thumbnails.high.url
-  imagenSecundariaSEO = response.data.items[1].snippet.thumbnails.high.url
+  downloadImage(response.data.items[0].snippet.thumbnails.high.url);
+
+  // imagenPrincipalSEO = response.data.items[0].snippet.thumbnails.high.url
+  // imagenSecundariaSEO = response.data.items[1].snippet.thumbnails.high.url
 }
 for (let index = 0; index < 50; index++) {
   console.log('Calculando articulo: '+index)
   await obtenerCategoria();  
 }
+
