@@ -85,11 +85,8 @@ Limpiar tu cepillo para el cabello no sólo elimina el cabello viejo y los produ
 - Toalla o paño para secar
 
 Siguiendo estos pasos asegurará que tu cepillo está limpio y listo para ser usado de nuevo. Te recomendamos limpiar tu cepillo de cabello al menos una vez a la semana para mantenerlo en las mejores condiciones posibles.
-::photo-discover
----
-imageurl: 
----
-::
+
+
 ## ¿Por qué es necesario limpiar nuestro cepillo de pelo?
 
 Primero, debemos entender **por qué es importante mantener nuestros cepillos de pelo limpios**. ¿Has notado cómo se acumula el cabello en tu cepillo después de usarlo varias veces? Esa no es la única cosa que se acumula allí: también se alojan células muertas del cuero cabelludo, polvo, aceites del cabello, productos de peinado y hasta bacterias. *¡Sí, lo has leído bien, bacterias!* Este tipo de desechos puede causar problemas como irritación en el cuero cabelludo, infecciones e incluso debilitamiento del cabello. Por lo tanto, limpiar nuestro cepillo de pelo no es solo una cuestión de estética, sino de salud.
@@ -133,7 +130,7 @@ Ahora surge una pregunta importante: *¿con qué frecuencia deberías limpiar tu
 Como puedes ver, **limpiar tu cepillo de pelo es un proceso muy sencillo que no requiere mucho tiempo ni esfuerzo, pero que puede tener un gran impacto en la salud de tu cabello y cuero cabelludo**. Así que no esperes más, ¡incorpora este hábito a tu rutina de cuidado personal hoy mismo!
 
 ## Anecdota personal
-Una tarde de sábado, mientras **desesperadamente** buscábamos soluciones en online para limpiar nuestros cepillos para el cabello, **_mi madre y yo_** nos topamos con un sencillo pero práctico método que hemos aplicado desde entonces. Nuestros cepillos de pelo estaban llenos de cabello y productos acumulados, parecía una misión **imposible** de resolver.
+Una tarde de sábado, mientras **desesperadamente** buscábamos soluciones en online para limpiar nuestros cepillos para el cabello, **_mi madre y yo_** nos topamos con un sencillo pero práctico método que hemos aplicado desde entonces. Nuestros cepillos de pelo estaban llenos de cabello y productos acumulados, parecía una misión **im** de resolver.
 
 Primero, con unas tijeras pequeñas, cortamos a lo largo de las cerdas para liberar el pelo que estaba enredado. **Esta tarea nos pareció agotadora**, pero a medida que seguimos adelante, vimos que estaba empezando a funcionar. Recuerda ser cuidadosa para no cortar las benditas cerdas.
 
