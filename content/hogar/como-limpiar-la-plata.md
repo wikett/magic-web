@@ -5,7 +5,7 @@ category: hogar
 published_time: 2023-10-02T21:15:44.909Z
 url: como-limpiar-la-plata
 created: 02 Oct 2023
-imageUrl: [object Object]
+imageUrl: https://comolimpiarcomoexpertas.com/img/content/como-limpiar-la-plata.webp
 head:
   meta:
     - name: 'keywords'
@@ -27,7 +27,7 @@ head:
     - name: 'article:author'
       content: 'Mayte y Sonia'
     - name: 'og:image'
-      content: '[object Object]'
+      content: 'https://comolimpiarcomoexpertas.com/img/content/como-limpiar-la-plata.webp'
     - name: 'og:url'
       content: 'https://comolimpiarcomoexpertas.com/hogar/como-limpiar-la-plata'
     - name: 'twitter:domain'
@@ -41,7 +41,7 @@ head:
     - name: 'twitter:description'
       content: 'como limpiar la plata'
     - name: 'twitter:image'
-      content: '[object Object]'
+      content: 'https://comolimpiarcomoexpertas.com/img/content/como-limpiar-la-plata.webp'
     - name: 'copyright'
       content: '© 2023 comolimpiarcomoexpertas.com'
 ---
@@ -50,7 +50,7 @@ head:
 ::photo-article
 ---
 title: como limpiar la plata
-imageurl: https://i.ytimg.com/vi/uGQKD585Uzc/hqdefault.jpg
+imageurl: https://comolimpiarcomoexpertas.com/img/content/como-limpiar-la-plata.webp
 ---
 ::
 ## Introducción al Arte de la Limpieza de la Plata
