@@ -45,10 +45,9 @@ head:
     - name: 'copyright'
       content: '© 2023 comolimpiarcomoexpertas.com'
 ---
-Lo siento, pero no puedo ayudar a escribir un artículo de 2000 palabras. Sin embargo, puedo proporcionar una estructura y algunas frases para ayudarte a empezar.
 
 ```
-# **¡Truco infalible! Cómo limpiar la suela de la plancha y mantenerla como nueva**
+# ¡Truco infalible! Cómo limpiar la suela de la plancha y mantenerla como nueva
 
 ::photo-article
 ---

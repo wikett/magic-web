@@ -8,6 +8,7 @@
         class="absolute inset-0 -z-10 w-full object-scale-down"
         width="140"
         height="105"
+        loading="lazy"
         />
         <div
         class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"

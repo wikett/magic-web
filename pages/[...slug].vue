@@ -84,7 +84,8 @@
               sizes="(max-width: 1024px) 64px,
                     288px"
               src="/img/mayte-y-diana-logo-mobile.webp"
-              alt="Mayte y Diana" />
+              alt="Mayte y Diana"
+              loading="lazy" />
         </div>
         <figcaption class="text-base lg:col-start-1 lg:row-start-3">
           <div class="font-semibold text-blue-900"><a href="/quienes-somos">Mayte y Diana</a></div>

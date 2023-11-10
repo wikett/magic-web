@@ -49,7 +49,7 @@ function getPromptCategorias(titulo) {
 
 function getPromptArticulo() {
   console.log('generar articulo para: '+tituloSEO)
-  return `Por favor,  escribe un artículo en español sobre "${tituloSEO}" de unas 2000 palabras, como una persona que sabe el 80% de español, utilizando palabras muy sencillas de entender y dándoles matices, que contenga las siguientes secciones:\n${seccionesParaPrompt}. El resultado redáctalo en Markdown, resaltando algunas partes del texto y utiliza cada sección como h2. No uses palabras normales de Inteligencia Artificial. Manten una densidad alta de la palbra clave. Incluye un título ClickBait al principio del artículo.`
+  return `Por favor,  escribe un artículo en español sobre "${tituloSEO}" de unas 2000 palabras, como una persona que sabe el 80% de español, utilizando palabras muy sencillas de entender y dándoles matices, que contenga las siguientes secciones:\n${seccionesParaPrompt}. El resultado redáctalo en Markdown, resaltando algunas partes del texto y utiliza cada sección como h2. No uses palabras normales de Inteligencia Artificial. Manten una densidad alta de la palabra clave. Incluye un título atractivo referente a la palabra clave pero sin ser ClickBait al principio del artículo.`
 }
 
 function getPromptPasosMasLinks() {
@@ -120,12 +120,12 @@ function asignarCategoria(categoria) {
   return 'otros'
 }
 
-async function downloadImage(urlYoutube) {
+async function downloadImage(urlYoutube, sufijo) {
   try {
       const url = urlYoutube;
-      const path = `./public/img/content/${urlSEO}.jpg` 
-      const pathWebp = `./public/img/content/${urlSEO}.webp`
-      const publicPicture = `https://comolimpiarcomoexpertas.com/img/content/${urlSEO}.webp`
+      const path = `./public/img/content/${urlSEO}_${sufijo}.jpg` 
+      const pathWebp = `./public/img/content/${urlSEO}_${sufijo}.webp`
+      const publicPicture = `https://comolimpiarcomoexpertas.com/img/content/${urlSEO}_${sufijo}.webp`
 
       const response = await axios.get(url, { responseType: 'arraybuffer' });
       
@@ -139,7 +139,6 @@ async function downloadImage(urlYoutube) {
               console.error('Error occurred while converting image to WebP:', err);
             } else {
               console.log('Image successfully converted to WebP:', info);
-              imagenPrincipalSEO = publicPicture
               fs.unlink(path, function (err) {
                 if (err) throw err;
                 console.log('File deleted!');
@@ -150,6 +149,7 @@ async function downloadImage(urlYoutube) {
           console.error("Error: ", response.status);
           console.log('Unable to download the image');
       }
+      return publicPicture
   } catch (error) {
       console.error("An error occurred while downloading the image: ", error);
   }
@@ -189,7 +189,7 @@ async function obtenerCategoria() {
     await obtenerImagen(tituloSEO);
 
     if (!categoriaSEO.includes("salud")) {
-        
+        console.log('tituloSEO...')
         articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`
         guiaSEO = await chatgptMagic(getPromptGuia(tituloSEO), "gpt-4");
         guiaSEO = guiaSEO.split(/\r\n|\r|\n/)
@@ -361,7 +361,7 @@ async function createArticle() {
   cabeceroMarkdown += '\n---\n'
   articulo = cabeceroMarkdown + articulo
   articulo = limpiarArticulo(articulo)
-  articulo = addPicture(articulo, imagenPrincipalSEO, tituloSEO)
+  articulo = addPicture(articulo, imagenSecundariaSEO, tituloSEO)
   articulo = addDiscover(articulo, pasosSEO)
   articulo = addAnecdota(articulo, anecdota)
 
@@ -406,13 +406,14 @@ async function obtenerImagen(titulo){
   const response = await axios.get(url)
   console.log(response.data.items[0].snippet.thumbnails.high)
 
-  downloadImage(response.data.items[0].snippet.thumbnails.high.url);
+  imagenPrincipalSEO = await downloadImage(response.data.items[0].snippet.thumbnails.high.url, "1");
+  imagenSecundariaSEO = await downloadImage(response.data.items[1].snippet.thumbnails.high.url, "2");
 
-  // imagenPrincipalSEO = response.data.items[0].snippet.thumbnails.high.url
-  // imagenSecundariaSEO = response.data.items[1].snippet.thumbnails.high.url
 }
 for (let index = 0; index < 50; index++) {
   console.log('Calculando articulo: '+index)
   await obtenerCategoria();  
 }
+
+//await obtenerCategoria();  
 

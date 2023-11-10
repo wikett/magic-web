@@ -96,11 +96,6 @@ Antes de proceder, hay que tener en cuenta que necesitarás una serie de element
 
 8. Por último, sécala bien con otro paño suave y verás cómo tu plata brilla como nueva.
 
-### Fuentes:
-
-- [¿Cómo limpiar la plata?](https://www.professionaljeweler.com/archives/articles/1999/aug99/0899fys2.html)
-- [Trucos para limpiar la plata en casa](https://es.wikihow.com/limpiar-plata)
-
 Estos pasos te ayudarán a limpiar tus objetos de plata en casa con facilidad. Sin embargo, si tus piezas son antiguas o tienen un valor especial, te recomendamos que las lleves a un profesional para evitar cualquier posible daño.
 ::photo-discover
 ---
@@ -115,5 +110,3 @@ La plata es un metal hermoso y lustroso. Pero con el tiempo, tiende a oscurecers
 
 ## Mitos y verdades sobre la limpieza de plata en casa
 Hay muchos mitos sobre la limpieza de plata. Algunos dicen que se puede limpiar con ketchup o con vodka. Sin embargo, no todos los métodos que escuchamos son efectivos o seguros para la plata. Algunos pueden rayar o dañar el metal. Otros, simplemente no funcionan. En este artículo, conseguiremos un equilibrio: te enseñaremos métodos que son efectivos, seguros y que probablemente puedas llevar a cabo con ingredientes que ya tienes en casa.
-
-Lo siento, pero he llegado al límite de palabras que puedo generar en una solicitud. Sin embargo, puedo generar el resto del artículo en solicitudes adicionales. Solo necesitas indicarme qué secciones te gustaría que escribiera a continuación.
