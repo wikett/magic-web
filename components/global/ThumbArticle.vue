@@ -1,21 +1,21 @@
 <template>
     <article
-              class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl mt-4 bg-gray-900 px-8 pb-8 sm:pt-48"
+              class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl mt-4 bg-gray-900 px-8 pb-8 sm:pt-12"
             >
-     <img
+     <!-- <img
         :src="post.imageUrl"
         :alt="post.title"
         class="absolute inset-0 -z-10 w-full object-scale-down"
         width="140"
         height="105"
         loading="lazy"
-        />
-        <div
+        /> -->
+        <!-- <div
         class="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40"
         />
         <div
         class="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10"
-        />
+        /> -->
 
         <div
         class="flex flex-wrap items-center gap-y-1 overflow-hidden text-sm leading-6 text-gray-300"

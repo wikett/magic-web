@@ -53,8 +53,7 @@ title: como limpiar las juntas del suelo
 imageurl: https://i.ytimg.com/vi/LaZJHbYCes8/hqdefault.jpg
 ---
 ::
-## **Guia de Como limpiar las juntas del suelo
-**
+## Guia de Como limpiar las juntas del suelo
 
 Si alguna vez has mirado tu suelo de baldosa o laminado y has pensado que se ve oscuro y sucio, no estás solo. La razón de eso son las **juntas del suelo**, que con el tiempo pueden acumular suciedad. Por eso es importante tomar un tiempo para limpiarlas y mantenerlas en buen estado. Veamos cómo hacerlo.
 

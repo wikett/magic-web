@@ -55,8 +55,8 @@ title: como limpiar la suela de la plancha
 imageurl: https://i.ytimg.com/vi/QygRx5PjaHE/hqdefault.jpg
 ---
 ::
-## **Guia de Como limpiar la suela de la plancha
-**
+## Guia de Como limpiar la suela de la plancha
+
 Planchar la ropa es una tarea doméstica común en nuestro día a día. Sin embargo, pocos nos preocupamos por mantener limpia la suela de la plancha. **¿Por qué esto es importante?** Vamos a descubrirlo en este artículo.
 
 ## Cómo limpiar la suela de la plancha

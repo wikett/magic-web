@@ -139,6 +139,12 @@ async function downloadImage(urlYoutube, sufijo) {
               console.error('Error occurred while converting image to WebP:', err);
             } else {
               console.log('Image successfully converted to WebP:', info);
+              if(sufijo==="1") {
+                imagenPrincipalSEO = publicPicture
+              }
+              if(sufijo==="2") {
+                imagenSecundariaSEO = publicPicture
+              }
               fs.unlink(path, function (err) {
                 if (err) throw err;
                 console.log('File deleted!');
@@ -274,14 +280,14 @@ function getDescription(contenido) {
   return description.replaceAll(':', ' ')
 }
 
-function addPicture(contenido, imageUrl, caption) {
+function addPicture(contenido, caption) {
   // Input String
   const searchTerm = "## ";
   // String to be added
   let stringToAdd = `::photo-article
 ---
 title: ${caption}
-imageurl: ${imageUrl}
+imageurl: ${imagenSecundariaSEO}
 ---
 ::
 `;
@@ -361,7 +367,7 @@ async function createArticle() {
   cabeceroMarkdown += '\n---\n'
   articulo = cabeceroMarkdown + articulo
   articulo = limpiarArticulo(articulo)
-  articulo = addPicture(articulo, imagenSecundariaSEO, tituloSEO)
+  articulo = addPicture(articulo, tituloSEO)
   articulo = addDiscover(articulo, pasosSEO)
   articulo = addAnecdota(articulo, anecdota)
 
@@ -410,10 +416,10 @@ async function obtenerImagen(titulo){
   imagenSecundariaSEO = await downloadImage(response.data.items[1].snippet.thumbnails.high.url, "2");
 
 }
-for (let index = 0; index < 50; index++) {
-  console.log('Calculando articulo: '+index)
-  await obtenerCategoria();  
-}
+// for (let index = 0; index < 50; index++) {
+//   console.log('Calculando articulo: '+index)
+//   await obtenerCategoria();  
+// }
 
-//await obtenerCategoria();  
+await obtenerCategoria();  
 

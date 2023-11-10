@@ -47,14 +47,8 @@ head:
 ---
 # **¡Que tu sofá vuelva a resplandecer! Guía definitiva para limpiar la tapicería del sofá**
 
-::photo-article
----
-title: como limpiar tapiceria sofa
-imageurl: https://i.ytimg.com/vi/pPuGuixJvYY/hqdefault.jpg
----
-::
-## **Guia de Como limpiar tapiceria sofa
-**
+## Guia de Como limpiar tapiceria sofa
+
 Todos tenemos ese sofá en casa, ese donde vemos televisión, leemos un libro o simplemente nos echamos una siesta. A decir verdad, es un espacio muy apreciado. Pero al mismo tiempo, es una pieza de mobiliario que, por su uso constante, se ensucia mucho. Y aquí llegamos al punto crítico, ¿Cómo limpiar la tapicería de nuestro sofá? En este artículo queremos ayudarte y por eso te traemos la **guía definitiva** para limpiar la tapicería del sofá.
 
 ## Pasos para limpiar la tapicería del sofá
