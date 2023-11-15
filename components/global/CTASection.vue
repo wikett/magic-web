@@ -19,7 +19,7 @@
             </div>
           </div>
           <div class="relative mt-16 h-80 lg:mt-8">
-            <a href="https://www.awin1.com/cread.php?awinmid=63006&awinaffid=848509&ued=https%3A%2F%2Fladrogueria.com%2F" alt="La droguería de percon"><img class="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10" src="/img/la-drogueria-de-percon.svg" alt="App screenshot" width="600" height="540" /></a>
+            <a href="https://www.awin1.com/cread.php?awinmid=63006&awinaffid=848509&ued=https%3A%2F%2Fladrogueria.com%2F" alt="La droguería de percon"><img class="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10" src="/img/la-drogueria-de-percon.webp" alt="App screenshot" width="600" height="540" /></a>
           </div>
         </div>
       </div>
