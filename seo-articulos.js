@@ -416,10 +416,10 @@ async function obtenerImagen(titulo){
   imagenSecundariaSEO = await downloadImage(response.data.items[1].snippet.thumbnails.high.url, "2");
 
 }
-// for (let index = 0; index < 50; index++) {
-//   console.log('Calculando articulo: '+index)
-//   await obtenerCategoria();  
-// }
+for (let index = 0; index < 50; index++) {
+  console.log('Calculando articulo: '+index)
+  await obtenerCategoria();  
+}
 
-await obtenerCategoria();  
+// await obtenerCategoria();  
 

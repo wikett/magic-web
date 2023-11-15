@@ -60,7 +60,7 @@ Deja reluciente tu horno y disfruta de una cocina que parecerá de revista.
 
 ## Cómo Limpiar un Horno Muy Sucio
 
-Antes de comenzar, seguramente necesitarás algunos suministros. Aquí te dejo una lista(todo en formato markdown) de los productos que necesitas:
+Antes de comenzar, seguramente necesitarás algunos suministros. Aquí te dejo una lista de los productos que necesitas:
 
 ### Materiales que necesitas:
 * **Bicarbonato de sodio**

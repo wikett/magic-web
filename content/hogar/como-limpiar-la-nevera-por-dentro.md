@@ -46,7 +46,7 @@ head:
       content: '© 2023 comolimpiarcomoexpertas.com'
 ---
 
-```markdown
+n
 # ¡La Guía Definitiva Para Limpiar Tu Nevera por Dentro Como un Profesional!
 
 ::photo-article
@@ -127,6 +127,6 @@ No es recomendable ya que el cloro puede dañar las superficies y dejar un olor 
 
 _¿Cómo puedo eliminar los olores fuertes de la nevera?_
 El bicarbonato de sodio es excelente para absorber malos olores. Deja un recipiente abierto con bicarbonato dentro de la nevera.
-```
+
 
 Espero que esta pequeña guía te sea de utilidad. Recuerda que un electrodoméstico limpio es sinónimo de un hogar agradable y saludable.

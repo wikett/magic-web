@@ -46,7 +46,7 @@ head:
       content: '© 2023 comolimpiarcomoexpertas.com'
 ---
 
-```
+
 # ¡Truco infalible! Cómo limpiar la suela de la plancha y mantenerla como nueva
 
 ::photo-article
@@ -108,5 +108,5 @@ A veces, la suela de la plancha puede adquirir olores desagradables debido a las
 ## **Preguntas Frecuentes**
 En esta sección, respondemos a **las preguntas más comunes** que los usuarios tienen sobre la limpieza de la suela de la plancha.
 
-```
+
 Este sería un esqueleto básico del artículo. Para conseguir las 2000 palabras, procura desarrollar cada sección con detalle y profundidad, aportando información útil y relevante para el lector. Mantén un tono coloquial y cercano, y utiliza frases cortas y comprensibles.

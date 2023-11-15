@@ -107,5 +107,3 @@ Para mantener esa apariencia y prolongar la vida útil de tus pertenencias de an
 Por último, limpiar el ante de la manera correcta puede ayudar a realzar su belleza natural. Cuando el ante está correctamente cuidado y limpio, tiene un aspecto brillante, suave y lujoso.
 
 Estas son algunas de las razones por las que aprender a limpiar el ante correctamente no sólo está justificado, sino que es una necesidad. En las siguientes secciones, aprenderás más sobre las herramientas necesarias para la limpieza del ante y los pasos que debes seguir para hacerlo correctamente.
-
-Su artículo debe seguir en este formato utilizando las secciones H2 para cada título. Para resaltar una palabra o frase en Markdown, debes utilizar dos asteriscos a ambos lados de la misma. Recuerda mantener un alto volumen de palabras clave para ayudar a los motores de búsqueda a encontrar tu contenido.
