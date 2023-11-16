@@ -36,14 +36,24 @@ export default defineNuxtConfig({
       htmlAttrs: { dir: 'ltr', lang: 'es'}
     }
   },
+  gtm: {
+    id: 'GTM-N7BN33VN',
+    defer: true,
+    compatibility: false,
+    nonce: '2726c7f26c',
+    enabled: true,
+    debug: true,
+    trackOnNextTick: false,
+    devtools: true,
+  },
   runtimeConfig: {
     public: {
       gtm: {
         id: 'GTM-N7BN33VN',
-        defer: false,
+        defer: true,
         compatibility: false,
         nonce: '2726c7f26c',
-        enabled: false,
+        enabled: true,
         debug: true,
         trackOnNextTick: false,
         devtools: true,
