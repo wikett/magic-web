@@ -1,9 +1,3 @@
-::photo-article
----
-title: como limpiar cuero
-imageurl: https://comolimpiarcomoexpertas.com/img/content/como-limpiar-cuero_2.webp
----
-::
 ---
 title: como limpiar cuero
 description: 
@@ -94,53 +88,6 @@ title: como limpiar cuero
 imageurl: https://comolimpiarcomoexpertas.com/img/content/como-limpiar-cuero_2.webp
 ---
 ::
----
-title: como limpiar cuero
-description: 
-category: hogar
-published_time: 2023-11-10T13:35:06.671Z
-url: como-limpiar-cuero
-created: 10 Nov 2023
-imageUrl: 
-head:
-  meta:
-    - name: 'keywords'
-      content: 'como limpiar cuero'
-    - name: 'robots'
-      content: 'index, follow'
-    - name: 'og:title'
-      content: 'como limpiar cuero'
-    - name: 'og:description'
-      content: ''
-    - name: 'og:type'
-      content: 'article'
-    - name: 'article:published_time'
-      content: '2023-11-10T13:35:06.671Z'
-    - name: 'article:modified_time'
-      content: '2023-11-10T13:35:06.671Z'
-    - name: 'article:section'
-      content: 'hogar'
-    - name: 'article:author'
-      content: 'Mayte y Sonia'
-    - name: 'og:image'
-      content: 'https://comolimpiarcomoexpertas.com/img/content/como-limpiar-cuero_1.webp'
-    - name: 'og:url'
-      content: 'https://comolimpiarcomoexpertas.com/hogar/como-limpiar-cuero'
-    - name: 'twitter:domain'
-      content: 'comolimpiarcomoexpertas.com'
-    - name: 'twitter:url'
-      content: 'https://comolimpiarcomoexpertas.com/hogar/como-limpiar-cuero'
-    - name: 'twitter:title'
-      content: ''
-    - name: 'twitter:card'
-      content: 'summary_large_image'
-    - name: 'twitter:description'
-      content: 'como limpiar cuero'
-    - name: 'twitter:image'
-      content: 'https://comolimpiarcomoexpertas.com/img/content/como-limpiar-cuero_1.webp'
-    - name: 'copyright'
-      content: '© 2023 comolimpiarcomoexpertas.com'
----
 
 ## Anecdota personal
 Una vez, **nosotras**, un grupo de cuatro amigas, decidimos **emprender una aventura** y restaurar una vieja silla de cuero que encontramos en una venta de garaje. El cuero estaba bastante sucio y necesitaba algo de amor, pero vimos el potencial y nos entusiasmaba tener un nuevo proyecto de bricolaje entre manos. 
