@@ -143,9 +143,7 @@ async function downloadImage(urlYoutube, sufijo) {
       const publicPicture = `https://comolimpiarcomoexpertas.com/img/content/${urlSEO}_${sufijo}.webp`
 
       const response = await axios.get(url, { responseType: 'stream' });
-      console.log(response);
       if(response.status === 200) {
-        console.log('descarga correcta');
           await fs.writeFile(path, response.data);
           sharp(path)
           .webp()
@@ -185,14 +183,12 @@ async function generateImage() {
       size: '1024x1024',
       prompt: `a photograph of someone doing '${tituloSEOEnglish}', realistic` 
     });
-  console.log(' -- IA picture')
-  console.log(image.data[0].url)
+
   imagenDiscover = image.data[0].url
 
   await downloadImage(imagenDiscover, "3")
 }
 async function translateTitle(title) {
-  console.log('Traduciendo titulo...')
   const result = await translator.translateText(title, null, 'en-GB');
   tituloSEOEnglish = result.text; // Bonjour, le monde !
 }
