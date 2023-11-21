@@ -6,6 +6,8 @@ import axios from 'axios'
 // import { TwitterApi } from 'twitter-api-v2';
 import * as deepl from 'deepl-node';
 import sharp from 'sharp';
+import pipeline from 'stream';
+import promisify from 'util';
 
 let guiaSEO = ""
 let tituloSEO = ""
@@ -16,9 +18,11 @@ let articuloPathSEO = ""
 let seccionesParaPrompt = ""
 let imagenPrincipalSEO = ""
 let imagenSecundariaSEO = ""
+let imagenDiscoverSEO = ""
 let imagenDiscover = ""
 let descripcionSEO = ""
 let pasosSEO = ""
+const profesional = 'limpieza'
 const currentDate = new Date();
 const youtubeApiKey = process.env.YOUTUBE_API_KEY;
 
@@ -29,9 +33,19 @@ const youtubeApiKey = process.env.YOUTUBE_API_KEY;
 //   accessSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 // });
 
+
+
 const translator = new deepl.Translator(process.env.DEEPL_AUTH);
 
 // const twitterClient = client.readWrite;
+
+function promptArticulo() {
+  return `Actúa como experto en SEO y ${profesional}. Optimiza el SEO y copywriting del artículo que redactarás, considerando la estructura lógica, relaciones semánticas (LSI) y la calidad del contenido.Escribe un artículo de 1500 palabras en español, en formato Markdown, que resuelva la búsqueda de"${tituloSEO}$". Utiliza párrafos cortos y frases claras para mejorar la experiencia del usuario. Incluye palabras clave secundarias relacionadas con ${tituloSEO}. Asegúrate de una estructura lógica, desarrollo enfocado y cierre sin repeticiones ni thin content. Crea un título SEO con H1 de 60 caracteres para "${tituloSEO}" que sea creativo y atractivo. Evita un H2 con "intro" o "introducción". Agrega entre 4 y 10 encabezados H2, subtítulos H3 y listas en Markdown. Resalta las palabras clave o frases importantes en negrita. Utiliza adecuadamente palabras clave y LSI. Finaliza con un párrafo sin H2 de "conclusión" o "resumen", pero ofrece consejos destacando alguna frase en cursiva. Incluye 3 H3 de preguntas frecuentes (FAQ) sobre ${tituloSEO}. Escribe de forma perpleja y explosiva, sin perder el contexto. Evita tituloSEO stuffing superior al 2% y repeticiones de frases. Mantén el salience score entre 0.80 y 1. Utiliza negritas en Markdown para palabras clave y frases relevantes, sin repetir frases iguales. Utiliza listas con formato Markdown, know-how, y un paso a paso. Evita contenido innecesario o basura.`
+}
+
+function promptDescription() {
+  return `Actúa como experto en SEO y ${profesional}. Escribe una meta descripción como máximo de 150 caracteres sobre un artículo de ${tituloSEO}.`
+}
 
 function getPromptGuia(titulo) {
   // return `Create an outline for an article that will be 2,000 words on the keyword "${titulo}" based on the top 10 results from Google in Spanish.Include every relevant heading possible. Keep the keyword density of the headings high.For each section of the outline, include the word count.Include FAQs section in the outline too, based on people also ask section from Google for the keyword.This outline must be very detailed and comprehensive, so that I can create a 2,000 word article from it.Generate a long list of LSI and NLP keywords related to my keyword. Also include any other words related to the keyword.Give me a list of 3 relevant external links to include and the recommended anchor text. Make sure they're not competing articles.`
@@ -67,17 +81,17 @@ async function tweetAricle() {
   // await twitterClient.v2.tweet(tweet);
 }
 
-function getMetaData(keywords, tituloClickBait, categoria, imagen, url) {
+function getMetaData(titulo, url) {
   return `head:
   meta:
     - name: 'keywords'
-      content: '${keywords}'
+      content: '${titulo}'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: '${keywords}'
+      content: '${titulo}'
     - name: 'og:description'
-      content: '${tituloClickBait}'
+      content: '${descripcionSEO}'
     - name: 'og:type'
       content: 'article'
     - name: 'article:published_time'
@@ -85,11 +99,11 @@ function getMetaData(keywords, tituloClickBait, categoria, imagen, url) {
     - name: 'article:modified_time'
       content: '${currentDate.toISOString()}'
     - name: 'article:section'
-      content: '${categoria}'
+      content: '${categoriaSEO}'
     - name: 'article:author'
       content: 'Mayte y Sonia'
     - name: 'og:image'
-      content: '${imagenPrincipalSEO}'
+      content: '${imagenDiscoverSEO}'
     - name: 'og:url'
       content: '${url}'
     - name: 'twitter:domain'
@@ -97,13 +111,13 @@ function getMetaData(keywords, tituloClickBait, categoria, imagen, url) {
     - name: 'twitter:url'
       content: '${url}'
     - name: 'twitter:title'
-      content: '${tituloClickBait}'
+      content: '${titulo}'
     - name: 'twitter:card'
-      content: 'summary_large_image'
+      content: '${imagenDiscoverSEO}'
     - name: 'twitter:description'
-      content: '${keywords}'
+      content: '${descripcionSEO}'
     - name: 'twitter:image'
-      content: '${imagenPrincipalSEO}'
+      content: '${imagenDiscoverSEO}'
     - name: 'copyright'
       content: '© ${new Date().getFullYear()} comolimpiarcomoexpertas.com'`
 }
@@ -123,27 +137,30 @@ function asignarCategoria(categoria) {
 async function downloadImage(urlYoutube, sufijo) {
   try {
       const url = urlYoutube;
-      const path = `./public/img/content/${urlSEO}_${sufijo}.jpg` 
+      const extension = sufijo === "3" ? "png" : "jpg"
+      const path = `./public/img/content/${urlSEO}_${sufijo}.${extension}` 
       const pathWebp = `./public/img/content/${urlSEO}_${sufijo}.webp`
       const publicPicture = `https://comolimpiarcomoexpertas.com/img/content/${urlSEO}_${sufijo}.webp`
 
-      const response = await axios.get(url, { responseType: 'arraybuffer' });
-      
+      const response = await axios.get(url, { responseType: 'stream' });
+      console.log(response);
       if(response.status === 200) {
+        console.log('descarga correcta');
           await fs.writeFile(path, response.data);
-          console.log("Image downloaded successfully!");
           sharp(path)
           .webp()
           .toFile(pathWebp, (err, info) => {
             if (err) {
               console.error('Error occurred while converting image to WebP:', err);
             } else {
-              console.log('Image successfully converted to WebP:', info);
               if(sufijo==="1") {
                 imagenPrincipalSEO = publicPicture
               }
               if(sufijo==="2") {
                 imagenSecundariaSEO = publicPicture
+              }
+              if(sufijo==="3") {
+                imagenDiscoverSEO = publicPicture
               }
               fs.unlink(path, function (err) {
                 if (err) throw err;
@@ -162,14 +179,17 @@ async function downloadImage(urlYoutube, sufijo) {
 }
 
 async function generateImage() {
-  console.log('Generando imagen...')
+  console.log('Generando imagen for: '+tituloSEOEnglish)
   const image = await openai.images.generate(
     {
       size: '1024x1024',
       prompt: `a photograph of someone doing '${tituloSEOEnglish}', realistic` 
     });
+  console.log(' -- IA picture')
   console.log(image.data[0].url)
   imagenDiscover = image.data[0].url
+
+  await downloadImage(imagenDiscover, "3")
 }
 async function translateTitle(title) {
   console.log('Traduciendo titulo...')
@@ -186,7 +206,6 @@ async function obtenerCategoria() {
     const lines = data.split('\n');
     tituloSEO = lines[0];
     await translateTitle(tituloSEO)
-    // await generateImage();
     console.log(`Creando la magia para: ${tituloSEO}`);
     categoriaSEO = await chatgptMagic(getPromptCategorias(tituloSEO))
     
@@ -195,13 +214,12 @@ async function obtenerCategoria() {
     await obtenerImagen(tituloSEO);
 
     if (!categoriaSEO.includes("salud")) {
-        console.log('tituloSEO...')
         articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`
-        guiaSEO = await chatgptMagic(getPromptGuia(tituloSEO), "gpt-4");
-        guiaSEO = guiaSEO.split(/\r\n|\r|\n/)
-        guiaSEO = guiaSEO.filter((letter) => letter !== "")
+        guiaSEO = await chatgptMagic(promptArticulo(tituloSEO), "gpt-4-1106-preview");
+        // guiaSEO = guiaSEO.split(/\r\n|\r|\n/)
+        // guiaSEO = guiaSEO.filter((letter) => letter !== "")
         
-        await processContent(guiaSEO)
+        // await processContent(guiaSEO)
         await createArticle()
         console.log('Articulo creado correctamente')
     }
@@ -287,9 +305,10 @@ function addPicture(contenido, caption) {
   let stringToAdd = `::photo-article
 ---
 title: ${caption}
-imageurl: ${imagenSecundariaSEO}
+imageurl: ${imagenPrincipalSEO}
 ---
 ::
+
 `;
   // Position to add string
   let indexPosition = contenido.indexOf(searchTerm)
@@ -300,25 +319,25 @@ imageurl: ${imagenSecundariaSEO}
   return newString
 }
 
-function addDiscover(contenido, pasos) {
+function addDiscover(contenido, imagen, posicion) {
   let re = new RegExp("##","ig");
   let spaces = [];
   let matched = "";
   while ((matched = re.exec(contenido))) {
     spaces.push(matched.index);
   }
-  console.log(spaces);
-  let stringToAdd = `${pasos}
+  let stringToAdd = `
 ::photo-discover
 ---
-imageurl: ${imagenDiscover}
+imageurl: ${imagen}
+title: ${tituloSEO}
 ---
 ::
+
 `;
-let indexPosition = spaces[1]
+let indexPosition = spaces[posicion]
 const newString = contenido.substring(0, indexPosition)
 + stringToAdd + contenido.substring(indexPosition)
-console.log('new String: ' + newString)
 return newString
 }
 
@@ -353,23 +372,22 @@ function limpiarArticulo(articulo) {
 
 async function createArticle() {
   let date = new Date().toUTCString().slice(5, 16);
-  let articulo = await chatgptMagic(getPromptArticulo(), 'gpt-4')
-  const descripcion = getDescription(articulo)
-  console.log('getDescription')
-  console.log(descripcion)
-  descripcionSEO = descripcion
-  pasosSEO = await chatgptMagic(getPromptPasosMasLinks(), 'gpt-4')
-  console.log('pasos SEO')
-  console.log(pasosSEO)
-  const anecdota = await chatgptMagic(getPromptAnecdotaPersonal(), 'gpt-4')
-  let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcion}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenDiscover}\n`
-  cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), descripcion, categoriaSEO, imagenDiscover, 'https://comolimpiarcomoexpertas.com/'+categoriaSEO+'/'+urlSEO)
+  let articulo = await chatgptMagic(getPromptArticulo(), 'gpt-4-1106-preview')
+  descripcionSEO = await chatgptMagic(promptDescription(), 'gpt-4-1106-preview')
+
+  // pasosSEO = await chatgptMagic(getPromptPasosMasLinks(), 'gpt-4-1106-preview')
+  // console.log('pasos SEO')
+  // console.log(pasosSEO)
+  // const anecdota = await chatgptMagic(getPromptAnecdotaPersonal(), 'gpt-4-1106-preview')
+  let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
+  cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), 'https://comolimpiarcomoexpertas.com/'+categoriaSEO+'/'+urlSEO)
   cabeceroMarkdown += '\n---\n'
   articulo = cabeceroMarkdown + articulo
-  articulo = limpiarArticulo(articulo)
+  // articulo = limpiarArticulo(articulo)
   articulo = addPicture(articulo, tituloSEO)
-  articulo = addDiscover(articulo, pasosSEO)
-  articulo = addAnecdota(articulo, anecdota)
+  articulo = addDiscover(articulo, imagenSecundariaSEO, 3)
+  articulo = addDiscover(articulo, imagenDiscoverSEO, 6)
+  // articulo = addAnecdota(articulo, anecdota)
 
   try {
     await fs.writeFile(articuloPathSEO, articulo)
@@ -391,7 +409,7 @@ async function processContent(contenido) {
   }
 }
 
-async function chatgptMagic(contenido, model = 'gpt-3.5-turbo') {
+async function chatgptMagic(contenido, model = 'gpt-4-1106-preview') {
     const completion = await openai.chat.completions.create({
         messages: [
             {
@@ -400,8 +418,8 @@ async function chatgptMagic(contenido, model = 'gpt-3.5-turbo') {
             }
         ],
         model: model,
-        max_tokens: 2500,
-        //     model: 'gpt-4',
+        max_tokens: 3500,
+        //     model: 'gpt-4-1106-preview',
       });
   return completion.choices[0].message.content
 }
@@ -410,10 +428,16 @@ async function obtenerImagen(titulo){
   const baseApiUrl = 'https://www.googleapis.com/youtube/v3';
   const url = `${baseApiUrl}/search?key=${youtubeApiKey}&type=video&part=snippet&q=${titulo}`
   const response = await axios.get(url)
-  console.log(response.data.items[0].snippet.thumbnails.high)
+  
 
   imagenPrincipalSEO = await downloadImage(response.data.items[0].snippet.thumbnails.high.url, "1");
   imagenSecundariaSEO = await downloadImage(response.data.items[1].snippet.thumbnails.high.url, "2");
+
+  console.log(`-- imagenPrincipalSEO: ${imagenPrincipalSEO} --`)
+  console.log(`-- imagenSecundariaSEO: ${imagenSecundariaSEO} --`)
+
+  await generateImage();
+  console.log(`-- imagenDiscoverSEO: ${imagenDiscoverSEO} --`)
 
 }
 for (let index = 0; index < 50; index++) {

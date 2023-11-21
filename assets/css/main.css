@@ -7,7 +7,7 @@
         @apply mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl;
     }
     h2 {
-        @apply mt-16 text-2xl font-bold tracking-tight text-gray-900;
+        @apply mt-12 text-2xl font-bold tracking-tight text-gray-900;
     }
 
     h3 {
@@ -15,10 +15,10 @@
     }
 
     p {
-        @apply mt-6;
+        @apply mt-4;
     }
 
-    ul {
+    ul, ol {
         @apply list-disc ml-12;
     }
 
