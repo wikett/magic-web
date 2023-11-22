@@ -40,11 +40,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { Dialog, DialogPanel } from '@headlessui/vue'
-import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
 
-const mobileMenuOpen = ref(false)
 let navigation = {
     social: [
       {
