@@ -79,7 +79,7 @@
         <div class="col-end-1 w-16 lg:row-span-4 lg:w-72">
           <img
               class="aspect-square object-cover rounded-xl bg-indigo-50 lg:rounded-3xl"
-              srcset="/img/autor-mobile 64w, 
+              srcset="/img/autor-mobile.webp 64w, 
                     /img/autor288.webp 288w"
               sizes="(max-width: 1024px) 64px,
                     288px"
