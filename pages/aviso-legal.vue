@@ -18,7 +18,7 @@
         </p>
         <p>
           En el momento en que accedas a este sitio web&nbsp;<strong>{{
-            websiteUrl
+            data.websiteName
           }}</strong
           ><strong>,</strong>&nbsp;asumes la condici&oacute;n de usuario, por lo
           que el contenido de este Aviso Legal te afecta directamente. Por eso, es
@@ -62,7 +62,7 @@
         <p><strong>DATOS DE IDENTIFICACI&Oacute;N</strong></p>
         <p>
           El responsable y titular de este sitio web es Teresa Ruiz
-           (En adelante<strong>&nbsp;{{ websiteUrl }}</strong
+           (En adelante<strong>&nbsp;{{ data.websiteName }}</strong
           >)
         </p>
         <ul>
@@ -76,14 +76,14 @@
             <strong>Actividad del sitio web</strong>: trucos de limpieza con posible muestra de publicidad, y recomendaci&oacute;n de productos
             de afiliado.
           </li>
-          <li><strong>Correo electr&oacute;nico</strong>: {{ emailContacto }}</li>
+          <li><strong>Correo electr&oacute;nico</strong>: {{ data.emailContacto }}</li>
         </ul>
         <p>
           Los datos que nos facilites con tu consentimiento, y de acuerdo al uso
           establecido en nuestra Pol&iacute;tica de Privacidad, ser&aacute;n
           incorporados a un fichero automatizado debidamente inscrito en la
           Agencia Espa&ntilde;ola de Protecci&oacute;n de Datos, en el que el
-          responsable de dicho fichero es:&nbsp;<strong>{{ websiteUrl }}</strong
+          responsable de dicho fichero es:&nbsp;<strong>{{ data.websiteName }}</strong
           ><strong>.&nbsp;</strong>Esto quiere decir que tus datos est&aacute;n
           seguros, de acuerdo a lo que establece la ley.
         </p>
@@ -117,7 +117,7 @@
           nuestra actividad.
         </p>
         <p>
-          Como responsable del sitio web,&nbsp;<strong>{{ websiteUrl }}</strong
+          Como responsable del sitio web,&nbsp;<strong>{{ data.websiteName }}</strong
           >&nbsp;podr&aacute; interrumpir el servicio de la p&aacute;gina que
           est&eacute; siendo utilizado por el usuario y resolver de modo inmediato
           la relaci&oacute;n si detecta un uso de la web o de cualquiera de los
@@ -137,7 +137,7 @@
         </p>
         <p>
           Como titular de este sitio web,<strong
-            >&nbsp;{{ websiteUrl }}&nbsp;</strong
+            >&nbsp;{{ data.websiteName }}&nbsp;</strong
           >no garantiza que los contenidos sean precisos o libres de error o que
           el libre uso de los mismos por parte de los usuarios no infrinja los
           derechos de terceras partes. El buen o mal uso de esta p&aacute;gina y
@@ -148,7 +148,7 @@
           copia, cesi&oacute;n o redifusi&oacute;n, total o parcial, de la
           informaci&oacute;n contenida en la p&aacute;gina, cualquiera que fuera
           su finalidad y el medio utilizado para ello, sin autorizaci&oacute;n
-          previa de&nbsp;<strong>{{ websiteUrl }}</strong
+          previa de&nbsp;<strong>{{ data.websiteName }}</strong
           ><strong>.</strong>
         </p>
         <p><strong>ENLACES O LINKS</strong></p>
@@ -156,7 +156,7 @@
           Este sitio web incluye enlaces o links a sitios de terceros. Las
           p&aacute;ginas pertenecientes a estos terceros no han sido revisadas ni
           son objeto de controles por nuestra parte, por lo que&nbsp;<strong>{{
-            websiteUrl
+            data.websiteName
           }}</strong
           >&nbsp;no podr&aacute; ser considerado responsable de los contenidos de
           estos sitios web, ni de las medidas que se adopten relativas a su
@@ -182,7 +182,7 @@
         <p><strong>LIMITACI&Oacute;N DE RESPONSABILIDAD</strong></p>
         <p>
           En ejercicio de su derecho como titular de esta web, te informamos de
-          que&nbsp;<strong>{{ websiteUrl }}</strong
+          que&nbsp;<strong>{{ data.websiteName }}</strong
           >no se hace responsable en ning&uacute;n caso de lo siguiente:
         </p>
         <p>
@@ -259,49 +259,37 @@
           </p>
           <p>
             En caso necesario, ante cualquier tipo de controversia de
-            car&aacute;cter legal,&nbsp;<strong>{{ websiteUrl }}</strong
+            car&aacute;cter legal,&nbsp;<strong>{{ data.websiteName }}</strong
             >&nbsp;y el usuario, con renuncia expresa a cualquier otro fuero, se
             someter&aacute;n a los Juzgados y Tribunales del domicilio del Usuario
             para cualquier controversia que pudiera derivarse.
           </p>
           <p>
             En el caso de que el usuario tenga su domicilio fuera de
-            Espa&ntilde;a,&nbsp;<strong>{{ websiteUrl }}</strong
+            Espa&ntilde;a,&nbsp;<strong>{{ data.websiteName }}</strong
             >y el usuario se someter&aacute;n, con renuncia expresa a cualquier
             otro fuero, a los juzgados y tribunales de Alicante (Espa&ntilde;a).
           </p>
           <p>
             Si tienes cualquier duda sobre este Aviso Legal, puedes enviarnos un
-            correo electr&oacute;nico a&nbsp;<strong>{{ emailContacto }}</strong
+            correo electr&oacute;nico a&nbsp;<strong>{{ data.emailContacto }}</strong
             >.
           </p>
         </div>
       </div>
     </div>
   </template>
-  <script>
-  export default {
-    name: 'AvisoLegal',
-    computed: {
-      websiteUrl() {
-        return 'www.comolimpiarcomoexpertas.com'
-      },
-      websiteName() {
-        return 'comolimpiarcomoexpertas.com'
-      },
-      emailContacto() {
-        return 'comolimpiarcomoexpertas@gmail.com'
-      },
-    },
-    head: {
-      title: 'Aviso Legal',
-      meta: [
-        {
-          hid: 'robots',
-          name: 'robots',
-          content: 'noindex,follow',
-        },
-      ],
-    },
-  }
-  </script>
+  <script setup>
+  const { data } = await useAsyncData('article', () => queryContent('/info').findOne())
+
+  useHead({
+  title: 'Política de cookies',
+  meta: [
+    { 
+      hid: 'robots',
+      name: 'robots',
+      content: 'noindex,follow'
+    }
+  ]
+})
+</script>

@@ -13,7 +13,7 @@
           <p>
             Si est&aacute;s aqu&iacute; es porque quieres saber m&aacute;s sobre
             las obligaciones y derechos que te corresponden como usuario de esta
-            web&nbsp;<strong>{{ websiteUrl }}</strong
+            web&nbsp;<strong>{{ data.websiteName }}</strong
             >&nbsp;y eso est&aacute; muy bien. Nuestro deber es informarte y el
             tuyo estar debidamente informado.
           </p>
@@ -65,7 +65,7 @@
           <p><strong>DATOS DE IDENTIFICACI&Oacute;N</strong></p>
           <p>
             El responsable y titular de este sitio web es&nbsp;<strong
-              >Enrique Aparicio Castellanos (En adelante {{ websiteUrl }})</strong
+              >Enrique Aparicio Castellanos (En adelante {{ data.websiteName }})</strong
             >
           </p>
           <ul>
@@ -86,7 +86,7 @@
             establecido en esta Pol&iacute;tica de Privacidad, ser&aacute;n
             incorporados a un fichero automatizado debidamente inscrito en la
             Agencia Espa&ntilde;ola de Protecci&oacute;n de Datos, en el que el
-            responsable de dicho fichero es:&nbsp;{{ websiteUrl }}.&nbsp;Esto
+            responsable de dicho fichero es:&nbsp;{{ data.websiteName }}.&nbsp;Esto
             quiere decir que tus datos est&aacute;n seguros, de acuerdo a lo que
             establece la ley.
           </p>
@@ -171,7 +171,7 @@
             tendr&aacute;n acceso a tus datos personales, con las excepciones
             reflejadas a continuaci&oacute;n, siendo en todo caso estas
             comunicaciones realizadas por parte de&nbsp;<strong
-              >{{ websiteUrl }}, como titular de la web.</strong
+              >{{ data.websiteName }}, como titular de la web.</strong
             >
           </p>
           <p>
@@ -194,7 +194,7 @@
             Estas p&aacute;ginas enlazadas y pertenecientes a terceros no han sido
             revisadas ni son objeto de controles, ni recomendaci&oacute;n por
             nuestra parte, por lo que en ning&uacute;n caso&nbsp;<strong
-              >{{ websiteUrl }}&nbsp;</strong
+              >{{ data.websiteName }}&nbsp;</strong
             >ser&aacute; considerada responsable de los contenidos de estos sitios
             web, de las responsabilidades derivadas de su uso en todos los
             &aacute;mbitos, ni por las medidas que se adopten relativas a la
@@ -212,7 +212,7 @@
           <p>
             Como usuario, eres el &uacute;nico responsable de la veracidad y
             modificaci&oacute;n de los datos que remitas a&nbsp;<strong>{{
-              websiteUrl
+              data.websiteName
             }}</strong
             >, exoner&aacute;ndonos de cualquier responsabilidad al respecto.
           </p>
@@ -364,7 +364,7 @@
           </p>
           <p><strong>MEDIDAS DE SEGURIDAD</strong></p>
           <p>
-            Como titular de la web<strong>, {{ websiteUrl }}</strong
+            Como titular de la web<strong>, {{ data.websiteName }}</strong
             >&nbsp;ha adoptado todas las medidas t&eacute;cnicas y de
             organizaci&oacute;n necesaria para garantizar la seguridad e
             integridad de los datos de car&aacute;cter personal que trate,
@@ -380,26 +380,17 @@
       </div>
     </div>
   </template>
-  <script>
-  export default {
-    name: 'Politica',
-    computed: {
-        websiteUrl() {
-        return 'www.comolimpiarcomoexpertas.com'
-      },
-      websiteName() {
-        return 'comolimpiarcomoexpertas.com'
-      },
-    },
-    head: {
-      title: 'Política de privacidad',
-      meta: [
-        {
-          hid: 'robots',
-          name: 'robots',
-          content: 'noindex,follow',
-        },
-      ],
-    },
-  }
-  </script>
+  <script setup>
+  const { data } = await useAsyncData('article', () => queryContent('/info').findOne())
+
+  useHead({
+  title: 'Política de cookies',
+  meta: [
+    { 
+      hid: 'robots',
+      name: 'robots',
+      content: 'noindex,follow'
+    }
+  ]
+})
+</script>

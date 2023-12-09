@@ -11,7 +11,7 @@
         <p><strong>POLITICA DE COOKIES</strong></p>
         <p>
           Si quieres saber m&aacute;s sobre el uso de cookies que realiza este
-          sitio web&nbsp;<strong>{{ websiteUrl }}</strong
+          sitio web&nbsp;<strong>{{ data.websiteName }}</strong
           ><strong>,</strong>&nbsp;est&aacute;s en el lugar indicado. &nbsp;A
           continuaci&oacute;n, vamos a explicarte qu&eacute; son exactamente las
           cookies; qu&eacute; tipo de cookies utilizamos y para qu&eacute;; y
@@ -103,7 +103,7 @@
           Para poder ofrecerte una mejor experiencia de usuario, obtener datos
           anal&iacute;ticos,&nbsp;almacenar y recuperar informaci&oacute;n sobre
           tus h&aacute;bitos de navegaci&oacute;n o de tu equipo y desarrollar su
-          actividad, este sitio web&nbsp;<strong>{{ websiteUrl }}</strong
+          actividad, este sitio web&nbsp;<strong>{{ data.websiteName }}</strong
           ><strong>,</strong>&nbsp;utiliza cookies propias y de terceros.
         </p>
         <p>
@@ -179,7 +179,7 @@
           <li>
             <strong>Cookies de terceros</strong>: Esta web&nbsp;<strong
               >https://</strong
-            ><strong>{{ websiteUrl }}</strong
+            ><strong>{{ data.websiteName }}</strong
             >&nbsp;puede utilizar servicios de terceros que, por cuenta de Google,
             recopilar&aacute;n informaci&oacute;n con fines estad&iacute;sticos,
             de uso del sitio por parte del usuario y para la prestaci&oacute;n de
@@ -252,26 +252,17 @@
       </div>
     </div>
   </template>
-  <script>
-  export default {
-    name: 'Cookies',
-    computed: {
-        websiteUrl() {
-        return 'www.comolimpiarcomoexpertas.com'
-      },
-      websiteName() {
-        return 'comolimpiarcomoexpertas.com'
-      },
-    },
-    head: {
-      title: 'Política de cookies',
-      meta: [
-        {
-          hid: 'robots',
-          name: 'robots',
-          content: 'noindex,follow',
-        },
-      ],
-    },
-  }
+  <script setup>
+    const { data } = await useAsyncData('article', () => queryContent('/info').findOne())
+
+    useHead({
+    title: 'Política de cookies',
+    meta: [
+      { 
+        hid: 'robots',
+        name: 'robots',
+        content: 'noindex,follow'
+      }
+    ]
+  })
   </script>

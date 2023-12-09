@@ -6,4 +6,7 @@
         </div>   
         <TheFooter />
     </div>
-</template> 
+</template>
+<script setup>
+
+</script>

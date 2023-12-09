@@ -16,10 +16,7 @@
                 </div>
               </div>
               <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Mayte y Diana: expertas en limpieza</h1>
-              <p class="mt-6 text-lg leading-8 text-gray-600">¡Hola a todos! Mi hija y yo estamos comenzando una nueva aventura. </p>
-                <p class="mt-6 text-lg leading-8 text-gray-600">Hemos decidido compartir con el mundo nuestros trucos y tips sobre cómo mantener nuestra casa, ropa y otras cositas limpia y reluciente.</p>
-                <p class="mt-6 text-lg leading-8 text-gray-600">Este viaje comienza con la creación de nuestro blog, dedicado a enseñar cómo limpiar desde sofás hasta ropa y muebles de manera efectiva, ecológica y económica. ¿Quién iba a decir que esos viejos trucos de la abuela iban a ser tan útiles? </p>
-                <p class="mt-6 text-lg leading-8 text-gray-600">Estamos entusiasmadas por compartir todos nuestros secretos e ideas y esperamos que les puedan ser de gran ayuda. ¡Nos vemos pronto en nuestra nueva aventura digital!</p>
+              <div v-html="data.authorsDescription" ></div>
               <div class="mt-10 flex items-center gap-x-6">
                 <div class="flex space-x-6">
                   <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-500 hover:text-gray-400">
@@ -33,7 +30,7 @@
         </div>
       </div>
       <div class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img class="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full" src="/img/mayte-y-diana.png" alt="Mayte y Diana" />
+        <img class="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full" src="/img/autor.webp" :alt="data.author" />
       </div>
     </div>
   </div>
@@ -41,11 +38,13 @@
 
 <script setup>
 
+const { data } = await useAsyncData('article', () => queryContent('/info').findOne())
+
 let navigation = {
     social: [
       {
         name: 'Facebook',
-        href: 'https://www.facebook.com/groups/827877335714291/',
+        href: data.value?.facebookUrl,
         icon: defineComponent({
           render: () =>
             h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -59,7 +58,7 @@ let navigation = {
       },
       {
       name: 'Instagram',
-      href: 'https://www.instagram.com/car.tulinasdecolores/',
+      href: data.value?.instagramUrl,
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -73,7 +72,7 @@ let navigation = {
     },
       {
         name: 'Twitter',
-        href: 'https://twitter.com/mayteydiana',
+        href: data.value?.xUrl,
         icon: defineComponent({
           render: () =>
             h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [

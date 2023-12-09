@@ -180,8 +180,10 @@ async function generateImage() {
   console.log('Generando imagen for: '+tituloSEOEnglish)
   const image = await openai.images.generate(
     {
-      size: '1024x1024',
-      prompt: `a photograph of someone doing '${tituloSEOEnglish}', realistic` 
+      model: "dall-e-3",
+      prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a photograph of someone doing '${tituloSEOEnglish}', realistic`,
+      n: 1,
+      size: "1024x1024", 
     });
 
   imagenDiscover = image.data[0].url
@@ -375,7 +377,7 @@ async function createArticle() {
   // console.log('pasos SEO')
   // console.log(pasosSEO)
   // const anecdota = await chatgptMagic(getPromptAnecdotaPersonal(), 'gpt-4-1106-preview')
-  let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
+  let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenDiscoverSEO}\n`
   cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), 'https://comolimpiarcomoexpertas.com/'+categoriaSEO+'/'+urlSEO)
   cabeceroMarkdown += '\n---\n'
   articulo = cabeceroMarkdown + articulo
@@ -436,10 +438,10 @@ async function obtenerImagen(titulo){
   console.log(`-- imagenDiscoverSEO: ${imagenDiscoverSEO} --`)
 
 }
-for (let index = 0; index < 50; index++) {
-  console.log('Calculando articulo: '+index)
-  await obtenerCategoria();  
-}
+// for (let index = 0; index < 50; index++) {
+//   console.log('Calculando articulo: '+index)
+//   await obtenerCategoria();  
+// }
 
-// await obtenerCategoria();  
+await obtenerCategoria();  
 

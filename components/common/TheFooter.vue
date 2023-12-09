@@ -4,14 +4,7 @@
       <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div class="xl:grid xl:grid-cols-3 xl:gap-8">
           <div class="space-y-8">
-            <!-- <img
-              srcset="/img/mayte-y-diana-logo-mobile.webp 64w, 
-                    /img/mayte-y-diana-logo.webp 288w"
-              sizes="(max-width: 1024px) 64px,
-                    288px"
-              src="/img/mayte-y-diana-logo-mobile.webp"
-              alt="mayte y diana" /> -->
-            <p class="text-sm leading-6 text-gray-300">¡Hola a todos! Somos Mayte y Diana, madre e hija adictas a la limpieza. Hemos decidido compartir con el mundo nuestros trucos y tips sobre cómo mantener nuestra casa, ropa y otras cositas limpia y reluciente.</p>
+            <p class="text-sm leading-6 text-gray-300">{{ data.authorsSmallDescription }}</p>
             <div class="flex space-x-6">
               <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-500 hover:text-gray-400">
                 <span class="sr-only">{{ item.name }}</span>
@@ -27,8 +20,8 @@
               <div class="mt-10 md:mt-0">
                 <h3 class="text-sm font-semibold leading-6 text-white">Otros artículos</h3>
                 <ul role="list" class="list-none ml-0 mt-6 space-y-4">
-                  <li v-for="item in navigation.support" :key="item.name">
-                    <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
+                  <li v-for="item in articles.data._rawValue" :key="item.title">
+                    <a :href="item.url" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.title }}</a>
                   </li>
                 </ul>
               </div>
@@ -37,7 +30,7 @@
               <div>
                 <h3 class="text-sm font-semibold leading-6 text-white">Nosotr@s</h3>
                 <ul role="list" class="list-none ml-0 mt-6 space-y-4">
-                  <li v-for="item in navigation.company" :key="item.name">
+                  <li v-for="item in data.company" :key="item.name">
                     <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
                   </li>
                 </ul>
@@ -45,7 +38,7 @@
               <div class="mt-10 md:mt-0">
                 <h3 class="text-sm font-semibold leading-6 text-white">Legal</h3>
                 <ul role="list" class="list-none ml-0 mt-6 space-y-4">
-                  <li v-for="item in navigation.legal" :key="item.name">
+                  <li v-for="item in data.legal" :key="item.name">
                     <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
                   </li>
                 </ul>
@@ -54,7 +47,7 @@
           </div>
         </div>
         <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-          <p class="text-xs leading-5 text-gray-400">&copy; {{ year }} comolimpiarcomoexpertas.com Todos los derechos reservados.</p>
+          <p class="text-xs leading-5 text-gray-400">&copy; {{ year }} {{ data.domain }} Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
@@ -62,43 +55,16 @@
   
   <script setup>
   import { defineComponent, h } from 'vue'
+  const { data } = await useAsyncData('article', () => queryContent('/info').findOne())
+  const articles = await useAsyncData('home', () => queryContent('/').sort({ published_time: 1}).limit(4).find())
   const fechaActual = (new Date()).getFullYear()
   const year = ref(fechaActual)
-  let lastArticles = [
-    {
-      name: 'Limpiar Zapatillas Blancas',
-      href: '/ropa/como-limpiar-zapatillas-blancas'
-    },
-    {
-      name: 'Limpiar Plancha Quemada con Vinagre',
-      href: '/hogar/como-limpiar-la-plancha-quemada'
-    },
-    {
-      name: 'Cómo limpiar la vitrocerámica',
-      href: '/hogar/como-limpiar-la-vitroceramica'
-    },
-    {
-      name: 'Cómo limpiar el microondas',
-      href: '/hogar/como-limpiar-el-microondas'
-    },
-  ]
-  
+
   let navigation = {
-    solutions: [],
-    support: lastArticles,
-    company: [
-      { name: 'Quienes somos', href: '/quienes-somos' },
-      { name: 'Contacto', href: '/contacto' },
-    ],
-    legal: [
-      { name: 'Aviso legal', href: '/aviso-legal' },
-      { name: 'Política de cookies', href: '/politica-de-cookies' },
-      { name: 'Política de privacidad', href: '/politica-de-privacidad' },
-    ],
     social: [
       {
         name: 'Facebook',
-        href: 'https://www.facebook.com/groups/827877335714291/',
+        href: data.value?.facebookUrl,
         icon: defineComponent({
           render: () =>
             h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -112,7 +78,7 @@
       },
       {
       name: 'Instagram',
-      href: 'https://www.instagram.com/car.tulinasdecolores/',
+      href: data.value?.instagramUrl,
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -126,7 +92,7 @@
     },
       {
         name: 'Twitter',
-        href: 'https://twitter.com/mayteydiana',
+        href: data.value?.xUrl,
         icon: defineComponent({
           render: () =>
             h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [

@@ -1,0 +1,123 @@
+{
+    "title": "Cómo limpiar como expertas: un blog de limpieza a fondo",
+    "author": "Mayte y Diana",
+    "authors": "Mayte y Diana, madre e hija con una extraña adicción a la limpieza.",
+    "authorsDescription": "<p class='text-lg leading-8 text-gray-600'><strong>¡Hola a todos!</strong> Mi hija y yo estamos comenzando una nueva aventura. Hemos decidido compartir con el mundo <strong>nuestros trucos</strong> y tips sobre cómo mantener nuestra casa, ropa y otras cositas <strong>limpia y reluciente</strong>. Este viaje comienza con la creación de nuestro blog, dedicado a enseñar <strong>cómo limpiar</strong> desde sofás hasta ropa y muebles de manera efectiva, ecológica y económica 🧽. ¿Quién iba a decir que esos viejos trucos de la abuela iban a ser tan útiles? 👩‍👧 Estamos entusiasmadas por compartir todos <strong>nuestros secretos e ideas</strong> y esperamos que les puedan ser de gran ayuda. ¡Nos vemos pronto en nuestra nueva aventura digital!</p>",
+    "authorsSmallDescription": "¡Hola a todos! Somos Mayte y Diana, madre e hija adictas a la limpieza. Hemos decidido compartir con el mundo nuestros trucos y tips sobre cómo mantener nuestra casa, ropa y otras cositas limpia y reluciente.",
+    "description": "Mayte y Diana expertas en limpieza explican en este blog muchos trucos sobre como limpiar todo lo que se nos ocurra.",
+    "domain": "https://comolimpiarcomoexpertas.com",
+    "websiteName": "comolimpiarcomoexpertas.com",
+    "emailContacto": "comolimpiarcomoexpertas@gmail.com",
+    "navigation": [
+        { 
+            "name": "Hogar",
+            "href": "/hogar"
+        },
+        { 
+            "name": "Ropa",
+            "href": "/ropa"
+        },
+        { 
+            "name": "Tecnología",
+            "href": "/tecnologia"
+        },
+        { 
+            "name": "Otros",
+            "href": "/otros"
+        },
+        { 
+            "name": "Quienes somos",
+            "href": "/quienes-somos"
+        },
+        { 
+            "name": "Contacto",
+            "href": "/contacto"
+        }
+    ],
+    "company": [
+        { "name": "Quienes somos", "href": "/quienes-somos" },
+        { "name": "Contacto", "href": "/contacto" }
+      ],
+    "legal": [
+        { "name": "Aviso legal", "href": "/aviso-legal" },
+        { "name": "Política de cookies", "href": "/politica-de-cookies" },
+        { "name": "Política de privacidad", "href": "/politica-de-privacidad" }
+    ],
+    "facebookUrl": "https://www.facebook.com/groups/827877335714291/",
+    "instagramUrl": "https://www.instagram.com/car.tulinasdecolores/",
+    "xUrl": "https://twitter.com/mayteydiana",
+    "amazonDescription": "Después de mucho limpiar y probar muchos productos, podemos recomendar algunas marcas que realmente nos han funcionado",
+    "amazon": [
+        {
+            "image": "/img/amazon-basics.webp",
+            "url": "https://amzn.to/40Ggm4S",
+            "title": "Amazon basics"
+        },
+        {
+            "image": "/img/vanish.webp",
+            "url": "https://amzn.to/3MI7uWC",
+            "title": "Vanish"
+        },
+        {
+            "image": "/img/fairy.webp",
+            "url": "https://amzn.to/3syLiHw",
+            "title": "Fairy"
+        },
+        {
+            "image": "/img/frosch.webp",
+            "url": "https://amzn.to/47f4oS3",
+            "title": "Frosch"
+        },
+        {
+            "image": "/img/sanytol.webp",
+            "url": "https://amzn.to/3SHw79z",
+            "title": "Sanytol"
+        }
+    ],
+    "category": "Cómo limpiar",
+    "categoryDescription": "zapatos, sofas, una mesa, o el frigorífico. Aquí te contamos los trucos para poder limpiar cualquier cosa que se manche 😀\n También contamos con Diana, estudiante de informática, que nos ayudará a tener nuestra tecnología limpia: limpiar nuestro teléfono móvil, portatil o Mac 💻, toda una crack!",
+    "categoryImages": [
+        {
+            "image": "/img/productos-de-limpieza.png",
+            "title": "productos de limpieza para casa"
+        },
+        {
+            "image": "/img/como-limpiar-la-lavadora.png",
+            "title": "productos de limpieza"
+        },
+        {
+            "image": "/img/como-limpiar-la-plata.png",
+            "title": "como limpiar plata"
+        },
+        {
+            "image": "/img/como-limpiar-zapatillas-blancas.png",
+            "title": "como limpiar zapatillas blancas"
+        }
+        
+    ],
+    "tiendaAmiga": [
+        {
+            "description": "Siempre nos gusta colaborar con aquella tienda de cercanía, que tiene buen trato y unos productos excelentes. La Droguería de percon es nuestra opción.",
+            "link": "https://www.awin1.com/cread.php?awinmid=63006&awinaffid=848509&ued=https%3A%2F%2Fladrogueria.com%2F",
+            "alt": "La droguería de percon",
+            "image": "/img/la-drogueria-de-percon.webp"
+        }
+    ],
+    "datosCuriosos": [
+        {
+            "title": "📺",
+            "description": "Los mandos a distancia son uno de los objetos más sucios de una casa. No suelen limpiarse a menudo, por no hablar de que todo el mundo los toca, ¡y a veces incluso con las manos sucias!",
+            "color": "bg-orange-900"
+        },
+        {
+            "title": "250 calorías",
+            "description": "La limpieza no solamente ayuda a mejorar el aspecto de nuestro hogar, ¡también quema calorías! ¿Sabías que puedes quemar hasta 100 calorías por hora con una limpieza ligera y hasta 250 con una limpieza más intensiva?",
+            "color": "bg-orange-900"
+        },
+        {
+            "title": "200,000",
+            "description": "Las bayetas de cocina pueden contener unas 200,000 bacterias. Eso es unas 200 veces más que una taza de baño. Por eso es importante lavarlas con regularidad.",
+            "color": "bg-orange-900"
+        }
+    ]
+}

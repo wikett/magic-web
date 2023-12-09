@@ -26,3 +26,4 @@ logs
 client_secret.json
 keywords.txt
 keywords.back.txt
+detectar-tematica.py

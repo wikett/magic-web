@@ -8,7 +8,6 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxt/content',
-    '@zadigetvoltaire/nuxt-gtm',
     'nuxt-simple-sitemap',
     'nuxt-jsonld'
   ],
@@ -34,30 +33,6 @@ export default defineNuxtConfig({
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       htmlAttrs: { dir: 'ltr', lang: 'es'}
-    }
-  },
-  gtm: {
-    id: 'GTM-N7BN33VN',
-    defer: true,
-    compatibility: false,
-    nonce: '2726c7f26c',
-    enabled: true,
-    debug: true,
-    trackOnNextTick: false,
-    devtools: true,
-  },
-  runtimeConfig: {
-    public: {
-      gtm: {
-        id: 'GTM-N7BN33VN',
-        defer: true,
-        compatibility: false,
-        nonce: '2726c7f26c',
-        enabled: true,
-        debug: true,
-        trackOnNextTick: false,
-        devtools: true,
-      }
     }
   }
 })
