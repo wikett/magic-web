@@ -4,10 +4,11 @@
         <div class="flex lg:flex-1">
           <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">{{ data.domain }}</span>
-            <img 
+            <img
+
             class="h-14 w-auto" 
             src="/img/logo.webp"
-            width="167" height="56" :alt="data.domain" />
+            width="167" height="56" :alt="data.domain" :title="data.domain" />
           </a>
         </div>
         <div class="flex lg:hidden">
@@ -29,7 +30,7 @@
               <span class="sr-only">{{ data.domain }}</span>
               <img 
                 class="h-14 w-auto" 
-                src="/img/logo.webp" width="167" height="56" :alt="data.domain" />
+                src="/img/logo.webp" width="167" height="56" :alt="data.domain" :title="data.domain" />
             </a>
             <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-400" @click="mobileMenuOpen = false">
               <span class="sr-only">Close menu</span>

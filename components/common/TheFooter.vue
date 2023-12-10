@@ -21,7 +21,7 @@
                 <h3 class="text-sm font-semibold leading-6 text-white">Otros artículos</h3>
                 <ul role="list" class="list-none ml-0 mt-6 space-y-4">
                   <li v-for="item in articles.data._rawValue" :key="item.title">
-                    <a :href="item.url" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.title }}</a>
+                    <a :href="item._path" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.title }}</a>
                   </li>
                 </ul>
               </div>

@@ -296,6 +296,12 @@ function getDescription(contenido) {
   return description.replaceAll(':', ' ')
 }
 
+function addDate(contenido) {
+  let date = new Date().toUTCString().slice(5, 16);
+  let stringToAdd = `\n\n_Artículo publicado el ${date}_`;
+  return contenido + stringToAdd
+}
+
 function addPicture(contenido, caption) {
   // Input String
   const searchTerm = "## ";
@@ -381,6 +387,7 @@ async function createArticle() {
   cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), 'https://comolimpiarcomoexpertas.com/'+categoriaSEO+'/'+urlSEO)
   cabeceroMarkdown += '\n---\n'
   articulo = cabeceroMarkdown + articulo
+  articulo = addDate(articulo)
   // articulo = limpiarArticulo(articulo)
   articulo = addPicture(articulo, tituloSEO)
   articulo = addDiscover(articulo, imagenSecundariaSEO, 3)

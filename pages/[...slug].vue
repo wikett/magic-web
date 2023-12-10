@@ -193,7 +193,8 @@ useHead({
     { rel: 'canonical', href: `https://comolimpiarcomoexpertas.com${route.path}`}
   ]
 })
-useJsonld({
+useJsonld([
+  {
   '@context': 'https://schema.org',
   '@type': 'Article',
   'headline': data.value?.title,
@@ -219,6 +220,23 @@ useJsonld({
     }
   },
   'datePublished': data.value?.published_time
-});
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    'headline': data.value?.title,
+    'image': [
+      data.value?.imageUrl
+    ],
+    'datePublished': data.value?.published_time,
+    'dateModified': data.value?.published_time,
+    'author': {
+    '@type': 'Person',
+    'name': 'Mayte y Diana',
+    'url': 'https://comolimpiarcomoexpertas.com/quienes-somos'
+  }
+  }
+  ]
+);
 </script>
   
