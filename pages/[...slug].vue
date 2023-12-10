@@ -225,9 +225,12 @@ useJsonld([
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
     'headline': data.value?.title,
-    'image': [
-      data.value?.imageUrl
-    ],
+    'image': {
+      '@type': 'ImageObject',
+      'url': data.value?.imageUrl,
+      'width': '1024',
+      'height': '1024'
+    },
     'datePublished': data.value?.published_time,
     'dateModified': data.value?.published_time,
     'author': {
