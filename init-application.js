@@ -4,6 +4,7 @@ import fs from 'fs/promises'
 import slugify from '@sindresorhus/slugify';
 import axios from 'axios'
 import sharp from 'sharp';
+import { info } from 'console';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_GPT_API
@@ -172,6 +173,8 @@ async function writeJsonToFile() {
     infoJson.domain = ""
     infoJson.websiteName = ""
     infoJson.emailContacto = ""
+    infoJson.footer = ""
+    infoJson.footerLink = ""
     infoJson.navigation = [
       { 
           "name": "Hogar",

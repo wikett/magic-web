@@ -134,13 +134,18 @@ function asignarCategoria(categoria) {
   return 'otros'
 }
 
-async function downloadImage(urlYoutube, sufijo) {
+async function downloadImage(urlYoutube, sufijo, imageName) {
   try {
       const url = urlYoutube;
       const extension = sufijo === "3" ? "png" : "jpg"
-      const path = `./public/img/content/${urlSEO}_${sufijo}.${extension}` 
-      const pathWebp = `./public/img/content/${urlSEO}_${sufijo}.webp`
+      let path = `./public/img/content/${urlSEO}_${sufijo}.${extension}` 
+      let pathWebp = `./public/img/content/${urlSEO}_${sufijo}.webp`
       const publicPicture = `https://comolimpiarcomoexpertas.com/img/content/${urlSEO}_${sufijo}.webp`
+      if (sufijo === "4") {
+        path = `./public/img/${imageName}.${extension}`
+        pathWebp = `./public/img/${imageName}.webp`
+      }
+      
 
       const response = await axios.get(url, { responseType: 'stream' });
       if(response.status === 200) {
@@ -175,6 +180,22 @@ async function downloadImage(urlYoutube, sufijo) {
       console.error("An error occurred while downloading the image: ", error);
   }
 }
+
+async function generateDalle3Image(subject, fileName) {
+  console.log('Generando imagen DALLE 3 for: '+subject)
+  const image = await openai.images.generate(
+    {
+      model: "dall-e-3",
+      prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', realistic`,
+      n: 1,
+      size: "1024x1024", 
+    });
+
+  imagenDiscover = image.data[0].url
+
+  await downloadImage(imagenDiscover, "4", slugify(fileName, {separator: '-'}))
+}
+
 
 async function generateImage() {
   console.log('Generando imagen for: '+tituloSEOEnglish)
@@ -450,5 +471,7 @@ async function obtenerImagen(titulo){
 //   await obtenerCategoria();  
 // }
 
-await obtenerCategoria();  
+// await obtenerCategoria();  
 
+// Generacion imagenes DALLE 3
+generateDalle3Image('Meteor Impact On Earth', 'colision meteoro')

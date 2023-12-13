@@ -18,8 +18,14 @@
               <a :href="link" :alt="alt" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Ver productos</a>
             </div>
           </div>
-          <div class="relative mt-16 h-80 lg:mt-8">
-            <a :href="link" :alt="alt"><img class="absolute left-0 top-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10" :src="image" :alt="alt" width="600" height="540" /></a>
+          <div class="mt-16 h-80">
+            <a :href="link" :alt="alt">
+              <img 
+                class=""
+                :src="image"
+                :alt="alt"
+                width="600"
+                height="540" /></a>
           </div>
         </div>
       </div>
