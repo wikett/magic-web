@@ -61,13 +61,13 @@
         </p>
         <p><strong>DATOS DE IDENTIFICACI&Oacute;N</strong></p>
         <p>
-          El responsable y titular de este sitio web es Teresa Ruiz
+          El responsable y titular de este sitio web es Enrique Aparicio
            (En adelante<strong>&nbsp;{{ data.websiteName }}</strong
           >)
         </p>
         <ul>
           <li>
-            <strong>Nombre:&nbsp;</strong>&nbsp;Teresa Ruiz
+            <strong>Nombre:&nbsp;</strong>&nbsp;Enrique Aparicio
           </li>
           <li>
             <strong>Domicilio:</strong>&nbsp;Av. Denia 45 03013, Alicante

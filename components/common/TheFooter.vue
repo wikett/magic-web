@@ -47,7 +47,8 @@
           </div>
         </div>
         <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-          <p class="text-xs leading-5 text-gray-400">&copy; {{ year }} {{ data.domain }} Todos los derechos reservados.</p>
+          <span class="text-xs leading-5 text-gray-400">&copy; {{ year }} {{ data.domain }} Todos los derechos reservados. </span>
+          <a class="text-xs leading-5 text-gray-400" :href="data.footerLink"> {{ data.footer }}</a>
         </div>
       </div>
     </footer>
@@ -56,7 +57,7 @@
   <script setup>
   import { defineComponent, h } from 'vue'
   const { data } = await useAsyncData('article', () => queryContent('/info').findOne())
-  const articles = await useAsyncData('home', () => queryContent('/').sort({ published_time: 1}).limit(4).find())
+  const articles = await useAsyncData('home', () => queryContent('/').where({ title: { $ne: 'Astroingeo Blog'}}).sort({ published_time: 1}).limit(4).find())
   const fechaActual = (new Date()).getFullYear()
   const year = ref(fechaActual)
 

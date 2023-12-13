@@ -70,7 +70,7 @@
           </p>
           <ul>
           <li>
-            <strong>Nombre:&nbsp;</strong>&nbsp;Teresa Ruiz
+            <strong>Nombre:&nbsp;</strong>&nbsp;Enrique Aparicio
           </li>
           <li>
             <strong>Domicilio:</strong>&nbsp;Av. Denia 45 03013, Alicante

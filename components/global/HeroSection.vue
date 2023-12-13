@@ -15,7 +15,7 @@
                   Con cualquier duda o consulta, utiliza nuestro formulario de <a href="/contacto" class="whitespace-nowrap font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true" />contacto <span aria-hidden="true">&rarr;</span></a>
                 </div>
               </div>
-              <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Mayte y Diana: expertas en limpieza</h1>
+              <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">{{ data.author }}</h1>
               <div v-html="data.authorsDescription" ></div>
               <div class="mt-10 flex items-center gap-x-6">
                 <div class="flex space-x-6">

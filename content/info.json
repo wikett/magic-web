@@ -8,6 +8,8 @@
   "domain": "blog.astroingeo.org",
   "websiteName": "Astroingeo Blog",
   "emailContacto": "astroingeo@gmail.com",
+  "footer": "Web hija de astroingeo.org",
+  "footerLink": "https://astroingeo.org",
   "navigation": [
     {
       "name": "Hogar",
@@ -83,28 +85,28 @@
   "categoryDescription": "Escribir un blog de Astronomía es embarcarse en una odisea cósmica. Puedes explorar temas fascinantes: desde las maravillas de sistemas exoplanetarios hasta las peculiares propiedades de las estrellas de neutrones. Comparte guías de observación, debate teorías científicas actualizadas, y crea una comunidad unida por el asombro del universo infinito.",
   "categoryImages": [
     {
-      "image": "/img/productos-de-limpieza.png",
-      "title": "productos de limpieza para casa"
+      "image": "/img/colision-meteoro.webp",
+      "title": "Colión meteoro con la Tierra"
     },
     {
-      "image": "/img/como-limpiar-la-lavadora.png",
-      "title": "productos de limpieza"
+      "image": "/img/aurora-boreal.webp",
+      "title": "Auroras boreales en Lofoten"
     },
     {
-      "image": "/img/como-limpiar-la-plata.png",
-      "title": "como limpiar plata"
+      "image": "/img/the-milky-way.webp",
+      "title": "Vía Lactea"
     },
     {
-      "image": "/img/como-limpiar-zapatillas-blancas.png",
-      "title": "como limpiar zapatillas blancas"
+      "image": "/img/nebulosa.webp",
+      "title": "Nebulosa"
     }
   ],
   "tiendaAmiga": [
     {
-      "description": "Siempre nos gusta colaborar con aquella tienda de cercanía, que tiene buen trato y unos productos excelentes. La Droguería de percon es nuestra opción.",
-      "link": "https://www.awin1.com/cread.php?awinmid=63006&awinaffid=848509&ued=https%3A%2F%2Fladrogueria.com%2F",
-      "alt": "La droguería de percon",
-      "image": "/img/la-drogueria-de-percon.webp"
+      "description": "Siempre nos gusta colaborar con aquella tienda de cercanía, que tiene buen trato y unos productos excelentes. Astroshop es nuestra opción.",
+      "link": "https://www.astroshop.es/?affiliate_id=astroingeo",
+      "alt": "Astroshop",
+      "image": "/img/astroshop.webp"
     }
   ],
   "datosCuriososParaBorrar": "\n   Aunque el helio es el segundo elemento más abundante en el universo, fue identificado por primera vez no en nuestro planeta, sino en el Sol durante un eclipse en 1868. Los astrónomos Pierre Janssen y Norman Lockyer observaron una línea espectral amarilla en la luz solar que no coincidía con ningún elemento conocido en la Tierra. Más tarde, nombraron este nuevo elemento \"helio\" por Helios, el dios griego del Sol.\n\n2. **Venus rota al revés:**\n   Venus tiene una rotación única en el sistema solar; gira sobre su eje en la dirección opuesta a la de la Tierra y la mayoría de los otros planetas. Esto significa que el Sol sale por el oeste y se pone por el este en Venus. Además, su rotación es extremadamente lenta; un día venusino es más largo que un año venusino.\n\n3. **La montaña más alta conocida está en Marte:**\n   El Monte Olimpo, o Olympus Mons, es un enorme volcán en Marte que mide aproximadamente 22 km de altura. Si lo comparamos con la montaña más alta de la Tierra, el Monte Everest, que mide cerca de 8.8 km, Olympus Mons es unas 2.5 veces más alto y es considerado el pico más alto del sistema solar. Su base es aproximadamente del tamaño del estado de Nuevo México, lo que lo convierte en un coloso en términos geográficos.",
