@@ -12,13 +12,13 @@ const openai = new OpenAI({
 const dominio = "blog.astroingeo.org"
 const categoriaWeb = "Astronomía"
 const category = "astronomy"
-const autores = "Mario"
+const autores = "Enrique Aparicio"
 const expertos = "experto en astronomía"
 const infoQuienesSomos = "explicacion"
-const urlFacebook = ""
+const urlFacebook = "https://cvnet.cpd.ua.es/curriculum-breve/es/aparicio-arias-enrique-jesus/9322"
 const urlInstagram = ""
 const urlX = ""
-const urlLinkedin = ""
+const urlLinkedin = "https://www.linkedin.com/in/enrique-aparicio-arias-861040b1/?originalSubdomain=es"
 
 const infoJson = {}
 
