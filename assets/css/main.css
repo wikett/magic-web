@@ -24,6 +24,14 @@
 
 
     blockquote {
-        @apply font-semibold text-gray-900
+        @apply font-semibold text-gray-900;
+    }
+
+    a {
+        @apply text-blue-500;
+    }
+
+    a:hover {
+        @apply hover:text-blue-300;
     }
 }

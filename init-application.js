@@ -124,7 +124,7 @@ async function createInfo() {
   descripcionSEO = await chatgptMagic(promptDescription(), 'gpt-4-1106-preview')
 
   let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
-  cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), 'https://comolimpiarcomoexpertas.com/'+categoriaSEO+'/'+urlSEO)
+  cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEO)
   cabeceroMarkdown += '\n---\n'
   articulo = cabeceroMarkdown + articulo
   // articulo = limpiarArticulo(articulo)

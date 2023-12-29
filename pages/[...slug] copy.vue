@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white px-6 py-8 lg:px-8">
-    <div class="mx-auto max-w-4xl text-base leading-7 text-gray-700">
+    <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
       <TransitionRoot as="template" :show="open">
         <Dialog as="div" class="relative z-10" @close="open = false">
           <div class="fixed inset-0" />
@@ -42,15 +42,25 @@
         </Dialog>
       </TransitionRoot>
       
-      <div class="max-w-4xl">
+      <div class="max-w-2xl">
         <a href="#" class="cursor-pointer" @click="open = true">📰 Tabla de Contenido</a>
-        <ContentDoc v-slot="{ doc }">        
+        <ContentDoc v-slot="{ doc }">
+          <!-- <a :href="`/${doc.category}`">
+            <p class="text-base font-semibold leading-7 text-indigo-600">{{ doc.category.charAt(0).toUpperCase() + doc.category.slice(1)  }}</p>
+          </a> -->
           
-        <ContentRenderer :value="doc" />
+          
+          <ContentRenderer :value="doc" />
+          <!-- <figure class="mt-16">
+            <img class="w-full rounded-xl bg-gray-50 object-cover" :src="doc.imageUrl" :alt="doc.title" />
+            <figcaption class="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
+              <InformationCircleIcon class="mt-0.5 h-5 w-5 flex-none text-gray-300" aria-hidden="true" />
+              {{ doc.title  }}
+            </figcaption>
+          </figure> -->
         </ContentDoc>
         
       </div>
-
       <section class="isolate overflow-hidden bg-white px-6 lg:px-8">
     <div class="relative mx-auto max-w-2xl py-24 sm:py-32 lg:max-w-4xl">
       <div class="absolute left-1/2 top-0 -z-10 h-[50rem] w-[90rem] -translate-x-1/2 bg-[radial-gradient(50%_100%_at_top,theme(colors.indigo.100),white)] opacity-20 lg:left-36" />
@@ -63,7 +73,7 @@
             <use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x="86" />
           </svg> -->
           <blockquote class="text-xl font-semibold italic leading-8 text-gray-900 sm:text-xl sm:leading-9">
-            <p>{{ data.authorsSmallDescription }}</p>
+            <p>¡Hola a todos! Somos Mayte y Diana, madre e hija adictas a la limpieza. Hemos decidido compartir con el mundo nuestros trucos y tips sobre cómo mantener nuestra casa, ropa y otras cositas limpia y reluciente.</p>
           </blockquote>
         </div>
         <div class="col-end-1 w-16 lg:row-span-4 lg:w-72">
@@ -74,39 +84,39 @@
               sizes="(max-width: 1024px) 64px,
                     288px"
               src="/img/autor288.webp"
-              :alt="data.autores"
-              :title="data.autores"
+              alt="Mayte y Diana"
+              title="Mayte y Diana"
               loading="lazy" />
         </div>
         <figcaption class="text-base lg:col-start-1 lg:row-start-3">
-          <div class="font-semibold text-blue-900"><a href="/quienes-somos">{{ data.autores }}</a></div>
+          <div class="font-semibold text-blue-900"><a href="/quienes-somos">Mayte y Diana</a></div>
           <div class="flex my-3 space-x-6">
             <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-500 hover:text-gray-400">
-              <span v-if="item.href !== ''" class="sr-only">{{ item.name }}</span>
-              <component v-if="item.href !== ''" :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+              <span class="sr-only">{{ item.name }}</span>
+              <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
             </a>
           </div>
-          <div class="mt-1 text-gray-500">Escrito para: <span class="text-indigo-400 italic">{{ data.domain }}</span></div>
+          <div class="mt-1 text-gray-500">Editoras en <span class="text-indigo-400 italic">comolimpiarcomoexpertas.com</span></div>
         </figcaption>
       </figure>
-      <div>
-        <h3>Más artículos que te pueden interesar</h3>
+    </div>
+  </section>
+  <pre> {{ data.domain }}</pre>
+  <blockquote class="text-sm font-light text-gray-700 sm:text-sm">
+            <p><strong>DISCLAIMER: </strong>Al leer esto, acepta todo lo siguiente: entiende que esto es una <strong>expresión de opiniones y no un consejo profesional</strong>. Usted es el único responsable del uso de cualquier contenido y exime a © y a todos los miembros y afiliados de cualquier evento o reclamo. La información proporcionada en el sitio podrá contener errores, tanto gramaticales como de contexto y/o información, le recomendamos que haga su propia investigación por los medios que considere pertinentes para satisfacer su intención de búsqueda. Si compra algo a través de un enlace, debe asumir que tenemos una relación de afiliado con la empresa que proporciona el producto o servicios que compra y se nos pagará de alguna manera. Le recomendamos que haga su propia investigación independiente antes de comprar cualquier cosa.</p>
+  </blockquote>
+
+  <h3>Más artículos que te pueden interesar</h3>
   <div
           class="mx-auto grid max-w-2xl auto-rows-fr grid-cols-2 gap-8 sm:mt-8 lg:mx-0 lg:max-w-none lg:grid-cols-2"
         >
-    <ThumbArticle v-if="prev"
-        :post="prev" />
-    <ThumbArticle v-if="next"
-        :post="next" />
-  </div>
+    <ThumbArticle
+        :post="anterior" />
+    <ThumbArticle
+        :post="siguiente" />
   </div>
     </div>
-  </section>
-      
-    </div>
   </div>
-
-  
     
   </template>
 <script setup lang="ts">
@@ -114,22 +124,32 @@ import { ref } from 'vue'
 import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
 import { XMarkIcon } from '@heroicons/vue/24/outline'
 const { data } = await useAsyncData('article', () => queryContent('/info').findOne())
-const { prev, page, next, toc } = useContent()
+console.log('................................')
+console.log(data)
 
-defineOgImage({
-  url: page.value.imageUrl,
-  height: 1200,
-  alt: page.value.title
-})
-
-// console.log(page.value)
-// console.log(data._rawValue.author)
+const open = ref(false)
+const { toc, prev, next } = useContent()
+const route = useRoute()
+const article = await useAsyncData('article', () => queryContent(route.params.slug[0], route.params.slug[1]).findOne())
+console.log(article.data.value?.title)
+const anterior = {
+  imageUrl: prev.value?.imageUrl,
+  created: prev.value?.created,
+  _path: prev.value?._path,
+  title: prev.value?.title
+}
+const siguiente = {
+  imageUrl: next.value?.imageUrl,
+  created: next.value?.created,
+  _path: next.value?._path,
+  title: next.value?.title
+}
 
 let navigation = {
     social: [
       {
         name: 'Facebook',
-        href: '',
+        href: 'https://www.facebook.com/groups/827877335714291/',
         icon: defineComponent({
           render: () =>
             h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -142,22 +162,8 @@ let navigation = {
         }),
       },
       {
-        name: 'LinkedIn',
-        href: data._rawValue.linkedinUrl,
-        icon: defineComponent({
-          render: () =>
-            h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
-              h('path', {
-                'fill-rule': 'evenodd',
-                d: 'M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z',
-                'clip-rule': 'evenodd',
-              }),
-            ]),
-        }),
-      },
-      {
       name: 'Instagram',
-      href: data._rawValue.instagramUrl,
+      href: 'https://www.instagram.com/car.tulinasdecolores/',
       icon: defineComponent({
         render: () =>
           h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -171,7 +177,7 @@ let navigation = {
     },
       {
         name: 'Twitter',
-        href: data._rawValue.xUrl,
+        href: 'https://twitter.com/mayteydiana',
         icon: defineComponent({
           render: () =>
             h('svg', { fill: 'currentColor', viewBox: '0 0 24 24' }, [
@@ -183,62 +189,59 @@ let navigation = {
       },
     ],
   }
-  useHead({
+
+useHead({
   link: [
-    { rel: 'canonical', href: `https://${data._rawValue.domain}${page.value.path}`}
+    { rel: 'canonical', href: `https://comolimpiarcomoexpertas.com${route.path}`}
   ]
 })
-
-useJsonld([
-  {
-  '@context': 'https://schema.org',
-  '@type': 'Article',
-  'headline': page.value.title,
-  'image': {
-    '@type': 'ImageObject',
-    'url': page.value.title.imageUrl,
-    'width': '1024',
-    'height': '1024'
-  },
-  'author': {
-    '@type': 'Person',
-    'name': `${data._rawValue.author}`,
-    'url': `https://${data._rawValue.domain}/quienes-somos}`
-  },
-  'publisher': {
-    '@type': 'Organization',
-    'name': `${data._rawValue.domain}`,
-    'logo': {
-      '@type': 'ImageObject',
-      'url': `https://${data._rawValue.domain}/img/logo.webp`,
-      'width': '600',
-      'height': '200'
-    }
-  },
-  'datePublished': page.value.title.published_time
-  },
-  {
-    '@context': 'https://schema.org',
-    '@type': 'NewsArticle',
-    'headline': page.value.title.title,
-    'image': {
-      '@type': 'ImageObject',
-      'url': page.value.title.imageUrl,
-      'width': '1024',
-      'height': '1024'
-    },
-    'datePublished': page.value.title.published_time,
-    'dateModified': page.value.title.published_time,
-    'author': {
-    '@type': 'Person',
-    'name': `${data._rawValue.author}`,
-    'url': `https://${data._rawValue.domain}/quienes-somos}`
-  }
-  }
-  ]
-);
-
-const open = ref(false)
-
+// useJsonld([
+//   {
+//   '@context': 'https://schema.org',
+//   '@type': 'Article',
+//   'headline': article.data.value?.title,
+//   'image': {
+//     '@type': 'ImageObject',
+//     'url': data.value?.imageUrl,
+//     'width': '480',
+//     'height': '360'
+//   },
+//   'author': {
+//     '@type': 'Person',
+//     'name': 'Mayte y Diana',
+//     'url': 'https://comolimpiarcomoexpertas.com/quienes-somos'
+//   },
+//   'publisher': {
+//     '@type': 'Organization',
+//     'name': 'comolimpiarcomoexpertas.com',
+//     'logo': {
+//       '@type': 'ImageObject',
+//       'url': 'https://comolimpiarcomoexpertas.com/img/como-limpiar-logo.png',
+//       'width': '600',
+//       'height': '200'
+//     }
+//   },
+//   'datePublished': data.value?.published_time
+//   },
+//   {
+//     '@context': 'https://schema.org',
+//     '@type': 'NewsArticle',
+//     'headline': data.value?.title,
+//     'image': {
+//       '@type': 'ImageObject',
+//       'url': data.value?.imageUrl,
+//       'width': '1024',
+//       'height': '1024'
+//     },
+//     'datePublished': data.value?.published_time,
+//     'dateModified': data.value?.published_time,
+//     'author': {
+//     '@type': 'Person',
+//     'name': 'Mayte y Diana',
+//     'url': 'https://comolimpiarcomoexpertas.com/quienes-somos'
+//   }
+//   }
+//   ]
+// );
 </script>
   

@@ -12,16 +12,20 @@
   "footerLink": "https://astroingeo.org",
   "navigation": [
     {
-      "name": "Hogar",
-      "href": "/hogar"
+      "name": "Constelaciones",
+      "href": "/constelaciones"
     },
     {
-      "name": "Ropa",
-      "href": "/ropa"
+      "name": "Sistema Solar",
+      "href": "/sistema-solar"
     },
     {
-      "name": "Tecnología",
-      "href": "/tecnologia"
+      "name": "Telescopios",
+      "href": "/telescopios"
+    },
+    {
+      "name": "Cielo Profundo",
+      "href": "/cielo-profundo"
     },
     {
       "name": "Otros",
@@ -30,10 +34,6 @@
     {
       "name": "Quienes somos",
       "href": "/quienes-somos"
-    },
-    {
-      "name": "Contacto",
-      "href": "/contacto"
     }
   ],
   "company": [
@@ -44,6 +44,10 @@
     {
       "name": "Contacto",
       "href": "/contacto"
+    },
+    {
+      "name": "Sitemap",
+      "href": "/sitemap.xml"
     }
   ],
   "legal": [
@@ -60,9 +64,9 @@
       "href": "/politica-de-privacidad"
     }
   ],
-  "facebookUrl": "",
-  "instagramUrl": "",
-  "xUrl": "",
+  "linkedinUrl": "https://www.linkedin.com/in/enrique-aparicio-arias-861040b1/",
+  "instagramUrl": "https://www.instagram.com/ua_astroingeo/",
+  "xUrl": "https://twitter.com/UA_astroingeo",
   "amazonDescription": "Como aficionado a la astronomía, recomiendo encarecidamente marcas como Celestron, Sky-Watcher y Orion. Ofrecen telescopios robustos y accesorios de calidad para principiantes y avanzados, asegurando experiencias celestiales inolvidables. ¡No te decepcionarán!",
   "amazon": [
     {
