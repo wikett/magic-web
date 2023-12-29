@@ -84,7 +84,7 @@ async function tweetAricle() {
   // await twitterClient.v2.tweet(tweet);
 }
 
-function getMetaData(titulo, url, dominio) {
+async function getMetaData(titulo, url, dominio) {
   return `head:
   meta:
     - name: 'keywords'
@@ -127,20 +127,29 @@ function getMetaData(titulo, url, dominio) {
 
 const filepath = 'keywords.txt';
 
-function asignarCategoria(categoria) {
+async function asignarCategoria(categoria) {
   if (categorias.find((element) => slugify(element, {separator: '-'}) === categoria)) {
     return categoria;
   }
   return 'otros';
 }
 
-async function downloadImage(urlYoutube, sufijo, imageName) {
+async function downloadImage(source, url, sufijo, imageName) {
+  
   try {
-      const url = urlYoutube;
-      const extension = sufijo === "3" ? "png" : "jpg"
+    let extension = ""
+      if(source === 'DALLE') {
+        extension = "png"
+      }
+      if (source === 'YOUTUBE') {
+        extension = "jpg"
+      }
+
       let path = `./public/img/content/${urlSEO}_${sufijo}.${extension}` 
       let pathWebp = `./public/img/content/${urlSEO}_${sufijo}.webp`
       const publicPicture = `https://${dominio}/img/content/${urlSEO}_${sufijo}.webp`
+
+
       if (sufijo === "4") {
         path = `./public/img/${imageName}.${extension}`
         pathWebp = `./public/img/${imageName}.webp`
@@ -181,35 +190,47 @@ async function downloadImage(urlYoutube, sufijo, imageName) {
   }
 }
 
-async function generateDalle3Image(subject, fileName) {
+async function generateImage(subject, fileName) {
   console.log('Generando imagen DALLE 3 for: '+subject)
   const image = await openai.images.generate(
     {
       model: "dall-e-3",
       prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', realistic`,
-      n: 1,
+      n: 2,
       size: "1024x1024", 
     });
+  
+    const imageVariant = await openai.images.generate(
+      {
+        model: "dall-e-3",
+        prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', minimalist, black and white`,
+        n: 1,
+        size: "1024x1024", 
+      });
 
-  imagenDiscover = image.data[0].url
+  imagenPrincipalSEO = image.data[0].url
+  imagenSecundariaSEO = imageVariant.data[0].url 
+  imagenDiscover = image.data[1].url
 
-  await downloadImage(imagenDiscover, "4", slugify(fileName, {separator: '-'}))
+  await downloadImage("DALLE", imagenPrincipalSEO, "1", "")
+  await downloadImage("DALLE", imagenSecundariaSEO, "2", "")
+  await downloadImage("DALLE", imagenDiscover, "3", "")
 }
 
 
-async function generateImage() {
-  const image = await openai.images.generate(
-    {
-      model: "dall-e-3",
-      prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a photograph of someone doing '${tituloSEOEnglish}', realistic`,
-      n: 1,
-      size: "1024x1024", 
-    });
+// async function generateDalle3Image() {
+//   const image = await openai.images.generate(
+//     {
+//       model: "dall-e-3",
+//       prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a photograph of someone doing '${tituloSEOEnglish}', realistic`,
+//       n: 1,
+//       size: "1024x1024", 
+//     });
 
-  imagenDiscover = image.data[0].url
+//   imagenDiscover = image.data[0].url
 
-  await downloadImage(imagenDiscover, "3")
-}
+//   await downloadImage("DALLE", imagenDiscover, "4", slugify(fileName, {separator: '-'}))
+// }
 async function translateTitle(title) {
   const result = await translator.translateText(title, null, 'en-GB');
   tituloSEOEnglish = result.text; // Bonjour, le monde !
@@ -229,10 +250,10 @@ async function obtenerCategoria() {
     categoriaSEO = await chatgptMagic(getPromptCategorias(tituloSEO))
     console.log('Categoria SEO: '+categoriaSEO)
     
-    categoriaSEO = asignarCategoria(slugify(categoriaSEO, {separator: '-'}))
+    categoriaSEO = await asignarCategoria(slugify(categoriaSEO, {separator: '-'}))
     console.log('Categoria SEO slugify: '+categoriaSEO)
     urlSEO = slugify(tituloSEO, {separator: '-'})
-    await obtenerImagen(tituloSEO);
+    await obtenerImagen();
 
     if (!categoriaSEO.includes("salud")) {
         articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`
@@ -306,7 +327,7 @@ function limpiarTituloDirecto(titulo) {
   return titulo.replace('"','')
 }
 
-function cleanTexto(texto) {
+async function cleanTexto(texto) {
   let description = texto.replaceAll(':', ';')
   description = description.replaceAll('"','')
   return description
@@ -325,13 +346,13 @@ function getDescription(contenido) {
   return description.replaceAll(':', ' ')
 }
 
-function addDate(contenido) {
+async function addDate(contenido) {
   let date = new Date().toUTCString().slice(5, 16);
   let stringToAdd = `\n\n_Artículo publicado el ${date}_`;
   return contenido + stringToAdd
 }
 
-function addPicture(contenido, caption) {
+async function addPicture(contenido, caption) {
   // Input String
   const searchTerm = "## ";
   // String to be added
@@ -356,7 +377,7 @@ imageurl: ${imagenPrincipalSEO}
   
 }
 
-function addDiscover(contenido, imagen, posicion) {
+async function addDiscover(contenido, imagen, posicion) {
   let re = new RegExp("##","ig");
   let spaces = [];
   let matched = "";
@@ -411,18 +432,17 @@ async function createArticle() {
   let date = new Date().toUTCString().slice(5, 16);
   let articulo = await chatgptMagic(getPromptArticulo(), 'gpt-4')
   descripcionSEO = await chatgptMagic(promptDescription(), 'gpt-4')
-  descripcionSEO = cleanTexto(descripcionSEO)
+  descripcionSEO = await cleanTexto(descripcionSEO)
 
   let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenDiscoverSEO}\n`
-  cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEO, dominio)
+  cabeceroMarkdown += await getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEO, dominio)
   cabeceroMarkdown += '\n---\n'
   articulo = cabeceroMarkdown + articulo
-  articulo = addDate(articulo)
+  articulo = await addDate(articulo)
   // articulo = limpiarArticulo(articulo)
-  articulo = addPicture(articulo, tituloSEO)
-  articulo = addDiscover(articulo, imagenSecundariaSEO, 3)
-  articulo = addDiscover(articulo, imagenDiscoverSEO, 6)
-  // articulo = addAnecdota(articulo, anecdota)
+  articulo = await addPicture(articulo, tituloSEO)
+  articulo = await addDiscover(articulo, imagenSecundariaSEO, 3)
+  articulo = await addDiscover(articulo, imagenDiscoverSEO, 6)
 
   try {
     await fs.writeFile(articuloPathSEO, articulo)
@@ -459,23 +479,22 @@ async function chatgptMagic(contenido, model = 'gpt-4') {
   return completion.choices[0].message.content
 }
 
-async function obtenerImagen(titulo){
-  const baseApiUrl = 'https://www.googleapis.com/youtube/v3';
-  const url = `${baseApiUrl}/search?key=${youtubeApiKey}&type=video&part=snippet&q=${titulo}`
-  const response = await axios.get(url)
+async function obtenerImagen(){
+  // const baseApiUrl = 'https://www.googleapis.com/youtube/v3';
+  // const url = `${baseApiUrl}/search?key=${youtubeApiKey}&type=video&part=snippet&q=${titulo}`
+  // const response = await axios.get(url)
   
 
-  imagenPrincipalSEO = await downloadImage(response.data.items[0].snippet.thumbnails.high.url, "1");
-  imagenSecundariaSEO = await downloadImage(response.data.items[1].snippet.thumbnails.high.url, "2");
-
+  // imagenPrincipalSEO = await downloadImage(response.data.items[0].snippet.thumbnails.high.url, "1");
+  // imagenSecundariaSEO = await downloadImage(response.data.items[1].snippet.thumbnails.high.url, "2");
+  console.log('Generando imagenes...')
+  await generateImage();
   console.log(`-- imagenPrincipalSEO: ${imagenPrincipalSEO} --`)
   console.log(`-- imagenSecundariaSEO: ${imagenSecundariaSEO} --`)
-
-  await generateImage();
   console.log(`-- imagenDiscoverSEO: ${imagenDiscoverSEO} --`)
 
 }
-// for (let index = 0; index < 50; index++) {
+// for (let index = 0; index < 150; index++) {
 //   console.log('Calculando articulo: '+index)
 //   await obtenerCategoria();  
 // }
