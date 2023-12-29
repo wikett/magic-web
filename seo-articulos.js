@@ -22,7 +22,10 @@ let imagenDiscoverSEO = ""
 let imagenDiscover = ""
 let descripcionSEO = ""
 let pasosSEO = ""
-const profesional = 'limpieza'
+const dominio = "blog.astroingeo.org"
+const profesional = 'astronomía'
+const autores = 'Enrique'
+const categorias = ['Constelaciones', 'Cielo profundo', 'Telescopios', 'Sistema Solar']
 const currentDate = new Date();
 const youtubeApiKey = process.env.YOUTUBE_API_KEY;
 
@@ -58,11 +61,11 @@ function getPromptTitulo(titulo, palabras=200) {
 }
 
 function getPromptCategorias(titulo) {
-  return `Podrías clasificar esta frase "${titulo}" en alguna de estas categorías: hogar, ropa, tecnologia, salud u otros. En la respuesta indica solo la categoría, por favor.`
+  return `Clasifica esta frase "${titulo}" en alguna de estas categorías: ${categorias.toString()}. En la respuesta indica solo la categoría, por favor.`
 }
 
 function getPromptArticulo() {
-  console.log('generar articulo para: '+tituloSEO)
+  console.log('generando articulo para: '+tituloSEO)
   return `Por favor,  escribe un artículo en español sobre "${tituloSEO}" de unas 2000 palabras, como una persona que sabe el 80% de español, utilizando palabras muy sencillas de entender y dándoles matices, que contenga las siguientes secciones:\n${seccionesParaPrompt}. El resultado redáctalo en Markdown, resaltando algunas partes del texto y utiliza cada sección como h2. No uses palabras normales de Inteligencia Artificial. Manten una densidad alta de la palabra clave. Incluye un título atractivo referente a la palabra clave pero sin ser ClickBait al principio del artículo.`
 }
 
@@ -75,13 +78,13 @@ function getPromptAnecdotaPersonal() {
 }
 
 async function tweetAricle() {
-  const fullUrl = 'https://comolimpiarcomoexpertas.com/'+categoriaSEO+'/'+urlSEO
+  const fullUrl = 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEO
   const tweet = `${descripcionSEO} ${fullUrl} #limpiar #DIY #trucos #comolimpiar`
   
   // await twitterClient.v2.tweet(tweet);
 }
 
-function getMetaData(titulo, url) {
+function getMetaData(titulo, url, dominio) {
   return `head:
   meta:
     - name: 'keywords'
@@ -101,13 +104,13 @@ function getMetaData(titulo, url) {
     - name: 'article:section'
       content: '${categoriaSEO}'
     - name: 'article:author'
-      content: 'Mayte y Sonia'
+      content: '${autores}'
     - name: 'og:image'
       content: '${imagenDiscoverSEO}'
     - name: 'og:url'
       content: '${url}'
     - name: 'twitter:domain'
-      content: 'comolimpiarcomoexpertas.com'
+      content: '${dominio}'
     - name: 'twitter:url'
       content: '${url}'
     - name: 'twitter:title'
@@ -119,19 +122,16 @@ function getMetaData(titulo, url) {
     - name: 'twitter:image'
       content: '${imagenDiscoverSEO}'
     - name: 'copyright'
-      content: '© ${new Date().getFullYear()} comolimpiarcomoexpertas.com'`
+      content: '© ${new Date().getFullYear()} ${dominio}'`
 }
 
 const filepath = 'keywords.txt';
 
 function asignarCategoria(categoria) {
-  if (categoria.includes('hogar'))
-    return 'hogar'
-  if (categoria.includes('ropa'))
-    return 'ropa'
-  if (categoria.includes('tecnologia'))
-    return 'tecnologia'
-  return 'otros'
+  if (categorias.find((element) => slugify(element, {separator: '-'}) === categoria)) {
+    return categoria;
+  }
+  return 'otros';
 }
 
 async function downloadImage(urlYoutube, sufijo, imageName) {
@@ -140,7 +140,7 @@ async function downloadImage(urlYoutube, sufijo, imageName) {
       const extension = sufijo === "3" ? "png" : "jpg"
       let path = `./public/img/content/${urlSEO}_${sufijo}.${extension}` 
       let pathWebp = `./public/img/content/${urlSEO}_${sufijo}.webp`
-      const publicPicture = `https://comolimpiarcomoexpertas.com/img/content/${urlSEO}_${sufijo}.webp`
+      const publicPicture = `https://${dominio}/img/content/${urlSEO}_${sufijo}.webp`
       if (sufijo === "4") {
         path = `./public/img/${imageName}.${extension}`
         pathWebp = `./public/img/${imageName}.webp`
@@ -198,7 +198,6 @@ async function generateDalle3Image(subject, fileName) {
 
 
 async function generateImage() {
-  console.log('Generando imagen for: '+tituloSEOEnglish)
   const image = await openai.images.generate(
     {
       model: "dall-e-3",
@@ -224,11 +223,14 @@ async function obtenerCategoria() {
 
     const lines = data.split('\n');
     tituloSEO = lines[0];
+    tituloSEO = tituloSEO[0].toUpperCase() + tituloSEO.slice(1);
     await translateTitle(tituloSEO)
     console.log(`Creando la magia para: ${tituloSEO}`);
     categoriaSEO = await chatgptMagic(getPromptCategorias(tituloSEO))
+    console.log('Categoria SEO: '+categoriaSEO)
     
-    categoriaSEO = asignarCategoria(categoriaSEO)
+    categoriaSEO = asignarCategoria(slugify(categoriaSEO, {separator: '-'}))
+    console.log('Categoria SEO slugify: '+categoriaSEO)
     urlSEO = slugify(tituloSEO, {separator: '-'})
     await obtenerImagen(tituloSEO);
 
@@ -311,9 +313,9 @@ function getDescription(contenido) {
   let description = contenido.substring(startIndexPosition, endIndexPosition)
   description = description.trim()
   description = description.substring(2, description.length)
-  console.log('Click bait---')
-  console.log(description)
   description = description.replaceAll('*','')
+  description = description.replaceAll('"','')
+  description = description.replaceAll('\'','')
   return description.replaceAll(':', ' ')
 }
 
@@ -405,7 +407,7 @@ async function createArticle() {
   // console.log(pasosSEO)
   // const anecdota = await chatgptMagic(getPromptAnecdotaPersonal(), 'gpt-4-1106-preview')
   let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenDiscoverSEO}\n`
-  cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), 'https://comolimpiarcomoexpertas.com/'+categoriaSEO+'/'+urlSEO)
+  cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEO, dominio)
   cabeceroMarkdown += '\n---\n'
   articulo = cabeceroMarkdown + articulo
   articulo = addDate(articulo)
@@ -471,7 +473,7 @@ async function obtenerImagen(titulo){
 //   await obtenerCategoria();  
 // }
 
-// await obtenerCategoria();  
+await obtenerCategoria();  
 
 // Generacion imagenes DALLE 3
-generateDalle3Image('Meteor Impact On Earth', 'colision meteoro')
+// generateDalle3Image('Meteor Impact On Earth', 'colision meteoro')

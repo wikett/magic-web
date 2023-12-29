@@ -24,7 +24,7 @@
             {{ item.created }}
             <div class="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10 sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true" />
             </time>
-            <a :href="item.url">
+            <a :href="item._path">
                 <p class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">{{ item.title }}</p>
             </a>
             <p class="mt-1 text-base leading-7 text-gray-600">{{ item.description }}</p>
@@ -108,7 +108,6 @@
 import { ref } from 'vue'
 const { data } = await useAsyncData('article', () => queryContent('/info').findOne())
 const articles = await useAsyncData('home', () => queryContent('/').where({ title: { $ne: 'Astroingeo Blog'}}).limit(4).find())
-console.log(articles)
 
 useHead({
     title: data.value?.title,

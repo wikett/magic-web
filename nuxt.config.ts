@@ -9,7 +9,8 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     'nuxt-simple-sitemap',
-    'nuxt-jsonld'
+    'nuxt-jsonld',
+    'nuxt-og-image'
   ],
   components: [
     { path: '~/components/common'},
@@ -26,7 +27,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: 'https://comolimpiarcomoexpertas.com',
+    url: 'https://blog.astroingeo.com',
   },
   app: {
     head: {
