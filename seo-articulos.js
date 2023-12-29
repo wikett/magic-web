@@ -43,7 +43,7 @@ const translator = new deepl.Translator(process.env.DEEPL_AUTH);
 // const twitterClient = client.readWrite;
 
 function promptArticulo() {
-  return `Actúa como experto en SEO y ${profesional}. Optimiza el SEO y copywriting del artículo que redactarás, considerando la estructura lógica, relaciones semánticas (LSI) y la calidad del contenido.Escribe un artículo de 1500 palabras en español, en formato Markdown, que resuelva la búsqueda de"${tituloSEO}$". Utiliza párrafos cortos y frases claras para mejorar la experiencia del usuario. Incluye palabras clave secundarias relacionadas con ${tituloSEO}. Asegúrate de una estructura lógica, desarrollo enfocado y cierre sin repeticiones ni thin content. Crea un título SEO con H1 de 60 caracteres para "${tituloSEO}" que sea creativo y atractivo. Evita un H2 con "intro" o "introducción". Agrega entre 4 y 10 encabezados H2, subtítulos H3 y listas en Markdown. Resalta las palabras clave o frases importantes en negrita. Utiliza adecuadamente palabras clave y LSI. Finaliza con un párrafo sin H2 de "conclusión" o "resumen", pero ofrece consejos destacando alguna frase en cursiva. Incluye 3 H3 de preguntas frecuentes (FAQ) sobre ${tituloSEO}. Escribe de forma perpleja y explosiva, sin perder el contexto. Evita tituloSEO stuffing superior al 2% y repeticiones de frases. Mantén el salience score entre 0.80 y 1. Utiliza negritas en Markdown para palabras clave y frases relevantes, sin repetir frases iguales. Utiliza listas con formato Markdown, know-how, y un paso a paso. Evita contenido innecesario o basura.`
+  return `Actúa como experto en SEO y ${profesional}. Optimiza el SEO y copywriting del artículo que redactarás, considerando la estructura lógica, relaciones semánticas (LSI) y la calidad del contenido.Escribe un artículo de 1500 palabras en español, en formato Markdown, que resuelva la búsqueda de"${tituloSEO}$". Utiliza párrafos cortos y frases claras para mejorar la experiencia del usuario. Incluye palabras clave secundarias relacionadas con ${tituloSEO}. Asegúrate de una estructura lógica, desarrollo enfocado y cierre sin repeticiones ni thin content. Crea un título SEO con H1 de 60 caracteres para "${tituloSEO}" que sea creativo y atractivo. Evita un H2 con "intro" o "introducción". Agrega entre 4 y 10 encabezados H2, subtítulos H3 y listas en Markdown. Resalta las palabras clave o frases importantes en negrita. Utiliza adecuadamente palabras clave y LSI. Finaliza con un párrafo sin H2 de "conclusión" o "resumen", pero ofrece consejos destacando alguna frase en cursiva. Incluye 3 H3 de preguntas frecuentes (FAQ) sobre ${tituloSEO}. Escribe de forma perpleja y explosiva, sin perder el contexto. Evita tituloSEO stuffing superior al 2% y repeticiones de frases. Mantén el salience score entre 0.80 y 1. Utiliza negritas en Markdown para palabras clave y frases relevantes, sin repetir frases iguales. Utiliza listas con formato Markdown, know-how, y un paso a paso. Evita contenido innecesario o basura. Enfacita el texto con negritas, cursiva o listas.`
 }
 
 function promptDescription() {
@@ -236,7 +236,7 @@ async function obtenerCategoria() {
 
     if (!categoriaSEO.includes("salud")) {
         articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`
-        guiaSEO = await chatgptMagic(promptArticulo(tituloSEO), "gpt-4-1106-preview");
+        guiaSEO = await chatgptMagic(promptArticulo(tituloSEO), "gpt-4");
         // guiaSEO = guiaSEO.split(/\r\n|\r|\n/)
         // guiaSEO = guiaSEO.filter((letter) => letter !== "")
         
@@ -306,6 +306,12 @@ function limpiarTituloDirecto(titulo) {
   return titulo.replace('"','')
 }
 
+function cleanTexto(texto) {
+  let description = texto.replaceAll(':', ';')
+  description = description.replaceAll('"','')
+  return description
+}
+
 function getDescription(contenido) {
   const startIndexPosition = contenido.indexOf("# ")
   const endIndexPosition = contenido.indexOf("##")
@@ -341,9 +347,13 @@ imageurl: ${imagenPrincipalSEO}
   let indexPosition = contenido.indexOf(searchTerm)
   
   // Using substring method to split string
-  const newString = contenido.substring(0, indexPosition)
+  if (imagenPrincipalSEO !== undefined) {
+    const newString = contenido.substring(0, indexPosition)
           + stringToAdd + contenido.substring(indexPosition)
-  return newString
+    return newString
+  }
+  return contenido
+  
 }
 
 function addDiscover(contenido, imagen, posicion) {
@@ -399,13 +409,10 @@ function limpiarArticulo(articulo) {
 
 async function createArticle() {
   let date = new Date().toUTCString().slice(5, 16);
-  let articulo = await chatgptMagic(getPromptArticulo(), 'gpt-4-1106-preview')
-  descripcionSEO = await chatgptMagic(promptDescription(), 'gpt-4-1106-preview')
+  let articulo = await chatgptMagic(getPromptArticulo(), 'gpt-4')
+  descripcionSEO = await chatgptMagic(promptDescription(), 'gpt-4')
+  descripcionSEO = cleanTexto(descripcionSEO)
 
-  // pasosSEO = await chatgptMagic(getPromptPasosMasLinks(), 'gpt-4-1106-preview')
-  // console.log('pasos SEO')
-  // console.log(pasosSEO)
-  // const anecdota = await chatgptMagic(getPromptAnecdotaPersonal(), 'gpt-4-1106-preview')
   let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenDiscoverSEO}\n`
   cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEO, dominio)
   cabeceroMarkdown += '\n---\n'
@@ -437,7 +444,7 @@ async function processContent(contenido) {
   }
 }
 
-async function chatgptMagic(contenido, model = 'gpt-4-1106-preview') {
+async function chatgptMagic(contenido, model = 'gpt-4') {
     const completion = await openai.chat.completions.create({
         messages: [
             {
@@ -447,7 +454,7 @@ async function chatgptMagic(contenido, model = 'gpt-4-1106-preview') {
         ],
         model: model,
         max_tokens: 3500,
-        //     model: 'gpt-4-1106-preview',
+        //     model: 'gpt-4',
       });
   return completion.choices[0].message.content
 }

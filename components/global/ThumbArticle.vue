@@ -5,6 +5,7 @@
      <img
         :src="post.imageUrl"
         :alt="post.title"
+        :title="post.title"
         class="absolute inset-0 -z-10 w-full object-scale-down"
         width="140"
         height="105"

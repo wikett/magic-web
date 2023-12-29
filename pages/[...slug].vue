@@ -74,12 +74,12 @@
               sizes="(max-width: 1024px) 64px,
                     288px"
               src="/img/autor288.webp"
-              :alt="data.autores"
-              :title="data.autores"
+              :alt="data.author"
+              :title="data.author"
               loading="lazy" />
         </div>
         <figcaption class="text-base lg:col-start-1 lg:row-start-3">
-          <div class="font-semibold text-blue-900"><a href="/quienes-somos">{{ data.autores }}</a></div>
+          <div class="font-semibold text-blue-900"><a href="/quienes-somos">{{ data.author }}</a></div>
           <div class="flex my-3 space-x-6">
             <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-500 hover:text-gray-400">
               <span v-if="item.href !== ''" class="sr-only">{{ item.name }}</span>
@@ -122,7 +122,7 @@ defineOgImage({
   alt: page.value.title
 })
 
-// console.log(page.value)
+// console.log(page.value._path)
 // console.log(data._rawValue.author)
 
 let navigation = {
@@ -185,7 +185,7 @@ let navigation = {
   }
   useHead({
   link: [
-    { rel: 'canonical', href: `https://${data._rawValue.domain}${page.value.path}`}
+    { rel: 'canonical', href: `https://${data._rawValue.domain}${page.value._path}`}
   ]
 })
 
@@ -203,7 +203,7 @@ useJsonld([
   'author': {
     '@type': 'Person',
     'name': `${data._rawValue.author}`,
-    'url': `https://${data._rawValue.domain}/quienes-somos}`
+    'url': `https://${data._rawValue.domain}/quienes-somos`
   },
   'publisher': {
     '@type': 'Organization',
