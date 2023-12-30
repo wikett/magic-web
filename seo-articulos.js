@@ -106,7 +106,7 @@ async function getMetaData(titulo, url, dominio) {
     - name: 'article:author'
       content: '${autores}'
     - name: 'og:image'
-      content: '${imagenDiscoverSEO}'
+      content: '${imagenPrincipalSEO}'
     - name: 'og:url'
       content: '${url}'
     - name: 'twitter:domain'
@@ -116,11 +116,11 @@ async function getMetaData(titulo, url, dominio) {
     - name: 'twitter:title'
       content: '${titulo}'
     - name: 'twitter:card'
-      content: '${imagenDiscoverSEO}'
+      content: '${imagenPrincipalSEO}'
     - name: 'twitter:description'
       content: '${descripcionSEO}'
     - name: 'twitter:image'
-      content: '${imagenDiscoverSEO}'
+      content: '${imagenPrincipalSEO}'
     - name: 'copyright'
       content: '© ${new Date().getFullYear()} ${dominio}'`
 }
@@ -207,28 +207,29 @@ async function generateImage(subject) {
     const imageVariant = await openai.images.generate(
       {
         model: "dall-e-3",
-        prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', minimalist, blueprint`,
+        // prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', minimalist, blueprint`,
+        prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', creative, futuristic, expressive`,
         n: 1,
         size: "1024x1024", 
       });
 
-      console.log('calculando imageDiscover...')
+      // console.log('calculando imageDiscover...')
 
-      const imageDiscover = await openai.images.generate(
-        {
-          model: "dall-e-3",
-          prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', creative, futuristic, expressive`,
-          n: 1,
-          size: "1024x1024", 
-        });
+      // const imageDiscover = await openai.images.generate(
+      //   {
+      //     model: "dall-e-3",
+      //     prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', creative, futuristic, expressive`,
+      //     n: 1,
+      //     size: "1024x1024", 
+      //   });
 
   imagenPrincipalSEO = image.data[0].url
   imagenSecundariaSEO = imageVariant.data[0].url 
-  imagenDiscover = imageDiscover.data[0].url
+  // imagenDiscover = imageDiscover.data[0].url
 
   await downloadImage("DALLE", imagenPrincipalSEO, "1", "")
   await downloadImage("DALLE", imagenSecundariaSEO, "2", "")
-  await downloadImage("DALLE", imagenDiscover, "3", "")
+  // await downloadImage("DALLE", imagenDiscover, "3", "")
 }
 
 
@@ -448,7 +449,7 @@ async function createArticle() {
   descripcionSEO = await chatgptMagic(promptDescription(), 'gpt-4-1106-preview')
   descripcionSEO = await cleanTexto(descripcionSEO)
 
-  let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenDiscoverSEO}\n`
+  let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
   cabeceroMarkdown += await getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEO, dominio)
   cabeceroMarkdown += '\n---\n'
   articulo = cabeceroMarkdown + articulo
@@ -456,7 +457,6 @@ async function createArticle() {
   // articulo = limpiarArticulo(articulo)
   articulo = await addPicture(articulo, tituloSEO)
   articulo = await addDiscover(articulo, imagenSecundariaSEO, 3)
-  articulo = await addDiscover(articulo, imagenDiscoverSEO, 6)
 
   try {
     await fs.writeFile(articuloPathSEO, articulo)
@@ -505,7 +505,6 @@ async function obtenerImagen(){
   await generateImage(tituloSEOEnglish);
   console.log(`-- imagenPrincipalSEO: ${imagenPrincipalSEO} --`)
   console.log(`-- imagenSecundariaSEO: ${imagenSecundariaSEO} --`)
-  console.log(`-- imagenDiscoverSEO: ${imagenDiscoverSEO} --`)
 
 }
 for (let index = 0; index < 150; index++) {
