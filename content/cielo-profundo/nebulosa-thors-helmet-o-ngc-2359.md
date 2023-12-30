@@ -1,6 +1,6 @@
 ---
-title: Nebulosa Thor's Helmet o NGC 2359
-description: Descubre la majestuosidad de la Nebulosa Thor's Helmet (NGC 2359), una joya cósmica única. Aprende más sobre sus características y misterios aquí.
+title: Nebulosa Thors Helmet o NGC 2359
+description: Descubre la majestuosidad de la Nebulosa Thors Helmet (NGC 2359), una joya cósmica única. Aprende más sobre sus características y misterios aquí.
 category: cielo-profundo
 published_time: 2023-12-30T12:33:09.034Z
 url: nebulosa-thors-helmet-o-ngc-2359
@@ -9,13 +9,13 @@ imageUrl: https://blog.astroingeo.org/img/content/nebulosa-thors-helmet-o-ngc-23
 head:
   meta:
     - name: 'keywords'
-      content: 'Nebulosa Thor's Helmet o NGC 2359'
+      content: 'Nebulosa Thors Helmet o NGC 2359'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Nebulosa Thor's Helmet o NGC 2359'
+      content: 'Nebulosa Thors Helmet o NGC 2359'
     - name: 'og:description'
-      content: 'Descubre la majestuosidad de la Nebulosa Thor's Helmet (NGC 2359), una joya cósmica única. Aprende más sobre sus características y misterios aquí.'
+      content: 'Descubre la majestuosidad de la Nebulosa Thors Helmet (NGC 2359), una joya cósmica única. Aprende más sobre sus características y misterios aquí.'
     - name: 'og:type'
       content: 'article'
     - name: 'article:published_time'
@@ -35,11 +35,11 @@ head:
     - name: 'twitter:url'
       content: 'https://blog.astroingeo.org/cielo-profundo/nebulosa-thors-helmet-o-ngc-2359'
     - name: 'twitter:title'
-      content: 'Nebulosa Thor's Helmet o NGC 2359'
+      content: 'Nebulosa Thors Helmet o NGC 2359'
     - name: 'twitter:card'
       content: 'https://blog.astroingeo.org/img/content/nebulosa-thors-helmet-o-ngc-2359_3.webp'
     - name: 'twitter:description'
-      content: 'Descubre la majestuosidad de la Nebulosa Thor's Helmet (NGC 2359), una joya cósmica única. Aprende más sobre sus características y misterios aquí.'
+      content: 'Descubre la majestuosidad de la Nebulosa Thors Helmet (NGC 2359), una joya cósmica única. Aprende más sobre sus características y misterios aquí.'
     - name: 'twitter:image'
       content: 'https://blog.astroingeo.org/img/content/nebulosa-thors-helmet-o-ngc-2359_3.webp'
     - name: 'copyright'
@@ -49,7 +49,7 @@ head:
 
 ::photo-article
 ---
-title: Nebulosa Thor's Helmet o NGC 2359
+title: Nebulosa Thors Helmet o NGC 2359
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-thors-helmet-o-ngc-2359_1.webp
 ---
 ::
@@ -70,7 +70,7 @@ Esta impresionante formación estelar se encuentra en la **constelación del Can
 ::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-thors-helmet-o-ngc-2359_2.webp
-title: Nebulosa Thor's Helmet o NGC 2359
+title: Nebulosa Thors Helmet o NGC 2359
 ---
 ::
 
@@ -92,7 +92,7 @@ Además, esta nebulosa nos ofrece una fenomenal explosión de color con un predo
 ::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-thors-helmet-o-ngc-2359_3.webp
-title: Nebulosa Thor's Helmet o NGC 2359
+title: Nebulosa Thors Helmet o NGC 2359
 ---
 ::
 

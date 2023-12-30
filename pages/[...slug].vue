@@ -49,6 +49,7 @@
         <ContentRenderer :value="doc" />
         </ContentDoc>
         
+        <p class="text-sm my-4 text-gray-400">Nota: las imágenes de este artículo no son reales, se intenta buscar algo más creativo y figurativo.</p>
       </div>
 
       <section class="isolate overflow-hidden bg-white px-6 lg:px-8">
