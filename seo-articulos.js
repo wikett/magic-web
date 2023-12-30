@@ -190,27 +190,41 @@ async function downloadImage(source, url, sufijo, imageName) {
   }
 }
 
-async function generateImage(subject, fileName) {
+async function generateImage(subject) {
   console.log('Generando imagen DALLE 3 for: '+subject)
   const image = await openai.images.generate(
     {
       model: "dall-e-3",
       prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', realistic`,
-      n: 2,
+      n: 1,
       size: "1024x1024", 
     });
+    console.log('image: ')
+    console.log(image)
+
+    console.log('calculando imageVariant...')
   
     const imageVariant = await openai.images.generate(
       {
         model: "dall-e-3",
-        prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', minimalist, black and white`,
+        prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', minimalist, blueprint`,
         n: 1,
         size: "1024x1024", 
       });
 
+      console.log('calculando imageDiscover...')
+
+      const imageDiscover = await openai.images.generate(
+        {
+          model: "dall-e-3",
+          prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', creative, futuristic, expressive`,
+          n: 1,
+          size: "1024x1024", 
+        });
+
   imagenPrincipalSEO = image.data[0].url
   imagenSecundariaSEO = imageVariant.data[0].url 
-  imagenDiscover = image.data[1].url
+  imagenDiscover = imageDiscover.data[0].url
 
   await downloadImage("DALLE", imagenPrincipalSEO, "1", "")
   await downloadImage("DALLE", imagenSecundariaSEO, "2", "")
@@ -257,7 +271,7 @@ async function obtenerCategoria() {
 
     if (!categoriaSEO.includes("salud")) {
         articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`
-        guiaSEO = await chatgptMagic(promptArticulo(tituloSEO), "gpt-4");
+        guiaSEO = await chatgptMagic(promptArticulo(tituloSEO), "gpt-4-1106-preview");
         // guiaSEO = guiaSEO.split(/\r\n|\r|\n/)
         // guiaSEO = guiaSEO.filter((letter) => letter !== "")
         
@@ -430,8 +444,8 @@ function limpiarArticulo(articulo) {
 
 async function createArticle() {
   let date = new Date().toUTCString().slice(5, 16);
-  let articulo = await chatgptMagic(getPromptArticulo(), 'gpt-4')
-  descripcionSEO = await chatgptMagic(promptDescription(), 'gpt-4')
+  let articulo = await chatgptMagic(getPromptArticulo(), 'gpt-4-1106-preview')
+  descripcionSEO = await chatgptMagic(promptDescription(), 'gpt-4-1106-preview')
   descripcionSEO = await cleanTexto(descripcionSEO)
 
   let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenDiscoverSEO}\n`
@@ -464,7 +478,7 @@ async function processContent(contenido) {
   }
 }
 
-async function chatgptMagic(contenido, model = 'gpt-4') {
+async function chatgptMagic(contenido, model = 'gpt-4-1106-preview') {
     const completion = await openai.chat.completions.create({
         messages: [
             {
@@ -474,7 +488,7 @@ async function chatgptMagic(contenido, model = 'gpt-4') {
         ],
         model: model,
         max_tokens: 3500,
-        //     model: 'gpt-4',
+        //     model: 'gpt-4-1106-preview',
       });
   return completion.choices[0].message.content
 }
@@ -488,18 +502,18 @@ async function obtenerImagen(){
   // imagenPrincipalSEO = await downloadImage(response.data.items[0].snippet.thumbnails.high.url, "1");
   // imagenSecundariaSEO = await downloadImage(response.data.items[1].snippet.thumbnails.high.url, "2");
   console.log('Generando imagenes...')
-  await generateImage();
+  await generateImage(tituloSEOEnglish);
   console.log(`-- imagenPrincipalSEO: ${imagenPrincipalSEO} --`)
   console.log(`-- imagenSecundariaSEO: ${imagenSecundariaSEO} --`)
   console.log(`-- imagenDiscoverSEO: ${imagenDiscoverSEO} --`)
 
 }
-// for (let index = 0; index < 150; index++) {
-//   console.log('Calculando articulo: '+index)
-//   await obtenerCategoria();  
-// }
+for (let index = 0; index < 150; index++) {
+  console.log('Calculando articulo: '+index)
+  await obtenerCategoria();  
+}
 
-await obtenerCategoria();  
+// await obtenerCategoria();  
 
 // Generacion imagenes DALLE 3
 // generateDalle3Image('Meteor Impact On Earth', 'colision meteoro')
