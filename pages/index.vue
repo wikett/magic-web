@@ -15,8 +15,11 @@
 
       <!-- Timeline section -->
       <div class="mx-auto mt-8 max-w-7xl px-6 lg:px-8">
+        <h2 class="text-blue-600">Artículos destacados</h2>
         <div class="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4">
-          <div v-for="item in articles.data._rawValue" :key="item.url">
+          <ThumbArticle v-for="item in articles.data._rawValue" :key="item.url"
+        :post="item" />
+          <!-- <div v-for="item in articles.data._rawValue" :key="item.url">
             <time :datetime="item.published_time" class="flex items-center text-sm font-semibold leading-6 text-indigo-600">
             <svg viewBox="0 0 4 4" class="mr-4 h-1 w-1 flex-none" aria-hidden="true">
                 <circle cx="2" cy="2" r="2" fill="currentColor" />
@@ -28,7 +31,7 @@
                 <p class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">{{ item.title }}</p>
             </a>
             <p class="mt-1 text-base leading-7 text-gray-600">{{ item.description }}</p>
-          </div>
+          </div> -->
         </div>
       </div>
 

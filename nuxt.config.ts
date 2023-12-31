@@ -27,7 +27,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: 'https://blog.astroingeo.com',
+    url: 'https://blog.astroingeo.org',
   },
   app: {
     head: {

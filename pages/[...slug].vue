@@ -80,7 +80,8 @@
               loading="lazy" />
         </div>
         <figcaption class="text-base lg:col-start-1 lg:row-start-3">
-          <div class="font-semibold text-blue-900"><a href="/quienes-somos">{{ data.author }}</a></div>
+          <div class="font-semibold text-blue-900"><a href="/quienes-somos">{{ data.author }}</a>
+          </div>
           <div class="flex my-3 space-x-6">
             <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-500 hover:text-gray-400">
               <span v-if="item.href !== ''" class="sr-only">{{ item.name }}</span>
@@ -89,7 +90,9 @@
           </div>
           <div class="mt-1 text-gray-500">Escrito para: <span class="text-indigo-400 italic">{{ data.domain }}</span></div>
         </figcaption>
+        
       </figure>
+      
       <div>
         <h3>Más artículos que te pueden interesar</h3>
   <div
@@ -102,6 +105,11 @@
   </div>
   </div>
     </div>
+    <div class="mx-auto max-w-xl">
+        <a href="https://www.astroshop.es/?affiliate_id=astroingeo">
+          <img src="https://www.astroshop.es/banner/100/es/banner_468x60.gif" border="0" alt="Telescopio en Astroshop" />
+        </a>
+      </div>
   </section>
       
     </div>

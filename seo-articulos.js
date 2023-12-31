@@ -174,10 +174,10 @@ async function downloadImage(source, url, sufijo, imageName) {
               if(sufijo==="3") {
                 imagenDiscoverSEO = publicPicture
               }
-              fs.unlink(path, function (err) {
-                if (err) throw err;
-                console.log('File deleted!');
-              });
+              // fs.unlink(path, function (err) {
+              //   if (err) throw err;
+              //   console.log('File deleted!');
+              // });
             }
           });
       } else {
@@ -244,7 +244,7 @@ async function generateImage(subject) {
 // }
 async function translateTitle(title) {
   const result = await translator.translateText(title, null, 'en-GB');
-  tituloSEOEnglish = result.text; // Bonjour, le monde !
+  tituloSEOEnglish = result.text;
 }
 
 async function obtenerCategoria() {
@@ -256,7 +256,9 @@ async function obtenerCategoria() {
     const lines = data.split('\n');
     tituloSEO = lines[0];
     tituloSEO = tituloSEO[0].toUpperCase() + tituloSEO.slice(1);
-    tituloSEO = cleanTexto(tituloSEO)
+
+    tituloSEO = await cleanTexto(tituloSEO)
+
     await translateTitle(tituloSEO)
     // console.log(`Creando la magia para: ${tituloSEO}`);
     categoriaSEO = await chatgptMagic(getPromptCategorias(tituloSEO))
@@ -435,7 +437,6 @@ function limpiarArticulo(articulo) {
     articulo = articulo.replace('Título ClickBait:','#')
   }
   let newTitulo = tituloSEO.replaceAll('*','')
-  newTitulo = cleanTexto(newTitulo)
   const str2 = newTitulo.charAt(0).toUpperCase() + newTitulo.slice(1);
   articulo = articulo.replace('Introducción', 'Guia de '+str2)
 
@@ -506,7 +507,7 @@ async function obtenerImagen(){
   // console.log(`-- imagenSecundariaSEO: ${imagenSecundariaSEO} --`)
 
 }
-for (let index = 0; index < 300; index++) {
+for (let index = 0; index < 100; index++) {
   console.log('Calculando articulo: '+index)
   await obtenerCategoria();  
 }
