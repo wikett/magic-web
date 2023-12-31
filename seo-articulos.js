@@ -191,7 +191,7 @@ async function downloadImage(source, url, sufijo, imageName) {
 }
 
 async function generateImage(subject) {
-  console.log('Generando imagen DALLE 3 for: '+subject)
+  // console.log('Generando imagen DALLE 3 for: '+subject)
   const image = await openai.images.generate(
     {
       model: "dall-e-3",
@@ -199,10 +199,6 @@ async function generateImage(subject) {
       n: 1,
       size: "1024x1024", 
     });
-    console.log('image: ')
-    console.log(image)
-
-    console.log('calculando imageVariant...')
   
     const imageVariant = await openai.images.generate(
       {
@@ -260,13 +256,14 @@ async function obtenerCategoria() {
     const lines = data.split('\n');
     tituloSEO = lines[0];
     tituloSEO = tituloSEO[0].toUpperCase() + tituloSEO.slice(1);
+    tituloSEO = cleanTexto(tituloSEO)
     await translateTitle(tituloSEO)
-    console.log(`Creando la magia para: ${tituloSEO}`);
+    // console.log(`Creando la magia para: ${tituloSEO}`);
     categoriaSEO = await chatgptMagic(getPromptCategorias(tituloSEO))
-    console.log('Categoria SEO: '+categoriaSEO)
+    // console.log('Categoria SEO: '+categoriaSEO)
     
     categoriaSEO = await asignarCategoria(slugify(categoriaSEO, {separator: '-'}))
-    console.log('Categoria SEO slugify: '+categoriaSEO)
+    // console.log('Categoria SEO slugify: '+categoriaSEO)
     urlSEO = slugify(tituloSEO, {separator: '-'})
     await obtenerImagen();
 
@@ -278,7 +275,7 @@ async function obtenerCategoria() {
         
         // await processContent(guiaSEO)
         await createArticle()
-        console.log('Articulo creado correctamente')
+        // console.log('Articulo creado correctamente')
     }
 
     // Remove the first line
@@ -345,6 +342,7 @@ function limpiarTituloDirecto(titulo) {
 async function cleanTexto(texto) {
   let description = texto.replaceAll(':', ';')
   description = description.replaceAll('"','')
+  description = description.replaceAll("'","")
   return description
 }
 
@@ -437,6 +435,7 @@ function limpiarArticulo(articulo) {
     articulo = articulo.replace('Título ClickBait:','#')
   }
   let newTitulo = tituloSEO.replaceAll('*','')
+  newTitulo = cleanTexto(newTitulo)
   const str2 = newTitulo.charAt(0).toUpperCase() + newTitulo.slice(1);
   articulo = articulo.replace('Introducción', 'Guia de '+str2)
 
@@ -467,7 +466,7 @@ async function createArticle() {
 }
 
 async function processContent(contenido) {
-  console.log('procesando contenido...')
+  // console.log('procesando contenido...')
   for (let i = 0; i < contenido.length; i++) {
     const element = contenido[i];
     let tituloLimpio = ""
@@ -501,13 +500,13 @@ async function obtenerImagen(){
 
   // imagenPrincipalSEO = await downloadImage(response.data.items[0].snippet.thumbnails.high.url, "1");
   // imagenSecundariaSEO = await downloadImage(response.data.items[1].snippet.thumbnails.high.url, "2");
-  console.log('Generando imagenes...')
+  // console.log('Generando imagenes...')
   await generateImage(tituloSEOEnglish);
-  console.log(`-- imagenPrincipalSEO: ${imagenPrincipalSEO} --`)
-  console.log(`-- imagenSecundariaSEO: ${imagenSecundariaSEO} --`)
+  // console.log(`-- imagenPrincipalSEO: ${imagenPrincipalSEO} --`)
+  // console.log(`-- imagenSecundariaSEO: ${imagenSecundariaSEO} --`)
 
 }
-for (let index = 0; index < 150; index++) {
+for (let index = 0; index < 300; index++) {
   console.log('Calculando articulo: '+index)
   await obtenerCategoria();  
 }
