@@ -28,6 +28,7 @@ const autores = 'Enrique'
 const categorias = ['Constelaciones', 'Cielo profundo', 'Telescopios', 'Sistema Solar']
 const currentDate = new Date();
 const youtubeApiKey = process.env.YOUTUBE_API_KEY;
+const nasaApiKey = process.env.NASA;
 
 // const client = new TwitterApi({
 //   appKey: process.env.TWITTER_API_KEY,
@@ -229,22 +230,23 @@ async function generateImage(subject) {
 }
 
 
-// async function generateDalle3Image() {
-//   const image = await openai.images.generate(
-//     {
-//       model: "dall-e-3",
-//       prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a photograph of someone doing '${tituloSEOEnglish}', realistic`,
-//       n: 1,
-//       size: "1024x1024", 
-//     });
+async function generateDalle3Image(texto) {
+  const image = await openai.images.generate(
+    {
+      model: "dall-e-3",
+      prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a photograph of someone doing '${texto}'`,
+      n: 1,
+      size: "1024x1024", 
+    });
 
-//   imagenDiscover = image.data[0].url
+  imagenDiscover = image.data[0].url
 
-//   await downloadImage("DALLE", imagenDiscover, "4", slugify(fileName, {separator: '-'}))
-// }
-async function translateTitle(title) {
-  const result = await translator.translateText(title, null, 'en-GB');
-  tituloSEOEnglish = result.text;
+  await downloadImage("DALLE", imagenDiscover, "4", slugify(texto, {separator: '-'}))
+}
+
+async function translateTitle(title, language) {
+  const result = await translator.translateText(title, null, language);  
+  return result.text
 }
 
 async function obtenerCategoria() {
@@ -259,7 +261,7 @@ async function obtenerCategoria() {
 
     tituloSEO = await cleanTexto(tituloSEO)
 
-    await translateTitle(tituloSEO)
+    tituloSEOEnglish = await translateTitle(tituloSEO, 'en-GB')
     // console.log(`Creando la magia para: ${tituloSEO}`);
     categoriaSEO = await chatgptMagic(getPromptCategorias(tituloSEO))
     // console.log('Categoria SEO: '+categoriaSEO)
@@ -363,7 +365,7 @@ function getDescription(contenido) {
 
 async function addDate(contenido) {
   let date = new Date().toUTCString().slice(5, 16);
-  let stringToAdd = `\n\n_Artículo publicado el ${date}_`;
+  let stringToAdd = `\n\n_Artículo actualizado el ${date}_`;
   return contenido + stringToAdd
 }
 
@@ -503,16 +505,73 @@ async function obtenerImagen(){
   // imagenSecundariaSEO = await downloadImage(response.data.items[1].snippet.thumbnails.high.url, "2");
   // console.log('Generando imagenes...')
   await generateImage(tituloSEOEnglish);
-  // console.log(`-- imagenPrincipalSEO: ${imagenPrincipalSEO} --`)
-  // console.log(`-- imagenSecundariaSEO: ${imagenSecundariaSEO} --`)
+}
 
+async function pictureOfTheDay() {
+  const baseApiUrl = 'https://api.nasa.gov/planetary';
+  const url = `${baseApiUrl}/apod?api_key=${nasaApiKey}`
+  const { data } = await axios.get(url)
+  console.log(data)
+
+  let date = new Date().toUTCString().slice(5, 16);
+  let articulo = await translateTitle(data.explanation, 'ES')
+  console.log('articulo: '+articulo)
+  
+  let tituloTraducido = await translateTitle(data.title, 'ES')
+  tituloTraducido = await cleanTexto(tituloTraducido)
+  const tituloTraducidopod = 'Foto astronómica del día por la NASA'
+  descripcionSEO = `Imagen astronómica del día ${date} por la NASA: ${tituloTraducido}`
+  descripcionSEO = await cleanTexto(descripcionSEO)
+  let descripcionSEOpod = `Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.`
+  descripcionSEOpod = await cleanTexto(descripcionSEOpod)
+
+  urlSEO = slugify(`${tituloTraducido}-${data.date}`, {separator: '-'})
+  const urlSEOpod = 'foto-del-dia-de-la-nasa-hoy'
+  imagenPrincipalSEO = data.hdurl
+  categoriaSEO = 'nasa'
+
+  let articuloFinal = `# Imagen del día de la NASA: ${tituloTraducido}\n\n## ${data.title}\n\n${articulo}`
+  let articuloFinalpod = `# Foto del día de la NASA hoy\nCada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.\nEn esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.\n## ${data.title}\n\n${articulo}`
+
+  let cabeceroMarkdown = `---\ntitle: ${tituloTraducido}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
+  let cabeceroMarkdownpod = `---\ntitle: ${tituloTraducidopod}\ndescription: ${descripcionSEOpod}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEOpod}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
+  cabeceroMarkdown += await getMetaData(tituloTraducido.replace(/[\n\r]+/g, ''), 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEO, dominio)
+  cabeceroMarkdown += '\n---\n'
+
+  cabeceroMarkdownpod += await getMetaData(tituloTraducidopod.replace(/[\n\r]+/g, ''), 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEOpod, dominio)
+  cabeceroMarkdownpod += '\n---\n'
+
+  articulo = cabeceroMarkdown + articuloFinal
+  articulo = await addDate(articulo)
+  articulo = await addPicture(articulo, tituloTraducido)
+
+  articuloFinalpod = cabeceroMarkdownpod + articuloFinalpod
+  articuloFinalpod = await addDate(articuloFinalpod)
+  articuloFinalpod = await addPicture(articuloFinalpod, tituloTraducidopod)
+
+  try {
+    articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`
+    await fs.writeFile(articuloPathSEO, articulo)
+
+    const articuloPathSEOpod = `./content/${categoriaSEO}/${urlSEOpod}.md`
+    await fs.writeFile(articuloPathSEOpod, articuloFinalpod)
+    // await tweetAricle() 
+  } catch (error) {
+    console.error('Error appending content to file:', error);
+  }
 }
-for (let index = 0; index < 100; index++) {
-  console.log('Calculando articulo: '+index)
-  await obtenerCategoria();  
-}
+
+
+
+
+// for (let index = 0; index < 100; index++) {
+//   console.log('Calculando articulo: '+index)
+//   await obtenerCategoria();  
+// }
 
 // await obtenerCategoria();  
 
 // Generacion imagenes DALLE 3
-// generateDalle3Image('Meteor Impact On Earth', 'colision meteoro')
+// generateDalle3Image('Astronomy Calendar of Celestial Events', 'colision meteoro')
+
+pictureOfTheDay()

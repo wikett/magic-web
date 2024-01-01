@@ -109,7 +109,7 @@
   <div
           class="mx-auto grid max-w-2xl auto-rows-fr grid-cols-2 gap-8 sm:mt-8 lg:mx-0 lg:max-w-none lg:grid-cols-2"
         >
-    <ThumbArticle v-if="prev"
+    <ThumbArticle v-if="prev._path !== '/info'"
         :post="prev" />
     <ThumbArticle v-if="next"
         :post="next" />
