@@ -50,10 +50,21 @@
         </ContentDoc>
         
         <p class="text-sm my-4 text-gray-400">Nota: las imágenes de este artículo no son reales, se intenta buscar algo más creativo y figurativo.</p>
+        <p class="mt-16 text-2xl font-bold tracking-tight text-gray-900">Compártelo con tus amigos:</p>
+        <div class="flex flex-row gap-2">
+          <SocialShare
+            v-for="network in ['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram']"
+            :key="network"
+            :network="network"
+            :styled="false"
+            :label="false"
+            class="p-4 rounded-none"
+          />
+        </div>
       </div>
 
       <section class="isolate overflow-hidden bg-white px-6 lg:px-8">
-    <div class="relative mx-auto max-w-2xl py-24 sm:py-32 lg:max-w-4xl">
+    <div class="relative mx-auto max-w-2xl lg:max-w-4xl">
       <div class="absolute left-1/2 top-0 -z-10 h-[50rem] w-[90rem] -translate-x-1/2 bg-[radial-gradient(50%_100%_at_top,theme(colors.indigo.100),white)] opacity-20 lg:left-36" />
       <div class="absolute inset-y-0 right-1/2 -z-10 mr-12 w-[150vw] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-20 md:mr-0 lg:right-full lg:-mr-36 lg:origin-center" />
       
@@ -105,7 +116,7 @@
   </div>
   </div>
     </div>
-    <div class="mx-auto max-w-xl">
+    <div class="mx-auto max-w-xl mt-20">
         <a href="https://www.astroshop.es/?affiliate_id=astroingeo">
           <img src="https://www.astroshop.es/banner/100/es/banner_468x60.gif" border="0" alt="Telescopio en Astroshop" />
         </a>

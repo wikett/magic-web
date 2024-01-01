@@ -142,7 +142,19 @@
           Fases de la luna enero 2024
         </figcaption>
       </figure>
+      <h3 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">Compártelo con tus amigos:</h3>
+      <div class="flex flex-row gap-2">
+        <SocialShare
+          v-for="network in ['facebook', 'twitter', 'linkedin', 'whatsapp', 'telegram']"
+          :key="network"
+          :network="network"
+          :styled="false"
+          :label="false"
+          class="p-4 rounded-none"
+        />
+      </div>
     </div>
+    
   </div>
   
     </main>
@@ -150,7 +162,7 @@
   <script setup>
   import { InformationCircleIcon } from '@heroicons/vue/20/solid'
   const { data } = await useAsyncData('article', () => queryContent('/info').findOne())
-  const today = new Date()
+  const todayEnero = '2024-01-01T17:14:32.901Z'
 
 const people = [
   { name: 'Cuarto menguante',  role: 'jueves 4 de enero a las 03:30 TU en Virgo' },
@@ -296,7 +308,7 @@ useJsonld([
       'height': '200'
     }
   },
-  'datePublished': today.toISOString()
+  'datePublished': todayEnero
   },
   {
     '@context': 'https://schema.org',
@@ -308,8 +320,8 @@ useJsonld([
       'width': '1024',
       'height': '1024'
     },
-    'datePublished': today.toISOString(),
-    'dateModified': today.toISOString(),
+    'datePublished': todayEnero,
+    'dateModified': todayEnero,
     'author': {
     '@type': 'Person',
     'name': `${data._rawValue.author}`,

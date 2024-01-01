@@ -10,7 +10,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-simple-sitemap',
     'nuxt-jsonld',
-    'nuxt-og-image'
+    'nuxt-og-image',
+    '@stefanobartoletti/nuxt-social-share'
   ],
   components: [
     { path: '~/components/common'},
