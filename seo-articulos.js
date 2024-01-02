@@ -78,6 +78,10 @@ function getPromptAnecdotaPersonal() {
   return `Escribe una anecdota personal de '${tituloSEO}'. Escríbela en primera persona del plural en femenino. El resultado redáctalo en Markdown, resaltando algunas partes del texto, sin que contenga h1. No uses palabras normales de Inteligencia Artificial.`
 }
 
+function getPromptAPOD(texto) {
+  return `Act as a astronomer. Following this text "${texto}", write a short explanation and add more interested data. Write this article in Spanish. Do not use normal AI words. Use markdown and emphasize some parts of the text. Do not use h1 and h2`
+}
+
 async function tweetAricle() {
   const fullUrl = 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEO
   const tweet = `${descripcionSEO} ${fullUrl} #limpiar #DIY #trucos #comolimpiar`
@@ -514,13 +518,18 @@ async function pictureOfTheDay() {
   console.log(data)
 
   let date = new Date().toUTCString().slice(5, 16);
+  let localDate = new Date()
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    
+  console.log(localDate.toLocaleDateString('es-ES', options));
+
   let articulo = await translateTitle(data.explanation, 'ES')
   console.log('articulo: '+articulo)
   
   let tituloTraducido = await translateTitle(data.title, 'ES')
   tituloTraducido = await cleanTexto(tituloTraducido)
   const tituloTraducidopod = 'Foto astronómica del día por la NASA'
-  descripcionSEO = `Imagen astronómica del día ${date} por la NASA: ${tituloTraducido}`
+  descripcionSEO = `Imagen astronómica del día ${localDate.toLocaleDateString('es-ES', options)} por la NASA: ${tituloTraducido}`
   descripcionSEO = await cleanTexto(descripcionSEO)
   let descripcionSEOpod = `Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.`
   descripcionSEOpod = await cleanTexto(descripcionSEOpod)
@@ -530,8 +539,10 @@ async function pictureOfTheDay() {
   imagenPrincipalSEO = data.hdurl
   categoriaSEO = 'nasa'
 
-  let articuloFinal = `# Imagen del día de la NASA: ${tituloTraducido}\n\n## ${data.title}\n\n${articulo}`
-  let articuloFinalpod = `# Foto del día de la NASA hoy\nCada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.\nEn esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.\n## ${data.title}\n\n${articulo}`
+  const textoAdicional = await chatgptMagic(getPromptAPOD(data.explanation))
+
+  let articuloFinal = `# Foto del día de la NASA: ${tituloTraducido}\n${localDate.toLocaleDateString('es-ES', options)}\n\n## ${data.title}\n\n${textoAdicional}`
+  let articuloFinalpod = `# Foto del día de la NASA hoy\n${localDate.toLocaleDateString('es-ES', options)}\n\nCada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.\nEn esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.\n## ${data.title}\n\n${textoAdicional}`
 
   let cabeceroMarkdown = `---\ntitle: ${tituloTraducido}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
   let cabeceroMarkdownpod = `---\ntitle: ${tituloTraducidopod}\ndescription: ${descripcionSEOpod}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEOpod}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
