@@ -368,8 +368,9 @@ function getDescription(contenido) {
 }
 
 async function addDate(contenido) {
-  let date = new Date().toUTCString().slice(5, 16);
-  let stringToAdd = `\n\n_Artículo actualizado el ${date}_`;
+  let localDate = new Date()
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  let stringToAdd = `\n\n_Artículo actualizado el ${localDate.toLocaleDateString('es-ES', options)}_`;
   return contenido + stringToAdd
 }
 

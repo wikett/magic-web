@@ -32,6 +32,10 @@
       "href": "/otros"
     },
     {
+      "name": "APOD",
+      "href": "/nasa/foto-del-dia-de-la-nasa-hoy"
+    },
+    {
       "name": "Calendario Astronómico 2024",
       "href": "/calendario-astronomico/2024/eventos-astronomicos-2024"
     }
