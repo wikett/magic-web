@@ -553,13 +553,15 @@ async function pictureOfTheDay() {
   cabeceroMarkdownpod += await getMetaData(tituloTraducidopod.replace(/[\n\r]+/g, ''), 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEOpod, dominio)
   cabeceroMarkdownpod += '\n---\n'
 
+  const autor = data.copyright.replaceAll('\n', '');
+
   articulo = cabeceroMarkdown + articuloFinal
   articulo = await addDate(articulo)
-  articulo = await addPicture(articulo, tituloTraducido)
+  articulo = await addPicture(articulo, `${tituloTraducido}, copyright: ${autor}`)
 
   articuloFinalpod = cabeceroMarkdownpod + articuloFinalpod
   articuloFinalpod = await addDate(articuloFinalpod)
-  articuloFinalpod = await addPicture(articuloFinalpod, tituloTraducidopod)
+  articuloFinalpod = await addPicture(articuloFinalpod, `${tituloTraducidopod}, copyright: ${autor}`)
 
   try {
     articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`
