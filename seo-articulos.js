@@ -557,11 +557,12 @@ async function pictureOfTheDay() {
 
   articulo = cabeceroMarkdown + articuloFinal
   articulo = await addDate(articulo)
-  articulo = await addPicture(articulo, `${tituloTraducido}, copyright: ${autor}`)
+  articulo = await addPicture(articulo, `${tituloTraducido}, copyright - ${autor} -`)
 
   articuloFinalpod = cabeceroMarkdownpod + articuloFinalpod
   articuloFinalpod = await addDate(articuloFinalpod)
-  articuloFinalpod = await addPicture(articuloFinalpod, `${tituloTraducidopod}, copyright: ${autor}`)
+  articuloFinalpod = await addPicture(articuloFinalpod, `${tituloTraducidopod}, copyright - ${autor} -`)
+  articuloFinal += '\n\n---\n[Ver el quieres ver el listado completo de todo el año de las imagenes del día de la NASA](/nasa)\n---\n\n'
 
   try {
     articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`
