@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Un arco SAR desde Nueva Zelanda
+description: Imagen astronómica del día miércoles, 3 de enero de 2024 por la NASA; Un arco SAR desde Nueva Zelanda
 category: nasa
 published_time: 2024-01-03T08:16:02.421Z
-url: foto-del-dia-de-la-nasa-hoy
+url: un-arco-sar-desde-nueva-zelanda-2024-01-03
 created: 03 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/SarArcNz_McDonald_2048.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Un arco SAR desde Nueva Zelanda'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Un arco SAR desde Nueva Zelanda'
     - name: 'og:description'
       content: 'Imagen astronómica del día miércoles, 3 de enero de 2024 por la NASA; Un arco SAR desde Nueva Zelanda'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2401/SarArcNz_McDonald_2048.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/un-arco-sar-desde-nueva-zelanda-2024-01-03'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/un-arco-sar-desde-nueva-zelanda-2024-01-03'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Un arco SAR desde Nueva Zelanda'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2401/SarArcNz_McDonald_2048.jpg'
     - name: 'twitter:description'
@@ -45,14 +45,12 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Foto del día de la NASA: Un arco SAR desde Nueva Zelanda
 miércoles, 3 de enero de 2024
 
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Tristian McDonald - Text - Tiffany Lewis (Michigan Tech U.) -
+title: Un arco SAR desde Nueva Zelanda, copyright - Tristian McDonald;Text - Tiffany Lewis (Michigan Tech U.) -
 imageurl: https://apod.nasa.gov/apod/image/2401/SarArcNz_McDonald_2048.jpg
 ---
 ::
