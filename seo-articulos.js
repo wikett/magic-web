@@ -576,17 +576,27 @@ async function pictureOfTheDay() {
   }
 }
 
+switch (process.argv[2]) {
+  case 'nasa':
+    console.log('Calculando apod de la NASA')
+    // await pictureOfTheDay()
+    break;
 
+  case 'magic': {
+    for (let index = 0; index < 100; index++) {
+      console.log('Calculando articulo: '+index)
+      await obtenerCategoria();  
+    }
+    break;
+  }
+    
+  case 'dalle':
+    // Generacion imagenes DALLE 3
+    generateDalle3Image('Astronomy Calendar of Celestial Events', 'colision meteoro')
+    break;
 
+  default:
+    break;
+}
 
-// for (let index = 0; index < 100; index++) {
-//   console.log('Calculando articulo: '+index)
-//   await obtenerCategoria();  
-// }
-
-// await obtenerCategoria();  
-
-// Generacion imagenes DALLE 3
-// generateDalle3Image('Astronomy Calendar of Celestial Events', 'colision meteoro')
-
-pictureOfTheDay()
+console.log(' -- FIN --')
