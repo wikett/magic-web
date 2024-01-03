@@ -50,6 +50,7 @@
         </ContentDoc>
 
         <p v-if="page.category !== 'nasa'" class="text-sm my-4 text-gray-400">Nota: las imágenes de este artículo no son reales, se intenta buscar algo más creativo y figurativo.</p>
+        <p class="text-right"><a href="/nasa" v-if="page.category === 'nasa'" class="text-base my-4 text-blue-500 font-bold">Listado con todas las fotos del día de la NASA</a></p>
         <p class="mt-16 text-2xl font-bold tracking-tight text-gray-900">Compártelo con tus amigos:</p>
         <div class="flex flex-row gap-2">
           <SocialShare

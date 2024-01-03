@@ -380,7 +380,7 @@ async function addPicture(contenido, caption) {
   // String to be added
   let stringToAdd = `::photo-article
 ---
-title: ${caption}
+title: ${cleanTexto(caption)}
 imageurl: ${imagenPrincipalSEO}
 ---
 ::
@@ -542,7 +542,7 @@ async function pictureOfTheDay() {
 
   const textoAdicional = await chatgptMagic(getPromptAPOD(data.explanation))
 
-  let articuloFinal = `# Foto del día de la NASA: ${tituloTraducido}\n${localDate.toLocaleDateString('es-ES', options)}\n\n## ${data.title}\n\n${textoAdicional}`
+  let articuloFinal = `# ${tituloTraducido}\n${localDate.toLocaleDateString('es-ES', options)}\n\n## ${data.title}\n\n${textoAdicional}`
   let articuloFinalpod = `# Foto del día de la NASA hoy\n${localDate.toLocaleDateString('es-ES', options)}\n\nCada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.\nEn esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.\n## ${data.title}\n\n${textoAdicional}`
 
   let cabeceroMarkdown = `---\ntitle: ${tituloTraducido}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`

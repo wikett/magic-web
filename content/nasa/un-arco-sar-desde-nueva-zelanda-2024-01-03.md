@@ -45,7 +45,7 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA: Un arco SAR desde Nueva Zelanda
+# Un arco SAR desde Nueva Zelanda
 miércoles, 3 de enero de 2024
 
 ::photo-article
