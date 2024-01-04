@@ -162,6 +162,32 @@
   <script setup>
   import { InformationCircleIcon } from '@heroicons/vue/20/solid'
   const { data } = await useAsyncData('article', () => queryContent('/info').findOne())
+  const titlePage = 'Eventos astronómicos para el mes de Enero de 2024'
+  const descriptionPage = 'Una guia para no perderte nada del cielo en este Enero 2024. Posición de la Luna, planetas, meteoros y mucho más.'
+  const urlPage = `https://blog.astroingeo.org/calendario-astronomico/2024/guia-observacion-cielo-enero-2024`
+  const imagePage = 'https://blog.astroingeo.org/img/2024/cielo-enero-2024-hemisferio-norte.webp'
+  useHead({
+    title: titlePage,
+    description: descriptionPage,
+    link: [
+      { rel: 'canonical', href: urlPage}
+    ],
+    meta:[
+      { hid: 'description', name: 'description', content:  descriptionPage },
+      { hid: 'og:title', property: 'og:title', content: titlePage },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: urlPage },
+      { hid: 'og:description', property: 'og:description', content: descriptionPage },
+      { hid: 'og:image', property: 'og:image', content: imagePage},
+      
+      // twitter card
+      { hid: "twitter:title", name: "twitter:title", content: titlePage },
+      { hid: "twitter:url", name: "twitter:url", content: urlPage },
+      { hid: 'twitter:description', name: 'twitter:description', content: descriptionPage },
+      { hid: "twitter:image", name: "twitter:image", content: imagePage},
+  ],
+  })
+
   const todayEnero = '2024-01-01T17:14:32.901Z'
 
 const people = [

@@ -63,6 +63,31 @@
   </template>
   <script setup>
   const { data } = await useAsyncData('article', () => queryContent('/info').findOne())
+  const titlePage = 'Calendario Astronómico 2024 para el hemisferio Norte'
+  const descriptionPage = 'Todos los eventos astronómicos más importantes para este 2024 del hemisferio Norte'
+  const urlPage = `https://${data._rawValue.domain}/calendario-astronomico/2024/eventos-astronomicos-2024`
+  const imagePage = 'https://blog.astroingeo.org/img/astronomy-calendar-of-celestial-events.webp'
+  useHead({
+    title: titlePage,
+    description: descriptionPage,
+    link: [
+      { rel: 'canonical', href: urlPage}
+    ],
+    meta:[
+      { hid: 'description', name: 'description', content:  descriptionPage },
+      { hid: 'og:title', property: 'og:title', content: titlePage },
+      { hid: 'og:url', property: 'og:url', content: urlPage },
+      { hid: 'og:description', property: 'og:description', content: descriptionPage },
+      { hid: 'og:image', property: 'og:image', content: imagePage},
+      
+      // twitter card
+      { hid: "twitter:title", name: "twitter:title", content: titlePage },
+      { hid: "twitter:url", name: "twitter:url", content: urlPage },
+      { hid: 'twitter:description', name: 'twitter:description', content: descriptionPage },
+      { hid: "twitter:image", name: "twitter:image", content: imagePage},
+  ],
+  })
+
   const todayEnero = '2024-01-01T17:14:32.901Z'
 
   const enero = [
