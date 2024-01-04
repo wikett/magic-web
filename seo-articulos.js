@@ -553,7 +553,7 @@ async function pictureOfTheDay() {
   cabeceroMarkdownpod += await getMetaData(tituloTraducidopod.replace(/[\n\r]+/g, ''), 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEOpod, dominio)
   cabeceroMarkdownpod += '\n---\n'
 
-  const autor = data.copyright.replaceAll('\n', '');
+  const autor = data.copyright;
 
   articulo = cabeceroMarkdown + articuloFinal
   articulo = await addDate(articulo)
@@ -579,7 +579,7 @@ async function pictureOfTheDay() {
 switch (process.argv[2]) {
   case 'nasa':
     console.log('Calculando apod de la NASA')
-    // await pictureOfTheDay()
+    await pictureOfTheDay()
     break;
 
   case 'magic': {
