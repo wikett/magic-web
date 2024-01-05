@@ -47,7 +47,7 @@ head:
 ---
 # Observando Parejas Estelares: Un Viaje por las Estrellas Binarias
 
-Las estrellas binarias son parejas de estrellas que comparten un baile celestial que nos puede decir mucho sobre el universo. Si miramos al cielo nocturno, muchas de las "estrellas" que vemos son en realidad dos o más estrellas orbitando juntas. La observación de estrellas binarias es una ventana fascinante hacia la complejidad y belleza del cosmos. A continuación, exploramos este tema desde diferentes perspectivas.
+Las estrellas binarias son parejas de estrellas que comparten un baile celestial que nos puede decir mucho sobre el [universo](https://blog.astroingeo.org/cielo-profundo/origen-y-evolucion-del-universo). Si miramos al cielo nocturno, muchas de las "estrellas" que vemos son en realidad dos o más estrellas orbitando juntas. La observación de **estrellas binarias** es una ventana fascinante hacia la complejidad y belleza del cosmos. A continuación, exploramos este tema desde diferentes perspectivas.
 
 ::photo-article
 ---
@@ -78,7 +78,7 @@ title: Observación de estrellas binarias en el cielo
 
 ## Condiciones ideales para la **observación de estrellas binarias**
 
-El mejor momento para observar estrellas binarias es en una noche clara y sin luna. La contaminación lumínica de las ciudades puede dificultar la observación, así que es aconsejable alejarse de las luces urbanas. Además, el observador debe darle tiempo a sus ojos para adaptarse a la oscuridad para una mejor experiencia visual.
+El mejor momento para observar estrellas binarias es en una noche clara y sin [luna](https://blog.astroingeo.org/sistema-solar/luna). La contaminación lumínica de las ciudades puede dificultar la observación, así que es aconsejable alejarse de las luces urbanas. Además, el observador debe darle tiempo a sus ojos para adaptarse a la oscuridad para una mejor experiencia visual.
 
 ## La importancia de las **estrellas binarias** en la astronomía
 
@@ -86,11 +86,11 @@ Las estrellas binarias son fundamentales para entender conceptos como la masa es
 
 ## **Estrellas binarias** famosas
 
-Entre las estrellas binarias más conocidas se encuentran **Sirio**, la estrella más brillante del cielo nocturno, que es una binaria espectroscópica, y **Albireo**, en la constelación del Cisne, una binaria visual con un hermoso contraste de colores entre sus componentes. Estas son solo dos ejemplos de las muchas parejas estelares que adornan nuestro cielo.
+Entre las estrellas binarias más conocidas se encuentran **Sirio**, la estrella más brillante del cielo nocturno, que es una binaria espectroscópica, y **Albireo**, en la constelación del [Cisne](https://blog.astroingeo.org/constelaciones/constelacion-cisne), una binaria visual con un hermoso contraste de colores entre sus componentes. Estas son solo dos ejemplos de las muchas parejas estelares que adornan nuestro cielo.
 
 ## Cómo diferenciar tipos de **estrellas binarias**
 
-La clave para diferenciar los tipos de estrellas binarias es comprender cómo se detectan. Las **binarias visuales** se pueden observar directamente a través de un telescopio como dos estrellas separadas. Las **binarias espectroscópicas** son detectadas por medio de sus espectros de luz y la manera en que estos cambian debido a su movimiento relativo. Las **binarias eclipsantes** se identifican por los cambios periódicos en su brillo, que ocurren cuando una estrella pasa por delante de la otra y bloquea parte de su luz.
+La clave para diferenciar los tipos de estrellas binarias es comprender cómo se detectan. Las **binarias visuales** se pueden observar directamente a través de un telescopio como dos estrellas separadas. Las **binarias espectroscópicas** son detectadas por medio de sus espectros de luz y la manera en que estos cambian debido a su movimiento relativo. Las **binarias eclipsantes** se identifican por los cambios periódicos en su brillo, que ocurren cuando una estrella pasa por delante de la otra y bloquea parte de su [luz](https://blog.astroingeo.org/sistema-solar/como-se-genera-la-luz-en-las-estrellas).
 
 ## **Observación de estrellas binarias** para principiantes
 
@@ -102,7 +102,7 @@ A medida que la tecnología avanza, los telescopios son más sofisticados y acce
 
 ## Conclusión
 
-La **observación de estrellas binarias** es una puerta abierta al entendimiento del cosmos. A través de la dedicación y el uso de la tecnología adecuada, cualquiera puede disfrutar de este fascinante aspecto de la astronomía. Las estrellas binarias no son solo puntos de luz en el cielo, son historias de nacimiento, vida y a veces, muerte estelar. La próxima vez que mires las estrellas, recuerda que muchas de ellas tienen compañeras invisibles, cada una con su propio baile cósmico que esperamos descubrir.
+La **observación de estrellas binarias** es una puerta abierta al entendimiento del cosmos. A través de la dedicación y el uso de la tecnología adecuada, cualquiera puede disfrutar de este fascinante aspecto de la astronomía. Las estrellas binarias no son solo puntos de luz en el cielo, son historias de nacimiento, vida y a veces, muerte estelar. La próxima vez que mires las [estrellas](https://blog.astroingeo.org/cielo-profundo/como-nacen-las-estrellas-en-el-espacio), recuerda que muchas de ellas tienen compañeras invisibles, cada una con su propio baile cósmico que esperamos descubrir.
 
 Observar estrellas binarias es una experiencia maravillosa y educativa que proporciona más preguntas que respuestas, impulsando nuestra curiosidad eterna sobre el universo.
 

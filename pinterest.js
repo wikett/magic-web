@@ -12,7 +12,7 @@ const boardTelescopios = '962785295278581206'
 const boardCieloProfundo = '962785295278581207'
 const boardAstronomiaCuriosa = '962785295278581216'
 
-const directoryPath = './content/constelaciones';
+const directoryPath = './content/sistema-solar';
 async function printFilesLineByLine() {
     try {
         const files = await fs.readdir(directoryPath);
@@ -45,7 +45,7 @@ async function printFilesLineByLine() {
             }
           }
           console.log(imageUrl);
-          await createPin(titlePin, description, url, imageUrl, boardConstelaciones)
+          await createPin(titlePin, description, url, imageUrl, boardSistemaSolar)
         }
     } catch (err) {
         console.error(`Error while reading directory: ${err}`);

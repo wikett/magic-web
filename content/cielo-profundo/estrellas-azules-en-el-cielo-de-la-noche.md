@@ -47,7 +47,7 @@ head:
 ---
 # Estrellas Azules: Joyas del Cielo Nocturno
 
-Las estrellas azules son uno de los espectáculos más fascinantes que podemos observar en el cielo de la noche. A pesar de estar tan lejos de nuestro planeta Tierra, cada una de ellas cuenta una historia antigua y resplandeciente. En este artículo, vamos a descubrir más sobre estas maravillas cósmicas.
+Las estrellas azules son uno de los espectáculos más fascinantes que podemos observar en el cielo de la noche. A pesar de estar tan lejos de nuestro planeta Tierra, cada una de ellas cuenta una [historia antigua](https://blog.astroingeo.org/constelaciones/historia-de-las-constelaciones) y resplandeciente. En este artículo, vamos a descubrir más sobre estas maravillas cósmicas.
 
 ::photo-article
 ---
@@ -58,11 +58,11 @@ imageurl: https://blog.astroingeo.org/img/content/estrellas-azules-en-el-cielo-d
 
 ## ¿Qué son las Estrellas Azules?
 
-Las **estrellas azules** son soles lejanos que se caracterizan por su alta temperatura, la cual hace que emitan luz en el extremo azul del espectro. Esto significa que son mucho más calientes que nuestra propia estrella, el Sol. A menudo son jóvenes en términos astronómicos, y su intenso brillo y su particular color las hacen destacar entre la multitud de estrellas en el cielo de la noche.
+Las **estrellas azules** son soles lejanos que se caracterizan por su alta temperatura, la cual hace que emitan luz en el extremo azul del espectro. Esto significa que son mucho más calientes que nuestra propia estrella, el [Sol](https://blog.astroingeo.org/sistema-solar/sol). A menudo son jóvenes en términos astronómicos, y su intenso brillo y su particular color las hacen destacar entre la multitud de estrellas en el cielo de la noche.
 
 ## La Temperatura de las Estrellas y su Color
 
-Las **estrellas azules** son las más calientes, por lo general alcanzan temperaturas de más de 25,000 grados Kelvin. La temperatura de una estrella determina mucho de su color; así como el hierro al rojo vivo se vuelve blanco al calentarse aún más, de la misma forma las estrellas más calientes se ven azules o blancas, mientras que las más frías se ven rojas o anaranjadas.
+Las **estrellas azules** son las más calientes, por lo general alcanzan temperaturas de más de **25,000 grados Kelvin**. La temperatura de una estrella determina mucho de su color; así como el hierro al rojo vivo se vuelve blanco al calentarse aún más, de la misma [forma las estrellas](https://blog.astroingeo.org/constelaciones/como-las-estrellas-aparecen-en-el-cielo-desde-la-estacion-espacial-internacional) más calientes se ven azules o blancas, mientras que las más frías se ven rojas o anaranjadas.
 
 ## Clases de Estrellas Azules
 
@@ -82,11 +82,11 @@ Las **estrellas azules**, comparadas con otras estrellas, tienen vidas más cort
 
 ## Cómo Observar Estrellas Azules
 
-Para ver **estrellas azules**, no necesitas un equipo muy avanzado. Muchas de estas estrellas pueden verse a simple vista en una noche despejada. Para una mejor experiencia, se puede utilizar un telescopio pequeño o unos binoculares, que te ayudarán a verlas con más detalle. Lo más importante es encontrar un lugar con poca contaminación lumínica.
+Para ver **estrellas azules**, no necesitas un equipo muy avanzado. Muchas de estas estrellas pueden verse a simple vista en una noche despejada. Para una mejor experiencia, se puede utilizar un telescopio pequeño o unos [binoculares](https://blog.astroingeo.org/constelaciones/descubriendo-constelaciones-con-binoculares), que te ayudarán a verlas con más detalle. Lo más importante es encontrar un lugar con poca contaminación lumínica.
 
 ## Las Estrellas Azules Más Cercanas
 
-Algunas de las **estrellas azules** más famosas que podemos observar en nuestro cielo son parte de constelaciones conocidas. Por ejemplo, Rigel en la constelación de Orión es una supergigante azul. Otro ejemplo es Spica en la constelación de Virgo.
+Algunas de las **estrellas azules** más famosas que podemos observar en nuestro cielo son parte de constelaciones conocidas. Por ejemplo, Rigel en la constelación de Orión es una supergigante azul. Otro ejemplo es Spica en la [constelación de Virgo](https://blog.astroingeo.org/constelaciones/constelacion-virgo).
 
 ## El Significado Cultural de las Estrellas Azules
 
@@ -98,7 +98,7 @@ Estudiar **estrellas azules** es fundamental para entender cómo se forman y evo
 
 ## Estrellas Azules Famosas
 
-Dentro del universo de las **estrellas azules**, hay algunas que se han hecho especialmente famosas por sus particularidades. Por ejemplo, la estrella Alnilam, que forma parte del cinturón de Orión, es una espectacular supergigante azul visible desde la Tierra.
+Dentro del universo de las **estrellas azules**, hay algunas que se han hecho especialmente famosas por sus particularidades. Por ejemplo, la estrella Alnilam, que forma parte del [cinturón de Orión](https://blog.astroingeo.org/constelaciones/importancia-de-orion-para-los-egipcios), es una espectacular supergigante azul visible desde la Tierra.
 
 ## Protegiendo Nuestro Cielo Nocturno
 
@@ -108,7 +108,6 @@ Para poder continuar disfrutando de las **estrellas azules** y de otros astros, 
 
 Las **estrellas azules** son fascinantes no solo por su aspecto, sino también por lo que nos cuentan sobre nuestro universo. Estos soles distantes, con su luz azulada, continúan asombrándonos y motivándonos a aprender más sobre lo que hay más allá de nuestro propio mundo.
 
-@cierre del artículo
-En suma, las **estrellas azules** son importantes no solo científicamente, sino también culturalmente. Cada vez que miramos hacia arriba y vemos una de estas estrellas brillando en el cielo, estamos viendo un universo repleto de maravillas que todavía nos queda mucho por explorar. Su estudio nos ayuda a comprender mejor la vastedad y la complejidad del cosmos. Por eso, la próxima vez que la noche te envuelva con su manto oscuro, toma un momento para buscar aquellas luces azules y recordar que, aunque pequeñas y distantes, son gigantes repletos de secretos esperando ser descubiertos.
+En suma, las **estrellas azules** son importantes no solo científicamente, sino también culturalmente. Cada vez que miramos hacia arriba y vemos una de estas estrellas brillando en el cielo, estamos viendo un universo repleto de maravillas que todavía nos queda mucho por explorar. Su estudio nos ayuda a comprender mejor la vastedad y la [complejidad del cosmos](https://blog.astroingeo.org/cielo-profundo/anomalias-en-la-fisica-del-cosmos). Por eso, la próxima vez que la noche te envuelva con su manto oscuro, toma un momento para buscar aquellas luces azules y recordar que, aunque pequeñas y distantes, son gigantes repletos de secretos esperando ser descubiertos.
 
 _Artículo publicado el 31 Dec 2023_

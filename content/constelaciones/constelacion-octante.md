@@ -56,21 +56,21 @@ imageurl: https://blog.astroingeo.org/img/content/constelacion-octante_1.webp
 
 ## Introducción al Octante
 
-La constelación del Octante es una porción del cielo que pocos reconocen por su nombre, pero es importante en la astronomía. Se halla en el hemisferio sur, y aunque sus estrellas no son las más brillantes, tiene un papel único. Esto es porque dentro de esta constelación se encuentra el polo sur celeste.
+La constelación del Octante es una porción del cielo que pocos reconocen por su nombre, pero es importante en la astronomía. Se halla en el [hemisferio sur](https://blog.astroingeo.org/constelaciones/constelaciones-del-hemisferio-sur), y aunque sus estrellas no son las más brillantes, tiene un papel único. Esto es porque dentro de esta constelación se encuentra [el polo sur celeste](https://blog.astroingeo.org/constelaciones/las-constelaciones-mas-pequenas).
 
 Cuando miramos al **cielo nocturno**, el Octante no captura nuestra atención como otras constelaciones, pero para los que se dedican a estudiar las estrellas, su valor es especial. Esta constelación, aunque no tenga figuras mitológicas asociadas, posee su encanto en la historia de la navegación y en la orientación celeste.
 
 ## Historia del Octante
 
-El Octante fue introducido en los mapas celestes por el astrónomo francés Nicolas Louis de Lacaille en el año 1752. Él estudiaba el cielo en el hemisferio sur y quería honrar al instrumento de medición angular conocido como octante, que era esencial para la navegación marítima. Este instrumento permitía calcular la posición de los barcos en el mar al medir la altura de los astros sobre el horizonte.
+El Octante fue introducido en los mapas celestes por el astrónomo francés Nicolas Louis de Lacaille en el año 1752. Él estudiaba el cielo en el hemisferio sur y quería honrar al instrumento de medición angular conocido como octante, que era esencial para la [navegación marítima](https://blog.astroingeo.org/constelaciones/la-orientacion-utilizando-las-estrellas-del-cielo). Este instrumento permitía calcular la posición de los barcos en el mar al medir la altura de los astros sobre el horizonte.
 
-El área del Octante es rica en historia porque su estrella más importante, *Sigma Octantis*, es la estrella polar del sur, usada para la navegación en el hemisferio sur, similar a como Polaris es usada en el hemisferio norte.
+El área del **Octante** es rica en historia porque su estrella más importante, **Sigma Octantis**, es la estrella polar del sur, usada para la navegación en el hemisferio sur, similar a como Polaris es usada en el hemisferio norte.
 
 ## Características del Octante
 
 El Octante no tiene estrellas extremadamente luminosas. De hecho, *Sigma Octantis* tiene una magnitud aparente de solo +5.47, lo que la hace difícil de ver a simple vista. Pero lo importante de esta constelación es su posición en el cielo que marca el polo sur celeste.
 
-Además, esta constelación contiene objetos celestes interesantes. Por ejemplo, hay cúmulos de estrellas y galaxias que pueden ser observados con telescopios. Estos cuerpos celestes dan al Octante una dimensión más profunda, más allá de que sus estrellas no se vean muy brillantes desde la Tierra.
+Además, esta constelación contiene objetos celestes interesantes. Por ejemplo, hay cúmulos de estrellas y galaxias que pueden ser observados con [telescopios](https://blog.astroingeo.org/telescopios/misterios-en-telescopios-espaciales). Estos cuerpos celestes dan al Octante una dimensión más profunda, más allá de que sus estrellas no se vean muy brillantes desde la [Tierra](https://blog.astroingeo.org/sistema-solar/tierra).
 
 
 ::photo-discover
@@ -92,17 +92,17 @@ La constelación del Octante se compone de varias estrellas principales. Aquí m
 
 ## Mitología del Octante
 
-A diferencia de muchas otras constelaciones, el Octante no tiene una mitología asociada. Esto se debe principalmente a que fue delineada en tiempos modernos, cuando la creación de constelaciones dejó de estar ligada a leyendas y mitos. Por lo tanto, el Octante tiene más relación con los avances científicos que con las historias de dioses y criaturas míticas.
+A diferencia de muchas otras constelaciones, el Octante no tiene una mitología asociada. Esto se debe principalmente a que fue delineada en tiempos modernos, cuando la creación de constelaciones dejó de estar [ligada a leyendas y mitos](https://blog.astroingeo.org/constelaciones/mitos-y-leyendas-de-constelaciones). Por lo tanto, el Octante tiene más relación con los avances científicos que con las historias de dioses y criaturas míticas.
 
 ## Observando el Octante
 
-Para observar la constelación del Octante, hay que estar en el hemisferio sur. Una vez allí, es más fácil verla en meses de invierno y en lugares con poca contaminación lumínica. Aunque sus estrellas no sean brillantes, con un poco de paciencia y un cielo claro, se puede identificar su forma en el cielo.
+Para observar la constelación del **Octante**, hay que estar en el hemisferio sur. Una vez allí, es más fácil verla en meses de invierno y en lugares con poca contaminación lumínica. Aunque sus estrellas no sean brillantes, con un poco de paciencia y un cielo claro, se puede identificar su forma en el cielo.
 
-La mejor forma de encontrar el Octante es localizar la *Cruz del Sur*. Luego, imaginando una línea que se extiende desde esta constelación hacia el horizonte sur, te llevará al área del cielo donde el Octante está esperando ser descubierto.
+La mejor forma de encontrar el Octante es localizar la [Cruz del Sur](https://blog.astroingeo.org/constelaciones/constelacion-cruz-del-sur). Luego, imaginando una línea que se extiende desde esta constelación hacia el horizonte sur, te llevará al área del cielo donde el Octante está esperando ser descubierto.
 
 ## La Importancia del Octante en la Astronomía
 
-El valor astronómico del Octante es inmenso. Aun siendo una constelación pequeña y poco llamativa, su posición la convierte en un punto de referencia esencial para la localización del polo sur celeste. Gracias a esto, astrónomos y navegantes pueden determinar su orientación en el hemisferio sur.
+El valor astronómico del Octante es inmenso. Aun siendo una constelación pequeña y poco llamativa, su posición la convierte en un punto de referencia esencial para la localización del polo sur celeste. Gracias a esto, astrónomos y navegantes pueden **determinar su orientación en el hemisferio sur**.
 
 ## Conclusión
 

@@ -60,7 +60,7 @@ imageurl: https://blog.astroingeo.org/img/content/nombres-unicos-de-estrellas-en
 
 Antes de sumergirnos en los nombres específicos, es importante entender por qué las estrellas tienen nombres únicos en primer lugar. Los seres humanos siempre han mirado las estrellas, buscando en ellas orientación, inspiración y significado. Muchas culturas han nombrado estrellas para identificarlas fácilmente y contar historias sobre sus constelaciones.
 
-Algunos de estos nombres provienen de antiguas civilizaciones como los griegos, romanos y árabes, quienes asignaron nombres a las estrellas que aún se utilizan hoy. Estos nombres son una ventana a la historia y mitología de dichas culturas, y ofrecen una forma de conectar con el pasado.
+Algunos de estos nombres provienen de [antiguas civilizaciones](https://blog.astroingeo.org/constelaciones/astronomia-en-el-antiguo-egipto-como-afecto-su-civilizacion) como los griegos, romanos y árabes, quienes asignaron nombres a las estrellas que aún se utilizan hoy. Estos nombres son una ventana a la historia y mitología de dichas culturas, y ofrecen una forma de conectar con el pasado.
 
 ## Nombres Únicos de Estrellas y sus Historias
 
@@ -68,7 +68,7 @@ En esta sección, exploraremos algunos de los nombres más únicos de estrellas 
 
 ### Sirio: "La Estrella Más Brillante"
 
-Sirio, conocida también como **La Estrella del Perro**, es la estrella más brillante en el cielo nocturno. Parte de la constelación de Can Mayor, su nombre significa "ardiente" o "escaldante" en griego, lo que hace referencia a su brillo.
+Sirio, conocida también como **La Estrella del Perro**, es la estrella más brillante en el cielo nocturno. Parte de la constelación de [Can Mayor](https://blog.astroingeo.org/constelaciones/constelacion-can-mayor), su nombre significa "ardiente" o "escaldante" en griego, lo que hace referencia a su brillo.
 
 
 ::photo-discover
@@ -92,7 +92,7 @@ Localizada en la constelación de Tauro, Aldebarán es una estrella gigante roja
 
 ### Vega: "El Descendiente del Águila"
 
-Vega es una de las estrellas más prominentes de la constelación de Lyra (la lira). En árabe su nombre, Waki, significa "el descendiente del águila". Vega es especialmente conocida porque, debido al movimiento de precesión de la Tierra, fue la estrella polar hace miles de años, y lo volverá a ser en el futuro.
+Vega es una de las estrellas más prominentes de la [constelación de Lyra (la lira)](https://blog.astroingeo.org/constelaciones/constelacion-lira). En árabe su nombre, Waki, significa "el descendiente del águila". Vega es especialmente conocida porque, debido al movimiento de precesión de la Tierra, fue la estrella polar hace miles de años, y lo volverá a ser en el futuro.
 
 ## Significados Astronómicos y Culturales
 
@@ -100,7 +100,7 @@ Los nombres de las estrellas también tienen significados astronómicos y cultur
 
 ### Polaris: "La Estrella Polar"
 
-Polaris es conocida como la Estrella del Norte o Estrella Polar. Actualmente es la estrella más cercana al polo norte celeste, lo que significa que prácticamente marca el norte geográfico. Su nombre es esencial para los navegantes y exploradores a lo largo de la historia.
+Polaris es conocida como la [Estrella del Norte](https://blog.astroingeo.org/constelaciones/constelacion-osa-menor) o Estrella Polar. Actualmente es la estrella más cercana al polo norte celeste, lo que significa que prácticamente marca el norte geográfico. Su nombre es esencial para los navegantes y exploradores a lo largo de la historia.
 
 ### Rigel: "La Pierna de Orión"
 
@@ -112,7 +112,7 @@ Capella, en la constelación de Auriga (el cochero), obtiene su nombre del latí
 
 ## El Proceso de Nombrar una Estrella
 
-Nombrar una estrella no es algo que pueda hacer una persona al azar. La Unión Astronómica Internacional (UAI) es la entidad encargada de asignar nombres oficiales a los cuerpos celestes.
+Nombrar una estrella no es algo que pueda hacer una persona al azar. La [Unión Astronómica Internacional](https://www.iau.org/) (UAI) es la entidad encargada de asignar nombres oficiales a los cuerpos celestes.
 
 ### Nombres Oficiales y No Oficiales
 
@@ -126,6 +126,6 @@ La cultura popular también tiene un impacto en la nomenclatura astronómica. Po
 
 Los nombres de las estrellas nos conectan con el pasado y presentan una oportunidad única de mirar hacia el cielo y sentir una conexión con culturas y civilizaciones antiguas.
 
-Mientras la ciencia avanza, estos nombres únicos de estrellas perduran, mezclando la línea entre ciencia y mito, y recordándonos que aunque somos una pequeña parte del cosmos, nuestro deseo de comprendarlo y nombrarlo es tan inmenso como el universo mismo. Recordar estos nombres únicos nos permite no solo identificar esos puntos de luz en el cielo nocturno, sino también reconocer nuestro lugar en esta vasta y hermosa danza celestial.
+Mientras la ciencia avanza, estos nombres únicos de estrellas perduran, mezclando la línea entre ciencia y mito, y recordándonos que aunque somos una pequeña parte del cosmos, nuestro deseo de comprendarlo y nombrarlo es tan inmenso como el [universo](https://blog.astroingeo.org/cielo-profundo/origen-y-evolucion-del-universo) mismo. Recordar estos nombres únicos nos permite no solo identificar esos puntos de luz en el cielo nocturno, sino también reconocer nuestro lugar en esta vasta y hermosa danza celestial.
 
 _Artículo publicado el 31 Dec 2023_
