@@ -45,12 +45,12 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Trapecio; En el corazón de Orión
+# Trapecio, en el corazón de Orión
 viernes, 5 de enero de 2024
 
 ::photo-article
 ---
-title: [object Promise]
+title: Trapecio, en el corazón de Orión, copyright - Fred Zimmer -
 imageurl: https://apod.nasa.gov/apod/image/2401/Image964.jpg
 ---
 ::

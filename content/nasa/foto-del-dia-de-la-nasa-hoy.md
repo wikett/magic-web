@@ -52,12 +52,12 @@ Cada día se presenta una imagen o fotografía diferente de nuestro fascinante u
 En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
 ::photo-article
 ---
-title: [object Promise]
+title: Trapecio, en el corazón de Orión, copyright - Fred Zimmer -
 imageurl: https://apod.nasa.gov/apod/image/2401/Image964.jpg
 ---
 ::
 
-## Trapezium: At the Heart of Orion
+## Trapecio, en el corazón de Orión
 
 ### Descubriendo el Corazón de la Nebulosa de Orión y su Misterioso Agujero Negro
 
