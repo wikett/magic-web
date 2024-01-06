@@ -16,6 +16,7 @@ let urlSEO = ""
 let categoriaSEO = ""
 let articuloPathSEO = ""
 let seccionesParaPrompt = ""
+let videoPrincipalSEO = ""
 let imagenPrincipalSEO = ""
 let imagenSecundariaSEO = ""
 let imagenDiscoverSEO = ""
@@ -152,12 +153,13 @@ async function downloadImage(source, url, sufijo, imageName) {
 
       let path = `./public/img/content/${urlSEO}_${sufijo}.${extension}` 
       let pathWebp = `./public/img/content/${urlSEO}_${sufijo}.webp`
-      const publicPicture = `https://${dominio}/img/content/${urlSEO}_${sufijo}.webp`
+      let publicPicture = `https://${dominio}/img/content/${urlSEO}_${sufijo}.webp`
 
 
       if (sufijo === "4") {
         path = `./public/img/${imageName}.${extension}`
-        pathWebp = `./public/img/${imageName}.webp`
+        pathWebp = `./public/img/nasa/${imageName}.webp`
+        publicPicture = `https://${dominio}/img/nasa/${imageName}.webp`
       }
       
 
@@ -178,6 +180,9 @@ async function downloadImage(source, url, sufijo, imageName) {
               }
               if(sufijo==="3") {
                 imagenDiscoverSEO = publicPicture
+              }
+              if(sufijo==="4") {
+                imagenPrincipalSEO = publicPicture
               }
               // fs.unlink(path, function (err) {
               //   if (err) throw err;
@@ -234,7 +239,7 @@ async function generateImage(subject) {
 }
 
 
-async function generateDalle3Image(texto) {
+async function generateDalle3Image(texto, filename) {
   const image = await openai.images.generate(
     {
       model: "dall-e-3",
@@ -243,9 +248,7 @@ async function generateDalle3Image(texto) {
       size: "1024x1024", 
     });
 
-  imagenDiscover = image.data[0].url
-
-  await downloadImage("DALLE", imagenDiscover, "4", slugify(texto, {separator: '-'}))
+  await downloadImage("DALLE", image.data[0].url, "4", slugify(filename, {separator: '-'}))
 }
 
 async function translateTitle(title, language) {
@@ -374,6 +377,31 @@ async function addDate(contenido) {
   return contenido + stringToAdd
 }
 
+async function addVideo(contenido, caption) {
+  // Input String
+  const searchTerm = "## ";
+  // String to be added
+  let stringToAdd = `::video-article
+---
+title: ${caption}
+videourl: ${videoPrincipalSEO}
+---
+::
+
+`;
+  // Position to add string
+  let indexPosition = contenido.indexOf(searchTerm)
+  
+  // Using substring method to split string
+  if (videoPrincipalSEO !== undefined) {
+    const newString = contenido.substring(0, indexPosition)
+          + stringToAdd + contenido.substring(indexPosition)
+    return newString
+  }
+  return contenido
+  
+}
+
 async function addPicture(contenido, caption) {
   // Input String
   const searchTerm = "## ";
@@ -421,34 +449,7 @@ const newString = contenido.substring(0, indexPosition)
 return newString
 }
 
-function addAnecdota(contenido, anecdota) {
-  contenido += `\n\n## Anecdota personal\n`
-  contenido += anecdota
-  return contenido
-}
 
-function limpiarArticulo(articulo) {
-  articulo = articulo.replace('Sección 1 – ','')
-  articulo = articulo.replace('Sección 2 – ','')
-  articulo = articulo.replace('Sección 3 – ','')
-  articulo = articulo.replace('Sección 4 – ','')
-  articulo = articulo.replace('Sección 5 – ','')
-  articulo = articulo.replace('Sección 5 – ','')
-  articulo = articulo.replace('Sección 6 – ','')
-  articulo = articulo.replace('Sección 7 – ','')
-  articulo = articulo.replace('Sección 8 – ','')
-  articulo = articulo.replace('Sección 9 – ','')
-  articulo = articulo.replace('Sección 10 – ','')
-  
-  if(articulo.includes('Título ClickBait: ')) {
-    articulo = articulo.replace('Título ClickBait:','#')
-  }
-  let newTitulo = tituloSEO.replaceAll('*','')
-  const str2 = newTitulo.charAt(0).toUpperCase() + newTitulo.slice(1);
-  articulo = articulo.replace('Introducción', 'Guia de '+str2)
-
-  return articulo
-}
 
 async function createArticle() {
   let date = new Date().toUTCString().slice(5, 16);
@@ -537,8 +538,17 @@ async function pictureOfTheDay() {
 
   urlSEO = slugify(`${tituloTraducido}-${data.date}`, {separator: '-'})
   const urlSEOpod = 'foto-del-dia-de-la-nasa-hoy'
-  imagenPrincipalSEO = data.hdurl
+  
   categoriaSEO = 'nasa'
+
+  if (data.media_type === 'video') {
+    videoPrincipalSEO = data.url
+    await generateDalle3Image(data.title, tituloTraducido)
+  }
+  else {
+    imagenPrincipalSEO = data.hdurl
+    console.log('imagenPrincipalSEO: '+imagenPrincipalSEO)
+  }
 
   const textoAdicional = await chatgptMagic(getPromptAPOD(data.explanation))
 
@@ -557,11 +567,36 @@ async function pictureOfTheDay() {
 
   articulo = cabeceroMarkdown + articuloFinal
   articulo = await addDate(articulo)
-  articulo = await addPicture(articulo, `${tituloTraducido}, copyright - ${autor} -`)
+
+  let copyrightAutor = autor ? `, copyright - ${autor} -` : ''
+  if (data.media_type === 'video') {
+    articulo = await addVideo(articulo, `${tituloTraducido}${copyrightAutor}`)
+  }
+  else {
+    articulo = await addPicture(articulo, `${tituloTraducido}${copyrightAutor}`)
+  }
+  
 
   articuloFinalpod = cabeceroMarkdownpod + articuloFinalpod
   articuloFinalpod = await addDate(articuloFinalpod)
-  articuloFinalpod = await addPicture(articuloFinalpod, `${tituloTraducidopod}, copyright - ${autor} -`)
+  if (data.media_type === 'video') {
+    articuloFinalpod = await addVideo(articuloFinalpod, `${tituloTraducido}${copyrightAutor}`)
+  }
+  else {
+    articuloFinalpod = await addPicture(articuloFinalpod, `${tituloTraducidopod}${copyrightAutor}`)
+  }
+
+  let stringToAdd = `::photo-article
+  ---
+  title: ${tituloTraducido}, imagen generada por DALLE 3
+  imageurl: ${imagenPrincipalSEO}
+  ---
+  ::
+
+  `;
+
+  articuloFinalpod += `\n\n${stringToAdd}`
+  articuloFinal += `\n\n${stringToAdd}`
   articuloFinal += '\n\n---\n[Ver el quieres ver el listado completo de todo el año de las imagenes del día de la NASA](/nasa)\n---\n\n'
 
   try {
@@ -592,7 +627,7 @@ switch (process.argv[2]) {
     
   case 'dalle':
     // Generacion imagenes DALLE 3
-    generateDalle3Image('Astronomy Calendar of Celestial Events', 'colision meteoro')
+    await generateDalle3Image('Astronomy Calendar of Celestial Events', 'colision meteoro')
     break;
 
   default:

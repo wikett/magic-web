@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Las nieves de Churyumov-Gerasimenko
+description: Imagen astronómica del día sábado, 6 de enero de 2024 por la NASA; Las nieves de Churyumov-Gerasimenko
 category: nasa
 published_time: 2024-01-06T12:16:20.817Z
-url: foto-del-dia-de-la-nasa-hoy
+url: las-nieves-de-churyumov-gerasimenko-2024-01-06
 created: 06 Jan 2024
 imageUrl: https://blog.astroingeo.org/img/nasa/las-nieves-de-churyumov-gerasimenko.webp
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Las nieves de Churyumov-Gerasimenko'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Las nieves de Churyumov-Gerasimenko'
     - name: 'og:description'
       content: 'Imagen astronómica del día sábado, 6 de enero de 2024 por la NASA; Las nieves de Churyumov-Gerasimenko'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://blog.astroingeo.org/img/nasa/las-nieves-de-churyumov-gerasimenko.webp'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/las-nieves-de-churyumov-gerasimenko-2024-01-06'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/las-nieves-de-churyumov-gerasimenko-2024-01-06'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Las nieves de Churyumov-Gerasimenko'
     - name: 'twitter:card'
       content: 'https://blog.astroingeo.org/img/nasa/las-nieves-de-churyumov-gerasimenko.webp'
     - name: 'twitter:description'
@@ -45,19 +45,14 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
-sábado, 6 de enero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
+# Las nieves de Churyumov-Gerasimenko
 ::video-article
 ---
 title: Las nieves de Churyumov-Gerasimenko
 videourl: https://www.youtube.com/embed/PpyPgJHKxSw?rel=0
 ---
 ::
-
-## Las nieves de Churyumov-Gerasimenko
+sábado, 6 de enero de 2024
 
 **Una Ventisca de Partículas en el Cometa 67P/Churyumov-Gerasimenko**
 
@@ -75,11 +70,10 @@ La sonda Rosetta nos dejó con un legado de conocimiento y un recordatorio de qu
 
 _Artículo actualizado el sábado, 6 de enero de 2024_
 
+
 ::photo-article
 ---
 title: Las nieves de Churyumov-Gerasimenko, imagen generada por DALLE 3
 imageurl: https://blog.astroingeo.org/img/nasa/las-nieves-de-churyumov-gerasimenko.webp
 ---
 ::
-
-  
