@@ -1,10 +1,3 @@
-::photo-article
----
-title: Trapecio; En el corazón de Orión, copyright - Fred Zimmer -
-imageurl: https://apod.nasa.gov/apod/image/2401/Image964.jpg
----
-::
-
 ---
 title: Trapecio; En el corazón de Orión
 description: Imagen astronómica del día viernes, 5 de enero de 2024 por la NASA; Trapecio; En el corazón de Orión
@@ -53,6 +46,12 @@ head:
       content: '© 2024 blog.astroingeo.org'
 ---
 # Trapecio; En el corazón de Orión
+::photo-article
+---
+title: Trapecio; En el corazón de Orión, copyright - Fred Zimmer -
+imageurl: https://apod.nasa.gov/apod/image/2401/Image964.jpg
+---
+::
 viernes, 5 de enero de 2024
 
 En el ***centro de esta nítida imagen cósmica***, en el corazón de la Nebulosa de Orión, se encuentran cuatro estrellas calientes y masivas conocidas como el ***Trapezium***. Agrupadas en una región de aproximadamente 1.5 años luz de radio, estas estrellas dominan el núcleo del denso ***Cúmulo de la Nebulosa de Orión***. La radiación ultravioleta ionizante del Trapezium, emitida en su mayoría por la estrella más brillante, Theta-1 Orionis C, es la que alimenta el resplandor visible de toda esta compleja región de formación estelar.
