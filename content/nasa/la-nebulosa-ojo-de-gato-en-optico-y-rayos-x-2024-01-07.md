@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: La nebulosa Ojo de Gato en óptico y rayos X
+description: Imagen astronómica del día domingo, 7 de enero de 2024 por la NASA; La nebulosa Ojo de Gato en óptico y rayos X
 category: nasa
 published_time: 2024-01-07T09:52:08.953Z
-url: foto-del-dia-de-la-nasa-hoy
+url: la-nebulosa-ojo-de-gato-en-optico-y-rayos-x-2024-01-07
 created: 07 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/CatsEye_HubblePohl_1278.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'La nebulosa Ojo de Gato en óptico y rayos X'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'La nebulosa Ojo de Gato en óptico y rayos X'
     - name: 'og:description'
       content: 'Imagen astronómica del día domingo, 7 de enero de 2024 por la NASA; La nebulosa Ojo de Gato en óptico y rayos X'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2401/CatsEye_HubblePohl_1278.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/la-nebulosa-ojo-de-gato-en-optico-y-rayos-x-2024-01-07'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/la-nebulosa-ojo-de-gato-en-optico-y-rayos-x-2024-01-07'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'La nebulosa Ojo de Gato en óptico y rayos X'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2401/CatsEye_HubblePohl_1278.jpg'
     - name: 'twitter:description'
@@ -45,21 +45,17 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# La nebulosa Ojo de Gato en óptico y rayos X
 domingo, 7 de enero de 2024
 
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-::photo-article
+#::photo-article
 ---
-title: Foto astronómica del día por la NASA
+title: La nebulosa Ojo de Gato en óptico y rayos X
 imageurl: https://apod.nasa.gov/apod/image/2401/CatsEye_HubblePohl_1278.jpg
 ---
 ::
 
-## La nebulosa Ojo de Gato en óptico y rayos X
-
-### La Nebulosa del Ojo de Gato: Un Espectáculo Cósmico
+## La Nebulosa del Ojo de Gato: Un Espectáculo Cósmico
 
 La **Nebulosa del Ojo de Gato** (NGC 6543) es una de las nebulosas planetarias más brillantes y detalladas que conocemos. Su apariencia varía según el observador; algunos ven un ojo de felino, mientras que otros imaginan una concha cósmica gigante. Este fenómeno no es más que la fase final en la existencia de una estrella similar a nuestro Sol.
 
@@ -72,6 +68,3 @@ Nuestro Sol, en unos **5 mil millones de años**, agotará su combustible nuclea
 Para aquellos interesados en aprender más y ver imágenes espectaculares de fenómenos cósmicos como este, les recomiendo asistir a la **charla gratuita APOD** que se llevará a cabo el **9 de enero de 2024**, organizada por los **Astrónomos Aficionados de la Asociación de Nueva York**. Será una oportunidad única para profundizar en los misterios del cosmos y entender nuestra posición en este gran teatro estelar.
 
 _Artículo actualizado el domingo, 7 de enero de 2024_
-
-
-  
