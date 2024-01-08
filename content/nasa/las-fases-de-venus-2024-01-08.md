@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Las fases de Venus
+description: Imagen astronómica del día lunes, 8 de enero de 2024 por la NASA; Las fases de Venus
 category: nasa
 published_time: 2024-01-08T08:23:37.285Z
-url: foto-del-dia-de-la-nasa-hoy
+url: las-fases-de-venus-2024-01-08
 created: 08 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/VenusPhases_Gonzales_1280.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Las fases de Venus'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Las fases de Venus'
     - name: 'og:description'
       content: 'Imagen astronómica del día lunes, 8 de enero de 2024 por la NASA; Las fases de Venus'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2401/VenusPhases_Gonzales_1280.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/las-fases-de-venus-2024-01-08'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/las-fases-de-venus-2024-01-08'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Las fases de Venus'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2401/VenusPhases_Gonzales_1280.jpg'
     - name: 'twitter:description'
@@ -45,21 +45,17 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Las fases de Venus
 lunes, 8 de enero de 2024
 
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-::photo-article
+#::photo-article
 ---
-title: Foto astronómica del día por la NASA
+title: Las fases de Venus
 imageurl: https://apod.nasa.gov/apod/image/2401/VenusPhases_Gonzales_1280.jpg
 ---
 ::
 
-## Las fases de Venus
-
-### Fases de Venus: Un Espectáculo Celestial
+## Fases de Venus: Un Espectáculo Celestial
 
 Nuestro vecino planetario, **Venus**, es conocido por su deslumbrante presencia en el cielo y por las fascinantes fases que atraviesa, similares a las de nuestra propia Luna. Al observar con detalle, descubrimos que Venus puede presentar una completa gama de fases: desde un disco circular completo hasta una delgada luna creciente. A pesar de ser regularmente el objeto más brillante del cielo tras el ocaso o antes del amanecer, su tamaño aparentemente pequeño exige el uso de **binoculares o un telescopio** para apreciar plenamente estas fases.
 
@@ -73,12 +69,3 @@ La presión atmosférica en la superficie de Venus es más de 90 veces la de la 
 Finalmente, les invito a la **Conferencia Gratuita APOD** que se llevará a cabo el 9 de enero de 2024, donde compartiré más detalles sobre estos fenómenos astronómicos en la reunión de la Asociación de Astrónomos Aficionados de Nueva York. ¡No se pierdan la oportunidad de aprender más sobre los misterios de nuestro vecino planetario y su influencia en nuestro estudio del cosmos!
 
 _Artículo actualizado el lunes, 8 de enero de 2024_
-
-::photo-article
-  ---
-  title: Las fases de Venus, imagen generada por DALLE 3
-  imageurl: https://apod.nasa.gov/apod/image/2401/VenusPhases_Gonzales_1280.jpg
-  ---
-  ::
-
-  
