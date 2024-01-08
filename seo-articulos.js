@@ -1,13 +1,13 @@
 import OpenAI from 'openai'
 import 'dotenv/config'
 import fs from 'fs/promises'
+import fileSystem from 'fs'
 import slugify from '@sindresorhus/slugify';
 import axios from 'axios'
 // import { TwitterApi } from 'twitter-api-v2';
 import * as deepl from 'deepl-node';
 import sharp from 'sharp';
-import pipeline from 'stream';
-import promisify from 'util';
+import path from 'path';
 
 let guiaSEO = ""
 let tituloSEO = ""
@@ -23,9 +23,9 @@ let imagenDiscoverSEO = ""
 let imagenDiscover = ""
 let descripcionSEO = ""
 let pasosSEO = ""
-const dominio = "blog.astroingeo.org"
-const profesional = 'astronomía'
-const autores = 'Enrique'
+const dominio = "caleidoscopioastrale.it"
+const profesional = 'astronomy' // siempre en ingles
+const autores = 'Elena'
 const categorias = ['Constelaciones', 'Cielo profundo', 'Telescopios', 'Sistema Solar']
 const currentDate = new Date();
 const youtubeApiKey = process.env.YOUTUBE_API_KEY;
@@ -38,18 +38,22 @@ const nasaApiKey = process.env.NASA;
 //   accessSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 // });
 
-
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_GPT_API
+})
 
 const translator = new deepl.Translator(process.env.DEEPL_AUTH);
 
 // const twitterClient = client.readWrite;
 
-function promptArticulo() {
-  return `Actúa como experto en SEO y ${profesional}. Optimiza el SEO y copywriting del artículo que redactarás, considerando la estructura lógica, relaciones semánticas (LSI) y la calidad del contenido.Escribe un artículo de 1500 palabras en español, en formato Markdown, que resuelva la búsqueda de"${tituloSEO}$". Utiliza párrafos cortos y frases claras para mejorar la experiencia del usuario. Incluye palabras clave secundarias relacionadas con ${tituloSEO}. Asegúrate de una estructura lógica, desarrollo enfocado y cierre sin repeticiones ni thin content. Crea un título SEO con H1 de 60 caracteres para "${tituloSEO}" que sea creativo y atractivo. Evita un H2 con "intro" o "introducción". Agrega entre 4 y 10 encabezados H2, subtítulos H3 y listas en Markdown. Resalta las palabras clave o frases importantes en negrita. Utiliza adecuadamente palabras clave y LSI. Finaliza con un párrafo sin H2 de "conclusión" o "resumen", pero ofrece consejos destacando alguna frase en cursiva. Incluye 3 H3 de preguntas frecuentes (FAQ) sobre ${tituloSEO}. Escribe de forma perpleja y explosiva, sin perder el contexto. Evita tituloSEO stuffing superior al 2% y repeticiones de frases. Mantén el salience score entre 0.80 y 1. Utiliza negritas en Markdown para palabras clave y frases relevantes, sin repetir frases iguales. Utiliza listas con formato Markdown, know-how, y un paso a paso. Evita contenido innecesario o basura. Enfacita el texto con negritas, cursiva o listas.`
+function promptArticulo(keyword, language) {
+  //return `Actúa como experto en SEO y ${profesional}. Optimiza el SEO y copywriting del artículo que redactarás, considerando la estructura lógica, relaciones semánticas (LSI) y la calidad del contenido.Escribe un artículo de 1500 palabras en español, en formato Markdown, que resuelva la búsqueda de"${tituloSEO}$". Utiliza párrafos cortos y frases claras para mejorar la experiencia del usuario. Incluye palabras clave secundarias relacionadas con ${tituloSEO}. Asegúrate de una estructura lógica, desarrollo enfocado y cierre sin repeticiones ni thin content. Crea un título SEO con H1 de 60 caracteres para "${tituloSEO}" que sea creativo y atractivo. Evita un H2 con "intro" o "introducción". Agrega entre 4 y 10 encabezados H2, subtítulos H3 y listas en Markdown. Resalta las palabras clave o frases importantes en negrita. Utiliza adecuadamente palabras clave y LSI. Finaliza con un párrafo sin H2 de "conclusión" o "resumen", pero ofrece consejos destacando alguna frase en cursiva. Incluye 3 H3 de preguntas frecuentes (FAQ) sobre ${tituloSEO}. Escribe de forma perpleja y explosiva, sin perder el contexto. Evita tituloSEO stuffing superior al 2% y repeticiones de frases. Mantén el salience score entre 0.80 y 1. Utiliza negritas en Markdown para palabras clave y frases relevantes, sin repetir frases iguales. Utiliza listas con formato Markdown, know-how, y un paso a paso. Evita contenido innecesario o basura. Enfacita el texto con negritas, cursiva o listas.`
+  return `Act as a SEO expert and ${profesional}. Optimize the SEO and copywriting of the article you will write, considering the logical structure, semantic relationships (LSI) and the quality of the content.Write an article of 1500 words in ${language}, in Markdown format, that solves the search for "${keyword}$". Use short paragraphs and clear sentences to enhance the user experience. Include secondary keywords related to ${keyword}. Ensure a logical structure, focused development and closing without repetition or thin content. Create a 60-character H1 SEO title for "${keyword}" that is creative and engaging. Avoid an H2 with "intro" or "introduction". Add 4-10 H2 headings, H3 subheadings and lists in Markdown. Highlight keywords or important phrases in bold. Use keywords and LSI appropriately. End with a paragraph without a "conclusion" or "summary" H2, but offer advice by highlighting a sentence in italics. Include 3 H3 frequently asked questions (FAQ) about ${keyword}. Write in a perplexing and explosive way, without losing context. Avoid "${keyword}" stuffing higher than 2% and repetition of phrases. Keep the salience score between 0.80 and 1. Use bold Markdown for keywords and relevant phrases, without repeating the same phrases. Use lists with Markdown format, know-how, and a step-by-step (if it is needed). Avoid unnecessary or junk content. Emphasize text with bold, italics or lists.`
 }
 
-function promptDescription() {
-  return `Actúa como experto en SEO y ${profesional}. Escribe una meta descripción como máximo de 150 caracteres sobre un artículo de ${tituloSEO}.`
+
+function promptDescription(keyword, language) {
+  return `Act as an SEO expert. Optimize the copywriting of a meta description for a blog article with a maximum of 150 characters about ${keyword} in ${language}.`
 }
 
 function getPromptGuia(titulo) {
@@ -66,10 +70,12 @@ function getPromptCategorias(titulo) {
   return `Clasifica esta frase "${titulo}" en alguna de estas categorías: ${categorias.toString()}. En la respuesta indica solo la categoría, por favor.`
 }
 
-function getPromptArticulo() {
-  console.log('generando articulo para: '+tituloSEO)
-  return `Por favor,  escribe un artículo en español sobre "${tituloSEO}" de unas 2000 palabras, como una persona que sabe el 80% de español, utilizando palabras muy sencillas de entender y dándoles matices, que contenga las siguientes secciones:\n${seccionesParaPrompt}. El resultado redáctalo en Markdown, resaltando algunas partes del texto y utiliza cada sección como h2. No uses palabras normales de Inteligencia Artificial. Manten una densidad alta de la palabra clave. Incluye un título atractivo referente a la palabra clave pero sin ser ClickBait al principio del artículo.`
-}
+// function getPromptArticulo(language) {
+//   console.log('generando articulo para: '+tituloSEO)
+//   // return `Write an article in ${language} about "${tituloSEO} around 2000 words, `
+//   return `Write an article of around 2000 words about '${tituloSEO}', use very easy-to-understand words, and give them nuance. Write this article in ${language}. Do not use normal AI words. Use Markdown and emphasize some parts of the text (you can use bold, italic, lists or tables) and use h2 for the sections. Include an attractive title referring to the keyword but without being ClickBait at the beginning of the article.` 
+//   // return `Por favor,  escribe un artículo en español sobre "${tituloSEO}" de unas 2000 palabras, como una persona que sabe el 80% de español, utilizando palabras muy sencillas de entender y dándoles matices, que contenga las siguientes secciones:\n${seccionesParaPrompt}. El resultado redáctalo en Markdown, resaltando algunas partes del texto y utiliza cada sección como h2. No uses palabras normales de Inteligencia Artificial. Manten una densidad alta de la palabra clave. Incluye un título atractivo referente a la palabra clave pero sin ser ClickBait al principio del artículo.`
+// }
 
 function getPromptPasosMasLinks() {
   return `Dime los pasos de '${tituloSEO}' y haz un lista de los productos que necesito comprar para poderlo hacer. El resultado redáctalo en Markdown, crea la lista en formato Markdown, resaltando algunas partes del texto y que solo aparezcan h2 y h3 como títulos (ningún h1)`
@@ -256,6 +262,43 @@ async function translateTitle(title, language) {
   return result.text
 }
 
+async function generarArticuloTraducido(keyword, imagenPrincipalUrl, imagenSecundariaUrl, categoria) {
+  
+  try {
+    
+    tituloSEO = await translateTitle(keyword,'it')
+    console.log(`tituloSEO: ${tituloSEO}`)
+    tituloSEO = await cleanTexto(tituloSEO)
+    console.log(`tituloSEO after clean: ${tituloSEO}`)
+
+    tituloSEOEnglish = await translateTitle(keyword, 'en-GB')
+    console.log(`tituloSEOEnglish: ${tituloSEOEnglish}`)
+
+    categoriaSEO = categoria
+
+    urlSEO = slugify(tituloSEO, {separator: '-'})
+    console.log(`urlSEO: ${urlSEO}`)
+    imagenPrincipalSEO = imagenPrincipalUrl
+    imagenSecundariaSEO = imagenSecundariaUrl
+    console.log(`imagenPrincipalSEO: ${imagenPrincipalSEO}`)
+    console.log(`imagenSecundariaSEO: ${imagenSecundariaSEO}`)
+    
+
+    articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`
+    console.log(`articuloPathSEO: ${articuloPathSEO}`)
+
+    if (!fileSystem.existsSync(articuloPathSEO)) {
+      await createArticle()
+    } else {
+        console.log("Saltamos al siguiente articulo ---");
+    }
+    
+
+  } catch (err) {
+    console.error(err);
+  }
+}
+
 async function obtenerCategoria() {
   
   try {
@@ -300,74 +343,13 @@ async function obtenerCategoria() {
   }
 }
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_GPT_API
-})
 
-function letrasaquitarES(titulo) {
-  for (let index = 0; index < titulo.length; index++) {
-      const element = titulo[index];
-      if(element === ':'){
-          return index + 1;
-      }        
-  }
-}
-
-function letrasaquitarFinal(titulo) {
-    for (let index = titulo.length; index > 1; index--) {
-        const element = titulo[index];
-        if(element === '-') {
-            return index;
-        }        
-    }
-}
-
-function numeroPalabras(titulo){
-    // Using match with regEx
-    let matches = titulo.match(/(\d+)/);
-     
-    // Display output if number extracted
-    if (matches) {
-        return matches[0];
-    }
-}
-
-function limpiarSeccion(titulo) {
-  titulo = titulo.replace(/['"]+/g, '')
-  const letrasAQuitar = letrasaquitarES(titulo);
-  const letrasAQuitarAtras = letrasaquitarFinal(titulo);
-  let tituloFinal = titulo.substring(letrasAQuitar, letrasAQuitarAtras)
-  tituloFinal = tituloFinal.trim()
-  return tituloFinal;
-}
-
-function limpiarTituloConNumero(titulo) {
-  return titulo.match(/(?:"[^"]*"|^[^"]*$)/)[0].replace(/"/g, "")
-}
-
-function limpiarTituloDirecto(titulo) {
-  titulo = titulo.replace('Título: ','')
-  return titulo.replace('"','')
-}
 
 async function cleanTexto(texto) {
   let description = texto.replaceAll(':', ';')
   description = description.replaceAll('"','')
   description = description.replaceAll("'","")
   return description
-}
-
-function getDescription(contenido) {
-  const startIndexPosition = contenido.indexOf("# ")
-  const endIndexPosition = contenido.indexOf("##")
-
-  let description = contenido.substring(startIndexPosition, endIndexPosition)
-  description = description.trim()
-  description = description.substring(2, description.length)
-  description = description.replaceAll('*','')
-  description = description.replaceAll('"','')
-  description = description.replaceAll('\'','')
-  return description.replaceAll(':', ' ')
 }
 
 async function addDate(contenido) {
@@ -449,12 +431,10 @@ const newString = contenido.substring(0, indexPosition)
 return newString
 }
 
-
-
 async function createArticle() {
   let date = new Date().toUTCString().slice(5, 16);
-  let articulo = await chatgptMagic(getPromptArticulo(), 'gpt-4-1106-preview')
-  descripcionSEO = await chatgptMagic(promptDescription(), 'gpt-4-1106-preview')
+  let articulo = await chatgptMagic(promptArticulo(tituloSEOEnglish, 'Italian'), 'gpt-4-1106-preview')
+  descripcionSEO = await chatgptMagic(promptDescription(tituloSEOEnglish, 'Italian'), 'gpt-4-1106-preview')
   descripcionSEO = await cleanTexto(descripcionSEO)
 
   let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
@@ -471,18 +451,6 @@ async function createArticle() {
     // await tweetAricle() 
   } catch (error) {
     console.error('Error appending content to file:', error);
-  }
-}
-
-async function processContent(contenido) {
-  // console.log('procesando contenido...')
-  for (let i = 0; i < contenido.length; i++) {
-    const element = contenido[i];
-    let tituloLimpio = ""
-    if (element.includes('Sección')) { 
-      tituloLimpio = limpiarSeccion(element);
-      seccionesParaPrompt += `- ${tituloLimpio},\n`      
-    }
   }
 }
 
@@ -612,6 +580,56 @@ async function pictureOfTheDay() {
   }
 }
 
+async function traduccionTotal() {
+  const language = 'it'
+
+  const category = 'altro'
+
+  const directoryPath = './content/otros';
+  const directoryPathDestino = './content/altro'
+    try {
+        const files = await fs.readdir(directoryPath);
+        for (let file of files) {
+          const filePath = path.join(directoryPath, file);
+          const data = await fs.readFile(filePath, 'utf-8');
+          const lines = data.split('\n');
+
+          let titlePin = ''
+          let description = ''
+          let imageUrl = ''
+          let imagenSecundaria = ''
+          let url = ''
+          for (let line of lines) {
+            // console.log(line)
+            if (line.startsWith('title: ')) {
+              titlePin = line.substring(7, line.length)
+            }
+            if (line.startsWith('description: ')) {
+                description = line.substring(13, line.length)
+            }
+            if (line.includes('2.webp')) {
+              imagenSecundaria = line.substring(10, line.length)
+            }
+            if (line.startsWith('imageUrl: ')) {
+                imageUrl = line.substring(10, line.length)
+            }
+            if (line.includes('blog.astroingeo.org') && line.includes(category)) {
+                url = line.substring(16, line.length-1)
+            }
+            
+          }
+          // console.log(titlePin);
+          // console.log(description);
+          // console.log(imageUrl)
+          // console.log(imagenSecundaria);
+          // console.log(url);
+          await generarArticuloTraducido(titlePin, imageUrl, imagenSecundaria, category )
+        }
+    } catch (err) {
+        console.error(`Error while reading directory: ${err}`);
+    }
+}
+
 switch (process.argv[2]) {
   case 'nasa':
     console.log('Calculando apod de la NASA')
@@ -623,6 +641,11 @@ switch (process.argv[2]) {
       console.log('Calculando articulo: '+index)
       await obtenerCategoria();  
     }
+    break;
+  }
+
+  case 'traduccion': {
+    traduccionTotal()
     break;
   }
     
