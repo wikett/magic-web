@@ -74,11 +74,4 @@ Finalmente, les invito a la **Conferencia Gratuita APOD** que se llevará a cabo
 
 _Artículo actualizado el lunes, 8 de enero de 2024_
 
-::photo-article
-  ---
-  title: Las fases de Venus, imagen generada por DALLE 3
-  imageurl: https://apod.nasa.gov/apod/image/2401/VenusPhases_Gonzales_1280.jpg
-  ---
-  ::
-
   

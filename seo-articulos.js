@@ -579,12 +579,6 @@ async function pictureOfTheDay() {
 
   articuloFinalpod = cabeceroMarkdownpod + articuloFinalpod
   articuloFinalpod = await addDate(articuloFinalpod)
-  if (data.media_type === 'video') {
-    articuloFinalpod = await addVideo(articuloFinalpod, `${tituloTraducido}${copyrightAutor}`)
-  }
-  else {
-    articuloFinalpod = await addPicture(articuloFinalpod, `${tituloTraducidopod}${copyrightAutor}`)
-  }
 
   let stringToAdd = `::photo-article
   ---
@@ -595,8 +589,15 @@ async function pictureOfTheDay() {
 
   `;
 
-  articuloFinalpod += `\n\n${stringToAdd}`
-  articuloFinal += `\n\n${stringToAdd}`
+  if (data.media_type === 'video') {
+    articuloFinalpod = await addVideo(articuloFinalpod, `${tituloTraducido}${copyrightAutor}`)
+    articuloFinalpod += `\n\n${stringToAdd}`
+    articuloFinal += `\n\n${stringToAdd}`
+  }
+  else {
+    articuloFinalpod = await addPicture(articuloFinalpod, `${tituloTraducidopod}${copyrightAutor}`)
+  }
+
   articuloFinal += '\n\n---\n[Ver el quieres ver el listado completo de todo el año de las imagenes del día de la NASA](/nasa)\n---\n\n'
 
   try {
