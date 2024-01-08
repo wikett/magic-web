@@ -28,7 +28,7 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: 'https://blog.astroingeo.org',
+    url: 'https://caleidoscopioastrale.it',
   },
   app: {
     head: {
