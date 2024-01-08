@@ -49,7 +49,7 @@ head:
 
 Scoprire e identificare le costellazioni nel cielo stellato è un'arte affascinante che collega gli appassionati di astronomia con la storia e i miti delle antiche culture. In questa guida, esploreremo i metodi e le tecniche per trovare le costellazioni, portandoti attraverso un viaggio tra i segreti dell'osservazione stellare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come trovare le costellazioni
 imageurl: https://blog.astroingeo.org/img/content/como-encontrar-constelaciones_1.webp
@@ -73,7 +73,7 @@ Il **cielo notturno** non è statico; varia in base alla posizione geografica, a
 
 Per iniziare, impara a riconoscere i punti cardinali. La Polaris, o Stella Polare, indica il nord e può aiutarti a orientarti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-encontrar-constelaciones_2.webp
 title: Come trovare le costellazioni

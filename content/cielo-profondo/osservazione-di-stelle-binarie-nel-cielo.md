@@ -49,7 +49,7 @@ head:
 
 Osservare le stelle è da sempre una delle attività più affascinanti e misteriose per l'umanità. In particolare, le stelle binarie rappresentano un capitolo intrigante di questo vasto universo: due astri che danzano insieme in una coreografia cosmica. Questo articolo serve come guida per astrofili e curiosi che desiderano avventurarsi nell’osservazione di queste meraviglie celesti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Osservazione di stelle binarie nel cielo
 imageurl: https://blog.astroingeo.org/img/content/observacion-de-estrellas-binarias-en-el-cielo_1.webp
@@ -67,7 +67,7 @@ Prima di iniziare, occorre munirsi degli strumenti adeguati:
 - **Software astronomico**: può facilitare l'identificazione e il tracciamento delle stelle.
 
 ## Tipologie di Stelle Binarie
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/observacion-de-estrellas-binarias-en-el-cielo_2.webp
 title: Osservazione di stelle binarie nel cielo

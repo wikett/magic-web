@@ -49,7 +49,7 @@ head:
 
 L'universo è un luogo di straordinaria variabilità, un grande palcoscenico dove si mescolano le realtà più disparate. I sistemi planetari che punteggiano il nostro cielo stellato sono un chiaro esempio di questa diversità. In questo articolo, ci immergeremo nell'indagine dei sistemi planetari più *bizzarri* e affascinanti scoperti finora. Una cavalcata spaziale tra i fenomeni più peculiari dell'astronomia moderna.
 
-::photo-article.webp
+::photo-article
 ---
 title: I sistemi planetari più bizzarri
 imageurl: https://blog.astroingeo.org/img/content/los-sistemas-planetarios-mas-bizarros_1.webp
@@ -68,7 +68,7 @@ imageurl: https://blog.astroingeo.org/img/content/los-sistemas-planetarios-mas-b
 
 Tra gli esempi di sistemi insoliti non possiamo dimenticare **HD 40307**. L'ammassarsi di così tante Super-Terre in un singolo sistema solleva interrogativi sulla loro origine e precisa natura.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-sistemas-planetarios-mas-bizarros_2.webp
 title: I sistemi planetari più bizzarri

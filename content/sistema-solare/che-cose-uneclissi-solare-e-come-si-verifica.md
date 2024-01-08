@@ -49,7 +49,7 @@ head:
 
 L'eclissi solare è un fenomeno astronomico affascinante, un balletto cosmico che avvince gli osservatori terrestri. Ma cosa si cela dietro quest'evento eclatante, e come si verifica?
 
-::photo-article.webp
+::photo-article
 ---
 title: Che cosè uneclissi solare e come si verifica?
 imageurl: https://blog.astroingeo.org/img/content/que-es-y-como-se-produce-un-eclipse-solar_1.webp
@@ -70,7 +70,7 @@ Per comprendere il meccanismo che regola l'eclissi solare, si devono considerare
 2. **L'Allineamento**: L'allineamento perfetto o quasi perfetto è necessario perché la Luna proietti la sua ombra sulla Terra.
 3. **Le Ombre**: L'ombra della Luna si divide in due parti: l'umbra, dove l'oscuramento è totale, e la penombra, dove si verifica un oscuramento parziale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/que-es-y-como-se-produce-un-eclipse-solar_2.webp
 title: Che cosè uneclissi solare e come si verifica?

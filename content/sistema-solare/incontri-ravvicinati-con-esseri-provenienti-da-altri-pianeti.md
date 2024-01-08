@@ -49,7 +49,7 @@ head:
 
 La ricerca di vita al di fuori della Terra è sempre stata un argomento che affascina e divide. Molti affermano di aver avuto **incontri ravvicinati** con esseri di altri pianeti, ma cosa c'è di vero in queste testimonianze? Attraverso un rigoroso approccio e l'analisi delle testimonianze più celebri, cercheremo di capire se esistono prove concrete di queste esperienze extraterrestri.
 
-::photo-article.webp
+::photo-article
 ---
 title: Incontri ravvicinati con esseri provenienti da altri pianeti
 imageurl: https://blog.astroingeo.org/img/content/encuentros-cercanos-con-seres-de-otros-planetas_1.webp
@@ -62,7 +62,7 @@ Studi condotti nell'ambito dell'ufologia hanno spesso preso in considerazione la
 ### L'Influenza dei Media sui Racconti di Incontri Extraterrestri
 Il ruolo dei film e della letteratura fantascientifica nel plasmare l'immaginario collettivo sugli alieni è indiscutibile. I media hanno contribuito a formare un'immagine stereotipata dell'*alieno*, influenzando potenzialmente le descrizioni degli **incontri ravvicinati**.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/encuentros-cercanos-con-seres-de-otros-planetas_2.webp
 title: Incontri ravvicinati con esseri provenienti da altri pianeti

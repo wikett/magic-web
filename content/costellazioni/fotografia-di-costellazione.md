@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno ha affascinato l'umanità fin dalla notte dei tempi, un vasto sipario scuro punteggiato di stelle scintillanti che raccontano le storie di miti e leggende antiche. **La fotografia delle costellazioni** non è solo catturare la bellezza delle stelle, ma è anche l'arte di fissare nella memoria collettiva segni luminosi che hanno guidato esploratori e sognatori.
 
-::photo-article.webp
+::photo-article
 ---
 title: Fotografia di costellazione
 imageurl: https://blog.astroingeo.org/img/content/fotografia-de-constelaciones_1.webp
@@ -82,7 +82,7 @@ Dopo la cattura delle immagini, **il post-processing** gioca un ruolo cruciale n
 - **Parchi e riserve**: Scegliete parchi nazionali o riserve oscure designati.
 - **Mappa del cielo buio**: Consultate mappe specifiche per individuare i migliori siti di osservazione.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/fotografia-de-constelaciones_2.webp
 title: Fotografia di costellazione

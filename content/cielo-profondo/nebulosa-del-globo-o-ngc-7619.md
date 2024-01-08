@@ -49,7 +49,7 @@ head:
 
 L'universo è un'incredibile galleria d'arte cosmica, popolata da oggetti celesti di una bellezza ineffabile. Tra questi si trova la **Nebulosa Globo**, conosciuta scientificamente come **NGC 7619**, una perla lussureggiante del firmamento notturno. Scopriamone i segreti e come osservarla al meglio.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa del globo o NGC 7619
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-globo-o-ngc-7619_3.webp
@@ -64,7 +64,7 @@ La Nebulosa Globo è un oggetto celeste meno noto rispetto ai suoi vicini più f
 
 Uno degli aspetti più intriganti riguardanti NGC 7619 è il suo processo di formazione stellare. Essa offre agli astronomi uno spettacolo ricco di indizi su come le stelle nascono e si sviluppano all'interno delle nebulose.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-globo-o-ngc-7619_2.webp
 title: Nebulosa del globo o NGC 7619

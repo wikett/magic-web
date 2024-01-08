@@ -49,7 +49,7 @@ head:
 
 L’*osservazione delle stelle* ci offre uno spettacolo meraviglioso ma nasconde anche indizi fondamentali per svelare i misteri più profondi del cosmo, come l'età dell'Universo. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Le stelle nel cielo possono darci unidea delletà dellUniverso?
 imageurl: https://blog.astroingeo.org/img/content/pueden-las-estrellas-del-cielo-darnos-una-idea-de-la-edad-del-universo_1.webp
@@ -70,7 +70,7 @@ Ogni stella attraversa diverse fasi, da protostella a gigante rossa, a nana bian
 
 La distanza delle stelle e la loro velocità di allontanamento sono dati fondamentali. La legge di Hubble ci dice che più un oggetto è lontano, più velocemente si allontana da noi: un aspetto chiave per tracciare l'espansione dell'Universo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/pueden-las-estrellas-del-cielo-darnos-una-idea-de-la-edad-del-universo_2.webp
 title: Le stelle nel cielo possono darci unidea delletà dellUniverso?

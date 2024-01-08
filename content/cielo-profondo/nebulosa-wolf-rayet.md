@@ -51,7 +51,7 @@ Le **Nebulose di Wolf-Rayet** sono fenomeni celesti di straordinaria bellezza e 
 
 In questo articolo vi immergeremo nell'affascinante mondo delle nebulose di Wolf-Rayet, esplorando i loro segreti e l'importanza per la nostra comprensione dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Wolf-Rayet
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-wolf-rayet_3.webp
@@ -71,7 +71,7 @@ Il colore vivido e le intricati strutture di una **nebulosa di Wolf-Rayet** sono
 - **Emissione di Righe Spettrali**: caratteristiche distintive nella luce di una nebulosa, causate da atomi eccitati.
 - **Varietà Cromatica**: le differenti tonalità, dal rosso dell'idrogeno al verde del doppio ionizzato dell'ossigeno (OIII), rivelano la composizione chimica della nebulosa.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-wolf-rayet_2.webp
 title: Nebulosa Wolf-Rayet

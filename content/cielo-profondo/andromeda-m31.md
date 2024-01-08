@@ -49,7 +49,7 @@ head:
 
 La **Galassia di Andromeda**, nota anche come **M31**, è un affascinante spiraglio nell'immensità del cosmo che da sempre stimola la curiosità degli astronomi e appassiona gli entusiasti del cielo notturno. Situata a circa 2,537 milioni di anni luce dalla Terra, nella costellazione di Andromeda, questa galassia spirale è la più vicina alla nostra Via Lattea.
 
-::photo-article.webp
+::photo-article
 ---
 title: Andromeda (M31)
 imageurl: https://blog.astroingeo.org/img/content/andromeda-m31_3.webp
@@ -71,7 +71,7 @@ La storia astronomica di **Andromeda (M31)** è ricca di scoperte e milestone. G
 
 Per gli astrofili, l'osservazione di **Andromeda** si trasforma spesso in una vera e propria caccia al tesoro astronomico, incoronata dalla vista della sua maestosa struttura spirale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/andromeda-m31_2.webp
 title: Andromeda (M31)

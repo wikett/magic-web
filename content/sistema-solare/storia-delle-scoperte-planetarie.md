@@ -47,7 +47,7 @@ head:
 ---
 # Il Cronotopo dei Pianeti: Un Viaggio Attraverso le Scoperte Planetarie
 
-::photo-article.webp
+::photo-article
 ---
 title: Storia delle scoperte planetarie
 imageurl: https://blog.astroingeo.org/img/content/historia-de-los-descubrimientos-planetarios_1.webp
@@ -66,7 +66,7 @@ Con l'invenzione del telescopio nel 1608 da parte di Hans Lippershey, la ricerca
 
 Queste scoperte arricchirono il catalogo del nostro sistema solare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/historia-de-los-descubrimientos-planetarios_2.webp
 title: Storia delle scoperte planetarie

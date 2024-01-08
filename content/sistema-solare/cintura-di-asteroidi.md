@@ -49,7 +49,7 @@ head:
 
 La **Cintura di Asteroidi** rappresenta una delle regioni più intriganti del nostro sistema solare, ovvero quella striscia enigmaticamente ricca di corpi rocciosi che orbitano tra Marte e Giove. Questo articolo si propone di esplorare le molteplici sfaccettature di questa area cosmica, dalle origini alle prospettive future.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cintura di asteroidi
 imageurl: https://blog.astroingeo.org/img/content/cinturon-de-asteroides_1.webp
@@ -65,7 +65,7 @@ Gli asteroidi sono **relitti planetari**, testimoni silenziosi delle primissime 
 ## Tipologie di Asteroidi nella Cintura
 Non tutti gli asteroidi sono uguali: essi variano per composizione, dimensione e forma. Alcuni sono frammenti di antichi protopianeti, altri sono il risultato di collisioni passate. Vi sono gli asteroidi silicatici, quelli carbonacei (C-type), e i metallici (M-type), ciascuno con le proprie caratteristiche specifiche.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cinturon-de-asteroides_2.webp
 title: Cintura di asteroidi

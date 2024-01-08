@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è più di un semplice sfondo oscuro punteggiato di punti luminosi; è una porta aperta verso l'infinito, un paesaggio ricco di storie, miti e scienza. In particolare, la **Via Lattea** rappresenta il nostro quartiere cosmico, un insieme di stelle, pianeti, gas e polvere che si intrecciano in una danza spettacolare. Esplorare le stelle della Via Lattea è come immergersi in una galleria d'arte celestiale, dove ogni astro racconta una storia diversa.
 
-::photo-article.webp
+::photo-article
 ---
 title: Stelle della Via Lattea
 imageurl: https://blog.astroingeo.org/img/content/estrellas-de-la-via-lactea_1.webp
@@ -75,7 +75,7 @@ Ogni astro contribuisce al mosaico celestiale che è la nostra galassia, ognuno 
 
 Saper navigare la mappa delle stelle della Via Lattea può trasformare anche il più semplice osservatore in un esploratore dello spazio. **Constellazioni**, **ammassi stellari** e **nebulose** sono solo alcune delle meraviglie che possiamo scoprire con la giusta guida.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-de-la-via-lactea_2.webp
 title: Stelle della Via Lattea

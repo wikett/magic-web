@@ -49,7 +49,7 @@ head:
 
 La notte cela meraviglie di insondabile bellezza, e tra queste, la **Nebulosa Stella Cadente** o **NGC 2261** si rivela come uno scrigno di segreti stellari. Questo articolo vi guiderà attraverso un viaggio nell'immenso spazio, alla scoperta di uno degli oggetti più affascinanti del cosmo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Stella cadente o NGC 2261
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-estrella-fugaz-o-ngc-2261_3.webp
@@ -65,7 +65,7 @@ La **struttura della nebulosa NGC 2261** è davvero unica nel suo genere. Con la
 ### Le Caratteristiche del Nucleo
 Il nucleo della nebulosa nasconde il **motore della sua illuminazione**: la stella variabile R Monocerotis. La luminosità di questa stella cambia nel tempo, proiettando ombre suggestive e irregolari che fanno variare l'aspetto della nebulosa, quasi come se avesse una vita propria.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-estrella-fugaz-o-ngc-2261_2.webp
 title: Nebulosa Stella cadente o NGC 2261

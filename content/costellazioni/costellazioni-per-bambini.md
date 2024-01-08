@@ -49,7 +49,7 @@ head:
 
 Le stelle hanno affascinato l'umanità sin dall'antichità, quando i nostri antenati osservavano il cielo notturno, immaginando figure eroiche e animali fantastici nel grande panorama celeste. Oggi, introdurre i **bambini** al meraviglioso mondo delle **costellazioni** è un modo eccellente per suscitare la loro curiosità verso la scienza dell'**astronomia** e avvicinarli alla comprensione dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazioni per bambini
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-para-ninos_1.webp
@@ -72,7 +72,7 @@ Le stelle, come in un libro illustrato celeste, raccontano storie. Alcune costel
 
 **Orione** e la **Grande Carro** sono due costellazioni ideali per iniziare. Spiega ai piccoli che Orione fu un coraggioso cacciatore trasformato in stelle dalla sua amata Artemide. La Grande Carro, parte della più ampia Ursa Major, rappresenta un grande carro agricolo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-para-ninos_2.webp
 title: Costellazioni per bambini

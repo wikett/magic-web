@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un caleidoscopio di misteri e splendori, una finestra aperta sull'infinito che stimola la nostra curiosità e aspirazione al sapere. Una delle gemme celesti che attrae l'attenzione di astronomi e appassionati è **Centauro A**, nota anche come **NGC 5128**. In questo articolo, esploreremo i segreti di una delle galassie più enigmatiche e affascinanti del nostro universo vicino.
 
-::photo-article.webp
+::photo-article
 ---
 title: Centauro A (NGC 5128)
 imageurl: https://blog.astroingeo.org/img/content/centauro-a-ngc-5128_3.webp
@@ -65,7 +65,7 @@ Una delle peculiarità di **NGC 5128** è la sua morfologia unica. Si tratta di 
 ### Il Nucleo Attivo di Centauro A
 Il cuore di questa galassia è uno dei più energici del cielo australe. Al suo centro si nasconde un **buco nero supermassiccio**, il motore che alimenta emissioni radio e raggi X. Questo rende Centauro A una fonte preziosa di studi e osservazioni per gli astrofisici.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/centauro-a-ngc-5128_2.webp
 title: Centauro A (NGC 5128)

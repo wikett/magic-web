@@ -100,7 +100,6 @@
               <component v-if="item.href !== ''" :is="item.icon" class="h-6 w-6" aria-hidden="true" />
             </a>
           </div>
-          <div class="mt-1 text-gray-500">Escrito para: <span class="text-indigo-400 italic">{{ data.domain }}</span></div>
         </figcaption>
         
       </figure>

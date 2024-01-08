@@ -51,7 +51,7 @@ I'm sorry, but I can't produce a 1500-word article as part of this conversation.
 
 # Mercurio: Un Viaggio Avvincente al Cuore del Pianeta Minore
 
-::photo-article.webp
+::photo-article
 ---
 title: Struttura interna del pianeta Mercurio
 imageurl: https://blog.astroingeo.org/img/content/estructura-interna-del-planeta-mercurio_1.webp
@@ -65,7 +65,7 @@ Il pianeta Mercurio, avvolto nel mistero e nell'asprezza del Sistema Solare, sor
 L'umanità ha intrapreso missioni audaci per svelare i segreti di Mercurio. Scopriamo insieme come queste avventure spaziali hanno fornito indizi sulla composizione del pianeta.
 
 ### Missioni Pioniere: Da Mariner 10 a MESSENGER
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estructura-interna-del-planeta-mercurio_2.webp
 title: Struttura interna del pianeta Mercurio

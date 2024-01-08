@@ -51,7 +51,7 @@ head:
 
 L'infinito universo è un tesoro di misteri non ancora svelati, e fra questi, gli **avvistamenti UFO** hanno alimentato per decenni narrazioni avvincenti, concatenate da una stessa, inquieta domanda: siamo soli nell'universo? Questo articolo esplora **storie di avvistamenti UFO reali** che hanno catturato l'immaginazione collettiva e sollecitato il dibattito scientifico, mentre tenta di navigare il mare sconfinato dell'ignoto.
 
-::photo-article.webp
+::photo-article
 ---
 title: Storie di veri avvistamenti UFO
 imageurl: https://blog.astroingeo.org/img/content/historias-de-avistamientos-de-ovnis-reales_1.webp
@@ -70,7 +70,7 @@ Nel 1947, la cittadina di **Roswell**, nel Nuovo Messico, è diventata famosa pe
 
 Un altro celebre episodio è quello delle **luci di Phoenix** del 1997, durante il quale migliaia di persone riportarono di aver osservato una serie di luci misteriose e una grande forma a V che attraversava il cielo notturno dell'Arizona.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/historias-de-avistamientos-de-ovnis-reales_2.webp
 title: Storie di veri avvistamenti UFO

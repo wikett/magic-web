@@ -49,7 +49,7 @@ head:
 
 Il **Sistema Solare** è un complesso cosmico in continua evoluzione, una danza stellare dove ogni elemento, dal più piccolo asteroide al più grande pianeta, svolge un ruolo cruciale. Nei suoi circa 4,6 miliardi di anni di storia, le trasformazioni hanno modellato la sua struttura e la composizione, e solo ora cominciamo a comprendere la portata di questi cambiamenti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cambiamenti nel sistema solare
 imageurl: https://blog.astroingeo.org/img/content/cambios-en-el-sistema-solar_1.webp
@@ -68,7 +68,7 @@ Il **Sistema Solare** non è una struttura statica. La sua evoluzione è guidata
 
 Il cuore del **Sistema Solare**, il **Sole**, attraversa fasi di sviluppo. Si trasforma da una nana gialla a quello che sarà, tra miliardi di anni, una gigante rossa.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cambios-en-el-sistema-solar_2.webp
 title: Cambiamenti nel sistema solare

@@ -49,7 +49,7 @@ head:
 
 Viaggiare attraverso l'universo ci porta a incontrare meraviglie oltre ogni immaginazione. Tra queste, la **Nebulosa Elica** (nota anche come **NGC 7293**) occupa un posto di rilievo nel cuore degli appassionati di astronomia. Situata nella costellazione dell’Acquario, è uno degli oggetti celesti più studiati e ammirati. Unisci a me in questa avventura cosmica per scoprire i segreti celati in questa meravigliosa nebulosa planetaria.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Elica o NGC 7293
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-helice-o-ngc-7293_3.webp
@@ -64,7 +64,7 @@ La Nebulosa Elica nasce dal lento declino di una stella simile al nostro Sole. Q
 ### Un Capolavoro di Colori e Forme
 Le immagini della Nebulosa Elica sono tra le più suggestive che l'astronomia possa offrire. I colori variopinti, dovuti ai diversi elementi chimici che interagiscono con la radiazione ultravioletta, la rendono uno spettacolo visivo ineguagliabile.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-helice-o-ngc-7293_2.webp
 title: Nebulosa Elica o NGC 7293

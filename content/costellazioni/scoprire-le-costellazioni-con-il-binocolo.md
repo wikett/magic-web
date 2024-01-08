@@ -49,7 +49,7 @@ head:
 
 Esplorare il cielo stellato è una delle avventure più affascinanti per chiunque si sia mai soffermato a guardare in alto durante una tranquilla notte serena. **L'osservazione delle costellazioni** non ha bisogno di strumenti professionali o di un'attrezzatura astronomica avanzata: basta un semplice paio di binocoli per iniziare a viaggiare tra stelle e miti celesti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Scoprire le costellazioni con il binocolo
 imageurl: https://blog.astroingeo.org/img/content/descubriendo-constelaciones-con-binoculares_1.webp
@@ -75,7 +75,7 @@ Prima di tuffarti nell'osservazione, familiarizza con i tuoi strumenti e con il 
 - **Familiarizza col tuo binocolo**: impara a regolarne la messa a fuoco e ad usarlo correttamente.
 - **Usa una mappa stellare**: aiuta a localizzare le costellazioni e a comprendere meglio ciò che stai osservando.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/descubriendo-constelaciones-con-binoculares_2.webp
 title: Scoprire le costellazioni con il binocolo

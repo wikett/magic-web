@@ -49,7 +49,7 @@ head:
 
 La **Galassia Mulino a Vento Sud (M83)**, nota anche come NGC 5236, è un affascinante oggetto celeste che cattura l'interesse di astronomi e appassionati di astronomia in tutto il mondo. Collocata nella costellazione dell'Idra, questa galassia spirale è uno dei gioielli del cielo meridionale e un tema prediletto per chi desidera approfondire le meraviglie dell'Universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia del Mulino a Vento Sud (M83)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-molinillo-del-sur-m83_3.webp
@@ -65,7 +65,7 @@ L'M83 si trova a circa 15 milioni di anni luce di distanza dalla Terra, rendendo
 ### Struttura e Dinamica Interna
 I bracci della Galassia Mulino a Vento Sud sono un laboratorio cosmico in cui si possono osservare processi come la formazione delle stelle e l'evoluzione galattica. Al suo centro c'è un nucleo attivo che è stato oggetto di studio dettagliato, rivelando la presenza di un buco nero supermassiccio.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-molinillo-del-sur-m83_2.webp
 title: Galassia del Mulino a Vento Sud (M83)

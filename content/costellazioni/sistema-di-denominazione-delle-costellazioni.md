@@ -49,7 +49,7 @@ head:
 
 Quando si alza lo sguardo verso il cielo stellato, il fascino delle costellazioni cattura immediatamente l'attenzione. Le costellazioni sono raggruppamenti di stelle che, dal nostro punto di vista terrestre, creano forme e disegni. Ma **come si chiamano queste costellazioni e chi decide i loro nomi**? In questo articolo, esploreremo l'entusiasmante sistema di denominazione delle costellazioni, la sua origine e la metodologia adottata.
 
-::photo-article.webp
+::photo-article
 ---
 title: Sistema di denominazione delle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/sistema-de-denominacion-de-constelaciones_1.webp
@@ -68,7 +68,7 @@ L'**Unione Astronomica Internazionale (UAI)** ha avuto un ruolo cruciale nella s
 
 Le stelle all'interno delle costellazioni sono denominate seguendo uno schema particolare. Ad esempio, la *alfa* indica tipicamente la stella più brillante, seguita da *beta* per la seconda più luminosa, e così via, seguendo l'alfabeto greco.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/sistema-de-denominacion-de-constelaciones_2.webp
 title: Sistema di denominazione delle costellazioni

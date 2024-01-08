@@ -49,7 +49,7 @@ head:
 
 La **Nuvola di Magellano** non è solo un elemento nel cielo notturno, ma un universo cosparso di stelle, galassie e misteri. Conoscere la **Grande Nuvola di Magellano** equivale ad addentrarsi nelle meraviglie del cosmo, comprendendo meglio la galassia in cui viviamo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Grande Nube di Magellano
 imageurl: https://blog.astroingeo.org/img/content/nube-grande-de-magallanes_3.webp
@@ -72,7 +72,7 @@ La LMC svela una **struttura unica** nel suo genere. Pur essendo classificata co
 
 Non meno sorprendente è il ruolo che la LMC gioca come galassia compagna della Via Lattea. Le interazioni gravitazionali non solo influenzano la struttura di entrambe le galassie, ma possono essere il motore di alcuni dei fenomeni più energetici dell'universo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nube-grande-de-magallanes_2.webp
 title: Grande Nube di Magellano

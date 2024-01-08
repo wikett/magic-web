@@ -49,7 +49,7 @@ head:
 
 Mercurio, il pianeta più vicino al nostro favoloso Sole, rappresenta una destinazione affascinante e misteriosa nell'esplorazione spaziale. Avventuriamoci in un viaggio alla scoperta di questo mondo incantevole e insidioso, che corre attraverso il sistema solare a una velocità stupefacente.
 
-::photo-article.webp
+::photo-article
 ---
 title: Mercurio
 imageurl: https://blog.astroingeo.org/img/content/mercurio_1.webp
@@ -68,7 +68,7 @@ Il pianeta Mercurio, **nominato in onore del messaggero degli dei romani**, è n
 
 Esplorando la superficie di Mercurio, ci imbattiamo in una topografia variegata: crateri, pianure e montagne. I crateri sono particolarmente predominanti a causa dell'assenza di un'atmosfera che avrebbe potuto erodere l'impatto di meteoriti. Il più noto tra questi è il Cratere Caloris, largo circa 1.550 chilometri.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/mercurio_2.webp
 title: Mercurio

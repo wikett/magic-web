@@ -49,7 +49,7 @@ head:
 
 Il Sistema Solare è un complesso di corpi celesti in costante movimento, un balletto cosmico che si perpetua da miliardi di anni. Ma quale è il filo invisibile che mantiene uniti pianeti, lune, asteroidi e comete in questo straordinario gioco di equilibri? **La risposta è la gravità**, una forza che, nonostante la sua invisibilità, governa il destino dell'intero universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come la gravità tiene insieme il sistema solare
 imageurl: https://blog.astroingeo.org/img/content/como-la-gravedad-mantiene-al-sistema-solar-unido_1.webp
@@ -68,7 +68,7 @@ I pianeti del nostro sistema, incluse la **Terra** e le sue vicine planetarie, o
 
 La gravità non solo tiene legati i pianeti al Sole, ma regola anche le relazioni tra le masse minori del sistema. Luna e Terra sono un esempio di come la gravità possa generare un legame strettissimo tra corpi celesti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-la-gravedad-mantiene-al-sistema-solar-unido_2.webp
 title: Come la gravità tiene insieme il sistema solare

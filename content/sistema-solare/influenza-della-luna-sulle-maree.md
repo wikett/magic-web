@@ -49,7 +49,7 @@ head:
 
 Quando gli occhi umani scrutano il cielo notturno, incontrano il volto splendente della Luna, nostro compagno celeste dalle misteriose vesti d’argento. È il balletto gravitazionale tra il nostro satellite e la Terra a generare uno dei fenomeni più affascinanti e vitali del nostro pianeta: **le maree**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Influenza della luna sulle maree
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-la-luna-en-mareas_1.webp
@@ -73,7 +73,7 @@ Il dinamismo tra queste due condizioni forma quello che è comunemente noto come
 
 Il ciclo delle maree è anche influenzato dalle **fasi lunari**. Durante la luna piena o la luna nuova, ci troviamo di fronte a maree di forte intensità, chiamate "maree di sizigia" o "maree vive". Invece, alle fasi di quarto di luna corrispondono le "maree morte", cioè maree di minore ampiezza.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-la-luna-en-mareas_2.webp
 title: Influenza della luna sulle maree

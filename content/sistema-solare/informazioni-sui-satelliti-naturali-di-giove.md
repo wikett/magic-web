@@ -49,7 +49,7 @@ head:
 
 Il gigante gassoso del nostro sistema solare, **Giove**, non solo è noto per le sue dimensioni maestose e la sua prominente fascia atmosferica, ma anche per il suo ruolo come signore dei satelliti naturali. Con una corte in continua crescita, questi satelliti rappresentano una galassia in miniatura, ognuno con caratteristiche uniche e storie affascinanti. Scopriamoli insieme in questo viaggio spaziale pieno di curiosità e misteri.
 
-::photo-article.webp
+::photo-article
 ---
 title: Informazioni sui satelliti naturali di Giove
 imageurl: https://blog.astroingeo.org/img/content/informacion-sobre-satelites-naturales-de-jupiter_1.webp
@@ -68,7 +68,7 @@ Riconosciuto come il satellite naturale più grande del sistema solare, Ganimede
 
 Europa attrae l'attenzione degli scienziati a causa del suo oceano subsuperficiale, che potrebbe ospitare forme di vita. Il suo mantello di ghiaccio potrebbe proteggere un ambiente idoneo all'evoluzione biologica lontano dallo sguardo di curiosi.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/informacion-sobre-satelites-naturales-de-jupiter_2.webp
 title: Informazioni sui satelliti naturali di Giove

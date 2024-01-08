@@ -47,7 +47,7 @@ head:
 ---
 # Esplorando la Costellazione della Corona Australe
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione della Corona del Sud
 imageurl: https://blog.astroingeo.org/img/content/constelacion-corona-austral_3.webp
@@ -68,7 +68,7 @@ La **Corona Australe** è una costellazione minore, ma le sue stelle sono di gra
 - **Gamma Coronae Australis**: una coppia di stelle che danzano insieme nello spazio.
 - **Delta Coronae Australis**: nota per la sua luminosità variabile.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-corona-austral_2.webp
 title: Costellazione della Corona del Sud

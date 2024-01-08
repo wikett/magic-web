@@ -49,7 +49,7 @@ head:
 
 L’uomo ha sempre alzato gli occhi al cielo, interrogandosi sull’esistenza di altre forme di vita nell’universo. Ma come si è evoluta l’idea degli *extraterrestri* attraverso i secoli? In questo articolo, esploriamo la **trasformazione del concetto di extraterrestri nella storia**, un viaggio attraverso miti antichi, scoperte scientifiche e cultura popolare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Evoluzione del concetto di extraterrestri nel corso della storia
 imageurl: https://blog.astroingeo.org/img/content/evolucion-del-concepto-de-extraterrestre-a-lo-largo-de-la-historia_1.webp
@@ -68,7 +68,7 @@ Durante il Rinascimento, con la nascita dell’**umanesimo cosmico**, la visione
 
 Con l’arrivo dell'età moderna e i progressi nella **scienza astronomica**, la ricerca di vita extraterrestre diventa più concreta. **Galileo**, con il suo telescopio, apre nuove strade alla comprensione dell’universo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/evolucion-del-concepto-de-extraterrestre-a-lo-largo-de-la-historia_2.webp
 title: Evoluzione del concetto di extraterrestri nel corso della storia

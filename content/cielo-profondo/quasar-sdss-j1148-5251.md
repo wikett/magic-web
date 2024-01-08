@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno nasconde misteri che la scienza cerca incessantemente di svelare, e tra questi segreti cosmici, pochi sono affascinanti quanto il Quasar SDSS J1148+5251. Questo oggetto astronomico, situato nella costellazione dell'Orsa Maggiore, non è solo una meraviglia dell'universo ma anche un enigma che sfida la nostra comprensione dell'evoluzione cosmica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Quasar SDSS J1148+5251
 imageurl: https://blog.astroingeo.org/img/content/quasar-sdss-j1148-5251_3.webp
@@ -64,7 +64,7 @@ Il Quasar SDSS J1148+5251 è **speciale per diversi motivi**. Scoperto utilizzan
 
 ### Il Teatro Celeste dei Bu
 
-_Artículo actualizado el lunes, 8 de enero de 2024_.webp::photo-discover
+_Artículo actualizado el lunes, 8 de enero de 2024_::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/quasar-sdss-j1148-5251_2.webp
 title: Quasar SDSS J1148+5251

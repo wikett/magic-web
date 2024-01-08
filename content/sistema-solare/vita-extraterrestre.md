@@ -49,7 +49,7 @@ head:
 
 La ricerca di vita oltre i confini del nostro pianeta ha affascinato l'umanità per secoli. Sebbene l'idea di **intelligenza extraterrestre** possa suonare come un tema da romanzi di fantascienza, è in realtà un serio campo di indagine scientifica. Con l'avanzamento della tecnologia e la crescente comprensione dell'universo, oggi siamo più vicini che mai a scoprire se, effettivamente, siamo soli nell'universo o meno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Vita extraterrestre
 imageurl: https://blog.astroingeo.org/img/content/vida-extraterrestre_1.webp
@@ -68,7 +68,7 @@ Non tutti i pianeti sono uguali quando si tratta di potenziale abitabilità. Gli
 
 Al di là della ricerca di segnali intelligenti, vi sono gli studi sulle **biofirmas** e **chemiofirmas**, indicatori chimici nel suolo o nell'atmosfera di un pianeta che potrebbero suggerire la presenza di vita, anche a livello microbico.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/vida-extraterrestre_2.webp
 title: Vita extraterrestre

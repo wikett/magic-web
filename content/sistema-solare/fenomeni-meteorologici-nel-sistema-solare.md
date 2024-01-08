@@ -49,7 +49,7 @@ head:
 
 Il Sistema Solare, vasto oltre la comprensione umana, ospita non solo pianeti e astri, ma anche **fenomeni meteorologici** di sorprendente complessità e bellezza. Con l'osservazione e lo studio di tali fenomeni, impariamo di più sul nostro vicinato cosmico e possiamo anche trarre paralleli con la Terra, migliorando la nostra comprensione della metereologia planetaria.
 
-::photo-article.webp
+::photo-article
 ---
 title: Fenomeni meteorologici nel sistema solare
 imageurl: https://blog.astroingeo.org/img/content/fenomenos-meteorologicos-en-el-sistema-solar_1.webp
@@ -68,7 +68,7 @@ Nettuno, estremo e misterioso, è noto per i suoi **venti furiosi**. Essi soffia
 
 La luna di Saturno, Titano, si distingue per il suo clima tanto particolare quanto alieno. Le sue **"piogge di idrocarburi"**, in particolare di metano, creano condizioni superficiali bizzarre, con fiumi e laghi di composti al posto dell'acqua.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/fenomenos-meteorologicos-en-el-sistema-solar_2.webp
 title: Fenomeni meteorologici nel sistema solare

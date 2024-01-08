@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un magnifico tessuto i cui filamenti scintillanti sono costellazioni, nebulose e ammassi stellari che sfidano l'immaginazione. Tra questi, il **Cúmulo del Diamante**, o NGC 290, si erge come una delle gemme più affascinanti dell'universo. La sua luce risplende attraverso il velo spaziale, raggiungendo gli occhi degli astrofili e degli astronomi con una promessa di bellezza e misteri da svelare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cúmulo del diamante (NGC 290)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-del-diamante-ngc-290_3.webp
@@ -68,7 +68,7 @@ Gli ammassi aperti come NGC 290 sono gruppi di stelle nate dalla stessa nube di 
 
 La SMC, e quindi NGC 290, si trova a circa 200.000 anni luce dalla Terra. La sua vicinanza relativa rende questo ammasso un oggetto di interesse primario per comprendere le dinamiche stellari al di fuori della nostra galassia. Studiare **NGC 290** ci aiuta a decifrare la storia e l'evoluzione non solo dell'ammasso stesso, ma anche della Piccola Nube di Magellano.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-del-diamante-ngc-290_2.webp
 title: Cúmulo del diamante (NGC 290)

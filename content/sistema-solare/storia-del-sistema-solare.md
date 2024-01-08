@@ -49,7 +49,7 @@ head:
 
 La **storia del sistema solare** è un viaggio intriso di mistero e meraviglia, una danza celestiale che tracciò il destino dell'umanità molti eoni prima che fossimo capaci di scrutare il cielo. Nel dipanare la saga del nostro quartiere cosmico, rivisiteremo le tappe fondamentali che definirono il corso dei pianeti, delle lune, degli asteroidi, e naturalmente, del nostro Sole.
 
-::photo-article.webp
+::photo-article
 ---
 title: Storia del sistema solare
 imageurl: https://blog.astroingeo.org/img/content/historia-del-sistema-solar_1.webp
@@ -68,7 +68,7 @@ All'interno di questa nebulosa, materia cominciò ad aggregarsi formando *i prot
 
 I primi secoli del sistema solare furono segnati da un'intensa attività bombardante. Gli impatti di asteroidi e comete furono frequenti e rilevanti per la formazione della Luna e per eventi determinanti come il **Grande Bombardamento Tardivo**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/historia-del-sistema-solar_2.webp
 title: Storia del sistema solare

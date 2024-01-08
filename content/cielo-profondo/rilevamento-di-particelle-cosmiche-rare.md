@@ -49,7 +49,7 @@ head:
 
 Scoprire l'invisibile: la fisica delle particelle ha da sempre affascinato e spinto gli scienziati a superare i limiti del conoscibile. La **rilevazione di particelle cosmiche rare**, un campo di studio al confine tra scienza e fantasia, rappresenta una delle frontiere più eccitanti dell'astronomia e della fisica moderna. In quest'articolo, esploreremo le tecniche innovative e le sfide che caratterizzano la ricerca di questi messaggeri quasi impercettibili dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Rilevamento di particelle cosmiche rare
 imageurl: https://blog.astroingeo.org/img/content/deteccion-de-particulas-cosmicas-raras_1.webp
@@ -67,7 +67,7 @@ Capire la natura di queste particelle significa toccare con mano i segreti più 
 
 La rilevazione richiede tecnologie d'avanguardia, spesso posizionate in luoghi remoti del pianeta, per ridurre le interferenze dovute alla radiazione cosmica di fondo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/deteccion-de-particulas-cosmicas-raras_2.webp
 title: Rilevamento di particelle cosmiche rare

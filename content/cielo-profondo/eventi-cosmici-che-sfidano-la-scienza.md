@@ -49,7 +49,7 @@ head:
 
 Gli eventi cosmici sono uno spettacolo grandioso di forze naturali che operano su scale inimmaginabili. Tuttavia, alcuni fenomeni stellari appaiono così misteriosi e incomprensibili da sfidare l'attuale comprensione scientifica. Questi avvenimenti celesti, che variano dalle esplosioni stellari ai segnali radio veloci, sollevano interrogativi fondamentali sull'essenza stessa dell'universo. Nel seguente articolo, esploreremo questi fenomeni astronomici **strabilianti**, indagando come e perché continuano a **confondere gli scienziati**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Eventi cosmici che sfidano la scienza
 imageurl: https://blog.astroingeo.org/img/content/eventos-cosmicos-que-desafian-la-ciencia_1.webp
@@ -68,7 +68,7 @@ Non meno perplesse lasciano gli astronomi i **FRB** (Fast Radio Bursts), impulsi
 
 Forse i più celebri tra gli enigmi cosmici sono i **buch**i **neri**. Nel loro nucleo, la relatività generale e la meccanica quantistica si scontrano in un conflitto senza risoluzione. Il loro orizzonte degli eventi delimita un punto di non ritorno che nasconde regioni dell'universo ancora intoccate dalla scienza.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/eventos-cosmicos-que-desafian-la-ciencia_2.webp
 title: Eventi cosmici che sfidano la scienza

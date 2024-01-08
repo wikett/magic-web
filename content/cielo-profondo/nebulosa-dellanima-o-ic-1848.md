@@ -49,7 +49,7 @@ head:
 
 Lo spazio: vasto, misterioso, e sede di innumerevoli meraviglie cosmiche. Tra queste, la **Nebulosa Soul**, o **IC 1848**, cattura l'immaginazione degli astrofili con il suo fascino enigmatico. Ma cosa rende questa nuvola di stelle così affascinante? Immergiamoci nell'esplorazione di questo gioiello celeste.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa dellanima o IC 1848
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-alma-o-ic-1848_3.webp
@@ -66,7 +66,7 @@ La **Nebulosa Soul**, situata a circa 7.500 anni luce dalla Terra nella costella
 
 Uno dei fenomeni più interessanti della **Nebulosa Soul** è la sua capacità di generare nuove stelle. I gas e le polveri si aggregano sotto l'effetto della gravità, dando vita a nuovi corpi celesti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-alma-o-ic-1848_2.webp
 title: Nebulosa dellanima o IC 1848

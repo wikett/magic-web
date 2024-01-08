@@ -49,7 +49,7 @@ head:
 
 La cultura celtica, impregnata di miti e leggende, nasconde tra le sue pieghe conoscenze astronomiche profonde. Quest'articolo esplora i segreti del cielo notturno che hanno orientato i Celti nei loro rituali, nella navigazione, e nella comprensione del tempo e delle stagioni.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le conoscenze astronomiche della cultura celtica
 imageurl: https://blog.astroingeo.org/img/content/conocimientos-astronomicos-de-la-cultura-celta_1.webp
@@ -66,7 +66,7 @@ La luna svolgeva un ruolo cruciale nella definizione dei **mesi celtici**. Ogni 
 ### I Solstizi e gli Equinozi
 Il solstizio d'estate e quello invernale, insieme agli equinozi di primavera e autunno, erano momenti cardine che segnavano il cambio delle stagioni e regolavano le attività agricole.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/conocimientos-astronomicos-de-la-cultura-celta_2.webp
 title: Le conoscenze astronomiche della cultura celtica

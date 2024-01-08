@@ -49,7 +49,7 @@ head:
 
 La galassia **Centaurus A** (*NGC 5128*) non è solamente un oggetto celeste, è un mistero cosmico situato a una distanza di circa 12 milioni di anni luce dalla Terra, nel cuore della costellazione del Centauro. Scopriamo insieme le meraviglie di questo fascinoso universo a spirale.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia Centaurus A (NGC 5128)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-centauro-a-ngc-5128_3.webp
@@ -65,7 +65,7 @@ La galassia possiede un nucleo estremamente attivo, che è presumibilmente ospit
 ### La Fascia di Polvere
 Una delle caratteristiche più sorprendenti di **Centaurus A** è la sua prominente fascia di polvere oscura, che attraversa la galassia. Questa caratteristica contribuisce all'aspetto inconfondibile e fornisce un laboratorio naturale per studiare le interazioni tra gas e polvere interstellare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-centauro-a-ngc-5128_2.webp
 title: Galassia Centaurus A (NGC 5128)

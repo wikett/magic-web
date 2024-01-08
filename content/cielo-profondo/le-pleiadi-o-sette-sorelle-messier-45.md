@@ -49,7 +49,7 @@ head:
 
 Le **Pleiadi**, conosciute anche come le **Sette Sorelle**, rappresentano uno degli ammassi stellari aperti più luminosi e famosi visibili dalla Terra. Imitato da artisti e citato in storie ancestrali, **Messier 45**, il loro nome meno romantico ma ufficiale, affascina astronomi e appassionati. Ma cosa rende queste stelle così speciali?
 
-::photo-article.webp
+::photo-article
 ---
 title: Le Pleiadi o Sette Sorelle (Messier 45)
 imageurl: https://blog.astroingeo.org/img/content/las-pleyades-o-siete-hermanas-messier-45_3.webp
@@ -66,7 +66,7 @@ Le Pleiadi hanno attirato l'attenzione dell'umanità fin dall'antichità. Numero
 
 Questo ammasso stellare si trova nella costellazione del **Toro** ed è visibile a occhio nudo in molte parti del mondo. Una delle ragioni della sua brillantezza è la loro relativa vicinanza alla Terra: circa 444 anni luce di distanza.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-pleyades-o-siete-hermanas-messier-45_2.webp
 title: Le Pleiadi o Sette Sorelle (Messier 45)

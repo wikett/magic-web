@@ -49,7 +49,7 @@ head:
 
 Gli ammassi di galassie sono tra le strutture più colossali dell'universo, vere e proprie metropoli cosmiche dove migliaia di galassie convivono e interagiscono. Ma che cosa nascondono questi giganti spaziali? L'articolo segue le tracce di questi **ammassi galattici misteriosi**, cercando di svelarne i segreti più profondi.
 
-::photo-article.webp
+::photo-article
 ---
 title: Misteriosi ammassi di galassie
 imageurl: https://blog.astroingeo.org/img/content/clusters-de-galaxias-misteriosos_1.webp
@@ -65,7 +65,7 @@ L'esistenza di ammassi di galassie è stata rilevata per la prima volta tramite 
 ### L'Influenza della Materia Oscura
 La **materia oscura** rappresenta una delle componenti fondamentali degli ammassi galattici. Nonostante non emetta, assorba o rifletta la luce, la sua presenza è stata dedotta da effetti gravitazionali indiretti, come le anomalie nelle curve di rotazione delle galassie e la lente gravitazionale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/clusters-de-galaxias-misteriosos_2.webp
 title: Misteriosi ammassi di galassie

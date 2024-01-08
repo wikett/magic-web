@@ -49,7 +49,7 @@ head:
 
 Esplorare l'universo è un viaggio senza tempo nell'infinito, un'avventura che ci conduce verso le meraviglie celesti. Rara e incantevole, la **Nebulosa della Laguna**, o **Messier 8 (M8)**, è una di queste meraviglie, un tappeto stellare che arde brillando nella Via Lattea. Join me while we delve into the cosmic ballet of luminous hues and stellar genesis that makes *Messier 8* a masterpiece of the night sky.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa de la Laguna o Messier 8
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-laguna-o-messier-8_3.webp
@@ -69,7 +69,7 @@ La Nebulosa della Laguna è un insieme complesso e affascinante di **formazioni 
 - **Ammassi Stellari**: gruppi di stelle neonate che brillano nella densità nebulare.
 - **Globuli di Bok**: sacche di materia che saranno le culla di nuove stelle ancora in formazione.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-laguna-o-messier-8_2.webp
 title: Nebulosa de la Laguna o Messier 8

@@ -49,7 +49,7 @@ head:
 
 L'inverno è un periodo magico per gli appassionati di astronomia: cieli chiari e scuri sono il palcoscenico perfetto per ammirare alcune delle costellazioni più affascinanti. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazioni invernali
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-de-invierno_1.webp
@@ -65,7 +65,7 @@ Orione è un vero e proprio fulcro intorno al quale ruotano altre costellazioni 
 ### Gemelli e Auriga
 Vicino ad Orione, ci sono i Gemelli, costituiti principalmente dalle stelle Castore e Polluce. Non lontano troviamo Auriga, il cocchiere, facilmente identificabile grazie alla stella Capella.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-de-invierno_2.webp
 title: Costellazioni invernali

@@ -49,7 +49,7 @@ head:
 
 Le **costruzioni megalitiche** sono da tempo al centro di teorie e speculazioni che toccano la loro origine, lo scopo e la connessione con l'**astronomia antica**. Questo articolo esplorerà le affascinanti leggende e le evidenze scientifiche che legano i megaliti all'osservazione delle stelle, delle stagioni e dei cicli lunari.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il mito delle costruzioni megalitiche e dellastronomia
 imageurl: https://blog.astroingeo.org/img/content/mito-de-las-construcciones-megaliticas-y-la-astronomia_1.webp
@@ -65,7 +65,7 @@ Le costruzioni megalitiche, dai celebri **Stonehenge** in Inghilterra ai meno co
 ## Punteggi di Salienza e Tecniche Astronomiche Antiche
 Interessante notare come le antiche popolazioni siano riuscite a integrare osservazioni celesti complesse nelle loro architetture senza l'uso di strumenti moderni.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/mito-de-las-construcciones-megaliticas-y-la-astronomia_2.webp
 title: Il mito delle costruzioni megalitiche e dellastronomia

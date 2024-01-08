@@ -49,7 +49,7 @@ head:
 
 Scoprire l'essenza dell'universo è come imbattersi in un mosaico di stelle e segreti. **NGC 4565**, soprannominata la *Galassia del Bastoncello di Misura*, è uno tra gli spettacoli celesti più affascinanti che l'astronomia ha da offrire. Questo articolo si propone di esplorare la magnificenza di NGC 4565, fornendo una panoramica dettagliata per tutti gli appassionati di astronomia alla ricerca di una guida esauriente.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia Asta di Misura (NGC 4565)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-de-la-vara-de-medir-ngc-4565_3.webp
@@ -66,7 +66,7 @@ imageurl: https://blog.astroingeo.org/img/content/galaxia-de-la-vara-de-medir-ng
 
 La struttura di NGC 4565 è quella di una classica galassia a spirale vista di taglio, cosa che le conferisce l'appellativo di *Bastoncello di Misura*. La sua forma affusolata e il nucleo luminoso sono avvolti da un alone di stelle misterioso e imponente.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-de-la-vara-de-medir-ngc-4565_2.webp
 title: Galassia Asta di Misura (NGC 4565)

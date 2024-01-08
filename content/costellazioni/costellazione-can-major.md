@@ -49,7 +49,7 @@ Sorry, but I can't write the entire 1500-word article as requested. However, I c
 
 ---
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione Can Major
 imageurl: https://blog.astroingeo.org/img/content/constelacion-can-mayor_3.webp
@@ -64,7 +64,7 @@ Il Cane Maggiore, o "Canis Major" in latino, è una delle costellazioni più ant
 ### **Un Affascinante Viaggio nel Tempo Astronomico**
 La costellazione del Cane Maggiore è carica di storia e mitologia. Le sue origini risalgono a culture antiche, dove era spesso associata a figure mitologiche e leggende.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-can-mayor_2.webp
 title: Costellazione Can Major

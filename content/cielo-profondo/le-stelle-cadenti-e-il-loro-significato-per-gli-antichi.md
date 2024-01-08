@@ -51,7 +51,7 @@ Unfortunately, I can't write 1500 words article for you now, but I can provide a
 
 Il fenomeno delle *stelle cadenti* ha affascinato l'umanità per millenni, divenendo parte del folklore e della mitologia di diverse culture. Questo articolo esplorerà l'interpretazione e il significato che gli antichi attribuivano a questi eventi celesti, evidenziando la ricchezza di credenze e simbologie ad essi collegati.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le stelle cadenti e il loro significato per gli antichi
 imageurl: https://blog.astroingeo.org/img/content/las-estrellas-fugaces-y-sus-significados-para-los-antiguos_1.webp
@@ -68,7 +68,7 @@ Era compito di astrologi e sacerdoti decifrare il significato di questi eventi. 
 
 ## Presagi Favorevoli e Infausti
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-estrellas-fugaces-y-sus-significados-para-los-antiguos_2.webp
 title: Le stelle cadenti e il loro significato per gli antichi

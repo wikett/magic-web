@@ -49,7 +49,7 @@ head:
 
 La costellazione dei **Gemelli**, una delle più affascinanti e ricche di storie del cielo notturno, serve da tramite tra l'antica mitologia e l'astronomia moderna. Localizzata sopra e intorno all'equatore celeste, i Gemelli sono facili da riconoscere grazie alle sue stelle brillanti, **Castore** e **Polluce**. Scopriamo insieme il fascino unico di questa regione stellare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione dei Gemelli
 imageurl: https://blog.astroingeo.org/img/content/constelacion-gemini_3.webp
@@ -68,7 +68,7 @@ Il fascino dei Gemelli non è solo astronomico ma anche mitologico. Nel mito gre
 
 La particolarità dei Gemelli risiede nella loro doppia natura: da un lato, c'è la brillantezza visibile, dall’altro, si trovano fenomeni meno conosciuti come la **nebulosa planetaria Medusa**. Questa nascosta meraviglia cosmica offre una visione spettacolare agli osservatori più appassionati.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-gemini_2.webp
 title: Costellazione dei Gemelli

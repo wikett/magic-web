@@ -49,7 +49,7 @@ head:
 
 L'astronomia ci regala senza sosta visioni stupefacenti dell'universo, e la Nebulosa Centauro A, nota anche come NGC 5128, è una di queste meraviglie celesti che non smette mai di affascinare astronomi e curiosi. In questo articolo, immergiamoci nel cuore di questa straordinaria galassia per scoprirne i segreti e le caratteristiche che la rendono un oggetto di grande interesse nella comunità scientifica e tra gli appassionati di astronomia.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa del Centauro A o NGC 5128
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-centauro-a-o-ngc-5128_3.webp
@@ -70,7 +70,7 @@ NGC 5128 è una galassia peculiare situata nella costellazione del Centauro, vis
 
 NGC 5128 è famosa per la sua peculiare banda di polveri oscure che attraversa il suo centro, evidenza di un passato turbolento e di collisioni galattiche. Questa caratteristica ne fa un soggetto interessante per la ricerca astronomica.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-centauro-a-o-ngc-5128_2.webp
 title: Nebulosa del Centauro A o NGC 5128

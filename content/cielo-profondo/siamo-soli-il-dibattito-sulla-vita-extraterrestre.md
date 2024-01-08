@@ -49,7 +49,7 @@ head:
 
 L'esistenza di vita al di fuori del nostro pianeta ha da sempre acceso l'immaginario collettivo e incendiato discussioni tra scienziati e appassionati di astronomia. La domanda "Siamo soli nell'universo?" non è semplicemente una curiosità scientifica, ma tocca i confini della filosofia e dell'esistenza stessa. In questo articolo, esploreremo i vari aspetti di questo dibattito, valutando le ultime scoperte e teorie.
 
-::photo-article.webp
+::photo-article
 ---
 title: Siamo soli? Il dibattito sulla vita extraterrestre
 imageurl: https://blog.astroingeo.org/img/content/estamos-solos-el-debate-sobre-la-vida-extraterrestre_1.webp
@@ -65,7 +65,7 @@ La scoperta di esopianeti, cioè pianeti che orbitano attorno a stelle diverse d
 ### Missione Mars Rover e il Cercare Indizi di Vita Passata
 Uno degli esempi più emozionanti è la missione Mars Rover della NASA che mira a trovare indizi di vita passata su Marte. La superficie del pianeta rosso contiene prove geologiche che suggeriscono la presenza passata di acqua, un ingrediente chiave per la vita.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estamos-solos-el-debate-sobre-la-vida-extraterrestre_2.webp
 title: Siamo soli? Il dibattito sulla vita extraterrestre

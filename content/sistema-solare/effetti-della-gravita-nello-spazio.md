@@ -49,7 +49,7 @@ head:
 
 La gravità è una forza che domina le dinamiche dell'universo, influenzando il movimento dei corpi celesti e delineando la struttura dello spazio-tempo. Sebbene nell'immaginario collettivo essa sia spesso associata alla forza che ci tiene ancorati al suolo terrestre, è fondamentale esplorare gli **effetti della gravità nello spazio** per comprendere pienamente il tessuto del cosmo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Effetti della gravità nello spazio
 imageurl: https://blog.astroingeo.org/img/content/efectos-de-la-gravedad-en-el-espacio_1.webp
@@ -68,7 +68,7 @@ La gravità non soltanto plasmo l'architettura dell'universo ma ha un ruolo cruc
 
 L'uomo nello spazio è immediatamente immerso in un ambiente a bassa gravità. Questa condizione, conosciuta come microgravità, provoca una serie di adattamenti fisiologici, dalla perdita di massa muscolare e ossea all'alterazione dei fluidi corporei.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/efectos-de-la-gravedad-en-el-espacio_2.webp
 title: Effetti della gravità nello spazio

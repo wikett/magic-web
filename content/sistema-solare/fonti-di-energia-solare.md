@@ -49,7 +49,7 @@ head:
 
 Il sole non è solo la stella al centro del nostro sistema solare, ma è anche una centrale energetica che irradia potenza e vitalità. Nel campo delle energie rinnovabili, le **fonti di energia solare** rappresentano una soluzione all'avanguardia nella lotto contro il cambiamento climatico e la dipendenza dai combustibili fossili.
 
-::photo-article.webp
+::photo-article
 ---
 title: Fonti di energia solare
 imageurl: https://blog.astroingeo.org/img/content/fuentes-de-energia-del-sol_1.webp
@@ -73,7 +73,7 @@ Esistono diverse tecnologie per sfruttare questa immensa risorsa:
 
 I **pannelli fotovoltaici** sono dispositivi che convertono direttamente la luce solare in elettricità attraverso l'effetto fotoelettrico. Si adattano a diverse strutture edilizie rendendole autonomi generatori di energia pulita.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/fuentes-de-energia-del-sol_2.webp
 title: Fonti di energia solare

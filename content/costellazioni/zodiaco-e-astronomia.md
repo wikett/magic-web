@@ -53,7 +53,7 @@ Sure, below is a sample SEO-optimized article in Italian, structured and formatt
 
 L'*astrologia* e l'**astronomia** sono concetti che da secoli incantano l'umanità. Mentre l'astrologia cerca significati nelle posizioni astrali, l'**astronomia** si concentra su osservazioni scientifiche e comprensione dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Zodiaco e astronomia
 imageurl: https://blog.astroingeo.org/img/content/zodiaco-y-astronomia_1.webp
@@ -69,7 +69,7 @@ Ciascun segno zodiacale è collegato a mitologie e storie; il loro impatto cultu
 ### **Astronomia** e Astrologia: Punti di Divergenza
 Nonostante le radici comuni, oggi l'**astronomia** si distingue nettamente dall'astrologia.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/zodiaco-y-astronomia_2.webp
 title: Zodiaco e astronomia

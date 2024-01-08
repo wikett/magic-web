@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è una sinfonia di stelle che da millenni affascina l'umanità. Tra le innumerevoli meraviglie celesti, sorge la **costellazione del Taurus**, uno spettacolo luminoso che ha guidato viandanti e stimolato la curiosità degli astronomi. Questo articolo, arricchito da parole chiave e informazioni pertinenti, si propone come una guida per esplorare la magnificenza del **Toro**, una costellazione intrisa di miti e stelle leggendarie.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione del Toro
 imageurl: https://blog.astroingeo.org/img/content/constelacion-tauro_3.webp
@@ -68,7 +68,7 @@ Il folklore di diverse culture si intreccia con la **costellazione del Toro**, a
 
 Scoprire il Taurus richiede una conoscenza di base di come e quando osservare questa costellazione. Comparsa nelle serate autunnali e visibile fino alla tarda primavera, la **posizione del Taurus** nel cielo è facilmente rintracciabile partendo dalla costellazione di Orion, suo vicino celeste.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-tauro_2.webp
 title: Costellazione del Toro

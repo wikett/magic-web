@@ -49,7 +49,7 @@ head:
 
 L'universo è un mosaico di meraviglie celesti, e *la Nebulosa del Velo* (NGC 6960), nota anche come **Nebulosa Velo o Cirro**, è uno dei suoi gioielli più affascinanti. Questa straordinaria formazione è il residuo di una supernova visibile nella costellazione del Cigno, che ha incantato astronomi e astrofili per secoli con la sua bellezza eterea e i segreti che nasconde.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Link o NGC 6960
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-enlace-o-ngc-6960_3.webp
@@ -68,7 +68,7 @@ La **Nebulosa del Velo** si estende per circa 36 anni luce e si trova a una dist
 
 Studiare NGC 6960 è fondamentale per comprendere i fenomeni legati alle supernove e al ciclo vitale delle stelle. Inoltre, le osservazioni della **Nebulosa Velo** aiutano gli scienziati a indagare la composizione chimica e la densità del mezzo interstellare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-enlace-o-ngc-6960_2.webp
 title: Nebulosa Link o NGC 6960

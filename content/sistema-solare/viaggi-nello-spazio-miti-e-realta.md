@@ -49,7 +49,7 @@ head:
 
 Il sogno di viaggiare nello spazio ha affascinato l'umanità per secoli. Dalla fantasia di antichi miti alle moderne realtà della NASA, ESA e SpaceX, **il viaggio spaziale** si è evoluto diventando un tema centrale nella cultura moderna. Ma cosa c'è di vero in quello che pensiamo di sapere sui viaggi interstellari? E quali sono i miti sci-fi che ancora devono diventare realtà? In questo approfondimento, scaveremo tra le stelle per separare i fatti dalla finzione.
 
-::photo-article.webp
+::photo-article
 ---
 title: Viaggi nello spazio; miti e realtà
 imageurl: https://blog.astroingeo.org/img/content/viaje-al-espacio-mitos-y-realidades_1.webp
@@ -70,7 +70,7 @@ Gli effetti della **gravità zero** sull'organismo umano sono molto diversi da q
 - **Mito:** Il corpo umano si adatta facilmente alla vita nello spazio.
 - **Realtà:** L'assenza di gravità causa problemi agli occhi, ai muscoli e alle ossa.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/viaje-al-espacio-mitos-y-realidades_2.webp
 title: Viaggi nello spazio; miti e realtà

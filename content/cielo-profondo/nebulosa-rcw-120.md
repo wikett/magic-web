@@ -49,7 +49,7 @@ head:
 
 La Nebulosa RCW 120 è un laboratorio cosmico, un vero e proprio scrigno celeste dove stelle si formano e sfidano i limiti del nostro sapere astronomico. Scoprire questo oggetto celeste significa intraprendere un viaggio affascinante nelle profondità del cosmo, dove le leggi della fisica si manifestano in tutta la loro potenza.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa RCW 120
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-rcw-120_3.webp
@@ -82,7 +82,7 @@ Queste caratteristiche rendono la Nebulosa RCW 120 un modello ideale per studiar
 
 Gli astrofisici sono particolarmente interessati alla struttura unica dell'anello nebulare di RCW 120. **L'anello è formato da gas e polveri** che, sotto l'influenza della radiazione ultravioletta emessa da una stella centrale giovane e massiccia, crea un fenomeno noto come "bolla ionizzata".
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-rcw-120_2.webp
 title: Nebulosa RCW 120

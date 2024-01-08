@@ -49,7 +49,7 @@ head:
 
 L'osservazione del cielo stellato ha catturato la fantasia dell'umanità sin dagli albori dei tempi. Le costellazioni, gruppi di stelle che sembrano tracciare immagini immaginarie nell'infinito blu scuro, sono state una guida per naviganti e fonte di ispirazione per poeti e sognatori. **Imparare a riconoscere le costellazioni** non è solo un passatempo affascinante, ma anche un ponte che collega il nostro passato collettivo al presente scientifico. In questo articolo, esploreremo insieme come identificare questi meravigliosi disegni celesti. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Come identificare le costellazioni
 imageurl: https://blog.astroingeo.org/img/content/como-identificar-constelaciones_1.webp
@@ -68,7 +68,7 @@ Per iniziare il nostro viaggio tra le stelle, è essenziale sapere dove iniziare
 
 In un'era digitale, gli strumenti per identificare le costellazioni si sono evoluti. **Mappe stellari** e **applicazioni astronomiche** possono facilitare l'attività, rendendo il cielo notturno meno criptico.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-identificar-constelaciones_2.webp
 title: Come identificare le costellazioni

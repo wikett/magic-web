@@ -49,7 +49,7 @@ head:
 
 La materia oscura è senza dubbio uno dei misteriosi abitanti del cosmo che continua a sfuggire alla nostra completa comprensione. La sua esistenza, percepita solo attraverso gli enigmatici effetti gravitazionali sui corpi celesti, è un enigma che scienza moderna e astrofisica cercano instancabilmente di decifrare.
 
-::photo-article.webp
+::photo-article
 ---
 title: La stranezza della materia oscura
 imageurl: https://blog.astroingeo.org/img/content/la-extraneza-de-la-materia-oscura_1.webp
@@ -65,7 +65,7 @@ Il primo indizio sull'esistenza della **materia oscura** proviene dallo studio d
 ## La misteriosa composizione della materia oscura
 Nonostante il suo elusivo carattere, gli specialisti hanno formulato alcune ipotesi sulla natura della materia oscura. Le particelle conosciute come **WIMP (Weakly Interacting Massive Particles)** sono tra i candidati più promettenti, benché ancora non rilevate in modo definitivo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-extraneza-de-la-materia-oscura_2.webp
 title: La stranezza della materia oscura

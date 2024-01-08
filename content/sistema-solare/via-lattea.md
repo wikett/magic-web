@@ -49,7 +49,7 @@ head:
 
 La **Via Lattea**, ovvero quella striscia nebulosa che attraversa il cielo notturno, è da sempre fonte di meraviglia e curiosità. Scopriamo insieme i segreti di questo affascinante universo che ospita il nostro Sistema Solare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Via Lattea
 imageurl: https://blog.astroingeo.org/img/content/via-lactea_3.webp
@@ -70,7 +70,7 @@ La **Via Lattea** è una galassia a spirale che appartiene all'insieme delle gal
 
 L'astronomia moderna utilizza tecniche sempre più avanzate per studiare la **Via Lattea** e i suoi misteriosi componenti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/via-lactea_2.webp
 title: Via Lattea

@@ -49,7 +49,7 @@ head:
 
 L'influenza degli astri sul nostro pianeta è un tema che da sempre affascina umanità e scienza. Tra questi, **Venus**, il nostro vicino celeste, pare svolgere un ruolo complesso e sfaccettato in rapporto alla Terra. In questa esplorazione, analizzeremo come **Venere** influisce sul nostro ambiente e sulla cultura umana, sottolineandone l'importanza all'interno del sistema solare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Linfluenza di Venere sulla Terra
 imageurl: https://blog.astroingeo.org/img/content/la-influencia-de-venus-en-la-tierra_1.webp
@@ -65,7 +65,7 @@ La posizione di Venere nei nostri cieli non è solo un'apparizione suggestiva, m
 ## Incisioni Culturali: il Mito di Venere
 Oltre ai meri aspetti scientfici, **Venere** ha sempre esercitato una forte influenza culturale. L'astro del crepuscolo ha stimolato la nascita di miti, leggende e influenzato l'astrologia, diventando simbolo di bellezza e femminilità, e imprimendo il suo carattere nei cicli storici umani attraverso il suo percorso nel cielo stellato.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-influencia-de-venus-en-la-tierra_2.webp
 title: Linfluenza di Venere sulla Terra

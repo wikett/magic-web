@@ -49,7 +49,7 @@ head:
 
 L'autunno, con i suoi cieli limpidi e temperati, diventa l'atelier ideale per gli appassionati di astronomia che vogliono ammirare le **costellazioni autunnali**. Questi gruppi stellari, ognuno carico di storie e mitologie, offrono uno spettacolo affascinante che invita ad alzare gli occhi al cielo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazioni dautunno
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-de-otono_1.webp
@@ -65,7 +65,7 @@ All'interno della costellazione di Andromeda, M31, nota anche come **Galassia di
 ### Il Ballo Stellare di Perseo e Cassiopea
 Nel mito, Perseo salvò Andromeda da un terribile destino, e nella volta celeste, questa costellazione si mostra in tutta la sua gloria. Osservando nelle vicinanze, il gruppo stellare di Cassiopea, con la sua caratteristica forma a "W", è una costellazione che invita alla contemplazione.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-de-otono_2.webp
 title: Costellazioni dautunno

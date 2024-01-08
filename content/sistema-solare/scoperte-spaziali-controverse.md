@@ -49,7 +49,7 @@ head:
 
 L'universo è un'entità in continua espansione, non solo in termini fisici ma anche nella vastità delle nostre conoscenze. Ogni nuova scoperta spaziale ha il potenziale di rivoluzionare la nostra comprensione dell'esistenza stessa. Tuttavia, alcune di queste scoperte sono diventate il nucleo di intense controversie che accendono il dibattito scientifico e la fantasia popolare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Scoperte spaziali controverse
 imageurl: https://blog.astroingeo.org/img/content/descubrimientos-espaciales-controversiales_1.webp
@@ -68,7 +68,7 @@ La natura dell'energia oscura e la sua esistenza sono messe in discussione da te
 
 Un altro argomento controverso è la **materia oscura**, una sostanza non rilevabile direttamente che, si ipotizza, costituisca circa il 27% dell'universo. La sua esistenza è stata postulata per spiegare anomalie gravitazionali, ma ancora oggi sfugge alla nostra completa comprensione.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/descubrimientos-espaciales-controversiales_2.webp
 title: Scoperte spaziali controverse

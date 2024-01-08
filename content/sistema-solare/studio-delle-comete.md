@@ -49,7 +49,7 @@ head:
 
 L'**astrofisica** si occupa dello **studio approfondito dei cometi**, corpi celesti intrinsecamente legati alla storia del nostro sistema solare. In questa disamina, scopriremo segreti millenari celati nelle **code brillanti** di questi peregrini dello spazio.
 
-::photo-article.webp
+::photo-article
 ---
 title: Studio delle comete
 imageurl: https://blog.astroingeo.org/img/content/estudio-de-cometas_1.webp
@@ -66,7 +66,7 @@ Essenzialmente composti da **ghiaccio, polvere e roccia**, i cometi presentano u
 
 ## **Studiare i Cometi**: Una Finestra sul Passato
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estudio-de-cometas_2.webp
 title: Studio delle comete

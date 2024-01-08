@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa del Pellicano**, nota anche come **IC 5070**, è un crogiuolo cosmico di stelle nascenti e gas incandescente che adorna il firmamento notturno. Questa nube interstellare, situata a circa 1.800 anni luce dalla Terra nella costellazione del Cigno, è un laboratorio celeste dove gli astronomi possono assistere alla nascita di nuove stelle e sistemi solari.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Pellicano o IC 5070
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-pelicano-o-ic-5070_3.webp
@@ -68,7 +68,7 @@ La *Nebulosa del Pellicano* è un soggetto ideale per gli appassionati di astron
 
 Il segreto dietro il caleidoscopico fascino di IC 5070 risiede negli intricati processi che danno vita alle emissioni nebulose. Atomi di idrogeno e altri elementi vengono eccitati dalle radiazioni ultraviolette delle giovani stelle calde vicine, producendo quel caratteristico bagliore che osserviamo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-pelicano-o-ic-5070_2.webp
 title: Nebulosa Pellicano o IC 5070

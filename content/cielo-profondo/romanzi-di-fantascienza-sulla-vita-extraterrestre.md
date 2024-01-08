@@ -49,7 +49,7 @@ head:
 
 La letteratura di fantascienza ha a lungo giocato con l'idea della vita su altri pianeti. Da amichevoli esploratori spaziali a sinistri invasori, **l'extraterrestre** ha popolato le pagine di innumerevoli romanzi, risvegliando la curiosità di lettori di ogni età. Se siete alla ricerca di **romanzi di fantascienza sulla vita extraterrestre**, preparatevi a un viaggio stellare tra le opere che hanno definito un genere.
 
-::photo-article.webp
+::photo-article
 ---
 title: Romanzi di fantascienza sulla vita extraterrestre
 imageurl: https://blog.astroingeo.org/img/content/novelas-de-ciencia-ficcion-sobre-vida-extraterrestre_1.webp
@@ -64,7 +64,7 @@ Un classico che non deve mancare nella biblioteca di un appassionato è "La Guer
 ### Distopie Aliene: Il Mondo Capovolto
 Opere come "Fuga da New York" e "Blade Runner" esplorano scenari futuristici dove la convivenza tra specie differenti si intreccia a trame di suspense e azione.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/novelas-de-ciencia-ficcion-sobre-vida-extraterrestre_2.webp
 title: Romanzi di fantascienza sulla vita extraterrestre

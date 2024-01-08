@@ -49,7 +49,7 @@ head:
 
 La navigazione antica si è evoluta sotto la guida delle stelle, creando un legame indissolubile tra l'uomo e l'immensità del cosmo. L'astronomia, fin dalla notte dei tempi, ha illuminato la rotta di marinai e esploratori, divenendo compagna fedele e guida sicura attraverso gli oceani sconfinati.
 
-::photo-article.webp
+::photo-article
 ---
 title: Luso dellastronomia nella navigazione antica
 imageurl: https://blog.astroingeo.org/img/content/el-uso-de-la-astronomia-en-la-navegacion-antigua_1.webp
@@ -83,7 +83,7 @@ La **navigazione astronomica** ha avuto un impatto diretto sulle rotte percorse 
 - Le Latitudini Celesti come Punti di Riferimento
 - Cicli Luna-Sole per Prevedere le Maree
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-uso-de-la-astronomia-en-la-navegacion-antigua_2.webp
 title: Luso dellastronomia nella navigazione antica

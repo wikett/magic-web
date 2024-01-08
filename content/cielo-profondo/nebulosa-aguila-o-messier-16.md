@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa Aquila**, conosciuta anche come **Messier 16** o **M16**, è una spettacolare incubatrice cosmica di stelle, un vero gioiello dell'universo che ha catturato l'immaginazione di astronomi e appassionati di astronomia per secoli. Situata a circa 7.000 anni luce dalla Terra nella costellazione del Serpente, questa nebulosa offre uno sguardo affascinante nella nascita delle stelle e nella dinamica di formazione delle strutture cosmiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Aguila o Messier 16
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-aguila-o-messier-16_3.webp
@@ -68,7 +68,7 @@ Studiare M16 permette agli scienziati di acquisire preziose informazioni sul cic
 
 All'interno della Nebulosa Aquila, si trovano le iconiche formazioni denominate "Pilastri della Creazione". Queste torri maestose di gas e polvere sono diventate famosissime grazie alle immagini catturate dal telescopic spaziale Hubble e restano una delle visioni più straordinarie nel campo dell'**osservazione astronomica**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-aguila-o-messier-16_2.webp
 title: Nebulosa Aguila o Messier 16

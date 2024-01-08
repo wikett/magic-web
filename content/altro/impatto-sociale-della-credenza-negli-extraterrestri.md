@@ -49,7 +49,7 @@ head:
 
 L’esistenza di vita al di fuori del nostro pianeta è sempre stata un argomento che ha stimolato la curiosità e alimentato il dibattito. **Il fascino per gli extraterrestri** ha radici profonde nella cultura popolare e scientifica, in grado di influenzare le società su molti livelli. Ma come incide realmente questa credenza sulla struttura sociale odierna?
 
-::photo-article.webp
+::photo-article
 ---
 title: Impatto sociale della credenza negli extraterrestri
 imageurl: https://blog.astroingeo.org/img/content/impacto-social-de-la-creencia-en-extraterrestres_1.webp
@@ -68,7 +68,7 @@ Per secoli, l’uomo ha guardato alle stelle, chiedendosi se da qualche parte, n
 
 Anche il campo scientifico ha avuto il suo impatto sulla credenza in entità extraterrestri. Iniziative come il **SETI** (Search for Extraterrestrial Intelligence) e la scoperta di esopianeti potenzialmente abitabili hanno dato un concreto fondamento alla possibilità di vita aliena.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/impacto-social-de-la-creencia-en-extraterrestres_2.webp
 title: Impatto sociale della credenza negli extraterrestri

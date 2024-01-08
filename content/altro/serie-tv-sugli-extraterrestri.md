@@ -49,7 +49,7 @@ head:
 
 L'universo delle **serie TV sugli extraterrestri** è vasto quanto le stelle nel cielo notturno. Da racconti affascinanti di incontri ravvicinati a drammi sci-fi intricati, c'è qualcosa per ogni appassionato di fantascienza. In questo articolo scorreremo attraverso galassie di contenuti sui **telefilm extraterrestri**, analizzando le serie che hanno lasciato un segno nel cuore dei fan e esplorando nuovi mondi che aspettano solo di essere scoperti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Serie TV sugli extraterrestri
 imageurl: https://blog.astroingeo.org/img/content/series-de-television-sobre-extraterrestres_1.webp
@@ -66,7 +66,7 @@ La serie **The X-Files** rappresenta un vero pilastro nel genere sci-fi, con la 
 ### L'Epopea Spaziale: "Battlestar Galactica"
 In **Battlestar Galactica**, l'umanità è in fuga da una civiltà di robot autocoscienti, i Cylons. Questo dramma epico esplora temi di sopravvivenza, identità e la ricerca di una casa chiamata Terra.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/series-de-television-sobre-extraterrestres_2.webp
 title: Serie TV sugli extraterrestri

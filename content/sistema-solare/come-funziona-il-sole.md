@@ -49,7 +49,7 @@ head:
 
 Il funzionamento del **Sole**, la stella al centro del nostro sistema solare, ha catturato l'immaginazione e stimolato la curiosità degli uomini per millenni. Ancora oggi, l'incessante potenza del Sole alimenta la vita sul nostro pianeta e continua a spingere i confini della scienza moderna. In questo articolo, navigheremo attraverso il cuore ardente del Sole per scoprire come esso opera e sostiene il ciclo di vita terrestre. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Come funziona il Sole?
 imageurl: https://blog.astroingeo.org/img/content/como-funciona-el-sol_1.webp
@@ -65,7 +65,7 @@ Il ciclo proton-proton è la sequenza dominante nel cuore solare, laddove quattr
 ## La Fotosfera: La Superficie Visibile del Sole
 Avvolgendo il nucleo stellare, troviamo la **fotosfera**, lo strato che vediamo con i nostri occhi. È proprio qui che emergono i granuli, piccole celle convettive che si raffreddano man mano che si allontanano dal nucleo, conferendo al Sole l'aspetto granaio che tanto affascina gli astronomi.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-funciona-el-sol_2.webp
 title: Come funziona il Sole?

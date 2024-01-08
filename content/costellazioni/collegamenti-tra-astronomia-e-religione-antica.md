@@ -49,7 +49,7 @@ head:
 
 L'astronomia e la religione antica sono intrecciate in un'affascinante danza celeste che rispecchia la vita quotidiana e le credenze degli antichi popoli. Il cielo notturno, con le sue innumerevoli stelle, non è stato soltanto una mappa per naviganti o un calendario per agricoltori, ma anche una pagina sacra su cui leggere la volontà degli dei. Scopriamo insieme come questi due ambiti si sono influenzati a vicenda, delineando non solo cosmologie, ma intere civiltà.
 
-::photo-article.webp
+::photo-article
 ---
 title: Collegamenti tra astronomia e religione antica
 imageurl: https://blog.astroingeo.org/img/content/conexiones-entre-la-astronomia-y-la-religion-antigua_1.webp
@@ -76,7 +76,7 @@ L'abbigliamento e i simboli religiosi spesso riflettevano un profondo legame con
 
 - **I simboli del potere divino**: il disco solare nell'antico Egitto o le rappresentazioni lunari nelle divinità mesopotamiche.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/conexiones-entre-la-astronomia-y-la-religion-antigua_2.webp
 title: Collegamenti tra astronomia e religione antica

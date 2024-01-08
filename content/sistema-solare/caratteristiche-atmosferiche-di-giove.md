@@ -49,7 +49,7 @@ head:
 
 Giove, il gigante gassoso del nostro sistema solare, nasconde sotto la sua spettacolare mantellina di nubi un mondo di segreti e meraviglie. Questo articolo è una finestra panoramica che si apre sulle stupefacenti caratteristiche dell'atmosfera di Giove.
 
-::photo-article.webp
+::photo-article
 ---
 title: Caratteristiche atmosferiche di Giove
 imageurl: https://blog.astroingeo.org/img/content/caracteristicas-atmosfericas-de-jupiter_1.webp
@@ -65,7 +65,7 @@ Esplorando l'atmosfera di Giove verticalmente, si attraversano diversi strati: l
 ### **Zona Equatoriale e le Fasce Colorate**
 L'area equatoriale di Giove è caratterizzata da *correnti a getto* che creano le famose fasce colorate, visibili anche dai telescopi amatoriali. Queste fasce, tipicamente nelle tonalità del marrone, del ruggine e del bianco, sono il risultato dell'interazione tra venti e sostanze chimiche.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/caracteristicas-atmosfericas-de-jupiter_2.webp
 title: Caratteristiche atmosferiche di Giove

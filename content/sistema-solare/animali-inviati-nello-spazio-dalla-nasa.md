@@ -49,7 +49,7 @@ head:
 
 L'esplorazione spaziale ha segnato la storia umana con immagini iconiche e momenti che hanno ispirato un'intera generazione. Meno noti, ma non meno importanti, sono stati i contributi dei nostri compagni terrestri: **gli animali inviati nello spazio dalla NASA**. Molti di loro hanno pionieristicamente aperto la via alle missioni umane, e la loro eredità continua a influenzare la ricerca spaziale.
 
-::photo-article.webp
+::photo-article
 ---
 title: Animali inviati nello spazio dalla NASA
 imageurl: https://blog.astroingeo.org/img/content/animales-enviados-al-espacio-por-la-nasa_1.webp
@@ -68,7 +68,7 @@ Il cammino verso le stelle è stato segnato da tappe significative, in cui gli a
 - **Laika (1957)**: Il celebre cane sovietico, il primo essere vivente a orbitare intorno alla Terra.
 - **Ham and Enos (1961-1962)**: Scimpanzé ammaestrati che hanno dimostrato che compiti complessi potevano essere svolti nello spazio.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/animales-enviados-al-espacio-por-la-nasa_2.webp
 title: Animali inviati nello spazio dalla NASA

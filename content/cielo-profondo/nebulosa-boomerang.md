@@ -49,7 +49,7 @@ head:
 
 Scopriamo insieme uno degli oggetti più affascinanti e freddi dell'Universo, un enigma avvolto nelle spire del cosmo: **la Nebulosa Boomerang**. Questo emisfero celeste continua a stupire astronomi e appassionati, sfidando la comprensione della natura stellare e delle dinamiche interstellari. Ci immergeremo nei dettagli di questa nebulosa e cercheremo di svelare alcuni dei suoi segreti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Boomerang
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-boomerang_3.webp
@@ -67,7 +67,7 @@ La nebulosa si distingue per la sua temperatura estremamente bassa, che arriva a
 
 Una delle caratteristiche che rende la **Nebulosa Boomerang** un oggetto di studio affascinante è la sua incredibile temperatura. La causa di questa freddità extrama va cercata nelle dinamiche fisiche che regolano l'espulsione di materiale dalla stella centrale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-boomerang_2.webp
 title: Nebulosa Boomerang

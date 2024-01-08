@@ -49,7 +49,7 @@ head:
 
 L'astronomia ha rivestito un ruolo fondamentale nella civiltà Maya, segnando non solo la comprensione del cosmo, ma anche influenzando profondamente la vita quotidiana, il sistema agricolo, le opere architettoniche e la spiritualità di questo affascinante popolo mesoamericano. Scopriamo come il legame indissolubile con il cielo ha segnato il battito pulsante di una delle culture più avanzate dell'antichità.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il ruolo dellastronomia nella civiltà Maya
 imageurl: https://blog.astroingeo.org/img/content/papel-de-la-astronomia-en-la-civilizacion-maya_1.webp
@@ -69,7 +69,7 @@ I Maya sono noti per il loro complesso sistema di calendari, che dipendeva dalla
 ## Architetture Celesti: Tempio e Telescopio
 Le maestose costruzioni maya, come **El Caracol** a Chichen Itza, fungevano da veri e propri osservatori astronomici. I loro allineamenti con i solstizi e gli equinozi rivelano una comprensione sofisticata dei cicli naturali.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/papel-de-la-astronomia-en-la-civilizacion-maya_2.webp
 title: Il ruolo dellastronomia nella civiltà Maya

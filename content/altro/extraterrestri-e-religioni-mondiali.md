@@ -49,7 +49,7 @@ head:
 
 La questione dell'esistenza degli extraterrestri ha affascinato l'umanità per secoli. Nel contesto delle grandi religioni mondiali, l'idea di vita al di fuori della Terra presenta una serie di implicazioni teologiche e filosofiche. Questo approfondimento esaminerà come diverse fedi considerano la possibilità degli esseri extraterrestri e quali potrebbero essere le loro risposte a questo grande mistero dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Extraterrestri e religioni mondiali
 imageurl: https://blog.astroingeo.org/img/content/los-extraterrestres-y-religiones-del-mundo_1.webp
@@ -68,7 +68,7 @@ Nel Cristianesimo, l'esistenza di vita su altri pianeti non è mai stata un tema
 
 L'Islam, con la sua concezione di un universo vastissimo e ordinato da Allah, non esclude l'idea di altre forme di vita. Il Corano contiene riferimenti a **"mondi"** oltre al nostro, il che potrebbe essere interpretato come un accenno alla vita extraterrestre.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-extraterrestres-y-religiones-del-mundo_2.webp
 title: Extraterrestri e religioni mondiali

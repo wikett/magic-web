@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno ospita una sorprendente varietà di meraviglie astronomiche, tra cui le **comete del Sistema Solare**, corpi celesti che da millenni intrigano e affascinano osservatori e scienziati. Questi visitatori ghiacciati del nostro sistema stellare sono segnali di mondi antichi e portatori di segreti che attendono di essere svelati.
 
-::photo-article.webp
+::photo-article
 ---
 title: Comete del sistema solare
 imageurl: https://blog.astroingeo.org/img/content/cometas-del-sistema-solar_1.webp
@@ -68,7 +68,7 @@ Al centro di ogni cometa c'è un nucleo solido, o **nucleo cometario**, una spec
 
 Le comete possono essere raggruppate in base alle loro orbite. Abbiamo le **comete a corto periodo**, come la famosa cometa di Halley, e le **comete a lungo periodo**, che possono rimanere invisibili per migliaia di anni prima di fare ritorno nelle vicinanze del Sole.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cometas-del-sistema-solar_2.webp
 title: Comete del sistema solare

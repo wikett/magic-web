@@ -49,7 +49,7 @@ head:
 
 La complessità del nostro sistema solare offre un continuo invito alla scoperta e al confronto. Due protagonisti spiccano per le loro sorprendenti somiglianze e differenze: la **Terra e Venere**. Questo articolo si propone di esplorare le caratteristiche peculiari di questi due pianeti, gettando luce sui punti di contatto e sui fattori che rendono unico ciascuno di essi.
 
-::photo-article.webp
+::photo-article
 ---
 title: Confronto tra la Terra e Venere
 imageurl: https://blog.astroingeo.org/img/content/comparacion-entre-la-tierra-y-venus_1.webp
@@ -74,7 +74,7 @@ Ecco perché Venere è considerato inospitale:
 - **Effetto serra estremo**: Venere ha un'atmosfera dominata dall'anidride carbonica, con una pressione atmosferica 90 volte superiore rispetto a quella terrestre.
 - Temperature elevatissime: La temperatura media si aggira attorno ai 467°C, più che sufficiente per fondere il piombo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/comparacion-entre-la-tierra-y-venus_2.webp
 title: Confronto tra la Terra e Venere

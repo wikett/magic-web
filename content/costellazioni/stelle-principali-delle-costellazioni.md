@@ -49,7 +49,7 @@ head:
 
 Esplorare le costellazioni è come sfogliare le pagine di un antico manoscritto celeste, ricco di storie e segni luminosi. Le **stelle principali delle costellazioni**, con i loro nomi mitologici e l'importanza astronomica, offrono una mappa scintillante per gli appassionati del cielo notturno. In questo articolo, immergeremo in un viaggio attraverso il firmamento, alla scoperta delle stelle che hanno guidato le civiltà da tempi immemorabili.
 
-::photo-article.webp
+::photo-article
 ---
 title: Stelle principali delle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/estrellas-principales-de-las-constelaciones_1.webp
@@ -65,7 +65,7 @@ Le costellazioni sono gruppi di stelle che, da una prospettiva terrestre, forman
 ## Arturo e la sua Danza Celeste nel Boote
 Nel Boote, troviamo Arturo, una stella di colore arancione brillante che rappresenta il pastore celeste. La sua posizione prossima al polo nord celeste fa sì che sembri danzare eternamente attorno al punto di stillicidio celeste, offrendo uno spettacolo affascinante per gli osservatori.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-principales-de-las-constelaciones_2.webp
 title: Stelle principali delle costellazioni

@@ -49,7 +49,7 @@ head:
 
 Il cosmo cela fenomeni tanto spettacolari quanto enigmatici, tra questi i buchi neri rappresentano vere e proprie serrature della comprensione umana, sfide gigantesche alla nostra conoscenza dell'Universo. Ma **come si formano i buchi neri**? Esploriamo questo mistero stellare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come si formano i buchi neri
 imageurl: https://blog.astroingeo.org/img/content/como-se-forman-los-agujeros-negros_1.webp
@@ -71,7 +71,7 @@ Il momento chiave della nascita di un buco nero è il **collasso gravitazionale*
 - Incremento della densità e gravità
 - Formazione di un punto singolare
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-se-forman-los-agujeros-negros_2.webp
 title: Come si formano i buchi neri

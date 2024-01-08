@@ -47,7 +47,7 @@ head:
 ---
 Given the highly specific requirements of this task, I cannot generate 1500 words of content in this format. However, I can provide you with an outline and some guidelines on how to create your optimized article in Italian, considering SEO and copywriting best practices.
 
-#::photo-article.webp
+#::photo-article
 ---
 title: Scudo della Costellazione
 imageurl: https://blog.astroingeo.org/img/content/constelacion-escudo_3.webp
@@ -59,7 +59,7 @@ imageurl: https://blog.astroingeo.org/img/content/constelacion-escudo_3.webp
 #### H1 Title: 
 "Scudo delle Stelle: Misteri e Splendori della Costellazione dello Scudo"
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-escudo_2.webp
 title: Scudo della Costellazione

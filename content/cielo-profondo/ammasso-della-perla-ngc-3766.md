@@ -49,7 +49,7 @@ head:
 
 Scoprite con noi i segreti di uno degli ammassi stellari più affascinanti del cielo australe: **NGC 3766**, noto anche come il **Pearl Cluster**. Un gioiello celeste che cattura l'immaginazione di astronomi professionisti e appassionati dello spazio.
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso della Perla (NGC 3766)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-de-las-perlas-ngc-3766_3.webp
@@ -68,7 +68,7 @@ Questo ammasso aperto è composto da oltre cento stelle, molte delle quali sono 
 
 Uno degli aspetti più intriganti del **Pearl Cluster** è l'alta concentrazione di stelle variabili non classificate. Queste stelle fluttuano in luminosità in un modo che sfida la nostra attuale comprensione astronomicale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-de-las-perlas-ngc-3766_2.webp
 title: Ammasso della Perla (NGC 3766)

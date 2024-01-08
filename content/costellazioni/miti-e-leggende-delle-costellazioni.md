@@ -49,7 +49,7 @@ head:
 
 Le costellazioni hanno da sempre esercitato un fascino mistico sull'umanità, incarnando miti e leggende che si perdono nella notte dei tempi. Le stelle sono state le muse silenti di racconti epici, muse affascinanti che hanno dato vita a narrazioni celesti. In questo articolo, vi guideremo attraverso le storie più affascinanti che giacciono tra i confini della notte stellata, scoprendo come antichi popoli e culture abbiano trovato nei disegni celesti fonte di ispirazione e di orientamento.
 
-::photo-article.webp
+::photo-article
 ---
 title: Miti e leggende delle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/mitos-y-leyendas-de-constelaciones_1.webp
@@ -65,7 +65,7 @@ Nel firmamento notturno, la saga di Perseo e Andromeda riprende vita ogni volta 
 ### Orion, il Cacciatore Celeste
 **Orione**, il cacciatore, è una delle costellazioni più facilmente riconoscibili. Narra la leggenda che dopo essere stato ucciso da uno scorpione, gli dei lo collocarono nel cielo, dove continua la sua eterna caccia, insieme ai suoi cani, rappresentati dalla costellazione del Cane Maggiore e del Cane Minore.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/mitos-y-leyendas-de-constelaciones_2.webp
 title: Miti e leggende delle costellazioni

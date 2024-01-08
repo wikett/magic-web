@@ -49,7 +49,7 @@ head:
 
 L'universo, con la sua vastità enigmatica, è stato a lungo considerato un libro aperto sulle regole fondamentali che governano ogni fenomeno. Le leggi della fisica sono state scoperte, messe alla prova e validate attraverso anni di rigorosa sperimentazione e osservazione. Tuttavia, l'infinità dello spazio e la complessità della materia celano sorprese che mettono in discussione ciò che diamo per scontato. Gli scienziati hanno rilevato anomalie che potrebbero indicare **deviazioni dalle leggi universali della fisica**, gettando nuova luce su teorie consolidate e proponendo interrogativi fondamentali sull'essenza della realtà.
 
-::photo-article.webp
+::photo-article
 ---
 title: Deviazioni dalle leggi universali della fisica
 imageurl: https://blog.astroingeo.org/img/content/desvios-en-las-leyes-universales-de-la-fisica_1.webp
@@ -68,7 +68,7 @@ Einstein ha rivoluzionato la nostra comprensione dello spazio-tempo descrivendo 
 
 Il mondo quantistico, governato da probabilità e incertezze, si scontra con la naturaleza deterministica della fisica classica. Le anomalie emergono nella sovrapposizione, dove particelle possono coesistere in molteplici stati.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/desvios-en-las-leyes-universales-de-la-fisica_2.webp
 title: Deviazioni dalle leggi universali della fisica

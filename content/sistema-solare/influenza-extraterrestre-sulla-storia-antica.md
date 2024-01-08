@@ -49,7 +49,7 @@ head:
 
 La storia del pianeta Terra è avvolta in un mistero affascinante e complesso. Tra le pagine polverose dei testi antichi e i monumenti millenari, si nascondono indizi che alcuni interpretano come **prove di un'influenza extraterrestre** nel nostro passato remoto. Questa teoria, spesso discussa e dibattuta, continua a stimolare l'immaginario collettivo e la curiosità degli appassionati di storia e **astronomia**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Influenza extraterrestre sulla storia antica
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-los-extraterrestres-en-la-historia-antigua_1.webp
@@ -77,7 +77,7 @@ Alcuni siti archeologici dimostrano una conoscenza avanzata degli astri, usati c
 - **Allineamento Astronomico:** Monumenti che corrispondono con precisione agli equinozi e ai solstizi.
 - **Conoscenza Geometrica:** Forme geometriche complesse che riflettono proporzioni e distanze celesti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-los-extraterrestres-en-la-historia-antigua_2.webp
 title: Influenza extraterrestre sulla storia antica

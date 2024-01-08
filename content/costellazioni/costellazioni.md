@@ -49,7 +49,7 @@ head:
 
 Le **costellazioni** sono non solo affascinanti raggruppamenti di stelle nel cielo notturno, ma anche testimoni storici di come l'umanità ha cercato di dare un senso e un ordine all'universo che ci circonda. In questo viaggio celeste, andremo alla scoperta di questi suggestivi pattern stellari, esplorando le loro storie, significati e la scienza che sta dietro di loro.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazioni
 imageurl: https://blog.astroingeo.org/img/content/constelaciones_1.webp
@@ -65,7 +65,7 @@ Nel tempo, le costellazioni hanno assunto anche una funzione pratica. I marinai 
 ## L' Astronomia Oggi: Costellazioni e Scienza Moderna
 Anche nella **scienza moderna**, le costellazioni hanno un ruolo. Gli astronomi le usano per catalogare e localizzare oggetti celesti come galassie, nebulose e stelle variabili. Esploriamo come le costellazioni sono utilizzate nella moderna ricerca **astronomica**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones_2.webp
 title: Costellazioni

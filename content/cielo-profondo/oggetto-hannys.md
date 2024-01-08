@@ -49,7 +49,7 @@ head:
 
 Scoprire l'universo è come disvelare una serie di enigmi, e l'Oggetto di Hanny è uno dei più affascinanti misteri astronomici dei nostri tempi. Essere all'avanguardia della ricerca spaziale significa esplorare e comprendere fenomeni come questo. In questo articolo, oltre a investigare le peculiarità dell'Oggetto di Hanny, esamineremo anche il contesto più ampio della sua scoperta.
 
-::photo-article.webp
+::photo-article
 ---
 title: Oggetto Hannys
 imageurl: https://blog.astroingeo.org/img/content/hannys-voorwerp_3.webp
@@ -64,7 +64,7 @@ Nel 2007, una giovane insegnante olandese di nome Hanny van Arkel partecipò al 
 
 L'*Oggetto di Hanny*, come divenne noto, si distingueva per la sua inusuale luminosità verde, il suo isolamento, e l'assenza di una galassia ospite evidente. Queste caratteristiche hanno spinto gli esperti ad interrogarsi sulla vera natura di questo corpo celeste.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/hannys-voorwerp_2.webp
 title: Oggetto Hannys

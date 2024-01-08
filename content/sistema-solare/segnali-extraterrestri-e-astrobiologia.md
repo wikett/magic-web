@@ -49,7 +49,7 @@ head:
 
 L'astrobiologia, la disciplina scientifica che indaga sull'origine, l'evoluzione, la distribuzione e il futuro della vita nell'universo, si trova di fronte a uno dei quesiti più affascinanti e complessi: l'esistenza di segnali extraterrestri. Questo campo di studio interdisciplinare si interseca con l'astronomia, la biologia, la geologia e la fisica, e solleva interrogativi profondi sulla natura della vita al di fuori del nostro pianeta.
 
-::photo-article.webp
+::photo-article
 ---
 title: Segnali extraterrestri e astrobiologia
 imageurl: https://blog.astroingeo.org/img/content/las-senales-extraterrestres-y-la-astrobiologia_1.webp
@@ -68,7 +68,7 @@ Nello studio di **pianeti extrasolari**, o esopianeti, l'astrobiologia esplora m
 
 L'analisi di **segnali radio o laser** provenienti dallo spazio profondo rappresenta uno dei metodi più promettenti nella ricerca di **civiltà aliene**. Gli astrobiologi si avvalgono di progetti come SETI (Search for Extraterrestrial Intelligence) per scandagliare i cieli alla ricerca di tali segnali.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-senales-extraterrestres-y-la-astrobiologia_2.webp
 title: Segnali extraterrestri e astrobiologia

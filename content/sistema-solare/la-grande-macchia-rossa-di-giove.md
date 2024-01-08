@@ -49,7 +49,7 @@ head:
 
 La Grande Macchia Rossa di Giove è uno degli enigmi più affascinanti del nostro sistema solare. Questo gigantesco vortice anticiclonico, largo circa 16.350 km, è visibile anche dai telescopi amatoriali sulla Terra e rappresenta una delle caratteristiche più distintive del gigante gassoso.
 
-::photo-article.webp
+::photo-article
 ---
 title: La Grande Macchia Rossa di Giove
 imageurl: https://blog.astroingeo.org/img/content/la-gran-mancha-roja-de-jupiter_1.webp
@@ -65,7 +65,7 @@ Il colore rosso sgargiante è probabilmente il risultato di sostanze chimiche so
 ## Dinamica Atmosferica del Gigante Gassoso
 **Le tempeste di Giove** e la loro interazione con la Grande Macchia Rossa sono oggetto di studio intensivo. L'alta pressione al centro del vortice lo tiene stabile e limita la miscelazione con l'atmosfera circostante.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-gran-mancha-roja-de-jupiter_2.webp
 title: La Grande Macchia Rossa di Giove

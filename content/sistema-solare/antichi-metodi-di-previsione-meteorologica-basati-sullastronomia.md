@@ -49,7 +49,7 @@ head:
 
 La capacità di predire il tempo è stata fondamentale per lo sviluppo delle civiltà antiche. Gli astrologi, attenti osservatori dei cieli, utilizzavano metodi basati sull'astronomia per predire cambiamenti atmosferici. Scopriamo insieme come i cieli hanno guidato agricoltori e navigatori molto prima dell'avvento delle moderne tecnologie.
 
-::photo-article.webp
+::photo-article
 ---
 title: Antichi metodi di previsione meteorologica basati sullastronomia
 imageurl: https://blog.astroingeo.org/img/content/metodos-antiguo-de-prediccion-del-tiempo-basados-en-la-astronomia_1.webp
@@ -65,7 +65,7 @@ imageurl: https://blog.astroingeo.org/img/content/metodos-antiguo-de-prediccion-
 ### Il Sole e le Sue Fasi
 Il ciclo giornaliero del sole era utilizzato per segmentare la giornata e le sue varie posizioni in cielo fornivano indicazioni sul tempo imminente.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/metodos-antiguo-de-prediccion-del-tiempo-basados-en-la-astronomia_2.webp
 title: Antichi metodi di previsione meteorologica basati sullastronomia

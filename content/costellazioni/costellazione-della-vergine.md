@@ -49,7 +49,7 @@ head:
 
 La **Costellazione della Vergine**, conosciuta anche come _Virgo_, è una delle dodici costellazioni dello Zodiaco e si stende nel cielo notturno come un'imponente figura mitologica. Costellata di galassie, stelle e storie antiche, Virgo affascina astronomi professionisti e dilettanti. Scoprite con noi i segreti di questa meravigliosa formazione stellare e come osservarla al meglio nel firmamento.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione della Vergine
 imageurl: https://blog.astroingeo.org/img/content/constelacion-virgo_3.webp
@@ -68,7 +68,7 @@ La figura mitologica associata a Virgo è frequentemente legata alla dea greca D
 
 **Mete alla Scoperta del Cluster di Virgo**: Un'insuperabile raccolta di galassie situata nel cuore della costellazione. Il Cluster di Virgo è obiettivo di costante studio per comprenderne meglio la struttura e la composizione. Tra i suoi membri spicca **M87**, una galassia ellittica supergigante famosa per la sua massa e per ospitare un buco nero supermassiccio nel suo nucleo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-virgo_2.webp
 title: Costellazione della Vergine

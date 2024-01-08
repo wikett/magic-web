@@ -49,7 +49,7 @@ head:
 
 L'universo è disseminato di meraviglie che sfidano la nostra comprensione, stelle remote, galassie spiraleggianti e fenomeni astronomici mozzafiato. Tra questi, spiccano delle vere e proprie reliquie cosmiche, residui di una storia siderale che continua a stupirci e ad affascinarci con il loro inestimabile valore scientifico e culturale.
 
-::photo-article.webp
+::photo-article
 ---
 title: Sorprendenti reliquie cosmiche
 imageurl: https://blog.astroingeo.org/img/content/reliquias-cosmicas-sorprendentes_1.webp
@@ -72,7 +72,7 @@ Le **galassie antiche** sono una finestra sul passato dell'universo. Si tratta d
 
 L'esistenza di **pianeti extraterrestri** o esopianeti è una scoperta relativamente recente. Nonostante siano difficili da osservare direttamente, la loro ricerca ha rivelato l'esistenza di un'incredibile varietà di mondi, molti dei quali con caratteristiche sorprendenti, da pianeti giganti che orbitano vicinissimi alle loro stelle a pianeti rocciosi in zone potenzialmente abitabili.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/reliquias-cosmicas-sorprendentes_2.webp
 title: Sorprendenti reliquie cosmiche

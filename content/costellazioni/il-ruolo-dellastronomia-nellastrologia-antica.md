@@ -49,7 +49,7 @@ head:
 
 L'astronomia,*regina delle scienze antiche*, ha sempre avuto un ruolo fondamentale nella comprensione dell'universo che ci circonda. Ma come si intreccia il suo percorso con quello dell'astrologia, specialmente nell'antichità? In questo articolo, esploriamo le connessioni celesti che hanno forgiato oroscopi e destini nei secoli passati.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il ruolo dellastronomia nellastrologia antica
 imageurl: https://blog.astroingeo.org/img/content/el-papel-de-la-astronomia-en-la-antigua-astrologia_1.webp
@@ -72,7 +72,7 @@ Gli antichi non si limitavano a osservare le stelle, ma le utilizzavano come ver
 
 Il moto dei pianeti era interpretato come una **danza divina**, che rifletteva equilibri e scontri tra le divinità.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-papel-de-la-astronomia-en-la-antigua-astrologia_2.webp
 title: Il ruolo dellastronomia nellastrologia antica

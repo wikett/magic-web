@@ -49,7 +49,7 @@ head:
 
 Nel vasto e intricato teatro dell'universo, un processo tanto maestoso quanto misterioso si svolge nelle remote nursery galattiche: **la formazione stellare**. Questo fenomeno celestiale non cessa di affascinare astronomi ed appassionati di astronomia, dando vita agli astri che illuminano i cieli notturni.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come nascono le stelle nello spazio
 imageurl: https://blog.astroingeo.org/img/content/como-nacen-las-estrellas-en-el-espacio_1.webp
@@ -64,7 +64,7 @@ All'interno delle cosmiche caverne di gas e polvere, conosciute come **nebulose*
 ### Il Ruolo della Gravità
 **La gravità**, la forza invisibile ed onnipresente, inizia la sua regia, attirando le particelle di materia sempre più vicino. Lentamente, ma inesorabilmente, la nuvola inizia a collassare sotto il proprio peso, innescando una **cadenza di reazioni** che porterà alla creazione di una nuova stella.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-nacen-las-estrellas-en-el-espacio_2.webp
 title: Come nascono le stelle nello spazio

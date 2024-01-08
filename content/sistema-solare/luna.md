@@ -49,7 +49,7 @@ head:
 
 La Luna, quel misterioso e affascinante satellite naturale che accompagna la Terra nel suo viaggio intorno al Sole, ha sempre esercitato un fascino ineguagliabile sull'umanità. Dal suo ruolo nelle maree alla sua presenza nei miti e nelle leggende, la Luna non smette di stimolare la nostra curiosità e il desiderio di esplorazione. Ma cosa rende la Luna così speciale? Attraverso questo articolo, compiremo un viaggio alla scoperta delle sue caratteristiche e dei suoi segreti, nel pieno rispetto delle più raffinate tecniche di SEO e copywriting.
 
-::photo-article.webp
+::photo-article
 ---
 title: Luna
 imageurl: https://blog.astroingeo.org/img/content/luna_1.webp
@@ -68,7 +68,7 @@ Secondo le teorie più accreditate, la Luna si è formata circa 4,5 miliardi di 
 
 Sin dall'antichità, la Luna ha ispirato osservazioni e teorie. Tuttavia, è con l'avvento dell'era spaziale che l'umanità ha potuto raggiungere il nostro satellite. La famosa missione **Apollo 11**, che nel 1969 ha portato l'uomo a mettere piede sulla Luna per la prima volta, ha aperto una nuova era di esplorazione che ancora oggi continua con missioni robotiche e progetti per future colonie lunari.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/luna_2.webp
 title: Luna

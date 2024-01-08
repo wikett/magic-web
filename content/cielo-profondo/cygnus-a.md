@@ -51,7 +51,7 @@ Cygnus A, o ***Cigno A***, è una delle sorgenti radio più potenti e studiate n
 
 ---
 
-::photo-article.webp
+::photo-article
 ---
 title: Cygnus A
 imageurl: https://blog.astroingeo.org/img/content/cygnus-a_3.webp
@@ -72,7 +72,7 @@ La **potenza delle emissioni radio** di Cygnus A risalta notevolmente se confron
 
 La lontananza di Cygnus A è tale che la luce e le onde radio da essa emesse viaggiano per centinaia di milioni di anni prima di raggiungere i nostri strumenti di osservazione. Ogni immagine o dato che riceviamo è quindi un'istantanea del passato, un ecosistema galattico congelato nel tempo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cygnus-a_2.webp
 title: Cygnus A

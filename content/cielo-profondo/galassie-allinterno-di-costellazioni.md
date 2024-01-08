@@ -49,7 +49,7 @@ head:
 
 L'osservazione delle stelle ha da sempre affascinato l'umanità. Pensare alle **galassie**, enormi insiemi di stelline che brillano nella notte, nascoste tra i confini delle **costellazioni**, solletica la nostra curiosità e il desiderio di esplorare. In questo articolo, ci inoltreremo nelle profondità del cosmo per scoprire come le galassie sono distribuite nel tessuto stellare che osserviamo dal nostro piccolo pianeta.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassie allinterno di costellazioni
 imageurl: https://blog.astroingeo.org/img/content/galaxias-dentro-de-las-constelaciones_1.webp
@@ -68,7 +68,7 @@ Ogni costellazione racchiude in sé una porzione di universo scandito da galassi
 
 Per osservare galassie all'interno delle costellazioni, è necessario essere equipaggiati con un **telescopio** adeguato e avere una conoscenza di base del cielo notturno. Le galassie più lontane richiedono strumentazioni sofisticate e cieli privi di inquinamento luminoso.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxias-dentro-de-las-constelaciones_2.webp
 title: Galassie allinterno di costellazioni

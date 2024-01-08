@@ -49,7 +49,7 @@ head:
 
 La questione sull'esistenza degli extraterrestri genera dibattiti accesi e confronti tra entusiasti dell'ufologia e scettici della scienza. Spesso, ci si avvicina al tema con curiosità e speranza, ma è fondamentale anche esaminare gli **argomenti contrari all'esistenza degli extraterrestri**, che portano una prospettiva critica sul tavolo della discussione.
 
-::photo-article.webp
+::photo-article
 ---
 title: Argomenti contro lesistenza degli extraterrestri
 imageurl: https://blog.astroingeo.org/img/content/argumentos-en-contra-de-la-existencia-de-extraterrestres_1.webp
@@ -63,7 +63,7 @@ La **Paradosso di Fermi** è un celebre argomento che pone una semplice domanda:
 ### Il Silenzio del Cosmo
 Nonostante gli innumerevoli sforzi per intercettare segnali alieni, attraverso progetti come SETI, finora siamo circondati da un silenzio cosmico assordante. 
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/argumentos-en-contra-de-la-existencia-de-extraterrestres_2.webp
 title: Argomenti contro lesistenza degli extraterrestri

@@ -49,7 +49,7 @@ head:
 
 Il pianeta Urano, un gigante gassoso con un alone di mistero, segna un punto di riferimento intrigante nel vasto oceano cosmico. Situato al confine del mondo visibile a occhio nudo, Urano rappresenta una soglia verso l'inconoscibile. Attraverso lo sguardo degli astronomi, questo pianeta svela lentamente i suoi segreti, ma ogni nuova scoperta apre la porta a ulteriori interrogativi.
 
-::photo-article.webp
+::photo-article
 ---
 title: Urano
 imageurl: https://blog.astroingeo.org/img/content/urano_1.webp
@@ -68,7 +68,7 @@ Urano si distingue per diverse particolarità. La più notevole è il suo asse d
 
 Gli strati atmosferici di Urano sono una danza di temperature estreme e venti supersonici. Questo ambiente, ostile alla vita come la conosciamo, è una cassaforte che custodisce i segreti evolutivi del sistema solare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/urano_2.webp
 title: Urano

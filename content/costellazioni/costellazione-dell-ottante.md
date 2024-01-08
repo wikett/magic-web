@@ -49,7 +49,7 @@ head:
 
 Le stelle nell'universo tessono tra loro un mosaico di miti e scienza, costruendo le costellazioni che sono state fonte di fascino da tempi immemori. **L'Ottante**, meno noto delle sue celebri vicine, è una di queste meraviglie celesti che ospita segreti spesso trascurati dall'occhio profano. Questo articolo si rivela una guida imprescindibile per chi cerca di conoscere e comprendere meglio questa particolare costellazione meridionale.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione dellOttante
 imageurl: https://blog.astroingeo.org/img/content/constelacion-octante_1.webp
@@ -67,7 +67,7 @@ All'interno dell'Ottante troviamo la **stella polare sud**, Sigma Octantis, che,
 
 Identificare l'Ottante può essere una sfida data la sua discrezione luminosa. Tuttavia, con alcuni punti di riferimento e una notte limpida, il riconoscimento diventa possibile.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-octante_2.webp
 title: Costellazione dellOttante

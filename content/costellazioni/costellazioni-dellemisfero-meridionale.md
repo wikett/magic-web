@@ -49,7 +49,7 @@ head:
 
 L'osservazione delle stelle è un'attività che ha affascinato l'umanità fin dagli albori della civiltà. Le **costellazioni dell'emisfero sud** rappresentano un vero e proprio tesoro celeste, rese uniche dal fatto che alcune sono visibili soltanto da tale parte del mondo. Sei pronto a scoprirle?
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazioni dellemisfero meridionale
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-del-hemisferio-sur_1.webp
@@ -64,7 +64,7 @@ Le costellazioni sono state una bussola per i navigatori di ogni epoca, fungendo
 ### Il Crogiolo Cosmico: La Croce del Sud
 **La Croce del Sud** (Crux) è probabilmente la costellazione più famosa dell'emisfero australe e una guida per i naviganti. È composta primariamente da quattro stelle brillanti formanti una croce.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-del-hemisferio-sur_2.webp
 title: Costellazioni dellemisfero meridionale

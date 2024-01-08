@@ -49,7 +49,7 @@ head:
 
 L'oscurità dello spazio esterno evoca in noi un senso di mistero e infinito. Nel vasto universo, la mancanza di luce è tanto una curiosità quanto un campo di studio per gli astronomi e gli scienziati che cercano di comprendere i segreti celati nelle tenebre cosmiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Loscurità nello spazio
 imageurl: https://blog.astroingeo.org/img/content/oscuridades-en-el-espacio-sideral_1.webp
@@ -71,7 +71,7 @@ La **materia oscura** è una sostanza invisibile che non emette né assorbe luce
 - Lenti gravitazionali
 - Radiazione cosmica di fondo
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/oscuridades-en-el-espacio-sideral_2.webp
 title: Loscurità nello spazio

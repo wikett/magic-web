@@ -49,7 +49,7 @@ head:
 
 Plutone, il pianeta nano avvolto da un alone di mistero, ha stuzzicato per decenni la fantasia di astronomi e appassionati. Nel corso degli anni, si sono diffusi numerosi miti che hanno distorto la comprensione di questo lontano mondo che orbita ai confini del nostro sistema solare. In questo articolo, ci immergeremo nei fatti sorprendenti che la scienza ha scoperto e smantelleremo i miti che circondano **Plutone**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Miti e fatti sul pianeta nano Plutone
 imageurl: https://blog.astroingeo.org/img/content/mitos-y-realidades-sobre-pluton-planeta-enano_1.webp
@@ -61,7 +61,7 @@ imageurl: https://blog.astroingeo.org/img/content/mitos-y-realidades-sobre-pluto
 #### Mito: Plutone è Ancora un Pianeta
 Nel 2006, l'Unione Astronomica Internazionale (IAU) ha ridotto lo status di Plutone da pianeta a pianeta nano. Questa decisione, nonostante le proteste di alcuni, si basa su criteri ben definiti che Plutone non soddisfa completamente.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/mitos-y-realidades-sobre-pluton-planeta-enano_2.webp
 title: Miti e fatti sul pianeta nano Plutone

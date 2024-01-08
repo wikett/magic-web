@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa Testa di Strega**, o **IC 2118**, è uno spettacolare esempio di come l'Universo possa sorprenderci con le sue meravigliose creazioni. Questa nebulosa, che si estende per centinaia di anni luce, è un irresistibile richiamo per gli appassionati di astronomia e fotografia spaziale. Scopri amo insieme il mistero che avvolge questa entità cosmica e come essa possa influenzare non solo la nostra conoscenza dell'Universo ma anche l'intensa ricerca di nuovi mondi nell'infinito cosmico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Testa di Strega o IC 2118
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-cabeza-de-bruja-o-ic-2118_3.webp
@@ -68,7 +68,7 @@ La composizione di IC 2118 è prevalentemente di polvere interstellare. La pecul
 
 Le nebulose a riflessione come IC 2118 si formano in regioni ricche di polvere cosmica. Studi recenti suggeriscono che possono essere i resti di nuove stelle in formazione o di supernovae ormai estinte. L'età della **Nebulosa Testa di Strega** rimane oggetto di studio, ma si stima che le sue strutture principali si siano formate milioni di anni fa.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-cabeza-de-bruja-o-ic-2118_2.webp
 title: Nebulosa Testa di Strega o IC 2118

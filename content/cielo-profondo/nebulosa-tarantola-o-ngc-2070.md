@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa Tarantola**, nota anche come NGC 2070, è una delle strutture più affascinanti nel nostro vicinato cosmico. Questa regione dell'universo unisce bellezza, mistero e importanza scientifica, offrendo uno spettacolo unico agli astronomi e agli appassionati di astrofisica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Tarantola o NGC 2070
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-tarantula-o-ngc-2070_3.webp
@@ -70,7 +70,7 @@ All'interno della Grande Nube di Magellano, una galassia satellite della Via Lat
 
 Al centro della Nebulosa Tarantola risiede il suo motore pulsante, il famoso ammasso di stelle noto come R136. Questo gioiello celeste è costituito da alcune delle stelle più massicce e brillanti che conosciamo, che insieme contribuiscono alla straordinaria luminosità della nebulosa.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-tarantula-o-ngc-2070_2.webp
 title: Nebulosa Tarantola o NGC 2070

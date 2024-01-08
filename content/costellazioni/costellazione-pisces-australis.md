@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno nasconde gioielli scintillanti e tra queste brillanti meraviglie celesti si cela la **Costellazione del Piscis Austrinus**, un angolo incantato dell'Universo che attende di essere scoperto dai curiosi e dagli appassionati di astronomia.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione Pisces Australis
 imageurl: https://blog.astroingeo.org/img/content/constelacion-piscis-australis_1.webp
@@ -68,7 +68,7 @@ Il Pesce Australe ha origine antiche, spesso legato a mitologie e leggende. Figu
 
 La costellazione è dominata dalla stella **Fomalhaut**, una delle più brillanti nel cielo notturno e facilmente riconoscibile per la sua luminosità. Essa è circondata da stelle di minore intensità, che insieme delineano la forma del pesce.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-piscis-australis_2.webp
 title: Costellazione Pisces Australis

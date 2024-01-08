@@ -49,7 +49,7 @@ head:
 
 La Via Lattea, la nostra immensa galassia casa, è un universo di misteri in continua espansione. Ogni nuova scoperta apre una finestra sull'immenso e sull'incredibile complessità dell'universo che ci circonda.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le ultime scoperte sulla galassia della Via Lattea
 imageurl: https://blog.astroingeo.org/img/content/ultimos-descubrimientos-sobre-la-via-lactea_1.webp
@@ -70,7 +70,7 @@ Una delle più grandi domande che assilla la comunità scientifica riguarda la *
 - Innovazioni nella spettroscopia galattica
 - Incroci dati tra sorgenti di radiazioni diverse
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/ultimos-descubrimientos-sobre-la-via-lactea_2.webp
 title: Le ultime scoperte sulla galassia della Via Lattea

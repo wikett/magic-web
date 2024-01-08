@@ -49,7 +49,7 @@ head:
 
 L'estate è la stagione perfetta per alzare lo sguardo verso il firmamento e lasciarsi incantare dalle stelle. Le **costellazioni estive** ci offrono uno spettacolo celeste di inestimabile bellezza, ed è proprio alla scoperta di queste meraviglie che questo articolo vi accompagnerà.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazioni estive
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-de-verano_1.webp
@@ -71,7 +71,7 @@ Ognuna di queste costellazioni ha le sue particolari storie mitologiche e stelle
 ### Vega e il Triangolo Estivo
 Tra le stelle più luminose visibili durante la notte estiva, **Vega**, nella costellazione della Lira (Lyra), spicca per la sua brillantezza. Vega è uno degli angoli del cosiddetto Triangolo Estivo, assieme a Deneb nel Cigno e Altair nell'Aquila.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-de-verano_2.webp
 title: Costellazioni estive

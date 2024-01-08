@@ -49,7 +49,7 @@ head:
 
 Il pianeta **Saturno**, con i suoi iconici anelli, ha sempre catturato la fantasia tanto degli astronomi professionisti quanto degli appassionati del firmamento. Questo articolo è un'immersione nelle profondità della sua atmosfera striata e un'esplorazione del significato che questo gigante gassoso riveste nell'ambito dell'astronomia moderna.
 
-::photo-article.webp
+::photo-article
 ---
 title: Saturno
 imageurl: https://blog.astroingeo.org/img/content/saturno_1.webp
@@ -65,7 +65,7 @@ Sin dall'antichità, **Saturno** è stato oggetto di mitologia e fascino. Nell'a
 ## **I Misteriosi Anelli di Saturno**
 È stato ipotizzato che gli anelli possano essere il risultato di una luna distrutta o di comete che si sono frantumate a causa della potente gravità di **Saturno**. Composti principalmente di ghiaccio d'acqua e polveri, gli anelli sono un laboratorio cosmico per lo studio delle dinamiche orbitali.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/saturno_2.webp
 title: Saturno

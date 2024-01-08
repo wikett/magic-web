@@ -49,7 +49,7 @@ head:
 
 Il fascino per l'ignoto e il misterioso spazio cosmico ha sempre alimentato l'immaginario collettivo, soprattutto nel mondo cinematografico. Film che raccontano di extraterrestri sono non solo portali per mondi lontani ma anche macchine da soldi veri e propri. Scopriamo insieme quali sono i **capolavori di incasso** che hanno portato gli **alieni** sul grande schermo.
 
-::photo-article.webp
+::photo-article
 ---
 title: I film di maggior incasso sugli extraterrestri
 imageurl: https://blog.astroingeo.org/img/content/las-peliculas-mas-taquilleras-sobre-extraterrestres_1.webp
@@ -68,7 +68,7 @@ James Cameron riportò gli alieni al centro della scena cinematografica con "Ava
 
 La saga dei "Transformers" di Michael Bay, ha presentato una visione diversa degli extraterrestri: robot capaci di trasformarsi. Con una serie di film di successo, questa franchigia ha **dominato il box office** mondiale, con **sequenze d'azione mozzafiato**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-peliculas-mas-taquilleras-sobre-extraterrestres_2.webp
 title: I film di maggior incasso sugli extraterrestri

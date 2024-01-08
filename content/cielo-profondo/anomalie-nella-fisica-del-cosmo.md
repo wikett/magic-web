@@ -49,7 +49,7 @@ head:
 
 Scorrendo lo sguardo sul cielo notturno, può non essere immediato immaginare che dietro la quiete delle stelle si nascondano alcuni dei più grandi misteri della fisica moderna. Il cosmo è una cassaforte di segreti, e alcune anomalie nella sua struttura ci mettono di fronte a interrogativi fondamentali sulla natura dell'universo. In questo articolo, esploremo con precisione i dettagli di queste deviazioni dalla norma e cercheremo di comprendere il loro impatto sulla scienza cosmologica.
 
-#::photo-article.webp
+#::photo-article
 ---
 title: Anomalie nella fisica del cosmo
 imageurl: https://blog.astroingeo.org/img/content/anomalias-en-la-fisica-del-cosmos_1.webp
@@ -66,7 +66,7 @@ imageurl: https://blog.astroingeo.org/img/content/anomalias-en-la-fisica-del-cos
 - Non interagisce con la luce **(non emette né assorbe radiazione)**
 - Ha un ruolo cruciale nella formazione delle strutture cosmiche
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/anomalias-en-la-fisica-del-cosmos_2.webp
 title: Anomalie nella fisica del cosmo

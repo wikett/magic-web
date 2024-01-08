@@ -49,7 +49,7 @@ head:
 
 Il legame millenario tra **astronomia e agricoltura** è radicato nelle pratiche dei nostri antenati, dove la volta celeste era ben più di una mera visione notturna, ma una guida fondamentale per la sopravvivenza. Questo articolo esplora come **l’astronomia antica** ha influenzato e guidato l'agricoltura, offrendo una panoramica dei metodi e delle conoscenze che hanno permesso alle civiltà di prosperare seguendo il ritmo delle stelle.
 
-::photo-article.webp
+::photo-article
 ---
 title: Luso dellastronomia nellagricoltura antica
 imageurl: https://blog.astroingeo.org/img/content/el-uso-de-la-astronomia-en-la-agricultura-antigua_1.webp
@@ -71,7 +71,7 @@ Gli agricoltori del passato seguivano attentamente il ciclo lunare, seminando e 
 
 Gli antichi associavano i segni zodiacali a dei particolari momenti per effettuare lavori agricoli, basandosi su millenni di osservazioni su come ciascun segno influenzasse crescita e sviluppo delle piante.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-uso-de-la-astronomia-en-la-agricultura-antigua_2.webp
 title: Luso dellastronomia nellagricoltura antica

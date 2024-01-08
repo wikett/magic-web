@@ -49,7 +49,7 @@ head:
 
 I cieli notturni nascondono spettacoli naturali di incomparabile bellezza, e tra questi, le **meteore e i meteoriti** rappresentano uno dei fenomeni più affascinanti. Questo articolo si propone di svelare i segreti di questi messaggeri celesti, illuminando ogni aspetto delle loro origini cosmiche e dei loro incontri con la Terra.
 
-::photo-article.webp
+::photo-article
 ---
 title: Meteore e meteoriti
 imageurl: https://blog.astroingeo.org/img/content/meteoritos-y-meteoros_1.webp
@@ -68,7 +68,7 @@ Quando osserviamo una meteora, ciò che vediamo è una **scia luminosa** transit
 
 Ma da dove provengono questi meteoroidi? Spesso sono residui lasciati dalle comete o frammenti di asteroidi. Questi "sassolini cosmici" possono essere piccoli come un granello di sabbia o grandi come un masso.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/meteoritos-y-meteoros_2.webp
 title: Meteore e meteoriti

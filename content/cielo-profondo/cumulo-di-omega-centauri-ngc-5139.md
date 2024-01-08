@@ -49,7 +49,7 @@ head:
 
 L'**ammasso globulare Omega Centauri**, noto anche come NGC 5139, è una delle meraviglie più affascinanti del cielo australe. In questo ampio articolo, vi guideremo attraverso le meraviglie astronomiche di uno degli ammassi stellari più massicci e brillanti della nostra **Via Lattea**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cumulo di Omega Centauri (NGC 5139)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-omega-centauri-ngc-5139_3.webp
@@ -68,7 +68,7 @@ Già conosciuto da antichi astronomi come Tolomeo, Omega Centauri ha una storia 
 
 L'ammasso globulare Omega Centauri è noto per la sua straordinaria densità di stelle, che lo rendono uno degli ammassi più massicci conosciuti. La sua struttura interna è un laboratorio celeste per studiare interazioni stellari e dinamiche evolutive.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-omega-centauri-ngc-5139_2.webp
 title: Cumulo di Omega Centauri (NGC 5139)

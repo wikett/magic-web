@@ -49,7 +49,7 @@ head:
 
 La _Nebulosa Spirograph_, conosciuta anche come **IC 418**, è una magnifica nebulosa planetaria situata nella costellazione del Lepre. Questa stella moribonda offre uno spettacolo di colori e strutture che affascina astronomi e appassionati di astrofotografia. In questo articolo, immergeremo nel profondo cosmico per esplorare le meraviglie di questa nebulosa, considerando non solo la sua bellezza, ma anche il significato scientifico che porta con sé.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Spirograph o IC 418
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-spirograph-o-ic-418_3.webp
@@ -70,7 +70,7 @@ imageurl: https://blog.astroingeo.org/img/content/nebulosa-spirograph-o-ic-418_3
 
 I colori vibranti della Nebulosa Spirograph sono dati da un insieme di processi atomici e molecolari. Quando gli atomi nella nebulosa assorbono energia dalla stella centrale, si eccitano e poi rilasciano questa energia sotto forma di luce visibile.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-spirograph-o-ic-418_2.webp
 title: Nebulosa Spirograph o IC 418

@@ -49,7 +49,7 @@ head:
 
 L'impero Persiano, culla di antiche civiltà, è stato un fulcro della scienza astronomica, influenzando generazioni e culture con il suo avanzato sapere celeste. Questo articolo esplorerà la profondità e la complessità dell'**astronomia nell'antica Persia**, illuminando gli impatti e le scoperte che hanno segnato il percorso della conoscenza umana.
 
-::photo-article.webp
+::photo-article
 ---
 title: Lastronomia nellantica Persia
 imageurl: https://blog.astroingeo.org/img/content/la-astronomia-en-el-antiguo-persia_1.webp
@@ -65,7 +65,7 @@ Gli astrologi e astronomi persiani costruivano straordinari **osservatori astron
 ## I Texti Fondanti dell'Astronomia Persiana
 Tra i contributi più significativi alla scienza celeste si contano diversi testi antichi. Il **Zij al-Sindhind**, basato sull'astronomia indiana e greca, rappresenta una fondamentale raccolta di tabelle astronomiche.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-astronomia-en-el-antiguo-persia_2.webp
 title: Lastronomia nellantica Persia

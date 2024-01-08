@@ -49,7 +49,7 @@ head:
 
 Esplorare l'infinito cosmo è un sogno che accomuna molti. Grazie alle moderne **applicazioni per l'osservazione delle costellazioni**, il cielo stellato si svela in tutta la sua magnificenza, anche ai meno esperti di astronomia. Scopriamo insieme quali sono le migliori app del momento e come possono trasformare il tuo smartphone in un vero e proprio planetario tascabile.
 
-::photo-article.webp
+::photo-article
 ---
 title: Applicazioni per losservazione delle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/aplicaciones-para-observar-constelaciones_1.webp
@@ -67,7 +67,7 @@ Ecco un elenco delle app indispensabili:
 ### **SkyView**
 SkyView è un'app ampiamente apprezzata che tramuta il tuo dispositivo in una finestra digitale verso il cosmo. Con la realtà aumentata, identifica stelle, costellazioni e satelliti semplicemente puntando il telefono verso il cielo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/aplicaciones-para-observar-constelaciones_2.webp
 title: Applicazioni per losservazione delle costellazioni

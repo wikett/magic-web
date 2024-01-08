@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno si presta da sempre a una tela su cui l'immaginazione umana ha dipinto storie di *misteri irrisolti* e *fenomeni inspiegabili*. Tra queste narrazioni, gli avvistamenti UFO occupano un posto d'onore, accendendo dibattiti e curiosità. Questo articolo intende esplorare alcuni dei più **famosi episodi di osservazioni UFO** e cercare di capire cosa si nasconde dietro questi fenomeni celesti che affascinano e spaventano allo stesso tempo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Storie di avvistamenti UFO reali
 imageurl: https://blog.astroingeo.org/img/content/historias-de-avistamientos-de-ovnis-reales_1.webp
@@ -68,7 +68,7 @@ Nell'estate del 1947, una piccola cittadina del New Mexico è balzata agli onori
 
 Invernale 1980, nelle vicinanze di due basi militari USA nel Suffolk, in Inghilterra, un'incredibile sequenza di eventi coinvolse militari di alta qualificazione. Questo caso ha guadagnato credibilità proprio per lo status dei testimoni e dei dettagli tecnici riportati. **I testimoni annoverano strani segnali radio e simboli indecifrabili** visti su un presunto velivolo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/historias-de-avistamientos-de-ovnis-reales_2.webp
 title: Storie di avvistamenti UFO reali

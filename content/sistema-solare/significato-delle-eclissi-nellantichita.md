@@ -49,7 +49,7 @@ head:
 
 Gli **eclissi** hanno da sempre evocato negli uomini un senso di meraviglia e terrore, in particolare nell'**antichità**, quando il significato astronomico di questi fenomeni era ancora avvolto nel mistero. La potenza visiva di un **eclisse** comportava un impatto profondo sulla cultura e sulla spiritualità dei popoli antichi, dai Babilonesi agli Egizi, dai Greci ai Romani.
 
-::photo-article.webp
+::photo-article
 ---
 title: Significato delle eclissi nellantichità
 imageurl: https://blog.astroingeo.org/img/content/significado-de-los-eclipses-en-la-antigueedad_1.webp
@@ -65,7 +65,7 @@ In Mesopotamia, il fenomeno dell'**eclisse lunare** era associato a presagi nega
 ## Il Significato Astrale e Astrologico in Grecia
 Per i Greci, l'eclisse aveva sia una spiegazione **scientifico-astronomica** sia un risvolto **astrologico**. Personalità come Thales di Mileto e più tardi Aristotele studiarono gli eclissi, cercando di comprenderne le cause e la prevedibilità. D'altra parte, l'astrologia attribuiva all'eclisse un forte impatto sul destino umano.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/significado-de-los-eclipses-en-la-antigueedad_2.webp
 title: Significato delle eclissi nellantichità

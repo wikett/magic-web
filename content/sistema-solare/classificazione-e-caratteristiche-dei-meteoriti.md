@@ -49,7 +49,7 @@ head:
 
 Le **meteoriti** sono frammenti di materiale provenienti dallo spazio che, superando l'atmosfera terrestre, raggiungono il suolo del nostro pianeta. Esse rappresentano un'inesauribile fonte di studio per gli astronomi e gli appassionati di scienze spaziali in quanto portatori di segreti riguardanti la formazione del Sistema Solare. La loro **classificazione** e le **caratteristiche** variano a seconda della composizione e del processo di formazione.
 
-::photo-article.webp
+::photo-article
 ---
 title: Classificazione e caratteristiche dei meteoriti
 imageurl: https://blog.astroingeo.org/img/content/clasificacion-y-caracteristicas-de-los-meteoritos_1.webp
@@ -66,7 +66,7 @@ Questi rari oggetti, composti in gran parte da **ferro e nichel**, sono framment
 ### Meteoriti Rocciose
 Conosciute anche come **condriti**, sono composte da minerali silicatici e piccole inclusioni metalliche. Questa categoria di meteoriti rappresenta la maggioranza delle cadute osservate.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/clasificacion-y-caracteristicas-de-los-meteoritos_2.webp
 title: Classificazione e caratteristiche dei meteoriti

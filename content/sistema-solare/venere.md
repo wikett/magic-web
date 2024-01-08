@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno ha sempre affascinato l'umanità con i suoi segreti stellati e i suoi enigmi cosmici. **Venere**, conosciuto anche come il *"pianeta della bellezza"*, non fa eccezione. In questo approfondimento, navigheremo attraverso gli arcani di questo mondo alieno, scoprendo perché Venere incanta scienziati e astrofili allo stesso modo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Venere
 imageurl: https://blog.astroingeo.org/img/content/venus_1.webp
@@ -68,7 +68,7 @@ Nonostante spesso sia definito il gemello della Terra per dimensioni e composizi
 
 L'atmosfera di Venere è densamente costituita da anidride carbonica, con nuvole di acido solforico che riflettono la luce solare, conferendo al pianeta quel brillante aspetto che osserviamo dal nostro punto di vista terrestre.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/venus_2.webp
 title: Venere

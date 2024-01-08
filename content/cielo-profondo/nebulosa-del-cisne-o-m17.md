@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa Cigno**, conosciuta anche come M17 o Nebulosa Omega, è una regione affascinante di formazione stellare che suscita continua ammirazione e curiosità astronomiche. Questa distesa celeste di gas e polvere interstellare offre uno spettacolo visivo incredibile che cattura l'occhio tanto di astronomi professionisti quanto di appassionati del cielo notturno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa del Cisne o M17
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-cisne-o-m17_3.webp
@@ -68,7 +68,7 @@ La Nebulosa Cigno si distingue per la sua forma che ricorda la lettera greca ome
 
 All'interno della **nebulosa Omega**, lo spettacolo della nascita stellare è costantemente in azione. Le stelle giovani sono fondamentali nell'ambito della ricerca astronomica poiché offrono preziose informazioni sull'origine e lo sviluppo delle strutture celesti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-cisne-o-m17_2.webp
 title: Nebulosa del Cisne o M17

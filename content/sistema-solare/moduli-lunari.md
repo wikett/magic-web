@@ -49,7 +49,7 @@ head:
 
 Il cammino dell'umanità è segnato da conquiste epocali, e la capacità di posare piede sulla Luna è, senza dubbio, tra le più rivoluzionarie. I **moduli lunari** rappresentano il culmine dell'ingegneria spaziale e costituiscono un'impresa che ha segnato il corso della storia. Scopriamo insieme il viaggio dei moduli lunari, dalle prime ideazioni ai successivi sviluppi tecnologici.
 
-::photo-article.webp
+::photo-article
 ---
 title: Moduli lunari
 imageurl: https://blog.astroingeo.org/img/content/modulos-lunares_1.webp
@@ -68,7 +68,7 @@ La progettazione dei moduli lunari si basava su principi d'ingegneria avanzata. 
 
 Il **Modulo Lunare Apollo** (LEM) rappresenta l'archetipo di successo. Con i suoi due stadi, uno per l'atterraggio e l'altro per il lancio dal suolo lunare, il LEM ha permesso agli astronauti di completare sei atterraggi lunari storici.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/modulos-lunares_2.webp
 title: Moduli lunari

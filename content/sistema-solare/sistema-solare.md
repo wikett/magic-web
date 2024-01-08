@@ -45,7 +45,7 @@ head:
     - name: 'copyright'
       content: '© 2024 caleidoscopioastrale.it'
 ---
-#::photo-article.webp
+#::photo-article
 ---
 title: Sistema solare
 imageurl: https://blog.astroingeo.org/img/content/sistema-solar_1.webp
@@ -68,7 +68,7 @@ I **pianeti terrestri**, tra cui la nostra Terra, sono quelli più vicini al Sol
 
 ---
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/sistema-solar_2.webp
 title: Sistema solare

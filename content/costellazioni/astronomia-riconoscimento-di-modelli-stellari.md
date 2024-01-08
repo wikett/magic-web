@@ -49,7 +49,7 @@ Title (H1): **Riconoscere Costellazioni: Guida Pratica per Appassionati di Astro
 
 L'astronomia è una scienza antica quanto l'umanità stessa, e il riconoscimento dei modelli stellari è stato uno dei suoi primi e più affascinanti capitoli. Se siete astrofili o semplicemente curiosi di sapere come orientarvi tra le stelle del cielo notturno, questa guida è ciò che fa per voi.
 
-#::photo-article.webp
+#::photo-article
 ---
 title: Astronomia; riconoscimento di modelli stellari
 imageurl: https://blog.astroingeo.org/img/content/astronomia-reconocimiento-de-patrones-de-estrellas_1.webp
@@ -72,7 +72,7 @@ Nell’ambito dell’osservazione astronomica, il **riconoscimento delle costell
 - Metodo Didattico: Incentrato sull'apprendimento dei gruppi stellari e delle loro storie mitologiche.
 - Metodo Pratico: Focalizzato sull'identificazione visiva e diretta delle stelle in cielo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/astronomia-reconocimiento-de-patrones-de-estrellas_2.webp
 title: Astronomia; riconoscimento di modelli stellari

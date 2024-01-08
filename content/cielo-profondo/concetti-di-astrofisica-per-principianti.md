@@ -49,7 +49,7 @@ head:
 
 L'astrofisica, costellata da stelle, galassie, e immensi vuoti cosmici, può sembrare a prima vista un dominio inaccessibile per i principianti. Tuttavia, con una guida chiara ed una terminologia semplificata, i **concetti basi dell'astrofisica** possono diventare una mappa per navigare l'universo dei misteri celesti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Concetti di astrofisica per principianti
 imageurl: https://blog.astroingeo.org/img/content/conceptos-de-la-astrofisica-para-principiantes_1.webp
@@ -73,7 +73,7 @@ Ognuna delle miliardi di galassie ospita un numero astronomico di stelle, pianet
 
 La **gravità** è la forza che lega insieme sistemi stellari, galassie e strutture più grandi ancora, come gli ammassi di galassie. Senza la gravità, l'universo che conosciamo non esisterebbe.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/conceptos-de-la-astrofisica-para-principiantes_2.webp
 title: Concetti di astrofisica per principianti

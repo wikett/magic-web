@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa di Orione**, anche conosciuta come **Messier 42** o **M42**, è uno dei più affascinanti e discussi oggetti celesti visibili nel cielo notturno. Questo vasto e brillante remoto angolo di universo cattura l'immaginazione di professionisti e appassionati di astronomia ed è un soggetto di continua ricerca e ammirazione.
 
-#::photo-article.webp
+#::photo-article
 ---
 title: Orione o Nebulosa Messier 42
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-orion-o-messier-42_3.webp
@@ -64,7 +64,7 @@ La Nebulosa di Orione si trova all'interno della costellazione di Orione, facilm
 
 **M42** è un esempio classico di nebulosa ad emissione. Le giovani stelle camuffate nel suo cuore emettono radiazioni ultraviolette che ionizzano i gas circostanti, creando uno spettacolo di colori vivaci che possiamo osservare con telescopi o, in condizioni ottimali, anche ad occhio nudo.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-orion-o-messier-42_2.webp
 title: Orione o Nebulosa Messier 42

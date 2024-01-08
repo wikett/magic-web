@@ -49,7 +49,7 @@ head:
 
 L'esplorazione spaziale ha da sempre affascinato l'umanità: è il nostro biglietto verso l'ignoto, un viaggio nelle profondità celesti che potrebbe rispondere ad una delle domande più antiche che ci siamo mai posti - siamo soli nell'universo? Oggi, le frontiere della **scienza astronomica** e della **tecnologia spaziale** ci permettono di scrutare oltre il nostro sistema solare alla ricerca di vita in altre galassie. In questo articolo, vi guideremo attraverso l'appassionante cammino dell'umanità verso la scoperta di forme di vita extraterrestri.
 
-::photo-article.webp
+::photo-article
 ---
 title: Lesplorazione spaziale e la ricerca della vita in altre galassie
 imageurl: https://blog.astroingeo.org/img/content/exploracion-espacial-y-busqueda-de-vida-en-otras-galaxias_1.webp
@@ -72,7 +72,7 @@ I rover martiani, come Perseverance e Curiosity, sono i nostri geologi automi in
 
 L'identificazione di pianeti extrasolari, o **esopianeti**, è un altro fronte aperto nella ricerca di vita extraterrestre. Attraverso metodi come la **spettroscopia** e il transito luminoso, scienziati individuano pianeti che potrebbero possedere le condizioni favorevoli alla vita.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/exploracion-espacial-y-busqueda-de-vida-en-otras-galaxias_2.webp
 title: Lesplorazione spaziale e la ricerca della vita in altre galassie

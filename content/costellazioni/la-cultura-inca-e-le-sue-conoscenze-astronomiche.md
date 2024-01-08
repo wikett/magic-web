@@ -49,7 +49,7 @@ head:
 
 Una cultura che fuse il mistico con il celeste, gli Inca hanno lasciato un'eredità di conoscenze astronomiche che ancora oggi colpisce e affascina. Senza telescopi o strumenti moderni, questo popolo precolombiano guardava al cielo per orientarsi nella vita, nella religione e nell'agricoltura. Ma come riuscivano a interpretare i moti celesti con tale precisione?
 
-::photo-article.webp
+::photo-article
 ---
 title: La cultura Inca e le sue conoscenze astronomiche
 imageurl: https://blog.astroingeo.org/img/content/la-cultura-inca-y-su-conocimiento-astronomico_1.webp
@@ -66,7 +66,7 @@ La cosmologia Inca era un tappeto intessuto di miti e osservazioni reali. Religi
 
 Senza l'uso di strumentazione avanzata, gli Inca si affidavano a **complessi calendari** e a conoscenze trasmesse oralmente. Strutture come l'**Intihuatana**, una sorta di orologio solare, servivano a prevedere stagioni ed eventi importanti come i solstizi.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-cultura-inca-y-su-conocimiento-astronomico_2.webp
 title: La cultura Inca e le sue conoscenze astronomiche

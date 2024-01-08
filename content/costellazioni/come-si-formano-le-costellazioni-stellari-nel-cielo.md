@@ -49,7 +49,7 @@ head:
 
 Capire **come si formano le costellazioni** nel cielo notturno è come svelare un antico poema scritto nelle stelle. Le costellazioni sono gruppi di stelle che, vista la loro posizione relativa, sembrano disegnare figure significative nel tessuto scuro del cosmo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come si formano le costellazioni stellari nel cielo
 imageurl: https://blog.astroingeo.org/img/content/como-se-forman-las-constelaciones-de-estrellas-en-el-cielo_1.webp
@@ -65,7 +65,7 @@ Nel corso dei secoli, gli astronomi hanno mappato il cielo, assegnando nomi alle
 ### Stelle Leader: Ancore delle Costellazioni
 Ciascuna costellazione ha una o più stelle luminose, chiamate **stelle leader** o **alfa**, che aiutano ad identificarle e a tracciare le connessioni tra le stelle meno brillanti che formano la figura imaginaria.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-se-forman-las-constelaciones-de-estrellas-en-el-cielo_2.webp
 title: Come si formano le costellazioni stellari nel cielo

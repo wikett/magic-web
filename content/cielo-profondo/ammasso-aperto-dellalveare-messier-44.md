@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un vero e proprio caleidoscopio di meraviglie celesti, tra le quali spicca il **Grappolo Aperto Messier 44**, noto anche come **Presepe** o **Ammasso dell'Alveare**. In questo articolo, vi porteremo in un viaggio di scoperta di questo straordinario ammasso stellare, risplendente nella costellazione del Cancro.
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso aperto dellalveare (Messier 44)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-abierto-de-la-colmena-messier-44_3.webp
@@ -68,7 +68,7 @@ Da Ipparco a Galileo, la visione dell'**Ammasso dell'Alveare** ha ispirato secol
 
 L'evoluzione stellare è evidente all'interno di M44, dove giganti rosse e nane bianche raccontano la storia di un passato vibrante. **Le dinamiche interne** di un ammasso così ricco ci danno indizi sui processi che regolano la vita e la morte delle stelle.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-abierto-de-la-colmena-messier-44_2.webp
 title: Ammasso aperto dellalveare (Messier 44)

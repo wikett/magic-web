@@ -45,7 +45,7 @@ head:
     - name: 'copyright'
       content: '© 2024 caleidoscopioastrale.it'
 ---
-::photo-article.webp
+::photo-article
 ---
 title: Pianeti del sistema solare
 imageurl: https://blog.astroingeo.org/img/content/planetas-del-sistema-solar_1.webp
@@ -62,7 +62,7 @@ Il nostro sistema solare è composto da otto pianeti principali, i quali si elen
 
 ### La Danza di Mercurio e Venere
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/planetas-del-sistema-solar_2.webp
 title: Pianeti del sistema solare

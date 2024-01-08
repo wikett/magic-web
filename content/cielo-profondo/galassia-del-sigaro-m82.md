@@ -49,7 +49,7 @@ head:
 
 La **Galassia Sigaro (M82)**, nota anche come **M82** o **NGC 3034**, è un affascinante fenomeno celeste che ha catturato l'attenzione degli astronomi e degli appassionati di astronomia per il suo aspetto peculiare e la sua attività di formazione stellare. Situata a circa 12 milioni di anni luce nella costellazione dell'Orsa Maggiore, questa galassia irregolare è un vero e proprio laboratorio naturale per studiare i processi evolutivi dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia del Sigaro (M82)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-cigarro-m82_3.webp
@@ -68,7 +68,7 @@ M82 ospita **regioni di formazione stellare** estremamente attive. I suoi numero
 
 All'interno di M82 si trovano alcune delle più brillanti aree di emissione conosciute come **superboli stellari**. Queste regioni, più luminose di intere galassie, sono costituite da nuove stelle massicce la cui luce è visibile anche a enormi distanze.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-cigarro-m82_2.webp
 title: Galassia del Sigaro (M82)

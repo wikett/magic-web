@@ -49,7 +49,7 @@ head:
 
 Il cosmo è disseminato di fenomeni tanto stupefacenti quanto misteriosi, e tra questi, i quasar si stagliano come fari luminosi delle profondità spaziali. Uno dei più intriganti è **PKS 0438-436**, un oggetto celeste che sfida le nostre conoscenze e stimola l'immaginario collettivo. In questo testo, esploreremo le meraviglie di questo quasar e le sue peculiarità, fornendo un'analisi dettagliata per soddisfare la curiosità degli appassionati di astronomia e gli utenti in cerca di risposte.
 
-::photo-article.webp
+::photo-article
 ---
 title: Quasar PKS 0438-436
 imageurl: https://blog.astroingeo.org/img/content/quasar-pks-0438-436_3.webp
@@ -68,7 +68,7 @@ La prima caratteristica che salta all'occhio è la luminosità del quasar. **PKS
 
 Un dato cruciale è il **redshift**, ovvero lo spostamento verso il rosso della luce, un fenomeno che indica l'allontanamento di un corpo celeste rispetto al nostro punto di osservazione. PKS 0438-436 ha un redshift elevato, segnale della sua distanza e della sua epoca di formazione nell'universo primordiale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/quasar-pks-0438-436_2.webp
 title: Quasar PKS 0438-436

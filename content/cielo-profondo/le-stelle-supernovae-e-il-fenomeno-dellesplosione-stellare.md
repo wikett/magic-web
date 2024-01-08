@@ -49,7 +49,7 @@ head:
 
 Le stelle supernovae rappresentano uno dei fenomeni più affascinanti e potenti dell'universo. Capaci di illuminare galassie intere e di rilasciare incredibili quantità di energia, le supernovae sono veri e propri laboratori cosmici che consentono agli scienziati di studiare gli elementi fondamentali della vita. In questo articolo, esploreremo il fenomeno delle esplosioni stellari, ponendo una luce particolare sui loro segreti e sul ruolo che rivestono nell'evoluzione dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le stelle supernovae e il fenomeno dellesplosione stellare
 imageurl: https://blog.astroingeo.org/img/content/estrellas-supernovas-y-el-fenomeno-de-la-explosion-estelar_1.webp
@@ -70,7 +70,7 @@ Le **stelle supernovae** sono corpi celesti che hanno raggiunto la fine del loro
 
 Il culmine di una stella supernova è un evento di una brillantezza straordinaria. Una stella può brillare per un breve periodo con l'intensità di miliardi di soli. Questo processo libera enormi quantità di energia, onde gravitazionali e neutrini, che viaggiano nello spazio a velocità incredibili.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-supernovas-y-el-fenomeno-de-la-explosion-estelar_2.webp
 title: Le stelle supernovae e il fenomeno dellesplosione stellare

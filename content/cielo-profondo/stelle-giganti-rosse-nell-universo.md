@@ -49,7 +49,7 @@ head:
 
 L'universo è un vasto palcoscenico dove le stelle nascono, vivono e muoiono in uno spettacolo celestiale di incommensurabile bellezza. Fra le varie tipologie stellari, le **Giganti Rosse** emergono come veri e propri punti di riferimento nella costellazione del ciclo vitale stellare. Questi astri luminosi ci offrono uno sguardo affascinante sull'evoluzione cosmica e sul destino che attende molte stelle, incluso il nostro Sole.
 
-::photo-article.webp
+::photo-article
 ---
 title: Stelle giganti rosse nellUniverso
 imageurl: https://blog.astroingeo.org/img/content/estrellas-gigantes-rojas-en-el-universo_1.webp
@@ -68,7 +68,7 @@ La dimensione di una **Gigante Rossa** è strabiliante, superando spesso centina
 
 **All'interno del nucleo di una Gigante Rossa**, si svolgono processi di nucleosintesi più complessi. Il carbonio e l'ossigeno sono fra i prodotti di questi processi nucleari che arricchiscono la composizione chimica dell'astro, e che un giorno arricchiranno anche il cosmo quando la stella giungerà al termine del proprio ciclo vitale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-gigantes-rojas-en-el-universo_2.webp
 title: Stelle giganti rosse nellUniverso

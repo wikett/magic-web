@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è una vera e propria tela che la natura dipinge ogni notte, impreziosita da stelle e costellazioni che brillano sopra di noi. Alcune di queste figure stellari sono visibili durante tutto l'anno, offrendo un punto fermo per gli appassionati di astronomia e per chiunque alzi lo sguardo verso il cielo. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazioni visibili tutto lanno
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-visibles-todo-el-ano_1.webp
@@ -71,7 +71,7 @@ Per poter identificare queste costellazioni, è importante avere una conoscenza 
 - **Drago**
 - **Orsa Minore**
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-visibles-todo-el-ano_2.webp
 title: Costellazioni visibili tutto lanno

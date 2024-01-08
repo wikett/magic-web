@@ -49,7 +49,7 @@ head:
 
 Il **20 luglio 1969** rappresenta una data impresse nelle pagine della storia dell'umanità. Fu il giorno in cui, nell'ambito della missione **Apollo 11**, l'uomo pose per la prima volta il piede sulla superficie lunare. Questo evento, che ha segnato l'apice della corsa allo spazio tra gli **Stati Uniti** e l'Unione Sovietica, rimane uno dei più grandi traguardi della **scienza e dell'esplorazione spaziale**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Comè stato il viaggio dellApollo 11?
 imageurl: https://blog.astroingeo.org/img/content/como-fue-el-viaje-del-apolo-11_1.webp
@@ -64,7 +64,7 @@ Negli anni '60, la **NASA** stava sviluppando un programma spaziale che potesse 
 ### Allenamenti e Simulazioni
 Gli astronauti **Neil Armstrong**, **Buzz Aldrin** e **Michael Collins** furono sottoposti a un'intensa preparazione fisica e mentale, che includeva allenamenti nelle **simulazioni di gravità lunare**, e l'apprendimento di sistemi e strumenti di volo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-fue-el-viaje-del-apolo-11_2.webp
 title: Comè stato il viaggio dellApollo 11?

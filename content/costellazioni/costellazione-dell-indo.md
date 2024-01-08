@@ -49,7 +49,7 @@ head:
 
 La costellazione dell'**Indo**, un angolo relativamente oscuro del nostro cielo notturno, è ricco di storia e di meraviglie astronomiche. Scoperta nell'era della grande navigazione, la **Costellazione dell'Indo** rimanda a ricordi di esplorazioni e scoperte. In questo articolo, ci immergeremo nelle profondità dello spazio per rivelare i segreti di questo insieme stellare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione dellIndo
 imageurl: https://blog.astroingeo.org/img/content/constelacion-indus_1.webp
@@ -72,7 +72,7 @@ All'interno dell'Indo, troviamo alcune stelle di rilievo:
 - **Beta Indi**, conosciuta anche per essere una gigante rossa.
 - **Theta Indi**, un sistema stellare binario con componenti interessanti da analizzare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-indus_2.webp
 title: Costellazione dellIndo

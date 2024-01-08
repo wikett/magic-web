@@ -49,7 +49,7 @@ head:
 
 La Luna, questo enigmatico e affascinante satellite che accende le notti terrestri, ha da sempre esercitato un'influenza magnetica sulle culture antiche. La sua presenza, tanto costante quanto mutevole, è diventata fonte di ispirazione per miti, riti e simbologie dense di significato. In questo viaggio a ritroso nel tempo, esploreremo la **symbology lunare nelle culture antiche**, rivelando come il culto di questo corpo celeste abbia permeato le fondamenta stesse delle civiltà umane.
 
-::photo-article.webp
+::photo-article
 ---
 title: La simbologia lunare nelle culture antiche
 imageurl: https://blog.astroingeo.org/img/content/la-simbologia-lunar-en-las-culturas-antiguas_1.webp
@@ -68,7 +68,7 @@ Le divinità lunari incarnano spesso la sacralità femminile, come nel caso di *
 
 I rituali legati alla Luna non si limitavano al puro simbolismo; implicavano azioni pratiche che si riteneva influenzassero, o fossero influenzate dal, ciclo lunare, come i periodi di semina e raccolto o i riti di passaggio personale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-simbologia-lunar-en-las-culturas-antiguas_2.webp
 title: La simbologia lunare nelle culture antiche

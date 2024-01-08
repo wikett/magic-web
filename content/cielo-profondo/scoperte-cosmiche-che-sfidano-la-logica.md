@@ -49,7 +49,7 @@ head:
 
 L'Universo è un palcoscenico costellato di meraviglie che sfidano costantemente la nostra comprensione della fisica e dell'astronomia. Benché gli astrofisici si sforzino di tracciare mappe sempre più accurate del cosmo, talvolta si imbattono in **fenomeni enigmatici** che sembrano giocare a nascondino con la logica stessa. In questo articolo, ci addentreremo in alcune delle più stupefacenti **scoperte astronomiche** che, fino a oggi, sembrano disobbedire alle leggi dell'Universo come noi le conosciamo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Scoperte cosmiche che sfidano la logica
 imageurl: https://blog.astroingeo.org/img/content/hallazgos-cosmicos-que-desafian-la-logica_1.webp
@@ -67,7 +67,7 @@ La **materia oscura** è una delle più grandi incognite dell'astronomia moderna
 
 Un'altra sfida per la scienza moderna è rappresentata dai **buchi neri supermassicci**, corpi così densi che nemmeno la luce può sfuggire alla loro attrazione gravitazionale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/hallazgos-cosmicos-que-desafian-la-logica_2.webp
 title: Scoperte cosmiche che sfidano la logica

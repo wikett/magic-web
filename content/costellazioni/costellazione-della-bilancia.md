@@ -49,7 +49,7 @@ head:
 
 La costellazione della Bilancia, nota come **Libra** in latino, è un affascinante raggruppamento di stelle che si contraddistingue nel cielo notturno per la sua rara e unica composizione. Caratterizzata dal simbolismo dell'equilibrio e della giustizia, essa ha catturato l'attenzione degli astronomi e degli astrologi per millenni.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione della Bilancia
 imageurl: https://blog.astroingeo.org/img/content/constelacion-libra_3.webp
@@ -70,7 +70,7 @@ Le stelle principali di Libra sono *Zubenelgenubi* (Alpha Librae) e *Zubenescham
 
 Libra viene spesso associata alla dea greca della giustizia, Dike, che sostiene la bilancia dell'equilibrio morale ed etico. Il suo posto nel cielo è stato interpretato come una rappresentazione dell’obiettività degli dei.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-libra_2.webp
 title: Costellazione della Bilancia

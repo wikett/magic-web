@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un mosaico di stelle, galassie e ammassi stellari che da secoli affascina l'umanità. Tra questi, l'**Ammasso del Presepe**, noto anche come **Messier 44** o **Praesepe**, rappresenta una delle più riche e interessanti "colonie" di stelle nel firmamento. Ma cosa rende questo spicchio di universo così speciale per astronomi e appassionati di astrofisica?
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso El Pesebre (Messier 44)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-el-pesebre-messier-44_3.webp
@@ -68,7 +68,7 @@ La stella che ne costituisce il cuore brilla con forza tra le sue compagne, rend
 
 Situato a circa 577 anni luce dalla Terra, l'**Ammasso del Presepe** copre un'area del cielo equivalente a tre volte il diametro della Luna piena. I suoi membri più brillanti possono essere distinti attraverso un binocolo, mentre un telescopio di medie dimensioni rivela la vera natura stellare di questo oggetto celeste.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-el-pesebre-messier-44_2.webp
 title: Ammasso El Pesebre (Messier 44)

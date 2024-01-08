@@ -49,7 +49,7 @@ head:
 
 La costellazione di **Leo Minor** sorprende per la sua discreta bellezza, incastonata nel cielo come un prezioso segreto da svelare. In questo articolo, vi guiderò attraverso la scoperta di Leo Minor, la piccola costellazione che rifulge timidamente nella sua posizione celeste.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione minore del Leone
 imageurl: https://blog.astroingeo.org/img/content/constelacion-leo-menor_3.webp
@@ -71,7 +71,7 @@ Immaginate di osservare il cielo stellato; Leo Minor è un insieme di stelle non
 - **21 Leonis Minoris**
 - **10 Leonis Minoris**
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-leo-menor_2.webp
 title: Costellazione minore del Leone

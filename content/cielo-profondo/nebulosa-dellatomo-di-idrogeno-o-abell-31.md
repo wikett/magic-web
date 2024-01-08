@@ -49,7 +49,7 @@ head:
 
 Il campo dell'astronomia è ricco di meraviglie e tra queste brillano le nebulose, isole cosmiche di gas e polvere. Una tra le meno note ma non meno affascinanti è la **Nebula di Atomo di Idrogeno** o **Abell 31**, uno spettacolo celestiale che attende soltanto di essere scoperto.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa dellatomo di idrogeno o Abell 31
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-atomo-de-hidrogeno-o-abell-31_3.webp
@@ -64,7 +64,7 @@ La Nebula Abell 31, situata nella costellazione del Cancro, è una delle più gr
 ### Composizione
 Dominata dall'idrogeno, il più semplice e abbondante elemento dell'universo, Abell 31 preserva al suo interno tracce di altri elementi quali ossigeno, azoto e zolfo. Questa ricchezza chimica è fondamentale nello studio dell'evoluzione stellare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-atomo-de-hidrogeno-o-abell-31_2.webp
 title: Nebulosa dellatomo di idrogeno o Abell 31

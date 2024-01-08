@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa Testa di Cavallo**, conosciuta anche come **Barnard 33**, è uno dei fenomeni più affascinanti dell'universo. Sita nella costellazione di Orione, questa nebulosa oscura si presenta come un'elegante scultura celeste, un miraggio stellare capace di incantare astrofili e astronomi di tutto il mondo. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Testa di Cavallo o Nebulosa Barnard 33
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-cabeza-de-caballo-o-barnard-33_3.webp
@@ -68,7 +68,7 @@ La **Nebulosa Testa di Cavallo** si innalza come una colonna scura di gas e polv
 
 Alla base di Barnard 33 si trova un denso strato di idrogeno che, illuminato dalla giovane stella Sigma Orionis, crea uno sfondo rosso che accresce il contrasto con la nebulosa oscura, dando origine alla suggestiva immagine di una testa equina.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-cabeza-de-caballo-o-barnard-33_2.webp
 title: Nebulosa Testa di Cavallo o Nebulosa Barnard 33

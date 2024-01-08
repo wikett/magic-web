@@ -49,7 +49,7 @@ head:
 
 Quando si spengono le luci sulla Terra, il sipario si alza sull'immensità dello spazio, rivelando a noi umili osservatori un universo di meraviglie celesti. Tra queste meraviglie, domina la **Nebulosa Gufo**, o **M97**, una visione spettacolare che fa ardere la curiosità di astronomi e amatori.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Gufo o M97
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-lechuza-o-m97_3.webp
@@ -68,7 +68,7 @@ La **Nebulosa Gufo**, situata nella costellazione dell'Orsa Maggiore, è ciò ch
 
 Due enormi "occhi" scuri, che le conferiscono il nome, dominano l'aspetto della nebulosa, da cui emanano luminose strutture a forma di anelli.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-lechuza-o-m97_2.webp
 title: Nebulosa Gufo o M97

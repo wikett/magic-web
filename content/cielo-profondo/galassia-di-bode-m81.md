@@ -49,7 +49,7 @@ head:
 
 La **Galassia di Bode**, nota anche come **M81**, è una delle meraviglie celesti più accattivanti al telescopio. Situata nella costellazione dell’Orsa Maggiore, M81 è una galassia a spirale che cattura l'immaginario di appassionati di astronomia e scienziati grazie alla sua struttura imponente e brillante.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia di Bode (M81)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-bode-m81_3.webp
@@ -68,7 +68,7 @@ La galassia M81 si distingue per il suo **nucleo brillante** e i bracci a spiral
 
 Observare la **Galassia di Bode** è un'esperienza senza tempo. Con un piccolo telescopio, gli astronomi amatoriali possono già osservare i dettagli più sorprendenti di M81. La galassia si rivela nella sua maestosità a solo **12 milioni di anni luce** dalla Terra.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-bode-m81_2.webp
 title: Galassia di Bode (M81)

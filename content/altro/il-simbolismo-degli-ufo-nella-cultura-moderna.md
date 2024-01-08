@@ -49,7 +49,7 @@ head:
 
 Il **simbolismo degli UFO** nel tessuto della cultura moderna si dipana come un fitto reticolo di significati e suggestioni che trascendono il semplice concetto di "oggetto volante non identificato". In questa esplorazione astrale del simbolismo **UFO**, scenderemo nelle profondità dell'inconscio collettivo per rilevare come la presenza extraterrestre si manifesti nelle varie sfaccettature della cultura **moderna**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il simbolismo degli UFO nella cultura moderna
 imageurl: https://blog.astroingeo.org/img/content/simbolismo-de-los-ovnis-en-la-cultura-moderna_1.webp
@@ -69,7 +69,7 @@ Il concetto di UFO ha, nel corso del tempo, alimentato la curiosità umana su ci
 ## Archetipi Extraterrestri nella Cultura di Massa
 I film di **fantascienza** e le serie TV hanno contribuito enormemente a cementare l'immagine degli UFO come simbolo di cambiamento radicale per l'umanità, sovente proponendoli quali messaggeri di una più elevata coscienza cosmica oppure come apportatori di una necessaria autocritica sociale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/simbolismo-de-los-ovnis-en-la-cultura-moderna_2.webp
 title: Il simbolismo degli UFO nella cultura moderna

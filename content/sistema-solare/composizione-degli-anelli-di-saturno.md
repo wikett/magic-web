@@ -47,7 +47,7 @@ head:
 ---
 # Gli Anelli di Saturno: Meraviglie Gassose a Portata di Telescopio
 
-::photo-article.webp
+::photo-article
 ---
 title: Composizione degli anelli di Saturno
 imageurl: https://blog.astroingeo.org/img/content/composicion-de-anillos-de-saturno_1.webp
@@ -70,7 +70,7 @@ Nel cuore di questi anelli celesti si nasconde una combinazione di **ice particl
 
 La distribuzione di queste particelle non è uniforme: alcune zone sono sorprendentemente dense, altre più rarefatte, un pattern che conferisce agli anelli la loro caratteristica texture a strisce.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/composicion-de-anillos-de-saturno_2.webp
 title: Composizione degli anelli di Saturno

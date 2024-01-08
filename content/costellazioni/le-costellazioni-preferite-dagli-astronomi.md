@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno ha sempre affascinato l'umanità, tessendo storie nel firmamento che continuano a influenzare la cultura e la scienza moderna. Gli astronomi, in particolar modo, hanno le loro costellazioni favorite, ognuna con un significato unico e una bellezza che cattura l'immaginazione. Scopriamo insieme quali sono queste configurazioni stellari che rapiscono gli sguardi esperti e cosa rende ognuna così speciale.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le costellazioni preferite dagli astronomi
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-favoritas-de-los-astronomos_1.webp
@@ -66,7 +66,7 @@ Le costellazioni non solo abbelliscono la volta celeste, ma fungono anche da str
 - **Betelgeuse**, una supergigante rossa, offre uno studio sull'evoluzione stellare.
 - **La Nebulosa di Orione**, una delle nebulose più brillanti, è un laboratorio naturale per lo studio della formazione stellare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-favoritas-de-los-astronomos_2.webp
 title: Le costellazioni preferite dagli astronomi

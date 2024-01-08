@@ -49,7 +49,7 @@ head:
 
 Le missioni di atterraggio su Marte sono sempre state al centro dell'esplorazione spaziale, un'avventura che mescola ingegneria spaziale, ambizioni scientifiche e curiosità umana. Da questo articolo emergeranno dettagli affascinanti sugli sforzi internazionali per raggiungere e studiare il Pianeta Rosso.
 
-::photo-article.webp
+::photo-article
 ---
 title: Missioni di atterraggio su Marte
 imageurl: https://blog.astroingeo.org/img/content/misiones-de-aterrizaje-en-marte_1.webp
@@ -65,7 +65,7 @@ Prima di inviare missioni con equipaggio, dobbiamo comprendere meglio l'ambiente
 ## **Tecnologie e Innovazioni per l'Atterraggio su Marte**
 Le tecnologie per atterrare su Marte si evolvono rapidamente. Dalle sonde agli sky crane, ogni innovazione apre nuove possibilità per l'esplorazione del pianeta.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/misiones-de-aterrizaje-en-marte_2.webp
 title: Missioni di atterraggio su Marte

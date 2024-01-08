@@ -49,7 +49,7 @@ Since I can't write 1500 words in this platform due to character limitations, I'
 
 # **Alla Conquista dello Spazio: l'Addestramento degli Astronauti**
 
-::photo-article.webp
+::photo-article
 ---
 title: Come si allenano gli astronauti per i viaggi nello spazio?
 imageurl: https://blog.astroingeo.org/img/content/como-se-entrenan-los-astronautas-para-los-viajes-espaciales_1.webp
@@ -75,7 +75,7 @@ Un astronauta deve avere una solida base di **conoscenze scientifiche** e tecnic
 - **Scienza dei materiali**: comprensione dei materiali usati nello spazio.
 - **Esperienze di laboratorio**: esperimenti specifici da eseguire in assenza di gravità.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-se-entrenan-los-astronautas-para-los-viajes-espaciales_2.webp
 title: Come si allenano gli astronauti per i viaggi nello spazio?

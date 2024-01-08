@@ -49,7 +49,7 @@ head:
 
 L'essenza dello spazio siderale apre portali di domande sull'esistenza di vita fuori dal nostro pianeta. La rilevanza dello **spazio cosmico** come campo di studi nell'ambito **dell'astrobiologia** è immenso. Come detentori dell'unico paradigma di vita che conosciamo, dobbiamo guardare oltre l'orizzonte terrestre per scoprire se esistono altre forme di vita.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il ruolo dello spazio nella vita extraterrestre
 imageurl: https://blog.astroingeo.org/img/content/el-papel-del-espacio-en-la-vida-extraterrestre_1.webp
@@ -72,7 +72,7 @@ Gli esopianeti sono corpi celesti esterni al nostro sistema solare. La loro impo
 
 Spesso la cultura popolare ha dipinto un quadro poco scientifico della vita extraterrestre. È nostro compito demistificarlo attraverso un approccio basato su dati e ricerche. Le nostre speculazioni devono essere radicate nella **fisica**, **chimica** e **geologia** planetaria.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-papel-del-espacio-en-la-vida-extraterrestre_2.webp
 title: Il ruolo dello spazio nella vita extraterrestre

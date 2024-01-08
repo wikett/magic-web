@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa del Gabbiano**, o IC 2177, è un sublime affresco galattico che incanta gli occhi dei curiosi dello spazio proveniente dalle profondità dell'universo. Situata alla confluenza tra le costellazioni del Cane Maggiore e dell'Unicorno, questa tenue emanazione di gas e polveri offre uno spettacolo straordinario agli astronomi, sia dilettanti che professionisti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Seagull o IC 2177
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-seagull-o-ic-2177_3.webp
@@ -70,7 +70,7 @@ Con l'ausilio di strumentazioni astronomiche, ammirare questo gigante celeste di
 
 ## Viaggio Stellare: Come Osservare la Nebulosa del Gabbiano
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-seagull-o-ic-2177_2.webp
 title: Nebulosa Seagull o IC 2177

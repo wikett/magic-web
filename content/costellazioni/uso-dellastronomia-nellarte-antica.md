@@ -49,7 +49,7 @@ head:
 
 L’arte ha da sempre avuto un profondo legame con il cosmo. Nel corso della storia, le rappresentazioni **astronomiche** hanno infuso magia e mistero nelle creazioni degli esseri umani, influenzando profondamente la **cultura artistica antica**. Quest’articolo si propone di esplorare il meraviglioso connubio tra gli astri e l’arte degli antichi, per comprendere come il cielo stellato sia stato fonte d’ispirazione e di conoscenza.
 
-::photo-article.webp
+::photo-article
 ---
 title: Uso dellastronomia nellarte antica
 imageurl: https://blog.astroingeo.org/img/content/uso-de-la-astronomia-en-el-arte-antiguo_1.webp
@@ -74,7 +74,7 @@ Nell’antica Grecia e nell’Impero Romano, l’**astronomia** era considerata 
 
 **La personificazione dei pianeti** e delle costellazioni in divinità e semidei arricchiva non solo la mitologia, ma anche l'arte, contribuendo all’evoluzione di uno stile che vedeva nel cielo una fonte inesauribile di ispirazione. 
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/uso-de-la-astronomia-en-el-arte-antiguo_2.webp
 title: Uso dellastronomia nellarte antica

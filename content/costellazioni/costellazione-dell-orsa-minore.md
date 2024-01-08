@@ -49,7 +49,7 @@ head:
 
 La **costellazione dell'Orsa Minore**, un affascinante raggruppamento di stelle, si staglia contro il cielo notturno come una guida per gli amanti dell'astronomia e i navigatori di ogni epoca. Immersa in miti e leggende, questa costellazione non è solo ricca di storia, ma anche un punto di riferimento celeste che continua a catturare l'interesse con la sua presenza intrigante.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione dellOrsa Minore
 imageurl: https://blog.astroingeo.org/img/content/constelacion-osa-menor_3.webp
@@ -76,7 +76,7 @@ Le stelle Polaris, Kochab e Pherkad sono particolarmente importanti in quanto so
 
 La costellazione dell'Orsa Minore è avvolta in antiche narrazioni. Secondo uno dei miti greci più conosciuti, Zeus si innamorò di Callisto, una ninfa seguace di Artemide. Hera, gelosa, trasformò Callisto in un'orsa e successivamente suo figlio Arcas in Orione. Per proteggere madre e figlio dalla caccia selvaggia, Zeus li sollevò in cielo, dove divennero **Orsa Maggiore e Minore**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-osa-menor_2.webp
 title: Costellazione dellOrsa Minore

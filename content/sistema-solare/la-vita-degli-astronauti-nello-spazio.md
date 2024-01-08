@@ -49,7 +49,7 @@ head:
 
 L'esistenza di un astronauta nell'immenso e misterioso cosmo ha sempre affascinato l'umanità. Tante domande si pongono sui dettagli della **vita quotidiana nello spazio**. Questo articolo intende svelare i segreti di come gli astronauti vivono, lavorano e si adattano a un ambiente così diverso da quello terrestre.
 
-::photo-article.webp
+::photo-article
 ---
 title: La vita degli astronauti nello spazio
 imageurl: https://blog.astroingeo.org/img/content/la-vida-de-los-astronautas-en-el-espacio_1.webp
@@ -70,7 +70,7 @@ L'**alimentazione nello spazio** è cruciale per il mantenimento della salute fi
 - Aggiungere acqua ai cibi liofilizzati
 - Utilizzo di utensili magnetici o a velcro per evitare che si disperdano nel modulo
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-vida-de-los-astronautas-en-el-espacio_2.webp
 title: La vita degli astronauti nello spazio

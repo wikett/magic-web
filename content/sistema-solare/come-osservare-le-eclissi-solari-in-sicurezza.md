@@ -49,7 +49,7 @@ head:
 
 Gli eclissi solari sono eventi celestiali mozzafiato che hanno affascinato l'umanità per millenni. Tuttavia, osservarli richiede *precauzioni essenziali* per garantire la sicurezza dei nostri occhi. In questo articolo, imparerai come goderti lo spettacolo degli eclissi solari senza correre rischi inutili.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come osservare le eclissi solari in sicurezza
 imageurl: https://blog.astroingeo.org/img/content/como-observar-eclipses-solares-de-forma-segura_1.webp
@@ -73,7 +73,7 @@ Evita di utilizzare occhiali da sole standard, pellicola fotografica, dischetti 
 
 Acquista sempre *occhiali per eclissi* certificati da venditori affidabili. Controlla i marchi di certificazione e rifiuta prodotti senza indicazioni chiare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-observar-eclipses-solares-de-forma-segura_2.webp
 title: Come osservare le eclissi solari in sicurezza

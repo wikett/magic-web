@@ -53,7 +53,7 @@ Sure, here is an optimized SEO article in Italian on the influence of the moon o
 
 La Luna, il nostro satellite naturale, ha affascinato l'uomo per millenni. Con il suo aspetto mutevole e la sua presenza costante nel cielo notturno, la Luna non cessa di essere fonte di ispirazione e di mistero. Ma come influenza il nostro clima? Proviamo a scoprirlo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Linfluenza della Luna sul nostro clima
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-la-luna-en-nuestro-clima_1.webp
@@ -73,7 +73,7 @@ La crescente attenzione verso il fenomeno del riscaldamento globale porta alla d
 ### La Dinamica Termica degli Oceani
 Le maree, mossi dalla Luna, sono in grado di miscelare le acque oceaniche, incidendo nel trasferimento di calore nell'oceano.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-la-luna-en-nuestro-clima_2.webp
 title: Linfluenza della Luna sul nostro clima

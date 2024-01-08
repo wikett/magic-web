@@ -54,7 +54,7 @@ Here's an outline to get you started:
 ```markdown
 # La terapia delle costellazioni familiari: Una guida per l'armonia interiore
 
-::photo-article.webp
+::photo-article
 ---
 title: Terapia della costellazione familiare
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-familiares-terapia_1.webp
@@ -67,7 +67,7 @@ imageurl: https://blog.astroingeo.org/img/content/constelaciones-familiares-tera
 
 ### Meccanismi di Azione
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-familiares-terapia_2.webp
 title: Terapia della costellazione familiare

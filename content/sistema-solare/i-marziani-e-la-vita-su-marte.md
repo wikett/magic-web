@@ -49,7 +49,7 @@ head:
 
 Il Pianeta Rosso, noto per il suo suolo ferroso e tonalità ardenti, è stato per secoli al centro di speculazioni e teorie riguardanti l'esistenza degli _**"Martianos"**_ o una possibile **vita su Marte**. Scienziati e astrobiologi in tutto il mondo indagano incansabilmente, alla ricerca di indizi che possano confermare o smentire tale presenza.
 
-::photo-article.webp
+::photo-article
 ---
 title: I marziani e la vita su Marte
 imageurl: https://blog.astroingeo.org/img/content/martianos-y-la-vida-en-marte_1.webp
@@ -68,7 +68,7 @@ Il suolo di Marte offre indizi cruciali sul potenziale abiologico del pianeta.
 - **Umidità:** Tracce di acqua congelata presenti nei poli e giacimenti salini che potrebbero conservare l'umidità.
 - **Chemioastronomia:** Studi sulla possibile chimica prebiotica del suolo marziano.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/martianos-y-la-vida-en-marte_2.webp
 title: I marziani e la vita su Marte

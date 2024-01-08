@@ -49,7 +49,7 @@ head:
 
 L'astronomia è una scienza che solleva il velo su molti segreti dell'universo, ma rimane anch'essa permeata da misteri e domande senza risposta. Gli **enigmi astronomici** ci sfidano ad ampliare la nostra conoscenza e comprendere meglio la realtà cosmica che ci circonda. Questo articolo esplora alcuni tra i più affascinanti misteri insoluti dell'astronomia, che continuano a stuzzicare la curiosità degli scienziati e appassionati.
 
-::photo-article.webp
+::photo-article
 ---
 title: Misteri irrisolti in astronomia
 imageurl: https://blog.astroingeo.org/img/content/misterios-sin-resolver-en-la-astronomia_1.webp
@@ -70,7 +70,7 @@ Nonostante sia stata teorizzata decenni fa, la **materia oscura** rimane uno deg
 
 Un altro degli **arcani cosmici** è rappresentato dall'**energia oscura**. È quella misteriosa forza che, contrariamente alla gravità, sembra spingere l'universo ad espandersi sempre più rapidamente. Scienziati di tutto il mondo stanno cercando di capire la natura di questa energia e il suo ruolo nell'evoluzione cosmica.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/misterios-sin-resolver-en-la-astronomia_2.webp
 title: Misteri irrisolti in astronomia

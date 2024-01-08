@@ -49,7 +49,7 @@ head:
 
 La notte si accende di misteri e meraviglie quando rivolgiamo lo sguardo verso il cielo. Tra le infinite stelle, alcuni raggruppamenti hanno attirato l'attenzione di astronomi e appassionati: le costellazioni. Oggi ci immergeremo nei dettagli di una particolare costellazione situata nell'emisfero celeste meridionale: **la Costellazione del Tucano**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione Toucan
 imageurl: https://blog.astroingeo.org/img/content/constelacion-tucan_1.webp
@@ -71,7 +71,7 @@ Il **Tucano** ospita alcune delle nebulose e degli ammassi più interessanti del
 - *La Piccola Nube di Magellano*: una galassia nana ricca di nebulose e ammassi stellari è uno degli oggetti più notevoli in questa costellazione.
 - *47 Tucanae*: uno degli ammassi globulari più densi e spettacolari dell'intera Via Lattea.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-tucan_2.webp
 title: Costellazione Toucan

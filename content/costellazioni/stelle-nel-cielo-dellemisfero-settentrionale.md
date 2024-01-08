@@ -49,7 +49,7 @@ head:
 
 Il cielo nell'emisfero settentrionale nasconde un'infinità di stelle che brillano come diamanti su un manto di velluto nero. Ogni notte, queste scintillanti meraviglie offrono uno spettacolo affascinante a chi sa dove e quando osservare. In questo articolo, esploreremo le **stelle più luminose e riconoscibili** visualizzabili a nord dell'equatore e come possono arricchire la tua esperienza di osservazione astronomica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Stelle nel cielo dellemisfero settentrionale
 imageurl: https://blog.astroingeo.org/img/content/estrellas-en-el-cielo-del-hemisferio-norte_1.webp
@@ -65,7 +65,7 @@ La declinazione è simile alla latitudine terrestre, mentre l'ascensione retta �
 ## **Le Costellazioni Famose**  
 Esistono diverse costellazioni ben note anche ai meno esperti di astronomia, come Orione, il Grande Carro (parte della costellazione dell'Orsa Maggiore), e Cassiopea. Ognuna di queste racchiude in sé storie e miti antichi, e osservarle è come sfogliare le pagine di un libro di storia celeste.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-en-el-cielo-del-hemisferio-norte_2.webp
 title: Stelle nel cielo dellemisfero settentrionale

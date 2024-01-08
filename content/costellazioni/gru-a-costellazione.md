@@ -49,7 +49,7 @@ head:
 
 Il firmamento notturno nasconde storie incise tra le stelle, e tra queste, la **Costellazione della Gru** risplende con fascino unico. Nota anche come *Grus*, questa costellazione non è solo un insieme di stelle; è un universo di mitologia, storia astronomica e scoperta scientifica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Gru a costellazione
 imageurl: https://blog.astroingeo.org/img/content/constelacion-grulla_3.webp
@@ -69,7 +69,7 @@ La Gru è arricchita non solo da **stelle luminose** ma anche da galassie, nebul
 - La galassia a spirale *NGC 7424*
 - La galassia ellittica *NGC 7410*
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-grulla_2.webp
 title: Gru a costellazione

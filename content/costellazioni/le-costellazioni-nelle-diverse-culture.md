@@ -49,7 +49,7 @@ head:
 
 Le costellazioni, da sempre, hanno affascinato l'umanità. Gli asterismi nel cielo notturno non sono solo gruppi di stelle: rappresentano storie, credenze, e simboli che variano da una cultura all'altra. In questo articolo, esploreremo le diverse interpretazioni celesti offerte dalle molteplici tradizioni del mondo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le costellazioni nelle diverse culture
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-en-diferentes-culturas_1.webp
@@ -66,7 +66,7 @@ Gli Europei vedono la costellazione di Orione come un cacciatore, segno della ri
 ### Astronomia Indigena: Stelle come Guide e Calendari
 Le popolazioni indigene di diversi continenti interpretavano il cielo stellato secondo le proprie tradizioni spirituali e pratiche, usandolo spesso come guida per la navigazione e l'agricoltura.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-en-diferentes-culturas_2.webp
 title: Le costellazioni nelle diverse culture

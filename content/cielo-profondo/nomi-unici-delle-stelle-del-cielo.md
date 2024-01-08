@@ -49,7 +49,7 @@ head:
 
 L'interesse per l'astrologia e l'astronomia ha sempre condotto l'uomo a volgere lo sguardo verso il cielo notturno, in un mix di curiosità e ammirazione. Alcune stelle, grazie alla loro particolarità, hanno ottenuto nomi unici che sono entrati non solo nel lessico scientifico, ma anche nella cultura popolare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nomi unici delle stelle del cielo
 imageurl: https://blog.astroingeo.org/img/content/nombres-unicos-de-estrellas-en-el-cielo_1.webp
@@ -68,7 +68,7 @@ Ogni stella possiede una storia, e spesso il suo nome ha origini affascinanti: m
 
 Tra le stelle più note per il loro splendore troviamo **Sirius**, la stella più luminosa del cielo notturno, e **Canopus**, la seconda in termini di brillantezza. Questi astri non sono solo luminosi, ma portano nomi che risuonano di eoni di navigazione e osservazione celeste.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nombres-unicos-de-estrellas-en-el-cielo_2.webp
 title: Nomi unici delle stelle del cielo

@@ -49,7 +49,7 @@ head:
 
 Il Pianeta Rosso ha sempre esercitato un fascino irresistibile sull'umanità: una sfera ardente nel cielo notturno che promette segreti e meraviglie. **Le missioni su Marte** rappresentano non solo una sfida ingegneristica e scientifica, ma anche un capitolo affascinante della nostra ricerca incessante per estendere i confini della conoscenza.
 
-::photo-article.webp
+::photo-article
 ---
 title: Missioni su Marte
 imageurl: https://blog.astroingeo.org/img/content/misiones-a-marte_1.webp
@@ -68,7 +68,7 @@ Nel corso degli anni, numerose **sonde spaziali** hanno viaggiato attraverso il 
 ## L'Orizzonte delle Missioni Abitate
 La vera svolta sarà segnata dall'arrivo degli esseri umani sul Pianeta Rosso. Il progetto di missioni abitate è al centro dell'interesse di agenzie spaziali e aziende private, come la **NASA** con il programma Artemis e l'ambiziosa visione di Elon Musk con SpaceX.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/misiones-a-marte_2.webp
 title: Missioni su Marte

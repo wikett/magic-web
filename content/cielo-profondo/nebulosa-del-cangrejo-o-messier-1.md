@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa del Granchio**, conosciuta anche come **Messier 1**, è un oggetto celeste che cattura l'immaginazione di astronomi e appassionati di astrofisica in tutto il mondo. Situata nella costellazione del Toro, questa nebulosa rappresenta i resti di una supernova osservata nel 1054 e offre una finestra affascinante sui misteri dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa del Cangrejo o Messier 1
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-cangrejo-o-messier-1_3.webp
@@ -68,7 +68,7 @@ Quando osservate la **Nebulosa del Granchio** attraverso un telescopio, scoprite
 
 La prima registrazione dell'esplosione che ha creato la nebulosa risale al 1054, documentata da astronomi cinesi e arabi. Questi cronisti del cielo furono testimoni di una **luce strabiliante** che poteva essere vista anche di giorno.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-cangrejo-o-messier-1_2.webp
 title: Nebulosa del Cangrejo o Messier 1

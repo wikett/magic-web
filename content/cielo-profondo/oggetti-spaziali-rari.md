@@ -49,7 +49,7 @@ head:
 
 L'universo è un vasto palcoscenico ricolmo di meraviglie che aspettano solo di essere scoperte. Dalle galassie lontane agli strani fenomeni cosmici, **gli oggetti spaziali rari** rappresentano una finestra verso gli angoli più reconditi dell’esistenza. In questo articolo, vi porteremo alla conoscenza di alcune delle portentose creature astrali che popolano l'immensità cosmica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Oggetti spaziali rari
 imageurl: https://blog.astroingeo.org/img/content/objetos-espaciales-poco-comunes_1.webp
@@ -65,7 +65,7 @@ Le **stelle di neutroni**, frutto del collasso delle stelle massicce, si contrad
 ## I Nomadi del Cosmo: Comete Interstellari
 Le **comete interstellari** solcano lo spazio tra le stelle. Il loro passaggio rappresenta eventi rari ed eccezionali, come la recente visita della cometa ‘Oumuamua, che ha suscitato grande interesse per la sua origine extragalattica.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/objetos-espaciales-poco-comunes_2.webp
 title: Oggetti spaziali rari

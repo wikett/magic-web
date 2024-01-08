@@ -49,7 +49,7 @@ head:
 
 Il cosmo si mostra sempre pieno di sorprese, di cui le **comete** rappresentano senza dubbio alcune delle apparizioni più strabilianti. Non solo scie di luce nelle nostre notti stellate, ma anche oggetti celesti insieme affascinanti e misteriosi, le comete hanno da sempre stuzzicato la nostra curiosità e scatenato la nostra immaginazione. In questo articolo, vi porteremo alla scoperta delle comete più sorprendenti e delle loro caratteristiche più insolite.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le comete più sorprendenti e le loro stranezze
 imageurl: https://blog.astroingeo.org/img/content/los-cometas-mas-asombrosos-y-sus-rarezas_1.webp
@@ -68,7 +68,7 @@ Le comete sono corpi celesti composti principalmente di ghiaccio, polvere e rocc
 
 Le comete hanno origini e traiettorie che affascinano scienziati e astronomi. Il loro percorso, che in alcuni casi attraversa intere ere geologiche, è testimone di un lungo viaggio nel sistema solare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-cometas-mas-asombrosos-y-sus-rarezas_2.webp
 title: Le comete più sorprendenti e le loro stranezze

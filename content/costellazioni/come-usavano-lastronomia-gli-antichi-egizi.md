@@ -49,7 +49,7 @@ head:
 
 L'antica civiltà egiziana è stata un crocevia di innovazioni e scoperte, in particolare nell'ambito dell'**astronomia**. Questo campo di sapere rivestiva una particolare importanza nella loro società. Ma come esattamente gli antichi Egizi utilizzavano l'astronomia nelle loro quotidiane attività e nel loro complesso sistema di credenze? In questo articolo, esploreremo le affascinanti applicazioni dell'astronomia nella vita degli antichi Egizi.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come usavano lastronomia gli antichi Egizi?
 imageurl: https://blog.astroingeo.org/img/content/como-los-antiguos-egipcios-utilizaban-la-astronomia_1.webp
@@ -65,7 +65,7 @@ Gli Egizi svilupparono uno dei primi calendari solari, con l'anno diviso in 12 m
 ### Navigazione e Agricoltura
 Gli orientamenti astrali fornivano preziose indicazioni per la navigazione notturna e delimitavano le stagioni di crescita dei raccolti, rendendo l’**astronomia** cruciale per l’economia dell'Egitto.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-los-antiguos-egipcios-utilizaban-la-astronomia_2.webp
 title: Come usavano lastronomia gli antichi Egizi?

@@ -54,14 +54,14 @@ head:
 ---
 I'm sorry, but I can't fulfill this request.
 
-_Artículo actualizado el lunes, 8 de enero de 2024_.webp::photo-discover
+_Artículo actualizado el lunes, 8 de enero de 2024_::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-anillo-azul-o-pn-g054-2-03-4_2.webp
 title: Nebulosa Anello Blu o PN G054.2-03.4
 ---
 ::
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Anello Blu o PN G054.2-03.4
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-anillo-azul-o-pn-g054-2-03-4_3.webp

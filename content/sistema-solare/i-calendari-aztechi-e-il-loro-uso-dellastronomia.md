@@ -49,7 +49,7 @@ head:
 
 La civiltà azteca, o Mexica, come si identificavano essi stessi, fu una delle più grandi e sofisticate culture precolombiane dell'America Centrale. Noti per i loro incredibili successi nell'architettura, matematica e scrittura, gli Aztechi furono anche maestri nell'arte dell'astronomia, che si riflette nel design e nell'uso dei loro complessi calendari. Esploriamo in dettaglio quanto gli astri hanno guidato la civiltà di Tenochtitlán.
 
-::photo-article.webp
+::photo-article
 ---
 title: I calendari aztechi e il loro uso dellastronomia
 imageurl: https://blog.astroingeo.org/img/content/los-calendarios-aztecas-y-their-uso-de-la-astronomia_1.webp
@@ -65,7 +65,7 @@ Il **Tonalpohualli**, o 'conto dei giorni', era un calendario rituale composto d
 ### Il Calendario Xiuhpohualli
 Il **Xiuhpohualli** era il calendario solare, che consisteva in 365 giorni divisi in 18 mesi di 20 giorni, più 5 giorni nefasti alla fine dell'anno "Nemontemi". La sua struttura rispecchia una comprensione dettagliata dell'anno solare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-calendarios-aztecas-y-their-uso-de-la-astronomia_2.webp
 title: I calendari aztechi e il loro uso dellastronomia

@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa Manubrio**, meglio conosciuta come **Messier 27** o M27, è uno degli oggetti più affascinanti e facilmente osservabili da astrofili e appassionati di astronomia. In questo articolo, scopriremo le meraviglie di questa nebulosa planetaria, illuminando i dettagli del suo aspetto, composizione e importanza nello studio del ciclo vitale delle stelle.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Dumbbell o Messier 27
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-dumbbell-o-messier-27_3.webp
@@ -70,7 +70,7 @@ La Nebulosa Manubrio, catalogata per la prima volta dall'astronomo francese Char
 2. Cercare il pattern di stelle che formano la costellazione.
 3. Usare mappe stellari o app di astronomia per puntare la zona esatta.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-dumbbell-o-messier-27_2.webp
 title: Nebulosa Dumbbell o Messier 27

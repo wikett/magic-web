@@ -49,7 +49,7 @@ head:
 
 L'astrologia, con i suoi misteri e il suo fascino millenario, continua a catturare l'immaginario di molti. **I segni zodiacali**, non solo definiscono tratti della personalità ma sono strettamente collegati alle costellazioni celesti, condividendo con esse nomi e miti. In questo viaggio tra le stelle esploreremo come ogni segno zodiacale trova corrispondenza nel cielo notturno, sfiorando mitologia, astronomia e curiosità affascinanti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Zodiaci e costellazioni
 imageurl: https://blog.astroingeo.org/img/content/zodiacales-y-sus-constelaciones_1.webp
@@ -74,7 +74,7 @@ I **Gemelli**, conosciuti per la loro dualità e comunicativa, sono rappresentat
 - **Periodo**: 22 maggio - 21 giugno
 - **Stelle principali**: Castore, Polluce, Alhena
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/zodiacales-y-sus-constelaciones_2.webp
 title: Zodiaci e costellazioni

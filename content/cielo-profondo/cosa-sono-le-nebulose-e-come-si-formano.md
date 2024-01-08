@@ -49,7 +49,7 @@ head:
 
 Le nebulose sono tra gli oggetti più affascinanti e misteriosi dell'intero cosmo. Ogni anno, astronomi e astrofisici uniscono sforzi per svelare i segreti di questi giganti gasosi, le cui immagini spettacolari sono spesso immortalate dai telescopi spaziali. Ma cosa sono esattamente e come si formano questi caleidoscopi celesti?
 
-::photo-article.webp
+::photo-article
 ---
 title: Cosa sono le nebulose e come si formano?
 imageurl: https://blog.astroingeo.org/img/content/que-son-y-como-se-forman-las-nebulosas_1.webp
@@ -64,7 +64,7 @@ Prima di addentrarci nel cuore di una nebulosa, è essenziale capire che **le st
 
 Le nebulose possono nascere come conseguenza dell'ultima fase di vita di una stella. Quando una stella di massa medio-grande raggiunge la fine della propria esistenza, può esplodere in una **supernova**, un evento cataclismatico che sparge nel cosmo i materiali che la costituivano, dando vita a una nebulosa.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/que-son-y-como-se-forman-las-nebulosas_2.webp
 title: Cosa sono le nebulose e come si formano?

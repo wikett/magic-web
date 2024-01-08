@@ -49,7 +49,7 @@ head:
 
 I buchi neri sono tra gli oggetti più affascinanti e misteriosi dell'universo. *Giganti invisibili* che catturano la luce e la materia, sfidando la nostra comprensione della fisica. Ma cosa sono, esattamente, i buchi neri?
 
-::photo-article.webp
+::photo-article
 ---
 title: Buchi neri
 imageurl: https://blog.astroingeo.org/img/content/agujeros-negros_1.webp
@@ -70,7 +70,7 @@ Esistono anche i **buch...
 
 **Attenzione:** Le dimensioni di un buco nero non sono un limite alla sua massa. I **buch...
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/agujeros-negros_2.webp
 title: Buchi neri

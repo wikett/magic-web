@@ -49,7 +49,7 @@ head:
 
 Le nebulose, con i loro colori vivaci e le strutture mozzafiato, sono tra gli oggetti più affascinanti dell'universo. Queste immense nubi di gas e polvere sono teatri di nascita stellare e ci forniscono indizi fondamentali sui misteri della creazione cosmica. Esploriamo insieme alcune delle **curiosità più sorprendenti** riguardo a questi giganteschi laboratori celesti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Curiosità sulle nebulose lontane
 imageurl: https://blog.astroingeo.org/img/content/curiosidades-sobre-nebulosas-distantes_1.webp
@@ -67,7 +67,7 @@ Le nebulose non sono semplicemente belle da osservare, ma raccontano anche la st
 ## Giganti Rosse e Supernove: L'Artigianato delle Nebulose
 Le **nebulose planetarie** sono spesso il risultato di una stella che si gonfia fino a diventare una gigante rossa e poi rilascia i suoi strati esterni. Questo processo lascia dietro di sé un **nucleo stellare caldo**, che illumina il gas espulso. Alternativamente, le supernove sono esplosioni cosmiche che danno vita alle **nebulose supernova**, ricche di materiali pesanti essenziali per la vita come la conosciamo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/curiosidades-sobre-nebulosas-distantes_2.webp
 title: Curiosità sulle nebulose lontane

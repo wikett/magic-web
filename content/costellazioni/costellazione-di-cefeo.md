@@ -49,7 +49,7 @@ head:
 
 La **constellazione Cefeo**, spesso evocata nelle leggende e negli studi astronomici, è una delle 88 costellazioni moderne e una delle 48 elencate da Tolomeo. La sua forma ricorda la classica casa con il tetto inclinato e risplende nel cielo notturno come una guida per gli appassionati di astronomia.
 
-#::photo-article.webp
+#::photo-article
 ---
 title: Costellazione di Cefeo
 imageurl: https://blog.astroingeo.org/img/content/constelacion-cefeo_3.webp
@@ -76,7 +76,7 @@ Seguire alcune semplici istruzioni:
 2. Estendere una linea immaginaria dalla stella centrale di Cassiopea in direzione nord-est.
 3. La punta del "tetto di casa" che troverete è **Alderamin**, il capo di Cefeo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-cefeo_2.webp
 title: Costellazione di Cefeo

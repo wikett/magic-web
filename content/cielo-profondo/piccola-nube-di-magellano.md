@@ -49,7 +49,7 @@ head:
 
 La **Nuvola di Magellano Minore (SMC)**, un arcipelago stellare che splende nel firmamento meridionale, ci affascina con la sua bellezza e complessità. Affiancata dalla sua sorella maggiore, la **Grande Nuvola di Magellano**, questa galassia satellite della Via Lattea è un laboratorio celeste ricco di fenomeni astronomici.
 
-::photo-article.webp
+::photo-article
 ---
 title: Piccola Nube di Magellano
 imageurl: https://blog.astroingeo.org/img/content/nube-pequena-de-magallanes_3.webp
@@ -68,7 +68,7 @@ Scoperta dagli antichi navigatori, la **Nuvola di Magellano Minore** fu document
 
 **Stelle giovani e antiche**, ammassi globulari e ampie regioni di formazione stellare costituiscono questo mosaico cosmico. La SMC ospita molteplici tipi di stelle, incluse le variabili Cefeidi, che sono fondamentali per calibrare le distanze cosmiche.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nube-pequena-de-magallanes_2.webp
 title: Piccola Nube di Magellano

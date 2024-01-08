@@ -49,7 +49,7 @@ head:
 
 L'impensabile è avvenuto: la Terra è sotto attacco da forze aliene. Questo non è il soggetto di un romanzo di fantascienza, ma una realtà con cui ci stiamo confrontando, e le ripercussioni sulla nostra economia potrebbero essere devastanti. Nell'esplorare le potenziali conseguenze di un **invasione extraterrestre sull'economia**, emergono numerose sfaccettature, da analizzare con grande attenzione.
 
-::photo-article.webp
+::photo-article
 ---
 title: Impatto di uninvasione extraterrestre sulleconomia
 imageurl: https://blog.astroingeo.org/img/content/impacto-de-una-invasion-extraterrestre-en-la-economia_1.webp
@@ -68,7 +68,7 @@ Inevitabilmente, una minaccia del genere potrebbe causare un incremento degli in
 
 La necessità di ridistribuire risorse verso la **difesa planetaria** porterebbe a una vera e propria rivoluzione nell'ambito della produzione. Le industrie si trasformerebbero per soddisfare nuove esigenze e priorità, innescando effetti a catena sull'occupazione e **il modo di consumo**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/impacto-de-una-invasion-extraterrestre-en-la-economia_2.webp
 title: Impatto di uninvasione extraterrestre sulleconomia

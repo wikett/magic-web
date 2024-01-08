@@ -49,7 +49,7 @@ head:
 
 Le fasi della luna hanno esercitato un'influenza notevole sull'essere umano fin dai tempi più remoti. Questo articolo esplora il significato e l'importanza attribuiti alle diverse fasi lunari nell'antichità, e come queste sono state interpretate e integrate nelle diverse culture e sistemi di credenze.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le fasi lunari e il loro significato nellantichità
 imageurl: https://blog.astroingeo.org/img/content/fases-de-la-luna-y-sus-significados-en-la-antigueedad_1.webp
@@ -68,7 +68,7 @@ La luna nuova, o novilunio, segnala l'inizio del ciclo lunare. Nell'antichità, 
 
 La fase del primo quarto, o luna crescente, era frequentemente associata all'incremento e alla crescita. In molte culture, era il momento ideale per impiantare colture o avviare nuove imprese, legando il crescere della luna con l'incremento della fortuna e del benessere.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/fases-de-la-luna-y-sus-significados-en-la-antigueedad_2.webp
 title: Le fasi lunari e il loro significato nellantichità

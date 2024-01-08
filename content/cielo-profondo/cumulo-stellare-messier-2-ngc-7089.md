@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un libro aperto sull'universo, e alcuni dei suoi capitoli più affascinanti riguardano gli ammassi stellari come **Messier 2 (NGC 7089)**. Situato nella costellazione dell'Aquario, questo antico e densissimo ammasso globulare ospita alcuni dei segreti più profondi del nostro cosmo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cumulo stellare Messier 2 (NGC 7089)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-estelar-messier-2-ngc-7089_3.webp
@@ -72,7 +72,7 @@ L'ammasso si distingue per:
 
 All'interno di **Messier 2**, le singole stelle si raccontano storie di tempi primordiali, quando l'universo era ancora in giovane età. Le loro deboli luci sono testimoni silenziosi di un'epoca che precede la formazione della nostra galassia, la Via Lattea.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-estelar-messier-2-ngc-7089_2.webp
 title: Cumulo stellare Messier 2 (NGC 7089)

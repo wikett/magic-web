@@ -49,7 +49,7 @@ head:
 
 Nel luglio del 1947, la ridente località di Roswell, nel Nuovo Messico, si ritrovò al centro di una delle controversie più dibattute del XX secolo. All'epoca, un oggetto non identificato si schiantò nel deserto, dando vita al celebre **Caso Roswell**, una vicenda avvolta nel mistero che ancora oggi accende gli animi di appassionati di ufologia, scienziati e curiosi.
 
-::photo-article.webp
+::photo-article
 ---
 title: Mito o realtà; lesperimento extraterrestre di Roswell
 imageurl: https://blog.astroingeo.org/img/content/mito-o-realidad-experimento-extraterrestre-de-roswell_1.webp
@@ -68,7 +68,7 @@ Diverse teorie hanno cercato di spiegare l'incidente, alcune con approcci purame
 
 Secondo l'**USAF**, il materiale recuperato faceva parte di un progetto top-secret denominato **"Mogul"**, volto a spiare le attività nucleari sovietiche mediante dei palloni sonda ad alta quota.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/mito-o-realidad-experimento-extraterrestre-de-roswell_2.webp
 title: Mito o realtà; lesperimento extraterrestre di Roswell

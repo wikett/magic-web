@@ -49,7 +49,7 @@ head:
 
 L'esplorazione spaziale ha da sempre acceso l'immaginazione umana, sospingendoci verso l'ignoto, alla costante ricerca di segni di vita oltre la nostra Terra. Ogni stella, ogni galassia nasconde potenziali mondi dove - forse - qualcosa o qualcuno guarda verso il cielo, chiedendosi se sia solo nell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Lesplorazione spaziale e la ricerca di vita in altre galassie
 imageurl: https://blog.astroingeo.org/img/content/exploracion-espacial-y-busqueda-de-vida-en-otras-galaxias_1.webp
@@ -65,7 +65,7 @@ Gli sforzi per esplorare lo spazio sono iniziati decenni fa, dai primi satelliti
 ## I Pianeti Extra-Solari e le Possibilità di Vita
 La scoperta di esopianeti nella cosiddetta "zona abitabile", ovvero aree dove le condizioni potrebbero sostentare la vita come la conosciamo, ha moltiplicato le ipotesi su potenziali ecosistemi extraterrestri.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/exploracion-espacial-y-busqueda-de-vida-en-otras-galaxias_2.webp
 title: Lesplorazione spaziale e la ricerca di vita in altre galassie

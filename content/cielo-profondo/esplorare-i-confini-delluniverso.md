@@ -49,7 +49,7 @@ head:
 
 L'infinito cosmo si estende oltre l'immaginazione umana, offrendo meraviglie e misteri che attendono di essere scoperti. L'esplorazione dell'universo, ai confini più remoti della nostra conoscenza, è un viaggio incredibile che mescola la passione astronomiche con la più avanzata tecnologia spaziale.
 
-::photo-article.webp
+::photo-article
 ---
 title: Esplorare i confini delluniverso
 imageurl: https://blog.astroingeo.org/img/content/exploracion-de-los-confines-del-universo_1.webp
@@ -72,7 +72,7 @@ La **tecnologia astronomica** ha fatto passi da gigante, consentendoci di osserv
 
 Le **galassie** sono un'unità fondamentale dell'universo. Mapparle significa comprendere la struttura su larga scala del cosmo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/exploracion-de-los-confines-del-universo_2.webp
 title: Esplorare i confini delluniverso

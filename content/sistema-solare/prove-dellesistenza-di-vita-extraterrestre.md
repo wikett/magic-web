@@ -49,7 +49,7 @@ head:
 
 L'idea che possiamo non essere soli nell'universo ha affascinato l'umanità per secoli. Nel corso del tempo, la ricerca scientifica ha iniziato a fornire **evidenze** che suggeriscono che la vita, in qualche forma, potrebbe esistere al di là del nostro pianeta. In questo articolo, esploreremo le varie **prove dell'esistenza di vita extraterrestre**, basandoci sulle ricerche scientifiche più recenti, e offriremo uno sguardo dettagliato su questo affascinante campo di indagine.
 
-::photo-article.webp
+::photo-article
 ---
 title: Prove dellesistenza di vita extraterrestre
 imageurl: https://blog.astroingeo.org/img/content/pruebas-de-la-existencia-de-vida-extraterrestre_1.webp
@@ -80,7 +80,7 @@ Marte fa da tempo oggetto di studio riguardo alla possibilità che abbia ospitat
 - Composti organici rilevati da rover e sonde
 - Metano stagionale nell'atmosfera marziana
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/pruebas-de-la-existencia-de-vida-extraterrestre_2.webp
 title: Prove dellesistenza di vita extraterrestre

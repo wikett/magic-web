@@ -46,7 +46,7 @@ head:
       content: '© 2024 caleidoscopioastrale.it'
 ---
 # Esplorando la Costellazione di Boötes: Un Viaggio Celeste
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione Boötes
 imageurl: https://blog.astroingeo.org/img/content/constelacion-booetes_3.webp
@@ -62,7 +62,7 @@ L'osservazione delle stelle è una pratica antica che affascina da millenni. E i
 ## Arcturus: il Gioiello Scintillante di Boötes
 **Arcturus** rappresenta il cuore pulsante di Boötes, un astro che da secoli orienta i viaggiatori nella navigazione notturna. La sua luce intensa e la facilità con cui può essere individuata la rendono un punto di riferimento essenziale per chiunque alzi lo sguardo verso l'infinito.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-booetes_2.webp
 title: Costellazione Boötes

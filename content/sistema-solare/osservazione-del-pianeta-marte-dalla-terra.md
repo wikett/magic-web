@@ -49,7 +49,7 @@ head:
 
 L'osservazione del pianeta Marte rappresenta una fascinosa attività che accomuna tanto gli appassionati di astronomia amatoriali quanto i professionisti del settore. Con le sue peculiari caratteristiche e i suoi continui cambiamenti, Marte offre sempre spunti intriganti per chi desidera scrutare il cielo. In questo articolo, ci addentreremo nei segreti per una corretta **osservazione di Marte**, con consigli pratici e dettagliati per tutti gli astrofili.
 
-::photo-article.webp
+::photo-article
 ---
 title: Osservazione del pianeta Marte dalla Terra
 imageurl: https://blog.astroingeo.org/img/content/observacion-del-planeta-marte-desde-la-tierra_1.webp
@@ -73,7 +73,7 @@ Per intraprendere l'osservazione di Marte, è fondamentale disporre dell'attrezz
 
 Il telescopio è l'essenziale compagno dell'astrofilo. Per Marte, è consigliabile un modello che possa garantire un ingrandimento almeno di 100 volte. Gli **strumenti rifrattori o catadiottrici** sono solitamente preferiti per la loro maggiore nitidezza e contrasto. 
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/observacion-del-planeta-marte-desde-la-tierra_2.webp
 title: Osservazione del pianeta Marte dalla Terra

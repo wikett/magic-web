@@ -49,7 +49,7 @@ head:
 
 L'**astronomia antica** rappresenta non solo l'osservazione degli astri, ma anche una finestra sulle credenze e le culture di civiltà passate. In questo articolo, esploreremo come gli antichi interpretavano il cielo notturno, costruendo un ponte tra mitologia, scienza e filosofia.
 
-::photo-article.webp
+::photo-article
 ---
 title: Storia dellastronomia nellantichità
 imageurl: https://blog.astroingeo.org/img/content/historia-de-la-astronomia-en-la-antigueedad_1.webp
@@ -74,7 +74,7 @@ A Babilonia, l'astronomia si fuse con l'astrologia. Questi antichi astronomi, co
 - Previsioni e profetizzazioni
 - Influenza sugli eventi terrestri
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/historia-de-la-astronomia-en-la-antigueedad_2.webp
 title: Storia dellastronomia nellantichità

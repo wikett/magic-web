@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un teatro cosmico di luci danzanti, ognuna con la propria storia, origine e destino. In quest'articolo, vi guideremo attraverso un viaggio stellare alla scoperta delle **stelle più luminose** che adornano il firmamento sopra di noi. Direttamente dal cuore dell'astrofisica alla portata di tutti, lasciate che le vostre curiosità astrali siano illuminate.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le stelle più luminose del nostro cielo
 imageurl: https://blog.astroingeo.org/img/content/estrellas-mas-brillantes-en-nuestro-cielo_1.webp
@@ -70,7 +70,7 @@ Quando si parla di luminosità stellare, impossibile non cominciare da **Sirius*
 
 Allontanandoci da Sirius, incontriamo altre due gemme stellari: **Canopo** e **Arturo**. Mentre Canopo si distingue come la seconda stella più brillante del cielo notturno, Arturo domina l'emisfero boreale con la sua radiosa presenza nella costellazione del Boote.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-mas-brillantes-en-nuestro-cielo_2.webp
 title: Le stelle più luminose del nostro cielo

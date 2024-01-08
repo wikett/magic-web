@@ -49,7 +49,7 @@ head:
 
 La **Fascia di Kuiper**, un vasto anello di corpi celesti ghiacciati, rappresenta una delle regioni più affascinanti e meno conosciute del nostro sistema solare. Questa zona remota ci aiuta a comprendere meglio la formazione planetaria e gli eventi primordiali che hanno modellato il nostro quartiere cosmico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cintura di Kuiper
 imageurl: https://blog.astroingeo.org/img/content/cinturon-de-kuiper_1.webp
@@ -68,7 +68,7 @@ Gli astronomi distinguono due componenti principali nella Fascia di Kuiper: la "
 
 Nelle teorie courrenti, Nettuno ha avuto un impatto cruciale sulla configurazione attuale della Fascia di Kuiper. L'estensione della gravità del gigante gassoso ha esiliato o distrutto molti corpi minori primordiali, plasmandone alcuni in orbite risonanti e stabilizzando la cintura classica attraverso interazioni gravitazionali.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cinturon-de-kuiper_2.webp
 title: Cintura di Kuiper

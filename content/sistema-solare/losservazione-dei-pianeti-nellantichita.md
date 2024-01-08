@@ -49,7 +49,7 @@ head:
 
 L'osservazione dei corpi celesti ha sempre affascinato l'umanità. Sin dagli albori della civiltà, gli antichi popoli guardarono al cielo, interrogandosi sulla natura dei luminosi erranti che attraversavano la volta stellata. **I pianeti**, cinque per gli antichi – Mercurio, Venere, Marte, Giove e Saturno – rappresentavano dei divini messaggeri e segnavano l'avvicendarsi delle stagioni e dei tempi.
 
-::photo-article.webp
+::photo-article
 ---
 title: Losservazione dei pianeti nellantichità
 imageurl: https://blog.astroingeo.org/img/content/la-observacion-de-los-planetas-en-la-antigueedad_1.webp
@@ -68,7 +68,7 @@ Anche l'Egitto antico dedicò grande attenzione al cielo, con particolare intere
 
 Il contributo della Grecia all'**astronomia** fu di vitale importanza. Filosofi come Pitagora e Platone ipotizzarono una struttura sferica dei pianeti e dell'universo. Aristotele poi, basandosi su osservazioni empiriche, fornì argomenti convincenti sulla natura sferica della Terra, ponendo le basi per la successiva astronoma ellenistica.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-observacion-de-los-planetas-en-la-antigueedad_2.webp
 title: Losservazione dei pianeti nellantichità

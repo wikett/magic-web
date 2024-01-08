@@ -49,7 +49,7 @@ head:
 
 L'universo è un vasto mosaico di meraviglie cosmiche, e in mezzo alla sua immensità risiedono alcuni dei **sistemi stellari più strani** che la mente umana possa immaginare. In questo articolo, vi porteremo alla scoperta di questi fenomeni celestiali, mostrandovi quanto possa essere sorprendente l'universo in cui viviamo.
 
-::photo-article.webp
+::photo-article
 ---
 title: I sistemi stellari più strani
 imageurl: https://blog.astroingeo.org/img/content/los-sistemas-estelares-mas-extranos_1.webp
@@ -69,7 +69,7 @@ Il cosmo nasconde segreti che spesso superano l'immaginazione più fervida. Tra 
 
 Immaginate più soli che danzano insieme, legati dalla gravità in un intricato balletto celeste.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-sistemas-estelares-mas-extranos_2.webp
 title: I sistemi stellari più strani

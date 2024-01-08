@@ -49,7 +49,7 @@ head:
 
 L'astrologia e l'astronomia si alimentano continuamente della scoperta di nuove stelle e costellazioni, arricchendo il nostro firmamento con nuove forme e miti. In questa esplorazione spaziale, recenti ritrovamenti ci hanno presentato configurazioni stellari prima sconosciute, che ora fanno parte della nostra magnifica volta celeste.
 
-::photo-article.webp
+::photo-article
 ---
 title: Scoperte le nuove costellazioni
 imageurl: https://blog.astroingeo.org/img/content/las-constelaciones-mas-nuevas-descubiertas_1.webp
@@ -68,7 +68,7 @@ Prima di addentrarci nella scoperta delle più recenti costellazioni, è essenzi
 
 La storia delle costellazioni è spesso intrecciata con mitologie antiche e culture diverse. La scoperta di nuovi gruppi stellari permette di riscrivere e arricchire questa narrazione celeste.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-constelaciones-mas-nuevas-descubiertas_2.webp
 title: Scoperte le nuove costellazioni

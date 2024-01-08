@@ -49,7 +49,7 @@ head:
 
 L'*osservazione stellare* è da sempre una delle attività che più affascina gli esseri umani. Da terra, guardiamo in alto e ci domandiamo come sarebbe poter ammirare l'**universo** senza il velo dell'atmosfera terrestre. Chi si trova sulla *Stazione Spaziale Internazionale (ISS)* ha il privilegio di vivere questa esperienza unica. Ma come appaiono le stelle dal **cosmo**? Scopriamolo in questo viaggio attraverso gli occhi di un astronauta.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come appaiono le stelle nel cielo dalla Stazione Spaziale Internazionale
 imageurl: https://blog.astroingeo.org/img/content/como-las-estrellas-aparecen-en-el-cielo-desde-la-estacion-espacial-internacional_1.webp
@@ -68,7 +68,7 @@ Nello spazio, assenza di atmosfera significa assenza di turbolenze atmosferiche.
 
 La ISS completa un'orbita intorno alla Terra in circa 90 minuti. Questo significa che gli astronauti sperimentano circa 16 albe e tramonti ogni 24 ore. Durante la "notte" cosmica, quando la Stazione entra nell'ombra della Terra, la vista delle stelle è particolarmente chiara.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-las-estrellas-aparecen-en-el-cielo-desde-la-estacion-espacial-internacional_2.webp
 title: Come appaiono le stelle nel cielo dalla Stazione Spaziale Internazionale

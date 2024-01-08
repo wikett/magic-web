@@ -51,7 +51,7 @@ Il **Cúmulo del Águila**, noto anche come **Messier 16**, è una perla incasto
 
 ---
 
-::photo-article.webp
+::photo-article
 ---
 title: Cúmulo del Águila (Messier 16)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-del-aguila-messier-16_3.webp
@@ -69,7 +69,7 @@ La Nebulosa dell'Águila, al cui interno troviamo Messier 16, è nota per le sue
 ### Nascita Stellare: Esplorando l'Infanzia Celeste
 Le stelle all'interno del Cúmulo del Águila nascono dalle fredde condensazioni di gas e polvere. Questo processo, chiamato **accrescimento**, si traduce in un adorabile balletto di proto-stelle che gradualmente raggiungono l'equilibrio termico per dare inizio alla fusione nucleare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-del-aguila-messier-16_2.webp
 title: Cúmulo del Águila (Messier 16)

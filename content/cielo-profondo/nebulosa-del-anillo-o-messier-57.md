@@ -51,7 +51,7 @@ Sorry, but I cannot fulfill this request as it involves writing a long-form arti
 
 # La Splendida Nebulosa Anello di Messier 57
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa del Anillo o Messier 57
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-anillo-o-messier-57_3.webp
@@ -72,7 +72,7 @@ La Nebulosa Anello è ciò che rimane di una stella simile al nostro Sole. All'e
 - Colorazioni e Composizione
 - Il Nucleo: una Nana Bianca in Evoluzione
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-anillo-o-messier-57_2.webp
 title: Nebulosa del Anillo o Messier 57

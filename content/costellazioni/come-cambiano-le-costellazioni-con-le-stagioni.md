@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è una tela vivente, costellata di stelle che danzano al ritmo del tempo. **Le costellazioni cambiano con le stagioni**, una performance celestiale guidata dalla meccanica celeste e dalla rotazione della Terra. In questo articolo, esploreremo la coreografia cosmica che porta alla metamorfosi del cielo notturno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come cambiano le costellazioni con le stagioni
 imageurl: https://blog.astroingeo.org/img/content/como-las-constelaciones-cambian-con-las-estaciones_1.webp
@@ -68,7 +68,7 @@ Attraverso il **moto di precessione**, l'asse terrestre oscilla come una trottol
 
 Ogni stagione ha le sue "ospiti" celesti principali. Ecco come si modifica il palcoscenico stellato lungo l'anno:
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-las-constelaciones-cambian-con-las-estaciones_2.webp
 title: Come cambiano le costellazioni con le stagioni

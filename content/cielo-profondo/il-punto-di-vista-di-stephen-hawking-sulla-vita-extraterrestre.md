@@ -49,7 +49,7 @@ head:
 
 La ricerca di vita oltre il nostro pianeta è da tempo un crogiolo di ipotesi scientifiche e fantasticheria popolare. Tra le menti più brillanti a essersi pronunciate su questo tema troviamo **Stephen Hawking**, il cui contributo al dibattito ha acceso l'immaginario collettivo tanto quanto i suoi studi hanno illuminato lo scenario della fisica teorica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il punto di vista di Stephen Hawking sulla vita extraterrestre
 imageurl: https://blog.astroingeo.org/img/content/la-vision-de-stephen-hawking-sobre-la-vida-extraterrestre_1.webp
@@ -64,7 +64,7 @@ Stephen Hawking non ha mai celato il suo pensiero riguardo alla possibilità di 
 
 L'idea di incontrare forme di vita provenienti da altri mondi ha sempre catalizzato la curiosità umana. **Hawking paragona** tali eventuali incontri a quelli storici avvenuti sulla Terra e non sempre le scoperte di nuovi popoli si sono rivelate pacifiche.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-vision-de-stephen-hawking-sobre-la-vida-extraterrestre_2.webp
 title: Il punto di vista di Stephen Hawking sulla vita extraterrestre

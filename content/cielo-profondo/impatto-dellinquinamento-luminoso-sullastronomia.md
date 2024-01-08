@@ -47,7 +47,7 @@ head:
 ---
 # Luce Artificiale nel Cielo: Un Nemico per l'Astronomia
 
-#::photo-article.webp
+#::photo-article
 ---
 title: Impatto dellinquinamento luminoso sullastronomia
 imageurl: https://blog.astroingeo.org/img/content/impacto-de-la-contaminacion-luminica-en-la-astronomia_1.webp
@@ -64,7 +64,7 @@ La proliferazione di illuminazione inefficiente e mal progettata ha portato a un
 ### Consapevolezze e Soluzioni 
 Mentre l'impatto sulla contemplazione delle stelle è evidente, meno noto è il suo impatto sugli **ecosistemi** e sulla **salute umana**. È cruciale diffondere la consapevolezza e adottare soluzioni per mitigare questo problema.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/impacto-de-la-contaminacion-luminica-en-la-astronomia_2.webp
 title: Impatto dellinquinamento luminoso sullastronomia

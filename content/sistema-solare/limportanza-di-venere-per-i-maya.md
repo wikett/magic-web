@@ -47,7 +47,7 @@ head:
 ---
 # Il Mistero di Venere nell'Antica Civiltà Maya
 
-::photo-article.webp
+::photo-article
 ---
 title: Limportanza di Venere per i Maya
 imageurl: https://blog.astroingeo.org/img/content/importancia-de-venus-para-los-mayas_1.webp
@@ -64,7 +64,7 @@ Il popolo Maya, straordinario nella sua avanzata comprensione del cielo, ha semp
 
 I Maya credevano che i movimenti di Venere regolassero degli aspetti cruciali della loro vita. Il ciclo di Venere, che dura circa 584 giorni, era strettamente correlato al loro calendario sacro Tzolk'in di 260 giorni. Tale sincronia tra cicli astrali e vita quotidiani mostrava l'intensa relazione tra cielo e terra che permeava la loro cultura.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/importancia-de-venus-para-los-mayas_2.webp
 title: Limportanza di Venere per i Maya

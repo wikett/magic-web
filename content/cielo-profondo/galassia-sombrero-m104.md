@@ -49,7 +49,7 @@ head:
 
 La Galassia Sombrero, conosciuta anche come **M104**, nasconde al suo interno misteri che ancora suscitano l'interesse e la curiosità di astronomi e appassionati di astrofisica. Situata a circa 31 milioni di anni luce dalla Terra nella costellazione della Vergine, questa galassia a spirale ci affascina con la sua particolare morfologia.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia Sombrero (M104)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-sombrero-m104_3.webp
@@ -65,7 +65,7 @@ La struttura distintiva della Galassia Sombrero la rende unica nel suo genere. L
 ## Luminosità e Distanza
 Contrariamente a molte altre galassie, la Sombrero Galassia spicca per la sua luminosità, tanta da poter essere scorta con un semplice telescopio amatoriale nelle notti più limpide. La sua distanza dal nostro pianeta non preclude la possibilità di ammirarne i dettagli più sorprendenti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-sombrero-m104_2.webp
 title: Galassia Sombrero (M104)

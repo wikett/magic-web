@@ -49,7 +49,7 @@ head:
 
 Il Sistema Solare, questa nostra abitazione cosmica, testimone di miliardi di anni di evoluzione, suscita da sempre un fascino ineluttabile e conduce gli uomini a interrogarsi sull'origine di questo complesso meccanismo celeste. La sua formazione è un puzzle che l'astronomia cerca di assemblare con certosina pazienza e costante stupore.
 
-::photo-article.webp
+::photo-article
 ---
 title: Formazione del sistema solare
 imageurl: https://blog.astroingeo.org/img/content/formacion-del-sistema-solar_1.webp
@@ -65,7 +65,7 @@ In questo contesto, ebbe un ruolo chiave la cosiddetta **nebulosa solare**, una 
 ### *Dalla Polvere alle Rocce: i Primordiali Mattoni*
 Con l'aumento della densità e della pressione, il materiale nebuloso al centro iniziò ad accendersi, dando vita al nostro Sole. Intanto, le particelle solide, come il silicato e il metallo, cominciarono a conglomerarsi, formando le cosiddette **planetesimi**, i mattoni primordiali dei futuri pianeti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/formacion-del-sistema-solar_2.webp
 title: Formazione del sistema solare

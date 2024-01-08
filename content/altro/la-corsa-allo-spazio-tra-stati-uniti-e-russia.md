@@ -49,7 +49,7 @@ head:
 
 Il **duello spaziale** tra **Stati Uniti** e **Russia** costituisce una delle pagine più entusiasmanti e influenti della storia moderna. Svolgendosi nell'epoca della **Guerra Fredda**, questa **competizione** ha non soltanto segnato il progresso tecnologico, ma ha anche simboleggiato la lotta per la supremazia ideologica e politica a livello globale.
 
-::photo-article.webp
+::photo-article
 ---
 title: La corsa allo spazio tra Stati Uniti e Russia
 imageurl: https://blog.astroingeo.org/img/content/la-carrera-espacial-entre-estados-unidos-y-rusia_1.webp
@@ -65,7 +65,7 @@ La messa in orbita di Sputnik stimolò gli Stati Uniti a sviluppare un proprio p
 ## L'Ascesa della NASA
 Con la fondazione della **NASA**, nel 1958, gli Stati Uniti dettero vita a un robusto organismi incaricato di rispondere all'URSS sul terreno dell'esplorazione spaziale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-carrera-espacial-entre-estados-unidos-y-rusia_2.webp
 title: La corsa allo spazio tra Stati Uniti e Russia

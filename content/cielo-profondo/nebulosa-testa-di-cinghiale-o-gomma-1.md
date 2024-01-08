@@ -49,7 +49,7 @@ head:
 
 La costellazione del Veliero ospita uno spettacolo celeste di eccezionale bellezza, noto agli astronomi come **Nebulosa Testa di Cinghiale** o **Gum 1**. Questo mirabile oggetto astronomico è un laboratorio cosmico che affascina gli scienziati e gli astrofotografi di tutto il mondo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Testa di Cinghiale o Gomma 1
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-cabeza-de-jabali-o-gum-1_3.webp
@@ -68,7 +68,7 @@ La regione H II come Gum 1 è una vera e propria culla stellare. Al suo interno,
 
 Esaminando la luce proveniente da **Gum 1**, gli scienziati possono comprendere la composizione chimica e la dinamica della nebulosa. E l'astrosismologia rivela vibrazioni stellari che narrano l'evoluzione di queste giovani stelle.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-cabeza-de-jabali-o-gum-1_2.webp
 title: Nebulosa Testa di Cinghiale o Gomma 1

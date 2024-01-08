@@ -49,7 +49,7 @@ head:
 
 Navigando attraverso i profondi segreti dello spazio esterno, gli astrofili si imbattono spesso in domande riguardo uno dei più affascinanti pianeti del nostro sistema solare: **Nettuno**. Questo lontano gigante gassoso, avvolto nei suoi vivaci toni di blu, suscita curiosità e stimola l'immaginazione di chiunque si interessi di astronomia. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Nettuno
 imageurl: https://blog.astroingeo.org/img/content/neptuno_1.webp
@@ -65,7 +65,7 @@ Uno degli aspetti più affascinanti di **Nettuno** sono le sue spaventose tempes
 ### L'Orbita di Nettuno e le Sue Peculiarità
 **Nettuno** segue un'orbita ellittica, che causa variazioni nella distanza dal Sole e influisce sul suo clima già estremo. Nonostante questo, il pianeta mantiene una temperatura estremamente fredda, con una media di circa -200 °C.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/neptuno_2.webp
 title: Nettuno

@@ -49,7 +49,7 @@ head:
 
 Il Big Bang è uno dei teoremi più affascinanti e complessi della cosmologia moderna, un soggetto che ha catturato l'immaginazione di scienziati e appassionati di astronomia per decenni. Esploriamo le teorie che descrivono la nascita e l'evoluzione dell'universo, sfogliando le pagine della scienza cosmica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Teorie del Big Bang
 imageurl: https://blog.astroingeo.org/img/content/teorias-del-big-bang_1.webp
@@ -71,7 +71,7 @@ La teoria dell'**espansione dell'universo** si basa sulla costante di Hubble e m
 - **Si può misurare la distanza delle galassie?**
   - Sì, attraverso la loro luminosità e il redshift.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/teorias-del-big-bang_2.webp
 title: Teorie del Big Bang

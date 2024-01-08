@@ -49,7 +49,7 @@ head:
 
 La Nebulosa Esquimal (NGC 2392), conosciuta anche come il *"Clown Face Nebula"*, è un oggetto celeste che fa sognare gli appassionati di astronomia con la sua straordinaria bellezza. Situata nella costellazione dei Gemelli, questa nebulosa planetaria offre uno spettacolo celestiale che racchiude i segreti della vita di una stella morente.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Esquimale o NGC 2392
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-esquimal-o-ngc-2392_3.webp
@@ -68,7 +68,7 @@ La NGC 2392 vanta una ricca palette di colori, generati dall'emissione di gas io
 
 L'intricata struttura della Nebulosa Esquimal è il risultato di diversi strati di gas e polvere che si espandono nello spazio. Questi strati disegnano un volto, simile a quello di un pagliaccio o di un viso umano incappucciato, come suggerisce il nome della nebulosa.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-esquimal-o-ngc-2392_2.webp
 title: Nebulosa Esquimale o NGC 2392

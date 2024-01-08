@@ -49,7 +49,7 @@ head:
 
 Le stelle di neutroni rappresentano uno dei fenomeni più **affascinanti** e **misteriosi** dell'universo. Questi **astro corpi compatti** sono i residui collassati di massicce stelle supernove. Nonostante la loro esistenza sia nota da meno di un secolo, le stelle di neutroni sollevano quesiti fondamentali circa la materia estrema e le leggi della fisica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il mistero delle stelle di neutroni
 imageurl: https://blog.astroingeo.org/img/content/el-misterio-de-las-estrellas-de-neutrones_1.webp
@@ -66,7 +66,7 @@ imageurl: https://blog.astroingeo.org/img/content/el-misterio-de-las-estrellas-d
 
 **Densità estrema:** una montagna di un millimetro su una stella di neutroni pesa milioni di tonnellate.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-misterio-de-las-estrellas-de-neutrones_2.webp
 title: Il mistero delle stelle di neutroni

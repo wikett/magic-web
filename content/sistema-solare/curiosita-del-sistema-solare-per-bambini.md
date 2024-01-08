@@ -49,7 +49,7 @@ head:
 
 L'universo è una vasta tela misteriosa che suscita grande curiosità in noi tutti, soprattutto nei bambini. Il **Sistema Solare**, la nostra casa galattica, non è da meno e offre una miriade di fenomeni sorprendenti pronti per essere scoperti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Curiosità del sistema solare per bambini
 imageurl: https://blog.astroingeo.org/img/content/curiosidades-del-sistema-solar-para-ninos_1.webp
@@ -64,7 +64,7 @@ Immaginate una palla gigante di gas bruciante che tiene insieme un'intera famigl
 
 ### Mercurio, il Velocista Spaziale
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/curiosidades-del-sistema-solar-para-ninos_2.webp
 title: Curiosità del sistema solare per bambini

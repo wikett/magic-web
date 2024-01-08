@@ -49,7 +49,7 @@ head:
 
 Le stelle di neutroni, fenomeni astronomici di una densità inimmaginabile, rappresentano alcuni dei corpi celesti più affascinanti e misteriosi che popolano l'universo. Questo articolo è una guida attraverso la scoperta e le caratteristiche delle stelle di neutroni, con uno sguardo rivolto al cielo, nella speranza di avvistarne una.
 
-::photo-article.webp
+::photo-article
 ---
 title: Stelle di neutroni nel cielo
 imageurl: https://blog.astroingeo.org/img/content/estrellas-de-neutrones-en-el-cielo_1.webp
@@ -67,7 +67,7 @@ Le **stelle di neutroni** sono i residui compatti lasciati dopo l'esplosione di 
 2. Fusione nucleare nel nucleo
 3. Espansione a gigante rossa o supergigante
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-de-neutrones-en-el-cielo_2.webp
 title: Stelle di neutroni nel cielo

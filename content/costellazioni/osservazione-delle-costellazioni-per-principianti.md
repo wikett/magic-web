@@ -49,7 +49,7 @@ head:
 
 L'osservazione delle costellazioni è una passione che unisce gli appassionati di astronomia di ogni livello. Se sei un neofita del cielo notturno, questo articolo ti guiderà attraverso le basi per iniziare il tuo viaggio celeste. Imparare a riconoscere le costellazioni può essere una sfida, ma anche un'avventura gratificante. Vediamo come iniziare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Osservazione delle costellazioni per principianti
 imageurl: https://blog.astroingeo.org/img/content/observacion-de-constelaciones-para-principiantes_1.webp
@@ -79,7 +79,7 @@ Inizia dalle costellazioni più facili da riconoscere:
 - **L'Orsa Maggiore** e l'**Orsa Minore**, facile punto di partenza per l'emisfero nord
 - **La cintura di Orione**, composta da tre stelle brillanti in una linea
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/observacion-de-constelaciones-para-principiantes_2.webp
 title: Osservazione delle costellazioni per principianti

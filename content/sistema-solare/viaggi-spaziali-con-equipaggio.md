@@ -49,7 +49,7 @@ head:
 
 Il sogno di esplorare l’infinito cosmo è antico quanto la storia dell'umanità. Con il tempo, questo desiderio si è tramutato in realtà tecnologica: **i viaggi spaziali con equipaggio** sono diventati non soltanto possibili, ma parte integrante della nostra esplorazione spaziale. In questo articolo, attraverseremo insieme il percorso che ha reso possibile la presenza umana oltre l'atmosfera terrestre, esaminando gli aspetti più affascinanti di questa incredibile avventura.
  
-::photo-article.webp
+::photo-article
 ---
 title: Viaggi spaziali con equipaggio
 imageurl: https://blog.astroingeo.org/img/content/viaje-espacial-tripulado_1.webp
@@ -65,7 +65,7 @@ La **corsa allo spazio** tra USA e URSS ha proposto sfide ed elevate competenze 
 ## Sviluppi recenti nel Settore dei Viaggi Spaziali
 Negli ultimi anni, compagnie private come SpaceX e Blue Origin stanno rivoluzionando il concetto di **turismo spaziale** con piani ambiziosi per missioni su Marte e oltre.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/viaje-espacial-tripulado_2.webp
 title: Viaggi spaziali con equipaggio

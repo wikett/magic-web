@@ -49,7 +49,7 @@ head:
 
 Le stelle hanno affascinato l'umanità per millenni, ogni gruppo di stelle rappresenta un capitolo del colossale racconto celeste. Prendiamo la **costellazione del Paradiso Australe**, conosciuta anche come Apus, è un magnifico angolo del cielo notturno che dialoga con la storia e l'astronomia.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione dellUccello del Paradiso
 imageurl: https://blog.astroingeo.org/img/content/constelacion-ave-del-paraiso_1.webp
@@ -68,7 +68,7 @@ Nonostante la sua modesta luminosità, l'Apus resta affascinante per astronomi a
 
 Ogni costellazione ha le sue "stelle guida". Nell'Apus troviamo *Alpha Apodis*, una gigante arancione, e *Gamma Apodis*, una binaria visibile anche agli occhi più inesperti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-ave-del-paraiso_2.webp
 title: Costellazione dellUccello del Paradiso

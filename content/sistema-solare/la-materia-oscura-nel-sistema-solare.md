@@ -49,7 +49,7 @@ head:
 
 Nonostante la materia oscura sia uno dei componenti più abbondanti dell'universo, la sua presenza nel nostro sistema solare rimane avvolta in un velo di mistero. Gli scienziati sono impegnati in una caccia continua per svelare i segreti di questo enigmatico componente che interagisce gravitazionalmente con la materia visibile, influenzando la struttura e l'evoluzione di galassie e sistemi stellari, inclusi il nostro.
 
-::photo-article.webp
+::photo-article
 ---
 title: La materia oscura nel sistema solare
 imageurl: https://blog.astroingeo.org/img/content/materia-oscura-en-el-sistema-solar_1.webp
@@ -75,7 +75,7 @@ Gli studiosi hanno raccolto diversi indizi che suggeriscono una possibile presen
 
 Identificare la presenza di materia oscura richiede metodi di osservazione indiretti, come lo studio dei movimenti di oggetti celesti nel nostro sistema solare. Gli scienziati utilizzano varie tecniche per cercare di "vedere" l'impercettibile.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/materia-oscura-en-el-sistema-solar_2.webp
 title: La materia oscura nel sistema solare

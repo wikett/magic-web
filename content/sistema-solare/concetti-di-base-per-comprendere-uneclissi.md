@@ -51,7 +51,7 @@ Il cielo notturno ha da sempre affascinato l'umanità. Tra i fenomeni astronomic
 
 ---
 
-::photo-article.webp
+::photo-article
 ---
 title: Concetti di base per comprendere uneclissi
 imageurl: https://blog.astroingeo.org/img/content/conceptos-basicos-para-entender-un-eclipse_1.webp
@@ -70,7 +70,7 @@ Un'eclisse solare avviene quando la Luna si frappone tra il Sole e la Terra, get
 - **Parziali**: solo una parte del Sole viene oscurata.
 - **Anulari**: la Luna, troppo lontana per coprire tutto il Sole, lascia un anello luminoso visibile.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/conceptos-basicos-para-entender-un-eclipse_2.webp
 title: Concetti di base per comprendere uneclissi

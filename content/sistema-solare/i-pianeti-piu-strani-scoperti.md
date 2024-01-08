@@ -49,7 +49,7 @@ head:
 
 Quando puntiamo lo sguardo verso il firmamento, non possiamo fare a meno di meravigliarci di fronte all'immensità che ci circonda. Tra le infinite meraviglie dello spazio, **alcuni esopianeti** si distinguono per le loro caratteristiche bizzarre e spesso inimmaginabili. In questo articolo, esploreremo gli angoli più remoti dell'universo per svelare **i pianeti più strani** che sono stati scoperti fino ad oggi.
 
-::photo-article.webp
+::photo-article
 ---
 title: I pianeti più strani scoperti
 imageurl: https://blog.astroingeo.org/img/content/los-planetas-mas-extranos-descubiertos_1.webp
@@ -65,7 +65,7 @@ Imagine un mondo dove il terreno è composto prevalentemente da diamante. Questo
 ## J1407b: Il Pianeta degli Anelli
 Qualcosa di ancora più grandioso di Saturno? J1407b è la risposta. Questo giovane gigante gassoso possiede un sistema di anelli 200 volte più grande di quello del famoso pianeta del nostro sistema solare. 
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-planetas-mas-extranos-descubiertos_2.webp
 title: I pianeti più strani scoperti

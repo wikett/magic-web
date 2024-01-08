@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un affascinante museo di fenomeni cosmici che dal sempre è stato oggetto di studio e ammirazione. **Stelle e pianeti** sono senza dubbio i protagonisti principali di questo spettacolo celeste, ma quali sono le loro principali differenze? Questo articolo vi guiderà attraverso i segreti di **corpi celesti** e movimenti astronomici per capire come distinguere questi due affascinanti elementi del nostro universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Differenze tra stelle e pianeti nel cielo
 imageurl: https://blog.astroingeo.org/img/content/diferencias-entre-estrellas-y-planetas-en-el-cielo_1.webp
@@ -69,7 +69,7 @@ Le stelle sono enormi sfere di gas incandescente, dominate soprattutto da idroge
 
 I pianeti, invece, sono corpi celesti rocciosi o gassosi che non producono luce da soli. La loro visibilità nel cielo è data dalla luce riflessa del Sole. Essi orbitano intorno a una stella, come la Terra intorno al nostro sole, e possiedono caratteristiche peculiari.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/diferencias-entre-estrellas-y-planetas-en-el-cielo_2.webp
 title: Differenze tra stelle e pianeti nel cielo

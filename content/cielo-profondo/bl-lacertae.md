@@ -49,7 +49,7 @@ head:
 
 Il cosmo è un teatro infinito di fenomeni incredibili e oggetti celestiali misteriosi. Tra questi, **BL Lacertae** spicca come uno dei più affascinanti e discussi nell'ambito dell'astronomia. In questo articolo, ci immergeremo nei segreti di questo oggetto celeste, toccando argomenti come i quasar, le galassie attive e il monitoraggio astronomico.
 
-::photo-article.webp
+::photo-article
 ---
 title: BL Lacertae
 imageurl: https://blog.astroingeo.org/img/content/bl-lacertae_3.webp
@@ -68,7 +68,7 @@ Una delle caratteristiche distintive di BL Lacertae è la sua **variabilità lum
 
 I **getti relativistici** emessi dal nucleo di BL Lacertae sono responsabili della sua variabilità e alta luminosità. Questi flussi di particelle si muovono a velocità vicine a quella della luce, diretti verso la Terra. La **luce polarizzata**, un altro indicatore dei blazar, è importante per svelare la struttura e la dinamica del campo magnetico di queste galassie.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/bl-lacertae_2.webp
 title: BL Lacertae

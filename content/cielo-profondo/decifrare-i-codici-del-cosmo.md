@@ -49,7 +49,7 @@ head:
 
 L'universo è un enigma gigante, una sequenza di codici criptati su una scala quasi inimmaginabile. La decifrazione di questi codici, una pratica che affonda le sue radici nell'astrofisica e nella cosmologia, sta progressivamente rivelando i segreti più oscuri e profondi dello spazio. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Decifrare i codici del cosmo
 imageurl: https://blog.astroingeo.org/img/content/descifrando-los-codigos-del-cosmos_1.webp
@@ -66,7 +66,7 @@ I segnali elettromagnetici - dalla luce visibile ai raggi gamma - sono le letter
 ### La Spettroscopia: Un Literacy Strumento
 **La spettroscopia**, processo di analisi della luce o di altre forme di radiazione, è fondamentale. Grazie a essa, possiamo delineare composizioni chimiche, età, e persino la direzione di spostamento degli oggetti celesti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/descifrando-los-codigos-del-cosmos_2.webp
 title: Decifrare i codici del cosmo

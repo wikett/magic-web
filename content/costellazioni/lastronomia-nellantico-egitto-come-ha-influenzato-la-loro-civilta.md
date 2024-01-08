@@ -49,7 +49,7 @@ head:
 
 L'astronomia, una delle più antiche scienze nate dalla curiosità umana, ha giocato un ruolo cruciale **nell'Antico Egitto**. Non solo era una disciplina scientifica, ma faceva parte integrante della religione, architettura, e del calendario egiziano.
 
-::photo-article.webp
+::photo-article
 ---
 title: Lastronomia nellantico Egitto; come ha influenzato la loro civiltà
 imageurl: https://blog.astroingeo.org/img/content/astronomia-en-el-antiguo-egipto-como-afecto-su-civilizacion_1.webp
@@ -65,7 +65,7 @@ Gli egiziani associavano il cielo notturno con il divino. Celebri divinità come
 ### L'Inondazione Annua e la Stella Sirio
 L'**emersione della stella Sirio** segnalava l'inizio dell'**inondazione del Nilo**, cruciale per l'agricoltura. Criptografare il cielo permise agli egizi di creare un **calendario agricolo** accurato.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/astronomia-en-el-antiguo-egipto-como-afecto-su-civilizacion_2.webp
 title: Lastronomia nellantico Egitto; come ha influenzato la loro civiltà

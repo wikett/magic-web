@@ -49,7 +49,7 @@ head:
 
 L'osservazione delle stelle è un'esperienza che collega l'uomo all'immensità dell'universo. La carta celeste rappresenta un prezioso strumento per i curiosi del cielo che vogliono orientarsi tra le costellazioni e scoprire i segreti delle notti stellate. In questo articolo, ti guiderò attraverso i passaggi fondamentali per comprendere e utilizzare al meglio la mappa delle stelle, rendendo l'astrologia più accessibile che mai.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come capire la mappa stellare del cielo
 imageurl: https://blog.astroingeo.org/img/content/como-comprender-el-mapa-de-estrellas-del-cielo_1.webp
@@ -80,7 +80,7 @@ Le stelle sono in costante movimento dovuto alla rotazione della Terra. Occorre 
 - **Rotazione terrestre**: le stelle sembrano muoversi da est verso ovest.
 - **Precessione degli equinozi**: influisce sulla posizione delle stelle nel corso di millenni.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-comprender-el-mapa-de-estrellas-del-cielo_2.webp
 title: Come capire la mappa stellare del cielo

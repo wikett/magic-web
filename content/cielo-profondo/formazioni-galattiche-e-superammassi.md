@@ -49,7 +49,7 @@ head:
 
 L'Universo è un palcoscenico grandioso in cui si svolge uno spettacolo epico: la nascita e l'evoluzione di galassie e superammassi. In questa esplorazione stellare, cercheremo di capire i meandri della creazione di queste strutture colossali che abbelliscono il cielo notturno e dominano il tessuto cosmico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Formazioni galattiche e superammassi
 imageurl: https://blog.astroingeo.org/img/content/formaciones-de-galaxias-y-super-cumulos_1.webp
@@ -66,7 +66,7 @@ Una componente invisibile, la *materia oscura*, gioca un ruolo fondamentale in q
 ### Le Prime Galassie
 Le prime galassie erano piccole e caotiche. Con il passare del tempo, le fusioni galattiche hanno dato vita a galassie più grandi e strutturate, come la nostra Via Lattea.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/formaciones-de-galaxias-y-super-cumulos_2.webp
 title: Formazioni galattiche e superammassi

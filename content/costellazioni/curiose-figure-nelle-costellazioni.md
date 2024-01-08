@@ -49,7 +49,7 @@ head:
 
 Il firmamento notturno ha sempre catturato la curiosità umana, popolato da **costellazioni** che nascondono figure mitologiche, animali leggendari ed eroi dimenticati. Questo articolo vi guiderà attraverso le più affascinanti di queste silhouette celesti, svelando i segreti delle **figure curiose nelle costellazioni**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Curiose figure nelle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/curiosas-figuras-en-las-constelaciones_1.webp
@@ -69,7 +69,7 @@ Per millenni, l'umanità ha scrutato il cielo notturno, trovando nell'infinito b
 
 Le costellazioni non sono solo gruppi di stelle. Esse rappresentano un **collegamento culturale e spirituale** tra noi e l'antichità. Ad esempio, le **Pleiadi** venivano associate a fenomeni agricoli, ciclo delle stagioni e ai miti di popoli lontani.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/curiosas-figuras-en-las-constelaciones_2.webp
 title: Curiose figure nelle costellazioni

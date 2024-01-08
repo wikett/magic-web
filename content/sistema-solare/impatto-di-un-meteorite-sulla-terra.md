@@ -49,7 +49,7 @@ head:
 
 L'arrivo di un meteorite sul nostro pianeta non è solo un evento cinematografico, ma una realtà che ha segnato la storia della Terra in diversi episodi. L'**impatto di un meteorite** è in grado di causare cambiamenti climatici, estinzioni di massa e la formazione di nuove strutture geologiche. In questo articolo, analizzeremo come queste **catastrofi cosmiche** influenzano la vita sulla Terra e ciò che ci insegnano sull'universo che ci circonda.
 
-::photo-article.webp
+::photo-article
 ---
 title: Impatto di un meteorite sulla Terra
 imageurl: https://blog.astroingeo.org/img/content/impacto-de-los-meteoritos-en-la-tierra_1.webp
@@ -68,7 +68,7 @@ Nonostante le narrazioni apocalittiche, la possibilità che un grande meteorite 
 
 I **crateri meteorici** non sono solo cicatrici terrestri, ma hanno la loro bellezza. Esemplari come il Meteor Crater in Arizona o il Wabar Crater in Arabia Saudita sono mete di studi scientifici e attrazioni turistiche.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/impacto-de-los-meteoritos-en-la-tierra_2.webp
 title: Impatto di un meteorite sulla Terra

@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno ha sempre suscitato meraviglia e curiosità nell'uomo, fungendo da tela sulla quale le antiche civiltà hanno dipinto le proprie storie divine. Ogni asterismo ha il suo racconto, ogni costellazione un mito. Esploriamo insieme l'affascinante universo della **mitologia delle stelle** e scopriamo come questo magnifico mosaico celeste ha influenzato culture e tradizioni di tutto il mondo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Mitologia delle stelle del cielo
 imageurl: https://blog.astroingeo.org/img/content/mitologia-de-las-estrellas-en-el-cielo_1.webp
@@ -66,7 +66,7 @@ Ogni cultura vede nel **cielo notturno** un palcoscenico diverso. Nella mitologi
 ### Andromeda e Perseo: Un Amore Stellare
 La storia di **Andromeda e Perseo** è uno degli esempi più romantici di come l'amore possa trascendere fino al firmamento. Lei, incatenata a una roccia; lui, il coraggioso salvatore, rimangono per sempre abbracciati nelle stelle.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/mitologia-de-las-estrellas-en-el-cielo_2.webp
 title: Mitologia delle stelle del cielo

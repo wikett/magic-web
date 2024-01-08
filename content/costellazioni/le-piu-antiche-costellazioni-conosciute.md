@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno ha da sempre avuto un ruolo centrale nelle diverse culture umane, servendo come mappa, calendario e fonte di storie mitiche. Le costellazioni, gruppi di stelle rappresentanti figure mitologiche, animali o oggetti, sono testimoni storici di questo legame ancestrale. Viaggiando a ritroso nel tempo, scopriremo insieme quale sia il patrimonio stellare più antico conosciuto.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le più antiche costellazioni conosciute
 imageurl: https://blog.astroingeo.org/img/content/las-constelaciones-mas-antiguas-conocidas_1.webp
@@ -68,7 +68,7 @@ L'osservazione sistematica del cielo è attestata in documenti risalenti ai **Su
 
 La ruota zodiacale, strumento di predizione e riflessione, è un insieme di costellazioni attraversate dal percorso apparente del Sole. Questo cerchio di animali e figure mitologiche ci regala uno spaccato di storia celeste unico.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-constelaciones-mas-antiguas-conocidas_2.webp
 title: Le più antiche costellazioni conosciute

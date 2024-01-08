@@ -49,7 +49,7 @@ head:
 
 Le stelle sono solo la punta dell'iceberg nel vasto e misterioso oceano dell'universo che l'astronomia si sforza di esplorare. Ogni volta che pensiamo di aver capito un frammento di questa maestosa infinità, emerge una scoperta inaspettata che ribalta le nostre concezioni e arricchisce la nostra comprensione dello spazio cosmico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Scoperte inaspettate in astronomia
 imageurl: https://blog.astroingeo.org/img/content/descubrimientos-inesperados-en-astronomia_1.webp
@@ -65,7 +65,7 @@ Osservando oltre i confini del nostro quartiere cosmico, i telescopi hanno rivel
 ## Enigmi della Materia Oscura
 Al centro di molte discussioni astrofisiche vi è la presenza della *materia oscura*. Invisibile e ancora impalpabile, rappresenta uno dei più grandi misteri dell'astronomia. La sua esistenza viene dedotta dall'influenza gravitazionale che esercita sulla materia ordinaria, svelando aspetti nascosti della danza cosmica.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/descubrimientos-inesperados-en-astronomia_2.webp
 title: Scoperte inaspettate in astronomia

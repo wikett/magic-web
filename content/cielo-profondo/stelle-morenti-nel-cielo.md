@@ -49,7 +49,7 @@ head:
 
 Le stelle hanno da sempre affascinato l'umanità, ornando il manto notturno con scintillii che evocano domande sull'esistenza e sul tempo. Ma cosa accade quando una stella esaurisce il suo ciclo di vita? Scoprite in questo articolo i misteri e i fenomeni celesti legati alle **stelle morenti**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Stelle morenti nel cielo
 imageurl: https://blog.astroingeo.org/img/content/estrellas-en-el-cielo-que-estan-muriendo_1.webp
@@ -65,7 +65,7 @@ Prima di affrontare il crepuscolo stellare, è necessario comprendere le origini
 ## Supernove e Nebulose Planetarie: Segni di Mortalità Stellare
 Quando una stella esaurisce il carburante nucleare, inizia il suo canto del cigno. A seconda della loro massa, le stelle seguono diversi sentieri verso la loro estinzione.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-en-el-cielo-que-estan-muriendo_2.webp
 title: Stelle morenti nel cielo

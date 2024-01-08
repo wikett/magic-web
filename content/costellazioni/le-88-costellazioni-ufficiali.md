@@ -49,7 +49,7 @@ head:
 
 Le costellazioni hanno affascinato l'umanità fin dagli albori della storia, tramandando leggende e saggezze attraverso i secoli. Questo articolo vi guiderà attraverso la scoperta delle **88 costellazioni ufficiali**, un viaggio unico nel vasto universo che ci sovrasta.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le 88 costellazioni ufficiali
 imageurl: https://blog.astroingeo.org/img/content/las-88-constelaciones-oficiales_1.webp
@@ -82,7 +82,7 @@ Tra le costellazioni boreali, troviamo quelle dello **zodiaco**, che segnano la 
 - *Acquario*
 - *Pesci*
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-88-constelaciones-oficiales_2.webp
 title: Le 88 costellazioni ufficiali

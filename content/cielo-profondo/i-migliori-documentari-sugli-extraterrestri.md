@@ -49,7 +49,7 @@ head:
 
 L'incessante ricerca di vita oltre il nostro pianeta ha catturato l'immaginario collettivo e scientifićo per decenni. In questo viaggio tra le stelle e oltre l'ordinario, abbiamo raccolto per voi **i migliori documentari sull'esistenza di vita extraterrestre**, dai classici impareggiabili ai più recenti approfondimenti video, per soddisfare la sete di conoscenza sia degli appassionati di ufologia sia dei neofiti dell'astronomia.
 
-::photo-article.webp
+::photo-article
 ---
 title: I migliori documentari sugli extraterrestri
 imageurl: https://blog.astroingeo.org/img/content/los-mejores-documentales-sobre-extraterrestres_1.webp
@@ -66,7 +66,7 @@ L'acclamata serie *The Universe* si è spesso occupata di esplorare le possibili
 ### **2. "Unacknowledged" - Gli Archivi Segreti**
 **"Unacknowledged"** scende in campo con una raccolta di documenti declassificati e testimonianze per offrire un'implicazione diretta sui misteri dell'UFOlogia. E' un viaggio controverso attraverso segreti governativi e teorie della cospirazione.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-mejores-documentales-sobre-extraterrestres_2.webp
 title: I migliori documentari sugli extraterrestri

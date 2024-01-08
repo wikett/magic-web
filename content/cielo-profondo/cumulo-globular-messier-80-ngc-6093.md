@@ -49,7 +49,7 @@ head:
 
 Messier 80, o più precisamente il **Cúmulo globular Messier 80 (NGC 6093)**, è una delle meraviglie cosmiche meno celebrate ma ugualmente affascinanti per chiunque sia appassionato di astronomia. Situato nella costellazione dello Scorpione, questo denso ammasso di stelle cattura l'immaginazione e ci invita a esplorare più a fondo i misteri dell'Universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cúmulo globular Messier 80 (NGC 6093)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-messier-80-ngc-6093_3.webp
@@ -68,7 +68,7 @@ Nonostante la sua bellezza, NGC 6093 nasconde segreti che stimolano la curiosit�
 
 Stimando l'età di **Messier 80**, si apre una finestra su un passato lontano dell'universo, permettendo di esplorare la storia della nostra galassia e i suoi più antichi componenti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-messier-80-ngc-6093_2.webp
 title: Cúmulo globular Messier 80 (NGC 6093)

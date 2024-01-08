@@ -49,7 +49,7 @@ head:
 
 La ricerca scientifica riguardante la vita extraterrestre rappresenta uno dei capitoli più affascinanti e complessi dell'astrobiologia e dell'astronomia. La possibilità che non siamo soli nell'universo spinge scienziati e ricercatori a sondare i misteri dello spazio, traendo da ogni scoperta nuovi interrogativi e prospettive.
 
-::photo-article.webp
+::photo-article
 ---
 title: La ricerca scientifica sulla vita extraterrestre
 imageurl: https://blog.astroingeo.org/img/content/investigacion-cientifica-sobre-vida-extraterrestre_1.webp
@@ -73,7 +73,7 @@ Il campo specializzato dell'esobiologia si dedica a comprendere le potenziali fo
 
 Il ritrovamento di esopianeti, ovvero pianeti fuori dal nostro sistema solare, nelle "zone abitabili" ha riscritto la comprensione scientifica degli ambienti adatti alla vita. La presenza di acqua liquida rappresenta il pilastro di tali studi, poiché è fondamentale per la vita così come la conosciamo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/investigacion-cientifica-sobre-vida-extraterrestre_2.webp
 title: La ricerca scientifica sulla vita extraterrestre

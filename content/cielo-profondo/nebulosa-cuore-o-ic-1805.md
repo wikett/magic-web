@@ -49,7 +49,7 @@ head:
 
 L'osservazione del cielo stellato ha da sempre suscitato emozioni inenarrabili. Tra le meraviglie celesti che affascinano gli astronomi amatoriali e i professionisti, la **Nebulosa Cuore**, conosciuta anche come **IC 1805**, occupa un posto d'onore. Questo complesso cosmico è ricco di misteri e splendore, una tela cosmica che incanta gli osservatori.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Cuore o IC 1805
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-corazon-o-ic-1805_3.webp
@@ -64,7 +64,7 @@ Nel cuore della costellazione di Cassiopea si cela un segreto dell'universo che 
 
 Il cuore pulsante dell'universo, **IC 1805**, è una nebulosa a emissione, ciò significa che il gas e il plasma di cui è composta sono energizzati da stelle giovani e calde. La sua forma distintiva ricorda vagamente un cuore, da cui il nome evocativo che afferra l'immaginazione di chi la osserva.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-corazon-o-ic-1805_2.webp
 title: Nebulosa Cuore o IC 1805

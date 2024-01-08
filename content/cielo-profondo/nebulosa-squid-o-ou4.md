@@ -49,7 +49,7 @@ head:
 
 La Nebulosa Calamaro, o **Ou4**, è uno spettacolo celeste che continua a stupire gli astrofili e gli astronomi di tutto il mondo. Questa intrigante formazione cosmica, situata nella costellazione del Cigno, non è solo un fenomeno visivo affascinante, ma anche una fonte inesauribile di interrogativi scientifici.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Squid o Ou4
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-squid-o-ou4_3.webp
@@ -72,7 +72,7 @@ Nonostante il suo nome evocativo, la Nebulosa Calamaro non ha nulla a che fare c
 
 Gli spettri di luce emessi dalla **nebulosa** rivelano la presenza di gas ionizzati come l'ossigeno doppio e triplamente ionizzato (O II e O III). Questa firma spettrale fornisce indizi vitali sulle condizioni fisiche e la composizione della nebulosa.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-squid-o-ou4_2.webp
 title: Nebulosa Squid o Ou4

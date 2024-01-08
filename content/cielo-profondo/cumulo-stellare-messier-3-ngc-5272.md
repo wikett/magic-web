@@ -51,7 +51,7 @@ Nella vastità dell'universo, pochi spettacoli astronomici sfidano l'immaginazio
 
 ---
 
-::photo-article.webp
+::photo-article
 ---
 title: Cumulo stellare Messier 3 (NGC 5272)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-estelar-messier-3-ngc-5272_3.webp
@@ -68,7 +68,7 @@ Messier 3, situato nella costellazione dei Cani da Caccia, è un *ammasso globul
 
 Questo ammasso si presenta con una struttura densa e sferica, con stelle che si addensano verso il suo nucleo. La sua composizione stellare è prevalentemente di *giganti rosse* e *stelle variabili*, che lo rendono un laboratorio celeste di vitale importanza.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-estelar-messier-3-ngc-5272_2.webp
 title: Cumulo stellare Messier 3 (NGC 5272)

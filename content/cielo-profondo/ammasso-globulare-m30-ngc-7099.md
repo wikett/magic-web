@@ -49,7 +49,7 @@ head:
 
 L'ammasso globulare M30, noto anche come NGC 7099, è una meraviglia stellare che cattura l'interesse degli appassionati di astronomia. Questo gioiello celeste, situato nella costellazione del Capricorno, rappresenta un'incredibile congiunzione di antichità cosmica e bellezza stellare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso globulare M30 (NGC 7099)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-m30-ngc-7099_3.webp
@@ -68,7 +68,7 @@ Scoperto nel 1764 da Charles Messier, un astronomo francese, M30 ha attirato l'a
 
 **M30 si distingue per la presenza di stelle blu, note come stelle "blue straggler"**, che sembrano molto più giovani del resto delle stelle dell'ammasso. Questo fenomeno ha piqued l'interesse degli astronomi e continua a essere un area attiva di ricerca.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-m30-ngc-7099_2.webp
 title: Ammasso globulare M30 (NGC 7099)

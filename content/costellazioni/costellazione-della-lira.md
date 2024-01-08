@@ -49,7 +49,7 @@ head:
 
 La costellazione della **Lira**, conosciuta anche come Lyra in latino, è una delle gemme stellate nel firmamento, ricca di storie e scoperte che hanno affascinato gli astronomi per secoli. Situata nell'emisfero celeste boreale, questa piccola ma prominente costellazione è un tesoro di oggetti celesti e mitologia intrigante.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione della Lira
 imageurl: https://blog.astroingeo.org/img/content/constelacion-lira_3.webp
@@ -66,7 +66,7 @@ imageurl: https://blog.astroingeo.org/img/content/constelacion-lira_3.webp
 
 La costellazione della Lira è dominata da **Vega**, una delle stelle più luminose nel cielo notturno. Vega è una stella di tipo A0, notevole per la sua rapidità di rotazione e per essere una delle stelle più studiate dagli astronomi.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-lira_2.webp
 title: Costellazione della Lira

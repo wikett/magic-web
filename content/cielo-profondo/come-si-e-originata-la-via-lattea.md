@@ -49,7 +49,7 @@ head:
 
 La Via Lattea, il nostro vasto e scintillante quartiere cosmico, ha affascinato l'umanità per millenni. Ma come è nata questa gigantesca spirale stellare che chiamiamo casa? Questo articolo esplorerà la genesi della Via Lattea attraverso recenti scoperte astronomiche e teorie scientifiche, offrendo una panorata dettagliata della sua origine.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come si è originata la Via Lattea?
 imageurl: https://blog.astroingeo.org/img/content/como-se-origino-la-via-lactea_1.webp
@@ -68,7 +68,7 @@ Nel tempo, le nubi di idrogeno e elio si sono accumulate sotto l'influenza della
 
 Durante le prime fasi della sua vita, la Via Lattea era composta da piccoli ammassi stellari che si fondavano e crescevano continuamente. Gli incontri e le fusioni di questi ammassi hanno contribuito a modellare la galassia come la vediamo oggi.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-se-origino-la-via-lactea_2.webp
 title: Come si è originata la Via Lattea?

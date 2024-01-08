@@ -49,7 +49,7 @@ head:
 
 Le stelle hanno sempre esercitato un fascino misterioso sull'umanità, diventando fonte d'ispirazione per miti, leggende e, naturalmente, splendidi gioielli. I **gioielli ispirati alle costellazioni** non sono solo semplici ornamenti, ma pezzi ricchi di significato e storia, che connettono l'individuo con l'infinito universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Gioielli ispirati alle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/joyeria-inspirada-en-constelaciones_1.webp
@@ -68,7 +68,7 @@ L'astronomia e la creazione di gioielli si incontrano in un processo artistico c
 
 Pietre preziose e semi-preziose vengono selezionate con cura per rappresentare le stelle. **Diamanti**, zaffiri e topazi sono solo alcune delle scelte popolari per dare vita a gioielli che scintillano come veri e propri frammenti dell'universo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/joyeria-inspirada-en-constelaciones_2.webp
 title: Gioielli ispirati alle costellazioni

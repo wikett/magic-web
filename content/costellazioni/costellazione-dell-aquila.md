@@ -49,7 +49,7 @@ head:
 
 L'*Aquila*, con le sue stelle lucenti, si erge come un emblema celeste,tempio della mitologia e culla di oggetti astronomici affascinanti. Questa guida all'*esplorazione dell'Aquila* vi porterà alla scoperta di una delle costellazioni più maestose e ricche di storia del firmamento.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione dellAquila
 imageurl: https://blog.astroingeo.org/img/content/constelacion-aquila_3.webp
@@ -68,7 +68,7 @@ L'*Aquila* non è solo una meraviglia naturale, ma anche un patrimonio di raccon
 
 Proseguendo nel nostro viaggio celeste, incontriamo **Tarazed** e **Alshain**, compagne fidate di Altair, e non meno affascinanti. Queste stelle, insieme ad altre minori, contribuiscono alla forma iconica dell'Aquila che ricorda quella di un uccello in volo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-aquila_2.webp
 title: Costellazione dellAquila

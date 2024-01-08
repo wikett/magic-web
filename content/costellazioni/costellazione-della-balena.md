@@ -49,7 +49,7 @@ head:
 
 Il cielo stellato ha sempre avuto un fascino misterioso, un richiamo che trascende i secoli e ci invita a scrutare verso l'alto. E fra le molteplici figure che adornano il nostro firmamento, forse nessuna è tanto evocativa quanto la *Costellazione della Balena*, un gigante che naviga nell'oceano celeste.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione della balena
 imageurl: https://blog.astroingeo.org/img/content/constelacion-ballena_1.webp
@@ -73,7 +73,7 @@ All'interno del firmamento, la Balena ha delle caratteristiche che la rendono in
 - **Idealità**: Migliore visibilità in autunno.
 - **Estensione**: È la quarta costellazione più grande del cielo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-ballena_2.webp
 title: Costellazione della balena

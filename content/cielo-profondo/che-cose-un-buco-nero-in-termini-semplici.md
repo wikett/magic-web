@@ -49,7 +49,7 @@ head:
 
 I buchi neri sono uno dei fenomeni più affascinanti e misteriosi dell'universo. In questo articolo, li esploreremo in termini semplici, svelando il velo di complessità che li avvolge.
 
-::photo-article.webp
+::photo-article
 ---
 title: Che cosè un buco nero in termini semplici?
 imageurl: https://blog.astroingeo.org/img/content/que-es-un-agujero-negro-en-terminos-sencillos_1.webp
@@ -72,7 +72,7 @@ Un buco nero si compone di diverse parti:
 - **La Singolarità**: al centro, dove la densità e la gravità raggiungono valori infiniti.
 - **Il Disco di Accrescimento**: materia che orbita attorno al buco nero prima di essere inghiottita.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/que-es-un-agujero-negro-en-terminos-sencillos_2.webp
 title: Che cosè un buco nero in termini semplici?

@@ -49,7 +49,7 @@ head:
 
 Il cielo stellato ha sempre affascinato l'umanità. Ogni cultura ha osservato le stelle, dandogli nomi evocativi e significativi. Scopriamo insieme come queste denominazioni variano infondendo ai corpi celesti una vita intrisa di mitologia, storia e scienza.
 
-::photo-article.webp
+::photo-article
 ---
 title: I nomi delle stelle nelle diverse culture
 imageurl: https://blog.astroingeo.org/img/content/los-nombres-de-las-estrellas-en-diferentes-culturas_1.webp
@@ -68,7 +68,7 @@ La mitologia greca e romana ha battezzato numerose stelle. *Sirio*, la più lumi
 
 Popoli nativi come gli Apache e i Maori osservarono il cielo attribuendo alle stelle nomi derivati dalle loro tradizioni. Gli Apache vedevano nel cielo i modelli della loro caccia, mentre i Maori raccontavano di *Matariki*, l'ammasso stellare noto come le Pleiadi, che segnava il nuovo anno.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-nombres-de-las-estrellas-en-diferentes-culturas_2.webp
 title: I nomi delle stelle nelle diverse culture

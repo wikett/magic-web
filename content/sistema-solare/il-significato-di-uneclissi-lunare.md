@@ -49,7 +49,7 @@ head:
 
 L'*eclissi lunare* è un fenomeno astronomico che ha catturato l'attenzione dell'umanità per millenni. Quando l'ombra della Terra oscura la luna, miti e leggende prendono vita sotto un cielo mutevole. Ma qual è il significato reale di questo evento celeste? Esploriamo la **importanza scientifica, culturale e astrologica** di questo spettacolare gioco di luci.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il significato di uneclissi lunare
 imageurl: https://blog.astroingeo.org/img/content/significado-de-un-eclipse-lunar_1.webp
@@ -70,7 +70,7 @@ Un'eclissi lunare avviene quando la Terra si interpone tra il Sole e la Luna, pr
 
 Per gli appassionati di astronomia, conoscere il **calendario celeste** è vitale. L'eclissi lunare offre un'opportunità unica di osservazione, senza la necessità di strumentazione specializzata.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/significado-de-un-eclipse-lunar_2.webp
 title: Il significato di uneclissi lunare

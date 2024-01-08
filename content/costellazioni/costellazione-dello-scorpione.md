@@ -49,7 +49,7 @@ head:
 
 Il firmamento notturno è un mosaico di storie, scienze e mitologie. Tra queste magnificenze celesti, la **Costellazione dello Scorpione** si distingue per la sua storia affascinante e la sua visibilità nel cielo. In questo viaggio sino alla scoperta dello Scorpione celeste, toccheremo vari argomenti e curiosità che fanno di questa costellazione un tesoro astronomico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione dello Scorpione
 imageurl: https://blog.astroingeo.org/img/content/constelacion-escorpion_3.webp
@@ -70,7 +70,7 @@ Il cielo notturno è un'immensa tela su cui antiche culture hanno dipinto i loro
 
 La **Costellazione dello Scorpione** non è solo un gruppo di stelle, ma un capitolo ricco di storie mitologiche. Secondo la mitologia greca, proprio lo Scorpione fu inviato da Artemide per uccidere il gigante Orione.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-escorpion_2.webp
 title: Costellazione dello Scorpione

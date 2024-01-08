@@ -49,7 +49,7 @@ head:
 
 L'astronomia ha da sempre esercitato un fascino irresistibile sull'umanità. Fin dalle antiche civiltà, gli uomini hanno alzato lo sguardo verso il cielo con meraviglia e curiosità. Le costellazioni, in particolare, sono state oggetto di ammirazione e studio. In questo articolo, impreziosiremo la tua libreria con un elenco dei migliori **libri sulle costellazioni**, che trasformeranno la tua conoscenza del firmamento in un'esperienza senza eguali.
 
-::photo-article.webp
+::photo-article
 ---
 title: Libri sulle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/libros-sobre-constelaciones_1.webp
@@ -83,7 +83,7 @@ Vero e proprio patrimonio culturale dell'umanità, la **mitologia stellare** ci 
 
 Questi libri collegano le configurazioni stellari ai racconti eroici e alle divinità che ancora oggi portano i loro nomi nei cieli di tutto il mondo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/libros-sobre-constelaciones_2.webp
 title: Libri sulle costellazioni

@@ -49,7 +49,7 @@ head:
 
 La storia dell'umanità è stata fortemente influenzata dalle stelle. Molti **antichi popoli** guardavano ai cieli con ammirazione e rispetto, intravedendo in essi le risposte ai grandi misteri della vita. Quest'articolo esplora il profondo **rapporto tra le civiltà antiche e le stelle**, una connessione che ha segnato la nascita di miti, religioni e conoscenze scientifiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le antiche civiltà e il loro rapporto con le stelle
 imageurl: https://blog.astroingeo.org/img/content/civilizaciones-antiguas-y-su-relacion-con-los-astros_1.webp
@@ -65,7 +65,7 @@ Gli antichi Greci diedero forma al cielo notturno, immortalando eroi e creature 
 ### Il Preciso Calendario Maya
 La civiltà **Maya**, con il loro complesso sistema di calendari basato su minuziose osservazioni astronomiche, ha lasciato un'eredità di accuratezza che stupisce ancor oggi gli studiosi. Il calendario Tzolk'in, in particolare, è un esempio di come la cultura Maya si regolasse sui ritmi celesti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/civilizaciones-antiguas-y-su-relacion-con-los-astros_2.webp
 title: Le antiche civiltà e il loro rapporto con le stelle

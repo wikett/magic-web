@@ -49,7 +49,7 @@ head:
 
 L'arte di riprodurre le costellazioni non è solo un passatempo per gli appassionati di astronomia, ma è anche un'attività educativa e rilassante che consente di immergersi nella bellezza del cosmo. In questo articolo, ti guiderò attraverso il cammino per disegnare le costellazioni in modo preciso ed affascinante.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come disegnare le costellazioni
 imageurl: https://blog.astroingeo.org/img/content/como-dibujar-constelaciones_1.webp
@@ -73,7 +73,7 @@ Per iniziare, avrai bisogno di:
 
 ## Primi Passi: Tracciare le Linee Guida
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-dibujar-constelaciones_2.webp
 title: Come disegnare le costellazioni

@@ -51,7 +51,7 @@ head:
 
 La nostra curiosità sugli **esseri extraterrestri** si è notevolmente amplificata nell'era digitale, grazie all'accesso quasi illimitato a informazioni e teorie provenienti da ogni angolo del globo. Se un tempo la figura dell'alieno era relegata a racconti di fantascienza e sporadiche segnalazioni, oggi il dibattito si è arricchito e digitalizzato, portando il fenomeno UFO e la vita extraterrestre al centro di discussioni online e offline.
 
-::photo-article.webp
+::photo-article
 ---
 title: Gli alieni nellera digitale
 imageurl: https://blog.astroingeo.org/img/content/los-extraterrestres-en-la-era-digital_1.webp
@@ -72,7 +72,7 @@ Con l'avanzare della tecnologia, le tecniche di ricerca di intelligenze extrater
 
 Il digitale non ha soltanto ampliato la nostra capacità di ricerca, ma ha anche sollevato questioni sulla **comunicazione interstellare**. Come potremmo comunicare con intelligenze così radicalmente diverse dalla nostra? Ci si imbatte spesso in interessanti speculazioni che abbraccio dal linguaggio matematico e binario fino all'uso di immagini.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-extraterrestres-en-la-era-digital_2.webp
 title: Gli alieni nellera digitale

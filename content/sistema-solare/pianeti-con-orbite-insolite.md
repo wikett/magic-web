@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno nasconde segreti che sfidano la nostra comprensione, e tra questi, i **pianeti con orbite inusuali** rappresentano uno degli enigmi più affascinanti per gli appassionati di astronomia. Scopriamo insieme le bizzarrie celestiali che orbitano intorno a lontane stelle, oltrepassando i confini dell'immaginazione.
 
-::photo-article.webp
+::photo-article
 ---
 title: Pianeti con orbite insolite
 imageurl: https://blog.astroingeo.org/img/content/planetas-con-orbitas-inusuales_1.webp
@@ -71,7 +71,7 @@ I pianeti circumbinari orbitano attorno a due stelle anziché una. Come i person
 **La Danza al Contrario dei Giganti Gassosi**
 In contrasto col sistema solare, alcuni esopianeti mostrano un movimento retrogrado: girano attorno alla loro stella nella direzione opposta a quella della rotazione stellare. Questa particolarità, riscontrabile in giganti gassosi come HAT-P-7b, indica una violenta storia di migrazioni planetarie e incontri ravvicinati.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/planetas-con-orbitas-inusuales_2.webp
 title: Pianeti con orbite insolite

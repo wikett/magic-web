@@ -49,7 +49,7 @@ head:
 
 L'*astrologia* è una pratica antica che affascina l'umanità da millenni. La credenza che i corpi celesti, come le stelle, possano influenzare la vita quotidiana è radicata in molte culture. Oggi, approfondiremo come **l'influenza delle stelle in astrologia** disegni un ponte tra cielo e terra, tra scienza celeste e esistenza umana.
 
-::photo-article.webp
+::photo-article
 ---
 title: Linfluenza delle stelle in astrologia
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-los-astros-en-la-astrologia_1.webp
@@ -68,7 +68,7 @@ La nascita di un individuo viene mappata con un diagramma celeste noto come cart
 
 I cicli dei pianeti, soprattutto quelli che si trovano più vicino alla Terra, sono stati correlati a cicli di crescita personale, cambiamenti ed eventi. **Mercurio retrogrado**, per esempio, è famoso per il suo presunto impatto su comunicazione e tecnologia.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-los-astros-en-la-astrologia_2.webp
 title: Linfluenza delle stelle in astrologia

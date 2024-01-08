@@ -49,7 +49,7 @@ head:
 
 L'astronomia, la scienza che studia gli astri e l'universo, ha un impatto diretto sull'agricoltura, un settore fondamentale per il sostentamento dell'umanità. Da secoli, gli agricoltori osservano i cieli per comprendere meglio i tempi e le tecniche di semina, crescita e raccolto, segnando una connessione indissolubile tra le stelle e la terra.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come lastronomia influenza lagricoltura
 imageurl: https://blog.astroingeo.org/img/content/como-la-astronomia-influye-en-la-agricultura_1.webp
@@ -68,7 +68,7 @@ La Luna controlla le maree e ha un'influenza ancestrale sulle pratiche agricole.
 
 Nonostante l'astrologia non sia considerata una scienza, è innegabile il suo ruolo storico nel collegare gli astri all'agricoltura. Gli oroscopi agrari di un tempo raccomandavano certe azioni basate sulle **configurazioni planetarie**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-la-astronomia-influye-en-la-agricultura_2.webp
 title: Come lastronomia influenza lagricoltura

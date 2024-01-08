@@ -51,7 +51,7 @@ Il pianeta Marte ha da sempre suscitato l'interesse e la curiosità dell'umanit�
 
 In questo articolo, scopriamo insieme i segreti di Marte e le missioni che hanno permesso di svelare le sue misteriose caratteristiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Marte
 imageurl: https://blog.astroingeo.org/img/content/marte_1.webp
@@ -67,7 +67,7 @@ Il paesaggio di Marte è costituito da formazioni vulcaniche imponenti, come il 
 ## **Acqua su Marte: alla ricerca della vita**
 Studi recenti hanno dimostrato la presenza **antica di acqua liquida** sulla superficie di Marte, aprendo la possibilità che, nel passato remoto, il Pianeta Rosso potesse ospitare forme di vita.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/marte_2.webp
 title: Marte

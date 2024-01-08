@@ -49,7 +49,7 @@ head:
 
 Il **cumulo globulare M5**, noto anche come **NGC 5904**, è un diamante cosmico che orna il nostro cielo. Scopriamo insieme la maestosità di questa aggregazione stellare che ha catturato la curiosità dell'umanità per secoli.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cumulo globulare M5 (NGC 5904)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-m5-ngc-5904_3.webp
@@ -71,7 +71,7 @@ Il cumulo M5 è un testimone silenzioso di un'epoca lontana. Si stima che abbia 
 
 All'interno del **M5**, le stelle più vecchie raccontano storie attraverso la loro composizione chimica e il loro stato evolutivo. La presenza di nane bianche e **giganti rosse** illuminano con nuova luce la comprensione dell'evoluzione stellare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-m5-ngc-5904_2.webp
 title: Cumulo globulare M5 (NGC 5904)

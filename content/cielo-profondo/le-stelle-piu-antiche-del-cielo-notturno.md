@@ -53,7 +53,7 @@ Il cielo notturno è un museo vivente, che ospita alcune delle stelle più antic
 
 ---
 
-#::photo-article.webp
+#::photo-article
 ---
 title: Le stelle più antiche del cielo notturno
 imageurl: https://blog.astroingeo.org/img/content/estrellas-mas-antiguas-del-cielo-nocturno_1.webp
@@ -72,7 +72,7 @@ Le caratteristiche delle stelle cambiano nel tempo. Ad esempio, una stella massi
 
 Una delle **stelle più antiche** conosciute a noi è HD 140283, soprannominata "Stella di Methuselah". Situata a circa 200 anni luce dal Sole, questa stella ha un'età stimata di quasi 14,5 miliardi di anni, sfidando perfino l'età stimata dell'universo stesso secondo le moderne misurazioni cosmologiche.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-mas-antiguas-del-cielo-nocturno_2.webp
 title: Le stelle più antiche del cielo notturno

@@ -49,7 +49,7 @@ head:
 
 L'uomo ha da sempre osservato le stelle con un misto di curiosità e reverenza, domandandosi se non siamo soli nell'universo o se **esseri ultraterreni** possano influenzare la nostra esistenza e credenze religiose. Il tema degli **esseri ultraterreni** non è solo di interesse scientifico, ma si intreccia profondamente con le nostre **tradizioni religiose** e la nostra ricerca spirituale.
 
-::photo-article.webp
+::photo-article
 ---
 title: Credenza in esseri ultraterreni e loro impatto religioso
 imageurl: https://blog.astroingeo.org/img/content/la-creencia-en-seres-de-otros-mundos-y-su-impacto-religioso_1.webp
@@ -66,7 +66,7 @@ Si racconta delle antiche civiltà che attribuivano all'influenza di **deità ce
 
 Nel corso dei secoli, l'interpretazione di testi sacri ha talvolta suggerito una connessione tra **fenomeni celesti** e **dottrine religiose**. Angeli, demoni, e altre entità spirituali potrebbero essere interpretate come manifestazioni di **contatti ultraterreni**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-creencia-en-seres-de-otros-mundos-y-su-impacto-religioso_2.webp
 title: Credenza in esseri ultraterreni e loro impatto religioso

@@ -49,7 +49,7 @@ head:
 
 Il sole non è solo il fulcro del nostro sistema solare, ma è anche una fonte inesauribile di energia e vita, illuminando e riscaldando tutti i pianeti che lo circondano. La radiazione solare che riceviamo sulla Terra è la principale sorgente di energia per i processi climatici e biologici. Ma cosa implica esattamente questo potente fenomeno? Come influenza il nostro pianeta e la nostra vita di tutti i giorni? 
 
-::photo-article.webp
+::photo-article
 ---
 title: Radiazione solare
 imageurl: https://blog.astroingeo.org/img/content/radiacion-solar_1.webp
@@ -74,7 +74,7 @@ Ogni tipologia interagisce con l'atmosfera e la superficie terrestre in modo uni
 
 Le **variazioni nella radiazione solare** possono portare a significative modifiche del clima terrestre. Questo aspetto è essenziale nello studio delle cause e degli effetti dei cambiamenti climatici.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/radiacion-solar_2.webp
 title: Radiazione solare

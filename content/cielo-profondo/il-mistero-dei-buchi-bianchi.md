@@ -49,7 +49,7 @@ head:
 
 Il cosmo è teatro di una miriade di enigmi, tra questi vi sono **i buchi bianchi**, i meno compresi e più misteriosi parenti dei noti buchi neri. Questi ultimi, celebri per la loro capacità di inghiottire materia ed energia, hanno un presunto alter ego che, secondo alcune teorie, rigetta materia ed energia nello spazio-tempo. Questo articolo esplorerà queste straordinarie supposizioni, cercando di spiegare il complesso universo dei fenomeni cosmici estremi.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il mistero dei buchi bianchi
 imageurl: https://blog.astroingeo.org/img/content/el-misterio-de-los-agujeros-blancos_1.webp
@@ -66,7 +66,7 @@ La prima menzione di un **buco bianco** la troviamo negli anni '60 quando i fisi
 
 ## Possibili Osservazioni Astronomiche
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-misterio-de-los-agujeros-blancos_2.webp
 title: Il mistero dei buchi bianchi

@@ -51,7 +51,7 @@ Scopri la Nebulosa del Fumo di Tabacco, nota anche come NGC 7027, una delle più
 
 ---
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa del Humo del Tabaco o NGC 7027
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-humo-del-tabaco-o-ngc-7027_3.webp
@@ -76,7 +76,7 @@ Lo studio delle nebulose come **NGC 7027** è fondamentale: esse sono crogioli d
 
 ---
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-humo-del-tabaco-o-ngc-7027_2.webp
 title: Nebulosa del Humo del Tabaco o NGC 7027

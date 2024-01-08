@@ -47,7 +47,7 @@ head:
 ---
 # Gli Alieni nella Letteratura Fantascientifica: un Viaggio Interstellare
 
-::photo-article.webp
+::photo-article
 ---
 title: Il ruolo degli extraterrestri nella letteratura di fantascienza
 imageurl: https://blog.astroingeo.org/img/content/el-papel-de-los-extraterrestres-en-la-literatura-de-ciencia-ficcion_1.webp
@@ -72,7 +72,7 @@ Attraverso gli alieni, la letteratura è in grado di esaminare e criticare la so
 
 Inoltre, tendenze come il colonialismo e il primo contatto con gli extraterrestri si intrecciano nel filone narrativo, offrendo risonanze storiche e presagendo le implicazioni del vero **incontro interplanetario**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-papel-de-los-extraterrestres-en-la-literatura-de-ciencia-ficcion_2.webp
 title: Il ruolo degli extraterrestri nella letteratura di fantascienza

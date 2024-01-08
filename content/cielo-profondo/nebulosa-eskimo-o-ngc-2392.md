@@ -49,7 +49,7 @@ head:
 
 Scoprire l'universo è come immergersi in una vasta oceano di meraviglie, e nel cuore di questo oceano cosmico troviamo tesori come la **Nebulosa Eschimese**, conosciuta anche agli astronomi come **NGC 2392**. La bellezza di questo oggetto celeste non ha smesso di affascinare tanto gli appassionati di astronomia quanto i professionisti del settore, regalando uno spettacolo di luci e forme nello spazio profondo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Eskimo o NGC 2392
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-esquimal-o-ngc-2392_3.webp
@@ -68,7 +68,7 @@ Studiata per la prima volta da William Herschel nel 1787, questa nebulosa planet
 
 La struttura dettagliata della **Nebulosa Eschimese** ci svela molto sulla vita stellare. Al suo centro, la nebulosa ospita una stella nana bianca, residuo della stella progenitrice. Il velo esterno, invece, è composto da gas luminosi e polveri espulse nel corso di migliaia di anni.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-esquimal-o-ngc-2392_2.webp
 title: Nebulosa Eskimo o NGC 2392

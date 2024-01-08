@@ -49,7 +49,7 @@ head:
 
 L'universo è una galleria d'arte infinita, disseminata da innumerevoli opere maestre che attendono solo di essere ammirate. Tra queste, il magnifico **ammasso aperto della regione di Gamma Cygni**, conosciuto anche con la sigla **IC 1318**, ci offre uno spettacolo celestiale da togliere il fiato.
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso aperto della stella della regione di Gamma Cygni (IC 1318)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-abierto-de-la-estrella-de-la-region-gamma-cygni-ic-1318_3.webp
@@ -69,7 +69,7 @@ Le caratteristiche principali degli ammassi aperti sono la giovane età delle st
 - **Eta delle stelle**: La loro giovinezza è evidente dalla loro impetuosa luminosità e dal colore prevalentemente azzurro-biancastro.
 - **Posizione celestialmente strategica**: Ubicato ad una distanza stimata in quasi 5.000 anni luce dalla Terra, IC 1318 forma un’esquisitezza visiva intorno alla stella Gamma Cygni.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-abierto-de-la-estrella-de-la-region-gamma-cygni-ic-1318_2.webp
 title: Ammasso aperto della stella della regione di Gamma Cygni (IC 1318)

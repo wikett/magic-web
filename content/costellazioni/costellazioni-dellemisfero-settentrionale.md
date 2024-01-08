@@ -49,7 +49,7 @@ head:
 
 L'**emisfero settentrionale** è ricco di costellazioni che hanno meravigliato e guidato l'umanità per millenni. Il cielo notturno riflette storie di antichi miti, scoperte astronomiche e meraviglie celesti. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazioni dellemisfero settentrionale
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-de-hemisferio-norte_1.webp
@@ -64,7 +64,7 @@ Navigare attraverso le stelle dell'emisfero boreale è un'arte che mise gli astr
 
 Molte delle costellazioni che vediamo oggi prendono il nome dalle mitologie greca e romana. Per esempio, Andromeda rappresenta la principessa catenata, mentre Perseo, il suo eroico salvatore, si mostra nel cielo con una falce pronta a liberarla.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-de-hemisferio-norte_2.webp
 title: Costellazioni dellemisfero settentrionale

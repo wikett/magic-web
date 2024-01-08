@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un teatro cosmico pieno di meraviglie naturali, dove le stelle blu brillano come gemme scintillanti in una vasta tela di oscurità. In questo articolo esploreremo la natura affascinante di queste rare bellezze celesti, svelando i segreti dietro la loro luminosità e colore distintivo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Stelle blu nel cielo notturno
 imageurl: https://blog.astroingeo.org/img/content/estrellas-azules-en-el-cielo-de-la-noche_1.webp
@@ -66,7 +66,7 @@ Per comprendere l'origine delle stelle blu, è fondamentale sapere che la tonali
 
 Le **giganti blu** sono stelle molto luminose e massicce con temperature superficiali tra i 10.000 e i 50.000 gradi Celsius. Spesso, queste stelle hanno una vita relativamente breve su scala cosmica a causa del loro rapido consumo di idrogeno.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-azules-en-el-cielo-de-la-noche_2.webp
 title: Stelle blu nel cielo notturno

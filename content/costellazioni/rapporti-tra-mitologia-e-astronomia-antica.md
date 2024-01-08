@@ -49,7 +49,7 @@ head:
 
 Il cielo stellato ha sempre esercitato un fascino irresistibile sull'umanità. Dall'alba dei tempi, le stelle hanno influenzato non soltanto la navigazione e l'agricoltura, ma anche il tessuto stesso delle culture in tutto il mondo. Nella storia, non vi è argomento più intrecciato con l'astronomia antica del vasto e profondo mare della mitologia.
 
-::photo-article.webp
+::photo-article
 ---
 title: Rapporti tra mitologia e astronomia antica
 imageurl: https://blog.astroingeo.org/img/content/relaciones-entre-mitologia-y-astronomia-antigua_1.webp
@@ -68,7 +68,7 @@ Gli antichi osservavano il percorso del Sole attraverso costellazioni specifiche
 - **L'Ariete**: simboleggia il mito del Vello d'Oro.
 - **Il Cancro**: rappresenta la tenacia di Eracle nella battaglia contro l’idra.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/relaciones-entre-mitologia-y-astronomia-antigua_2.webp
 title: Rapporti tra mitologia e astronomia antica

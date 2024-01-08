@@ -49,7 +49,7 @@ head:
 
 La *Costellazione del Cigno*, o **Cygnus**, è una delle 88 costellazioni ufficiali e una delle più affascinanti e riconoscibili del firmamento. Scoprire questa meraviglia celeste significa immergersi in una storia antica, intrisa di mitologia e ricca di oggetti astronomici sorprendenti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione del Cigno
 imageurl: https://blog.astroingeo.org/img/content/constelacion-cisne_3.webp
@@ -70,7 +70,7 @@ Il Cigno è riconoscibile per il caratteristico asterismo a forma di croce noto 
 - Alta luminosità e importanza per la navigazione astronomica
 - Componente del Triangolo Estivo
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-cisne_2.webp
 title: Costellazione del Cigno

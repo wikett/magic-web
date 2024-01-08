@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno ha da sempre esercitato un fascino misterioso e inesauribile, un richiamo verso l'ignoto che si espande oltre le frontiere visibili. I **tatuaggi costellazione** sono un tributo a questa affascinante realtà celeste, connettendo l'arte corporea con l'universo e i suoi segreti millenari.
 
-::photo-article.webp
+::photo-article
 ---
 title: Tatuaggi di costellazioni
 imageurl: https://blog.astroingeo.org/img/content/tatuajes-de-constelaciones_1.webp
@@ -65,7 +65,7 @@ Le costellazioni ci raccontano storie antiche, guide celesti che hanno orientato
 ## Una Mappa Personale di Stelle sulla Pelle
 Il proprio **corpo diventa una tela**, rivelando costellazioni che possono corrispondere a un segno zodiacale o a un ricordo particolare, il che rende ogni tatuaggio una creazione tanto personale quanto unica.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/tatuajes-de-constelaciones_2.webp
 title: Tatuaggi di costellazioni

@@ -49,7 +49,7 @@ head:
 
 Le singolarità spaziali rappresentano una delle più grandi enigmi affrontati dagli astronomi contemporanei. Questi punti di densità infinita, previsti dalla relatività generale di Einstein, si situano al cuore dei buchi neri, oggetti cosmici la cui comprensione è fondamentale per una panoramica completa dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Singolarità nellastronomia moderna
 imageurl: https://blog.astroingeo.org/img/content/singularidades-en-la-astronomia-moderna_1.webp
@@ -68,7 +68,7 @@ Le singolarità non sono solo centrali nella teoria dei buchi neri, ma stabilisc
 
 L'astrofisica moderna propone diverse teorie, come la **Teoria delle Stringhe** e la **Loop Quantum Gravity**, per spiegare cosa accade vicino a una singolarità, con l'obiettivo di unificare meccanica quantistica e relatività generale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/singularidades-en-la-astronomia-moderna_2.webp
 title: Singolarità nellastronomia moderna

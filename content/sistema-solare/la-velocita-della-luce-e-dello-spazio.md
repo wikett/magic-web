@@ -49,7 +49,7 @@ head:
 
 La **velocità della luce** è una costante universale che rappresenta non solo il limite massimo della velocità con cui possono viaggiare le informazioni nello spazio, ma è anche una fondamentale metrica astronomico-fisica che permea il nostro intero universo. In questo articolo, esploreremo come questo valore, pari a circa 299.792 chilometri al secondo, influisce sulla nostra comprensione dello spazio cosmico e sulla sua esplorazione.
 
-::photo-article.webp
+::photo-article
 ---
 title: La velocità della luce e dello spazio
 imageurl: https://blog.astroingeo.org/img/content/la-velocidad-de-la-luz-y-el-espacio_1.webp
@@ -68,7 +68,7 @@ La luce viaggia a una velocità straordinariamente alta, e questa rapidità ci p
 
 La luce nell'astronomia è lo strumento fondamentale per misurare distanze astronomiche. Quando parliamo di anni luce, ci riferiamo alla distanza percorsa dalla luce in un anno. La comprensione di questa unità di misura è essenziale per mappare l'universo e valutare le dimensioni dei vari corpi celesti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-velocidad-de-la-luz-y-el-espacio_2.webp
 title: La velocità della luce e dello spazio

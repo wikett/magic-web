@@ -49,7 +49,7 @@ head:
 
 Il programma Apollo della NASA è stato un passo da gigante per l'umanità. Rappresenta un'epopea di innovazione, coraggio e scoperta. Questo articolo esamina la **cronologia delle missioni Apollo della NASA**, dando uno sguardo alle missioni che hanno segnato la storia dell'esplorazione spaziale.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cronologia delle missioni Apollo della NASA
 imageurl: https://blog.astroingeo.org/img/content/cronologia-de-las-misiones-apolo-de-la-nasa_1.webp
@@ -67,7 +67,7 @@ Prima di immergerci nell'epopea Apollo, è cruciale ricordare il Programma Gemin
 ### - *Innovazioni e Cambiamenti*
 Dopo Apollo 1, la NASA effettuò importanti revisioni nella progettazione della capsula, assicurandosi che simili tragedie non si ripetessero.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cronologia-de-las-misiones-apolo-de-la-nasa_2.webp
 title: Cronologia delle missioni Apollo della NASA

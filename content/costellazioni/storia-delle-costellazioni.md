@@ -49,7 +49,7 @@ head:
 
 L'umanità ha sempre guardato alle stelle con meraviglia e curiosità. Da secoli, le costellazioni mappano il nostro cielo notturno, servendo da bussola per i viaggiatori, fonte di ispirazione per i poeti e guida per gli astronauti. **La storia delle costellazioni** è uno specchio delle civiltà che le hanno studiate, nomi che risuonano attraverso i millenni come eco delle loro credenze, sogni e desideri.
 
-::photo-article.webp
+::photo-article
 ---
 title: Storia delle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/historia-de-las-constelaciones_1.webp
@@ -78,7 +78,7 @@ Non solo la Grecia o la Babilonia, ma tutte le culture hanno osservato il cielo 
 - **Le costellazioni cinesi:** Un sistema stellare ricco e complesso legato alla filosofia e all'agricoltura.
 - **L'astronomia precolombiana:** I Maya e altre civiltà americane incorporavano i corpi celesti nelle loro architetture.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/historia-de-las-constelaciones_2.webp
 title: Storia delle costellazioni

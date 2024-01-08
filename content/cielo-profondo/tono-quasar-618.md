@@ -49,7 +49,7 @@ head:
 
 Il cosmo è una vasta tela piena di misteri insondabili e gioielli celesti. Tra questi, uno dei più affascinanti e imponenti fenomeni è il **Quasar TON 618**, un gigante che domina gli spazi infiniti con la sua energia inimmaginabile. In questo articolo, ci addentreremo nelle profondità dello spazio per scoprire di più su TON 618, toccando le caratteristiche peculiari che lo rendono uno dei quasar più discusso tra gli appassionati di astronomia.
 
-::photo-article.webp
+::photo-article
 ---
 title: Tono Quasar 618
 imageurl: https://blog.astroingeo.org/img/content/quasar-ton-618_3.webp
@@ -64,7 +64,7 @@ TON 618 è ben più che un semplice punto luminoso nel cielo. È un quasar ultra
 
 Al centro di TON 618 c'è un buco nero con una massa pari a 66 miliardi di volte quella del nostro Sole. È uno dei più massicci mai scoperti, il che lo rende un laboratorio cosmico senza eguali per capire la fisica dei **buchi neri**.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/quasar-ton-618_2.webp
 title: Tono Quasar 618

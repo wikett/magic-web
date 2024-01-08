@@ -49,7 +49,7 @@ head:
 
 Il **Calendario Maya** rappresenta una delle più stupefacenti testimonianze del legame tra civiltà antiche e osservazione celeste. Oltre ad essere un complesso sistema di misurazione del tempo, è il frutto di una profonda comprensione astrale che ancora oggi racconta molto sul popolo che l'ha creato e sul nostro universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il calendario Maya e le sue basi astronomiche
 imageurl: https://blog.astroingeo.org/img/content/el-calendario-maya-y-su-base-astronomica_1.webp
@@ -68,7 +68,7 @@ Essendo un eccellente strumento per la pianificazione agricola e per la programm
 
 Il Tzolk'in, un ciclo di **260 giorni**, è un esempio lampante della connessione con il cielo. Gli studiosi ipotizzano che questo ciclo abbia radici in osservazioni astronomiche, forse in relazione ai periodi di visibilità di Venere o correlati ai cicli di gestazione umana.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-calendario-maya-y-su-base-astronomica_2.webp
 title: Il calendario Maya e le sue basi astronomiche

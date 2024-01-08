@@ -49,7 +49,7 @@ head:
 
 L'universo è un vero e proprio caleidoscopio di colori e forme, dove le nebulose occupano un posto di rilievo grazie alla loro stupefacente bellezza. Questi giganteschi ammassi di gas e polveri spaziali non sono solo un prodotto delle forze cosmiche, ma anche tele su cui si dipingono i colori più vividi del cosmo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Alla scoperta delle nebulose più colorate
 imageurl: https://blog.astroingeo.org/img/content/descubriendo-las-nebulosas-mas-coloridas_1.webp
@@ -66,7 +66,7 @@ Tra le più fotogeniche vi sono le **nebulose a emissione**, ricche di idrogeno 
 ### L'Arte Celeste nelle Nebulose a Riflessione
 A differenza delle loro cugine a emissione, le **nebulose a riflessione** si colorano del blu della luce stellare riflessa dalle loro polveri.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/descubriendo-las-nebulosas-mas-coloridas_2.webp
 title: Alla scoperta delle nebulose più colorate

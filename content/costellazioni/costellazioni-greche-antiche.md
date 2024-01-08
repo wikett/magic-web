@@ -49,7 +49,7 @@ head:
 
 Il cielo stellato ha sempre affascinato l'uomo fin dai tempi antichi, e le costellazioni greche sono tra i gruppi di stelle più conosciuti e ricchi di storie da raccontare. Questi raggruppamenti celesti non sono solo belle figure da ammirare ma anche mappe cosmiche che racchiudono miti, leggende e conoscenze astronomiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazioni greche antiche
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-de-la-antigua-grecia_1.webp
@@ -65,7 +65,7 @@ L'astronomo greco Tolomeo elencò 48 costellazioni nel suo Almagesto, molte dell
 ## L'Osservazione delle Stelle nella Grecia Antica
 Per i Greci, osservare il cielo notturno era un modo per navigare, per sincronizzarsi con le stagioni agricole e per cercare risposte filosofiche sui meccanismi dell'universo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-de-la-antigua-grecia_2.webp
 title: Costellazioni greche antiche

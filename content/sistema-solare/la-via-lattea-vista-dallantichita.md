@@ -49,7 +49,7 @@ head:
 
 Sin dai tempi antichi, il cielo notturno ha incantato ed ispirato l'umanità. Soprattutto, la Via Lattea, *quell'imponente fiume di stelle che attraversa il firmamento*, ha sempre avuto un posto speciale nell'immaginario collettivo. In questo articolo, rivivremo l'esperienza di come i nostri antenati osservavano e interpretavano questo magnifico spettacolo celeste.
 
-::photo-article.webp
+::photo-article
 ---
 title: La Via Lattea vista dallantichità
 imageurl: https://blog.astroingeo.org/img/content/la-via-lactea-vista-desde-la-antigueedad_1.webp
@@ -68,7 +68,7 @@ Filosofi come Aristotele e Platone riflettevano sulla natura della Via Lattea e 
 
 Nel mondo islamico, astronomi come Al-Sufi catalogavano le stelle e illustravano delle mappe celesti dettagliate. La Via Lattea era spesso rappresentata come un insieme di nebulose, il che ha contribuito notevolmente alla conoscenza astronomica dell'epoca.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-via-lactea-vista-desde-la-antigueedad_2.webp
 title: La Via Lattea vista dallantichità

@@ -49,7 +49,7 @@ head:
 
 "Sognare ad occhi aperti dell'immensità dello spazio ha sempre affascinato l'umanità. Ma nel nostro desiderio di esplorazione, **viaggiare alla velocità della luce** resta la grande domanda: è davvero possibile, o è solo una suggestione della fantascienza?"
 
-::photo-article.webp
+::photo-article
 ---
 title: È possibile viaggiare alla velocità della luce?
 imageurl: https://blog.astroingeo.org/img/content/son-posibles-los-viajes-a-la-velocidad-de-la-luz_1.webp
@@ -63,7 +63,7 @@ La velocità della luce, **299.792 chilometri al secondo**, rappresenta un limit
 ### L'Influenza Della Massa
 Con l'incremento della velocità, aumenta anche la massa. Questo fenomeno è uno dei più grandi **impedimenti tecnologici** che gli scienziati affrontano quando si parla di **accelerare navi spaziali**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/son-posibles-los-viajes-a-la-velocidad-de-la-luz_2.webp
 title: È possibile viaggiare alla velocità della luce?

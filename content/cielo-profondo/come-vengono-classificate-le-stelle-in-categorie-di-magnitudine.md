@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è una vasta galleria d'arte, dove ogni stella rappresenta un punto luminoso in un mosaico cosmico. Comprensibilmente, gli appassionati di astronomia spesso si chiedono: **come vengono classificate le stelle in base alla loro magnitudine?** In questo approfondimento, esploreremo le tecniche astronomiche e l'evoluzione storica di questa intrigante categorizzazione stellare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come vengono classificate le stelle in categorie di magnitudine?
 imageurl: https://blog.astroingeo.org/img/content/como-se-clasifican-las-estrellas-en-categorias-de-magnitud_1.webp
@@ -64,7 +64,7 @@ Per capire la **classificazione delle stelle**, dobbiamo fare un viaggio indietr
 
 Con l'avvento della tecnologia moderna, il sistema di magnitudine si è notevolmente raffinato. **Le stelle vengono misurate** attraverso dispositivi sensibili alla luce, come i fotometri, che registrano la loro luminosità apparente con precisione millimetrica.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-se-clasifican-las-estrellas-en-categorias-de-magnitud_2.webp
 title: Come vengono classificate le stelle in categorie di magnitudine?

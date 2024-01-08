@@ -49,7 +49,7 @@ head:
 
 La formazione di una cometa nello spazio è un processo affascinante che racchiude le meraviglie e i misteri dell'universo. Queste "stelle vagabonde", come furono un tempo chiamate, sono messaggere delle condizioni primordiali del nostro Sistema Solare. Ma quale viaggio cosmico danno il via a tali corpi ghiacciati? Immergiamoci nella nascita di una cometa e tutto ciò che comporta.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come si forma una cometa nello spazio
 imageurl: https://blog.astroingeo.org/img/content/como-se-forma-un-cometa-en-el-espacio_1.webp
@@ -71,7 +71,7 @@ Man mano che questi nuclei cometari si avvicinano al sole:
 - **Sublimano**: I loro ghiacci iniziano a trasformarsi direttamente in vapore, un processo che dona vita alle caratteristiche code cometarie.
 - **Rivelano Composizioni Complesse**: Composti volatili come l'acqua, il monossido e il biossido di carbonio, i gas nobili e composti organici si sprigionano.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-se-forma-un-cometa-en-el-espacio_2.webp
 title: Come si forma una cometa nello spazio

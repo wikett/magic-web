@@ -49,7 +49,7 @@ head:
 
 La **Galassia Girasole (M63)**, sita nell'abbraccio stellare ‎della costellazione dei Cani da Caccia, è una delle meraviglie ‎astronomiche più affascinanti che abbia catturato lo sguardo di ‎astronomi e appassionati. Adorata per la sua straordinaria ‎struttura a spirale, ricorda nei suoi tratti una spirale di petali ‎fluttuanti nell'immensità cosmica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia Girasole (M63)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-girasol-m63_3.webp
@@ -68,7 +68,7 @@ La galassia M63 si trova ad una distanza approssimativa di 29 milioni di anni lu
 
 Le braccia spirali della M63 si dispiegano in un intricato pattern, ornate con ammassi stellari ‎giovanili e polveri interstellari. La loro composizione è un ‎elemento di estrema importanza per la comprensione dell'evoluzione ‎galattica.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-girasol-m63_2.webp
 title: Galassia Girasole (M63)

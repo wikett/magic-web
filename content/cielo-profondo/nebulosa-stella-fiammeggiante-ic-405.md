@@ -49,7 +49,7 @@ head:
 
 La misteriosa e avvolgente **Nebulosa Stella Fiammeggiante IC 405** si annida nel cuore dell'universo noto, offrendo uno spettacolo celestiale che incanta gli astronomi e gli appassionati di astrografia. Ufficialmente catalogata come IC 405, questa nebulosa è un crogiolo di colori e di fenomeni astronomici che suscitano meraviglia e interesse scientifico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Stella Fiammeggiante IC 405
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-flaming-star-o-ic-405_3.webp
@@ -68,7 +68,7 @@ IC 405 è una nebulosa di emissione formata principalmente da idrogeno ionizzato
 
 Per gli scienziati, la **Nebulosa Stella Fiammeggiante** è un vero e proprio laboratorio naturale dove studiare la formazione stellare, le dinamiche dei gas cosmici e l'evoluzione dei sistemi stellari.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-flaming-star-o-ic-405_2.webp
 title: Nebulosa Stella Fiammeggiante IC 405

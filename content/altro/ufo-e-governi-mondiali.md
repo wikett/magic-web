@@ -49,7 +49,7 @@ head:
 
 Da decenni, **UFO** (Oggetti Volanti Non Identificati) e governi mondiali hanno tessuto un intrigante nastro di mistero e speculazioni. Con relazioni ufficiali e dichiarazioni rilasciate solo a mezza voce, la domanda rimane: cosa sanno veramente i poteri globali sui **visitatori interstellari**?
 
-::photo-article.webp
+::photo-article
 ---
 title: UFO e governi mondiali
 imageurl: https://blog.astroingeo.org/img/content/los-ovnis-y-los-gobiernos-del-mundo_1.webp
@@ -66,7 +66,7 @@ La relazione tra gli UFO e le autorità governative è macchiata da una cortina 
 ## **L'implicazione dei Governi nelle Indagini sugli UFO**
 Le agenzie di spionaggio e i dipartimenti di difesa hanno lungamente studiato gli avvistamenti UFO, spesso senza condividere le scoperte con il pubblico.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-ovnis-y-los-gobiernos-del-mundo_2.webp
 title: UFO e governi mondiali

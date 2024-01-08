@@ -49,7 +49,7 @@ head:
 
 L'architettura antica rivela un legame profondo e sorprendente con la sfera celeste. Edifici maestosi e complessi astronomici non solo servivano a scopi pratici o spirituali, ma erano anche strumenti scientifici a cielo aperto. Scopriamo insieme come l'astronomia ha plasmato l'architettura delle culture di ieri.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il rapporto tra astronomia e architettura nelle culture antiche
 imageurl: https://blog.astroingeo.org/img/content/relacion-entre-astronomia-y-arquitectura-en-las-culturas-antiguas_1.webp
@@ -65,7 +65,7 @@ Molti templi e monumenti erano orientati rispetto ai solstizi ed equinozi, momen
 ## Simbolismo Astrale nell'Architettura
 Nei bassorilievi e affreschi spesso troviamo simboli celesti, come il sole, la luna, pianeti e costellazioni. Questi simboli non erano solo decorativi: rappresentavano un ponte tra cielo e terra, riflesso nell'architettura stessa.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/relacion-entre-astronomia-y-arquitectura-en-las-culturas-antiguas_2.webp
 title: Il rapporto tra astronomia e architettura nelle culture antiche

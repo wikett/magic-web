@@ -49,7 +49,7 @@ head:
 
 Siti nell'abbraccio buio della notte, i corpi celesti brillano rivelando i loro segreti agli occhi dei curiosi. Tra questi, **M92 (NGC 6341)**, un grappolo globulare antico e affascinante, è una gemma del cielo notturno. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso globulare M92 (NGC 6341)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-m92-ngc-6341_3.webp
@@ -67,7 +67,7 @@ Gli appassionati di astronomia possono individuare il grappolo nella parte nord-
 2. Utilizzare un binocolo o telescopio con un'apertura di almeno 4 pollici (100 mm).
 3. Cercare nelle notti di nuovo mese quando la luce lunare è minima.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-m92-ngc-6341_2.webp
 title: Ammasso globulare M92 (NGC 6341)

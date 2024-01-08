@@ -49,7 +49,7 @@ head:
 
 Scoprite con noi i dettagli sorprendenti del **Cúmulo globular Messier 4**, noto anche come **NGC 6121**, una delle gemme più luminose del cielo notturno. Questo articolo vi guiderà attraverso la maestosità di uno dei più affascinanti ammassi stellari, luogo di nascita di innumerevoli stelle e testimone della storia cosmica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cúmulo globular Messier 4 (NGC 6121)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-messier-4-ngc-6121_3.webp
@@ -72,7 +72,7 @@ Messier 4 si distingue per alcune caratteristiche affascinanti:
 - **Pulsaar in NGC 6121**: All'interno di Messier 4 sono stati scoperti alcuni pulsar, che testimoniano la presenza di stelle di neutroni estremamente dense e in rapida rotazione.
 - **Distanza dalla Terra**: Si trova a circa 7.200 anni luce di distanza, rendendolo uno dei più accessibili ammassi globulari.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-messier-4-ngc-6121_2.webp
 title: Cúmulo globular Messier 4 (NGC 6121)

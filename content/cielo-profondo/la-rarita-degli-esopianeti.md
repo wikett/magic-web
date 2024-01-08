@@ -49,7 +49,7 @@ head:
 
 Gli esopianeti, quei corpi celesti che orbitano attorno a stelle diverse dal nostro Sole, rappresentano una delle più affascinanti frontiere dell'astronomia moderna. Ma quanto sono davvero comuni o rari nell'infinito tessuto dell’Universo? Scopriamolo insieme in questo approfondimento che svela i misteri degli esopianeti e la loro effettiva frequenza cosmica. 
 
-::photo-article.webp
+::photo-article
 ---
 title: La rarità degli esopianeti
 imageurl: https://blog.astroingeo.org/img/content/la-rareza-de-los-exoplanetas_1.webp
@@ -72,7 +72,7 @@ Ciascuna di queste tecniche ha le sue limitazioni, influenzando la nostra percez
 ## L'Incidenza degli Esopianeti nella Via Lattea
 Studi recenti suggeriscono che, in media, ogni stella nella nostra galassia potrebbe avere almeno un pianeta. Tale affermazione mitiga la percezione della loro rarità, mettendo in luce un universo potenzialmente brulicante di mondi estranei.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-rareza-de-los-exoplanetas_2.webp
 title: La rarità degli esopianeti

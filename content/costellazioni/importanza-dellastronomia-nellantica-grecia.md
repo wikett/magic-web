@@ -49,7 +49,7 @@ head:
 
 L'astronomia nell'antica Grecia non era semplicemente uno studio del cielo notturno, ma il fondamento su cui si è costruita la scuola del pensiero occidentale. I filosofi greci hanno guardato alle stelle, cercando risposte alle domande sull'esistenza, l'ordine dell'universo e la natura stessa delle cose. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Importanza dellastronomia nellantica Grecia
 imageurl: https://blog.astroingeo.org/img/content/importancia-de-la-astronomia-en-la-antigua-grecia_1.webp
@@ -64,7 +64,7 @@ Gli astronomi greci hanno trasformato l'atto di osservare il cielo in una vera r
 
 **Pitagora** e la sua scuola introdussero l'idea che l'universo fosse ordinato secondo rapporti numerici. Mentre **Platone** ideò una sfera celeste perfetta, suo allievo **Aristotele** proponeva un universo geocentrico, e la sfera di cristallo divenne il modello dominante per secoli.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/importancia-de-la-astronomia-en-la-antigua-grecia_2.webp
 title: Importanza dellastronomia nellantica Grecia

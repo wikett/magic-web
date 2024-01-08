@@ -49,7 +49,7 @@ head:
 
 Le teorie del complotto riguardanti l'Area 51 hanno sempre riscaldato l'immaginario collettivo. Questa base militare segreta situata nel deserto del Nevada, è al centro di numerose ipotesi che sostengono la presenza di extraterrestri e di tecnologie aliene nascoste al pubblico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Teorie cospiratorie sugli alieni nellArea 51
 imageurl: https://blog.astroingeo.org/img/content/teorias-de-conspiracion-de-extraterrestres-en-el-area-51_1.webp
@@ -68,7 +68,7 @@ Il presunto incidente UFO di Roswell del 1947 è spesso collegato all'Area 51, n
 
 Con l'evoluzione della rete, le teorie del complotto si sono diffuse ancor di più. Il rapporto tra l'Area 51 e **gli extraterrestri** rimane un tema scottante. Internet è saturo di testimonianze, interviste e documentari che cercano di dimostrare connessioni tra il governo statunitense e possibili **visitatori alieni**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/teorias-de-conspiracion-de-extraterrestres-en-el-area-51_2.webp
 title: Teorie cospiratorie sugli alieni nellArea 51

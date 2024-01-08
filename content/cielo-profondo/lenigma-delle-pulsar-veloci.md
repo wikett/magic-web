@@ -49,7 +49,7 @@ head:
 
 I ***pulsar veloci*** rappresentano uno degli enigmi più affascinanti dell'astrofisica moderna. Queste stelle neutroni, dalla rotazione estremamente rapida, suscitano curiosità e ammirazione nei ricercatori di tutto il mondo. Ma cosa nascondono questi straordinari oggetti celesti e quali segreti possono rivelare sull'universo?
 
-::photo-article.webp
+::photo-article
 ---
 title: Lenigma delle pulsar veloci
 imageurl: https://blog.astroingeo.org/img/content/el-enigma-de-los-pulsares-rapidos_1.webp
@@ -70,7 +70,7 @@ Nel 1967, gli astronomi Jocelyn Bell Burnell e Antony Hewish furono i primi a id
 
 I **misteri dei pulsar veloci** risiedono principalmente nella loro insolita velocità di rotazione. Sono capaci di compiere fino a migliaia di rotazioni al minuto, un comportamento che rimane difficile da spiegare completamente con le attuali teorie fisiche.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-enigma-de-los-pulsares-rapidos_2.webp
 title: Lenigma delle pulsar veloci

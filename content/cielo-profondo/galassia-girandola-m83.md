@@ -49,7 +49,7 @@ head:
 
 La **Galassia Girandola (M83)** è una delle meraviglie celesti più osservate e fotografate dagli astrofili e dai professionisti dell'astronomia. Questa magnifica spirale, che risiede nell’abbraccio della costellazione dell'Idra, offre uno spettacolo di luci e colori che stimola la curiosità degli appassionati di tutto il mondo. Con la sua struttura ben definita, M83 diviene uno scrigno cosmico che celando segreti sulle dinamiche galattiche, sull'evoluzione stellare e sulla formazione delle strutture nel cosmo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia Girandola (M83)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-molinete-m83_3.webp
@@ -68,7 +68,7 @@ All’interno di M83, troviamo una ricchezza di stelle giovani e calde, ammassi 
 
 M83 è nota anche per essere uno straordinario laboratorio celeste in cui osservare fenomeni come buchi neri supermassicci e supernovae, contribuendo così in maniera significativa alla comprensione della vita delle stelle.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-molinete-m83_2.webp
 title: Galassia Girandola (M83)

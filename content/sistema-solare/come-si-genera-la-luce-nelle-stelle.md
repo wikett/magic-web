@@ -49,7 +49,7 @@ head:
 
 Il firmamento notturno è un palcoscenico su cui le stelle danzano con ardore, sprigionando una luce che attraversa anni-luce per giungere ai nostri occhi. Ma come si genera questa luce che fa scintillare le stelle come gioielli distanti nel nero velluto del cielo? Questo articolo si propone di svelare il processo attraverso cui la luce stellare viene creata, con un focus sulla fusione nucleare e i meccanismi fisici all'opera nelle profondità astrali.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come si genera la luce nelle stelle
 imageurl: https://blog.astroingeo.org/img/content/como-se-genera-la-luz-en-las-estrellas_1.webp
@@ -70,7 +70,7 @@ Le varie tappe di fusione generano una serie di reazioni che determinano il "cic
    
 Queste reazioni si susseguono in una sequenza che assicura la costanza della luce stellare nel tempo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-se-genera-la-luz-en-las-estrellas_2.webp
 title: Come si genera la luce nelle stelle

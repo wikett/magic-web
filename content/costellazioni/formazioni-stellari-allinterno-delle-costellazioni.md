@@ -49,7 +49,7 @@ head:
 
 Le costellazioni sono da secoli punti di riferimento incisi nel cielo notturno, veicoli di miti e leggende, nonché strumenti fondamentali per la navigazione e la comprensione dell'Universo. La loro formazione e distribuzione nel firmamento non è solo frutto del caso ma il risultato di millenni di osservazioni astronomiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Formazioni stellari allinterno delle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/formaciones-estelares-dentro-de-las-constelaciones_1.webp
@@ -66,7 +66,7 @@ Le stelle nascono in regioni dense e fredde dell'universo chiamate nebulose. Qui
 ### **Grappoli Stellari: Famiglie Celesti**
 All'interno delle costellazioni si possono talvolta trovare grappoli stellari, veri e propri gruppi di stelle formatisi dalla stessa nebulosa e legati dalla gravità.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/formaciones-estelares-dentro-de-las-constelaciones_2.webp
 title: Formazioni stellari allinterno delle costellazioni

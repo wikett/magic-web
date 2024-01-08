@@ -47,7 +47,7 @@ head:
 ---
 # Gli Extraterrestri Dominano la Scena di Hollywood
 
-#::photo-article.webp
+#::photo-article
 ---
 title: Gli extraterrestri nella filmografia di Hollywood
 imageurl: https://blog.astroingeo.org/img/content/los-extraterrestres-en-la-filmografia-de-hollywood_1.webp
@@ -66,7 +66,7 @@ Il fascino per l'ignoto e la vita oltre il nostro pianeta ha sempre stuzzicato l
 
 Con l'avvento di pellicole come "Contact" e "Interstellar", si nota una svolta verso l'accuratezza scientifica e le teorie astrofisiche. Questi film non si limitano a immaginare gli alieni come creature lontane, ma esplorano i metodi con cui l'umanità potrebbe effettivamente entrare in contatto con civiltà extraterrestri. 
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-extraterrestres-en-la-filmografia-de-hollywood_2.webp
 title: Gli extraterrestri nella filmografia di Hollywood

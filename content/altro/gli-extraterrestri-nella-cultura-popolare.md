@@ -49,7 +49,7 @@ head:
 
 Gli extraterrestri hanno da sempre acceso l'immaginazione degli esseri umani, a partire dalle primitive rappresentazioni rupestri fino ai moderni capolavori cinematografici. La nostra fascinazione collettiva per la possibilità di vita al di fuori del nostro pianeta ha generato un immenso corpus di opere che esplorano la nostra relazione con l'*altro* cosmico.
 
-#::photo-article.webp
+#::photo-article
 ---
 title: Gli extraterrestri nella cultura popolare
 imageurl: https://blog.astroingeo.org/img/content/los-extraterrestres-en-la-cultura-popular_1.webp
@@ -62,7 +62,7 @@ L'idea degli *alieni* è penetrata inizialmente nella letteratura, spesso come m
 #### La Fantascienza e il Riflesso Sociale
 La fantascienza ha poi adottato gli alieni per esplorare tematiche sociali sotto una luce diversa. Romanzi come "Il Giorno degli Triffidi" mostrano come la comparsa di forme di vita extraterrestri possa alterare radicalmente l'ordine mondiale attuale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-extraterrestres-en-la-cultura-popular_2.webp
 title: Gli extraterrestri nella cultura popolare

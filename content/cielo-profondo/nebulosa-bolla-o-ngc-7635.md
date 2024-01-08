@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa Bolla**, nota anche come **NGC 7635**, è uno degli spettacoli più affascinanti che l'universo abbia da offrire agli occhi dei curiosi osservatori del cielo. Questo magnifico oggetto celeste non solo incanta con la sua singolare forma ma racchiude in sé lo straordinario processo che dà vita alle stelle.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa bolla o NGC 7635
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-burbuja-o-ngc-7635_3.webp
@@ -70,7 +70,7 @@ Le dimensioni della **Nebulosa Bolla** sono anch'esse impressionanti: estendendo
 
 **Nebulosa Bolla** offre un vero tripudio di colori. L'azione degli ultravioletti sulla nebulosa fa sì che la bolla di gas si illumini con splendide tonalità di rosa e blu. È il risultato dell'interazione della radiazione con il gas principalmente composto da idrogeno e ossigeno.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-burbuja-o-ngc-7635_2.webp
 title: Nebulosa bolla o NGC 7635

@@ -49,7 +49,7 @@ head:
 
 L'osservazione delle stelle è una delle attività più affascinanti ed educative per gli appassionati di astronomia. Tuttavia, sono poche le persone che si rendono conto di quanto il meteo influenzi questa pratica. Ma **come impatta esattamente il clima sulla nostra vista del cosmo**?
 
-::photo-article.webp
+::photo-article
 ---
 title: In che modo il tempo influisce sulla nostra visione delle stelle?
 imageurl: https://blog.astroingeo.org/img/content/como-el-clima-afecta-nuestra-vista-de-las-estrellas_1.webp
@@ -68,7 +68,7 @@ Le nubi sono tra i principali **ostacoli alla visibilità delle stelle**. Il lor
 
 L'umidità atmosferica, spesso trascurata, distorce la luce stellare attraverso il fenomeno della rifrazione. Questo può provocare un effetto conosciuto come "poor seeing", ovvero una **visione sfocata o tremolante delle stelle**. Il seeing è fondamentale per studi astronomici precisi e per l'osservazione di dettagli fini come i crinali e le fessure lunari.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-el-clima-afecta-nuestra-vista-de-las-estrellas_2.webp
 title: In che modo il tempo influisce sulla nostra visione delle stelle?

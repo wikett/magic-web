@@ -47,7 +47,7 @@ head:
 ---
 # Scoperta Celeste: Il Grappolo delle Meraviglie, Messier 67
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso stellare della Cornucopia (Messier 67)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-de-estrellas-de-la-cornucopia-messier-67_3.webp
@@ -66,7 +66,7 @@ Nel lontano **1779**, l'astronomo Charles Messier catalogava **Messier 67**, uno
 
 Con una stima d’età che va oltre i **3 miliardi di anni**, Messier 67 si distingue per la sua longevità. Le stelle che lo compongono offrono una finestra sulle caratteristiche che si verificano raramente negli altri grappoli aperti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-de-estrellas-de-la-cornucopia-messier-67_2.webp
 title: Ammasso stellare della Cornucopia (Messier 67)

@@ -49,7 +49,7 @@ head:
 
 Le stelle che costellano il cielo notturno sono state da sempre muse ispiratrici di storie e guide per navigatori. Ma la loro funzione va oltre il mito e l'orientamento: esse sono chiavi essenziali per decifrare i misteri dello spazio. **L'astrofisica** e **l'astronomia** si servono di queste luccicanti sentinelle per compiere viaggi indietro nel tempo e spiegare la tessitura dell’universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come le stelle del cielo ci aiutano a capire lo spazio
 imageurl: https://blog.astroingeo.org/img/content/como-las-estrellas-en-el-cielo-nos-ayudan-a-entender-el-espacio_1.webp
@@ -68,7 +68,7 @@ L'età di una stella si rivela attraverso il suo colore e la luminosità. Stelle
 
 Le dimensioni e la massa di una stella influiscono sulla sua gravità e sul destino finale. Dalle **nane bianche** alle **supergiganti rosse**, ogni tipo stellare rappresenta uno stadio evolutivo che offre indizi sui processi che regolano la vita delle stelle.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-las-estrellas-en-el-cielo-nos-ayudan-a-entender-el-espacio_2.webp
 title: Come le stelle del cielo ci aiutano a capire lo spazio

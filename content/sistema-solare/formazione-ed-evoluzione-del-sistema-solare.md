@@ -49,7 +49,7 @@ head:
 
 Scoprire come si è formatoevoluto il nostro Sistema Solare è una domanda che affascina da secoli. Astronomi e scienziati hanno dedicato intere carriere a svelare i misteri della creazione e della trasformazione di questo complesso sistema planetario.
 
-::photo-article.webp
+::photo-article
 ---
 title: Formazione ed evoluzione del sistema solare
 imageurl: https://blog.astroingeo.org/img/content/formacion-y-evolucion-del-sistema-solar_1.webp
@@ -71,7 +71,7 @@ Migliaia di anni più tardi, entrano in campo la scienza e l'astronomia moderna,
 - **Accrescimento planetesimo**: aggregazione di polveri e gas.
 - **Formazione dei pianeti**: da piccoli grumi a corpi celesti massicci.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/formacion-y-evolucion-del-sistema-solar_2.webp
 title: Formazione ed evoluzione del sistema solare

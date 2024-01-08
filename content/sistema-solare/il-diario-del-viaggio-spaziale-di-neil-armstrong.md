@@ -49,7 +49,7 @@ head:
 
 Uno sguardo nell'intimo diario di bordo della missione Apollo 11.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il diario del viaggio spaziale di Neil Armstrong
 imageurl: https://blog.astroingeo.org/img/content/diario-del-viaje-al-espacio-de-neil-armstrong_1.webp
@@ -62,7 +62,7 @@ L'11 luglio 1969, l'Apollo 11 decollava dal Kennedy Space Center, portando sulla
 ### La Preparazione per il Decollo: Ansia e Aspettative
 **Neil Armstrong** e la sua squadra si sono sottoposti a un rigido e intenso addestramento. Ogni dettaglio, dalla simulazione del volo alla preparazione psicologica, era vitale per garantire il successo della missione.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/diario-del-viaje-al-espacio-de-neil-armstrong_2.webp
 title: Il diario del viaggio spaziale di Neil Armstrong

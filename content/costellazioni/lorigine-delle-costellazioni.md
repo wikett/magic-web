@@ -49,7 +49,7 @@ head:
 
 Le **costellazioni** ci fasciano con la loro bellezza e i misteri che racchiudono. Sono come mappe celesti che connettono stelle lontane, condividendo storie antiche e mitologie che attraversano culture e epoche. Questo articolo naviga attraverso **l'origine delle costellazioni**, esplorando questo tappeto stellato che decora il nostro cielo notturno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Lorigine delle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/el-origen-de-las-constelaciones_1.webp
@@ -62,7 +62,7 @@ Le costellazioni, insiemi di stelle collegati da linee immaginarie, sono nate da
 ### Le Prime Mappe Stellari
 Le più antiche mappe stellari risalgono alle civiltà mesopotamiche, dove cieli densi di stelle venivano divisi in aree astrali per facilitare lo studio. Astronomi babilonesi sono fra i primi a documentare gruppi stellari, associandoli a divinità e leggende.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-origen-de-las-constelaciones_2.webp
 title: Lorigine delle costellazioni

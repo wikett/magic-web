@@ -49,7 +49,7 @@ head:
 
 L'**astronomia** ha sempre giocato un ruolo fondamentale nella storia dell'**India antica**, con i suoi **ritrovamenti** e il suo **patrimonio culturale** che risalgono a migliaia di anni fa. Questo articolo si propone di esplorare le profondità della conoscenza astronomica dell'India antica, disvelandone le intuizioni e i traguardi più significativi.
 
-::photo-article.webp
+::photo-article
 ---
 title: Lastronomia nellIndia antica; storia e scoperte
 imageurl: https://blog.astroingeo.org/img/content/astronomia-en-la-antigua-india-historia-y-hallazgos_1.webp
@@ -64,7 +64,7 @@ Gli antichi indiani non erano solo filosofi ma anche eccellenti astronomi. Guard
 ### **Impatto Sociale dell'Astronomia**
 L'astronomia aveva un forte impatto sulla vita quotidiana, dall'agricoltura alla navigazione, dall'architettura all'astrologia. Era una parte essenziale della cultura e spiritualità indiana.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/astronomia-en-la-antigua-india-historia-y-hallazgos_2.webp
 title: Lastronomia nellIndia antica; storia e scoperte

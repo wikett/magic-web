@@ -49,7 +49,7 @@ head:
 
 L'astronomia è un campo che stuzzica la curiosità e spinge i limiti della nostra comprensione dell'universo. Un argomento particolarmente affascinante è l'esistenza di costellazioni al di fuori della nostra galassia, la Via Lattea. In questo articolo, immersioni nella scoperta delle formazioni stellari oltre i confini galattici, esplorando il vasto cosmo e i misteri che attendono.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazioni al di fuori della Via Lattea
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-fuera-de-la-via-lactea_1.webp
@@ -72,7 +72,7 @@ Mentre le tradizionali costellazioni sono appunto una sorta di illusione ottica,
 
 Questi sistemi, sebbene singolarmente non siano costellazioni, formano un "quartiere" celeste di galassie interagenti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-fuera-de-la-via-lactea_2.webp
 title: Costellazioni al di fuori della Via Lattea

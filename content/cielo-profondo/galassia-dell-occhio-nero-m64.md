@@ -49,7 +49,7 @@ head:
 
 La **Galassia Occhio Nero (M64)** è un oggetto astronomico che affascina scienziati e appassionati di astronomia. Anche nota come *Sleeping Beauty Galaxy*, questa meraviglia del cosmo cela segreti che sono stati oggetto di intensi studi e osservazioni.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia dellOcchio Nero (M64)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-ojo-negro-m64_3.webp
@@ -62,7 +62,7 @@ La M64 è nota per la sua distintiva banda di polvere oscura che attraversa il s
 ### Posizione e Distanza
 **Potete trovarla** nella costellazione della Chioma di Berenice, la M64 si distingue per essere una delle galassie più intriganti visibili dall'emisfero boreale.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-ojo-negro-m64_2.webp
 title: Galassia dellOcchio Nero (M64)

@@ -49,7 +49,7 @@ head:
 
 Il cosmo è un vasto tesoro di meraviglie, e al suo interno, la nostra galassia, la Via Lattea, ospita alcune delle stelle più affascinanti e uniche che si possano immaginare. Questa guida vi porterà alla scoperta delle stelle più insolite e spettacolari che brillano nel nostro universo locale.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le stelle più singolari della nostra galassia
 imageurl: https://blog.astroingeo.org/img/content/estrellas-mas-singulares-en-nuestra-galaxia_1.webp
@@ -68,7 +68,7 @@ Le stelle non sono tutte uguali, la loro massa può variare enormemente.
 
 **Giganti rosse** come Betelgeuse dominano il cielo con la loro enorme estensione. Se posizionata al centro del nostro sistema solare, Betelgeuse inghiottirebbe i pianeti fino a Marte. Invece, **supergiganti blu** come Rigel ci stupiscono con le loro intense radiazioni ultraviolette e la loro massiccia presenza.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-mas-singulares-en-nuestra-galaxia_2.webp
 title: Le stelle più singolari della nostra galassia

@@ -49,7 +49,7 @@ head:
 
 Il regno celeste che ci sovrasta è una vasta tela di meraviglie, un tessuto di corpi luccicanti che danzano secondo leggi ben precise. Tra queste astrali meraviglie, i pianeti del nostro sistema solare si distinguono per le loro uniche caratteristiche e peculiarità. Oggi vi guiderò in un esplorazione comparativa, dove metteremo a confronto gli otto noti sovrani di questo nostro piccolo angolo cosmico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Confronto tra i pianeti del sistema solare
 imageurl: https://blog.astroingeo.org/img/content/comparacion-de-planetas-del-sistema-solar_1.webp
@@ -76,7 +76,7 @@ Mercurio, il più piccole e più vicino al Sole, è un mondo di estremi termici 
 
 Venere, con la sua densa atmosfera di anidride carbonica e le sue temperature infernali, è il classic esempio di effetto serra sfuggito ad ogni controllo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/comparacion-de-planetas-del-sistema-solar_2.webp
 title: Confronto tra i pianeti del sistema solare

@@ -49,7 +49,7 @@ head:
 
 Il fenomeno dei rapimenti alieni ha catturato l'immaginazione collettiva per decenni. Spesso descritto nei racconti della cultura popolare, i casi di **abduzioni extraterrestri documentate** pongono interrogativi sia alla scienza che alla società. Questo articolo esplora alcuni degli episodi più noti e gli aspetti scientifici dietro questi resoconti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Casi documentati di rapimenti extraterrestri
 imageurl: https://blog.astroingeo.org/img/content/casos-de-abducciones-extraterrestres-documentadas_1.webp
@@ -68,7 +68,7 @@ Un altro caso di nota è l'incidente Travis Walton del 1975. Walton, un lavorato
 
 La comunità scientifica rimane in gran parte scettica riguardo alle **abduzioni extraterrestri**, attribuendo molte delle testimonianze a fenomeni psicologici come paralisi del sonno, illusioni ipnagogiche o suggestione. Tuttavia, gli ufologi enfatizzano la coerenza di molti racconti come possibile indicazione di un fenomeno reale non ancora compreso dalla scienza.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/casos-de-abducciones-extraterrestres-documentadas_2.webp
 title: Casi documentati di rapimenti extraterrestri

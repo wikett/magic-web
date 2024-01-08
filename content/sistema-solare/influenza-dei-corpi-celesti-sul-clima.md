@@ -51,7 +51,7 @@ Da millenni, la danza cosmica dei corpi celesti ha affascinato e influenzato le 
 
 Scopriamo insieme l'implicazione stellare nella meteorologia terrestre e la sua significativa rilevanza nell'ambito climatico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Influenza dei corpi celesti sul clima
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-los-cuerpos-celestes-en-el-clima_1.webp
@@ -73,7 +73,7 @@ La **Luna**, nostro fedele satellite naturale, regola le maree e stabilizza l'in
 
 - **Maree**: Il fenomeno delle maree è essenziale per i sistemi ecologici marini e può influenzare i climi regionali.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-los-cuerpos-celestes-en-el-clima_2.webp
 title: Influenza dei corpi celesti sul clima

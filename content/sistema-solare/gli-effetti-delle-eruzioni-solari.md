@@ -49,7 +49,7 @@ head:
 
 Il Sole, la stella al centro del nostro sistema solare, è una fonte costante di energia, calore e luce. Ma a volte, questo gigante tranquillo si scatena in attività notevoli come le eruzioni solari, fenomeni che suscitano interesse e preoccupazione a causa dei loro potenziali effetti sulla Terra. In questo approfondimento esploreremo l'impatto di questi eventi astronomici, delineando non solo le conseguenze dirette ma anche aspetti meno conosciuti legati alle tempeste solari.
 
-::photo-article.webp
+::photo-article
 ---
 title: Gli effetti delle eruzioni solari
 imageurl: https://blog.astroingeo.org/img/content/los-efectos-de-los-flares-solares_1.webp
@@ -69,7 +69,7 @@ La Terra è protetta dal proprio campo magnetico, lo scudo invisibile che devia 
 - **Interruzioni satellitari**: Le eruzioni possono danneggiare i satelliti, influenzando la telefonia mobile, la trasmissione televisiva e la navigazione GPS.
 - **Rete elettrica**: I repentini cambiamenti nel campo magnetico possono indurre correnti elettriche in superficie, rischiando di sovraccaricare le reti di trasmissione elettrica.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-efectos-de-los-flares-solares_2.webp
 title: Gli effetti delle eruzioni solari

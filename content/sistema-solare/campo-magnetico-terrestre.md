@@ -49,7 +49,7 @@ head:
 
 Il **campo magnetico terrestre** è una componente invisibile del nostro pianeta che svolge molteplici funzioni cruciali per la vita sulla Terra. In questo articolo scaveremo in profondità per esplorare la natura, l'origine e le implicazioni di questo straordinario fenomeno naturale.
 
-::photo-article.webp
+::photo-article
 ---
 title: Campo magnetico terrestre
 imageurl: https://blog.astroingeo.org/img/content/campo-magnetico-terrestre_1.webp
@@ -64,7 +64,7 @@ Il campo magnetico terrestre, o geomagnetismo, ha origine dall'attività dinamic
 ### **Componenti Magnetici Vitali**
 Questo scudo invisibile è composto da più elementi, inclusi il polo nord magnetico e il polo sud magnetico, che differiscono dai poli geografici. Inoltre, la Magnetosfera è la regione influenzata dal geomagnetismo, cruciale nella protezione da particelle solari e radiazioni cosmiche.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/campo-magnetico-terrestre_2.webp
 title: Campo magnetico terrestre

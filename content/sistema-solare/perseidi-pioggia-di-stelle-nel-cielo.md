@@ -49,7 +49,7 @@ head:
 
 Le **Perseidi**, conosciute anche come lacrime di San Lorenzo, sono una delle più affascinanti piogge di stelle cadenti che adornano il cielo notturno. Questa meraviglia astronomica cattura lo sguardo di innumerevoli appassionati e curiosi, regalando uno spettacolo senza eguali.
 
-::photo-article.webp
+::photo-article
 ---
 title: Perseidi; pioggia di stelle nel cielo
 imageurl: https://blog.astroingeo.org/img/content/perseidas-lluvia-de-estrellas-en-el-cielo_1.webp
@@ -68,7 +68,7 @@ Il picco delle **Perseidi** avviene generalmente tra il 9 e il 13 agosto, quando
 
 La miglior osservazione avviene di solito dopo la mezzanotte fino all'alba, quando il radiante, ovvero il punto da cui sembrano provenire le stelle cadenti, è alto nel cielo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/perseidas-lluvia-de-estrellas-en-el-cielo_2.webp
 title: Perseidi; pioggia di stelle nel cielo

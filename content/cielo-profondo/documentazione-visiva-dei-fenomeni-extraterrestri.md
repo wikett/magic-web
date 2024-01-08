@@ -49,7 +49,7 @@ head:
 
 L'intrigo per l'inconoscibile spazio cosmico e **fenomeni extraterrestri** ha sempre riscaldato l'immaginario collettivo, conducendo a un'incessante ricerca e documentazione visuale di ciò che si manifesta nei nostri cieli e oltre. In questo articolo, esploriamo la **documentazione visiva di fenomeni extraterrestri**, sviscerando come questi fenomeni siano stati catturati e analizzati nel corso del tempo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Documentazione visiva dei fenomeni extraterrestri
 imageurl: https://blog.astroingeo.org/img/content/documentacion-visual-de-fenomenos-extraterrestres_1.webp
@@ -75,7 +75,7 @@ Questi strumenti hanno reso possibile non solo la visualizzazione ma anche la **
 
 L'avvento del digitale ha rappresentato un'ulteriore rivoluzione nella **documentazione astronomica**. Il potenziamento dei sensori, le tecniche di imaging avanzato e l'elaborazione dati hanno aperto nuovi orizzonti nella ricerca.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/documentacion-visual-de-fenomenos-extraterrestres_2.webp
 title: Documentazione visiva dei fenomeni extraterrestri

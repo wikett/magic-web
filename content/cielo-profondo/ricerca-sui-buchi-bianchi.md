@@ -49,7 +49,7 @@ head:
 
 L'universo nasconde misteri che per secoli hanno acceso l'immaginazione di scienziati e appassionati. Tra questi, sorge il concetto affascinante del **buco bianco**, un'ipotetica regione cosmica che rappresenta l'antitesi dei più noti buchi neri. Scopriamo insieme le ultime ricerche e teorie che animano il dibattito scientifico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Ricerca sui buchi bianchi
 imageurl: https://blog.astroingeo.org/img/content/investigaciones-sobre-agujeros-blancos_1.webp
@@ -65,7 +65,7 @@ La teoria dei buchi bianchi ruota attorno a modelli matematici che ne descrivono
 ### Relazione tra Buchi Neri e Buchi Bianchi
 Un'ipotesi affascinante suggerisce che i buchi bianchi potrebbero essere il risultato finale dell'evoluzione di un buco nero. Questo scenario è noto come il modello di **transizione buco nero-buco bianco** e apre nuove prospettive sull'eternità e sul ciclo vitale degli oggetti compatti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/investigaciones-sobre-agujeros-blancos_2.webp
 title: Ricerca sui buchi bianchi

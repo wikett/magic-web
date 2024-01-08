@@ -49,7 +49,7 @@ head:
 
 L'astrologia e l'astronomia sono due facce della stessa moneta nelle civiltà antiche. Questo articolo analizza il ruolo delle stelle e dei corpi celesti nelle antiche culture, esaminando le tecniche e le conoscenze che hanno influenzato la navigazione, l'agricoltura e la spiritualità.
 
-::photo-article.webp
+::photo-article
 ---
 title: Lo studio delle stelle nelle civiltà antiche
 imageurl: https://blog.astroingeo.org/img/content/estudio-de-las-estrellas-en-civilizaciones-antiguas_1.webp
@@ -67,7 +67,7 @@ L'**antico Egitto** è rinomato per la sua profonda connessione con il cosmo. Le
 ## Gli Astronomi della Mesopotamia
 La civiltà mesopotamica, con i suoi **Babilonesi** e **Sumeri**, ha giocato un ruolo cruciale nello sviluppo dell'astronomia. La loro abilità nel catalogare le stelle e prevedere gli eventi celesti, come le eclissi, è stata senza precedenti. *La scrittura cuneiforme ha conservato gran parte di questo sapere.*
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estudio-de-las-estrellas-en-civilizaciones-antiguas_2.webp
 title: Lo studio delle stelle nelle civiltà antiche

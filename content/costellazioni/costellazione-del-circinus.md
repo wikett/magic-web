@@ -49,7 +49,7 @@ head:
 
 La costellazione del **Circinus**, o Compasso, risplende di storia e meraviglia nell'immensità del cielo. I suoi segreti si svelano agli occhi degli appassionati di astronomia e ora è giunto il momento di avventurarsi in un viaggio alla scoperta di questa regione stellare meno conosciuta e altrettanto affascinante.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione del Circinus
 imageurl: https://blog.astroingeo.org/img/content/constelacion-circinus_1.webp
@@ -74,7 +74,7 @@ Ogni stella contribuisce al fascino di questa costellazione, offrendo un panoram
 
 Situato nell'emisfero sud, Circinus si colloca tra le costellazioni del Centauro e del Triangolo Australe. Non è visibile dalle latitudini nordiche, ma nel sud si presenta come un gioiello del cielo notturno.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-circinus_2.webp
 title: Costellazione del Circinus

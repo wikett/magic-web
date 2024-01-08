@@ -49,7 +49,7 @@ head:
 
 Il cosmo si manifesta nella sua maestosa bellezza attraverso gli ammassi stellari, e uno dei più incantevoli è senza dubbio il **Jewel Box**. Situato a circa 6.400 anni luce dalla Terra, nel costellazione del Crocicchio Australe, questo stellato scrigno, noto scientificamente come NGC 4755, è un vero e proprio tesoro celeste.
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso stellare Jewel Box (NGC 4755)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-estelar-del-joyero-ngc-4755_3.webp
@@ -66,7 +66,7 @@ Le stelle di **NGC 4755** spiccano per le diverse tonalità di colore, dai brill
 
 ## Esplorare la Composizione Stellare
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-estelar-del-joyero-ngc-4755_2.webp
 title: Ammasso stellare Jewel Box (NGC 4755)

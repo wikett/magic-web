@@ -49,7 +49,7 @@ head:
 
 Navigare attraverso gli oceani immensi ha da sempre affascinato e impaurito l'uomo, ma, nel corso dei millenni, i marinari hanno trovato nella volta celeste un alleato infallibile. **Le costellazioni** e le stelle hanno guidato innumerevoli viaggiatori attraverso mari e oceani, diventando faro di orientamento nella vastità del mare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come le costellazioni guidano i naviganti
 imageurl: https://blog.astroingeo.org/img/content/como-las-constelaciones-guian-a-marineros_1.webp
@@ -72,7 +72,7 @@ Le **costellazioni** non sono altro che raggruppamenti di stelle che, nella ment
 
 Il ruolo della Stella Polare, o Polaris, è centrale nella navigazione stellare. Situata quasi esattamente sopra il polo nord celeste, fornisce uno stabile punto di riferimento direzionale per i navigatori dell'emisfero boreale. Seguire la Stella Polare si traduce in mantenere un corso verso nord.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-las-constelaciones-guian-a-marineros_2.webp
 title: Come le costellazioni guidano i naviganti

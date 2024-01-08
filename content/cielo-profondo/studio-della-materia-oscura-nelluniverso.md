@@ -49,7 +49,7 @@ head:
 
 La materia oscura è uno dei misteri più affascinanti che continua a perseguitare gli astronomi e i fisici di tutto il mondo. Sebbene non possiamo vederla direttamente, **la materia oscura** gioca un ruolo cruciale nell'universo, influenzando la rotazione delle galassie, la formazione delle strutture cosmiche e perfino il destino dell'intero cosmo. Ma cosa sappiamo veramente su questa entità enigmatica?
 
-::photo-article.webp
+::photo-article
 ---
 title: Studio della materia oscura nelluniverso
 imageurl: https://blog.astroingeo.org/img/content/estudio-de-la-materia-oscura-en-el-universo_1.webp
@@ -76,7 +76,7 @@ Questi metodi si basano sulla comprensione delle interazioni gravitazionali che 
 
 La materia oscura ha un ruolo predominante nella formazione delle strutture cosmiche. Senza la presenza di questa materia invisibile, la formazione di galassie, ammassi e superammassi non avverrebbe come osservato.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estudio-de-la-materia-oscura-en-el-universo_2.webp
 title: Studio della materia oscura nelluniverso

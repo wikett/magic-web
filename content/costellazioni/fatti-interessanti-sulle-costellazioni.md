@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un mosaico di stelle che da sempre incanta l'umanità. Le **costellazioni** sono state compagne delle notti di navigatori, poeti e sognatori. Ma quali sono le curiosità più sorprendenti che riguardano questi enigmatici disegni celesti?
 
-::photo-article.webp
+::photo-article
 ---
 title: Fatti interessanti sulle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/datos-interesantes-sobre-las-constelaciones_1.webp
@@ -70,7 +70,7 @@ Le costellazioni non sono solo raggruppamenti di stelle: sono eredità culturali
 
 Le costellazioni sono ricche di **mitologia**. Ogni raggruppamento è legato a leggende e simbolismi.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/datos-interesantes-sobre-las-constelaciones_2.webp
 title: Fatti interessanti sulle costellazioni

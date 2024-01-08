@@ -49,7 +49,7 @@ head:
 
 L'**Hen 2-104**, conosciuta affascinantemente come la **Nebulosa del Diavolo della Tasmania**, è un oggetto celeste dai colori vivaci che risalta nel cielo notturno. Scopriamo insieme i segreti di questa straordinaria nebulosa simbiotica e ciò che la rende unica nel suo genere.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa del Diavolo della Tasmania o Gallina 2-104
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-diablo-de-tasmania-o-hen-2-104_3.webp
@@ -65,7 +65,7 @@ I colori sgargianti dell'**Hen 2-104** derivano dal materiale espulso dalla stel
 ## Nella Fotografia dell’Universo
 Per gli appassionati di astrofotografia, la **Nebulosa del Diavolo della Tasmania** rappresenta una sfida entusiasmante. Risulta essere un soggetto ideale per fotografie ad alta risoluzione che mostrano una sinfonia di colori e forme.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-diablo-de-tasmania-o-hen-2-104_2.webp
 title: Nebulosa del Diavolo della Tasmania o Gallina 2-104

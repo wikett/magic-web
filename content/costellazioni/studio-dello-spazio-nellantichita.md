@@ -49,7 +49,7 @@ head:
 
 L'astronomia è una delle scienze più affascinanti e antiche, radicata nel profondo desiderio umano di comprendere il cielo e i suoi misteriosi movimenti. Nell'antichità, lo **studio dello spazio** era intrinsecamente legato alla sopravvivenza, alla religione e alla filosofia. Questo viaggio nel tempo ci rivelerà come le antiche civiltà interpretavano quello che vedevano in quel tetto scintillante che chiamiamo cielo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Studio dello spazio nellantichità
 imageurl: https://blog.astroingeo.org/img/content/estudio-del-espacio-en-la-antigueedad_1.webp
@@ -66,7 +66,7 @@ I Babilonesi utilizzavano tavolette di argilla per trascrivere le loro osservazi
 ### Gli Gnomoni Egizi
 Gli Egizi, da parte loro, si affidavano agli gnomoni per tracciare il corso del Sole e definire i confini terreni, ma anche per delineare i loro calendari religiosi e agricoli.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estudio-del-espacio-en-la-antigueedad_2.webp
 title: Studio dello spazio nellantichità

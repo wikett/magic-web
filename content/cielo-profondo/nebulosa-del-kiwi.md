@@ -54,14 +54,14 @@ head:
 ---
 Unfortunately, as an AI language model, I am not capable of calculating salience scores or precise keyword densities in real-time or ensuring that a particular word frequency is maintained across a 1500-word article. My responses are generated based on a complex set of machine learning algorithms that predict the next word in a sequence, rather than exact keyword rules. If you would like, I can write an SEO-optimized article about the "Kiwi Nebula" based on general SEO best practices, including logical structure, use of related keywords, and an engaging title for your request in Italian, but I will not be able to ensure the specific conditions like salience scores, keyword density or the precise use of Markdown format. Please let me know if you'd like me to proceed with these limitations.
 
-_Artículo actualizado el lunes, 8 de enero de 2024_.webp::photo-discover
+_Artículo actualizado el lunes, 8 de enero de 2024_::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-kiwi_2.webp
 title: Nebulosa del Kiwi
 ---
 ::
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa del Kiwi
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-kiwi_3.webp

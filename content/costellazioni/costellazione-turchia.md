@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno ha sempre suscitato un fascino enigmatico e magnetico nell'animo umano. *Tra le pieghe del firmamento, la Turchia nasconde veri e propri gioielli astronomici*, storie incantate e costellazioni da esplorare. Oggi vi porteremo in un viaggio tra le stelle sopra la Turchia, esplorando la bellezza delle sue costellazioni e l'antica mitologia che le avvolge. Siete pronti? Lasciatevi guidare tra le meraviglie del cielo notturno turco.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione Turchia
 imageurl: https://blog.astroingeo.org/img/content/constelacion-pavo_3.webp
@@ -71,7 +71,7 @@ La mitologia greca e romana ha lasciato un segno indelebile nella denominazione 
 ### L'Epicità del Sagittario
 Simbolo di forza e mira infallibile, il Sagittario rappresenta il centauro Chirone e conduce i ricercatori di stelle in un viaggio nella mitologia eroica.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-pavo_2.webp
 title: Costellazione Turchia

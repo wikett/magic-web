@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno dell'emisfero meridionale è un vero tesoro celeste, ricco di stelle scintillanti e costellazioni affascinanti che attendono di essere scoperte. Se ti trovi a sud dell'equatore, sei in una posizione privilegiata per ammirare alcuni dei gioielli più luminosi dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Stelle nel cielo dellemisfero australe
 imageurl: https://blog.astroingeo.org/img/content/estrellas-en-el-cielo-del-hemisferio-sur_1.webp
@@ -78,7 +78,7 @@ Le costellazioni australi sono uniche e offrono panorami stellari che chi vive n
 - Tucano (Tucana): casa della Piccola Nube di Magellano.
 - Carena (Carina): con la supergigante Eta Carinae.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-en-el-cielo-del-hemisferio-sur_2.webp
 title: Stelle nel cielo dellemisfero australe

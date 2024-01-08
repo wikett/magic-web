@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un mosaico di storie e leggende, delineato da stelle che per eoni hanno guidato esploratori, affascinato poeti e alimentato la curiosità degli astronomi. Fra queste, le costellazioni minori rappresentano un capitolo spesso trascurato, ma ricco di meraviglie celestiali. Questo articolo è un viaggio alla scoperta di questi scrigni di luce, affrontando domande comuni e mostrando come anche questi raggruppamenti stellari più umili hanno storie da raccontare e segreti da svelare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione minore
 imageurl: https://blog.astroingeo.org/img/content/constelacion-menor_1.webp
@@ -68,7 +68,7 @@ Identificare queste costellazioni può sembrare intimidatorio, ma alcuni consigl
 2. Imparare a riconoscere alcune costellazioni maggiori come punti di riferimento.
 3. Ricercare i momenti migliori per l'osservazione, che spesso coincidono con specifiche stagioni.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-menor_2.webp
 title: Costellazione minore

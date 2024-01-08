@@ -49,7 +49,7 @@ head:
 
 L'antico Egitto è noto per la sua maestosa cultura, e fra i vari elementi che hanno influenzato profondamente tale civiltà, pochi risaltano come l'impatto mitologico e astronomico della costellazione di Orione. La figura del "Cacciatore Celeste" ha dominato il cielo notturno e la spiritualità egizia, fungendo da guida cosmica per i faraoni e la loro transizione nell'aldilà.
 
-::photo-article.webp
+::photo-article
 ---
 title: Importanza di Orione per gli Egizi
 imageurl: https://blog.astroingeo.org/img/content/importancia-de-orion-para-los-egipcios_1.webp
@@ -68,7 +68,7 @@ Per gli Egizi, Orione non era soltanto una costellazione, ma incarnava l'essenza
 
 Osiride, raffigurato spesso come una mummia, simboleggiava sia la fertilità che il regno oltre la tomba. La sua associazione con Orione non era arbitraria ma derivava dalla **somiglianza metaforica** tra la "rinascita" delle stelle e il ciclo di morte e resurrezione del dio.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/importancia-de-orion-para-los-egipcios_2.webp
 title: Importanza di Orione per gli Egizi

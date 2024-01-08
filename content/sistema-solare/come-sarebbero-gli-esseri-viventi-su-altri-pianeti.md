@@ -49,7 +49,7 @@ head:
 
 L'esplorazione spaziale è cresciuta esponenzialmente negli ultimi decenni, portando a domande affascinanti: **come sarebbero gli esseri viventi su altri pianeti**? Questa ricerca cattura la nostra immaginazione e spinge verso nuove scoperte. La vita extraterrestre potrebbe differire significativamente da quella terrestre, modellata da ambienti alieni. Questo articolo esplora tale possibilità, in linea con le ipotesi scientifiche più accreditate.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come sarebbero gli esseri viventi su altri pianeti?
 imageurl: https://blog.astroingeo.org/img/content/como-serian-los-seres-vivos-en-otros-planetas_1.webp
@@ -66,7 +66,7 @@ La vita su altri pianeti dipenderà da fattori come gravità, temperatura e comp
 
 Su un pianeta con gravità elevata, le forme di vita potrebbero sviluppare strutture più robuste e compatte. Viceversa, bassa gravità potrebbe tradursi in creature slanciate e di grandi dimensioni.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-serian-los-seres-vivos-en-otros-planetas_2.webp
 title: Come sarebbero gli esseri viventi su altri pianeti?

@@ -49,7 +49,7 @@ head:
 
 Scoperta nell'agosto del 2014 dall'astrofilo Terry Lovejoy, la **Cometa C/2014 Q2 Lovejoy**, spesso denominata come la *Cometa Verde*, ha suscitato entusiasmo e meraviglia tra gli appassionati di astronomia e il pubblico generale. Quest'articolo si pone l'obiettivo di esplorare le caratteristiche uniche di questa visitatrice dello spazio profondo e di offrire una guida per osservarla al meglio nel cielo notturno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia della cometa verde (C/2014 Q2 Lovejoy)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-cometa-verde-c-2014-q2-lovejoy_3.webp
@@ -64,7 +64,7 @@ Si tratta di una cometa periodica che ha catturato l'attenzione per la sua strao
 ### Struttura e Composizione
 La **Cometa Lovejoy** è composta di una rocciosa nucleo ghiacciato, circondato da una luminosa atmosfera, o coma, e seguito da una scia luminosa, o coda, che si allunga per milioni di chilometri nello spazio.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-cometa-verde-c-2014-q2-lovejoy_2.webp
 title: Galassia della cometa verde (C/2014 Q2 Lovejoy)

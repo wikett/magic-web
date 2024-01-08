@@ -49,7 +49,7 @@ head:
 
 Giove non è solo un gigante nel nome ma anche un gigante tra i pianeti del nostro Sistema Solare. Il suo fascino ha stimolato la curiosità di astronomi professionisti e appassionati per secoli. Andiamo a scoprire alcune delle curiosità più sorprendenti di questo pianeta straordinario.
 
-::photo-article.webp
+::photo-article
 ---
 title: Curiosità su Giove
 imageurl: https://blog.astroingeo.org/img/content/datos-curiosos-sobre-jupiter_1.webp
@@ -68,7 +68,7 @@ Ogni **giorno** su Giove è una vera e propria corsa contro il tempo! Il pianeta
 
 Una delle caratteristiche più notevoli di Giove è la sua **vibrante palette di colori** che danzano su tutta la sua superficie. Questa policromia è il risultato dell'interazione tra sostanze chimiche come lo zolfo e il fosforo nella sua atmosfera superiore.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/datos-curiosos-sobre-jupiter_2.webp
 title: Curiosità su Giove

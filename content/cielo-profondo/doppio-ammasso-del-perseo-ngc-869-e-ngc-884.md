@@ -49,7 +49,7 @@ head:
 
 Uno sguardo al cielo notturno può rivelare meraviglie che superano l'immaginazione, e tra queste, il **Doppio Ammasso del Perseo** (NGC 869 e NGC 884) si distingue come una delle visioni più affascinanti per astrofili e professionisti. Questa coppia di ammassi stellari non è solo un celebre soggetto di osservazione ma anche un eccellente esempio della maestosità delle nostre vicinanze cosmiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Doppio ammasso del Perseo (NGC 869 e NGC 884)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-doble-de-perseo-ngc-869-y-ngc-884_3.webp
@@ -66,7 +66,7 @@ I gemelli stellari NGC 869 e NGC 884 si trovano a circa 7.600 anni luce dalla Te
 
 Attraverso l'oculare di un telescopio, il **Doppio Ammasso del Perseo** si mostra in tutto il suo splendore. Migliaia di stelle si accendono come diamanti su un velo di velluto nero. Tra questi corpi celesti, astri di tutte le magnitudini condividono lo spazio, formando un collage luminoso che affascina osservatori di ogni grado.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-doble-de-perseo-ngc-869-y-ngc-884_2.webp
 title: Doppio ammasso del Perseo (NGC 869 e NGC 884)

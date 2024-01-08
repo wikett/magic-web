@@ -49,7 +49,7 @@ head:
 
 Le stelle sono le gemme scintillanti che ricamano il velo notturno del cielo. Ogni stella, tuttavia, anche se sembra eterna, segue un proprio ciclo di vita, un'avventura cosmica che è sia complessa che affascinante. Questo articolo illumina il cammino stellare dal concepimento alla sua conclusione celestiale.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il ciclo di vita delle stelle nel cielo
 imageurl: https://blog.astroingeo.org/img/content/el-ciclo-de-vida-de-las-estrellas-en-el-cielo_1.webp
@@ -74,7 +74,7 @@ Le protostelle crescendo, accumulano massa. Come giovani aspiranti, lottano per 
 
 Ogni stella passa gran parte della sua esistenza nella **sequenza principale**, un periodo stabile dove l'equilibrio tra pressione e gravità definisce un lungo periodo di armonia nucleare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-ciclo-de-vida-de-las-estrellas-en-el-cielo_2.webp
 title: Il ciclo di vita delle stelle nel cielo

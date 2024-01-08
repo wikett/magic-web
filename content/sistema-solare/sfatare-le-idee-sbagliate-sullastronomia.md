@@ -49,7 +49,7 @@ head:
 
 L'astronomia è una scienza affascinante che esplora gli angoli più remoti dell'universo, ma è anche campo fertile per numerosi miti e malintesi. Attraverso questo articolo, analizzeremo e correggeremo alcune delle più comuni misconceptions legate al mondo stellare, utilizzando una struttura logica e parole chiave legate al contesto.
 
-::photo-article.webp
+::photo-article
 ---
 title: Sfatare le idee sbagliate sullastronomia
 imageurl: https://blog.astroingeo.org/img/content/conceptos-erroneos-en-astronomia-desmentidos_1.webp
@@ -69,7 +69,7 @@ Queste distanze, immense a livello umano, ci ricordano quanto enormi siano gli s
 ## La Luna Presenta un Lato Sempre Oscuro
 Un altro errore comune riguarda la Luna e il suo cosiddetto "lato oscuro". È vero che la Luna mostra sempre la stessa faccia verso la Terra, ma ciò **non significa che un emisfero sia perpetuamente senza luce**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/conceptos-erroneos-en-astronomia-desmentidos_2.webp
 title: Sfatare le idee sbagliate sullastronomia

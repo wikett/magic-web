@@ -49,7 +49,7 @@ head:
 
 **Giove**, il re dell'Olimpo celeste, non è solo il pianeta più grande del nostro sistema solare, ma anche un oggetto di meraviglia e curiosità per chiunque alzi lo sguardo verso il cielo stellato. Non stiamo parlando del dio romano, ma del gigante gassoso che domina nettamente il quartier generale terrestre, il cui fascino è senza tempo come i miti che ne narrano.
 
-::photo-article.webp
+::photo-article
 ---
 title: Giove
 imageurl: https://blog.astroingeo.org/img/content/jupiter_1.webp
@@ -68,7 +68,7 @@ Cosa rende **Giove** unico nel sistema solare? A parte le dimensioni, una delle 
 
 **Giove** non è solo un gigante distante ma svolge un ruolo vitale nel proteggere la Terra dagli impatti di asteroidi e comete, fungendo da scudo gravitazionale. La sua grande massa cattura o devia corpi celesti potenzialmente pericolosi, mantenendo il nostro pianeta più sicuro.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/jupiter_2.webp
 title: Giove

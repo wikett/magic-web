@@ -49,7 +49,7 @@ head:
 
 La fascinazione per l'universo non si placa mai, e le domande su come e dove cogliere i fenomeni celesti rimangono alte nella lista delle curiosità astronomiche. **La cintura di asteroidi** è uno degli argomenti più intriganti per gli appassionati di astronomia. Se ti stai chiedendo dove personalmente poter osservare **questo affascinante agglomerato di roccia e ghiaccio**, sei nel posto giusto.
 
-::photo-article.webp
+::photo-article
 ---
 title: Dove vedere la fascia degli asteroidi
 imageurl: https://blog.astroingeo.org/img/content/donde-ver-el-cinturon-de-asteroides_1.webp
@@ -75,7 +75,7 @@ Prima di partire alla volta degli osservatori, ecco cosa dovresti considerare:
 - **Telescopi**: Equipaggiato con un buon telescopio, puoi avventurarti nell'individuazione della cintura di asteroidi anche da casa tua, qualora vivessi in una zona con scarsa illuminazione artificiale.
 - **Mappe stellari**: Per orientarti e sapere esattamente dove guardare, puoi servirti di mappe stellari o app mobile specifiche.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/donde-ver-el-cinturon-de-asteroides_2.webp
 title: Dove vedere la fascia degli asteroidi

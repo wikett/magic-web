@@ -49,7 +49,7 @@ head:
 
 Cassiopea, con le sue caratteristiche stelle a forma di W, è una costellazione che non cessa di affascinare e intrigare gli amanti del cielo notturno. Situata nell'emisfero settentrionale, **Cassiopea** è di facile individuazione grazie alla sua peculiare configurazione stellare e alla sua storia mitologica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione Cassiopea
 imageurl: https://blog.astroingeo.org/img/content/constelacion-casiopea_3.webp
@@ -76,7 +76,7 @@ Queste **stelle brillanti** creano il disegno distintivo che da millenni guida e
 
 L'osservazione di **Cassiopea** offre molto più che una semplice contemplazione di stelle. Al suo interno si celano ammassi stellari e nebulose che aspettano di essere esplorati.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-casiopea_2.webp
 title: Costellazione Cassiopea

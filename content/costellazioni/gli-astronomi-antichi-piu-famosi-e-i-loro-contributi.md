@@ -49,7 +49,7 @@ head:
 
 I cieli notturni hanno sempre sospinto l'umanità verso il vasto universo, spingendola a cercare risposte e significati nello studio degli astri. Gli antichi astronomi, con le loro precise osservazioni e teorie, hanno gettato le fondamenta della moderna astronomia. Le loro scoperte hanno non solo caratterizzato la visione dell'universo ma hanno anche segnato il cammino del progresso scientifico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Gli astronomi antichi più famosi e i loro contributi
 imageurl: https://blog.astroingeo.org/img/content/astronomos-famosos-de-la-antigueedad-y-sus-aportaciones_1.webp
@@ -68,7 +68,7 @@ Thales di Mileto, considerato il padre della filosofia occidentale, fu anche uno
 
 Eudosso fu un'influenza chiave nella modellizzazione del moto celeste, introducendo l'idea di **sfere concentriche** rotanti attorno alla Terra, un concetto che avrebbe dominato l'astronomia per secoli.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/astronomos-famosos-de-la-antigueedad-y-sus-aportaciones_2.webp
 title: Gli astronomi antichi più famosi e i loro contributi

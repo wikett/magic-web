@@ -49,7 +49,7 @@ head:
 
 L'universo è costellato di meraviglie celesti, e una delle più affascinanti è senza dubbio la **Nebula de la Mariposa**, conosciuta anche sotto la denominazione scientifica di NGC 6302. Situata a circa 4000 anni luce da noi nella costellazione dello Scorpione, questa nebulosa planetaria offre un vero spettacolo cosmico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa de la Mariposa o NGC 6302
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-mariposa-o-ngc-6302_3.webp
@@ -65,7 +65,7 @@ Nel cuore della nebulosa di NGC 6302, i resti di una stella morente mostrano cos
 ### Composizione Chimica
 Gli elementi chimici rilevati attraverso lo spettro di emissione danno indizi sugli strati atmosferici della stella e sui materiali espulsi durante la fase di nebula planetaria.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-mariposa-o-ngc-6302_2.webp
 title: Nebulosa de la Mariposa o NGC 6302

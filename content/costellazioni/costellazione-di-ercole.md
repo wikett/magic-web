@@ -49,7 +49,7 @@ head:
 
 La costellazione di **Ercule**, o Hercules in lingua inglese, celebra la figura eroica dell'antichità classica e spazia come un guardiano silenzioso attraverso la volta celeste. Questo spettacolo astrale è più di un insieme di stelle; è un racconto mitologico inciso nel cielo notturno. In quest'articolo, viaggeremo attraverso la mitologia, l'astronomia e come localizzare l'imponente costellazione di Ercule.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione di Ercole
 imageurl: https://blog.astroingeo.org/img/content/constelacion-hercules_3.webp
@@ -74,7 +74,7 @@ Il cielo notturno riserva molti segreti e la costellazione di Ercule non è da m
 
 Queste stelle, insieme ad altre, compongono un intreccio di miti e realtà scientifica.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-hercules_2.webp
 title: Costellazione di Ercole

@@ -49,7 +49,7 @@ head:
 
 La **climatologia spaziale** si occupa dello studio dei fenomeni che caratterizzano l'ambiente spaziale e le sue interazioni con gli astri, inclusa la Terra. Questa scienza esplora vasti concetti, dalla fisica solare alle tempeste geomagnetiche, e ha un impatto diretto sul nostro pianeta, influenzando sia la tecnologia che il clima terrestre.
 
-::photo-article.webp
+::photo-article
 ---
 title: Climatologia spaziale
 imageurl: https://blog.astroingeo.org/img/content/climatologia-espacial_1.webp
@@ -68,7 +68,7 @@ Le macchie solari sono aree più oscure e fredde sulla superficie solare. La lor
 
 Nel rapporto tra **Sole e Terra**, i fenomeni più critici sono le tempeste solari, le aurore polari e i cambiamenti nei campi magnetici terrestri, tutti elementi studiati dalla climatologia spaziale.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/climatologia-espacial_2.webp
 title: Climatologia spaziale

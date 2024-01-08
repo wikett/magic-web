@@ -49,7 +49,7 @@ head:
 
 L'idea che antiche civiltà potessero essere state visitate da entità extraterrestri ha catturato l'immaginazione di milioni di persone in tutto il mondo. Dall'analisi dei testi antichi alle interpretazioni di opere d'arte e manufatti, la teoria degli antichi astronauti solleva domande affascinanti sul nostro passato e sul ruolo che l'astronomia potrebbe aver avuto in esso.
 
-::photo-article.webp
+::photo-article
 ---
 title: La teoria degli antichi extraterrestri e il suo rapporto con lastronomia
 imageurl: https://blog.astroingeo.org/img/content/teoria-de-los-extraterrestres-antiguos-y-su-relacion-con-la-astronomia_1.webp
@@ -65,7 +65,7 @@ Gli antichi testi come il Veda indiano, la Bibbia ebraico-cristiana, e il Popol 
 ### L'Arte e l'Influenza Stellare
 Statue, dipinti e costruzioni architettoniche dall'antichità sono stati analizzati alla ricerca di simbolismi extraterrestri. Ad esempio, il famoso dipinto "La Madonna col Bambino e San Giovannino" contiene, secondo alcuni studiosi, un oggetto volante non identificato nel suo sfondo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/teoria-de-los-extraterrestres-antiguos-y-su-relacion-con-la-astronomia_2.webp
 title: La teoria degli antichi extraterrestri e il suo rapporto con lastronomia

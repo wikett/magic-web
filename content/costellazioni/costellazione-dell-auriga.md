@@ -49,7 +49,7 @@ head:
 
 L'Auriga è una delle 88 costellazioni moderne e una delle 48 elencate dall'astronomo Tolomeo. Situata nell'emisfero celeste settentrionale, **Auriga è facilmente riconoscibile** per la sua forma che ricorda un pentagono distorto. In questa guida, ci immergeremo nel mistero astronomico di Auriga, esplorando le sue stelle più brillanti, i suoi oggetti del cielo profondo, e le leggende mitologiche ad essa associate.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione dellAuriga
 imageurl: https://blog.astroingeo.org/img/content/constelacion-auriga_3.webp
@@ -66,7 +66,7 @@ Capella, o Alpha Aurigae, è la stella più brillante dell'Auriga e la sesta ste
 ### Menkalinan e te Sfere Compagne
 Menkalinan, o Beta Aurigae, si aggiunge al fascino dell'Auriga. Questa stella binaria si distingue per le sue intense variazioni di luminosità causate dalle reciproche eclissi dei suoi componenti stellari.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-auriga_2.webp
 title: Costellazione dellAuriga

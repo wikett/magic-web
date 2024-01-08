@@ -49,7 +49,7 @@ head:
 
 La **Costellazione Dorata** rappresenta un argomento affascinante per gli appassionati di astronomia e per chi desidera scoprire i segreti del cielo notturno. In questo articolo ci immergeremo nelle profondità dello spazio alla ricerca di queste stelle luminose, analizzandone la posizione, il significato mitologico e le curiosità che suscitano.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione doro
 imageurl: https://blog.astroingeo.org/img/content/constelacion-dorado_1.webp
@@ -76,7 +76,7 @@ Spesso gli appassionati fanno riferimento alle seguenti costellazioni come il "g
 - **Toro**: Famoso per il gruppo stellare delle Pleiadi e la stella gigante rossa Aldebaran.
 - **Cigno**: Con la sua stella principale, Deneb, il Cigno è noto anche come la "Croce del Nord".
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-dorado_2.webp
 title: Costellazione doro

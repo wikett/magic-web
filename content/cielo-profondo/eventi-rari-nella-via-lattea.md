@@ -49,7 +49,7 @@ head:
 
 La Via Lattea è una galassia ricca di misteri e fenomeni sorprendenti, alcuni dei quali avvengono con una rarità che alimenta l'immaginario collettivo e stimola la ricerca scientifica. In questo articolo, ci immergeremo nell'universo degli eventi astronomici più rari che segnano il ritmo cosmico della nostra galassia. Preparatevi a un viaggio tra stelle, supernove e fenomeni di proporzioni quasi incomprensibili.
 
-::photo-article.webp
+::photo-article
 ---
 title: Eventi rari nella Via Lattea
 imageurl: https://blog.astroingeo.org/img/content/eventos-raros-en-la-via-lactea_1.webp
@@ -68,7 +68,7 @@ Uno degli eventi più straordinari è la **supernova**, l'esplosione finale di u
 - **Esplosioni di giganti**: Nascono dalla morte di stelle supermassive.
 - **Modellatori galattici**: Influenzano la struttura e l'evoluzione della galassia.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/eventos-raros-en-la-via-lactea_2.webp
 title: Eventi rari nella Via Lattea

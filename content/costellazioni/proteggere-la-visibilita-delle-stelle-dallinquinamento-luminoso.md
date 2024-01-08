@@ -49,7 +49,7 @@ head:
 
 L'inquinamento luminoso è un problema crescente che minaccia il cielo stellato, una risorsa culturale e naturale straordinaria. Proteggere la visibilità delle stelle è fondamentale non solo per gli astronomi ma per tutti coloro che apprezzano la bellezza del firmamento. In questo articolo, esploreremo tecniche e strategie per ridurre l'inquinamento luminoso e **preservare il cielo notturno**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Proteggere la visibilità delle stelle dallinquinamento luminoso
 imageurl: https://blog.astroingeo.org/img/content/como-proteger-la-visibilidad-de-las-estrellas-de-la-contaminacion-luminica_1.webp
@@ -66,7 +66,7 @@ L'inquinamento luminoso si verifica quando l'illuminazione artificiale irradia t
 
 L'uso di impianti con intensità controllabile può ridurre notevolmente l'inquinamento luminoso. Diminuire l'intensità delle luci durante le ore notturne limita la dispersione di luce superflua.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-proteger-la-visibilidad-de-las-estrellas-de-la-contaminacion-luminica_2.webp
 title: Proteggere la visibilità delle stelle dallinquinamento luminoso

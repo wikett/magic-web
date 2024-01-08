@@ -49,7 +49,7 @@ head:
 
 Gli **esopianeti** sono mondi affascinanti e misteriosi al di fuori del nostro sistema solare. La ricerche degli esopianeti è una frontiera in rapida espansione dell'astronomia che continua a stupire con nuove scoperte e possibilità di vita oltre la Terra. Navigare attraverso questo universo di possibilità non è solo avvincente, ma può also riservare sorprese per quanto riguarda la comprensione della nostra posizione nell'infinità cosmica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Esopianeti
 imageurl: https://blog.astroingeo.org/img/content/exoplanetas_1.webp
@@ -71,7 +71,7 @@ Queste metodologie aprono una finestra sui segreti dell'universo, permettendo ag
 
 L'**abitabilità** di un esopianeta è un aspetto cardine della ricerca astronomiche. Gli scienziati cercano condizioni simili a quelle della Terra, come la presenza di acqua allo stato liquido, un'atmosfera stabile e un clima accettabile per la potenziale presenza di **bioindicatori**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/exoplanetas_2.webp
 title: Esopianeti

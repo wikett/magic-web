@@ -49,7 +49,7 @@ head:
 
 L'universo è un vasto campo di indagine, costellato di misteri e dimensioni che sfidano la nostra comprensione. La **misurazione delle distanze** celesti è fondamentale per comprendere la vastità dello spazio e la posizione degli oggetti in esso contenuti. Le metriche astronomiche utilizzate sono sofisticate e multiformi, riflettendo la nostra crescente conoscenza del cosmo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come si misurano le distanze nelluniverso
 imageurl: https://blog.astroingeo.org/img/content/como-se-miden-las-distancias-en-el-universo_1.webp
@@ -64,7 +64,7 @@ Per esplorare il modo in cui misuriamo le distanze nello spazio, è cruciale par
 
 All'interno del nostro sistema solare, adottiamo misure più immediate come le **unità astronomiche (AU)**, che corrispondono alla distanza media tra la Terra e il Sole. Questo tipo di misurazione si basa su osservazioni precise degli oggetti celesti e sulle loro orbite.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-se-miden-las-distancias-en-el-universo_2.webp
 title: Come si misurano le distanze nelluniverso

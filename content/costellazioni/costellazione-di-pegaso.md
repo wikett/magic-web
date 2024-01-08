@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è sempre stato una fonte di fascino e mistero, un arazzo celeste costellato di scintillanti diamanti noti come stelle. All'interno di questa vasta collezione di meraviglie astrali, una costellazione emerge con storie leggendarie e caratteristiche astronomiche peculiari: il **Pegaso**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione di Pegaso
 imageurl: https://blog.astroingeo.org/img/content/constelacion-pegaso_3.webp
@@ -72,7 +72,7 @@ Trovarsi sotto il tetto di stelle che compone Pegaso è un'esperienza avvincente
 
 Diverse stelle costituiscono questo gruppo celestiale, ciascuna con proprie peculiarità. Enif, Scheat, Markab e Algenib sono le guardianie della Grande Piazza, ciascuna illuminando l'oscurità con tonalità uniche e storie all'origine dei loro nomi.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-pegaso_2.webp
 title: Costellazione di Pegaso

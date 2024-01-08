@@ -49,7 +49,7 @@ head:
 
 Il firmamento notturno riserva meraviglie che destano curiosità e fascino nei cuori degli uomini da tempo immemorabile. Tra le 88 costellazioni moderne riconosciute dall'Unione Astronomica Internazionale, il **Cancro**, o *Cancer*, occupa una posizione speciale in quanto una delle dodici costellazioni dello zodiaco.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione del Cancro
 imageurl: https://blog.astroingeo.org/img/content/constelacion-cancer_3.webp
@@ -67,7 +67,7 @@ La mitologia è costellata di racconti che si intrecciano con il **Cancro**. L'e
 ## Anatomia Celeste: Le Stelle del Cancro
 Il *Cancro* si compone di diverse stelle principali, ognuna con delle caratteristiche specifiche. La più brillante è **β Cancri (Altarf)**, seguita da altre come δ Cancri, conosciuta anche come Asellus Australis, e γ Cancri o Asellus Borealis.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-cancer_2.webp
 title: Costellazione del Cancro

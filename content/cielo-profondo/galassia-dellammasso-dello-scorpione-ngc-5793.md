@@ -49,7 +49,7 @@ head:
 
 Galassie: immense città di stelle che abbelliscono i cieli notturni, ognuna con le sue peculiarità e misteri. Tra queste, si distingue la *Galassia NGC 5793*, un gioiello incastonato nel firmamento, parte dell'ammasso scoperto nel *costellazione dello Scorpione*. Oggi, vogliamo guidarvi alla scoperta di questa meraviglia celeste, attraversando caleidoscopi di stelle e svelando il velo sui segreti che racchiude.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia dellammasso dello scorpione (NGC 5793)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-cumulo-del-escorpion-ngc-5793_3.webp
@@ -68,7 +68,7 @@ Al centro di NGC 5793, come in molte altre galassie, si nasconde un **buco nero 
 
 L'osservazione della Galassia NGC 5793 è stata portata avanti con i telescopi più avanzati, tra cui il **Very Large Telescope (VLT)** in Cile e il famoso **Hubble Space Telescope**. Questi straordinari strumenti hanno permesso di captare dettagli fino a poco tempo fa inimmaginabili.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-cumulo-del-escorpion-ngc-5793_2.webp
 title: Galassia dellammasso dello scorpione (NGC 5793)

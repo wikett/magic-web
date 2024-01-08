@@ -49,7 +49,7 @@ head:
 
 Se sei arrivato qui, probabilmente hai sentito parlare di **Ophiuchus**, una delle costellazioni più interessanti e meno conosciute del cielo notturno. Attraverso questo viaggio stellare, esploreremo gli angoli nascosti di Ophiuchus, scoprendo la sua storia, la sua posizione nelle nostre latitudini e il motivo per cui continua a catturare l'immaginazione degli astrofili e degli astronomi.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione dellOfiuco
 imageurl: https://blog.astroingeo.org/img/content/constelacion-ofiuco_3.webp
@@ -73,7 +73,7 @@ Ophiuchus non solo è celebre per la sua mitologica genesi, ma anche per l'abbon
 - **α Ophiuchi (Ras Alhague)**, la stella più brillante della costellazione. 
 - **β Ophiuchi**, nota pure come Cebalrai, che risplende con una luce arancione dalla costellazione.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-ofiuco_2.webp
 title: Costellazione dellOfiuco

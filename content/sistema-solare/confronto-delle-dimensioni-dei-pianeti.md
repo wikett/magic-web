@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è sempre stato un immenso canvas dove l'umanità ha potuto disegnare i contorni delle proprie curiosità e ambizioni. Ma tra le innumerevoli domande che le stelle suscitano, una delle più intriganti resta: **quanto sono grandi i pianeti del nostro Sistema Solare in confronto?** Esploriamo assieme la vastità di queste sfere celesti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Confronto delle dimensioni dei pianeti
 imageurl: https://blog.astroingeo.org/img/content/comparando-los-tamanos-de-los-planetas_1.webp
@@ -68,7 +68,7 @@ Meno conosciuti ma altrettanto affascinanti sono Nettuno e Urano, i giganti ghia
 
 **La Terra**, il nostro pianeta natale, è il più grande dei mondi rocciosi del Sistema Solare interno, con un diametro di circa 12.742 chilometri. Marte segue con un'altezza più modesta di 6.779 chilometri. Venere e Mercurio, spesso dimenticati, posseggono rispettivamente diametri di 12.104 e 4.879 chilometri, dimostrandosi mondi affascinanti nonostante le loro dimensioni ridotte.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/comparando-los-tamanos-de-los-planetas_2.webp
 title: Confronto delle dimensioni dei pianeti

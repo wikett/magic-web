@@ -49,7 +49,7 @@ head:
 
 La conquista dello spazio è sempre stata affascinante e impetuosa, una vera **corsa contro il tempo** e i limiti umani. Oggi esploreremo le varie sfaccettature e i **rischi psicologici** legati alla ricerca spaziale e alla vita nello spazio.
 
-::photo-article.webp
+::photo-article
 ---
 title: La follia nella ricerca spaziale
 imageurl: https://blog.astroingeo.org/img/content/locuras-en-la-investigacion-espacial_1.webp
@@ -65,7 +65,7 @@ Questa sindrome colpisce gli astronauti nelle prime fasi del volo spaziale, caus
 ### Il Fattore Isolamento
 Il lungo periodo di tempo lontano dalla Terra e la limitata interazione sociale rappresentano una sfida significativa per la **resistenza psicologica** dell'equipaggio.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/locuras-en-la-investigacion-espacial_2.webp
 title: La follia nella ricerca spaziale

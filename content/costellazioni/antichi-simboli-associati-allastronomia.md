@@ -49,7 +49,7 @@ head:
 
 L'astronomia, la più antica delle scienze, è stata sempre circondata da un alone di mistero e fascino. Questa guida esplore l'universo dei **simboli astronomici antichi**, affondando le radici nella storia e nella cultura di civiltà lontane nel tempo. Attraverso il viaggio in questo spazio narrativo, scoprirete come questi simboli siano stati usati per decifrare i movimenti celesti e la loro influenza sulla vita umana.
 
-::photo-article.webp
+::photo-article
 ---
 title: Antichi simboli associati allastronomia
 imageurl: https://blog.astroingeo.org/img/content/simbolos-antiguos-asociados-a-la-astronomia_1.webp
@@ -67,7 +67,7 @@ Il simbolo del Capricorno, rappresentante una creatura metà capra e metà pesce
 
 Gli astri principali per eccellenza, il Sole e la Luna, hanno generato numerosi simboli nelle diverse culture.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/simbolos-antiguos-asociados-a-la-astronomia_2.webp
 title: Antichi simboli associati allastronomia

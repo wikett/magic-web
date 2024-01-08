@@ -49,7 +49,7 @@ head:
 
 Il firmamento notturno ci sorprende con infiniti spettacoli stellari, e tra questi, il *cùmulo stellare Messier 71 (NGC 6838)* fornisce uno degli esempi più affascinanti. Situato nella costellazione dell'Aquila, questa raccolta di stelle incanta gli appassionati di astronomia con la sua storia e bellezza.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cumulo stellare Messier 71 (NGC 6838)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-estelar-messier-71-ngc-6838_3.webp
@@ -70,7 +70,7 @@ Affascinante e misterioso, Messier 71 (M71) si distingue nel cielo per la sua co
 
 Il viaggio alla scoperta di M71 inizia con la localizzazione della costellazione dell'Aquila. Questa è una delle 88 costellazioni moderne e una delle costellazioni zodiacali più antiche, citata già dai babilonesi.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-estelar-messier-71-ngc-6838_2.webp
 title: Cumulo stellare Messier 71 (NGC 6838)

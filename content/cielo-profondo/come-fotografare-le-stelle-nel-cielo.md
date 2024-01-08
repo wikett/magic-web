@@ -49,7 +49,7 @@ head:
 
 La fotografia astronomica affascina chiunque sia appassionato del cielo notturno e desideroso di catturare la grandezza del cosmo. In questo articolo, ti guiderò attraverso i passaggi essenziali per immortalare le stelle nel cielo, toccando tecniche avanzate e trucchi del mestiere che trasformeranno i tuoi scatti da semplici foto a veri capolavori celesti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come fotografare le stelle nel cielo
 imageurl: https://blog.astroingeo.org/img/content/como-fotografiar-estrellas-en-el-cielo_1.webp
@@ -72,7 +72,7 @@ La modalità manuale ti permette di avere il pieno controllo su **apertura**, **
 
 Una tecnica chiave è la **regola del 500**: divide 500 per la lunghezza focale effettiva dell'obiettivo per ottenere il massimo tempo di esposizione prima che le stelle inizino a diventare striature. Esempio: con un obiettivo di 20mm su una fotocamera full-frame, non superare i 25 secondi (500/20).
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-fotografiar-estrellas-en-el-cielo_2.webp
 title: Come fotografare le stelle nel cielo

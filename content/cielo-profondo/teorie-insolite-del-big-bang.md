@@ -49,7 +49,7 @@ head:
 
 Esplorare l'universo è come affrontare un enigma intricato. Tra le tante teorie che tentano di spiegare le origini del nostro universo, poche affascinano quanto quelle **alternative al Big Bang**. Approfondiremo alcune delle teorie più insolite che mettono in discussione il nostro attuale modello cosmologico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Teorie insolite del Big Bang
 imageurl: https://blog.astroingeo.org/img/content/teorias-inusuales-del-big-bang_1.webp
@@ -69,7 +69,7 @@ L'idea di un **universo senza inizio** né fine sfida la concezione del tempo co
 
 L’ipotesi del **multiverso** apre la porta a infinite possibilità. Secondo questa visione, il nostro universo sarebbe solo una bolla in un mare schiumoso di universi, ognuno con le proprie leggi fisiche.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/teorias-inusuales-del-big-bang_2.webp
 title: Teorie insolite del Big Bang

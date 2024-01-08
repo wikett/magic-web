@@ -49,7 +49,7 @@ head:
 
 L'universo è un vasto palcoscenico di fenomeni celesti, e al suo interno la nostra Via Lattea ospita alcune delle stelle più misteriose e affascinanti che la mente umana abbia mai potuto concepire. Il cielo notturno è un libro aperto che racconta storie di stelle la cui natura e comportamento continuano a sfidare l'astronomia moderna. In questo articolo si svelano le caratteristiche e i segreti di alcune delle **stelle più misteriose** del nostro **galassia**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le stelle più misteriose della nostra galassia
 imageurl: https://blog.astroingeo.org/img/content/estrellas-mas-misteriosas-en-nuestra-galaxia_1.webp
@@ -68,7 +68,7 @@ I loro cicli di vita brevi e tumultuosi rendono le supergiganti blu fonti ideali
 
 Tra le stelle più bizzarre del cielo, c'è il **Pulsar del Granchio**, al centro della celebre Nebulosa CRAB. Il pulsar è una stella di neutroni che emette fasci di radiazioni elettromagnetiche visibili come impulsi regolari. Questo incredibile oggetto rappresenta il nucleo collassato dell'esplosione di una supernova osservata nel 1054.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-mas-misteriosas-en-nuestra-galaxia_2.webp
 title: Le stelle più misteriose della nostra galassia

@@ -49,7 +49,7 @@ head:
 
 L'universo è un vasto palcoscenico di meraviglie e misteri su cui gli astronomi lavorano senza sosta per svelarne i segreti. **Fenomeni astronomici insoliti** come le supernovae, i buchi neri o le esplosioni gamma ci affascinano e, allo stesso tempo, sollecitano innumerevoli domande. In questo articolo, esploreremo alcuni dei più strabilianti fenomeni del cosmo e scopriremo le spiegazioni che la scienza ha elaborato per comprenderli.
 
-::photo-article.webp
+::photo-article
 ---
 title: Strani fenomeni astronomici e loro spiegazioni
 imageurl: https://blog.astroingeo.org/img/content/fenomenos-astronomicos-raros-y-sus-explicaciones_1.webp
@@ -68,7 +68,7 @@ Le aurore si formano principalmente nelle zone magnetiche polari perché è lì 
 
 Tra i **fenomeni astronomici**, le supernovae rappresentano uno degli eventi più esplosivi dell'universo. Queste gigantesche esplosioni stellari segnano la fine della vita di alcune stelle, che brillano con un'intensità paragonabile a quella di intere galassie per un breve periodo di tempo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/fenomenos-astronomicos-raros-y-sus-explicaciones_2.webp
 title: Strani fenomeni astronomici e loro spiegazioni

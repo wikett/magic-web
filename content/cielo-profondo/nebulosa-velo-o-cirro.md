@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa del Velo**, o Nebulosa Cirro, è uno spettacolare residuo supernova situato nella costellazione del Cigno. Conosciuta anche come **Caldwell 33**, questa grande nebulosa è parte di un più esteso complesso nebulare, noto come il *Resto della Supernova del Cigno*. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Velo o Cirro
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-velo-o-cirrus_3.webp
@@ -69,7 +69,7 @@ La **Nebulosa del Velo** è composta da diverse parti ben distinte:
 - **NGC 6992/5**: Denominata il *Filamento Orientale*.
 - **NGC 6974** e **NGC 6979**: Zona centrale meno luminosa.
   
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-velo-o-cirrus_2.webp
 title: Nebulosa Velo o Cirro

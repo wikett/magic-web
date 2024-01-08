@@ -49,7 +49,7 @@ head:
 
 Scoprire **come funzionano le tute spaziali** è un viaggio affascinante all'interno di un'ingegneria avanzata e innovativa. Esse incarnano il culmine della tecnologia e della progettazione, indispensabili per la sopravvivenza degli astronauti nello spazio.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come funzionano le tute spaziali
 imageurl: https://blog.astroingeo.org/img/content/como-funcionan-los-trajes-espaciales_1.webp
@@ -68,7 +68,7 @@ La regolazione della pressione è essenziale. L'atmosfera terrestre esercita una
 
 Le temperature nello spazio possono fluttuare drasticamente. Le tute sono dotate di strati isolanti e riflettenti per proteggere dal freddo dello spazio e dal calore del Sole.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-funcionan-los-trajes-espaciales_2.webp
 title: Come funzionano le tute spaziali

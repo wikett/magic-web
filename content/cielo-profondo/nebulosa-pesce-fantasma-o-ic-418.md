@@ -49,7 +49,7 @@ head:
 
 La Nebulosa Pesce Fantasma, o IC 418, è un laboratorio celeste che accende l'immaginazione di astronomi e appassionati di stelle. Vi invito a un viaggio stellare attraverso gas incandescenti e storie di stelle morenti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Pesce Fantasma o IC 418
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-pez-fantasma-o-ic-418_3.webp
@@ -70,7 +70,7 @@ Le nebulose planetarie, come IC 418, si formano attraverso fasi sequenziali:
 3. Espelle gli strati esterni creando un involucro di gas.
 4. Il nucleo caldo rimanente (nana bianca) ionizza il gas rilasciato.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-pez-fantasma-o-ic-418_2.webp
 title: Nebulosa Pesce Fantasma o IC 418

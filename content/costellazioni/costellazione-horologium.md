@@ -49,7 +49,7 @@ head:
 
 L'astronomia è un campo che infonde meraviglia e curiosità, conducendo gli occhi degli appassionati verso il vasto cosmo. Il cielo notturno è un mosaico di stelle, pianeti e galassie, ma sono le costellazioni a fornirci mappe per navigare in questa immensa distesa. **Horologium**, o l'Orologio, è una di queste costellazioni, meno nota rispetto ad altri gruppi stellari, ma ricca di fascino e mistero. In questo articolo esploreremo i segreti di Horologium, fornendo dettagli e curiosità che arricchiranno la conoscenza sia degli esperti di astronomia sia dei neofiti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione Horologium
 imageurl: https://blog.astroingeo.org/img/content/constelacion-horologium_1.webp
@@ -64,7 +64,7 @@ Horologium trova la sua dimora nel cielo dell'emisfero australe, avvolta in un'a
 
 La costellazione Horologium è composta da una serie di stelle che, per lo più, non brillano con intensa lucentezza. Tuttavia, l'elemento più importante di questa costellazione è la *stella più luminosa*, **Alpha Horologii**. Questo astro solitario si distingue per il suo bagliore e serve come punto di riferimento per identificare l'intera costellazione.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-horologium_2.webp
 title: Costellazione Horologium

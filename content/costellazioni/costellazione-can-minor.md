@@ -49,7 +49,7 @@ head:
 
 Un viaggio tra stelle e mitologia si cela dietro di **Cane Minore**, una delle 88 costellazioni riconosciute dall'Unione Astronomica Internazionale. Nonostante le sue dimensioni ridotte, questo agglomerato stellare custodisce segreti affascinanti e stelle di notevole importanza.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione Can Minor
 imageurl: https://blog.astroingeo.org/img/content/constelacion-can-menor_3.webp
@@ -66,7 +66,7 @@ Il nome **Cane Minore** deriva dalla mitologia greca e latina dove, spesso assoc
 
 All'interno della costellazione del **Cane Minore** spicca la stella **Procyon**, la più luminosa del gruppo, che partecipa insieme a Sirio e Betelgeuse al famoso "Triangolo Invernale". Le altre stelle della costellazione, come Gomeisa e la sequenza di stelle più deboli, contribuiscono a disegnare questo angolo celeste, sebbene rimangano meno note al grande pubblico.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-can-menor_2.webp
 title: Costellazione Can Minor

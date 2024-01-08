@@ -49,7 +49,7 @@ head:
 
 L'astronomia si pone agli apici della curiosità umana, fungendo da faro dei misteri dell'universo. Le sue influenze sono radicate nella nostra cultura, permeando con **miti stellari, narrativa fantascientifica** e ispirando innumerevoli opere d'arte. In questo viaggio alla scoperta della sua portata, analizziamo come l'astronomia ha influenzato la cultura popolare e, tendenzialmente, la nostra vita quotidiana.
 
-::photo-article.webp
+::photo-article
 ---
 title: Influenza dellastronomia sulla cultura popolare
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-la-astronomia-en-la-cultura-popular_1.webp
@@ -72,7 +72,7 @@ Il grande schermo è stato un potente veicolo per portare l'astronomia nella cul
 - "La Guerra dei Mondi"
 - "Star Wars"
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-la-astronomia-en-la-cultura-popular_2.webp
 title: Influenza dellastronomia sulla cultura popolare

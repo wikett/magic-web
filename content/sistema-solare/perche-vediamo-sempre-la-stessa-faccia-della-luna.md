@@ -49,7 +49,7 @@ head:
 
 La Luna, questo splendido satelite naturale che incanta notti e cuori, cela un segreto tanto straordinario quanto scientificamente affascinante: **perché vediamo sempre la stessa faccia?** La spiegazione risiede in un fenomeno chiamato **rotazione sincrona** o **librazione**. Scopriamo insieme le curiosità che regolano questo comportamento celeste.
 
-::photo-article.webp
+::photo-article
 ---
 title: Perché vediamo sempre la stessa faccia della Luna?
 imageurl: https://blog.astroingeo.org/img/content/por-que-vemos-siempre-la-misma-cara-de-la-luna_1.webp
@@ -68,7 +68,7 @@ Da millenni, l'osservazione della Luna ha intrigato l'umanità. Gli antichi popo
 
 La risposta al nostro quesito si trova nelle leggi della fisica. La dinamica tra la **forza gravitazionale** della Terra e il movimento della Luna origina le **maree** che influenzano la **rotazione lunare**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/por-que-vemos-siempre-la-misma-cara-de-la-luna_2.webp
 title: Perché vediamo sempre la stessa faccia della Luna?

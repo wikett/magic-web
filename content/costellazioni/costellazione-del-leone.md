@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un vero e proprio scrigno di gemme celestiali, tra le quali risplende con autorità la **Costellazione del Leone**. Famosa per essere una delle più riconoscibili costellazioni dello zodiaco, il Leone ha affascinato l'umanità sin dall'antichità. Con le sue stelle vivide, questa costellazione non solo incanta gli appassionati di **astrologia**, ma anche chiunque alzi lo sguardo per scrutare i segreti dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione del Leone
 imageurl: https://blog.astroingeo.org/img/content/constelacion-de-leo_3.webp
@@ -66,7 +66,7 @@ Al centro della costellazione si trova Regulus, una stella di prima grandezza ch
 
 Proseguendo il cammino celeste, troviamo Denebola e Algieba. La prima, una stella bianca che pare ondeggiare come la coda del grande felino, mentre la seconda, una doppia stella color arancione-rossastro, forma il torso della bestia mitologica.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-de-leo_2.webp
 title: Costellazione del Leone

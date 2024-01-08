@@ -49,7 +49,7 @@ head:
 
 La Luna, da sempre, incide profondamente sull'immaginario collettivo, evocando miti, leggende e influenzando direttamente la vita quotidiana della Terra. Un aspetto affascinante di questa influenza è **la relazione tra Luna e maree**. La danza delle acque oceaniche al ritmo delle fasi lunari è stato un tema di studi sin dall'antichità ed oggi la scienza ne descrive i meccanismi con precisione.
 
-::photo-article.webp
+::photo-article
 ---
 title: Relazione tra le maree e la Luna
 imageurl: https://blog.astroingeo.org/img/content/relacion-entre-las-mareas-y-la-luna_1.webp
@@ -63,7 +63,7 @@ Il movimento delle **maree oceaniche** è un fenomeno diretto della forza gravit
 - Flusso (alta marea): quando l'acqua raggiunge il punto più alto.
 - Riflusso (bassa marea): quando l'acqua si ritira al punto più basso.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/relacion-entre-las-mareas-y-la-luna_2.webp
 title: Relazione tra le maree e la Luna

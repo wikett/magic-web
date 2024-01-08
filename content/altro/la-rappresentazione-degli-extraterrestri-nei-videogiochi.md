@@ -49,7 +49,7 @@ head:
 
 Da tempo immemorabile, l'uomo si è interrogato sull'esistenza di forme di vita extraterrestri. Questa curiosità si è riversata in vari ambiti culturali, inclusa l'incredibile galassia dei **videogiochi**. Il medium videoludico ha esplorato la **rappresentazione degli alieni** in modi incredibilmente creativi, trasportando i giocatori in universi dove l'incontro con l'ignoto diventa una realtà palpabile.
 
-::photo-article.webp
+::photo-article
 ---
 title: La rappresentazione degli extraterrestri nei videogiochi
 imageurl: https://blog.astroingeo.org/img/content/la-representacion-de-extraterrestres-en-los-videojuegos_1.webp
@@ -69,7 +69,7 @@ I giochi video hanno saputo cogliere le molteplici facce degli extraterrestri, d
 ## Il Linguaggio dei Creatori di Mondi Virtuali
 Ogni videogioco che introduce personaggi alieni parla una lingua ricca di sfumature simboliche. Il **character design**, le ambientazioni e la narrativa contribuiscono a costruire un immaginario collettivo di come potrebbe essere la vita al di fuori del nostro piccolo pianeta.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-representacion-de-extraterrestres-en-los-videojuegos_2.webp
 title: La rappresentazione degli extraterrestri nei videogiochi

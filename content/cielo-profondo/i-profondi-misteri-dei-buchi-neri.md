@@ -49,7 +49,7 @@ head:
 
 L'universo è un'enigma che da millenni stuzzica la curiosità umana, e al centro di questo mistero siderale si trovano i **buchi neri**, gli oggetti più misteriosi ed affascinanti della cosmologia moderna. Sono i guardiani di segreti che sfidano le leggi della fisica, e la loro comprensione è fondamentale per sbloccare nuovi orizzonti scientifici.
 
-::photo-article.webp
+::photo-article
 ---
 title: I profondi misteri dei buchi neri
 imageurl: https://blog.astroingeo.org/img/content/misterios-profundos-en-los-agujeros-negros_1.webp
@@ -68,7 +68,7 @@ Secondo la **teoria della relatività generale** di Einstein, l'informazione che
 
 All'interno di ogni buco nero si trova la **singolarità**, un punto dove si presume che densità e gravità raggiungano livelli infiniti. Questa regione rappresenta uno dei più grandi misteri della scienza moderna, sfidando il nostro attuale intuito fisico e matematico.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/misterios-profundos-en-los-agujeros-negros_2.webp
 title: I profondi misteri dei buchi neri

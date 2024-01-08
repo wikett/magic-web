@@ -49,7 +49,7 @@ head:
 
 L'*eclissi*, fenomeno affascinante e misterioso, ha sempre esercitato un potere seducente sull'umanità. Le **eclissi solari e lunari** sono eventi celestiali che catturano l'attenzione di professionisti e appassionati dell'astronomia. In questo articolo, esploreremo le meraviglie di questi fenomeni, focalizzandoci su come, quando e dove possiamo osservarli al meglio.
 
-::photo-article.webp
+::photo-article
 ---
 title: Eclissi solari e lunari
 imageurl: https://blog.astroingeo.org/img/content/eclipses-solares-y-lunares_1.webp
@@ -68,7 +68,7 @@ Durante l'eclissi solare, la Luna si interpone tra il Sole e la Terra, gettando 
 
 Le eclissi lunari accadono quando la Terra si trova tra il Sole e la Luna, con l'ombra del nostro pianeta che copre il satellite naturale. Ci sono eclissi **penombrali, parziali e totali**, le ultime delle quali si mostrano con una tonalità di rosso emozionante, conosciuta come "Luna di sangue".
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/eclipses-solares-y-lunares_2.webp
 title: Eclissi solari e lunari

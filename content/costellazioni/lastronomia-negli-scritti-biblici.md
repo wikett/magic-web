@@ -49,7 +49,7 @@ head:
 
 L'astronomia è la scienza che studia gli astri e l'universo, mentre la Bibbia è il sacro testo considerato fondamento della religione cristiana e giudaica. All'apparenza, questi due ambiti potrebbero sembrare mondi a parte, ma la realtà è che si incrociano in maniere sorprendenti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Lastronomia negli scritti biblici
 imageurl: https://blog.astroingeo.org/img/content/la-astronomia-en-los-escritos-biblicos_1.webp
@@ -68,7 +68,7 @@ La scrittura biblica fa spesso uso di simbologie **astronomiche**. I corpi celes
 
 - **Sole e luna**: si parla delle due grandi luci nel cielo, con il sole che governa il giorno e la luna la notte. Sono simboli di regole e tempi definiti che traducono l'ordine divino in una forma comprensibile agli uomini.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-astronomia-en-los-escritos-biblicos_2.webp
 title: Lastronomia negli scritti biblici

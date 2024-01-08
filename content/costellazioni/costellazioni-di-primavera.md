@@ -49,7 +49,7 @@ head:
 
 Le notti di primavera offrono uno spettacolo celeste di incommensurabile bellezza. Le **costellazioni primaverili** si ergono nel cielo come monumenti luminosi, ricchi di mitologia e scienza. Questo periodo dell'anno si fa testimone dell'apparizione di alcune delle più affascinanti configurazioni stellari.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazioni di primavera
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-de-primavera_1.webp
@@ -68,7 +68,7 @@ Due costellazioni fondamentali, visibili durante tutta l'anno nell'emisfero nord
 
 La Vergine, dominata dalla brillante Spica, e la Bilancia, con le sue stelle di medium luminosità, caratterizzano il cielo serale di primavera.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-de-primavera_2.webp
 title: Costellazioni di primavera

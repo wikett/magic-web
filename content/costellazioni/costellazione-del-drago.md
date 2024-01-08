@@ -49,7 +49,7 @@ head:
 
 La volta celeste nasconde tra le sue pieghe storie millenarie e oggetti astronomici di inestimabile valore scientifico. Tra le costellazioni più affascinanti del firmamento notturno possiamo sicuramente annoverare la **Costellazione del Dragone** (Draco), un serpente celeste ricco di miti e stelle che ha stimolato la fantasia di molti popoli. In questo articolo, esploreremo non solo la bellezza di questa costellazione ma anche come la si può osservare al meglio nel cielo notturno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione del Drago
 imageurl: https://blog.astroingeo.org/img/content/constelacion-dragon_3.webp
@@ -68,7 +68,7 @@ L'origine dello **zodiaco del Dragone** risale a oltre 3000 anni fa, e diverse c
 
 La Costellazione del Dragone si trova nell'emisfero boreale, contornando il Polo Nord Celeste. Alcune delle sue **stelle principali**, come Thuban e Eltanin, servono da punti di riferimento per gli appassionati di astronomia e sono di grande interesse scientifico.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-dragon_2.webp
 title: Costellazione del Drago

@@ -49,7 +49,7 @@ head:
 
 Osservare le stelle durante le calde notti estive è un'attività affascinante che connette l'umanità con l'immensità dell'universo. Nel vasto palcoscenico del cielo notturno, localizzare stelle e costellazioni è un'esperienza magica che stimola curiosità e meraviglia. Questo articolo vi accompagnerà alla scoperta delle meraviglie celesti visibili nel cielo estivo, con utili suggerimenti per principianti e appassionati di astronomia.
 
-::photo-article.webp
+::photo-article
 ---
 title: Individuare le stelle nel cielo estivo
 imageurl: https://blog.astroingeo.org/img/content/localizacion-de-estrellas-en-el-cielo-de-verano_1.webp
@@ -67,7 +67,7 @@ Il cielo estivo offre una visibilità eccezionale di molte costellazioni del **z
 ## La Via Lattea: Il Nostro Indirizzo Cosmico
 Lo spettacolo dell'arco della **via lattea** è una vista mozzafiato nelle notti serene d'estate. Per localizzarla, è necessario trovare un luogo con **pochissima inquinamento luminoso** e sapere dove guardare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/localizacion-de-estrellas-en-el-cielo-de-verano_2.webp
 title: Individuare le stelle nel cielo estivo

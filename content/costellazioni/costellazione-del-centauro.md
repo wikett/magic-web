@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un'enorme tela che da tempo immemore affascina l'umanità. Tra gli agglomerati stellari che adornano questa immensa tela, la **costellazione del Centauro**, o *Centaurus*, regna con la sua storia e i suoi misteri, attirando sia gli astronomi professionisti sia gli appassionati di stelle. In questo articolo, immergiamoci nei segreti della magnifica costellazione Centaurus, esplorando le sue caratteristiche e scoprendo come individuarla nel cielo notturno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione del Centauro
 imageurl: https://blog.astroingeo.org/img/content/constelacion-centauro_3.webp
@@ -71,7 +71,7 @@ Attraverso telescopi o anche a occhio nudo, queste luci prismatiche offrono uno 
 
 ## Come Individuare la Costellazione del Centauro
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-centauro_2.webp
 title: Costellazione del Centauro

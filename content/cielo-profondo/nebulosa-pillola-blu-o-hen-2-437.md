@@ -49,7 +49,7 @@ head:
 
 La magia e il mistero dell'universo catturano l'attenzione di astrofili e scienziati da secoli. Tra gli oggetti celesti che suscitano curiosità e ammirazione, le nebulose planetarie occupano un posto di rilievo, e *la Nebulosa Hen 2-437, più affascinantemente chiamata Blue Pill Nebula*, ne è un esempio eccellente.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Pillola Blu o Hen 2-437
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-pildora-azul-o-hen-2-437_3.webp
@@ -68,7 +68,7 @@ La formazione di una nebulosa planetaria, come Hen 2-437, è **il risultato dell
 
 **Il colore blu**, da cui il soprannome "Blue Pill", è dovuto all'emissione di gas ionizzato presente nella tenua nebulosa che circonda il nucleo stellare morente.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-pildora-azul-o-hen-2-437_2.webp
 title: Nebulosa Pillola Blu o Hen 2-437

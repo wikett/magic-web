@@ -51,7 +51,7 @@ head:
 
 Il cielo notturno che i nostri antenati ammiravano è adesso minacciato dall'inquinamento luminoso, un nemico silenzioso e poco riconosciuto. **Preservare i cieli oscuri** non è soltanto un gesto romantico di nostalgici alle stelle, ma un'imperativa necessità per l'equilibrio ecologico, la nostra salute e la cultura astronomica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Limportanza di preservare i cieli bui
 imageurl: https://blog.astroingeo.org/img/content/importancia-de-la-preservacion-de-cielos-oscuros_1.webp
@@ -70,7 +70,7 @@ Gli animali notturni, come le falene e le tartarughe marine, si affidano alla lu
 
 La luce artificiale disturba i ritmi circadiani umani, alterando il ciclo sonno-veglia e potenzialmente causando insonnia e altre patologie legate allo stress.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/importancia-de-la-preservacion-de-cielos-oscuros_2.webp
 title: Limportanza di preservare i cieli bui

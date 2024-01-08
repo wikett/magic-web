@@ -49,7 +49,7 @@ head:
 
 Quando alziamo lo sguardo al cielo notturno, siamo testimoni di un vero e proprio spettacolo cosmico: un tappeto scuro trapunto da miriadi di punti luminosi che a volte sembrano danzare di fronte ai nostri occhi. Ma vi siete mai chiesti perché le stelle *non scintillano tutte allo stesso momento*? È questo l'interrogativo che guiderà il nostro viaggio astronomico, in una ricerca che ci porterà a sfatare miti e a illuminare i segreti dell'universo stellato.
 
-::photo-article.webp
+::photo-article
 ---
 title: Perché le stelle nel cielo non scintillano nello stesso momento?
 imageurl: https://blog.astroingeo.org/img/content/por-que-las-estrellas-en-el-cielo-no-parpadean-al-mismo-tiempo_1.webp
@@ -65,7 +65,7 @@ Lo scintillio delle stelle, noto anche come effetto scintillazione, è un fenome
 ### **Altitudine delle Stelle**
 Stelle collocate vicino all'orizzonte tendono a scintillare di più rispetto a quelle che si trovano allo zenit, poiché la loro luce deve attraversare uno strato più spesso di atmosfera, aumentando la probabilità di subire variazioni nella refrattività dell'aria.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/por-que-las-estrellas-en-el-cielo-no-parpadean-al-mismo-tiempo_2.webp
 title: Perché le stelle nel cielo non scintillano nello stesso momento?

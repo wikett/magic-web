@@ -49,7 +49,7 @@ head:
 
 L'ammasso stellare noto come **Jeweller's Cluster**, o **Kappa Crucis**, incanta gli astronomi e gli appassionati del cielo notturno. Questa meraviglia celeste, situata nella costellazione della Croce del Sud, è una vera e propria gioielleria cosmica che risplende nei cieli australi.
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso del Gioielliere (Kappa Crucis)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-del-joyero-kappa-crucis_3.webp
@@ -68,7 +68,7 @@ Nel grande palcoscenico del firmamento, pochi ammassi come Kappa Crucis hanno l'
 
 Questo ammasso è nato in condizioni cosmiche particolarmente intense e la sua giovane età, stimata attorno a soli 10-20 milioni di anni, fa di lui un campo di studio ideale per comprendere i processi di formazione stellare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-del-joyero-kappa-crucis_2.webp
 title: Ammasso del Gioielliere (Kappa Crucis)

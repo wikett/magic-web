@@ -49,7 +49,7 @@ head:
 
 Le collisioni galattiche rappresentano uno dei fenomeni più affascinanti e energetici dell'universo. Quando due galassie si avvicinano tra loro, le forze di marea in gioco possono creare strutture straordinarie, strappando stelle, gas e polvere nello spazio profondo. Tali **collisioni peculiari** disegnano il volto dell'universo, plasmandone l'evoluzione e la morfologia delle galassie coinvolte. In questo articolo, esploreremo le dinamiche e le conseguenze di questi incontri celesti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Collisioni di galassie peculiari
 imageurl: https://blog.astroingeo.org/img/content/choques-de-galaxias-peculiares_1.webp
@@ -70,7 +70,7 @@ Le **forze di marea** sono responsabili di alcuni dei più spettacolari risultat
 - **Galassie ad anello**: Formazioni quasi circolari che si originano dopo un impatto pressoché centrale.
 - **Galassie a spirale disturbate**: Quando una galassia a spirale interagisce con un'altra, i suoi bracci possono deformarsi in maniera significativa.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/choques-de-galaxias-peculiares_2.webp
 title: Collisioni di galassie peculiari

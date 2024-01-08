@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un incantevole tappeto di stelle brillanti. Ogni volta che alziamo gli occhi al cielo, siamo accolti da un mosaico di luci tremolanti. Ma perché alcune stelle appaiono più luminose di altre? La risposta è un intreccio di distanza, composizione e dimensioni stellari. In quest'articolo, scioglieremo i nodi di questo misterioso enigma celeste.
 
-::photo-article.webp
+::photo-article
 ---
 title: Perché alcune stelle nel cielo sono più luminose di altre
 imageurl: https://blog.astroingeo.org/img/content/por-que-algunas-estrellas-en-el-cielo-son-mas-brillantes-que-otras_1.webp
@@ -73,7 +73,7 @@ Le stelle più prossime alla Terra, come Sirio, dominano con il loro splendore. 
 
 Le **dimensioni di una stella** giocano un ruolo significativo nella sua brillantezza. Le stelle giganti, massicce e potenti, irraggiano enormi quantità di luce, scintillando con vigore nel firmamento.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/por-que-algunas-estrellas-en-el-cielo-son-mas-brillantes-que-otras_2.webp
 title: Perché alcune stelle nel cielo sono più luminose di altre

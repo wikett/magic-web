@@ -49,7 +49,7 @@ head:
 
 La volta celeste si offre come uno straordinario catalogo di fenomeni cosmici. In essa, alcuni dei tratti più eccentrici appartengono a stelle rare. Non solo sfidano il nostro intelletto, ma arricchiscono con sfarzo la nostra conoscenza dell'universo. **Caratteristiche stellari rare** in astrofisica si riferiscono a quelle peculiari e meno frequenti componenti che sfuggono alla comprensione ordinaria delle scuole astronomiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Caratteristiche stellari rare in astronomia
 imageurl: https://blog.astroingeo.org/img/content/raros-rasgos-estelares-en-astronomia_1.webp
@@ -65,7 +65,7 @@ Le ipernovae sono esplosioni stellari ancor più energiche delle supernove. Sono
 ## Echi di Luce: Rapide Radio Burst
 Pur essendo eventi estremamente brevi, i **rapidi burst radio** (FRB) sono una frontiera aperta in astrofisica. Questi lampi di onda radio di origine enigmatica aprono finestre su processi ad alta energia nell'universo distante.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/raros-rasgos-estelares-en-astronomia_2.webp
 title: Caratteristiche stellari rare in astronomia

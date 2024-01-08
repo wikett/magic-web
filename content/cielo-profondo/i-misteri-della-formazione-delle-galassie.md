@@ -49,7 +49,7 @@ head:
 
 L'universo è un puzzle grandioso e complesso, le cui pieghe nascondono segreti che la scienza cerca incessantemente di svelare. Tra questi, i **misteri della formazione delle galassie** rappresentano una delle questioni più affascinanti e delicate per gli astrofisici moderni. Ma quali sono i punti oscuri che avvolgono la nascita delle nostre colossali isole stellari?
 
-::photo-article.webp
+::photo-article
 ---
 title: I misteri della formazione delle galassie
 imageurl: https://blog.astroingeo.org/img/content/misterios-sobre-la-formacion-de-galaxias_1.webp
@@ -70,7 +70,7 @@ Le ipotesi sorgono dall’osservazione delle fluttuazioni primordiali nella dens
 
 Il modello Lambda-CDM, spina dorsale della cosmologia moderna, offre una struttura teorica per comprendere la formazione delle galassie. Ma il grande enigma rimane la **materia oscura**: che ruolo gioca in questo scenario?
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/misterios-sobre-la-formacion-de-galaxias_2.webp
 title: I misteri della formazione delle galassie

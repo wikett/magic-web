@@ -49,7 +49,7 @@ head:
 
 La teoria degli antichi astronauti è stata a lungo al centro di accesi dibattiti sia in ambito scientifico che nella cultura di massa. Questa teoria suggerisce che, in un remoto passato, la Terra sia stata visitata da civiltà extraterrestri che hanno influenzato le antiche culture umane, dando vita a miti, leggende e persino influenzando lo sviluppo tecnologico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Gli extraterrestri e la teoria degli antichi astronauti
 imageurl: https://blog.astroingeo.org/img/content/los-extraterrestres-y-la-teoria-de-los-antiguos-astronautas_1.webp
@@ -67,7 +67,7 @@ Molti miti e leggende di varie culture parlano di dei che discesero dal cielo. I
 - La mitologia greca e i dischi volanti di Ezekiel
 - Antichi codici e manufatti egizi
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-extraterrestres-y-la-teoria-de-los-antiguos-astronautas_2.webp
 title: Gli extraterrestri e la teoria degli antichi astronauti

@@ -49,7 +49,7 @@ head:
 
 Le costellazioni hanno catturato la fantasia dell'umanità fin dalla notte dei tempi, brillando come faro nella vastità del cielo notturno. In questa esplorazione siderale, vi guideremo attraverso alcune delle **costellazioni più luminose** e spettacolari che adornano il nostro firmamento.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le costellazioni più luminose
 imageurl: https://blog.astroingeo.org/img/content/las-constelaciones-mas-brillantes_1.webp
@@ -72,7 +72,7 @@ Queste tre stelle formano una linea distintiva che facilita l'identificazione di
 
 **Canis Major**, o il Grande Cane, ospita **Sirio**, la stella più brillante del nostro cielo notturno. La sua luminosità é talmente intensa che può essere scorta anche dai centri urbani più inquinati.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-constelaciones-mas-brillantes_2.webp
 title: Le costellazioni più luminose

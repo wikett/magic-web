@@ -49,7 +49,7 @@ head:
 
 L'universo è un palcoscenico immenso, dove ogni stella, pianeta e galassia svolge il proprio ruolo silenzioso, eppure assolutamente fondamentale. Nella costellazione di fenomeni celesti, il **fondo cosmico di microonde** (cosmic microwave background o CMB) incarna un mistero che ha affascinato gli astronomi e gli astrofisici per decenni. Questo calore residuo del Big Bang è un'eco distante dell'inizio dei tempi, una reliquia di inestimabile valore per chi studia l'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Studio della radiazione cosmica di fondo
 imageurl: https://blog.astroingeo.org/img/content/estudio-de-la-radiacion-de-fondo-cosmico_1.webp
@@ -65,7 +65,7 @@ I telescopi spaziali come il *Planck* dell'ESA e il *Wilkinson Microwave Anisotr
 ## Il CMB e la Struttura dell'Universo
 Studiare il CMB ci permette di comprendere la geometria del cosmo e la distribuzione di materia ed energia oscura. Gli scienziati utilizzano la radiazione di fondo per testare e affinare modelli cosmologici, esaminando le variazioni di temperatura nelle diverse direzioni del cielo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estudio-de-la-radiacion-de-fondo-cosmico_2.webp
 title: Studio della radiazione cosmica di fondo

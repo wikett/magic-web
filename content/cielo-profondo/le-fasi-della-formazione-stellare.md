@@ -49,7 +49,7 @@ head:
 
 Il cielo stellato sopra di noi è un quadro in continua evoluzione, un capolavoro cosmico che cela storie di nascita, vita e morte stellare. Comprendere le **fasi della formazione di una stella** è fondamentale per svelare i misteri dell'Universo. In questo articolo, immergetevi nelle profondità dello spazio per scoprire il ciclo vitale delle stelle.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le fasi della formazione stellare
 imageurl: https://blog.astroingeo.org/img/content/las-fases-de-formacion-de-una-estrella_1.webp
@@ -69,7 +69,7 @@ Questi fattori creano l'ambiente ideale per il collasso gravitazionale, un passa
 ## Il Collasso Gravitazionale: Il Cuore di una Stella Prende Forma
 Mentre la materia continua ad accumularsi, si forma un **proto-stella** al centro della nube. La **densità** e la **temperatura** aumentano radicalmente, innescando reazioni nucleari preliminari.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-fases-de-formacion-de-una-estrella_2.webp
 title: Le fasi della formazione stellare

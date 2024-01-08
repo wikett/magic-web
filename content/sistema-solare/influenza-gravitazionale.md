@@ -49,7 +49,7 @@ head:
 
 La gravità è una forza fondamentale che, da sempre, incuriosisce e affascina scienziati e appassionati di astronomia. Il suo impatto sul cosmo è vasto e multidimensionale, modellando la danza dei corpi celesti e influenzando ogni aspetto della materia spaziale. In questo articolo, esploreremo le meraviglie e i segreti dell'**influenza gravitazionale**, immergendoci nel cuore delle leggi che regolano l'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Influenza gravitazionale
 imageurl: https://blog.astroingeo.org/img/content/influencia-gravitatoria_1.webp
@@ -65,7 +65,7 @@ Le leggi di Kepler descrivono il movimento dei pianeti intorno al Sole e sono un
 ## La Relatività Generale e la Curvatura dello Spazio-Tempo
 Albert Einstein, con la sua teoria della relatività generale, ha ulteriormente arricchito il nostro comprendonio, descrivendo la gravità come una curvatura dello spazio-tempo causata dalla presenza di massa.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/influencia-gravitatoria_2.webp
 title: Influenza gravitazionale

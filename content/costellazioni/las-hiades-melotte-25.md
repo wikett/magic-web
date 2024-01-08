@@ -49,7 +49,7 @@ head:
 
 Le Híades, note anche come l'ammasso aperto Melotte 25, rappresentano un laboratorio celeste di rara bellezza. Situato a una distanza di circa 153 anni luce dalla Terra nella costellazione del Toro, questo gioiello astronomico è conosciuto sin dai tempi antichi, attrando l'attenzione di astronomi e appassionati di stelle di ogni epoca.
 
-::photo-article.webp
+::photo-article
 ---
 title: Las Híades (Melotte 25)
 imageurl: https://blog.astroingeo.org/img/content/las-hiades-melotte-25_3.webp
@@ -69,7 +69,7 @@ Astrofisici e ricercatori trovano nelle **Híades** uno strumento fondamentale p
 - **Parallasse Stellare**: Misurazioni precise della parallasse hanno permesso di determinare la distanza delle Híades con un margine di errore inferiore.
 - **Candelabri Standard**: Le Híades servono come candelabri standard per calibrare la scala delle distanze cosmiche.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-hiades-melotte-25_2.webp
 title: Las Híades (Melotte 25)

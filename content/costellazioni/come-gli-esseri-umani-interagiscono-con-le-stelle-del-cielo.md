@@ -49,7 +49,7 @@ head:
 
 L'astronomia, la scienza che indaga gli astri e l'universo, è una testimone privilegiata di come **gli esseri umani** interagiscono con le stelle nel cielo. Questa relazione risale agli albori della civiltà, rinfrescando continuamente la nostra curiosità e plasmando la cultura umana in modi profondi e talvolta inaspettati.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come gli esseri umani interagiscono con le stelle del cielo
 imageurl: https://blog.astroingeo.org/img/content/como-interactua-el-ser-humano-con-las-estrellas-del-cielo_1.webp
@@ -77,7 +77,7 @@ Oggi, la vicinanza delle stelle è sentita anche attraverso influenze più sotti
 - **Astroterapia**: L'osservazione del cielo stellato ha effetti calmanti e può ridurre lo stress.
 - **Turismo Astronomico**: La ricerca di luoghi con cieli non inquinati da luci artificiali è in crescita.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-interactua-el-ser-humano-con-las-estrellas-del-cielo_2.webp
 title: Come gli esseri umani interagiscono con le stelle del cielo

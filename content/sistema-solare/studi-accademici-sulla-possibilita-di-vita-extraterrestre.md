@@ -49,7 +49,7 @@ head:
 
 La ricerca accademica si è estesa oltre i confini della Terra, sondando l'infinita vastità dell'universo alla scoperta di una delle domande più affascinanti della storia umana: esiste la vita al di fuori del nostro pianeta? In questo approfondimento, esploreremo le ricerche scientifiche che si avventurano nell'inconcepibile spazio esterno, alla ricerca di segni di vita extraterrestre.
 
-::photo-article.webp
+::photo-article
 ---
 title: Studi accademici sulla possibilità di vita extraterrestre
 imageurl: https://blog.astroingeo.org/img/content/estudios-academicos-sobre-la-posibilidad-de-vida-extraterrestre_1.webp
@@ -70,7 +70,7 @@ L'astrobiologia, la fisica e l'astronomia sono branche scientifiche che si inter
 
 La nozione di "zona abitabile" o "Goldilocks Zone" è centrale in astrobiologia. È la fascia orbitale intorno a una stella dove le condizioni potrebbero essere giuste per il mantenimento dell'acqua liquida, e perciò, per lo sviluppo della vita come la conosciamo. La **scoperta di esopianeti** nella zona abitabile ha rivelato candidati promettenti per ulteriori studi.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estudios-academicos-sobre-la-posibilidad-de-vida-extraterrestre_2.webp
 title: Studi accademici sulla possibilità di vita extraterrestre

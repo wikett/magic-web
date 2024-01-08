@@ -49,7 +49,7 @@ head:
 
 La nebulosa Medusa (Abell 21) è un affascinante oggetto celeste che cattura l'immaginazione degli astronomi e degli appassionati di astronomia. La sua complessa struttura e la sua stupefacente bellezza la rendono un soggetto intrigante per chiunque sia affascinato dal mistero e dalla grandezza dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Medusa o Abell 21
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-medusa-o-abell-21_3.webp
@@ -68,7 +68,7 @@ La nebulosa prende il suo nome dalla figura mitologica della Medusa per la sua i
 
 Abell 21 si estende su una regione di circa 4 anni luce di diametro. Composta principalmente da idrogeno e elio, presenta anche tracce di altri elementi come l'ossigeno, il che contribuisce a creare le sue vivide tonalità.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-medusa-o-abell-21_2.webp
 title: Nebulosa Medusa o Abell 21

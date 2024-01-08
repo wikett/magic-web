@@ -49,7 +49,7 @@ head:
 
 L'interesse dell'uomo per la vita oltre la Terra è antico quanto le stelle che osserviamo nel cielo notturno. Gli **extraterrestri** si sono radicati nella nostra cultura, influenzando arte, letteratura, cinema e, naturalmente, la scienza stessa. Nell'esplorare le motivazioni per cui l'umanità è tanto affascinata dall'idea di civiltà aliene, toccheremo vari aspetti che illuminano questo fascino interstellare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Perché luomo è affascinato dagli extraterrestri?
 imageurl: https://blog.astroingeo.org/img/content/por-que-la-fascinacion-del-ser-humano-por-los-extraterrestres_1.webp
@@ -68,7 +68,7 @@ Fin dall'antichità, miti e leggende raccontano di esseri provenienti da mondi l
 
 Il fascino verso l'ignoto ha portato la scienza ufficiale a cercare attivamente tracce di vita al di fuori del nostro pianeta. Il **SETI** e missioni come **Voyager** hanno aperto viottoli nella ricerca scientifica di possibili tracce **alien life forms**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/por-que-la-fascinacion-del-ser-humano-por-los-extraterrestres_2.webp
 title: Perché luomo è affascinato dagli extraterrestri?

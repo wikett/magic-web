@@ -49,7 +49,7 @@ head:
 
 L'arte ha da sempre esplorato territori sconosciuti, e tra questi spiccano le rappresentazioni di entità oltre il nostro mondo. In questo articolo vi immergeremo nel fascino e nelle curiosità che circondano le **rappresentazioni artistiche di esseri extraterrestri**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Rappresentazioni artistiche di esseri extraterrestri
 imageurl: https://blog.astroingeo.org/img/content/depicciones-artisticas-de-seres-extraterrestres_1.webp
@@ -65,7 +65,7 @@ I primi dipinti di creature celesti sono carichi di simbolismi religiosi e mitol
 ### Il Rinascimento e la Scienza
 Con il Rinascimento e l'era delle scoperte scientifiche, l'iconografia extraterrestre si arricchisce di nuove sfumature. La letteratura, come il celebre "Il Dialogo dei Massimi Sistemi" di Galileo, fornisce spunti per visioni artistiche che mescolano realtà e finzione.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/depicciones-artisticas-de-seres-extraterrestres_2.webp
 title: Rappresentazioni artistiche di esseri extraterrestri

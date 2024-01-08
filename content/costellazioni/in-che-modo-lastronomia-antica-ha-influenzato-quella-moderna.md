@@ -49,7 +49,7 @@ head:
 
 L'*astronomia antica* ha gettato le fondamenta su cui si erge l'imponente struttura della **scienza moderna**. Coltivare la comprensione di come l'astronomia dei tempi antichi influisce su quella contemporanea ci aiuta non solo a valorizzare il passato, ma anche a forgiare un futuro di scoperte celesti.
 
-::photo-article.webp
+::photo-article
 ---
 title: In che modo lastronomia antica ha influenzato quella moderna?
 imageurl: https://blog.astroingeo.org/img/content/como-la-astronomia-antigua-influencio-la-actual_1.webp
@@ -68,7 +68,7 @@ I Babilonesi, esperti in **astrologia e astronomia**, svilupparono metodi di pre
 
 Le stelle guida presero forma nel calendario **solare** degli Egiziani. La loro abilità nel correlare le stagioni agricole con l'*astronomia* è alla radice di tutti i nostri moderni sistemi temporali.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-la-astronomia-antigua-influencio-la-actual_2.webp
 title: In che modo lastronomia antica ha influenzato quella moderna?

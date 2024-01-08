@@ -49,7 +49,7 @@ head:
 
 L'universo è una vasta espanse di misteri insondabili e fenomeni che sfidano la nostra comprensione. Alcuni di questi enigmi cosmici catturano l'immaginazione di scienziati e appassionati di astronomia come nulla altro. Scopriamo insieme i **misteri più sconcertanti dello spazio**, quelli che ci pongono domande tanto intriganti quanto complesse.
 
-::photo-article.webp
+::photo-article
 ---
 title: Misteri sconcertanti nello spazio
 imageurl: https://blog.astroingeo.org/img/content/misterios-desconcertantes-en-el-espacio_1.webp
@@ -64,7 +64,7 @@ Il **rilevamento delle onde gravitazionali** ha aperto una nuova finestra nell'o
 ### **Supernovae: Fuochi d'Artificio Galattici**
 Le supernovae, con la loro spettacolare esplosione, rivelano materiale astrofisico essenziale per la formazione di mondi nuovi. Tuttavia, il meccanismo esatto che guida l'implosione di alcune stelle rimane nascosto tra le pieghe dello spaziotempo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/misterios-desconcertantes-en-el-espacio_2.webp
 title: Misteri sconcertanti nello spazio

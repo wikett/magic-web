@@ -49,7 +49,7 @@ head:
 
 Quando scrutiamo il cielo notturno, entriamo in contatto con secoli di misteri e scoperte. L'*astronomia* è una scienza nata nei tempi antichi, quando i primi *osservatori* cercavano di trovare un ordine nel danzare delle stelle. Tra i concetti più affascinanti del cielo, lo **zodiaco** rappresenta un ponte tra passato e futuro, tra mito e realtà.
 
-::photo-article.webp
+::photo-article
 ---
 title: Lo zodiaco e lastronomia antica
 imageurl: https://blog.astroingeo.org/img/content/el-zodiaco-y-la-astronomia-antigua_1.webp
@@ -72,7 +72,7 @@ Ogni civiltà ha interpretato lo **zodiaco** alla luce delle proprie credenze:
 
 Nei tempi antichi, l'osservazione dell'eclittica, il percorso apparente del Sole nel cielo, era essenziale per correlare le stagioni alle constellazioni zodiacali. 
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-zodiaco-y-la-astronomia-antigua_2.webp
 title: Lo zodiaco e lastronomia antica

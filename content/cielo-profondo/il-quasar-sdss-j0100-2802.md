@@ -49,7 +49,7 @@ head:
 
 L’universo è un mosaico di misteri, e tra queste meraviglie troviamo i quasar, fonti astronomiche di energia elettrizzante che affascinano scienziati e appassionati di astronomia. Uno dei protagonisti di questa storia cosmica è il **SDSS quasar J0100+2802**, un gigante luminoso rintracciato dal Sloan Digital Sky Survey (SDSS), che getta una luce abbagliante sugli angoli più oscuri dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il quasar SDSS J0100+2802
 imageurl: https://blog.astroingeo.org/img/content/quasar-sdss-j0100-2802_3.webp
@@ -66,7 +66,7 @@ Quando parliamo del **quasar J0100+2802**, ci immergiamo in un viaggio temporale
 
 La luminosità di **J0100+2802** supera quella del nostro Sole di una magnitudo quasi incomprensibile, rendendolo uno dei quasar più brillanti mai osservati. Ma cosa dà a questo quasar la sua impressionante brillantezza? Al suo cuore si trova un buco nero supermassiccio, un motore cosmico che spinge l’energia a livelli stratosferici.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/quasar-sdss-j0100-2802_2.webp
 title: Il quasar SDSS J0100+2802

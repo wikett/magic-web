@@ -49,7 +49,7 @@ head:
 
 Le stelle hanno sempre guidato l'umanità, seminando domande sul nostro posto nell'universo e ispirando storie mythologiche intessute nel firmamento notturno. Tra questi racconti celesti, una costellazione rimane intrigante ma spesso trascurata: il **Reticolo**. In questa esplorazione stellare, scopriremo i segreti e le caratteristiche di questa peculiare configurazione celeste.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione Reticulum
 imageurl: https://blog.astroingeo.org/img/content/constelacion-reticulum_1.webp
@@ -65,7 +65,7 @@ Originariamente notato e catalogato dall'astronomo Nicolas Louis de Lacaille nel
 ### Stelle Principali e Oggetti Celesti
 Nel tessuto del **Reticolo** brillano alcune stelle notevoli, tra cui **Alpha Reticuli** e **Beta Reticuli**, formando i nodi principali della rete stellare. Gli appassionati di astronomia ammirano anche la presenza di ammassi stellari e galassie lontane, come la nana ellittica **NGC 1553**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-reticulum_2.webp
 title: Costellazione Reticulum

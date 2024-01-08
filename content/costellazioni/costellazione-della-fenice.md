@@ -49,7 +49,7 @@ head:
 
 La *Costellazione del Fenice* non è solo un raggruppamento di stelle nel cielo notturno, ma è anche un emblema cosmico che ha affascinato gli astronomi e gli appassionati del cielo sin dall'antichità. In quest'articolo, ci immergeremo nella bellezza e nella storia di questa splendida costellazione, scoprendo insieme i suoi segreti e le sue curiosità.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione della Fenice
 imageurl: https://blog.astroingeo.org/img/content/constelacion-fenix_1.webp
@@ -68,7 +68,7 @@ Il mito del Fenice risale a tempi antichi, in cui la creatura leggendaria che ri
 
 Nell'era moderna, l'**astronomia** ha dato al Fenice una posizione chiara nel cielo, facendola diventare un punto di riferimento per gli osservatori australi e sudamericani, oltre che per i satelliti che monitorano questa zona del cielo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-fenix_2.webp
 title: Costellazione della Fenice

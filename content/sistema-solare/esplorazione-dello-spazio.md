@@ -49,7 +49,7 @@ head:
 
 L'esplorazione spaziale ha da sempre affascinato l'umanità, spingendoci oltre i confini del noto e incitandoci a sognare ad occhi aperti le meraviglie dell'Universo. Nel corso degli anni, grazie allo sviluppo tecnologico e scientifico, l'impresa di scrutare ed esplorare lo spazio è divenuta una realtà sempre più tangibile, aprendo nuove frontiere alla nostra comprensione cosmica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Esplorazione dello spazio
 imageurl: https://blog.astroingeo.org/img/content/exploracion-espacial_1.webp
@@ -68,7 +68,7 @@ Ogni missione spaziale che viene lanciata rappresenta un avanzamento significati
 
 Con l'avvento di nuove tecnologie di rilevazione e viaggio spaziale, l'era moderna è contrassegnata da un intenso attivismo. Le missioni attuali mirano a comprendere meglio la possibilità di vita su altri pianeti, l'esistenza della materia oscura e l'espansione dell'Universo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/exploracion-espacial_2.webp
 title: Esplorazione dello spazio

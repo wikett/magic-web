@@ -49,7 +49,7 @@ head:
 
 Omega Centauri, o NGC 5139, non è solo uno dei tanti ammassi globulari presenti nella nostra galassia, ma un autentico gigante che detiene record e segreti celesti, rendendolo uno dei più affascinanti oggetti celesti studiati dagli astronomi.
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso globulare Omega Centauri (NGC 5139)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-de-omega-centauri-ngc-5139_3.webp
@@ -68,7 +68,7 @@ Omega Centauri sfoggia oltre 10 milioni di stelle anziane, accumulate nel corso 
 
 Gli astri più vecchi in questo ammasso hanno una stima d'età di circa 12 miliardi di anni, ma il processo di formazione stellare sembra essersi svolto in più fasi. Questo ha dato vita ad alcune speculazioni relativamente alla possibile esistenza di un nucleo galattico inattivo all'interno del cluster, stimolando ipotesi che potrebbe trattarsi del cuore di una galassia nana inglobata dalla Via Lattea.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-de-omega-centauri-ngc-5139_2.webp
 title: Ammasso globulare Omega Centauri (NGC 5139)

@@ -51,7 +51,7 @@ Sure, I can create an optimized article outline based on the given requirements.
 
 # Come l'atmosfera influenza la visibilità delle stelle
 
-::photo-article.webp
+::photo-article
 ---
 title: Come il tempo influenza la visibilità delle stelle
 imageurl: https://blog.astroingeo.org/img/content/como-afecta-el-tiempo-la-visibilidad-de-las-estrellas_1.webp
@@ -68,7 +68,7 @@ Il tempo cambia costantemente e ogni stato atmosferico ha un impatto sulla **tra
 - Strati di nubi
 - Tipi di nubi e stellate
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-afecta-el-tiempo-la-visibilidad-de-las-estrellas_2.webp
 title: Come il tempo influenza la visibilità delle stelle

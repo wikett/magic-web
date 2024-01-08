@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è sempre stato una fonte di meraviglia e mistero. Innumerevoli stelle, pianeti lontani e la vastità dell'universo hanno stuzzicato la curiosità umana per millenni. Non è strano, quindi, che alcuni **fenomeni astronomici non ancora spiegati** abbiano alimentato la speculazione su potenziali **contatti con entità extraterrestri**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Fenomeni inspiegabili e loro relazione con gli extraterrestri
 imageurl: https://blog.astroingeo.org/img/content/fenomenos-inexplicables-y-su-relacion-con-los-extraterrestres_1.webp
@@ -65,7 +65,7 @@ Dagli antichi affreschi che sembrano raffigurare astronavi a luci moderne cattur
 ## Il Segnale WOW: Un Saluto Intergalattico?
 Nel 1977, un radioastronomo registrò un potente segnale radio proveniente dallo spazio: il segnale WOW. Nonostante molti tentativi, la sua origine rimane sconosciuta, portando ad ipotizzare una possibile **origine intelligente**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/fenomenos-inexplicables-y-su-relacion-con-los-extraterrestres_2.webp
 title: Fenomeni inspiegabili e loro relazione con gli extraterrestri

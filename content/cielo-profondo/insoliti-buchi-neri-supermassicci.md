@@ -49,7 +49,7 @@ head:
 
 All'interno delle profondità vertiginose dell'universo, esistono fenomeni che sfidano la nostra comprensione della fisica cosmica: i buchi neri supermassicci. Questi colossi gravitazionali abitano di solito i centri delle galassie, includendo il nostro Via Lattea. Ma non tutti i buchi neri supermassicci aderiscono agli schemi previsti dagli astronomi. Di recente, nuovi studi hanno messo in luce esemplari inusuali, sfidando tutto ciò che si pensava di sapere su questi mostri cosmici.
 
-::photo-article.webp
+::photo-article
 ---
 title: Insoliti buchi neri supermassicci
 imageurl: https://blog.astroingeo.org/img/content/agujeros-negros-supermasivos-inusuales_1.webp
@@ -68,7 +68,7 @@ Ma cosa succede quando questi giganti non seguono la norma? Gli *esemplari atipi
 
 Gli *studiosi dell'astronomia* hanno scoperto buchi neri supermassicci che non risiedono nei nuclei galattici, ma si trovano in posizioni anomale. Questi esiliati cosmici sollevano interrogativi sulle loro origini e sulla dinamica galattica.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/agujeros-negros-supermasivos-inusuales_2.webp
 title: Insoliti buchi neri supermassicci

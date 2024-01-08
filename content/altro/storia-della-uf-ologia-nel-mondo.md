@@ -49,7 +49,7 @@ head:
 
 L'ufologia, disciplina dedicata allo studio degli oggetti volanti non identificati, è sempre stata avvolta da un'aura di fascino e segretezza. La curiosità umana riguardo a ciò che potrebbe celarsi oltre il cielo stellato ha dato vita a una serie di indagini, teorie e ipotesi che attraversano la nostra storia.
 
-::photo-article.webp
+::photo-article
 ---
 title: Storia della UFOlogia nel mondo
 imageurl: https://blog.astroingeo.org/img/content/historia-de-la-ovnilogia-en-el-mundo_1.webp
@@ -68,7 +68,7 @@ Fenomeni celesti inspiegabili non sono un'esclusiva della nostra epoca. **Antich
 
 Il **caso di Roswell** del 1947 è spesso considerato il punto di partenza della moderna ufologia. Le cronache dell'epoca raccontarono di materiali recuperati in un presunto schianto di un disco volante a Roswell, Nuovo Messico, evento che mise in moto l'interesse mondiale e le successive teorie di cospirazione.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/historia-de-la-ovnilogia-en-el-mundo_2.webp
 title: Storia della UFOlogia nel mondo

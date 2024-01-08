@@ -49,7 +49,7 @@ head:
 
 L'esplorazione spaziale è, nell'immaginario collettivo, l'ultima grande frontiera dell'avventura umana. Un percorso seminato di sfide tecniche, coraggio personale e una sete insaziabile di conoscenza. Bene, accompagnatemi in questo viaggio, attraverso le epoche e le mille conquiste che hanno segnato la **storia dell'esplorazione spaziale umana**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Storia dellesplorazione umana dello spazio
 imageurl: https://blog.astroingeo.org/img/content/historia-de-la-exploracion-espacial-humana_1.webp
@@ -68,7 +68,7 @@ Negli anni '50, due superpotenze emergono nel palcoscenico globale: gli Stati Un
 
 Il beep-beep di Sputnik, lanciato nel 1957, risuona come un campanello d'allarme per l'Occidente. C'è l'urgenza di rispondere, e si materializza con Apollo 11: **Neil Armstrong** e i suoi compagni Buzz Aldrin e Michael Collins conquistano la Luna nel 1969, una pietra miliare impressa nell'anima collettiva.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/historia-de-la-exploracion-espacial-humana_2.webp
 title: Storia dellesplorazione umana dello spazio

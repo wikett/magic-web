@@ -49,7 +49,7 @@ head:
 
 Nel firmamento, prospiciente alle latitudini boreali, si staglia la *costellazione di Perseo*, un insieme celeste ricco di mitologia e meraviglie astronomiche. La notte si trasforma in una tela su cui Perseo, l'eroe mitologico, continua la sua avventura tra le stelle.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione di Perseo
 imageurl: https://blog.astroingeo.org/img/content/constelacion-perseo_3.webp
@@ -70,7 +70,7 @@ Tra le ètoile più luminose che decorano la costellazione, **Algol**, o Beta Pe
 - **La Nebulosa California (NGC 1499)**, una nube di gas incandescente simile nella forma allo Stato americano da cui prende il nome.
 - **La Doppia Cluster (NGC 884 e NGC 869)**, due ammassi stellari vicini, un vero gioiello per gli astrofili.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-perseo_2.webp
 title: Costellazione di Perseo

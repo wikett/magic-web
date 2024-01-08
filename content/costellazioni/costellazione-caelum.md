@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un mosaico incantevole di luce e ombra, una tela cosmica che l'umanità ha ammirato e studiato per eoni. Tra le figure che ornano questa tela vi è la **Costellazione del Caelum**, un piccolo e spesso trascurato insieme di stelle dal fascino discreto e dalla storia affascinante.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione Caelum
 imageurl: https://blog.astroingeo.org/img/content/constelacion-caelum_1.webp
@@ -71,7 +71,7 @@ Conosciuta anche come il **Cinello**, il **Caelum** è una delle 88 costellazion
 
 A differenza di molte altre costellazioni con radici antiche, il Caelum fu introdotto nel XVII secolo dall'astronomo francese Nicolas Louis de Lacaille. Non possiede leggende mitiche elaborate, ma è dedicato allo strumento dello scultore, simbolo del creato artistico sia terreno che celeste.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-caelum_2.webp
 title: Costellazione Caelum

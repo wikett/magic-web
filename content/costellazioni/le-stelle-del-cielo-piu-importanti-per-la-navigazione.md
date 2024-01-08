@@ -49,7 +49,7 @@ head:
 
 La navigazione stellare è un'arte antica e intricata, che ha permesso umanità di attraversare mari e oceani ben prima dell'avvento di strumenti tecnologici moderni. Quest'articolo vi guiderà tra le *stellazioni guida* e *corpi celesti* più importanti per orientarsi quando si è in mare aperto.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le stelle del cielo più importanti per la navigazione
 imageurl: https://blog.astroingeo.org/img/content/las-estrellas-en-el-cielo-mas-importantes-para-la-navegacion_1.webp
@@ -68,7 +68,7 @@ La **Stella Polare** è il punto focale per chi naviga nell'emisfero nord. Trova
 
 Al contrario, nell'emisfero sud, i marinai si affidano alla **Cruce del Sur (Croce del Sud)**, un asterismo facile da riconoscere che punta verso il polo sud celeste.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-estrellas-en-el-cielo-mas-importantes-para-la-navegacion_2.webp
 title: Le stelle del cielo più importanti per la navigazione

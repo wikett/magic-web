@@ -49,7 +49,7 @@ head:
 
 **Il Sole, centro del nostro sistema, si rivela come un enigma dall'energia sovrana**. Lontano dall'essere una semplice sfera infuocata nel cielo, Sol costituisce la fonte primordiale della vita sulla Terra, un astero potente e misterioso che monopolizza la curiosità degli astrofili e degli esperti di astronomia.
 
-::photo-article.webp
+::photo-article
 ---
 title: Sol
 imageurl: https://blog.astroingeo.org/img/content/sol_1.webp
@@ -68,7 +68,7 @@ Le macchie solari, aree più fredde e magneticamente turbolente sulla superficie
 
 **Gli eventi celesti** come le eclissi solari catturano l'attenzione del pubblico, dimostrando la coreografia precisa del nostro sistema solare. Il transito dei pianeti, visibile come piccoli dischi che si muovono davanti al Sole, offre uno spettacolo raro ma affascinante agli osservatori.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/sol_2.webp
 title: Sol

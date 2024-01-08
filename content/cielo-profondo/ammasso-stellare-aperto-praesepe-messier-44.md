@@ -49,7 +49,7 @@ head:
 
 Il **Praesepe**, o l'Ammasso Aperto di Messier 44, è una meraviglia celeste che apre una finestra sull'immensità dell'universo. Situato nella costellazione del Cancro, questo gruppo di stelle cattura l'immaginazione degli astronomi e di coloro che semplicemente alzano lo sguardo al cielo notturno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso stellare aperto Praesepe (Messier 44)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-estelar-abierto-de-praesepe-messier-44_3.webp
@@ -64,7 +64,7 @@ Il Praesepe, noto anche come **M44**, si trova a circa 577 anni luce dalla Terra
 ### L'Importanza Storica dell'Ammasso
 Storicamente, M44 è stato uno dei primi oggetti non stellari ad essere catalogati, riscoperto nel 260 a.C. dai Greci. L'ammasso aperto è composto da stelle relativamente giovani, e il loro studio contribuisce alla comprensione dell'evoluzione stellare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-estelar-abierto-de-praesepe-messier-44_2.webp
 title: Ammasso stellare aperto Praesepe (Messier 44)

@@ -51,7 +51,7 @@ L'astrofisica è una disciplina che quotidianamente si confronta con enigmi che 
 
 # Onde Gravitazionali: Vibrazioni dello Spazio-Tempo
 
-::photo-article.webp
+::photo-article
 ---
 title: Strani fenomeni astrofisici
 imageurl: https://blog.astroingeo.org/img/content/extranos-fenomenos-astrofisicos_1.webp
@@ -76,7 +76,7 @@ Le magnetar sono una tipologia rara e straordinaria di stelle di neutroni caratt
 
 # Buchi Neri Supermassicci: I Giganti Silenziosi
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/extranos-fenomenos-astrofisicos_2.webp
 title: Strani fenomeni astrofisici

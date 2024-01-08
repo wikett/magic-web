@@ -49,7 +49,7 @@ head:
 
 L'astrologia antica e l'influenza delle comete nel cosmo sono state di grande interesse fin dai tempi più remoti. Gli antichi osservatori del cielo si stupivano di fronte alle comete, fenomeni celesti estemporanei dando vita al mito e alla leggenda. Si credeva che questi "astri erranti" potessero preconizzare eventi significativi o anche interpretati come messaggeri divini. I cieli non erano soltanto uno spettacolo da ammirare, ma una scrittura celeste da decifrare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il ruolo delle comete nellastronomia antica
 imageurl: https://blog.astroingeo.org/img/content/el-papel-de-los-cometas-en-la-astronomia-antigua_1.webp
@@ -68,7 +68,7 @@ Antiche civiltà come gli Egiziani, i Greci e i Romani, attribuivano alle comete
 
 Molti miti hanno interpretato le comete come carri divini o come esseri celesti in transito, sottolineando la loro natura effimera e il loro potere evocativo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-papel-de-los-cometas-en-la-astronomia-antigua_2.webp
 title: Il ruolo delle comete nellastronomia antica

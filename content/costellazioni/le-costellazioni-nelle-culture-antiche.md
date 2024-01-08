@@ -49,7 +49,7 @@ head:
 
 Le **costellazioni** hanno da sempre catturato l'immaginazione umana, servendo non solo come punti di riferimento celesti ma anche come fonte di miti e leggende per le **culture antiche** di tutto il mondo. Da tempo immemore, l'uomo ha alzato lo sguardo al cielo, cercando di dare un senso alle luci luccicanti che punteggiavano l'oscurità notturna. In questa esplorazione stellare, scopriamo come diverse civiltà hanno mappato il cielo e quali storie hanno narrato tra le stelle.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le costellazioni nelle culture antiche
 imageurl: https://blog.astroingeo.org/img/content/las-constelaciones-en-las-culturas-antiguas_1.webp
@@ -77,7 +77,7 @@ I Maya erano abili astronomi e le loro conoscenze erano profondamente intrecciat
 - La loro interpretazione del **Cielo Notturno** era tanto pratica quanto spirituale.
 - **Il Serpente Piumato** Kukulkan era collegato alla costellazione del **Dragone**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-constelaciones-en-las-culturas-antiguas_2.webp
 title: Le costellazioni nelle culture antiche

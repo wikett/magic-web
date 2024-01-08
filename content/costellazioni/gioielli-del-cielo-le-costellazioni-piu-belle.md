@@ -49,7 +49,7 @@ head:
 
 Scoprire il cielo notturno è un'esperienza senza tempo, un viaggio tra **astri luminosi** e figure mitologiche che hanno ispirato l'umanità da millenni. Le costellazioni, reliquie celesti di storie e leggende, rappresentano alcuni dei gioielli più preziosi del firmamento. Nella vastità dell'universo, esse ritagliano la loro scena irradiando bellezza e suscitando meraviglia. Ma quali sono le **costellazioni più belle** da osservare?
 
-::photo-article.webp
+::photo-article
 ---
 title: Gioielli del cielo; le costellazioni più belle
 imageurl: https://blog.astroingeo.org/img/content/joyas-del-cielo-constelaciones-mas-hermosas_1.webp
@@ -65,7 +65,7 @@ Orione è indubbiamente una delle costellazioni più conosciute e **ammirate del
 - **Miglior Periodo**: Inverno
 - **Peculiarità**: Nebulosa di Orione, una regione di formazione stellare visibile persino a occhio nudo sotto cieli bui.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/joyas-del-cielo-constelaciones-mas-hermosas_2.webp
 title: Gioielli del cielo; le costellazioni più belle

@@ -49,7 +49,7 @@ head:
 
 L'universo è un mosaico di fenomeni straordinari e tra questi spicca il **Quasar PKS 1127-145**, una fonte luminosa ed energetica all'estremo del visibile. Questo gigante tra le galassie attive incanta gli astronomi e suscita domande ancora senza risposta. Scopriamo insieme i segreti di questo oggetto astronomico e capiamo perché continua a catturare l'immaginazione degli scienziati.
 
-::photo-article.webp
+::photo-article
 ---
 title: Quasar PKS 1127-145
 imageurl: https://blog.astroingeo.org/img/content/quasar-pks-1127-145_3.webp
@@ -65,7 +65,7 @@ I **quasar** sono i nuclei di galassie antiche, particolarmente luminosi a causa
 ## Fenomeni Fisici Incredibili
 L'aspetto più interessante dei quasar, incluso il **PKS 1127-145**, è senza dubbio la potenza del loro getto di plasma: fasci concentrati di particelle che viaggiano a velocità prossime alla luce.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/quasar-pks-1127-145_2.webp
 title: Quasar PKS 1127-145

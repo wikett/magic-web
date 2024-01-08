@@ -49,7 +49,7 @@ head:
 
 L'universo è un teatro di innumerevoli corpi celesti, ognuno recitando la propria parte nella vasta opera dello spazio. Tra questi attori spiccano le comete e gli asteroidi, entrambi popolari nelle narrazioni astronomiche, ma distinti in natura e comportamento. Perché la vita intorno a noi sembra così diversa se guardiamo una cometa nel cielo notturno o incrociamo la rotta di un asteroide? Scopriamolo insieme.
 
-::photo-article.webp
+::photo-article
 ---
 title: Differenze tra comete e asteroidi
 imageurl: https://blog.astroingeo.org/img/content/diferencias-entre-cometas-y-asteroides_1.webp
@@ -66,7 +66,7 @@ Gli **asteroidi**, d'altro canto, sono frammenti rocciosi che provengono per lo 
 
 ## Caratteristiche Distintive
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/diferencias-entre-cometas-y-asteroides_2.webp
 title: Differenze tra comete e asteroidi

@@ -49,7 +49,7 @@ head:
 
 L'astronomia antica cinese vanta una storia millenaria, ricca di scoperte eccezionali e contributi fondamentali alla conoscenza del cosmo. Questo articolo esplora le meraviglie dell'universo attraverso l'occhio sapiente degli antichi astronomi cinesi. Scopriremo come osservazioni meticolose e registrazioni precise abbiano gettato le basi per la comprensione moderna dei cieli. Attraverso un viaggio nei meandri della scienza celeste cinese, emergeranno paradigmi astronomici e realizzazioni tecnologiche di un'era ormai remota. Preparati a un’esplorazione stellare dove ogni paragrafo illumina un'epoca di magnifiche scoperte astronomiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Lastronomia cinese antica e le sue scoperte
 imageurl: https://blog.astroingeo.org/img/content/astronomia-china-antigua-y-sus-descubrimientos_1.webp
@@ -68,7 +68,7 @@ Gli antichi cinesi hanno assistito a eventi celesti epocali, registrando le prim
 
 Le osservazioni sulla regolarità delle eclissi sono esempi perfetti della maestria raggiunta nel campo dell'**astronomia antica cinese**. Gli astrolabi e altri strumenti sofisticati, come il famoso **Su Song** orologio astronomico, sono stati utilizzati per mappare i cieli con una precisione ineguagliata. Strumenti come questi hanno permesso agli astronomi di predire gli eventi celesti, segnando profondamente la nostra comprensione del tempo e dello spazio.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/astronomia-china-antigua-y-sus-descubrimientos_2.webp
 title: Lastronomia cinese antica e le sue scoperte

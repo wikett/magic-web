@@ -49,7 +49,7 @@ head:
 
 La *Nebulosa Keyhole*, conosciuta anche come NGC 3324, è una finestra cosmica che incanta gli astronomi e gli appassionati di stelle. Questo oggetto celeste, situato nella costellazione della Carena, offre uno spettacolo affascinante per coloro che puntano i loro telescopi verso il cielo notturno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Keyhole
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-ojo-de-cerradura_3.webp
@@ -72,7 +72,7 @@ La nebulosa presenta caratteristiche singolari:
 
 Le immagini della Nebulosa Keyhole catturate dai telescopi mostrano una danza di colori, dai rossi profondi ai blu elettrici, che raccontano la composizione chimica dell’area e le reazioni fisiche che ivi avvengono.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-ojo-de-cerradura_2.webp
 title: Nebulosa Keyhole

@@ -49,7 +49,7 @@ head:
 
 Le **nuvole di gas intergalattiche** rappresentano uno degli enigmi più affascinanti dell'universo. Non solo sono esteticamente straordinarie, ma nascondono al loro interno i segreti della formazione delle galassie, della composizione chimica dell'universo e dei processi fisici che regolano la sua evoluzione.
 
-::photo-article.webp
+::photo-article
 ---
 title: Interessanti nubi di gas intergalattiche
 imageurl: https://blog.astroingeo.org/img/content/nubes-de-gas-intergalactico-interesantes_1.webp
@@ -66,7 +66,7 @@ La creazione di questi **corpi celesti** inspiegabilmente belli trova radici nel
 
 Alcune di queste nuvole fungono da veri e propri **vivai stellari**, regioni di formazione stellare, dimostrando che, anche nel vuoto apparente, la vita cosmica può nascere e prosperare. Gli astronomi osservano queste regioni per comprendere meglio i meccanismi che danno vita alle stelle.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nubes-de-gas-intergalactico-interesantes_2.webp
 title: Interessanti nubi di gas intergalattiche

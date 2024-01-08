@@ -49,7 +49,7 @@ head:
 
 L'esistenza di vita al di fuori del nostro pianeta Terra ha stimolato per secoli l'immaginazione e la curiosità umana. L'idea che non siamo soli nell'universo è affascinante e, contemporaneamente, preoccupante. E mentre l'umanità continua a scrutare il cosmo alla ricerca di **segni di vita extraterrestre**, ogni nuova scoperta ci avvicina potenzialmente a una conferma o a una smentita. Questo articolo intende esplorare i potenziali segnali di creature interstellari, raccogliendo le conoscenze astronomiche attuali e le ipotesi scientifiche più verosimili.
 
-::photo-article.webp
+::photo-article
 ---
 title: Potenziali segni di vita extraterrestre
 imageurl: https://blog.astroingeo.org/img/content/potenciales-senales-de-vida-extraterrestre_1.webp
@@ -68,7 +68,7 @@ Uno scenario affascinante nell'ambito della ricerca di vita aliena è l'intercet
 
 La disciplina dell'**esobiologia** si focalizza sull'identificazione degli indicatori biologici, o biosignature, che possono denunciare presenze di forme di vita su altri corpi celesti. Tra questi indicatori rientrano:
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/potenciales-senales-de-vida-extraterrestre_2.webp
 title: Potenziali segni di vita extraterrestre

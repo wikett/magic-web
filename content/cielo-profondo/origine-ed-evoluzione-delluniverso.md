@@ -49,7 +49,7 @@ head:
 
 L'universo, un'entità di insondabile vastità e di affascinante mistero, ha da sempre sollecitato le menti più curiose, spingendoci a indagare sulle sue origini e sulla sua evoluzione. Ma come è nato l'universo? E come si è evoluto nel corso di miliardi di anni? Ecco un'esplorazione tra le teorie scientifiche e le scoperte astronomiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Origine ed evoluzione delluniverso
 imageurl: https://blog.astroingeo.org/img/content/origen-y-evolucion-del-universo_1.webp
@@ -65,7 +65,7 @@ Nei primi minuti che seguirono il Big Bang, l'universo era una sfera incandescen
 ### La Ricombinazione e la Cosmic Microwave Background
 Dopo circa 380.000 anni, l'universo si è abbastanza raffreddato per permettere agli elettroni e ai protoni di combinarsi e formare atomi neutri. Questo evento, noto come ricombinazione, ha reso l'universo trasparente alla luce, lasciandoci come testimonianza la **Cosmic Microwave Background** (CMB), una radiazione di fondo ancora osservabile oggi.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/origen-y-evolucion-del-universo_2.webp
 title: Origine ed evoluzione delluniverso

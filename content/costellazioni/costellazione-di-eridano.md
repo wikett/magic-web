@@ -49,7 +49,7 @@ head:
 
 L’Eridano, o **Costellazione dell'Eridano**, è una delle più antiche e affascinanti formazioni stellari conosciute dall'uomo. Spesso raffigurata come un fiume sinuoso che attraversa il cielo notturno, questa costellazione si rivela una miniera di storie mitologiche e di oggetti celesti meravigliosi pronta ad essere esplorata dall’astrofilo moderno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione di Eridano
 imageurl: https://blog.astroingeo.org/img/content/constelacion-eridanus_1.webp
@@ -64,7 +64,7 @@ Se guardiamo al passato, troviamo che l’**Eridano** è profondamente radicato 
 ### Evidenze Astronomiche Antiche
 Approfondimenti storici mostrano che già antichi astronomi, come Tolomeo, identificarono questa costellazione come una delle 48 originarie. I suoi astri hanno dunque brillato sopra di noi per millenni, guidando navigazioni ed ispirando mitologie.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-eridanus_2.webp
 title: Costellazione di Eridano

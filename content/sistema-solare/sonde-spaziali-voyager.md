@@ -49,7 +49,7 @@ head:
 
 L'esplorazione spaziale ha segnato un'epoca gloriosa nella storia dell'umanità, un capitolo indimenticabile è senza dubbio rappresentato dal **programma Voyager**. Le sonde spaziali Voyager hanno superato i confini del sistema solare, inviando dati scientifici inestimabili che continuano a stupirci. Partiti dalla Terra oltre quattro decenni fa, questi araldi cosmici narrano un viaggio senza precedenti nelle profondità dello spazio interstellare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Sonde spaziali Voyager
 imageurl: https://blog.astroingeo.org/img/content/sondas-espaciales-voyager_1.webp
@@ -68,7 +68,7 @@ Sul piano tecnologico, le sonde sono equipaggiate con **strumentazione di punta*
 ## La Musica delle Sfere Celesti: I Suoni Interstellari
 Non solo scienza: Voyager 1 e 2 portano con sé i famosi **Voyager Golden Records** – dischi fonografici dorati contenenti suoni e immagini selezionati per mostrare la diversità della vita e cultura sulla Terra, un messaggio potenzialmente eterno per possibili civiltà extraterrestri.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/sondas-espaciales-voyager_2.webp
 title: Sonde spaziali Voyager

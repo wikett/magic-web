@@ -49,7 +49,7 @@ head:
 
 Esplorare il cielo notturno è una delle avventure più affascinanti per grandi e piccini. Soprattutto quando si tratta di osservare la Luna, il nostro vicino celeste che da millenni incanta l'umanità. Oggi ci imbarcaremo in un viaggio spaziale per scoprire insieme **le fasi lunari**, spiegate in modo semplice e divertente per i più giovani.
 
-::photo-article.webp
+::photo-article
 ---
 title: Spiegazione delle fasi lunari per bambini
 imageurl: https://blog.astroingeo.org/img/content/fases-lunares-explicacion-para-ninos_1.webp
@@ -68,7 +68,7 @@ Partiamo dalla **Luna Nuova**, quella fase in cui la Luna è così vicina al Sol
 
 Una settimana dopo la Luna Nuova, circa, arriviamo al Primo Quarto. In questa fase, metà della Luna è luminosa e metà è oscura. È come se il nostro satellite naturale fosse tagliato a metà da un raggio di luce. Se osservate bene, sembra un **D** nel cielo!
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/fases-lunares-explicacion-para-ninos_2.webp
 title: Spiegazione delle fasi lunari per bambini

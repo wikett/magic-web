@@ -49,7 +49,7 @@ head:
 
 L'universo: un immenso palcoscenico di stelle, galassie e misteri insondabili che l'umanità ha sempre cercato di comprendere. Ma che cosa ci riserva il futuro cosmico? Varie teorie scientifiche tentano di descrivere scenari sul possibile destino finale dell'universo, un tema affascinante che suscita la curiosità di astrofili e studiosi.
 
-::photo-article.webp
+::photo-article
 ---
 title: Teorie sulla fine delluniverso
 imageurl: https://blog.astroingeo.org/img/content/teorias-sobre-el-fin-del-universo_1.webp
@@ -68,7 +68,7 @@ Con l'inesorabile passaggio del tempo, anche i più duraturi astri del cosmo, i 
 
 Al contrario del congelamento progressivo, la teoria della **Grande Strappo** prevede un finale decisamente più drammatico. Un'energia oscura sempre più repulsiva potrebbe dilatare lo spazio a tal punto da superare la forza di gravità, dividendo pian piano ogni struttura: dalle galassie agli atomi stessi.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/teorias-sobre-el-fin-del-universo_2.webp
 title: Teorie sulla fine delluniverso

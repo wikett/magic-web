@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno ha sempre esercitato un potente fascino sull'umanità, stuzzicando curiosità e meraviglia. Fotografarlo, però, può rappresentare una sfida affascinante quanto complessa. In quest'articolo esploreremo le **tecniche ottimali per fotografare il cielo notturno**, concentrandoci su strumenti, impostazioni e trucchi del mestiere, ideali per astrofili e fotografi appassionati.
 
-::photo-article.webp
+::photo-article
 ---
 title: Tecniche per fotografare il cielo notturno
 imageurl: https://blog.astroingeo.org/img/content/tecnicas-para-fotografiar-el-cielo-nocturno_1.webp
@@ -69,7 +69,7 @@ Per cogliere la maestosità del firmamento, bisogna bilanciare tre elementi fond
 ## Tecniche di Composizione e Inquadratura
 L'arte della composizione è tanto importante quanto la tecnica. Includere elementi terrestri può aggiungere profondità e contesto all'immagine. Gestire la *regola dei terzi* e fare uso di linee guida naturali aiuta a creare una **composizione armonica**. 
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/tecnicas-para-fotografiar-el-cielo-nocturno_2.webp
 title: Tecniche per fotografare il cielo notturno

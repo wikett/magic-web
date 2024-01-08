@@ -49,7 +49,7 @@ head:
 
 Il firmamento notturno ci presenta una tela scintillante dove le stelle brillano in un'abbagliante varietà di colori. Ma cosa significano questi diversi colori? Perché alcune stelle splendono di un caldo bagliore arancione mentre altre brillano di una luce azzurra? E cosa rivelano su età, composizione e distanza di queste giganti lontane? Esploriamo insieme il significato cromatico di queste gemme celesti.
 
-::photo-article.webp
+::photo-article
 ---
 title: I colori delle stelle e il loro significato
 imageurl: https://blog.astroingeo.org/img/content/los-colores-de-las-estrellas-y-que-significan_1.webp
@@ -65,7 +65,7 @@ Il colore di una stella è un indicatore diretto della sua temperatura superfici
 ### Il Blu delle Giganti
 Le stelle blu, tra cui alcune delle più luminose dell'universo come Rigel e Spica, sono enormi in termini di massa e incredibilmente calde. Parliamo di temperature che possono superare i 25.000 K. Queste stelle vivono esistenze brevi ma explosive, spesso terminando la loro vita in supernovae spettacolari.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-colores-de-las-estrellas-y-que-significan_2.webp
 title: I colori delle stelle e il loro significato

@@ -49,7 +49,7 @@ head:
 
 L'*Ammasso di Ercole*, meglio noto come **Messier 13** o **M13**, è uno dei gioielli del firmamento che da secoli incanta astronomi professionisti e dilettanti. Scoperto da Edmond Halley nel 1714, questo splendido cumulo stellare rappresenta non solo una delle strutture più dense di stelle nella nostra Galassia ma anche un oggetto celeste chiave per chi si avventura nell'osservazione del cielo notturno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cumulo di Ercole (Messier 13)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-de-hercules-messier-13_3.webp
@@ -74,7 +74,7 @@ Ritrovare Messier 13 è un'avventura appassionante. Per individuarlo:
 
 Anche con un binocolo, in notti limpide e buie, è possibile scorgere **M13** come una macchia nebulosa ma è con un telescopio che sfodera tutta la sua gloria stellare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-de-hercules-messier-13_2.webp
 title: Cumulo di Ercole (Messier 13)

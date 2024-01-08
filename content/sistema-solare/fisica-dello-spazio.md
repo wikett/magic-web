@@ -49,7 +49,7 @@ head:
 
 La fisica spaziale è una branca affascinante che affronta i vasti enigmi dell'universo. Studiare gli elementi fondamentali dell'esistenza che vanno oltre la nostra atmosfera ci permette di scoprire di più sul nostro pianeta, sul sistema solare, e sul tessuto stellare che ci circonda. In questo articolo, esploreremo i concetti chiave della **fisica spaziale**, le applicazioni pratiche, e risponderemo ad alcune domande comuni per districare i filamenti complessi di questa disciplina.
 
-::photo-article.webp
+::photo-article
 ---
 title: Fisica dello spazio
 imageurl: https://blog.astroingeo.org/img/content/fisica-espacial_1.webp
@@ -70,7 +70,7 @@ Il nostro sole è una fucina di fenomeni fisici che influenzano direttamente la 
 
 Il campo magnetico terrestre, o magnetosfera, è una zona critica per il mantenimento della vita sul nostro pianeta. Oltre a proteggerci dalle radiazioni nocive, garantisce un equilibrio essenziale per la stabilità dei nostri sistemi comunicativi ed energetici.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/fisica-espacial_2.webp
 title: Fisica dello spazio

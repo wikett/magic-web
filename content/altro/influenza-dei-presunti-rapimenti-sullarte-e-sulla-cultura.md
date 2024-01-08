@@ -49,7 +49,7 @@ head:
 
 Il fenomeno delle presunte abduzioni aliene non è solo argomento di discussione tra ufologi e scettici ma ha esercitato una notevole influenza anche sul mondo dell'arte e della cultura. Dalle rappresentazioni pittoriche di incontri ravvicinati a film di successo di Hollywood, l'idea di essere "portati via" da entità extraterrestri ha alimentato l'immaginazione collettiva, generando riflessioni sui confini della nostra realtà.
 
-::photo-article.webp
+::photo-article
 ---
 title: Influenza dei presunti rapimenti sullarte e sulla cultura
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-los-supuestos-abducciones-en-el-arte-y-la-cultura_1.webp
@@ -65,7 +65,7 @@ Il XX secolo ha offerto il terreno fertile per l'espansione dell'interesse pubbl
 ## Musica e Letteratura Sotto l'Influenza Extraterrestre
 La musica e la letteratura non sono state immuni all'influenza di presunte abduzioni. Band come i Muse nel loro album "The Resistance" o autori come Whitley Strieber con il suo libro "Communion" mostrano come il tema trasceda i generi artistici.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-los-supuestos-abducciones-en-el-arte-y-la-cultura_2.webp
 title: Influenza dei presunti rapimenti sullarte e sulla cultura

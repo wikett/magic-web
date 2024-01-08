@@ -49,7 +49,7 @@ head:
 
 Le costellazioni usate in astrologia rappresentano non solo gruppi di stelle che dipingono figure mitologiche nel cielo, ma sono anche fondamentali per l'interpretazione astrologica di personalità e destini. Questo articolo esplora le connessioni astrali e il loro ruolo nell'astrologia, un campo affascinante che continua ad incantare l'umanità.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazioni utilizzate in astrologia
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-utilizadas-en-astrologia_1.webp
@@ -65,7 +65,7 @@ Ogni segno zodiacale riflette le caratteristiche uniche di chi vi nasce sotto. S
 ### Il Fuoco dell'Ariete e la sua Impulsività
 Il **segno dell'Ariete** è legato alla costellazione con lo stesso nome. L'energia focosa di questo segno si dimostra in iniziative audaci e spirito avventuroso.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelaciones-utilizadas-en-astrologia_2.webp
 title: Costellazioni utilizzate in astrologia

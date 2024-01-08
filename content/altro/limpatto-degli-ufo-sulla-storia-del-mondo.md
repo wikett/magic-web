@@ -49,7 +49,7 @@ head:
 
 L'umanità da sempre guarda alle stelle con meraviglia e curiosità, interrogandosi sulla possibile presenza di altre forme di vita nell'universo. Gli **oggetti volanti non identificati** (UFO) sono entrati nella nostra cultura collettiva, dando vita a innumerevoli teorie e dibattiti riguardo il loro impatto sulla storia del nostro mondo. In quest'articolo ci immergeremo nella complessa interazione tra la presenza di UFO e i cambiamenti storici e culturali dell'umanità.
 
-::photo-article.webp
+::photo-article
 ---
 title: Limpatto degli UFO sulla storia del mondo
 imageurl: https://blog.astroingeo.org/img/content/impacto-de-los-ovnis-en-la-historia-mundial_1.webp
@@ -65,7 +65,7 @@ Durante il Rinascimento, la rappresentazione di oggetti simili a dischi volanti 
 ## Analisi scientifica degli UFO nella storia
 Con l'evoluzione della scienza, gli avvistamenti UFO hanno stimolato l'interesse di astronomi e scienziati, che hanno cercato di fornire spiegazioni razionali basandosi su fenomeni atmosferici, ottici o su sperimentazioni militari segrete. La ricerca scientifica sugli **UFO** ha sensibilizzato la popolazione mondiale sull'importanza di un approccio critico e analitico ai fenomeni inspiegabili.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/impacto-de-los-ovnis-en-la-historia-mundial_2.webp
 title: Limpatto degli UFO sulla storia del mondo

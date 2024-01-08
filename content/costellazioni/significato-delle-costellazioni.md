@@ -49,7 +49,7 @@ head:
 
 **Le costellazioni** hanno affascinato l'umanità fin dall'alba dei tempi, avvolgendo il manto notturno con miti e leggende di antica memoria. Per gli astrologi, le costellazioni sono anche riflessi di *forze e qualità interiori*, ma per gli astronomi, costituiscono un pratico sistema di coordinate celesti. In questo scrupoloso viaggio stellare, scopriremo insieme i significati profondi che si celano dietro a questi pattern stellari.
 
-#::photo-article.webp
+#::photo-article
 ---
 title: Significato delle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/significados-de-las-constelaciones_1.webp
@@ -64,7 +64,7 @@ Non si può parlare di significati senza far sorgere l’eco dei miti greci e ro
 
 Uno dei miti più conosciuti è quello di Orione, il cacciatore gigante posto tra stelle come Betelgeuse e Rigel. Tradizioni tramandano il suo destino intrecciato con **creature celesti** quali il Toro (Taurus) e lo Scorpione (Scorpio), quest’ultimo inviato da Artemide a porre fine alla sua esistenza.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/significados-de-las-constelaciones_2.webp
 title: Significato delle costellazioni

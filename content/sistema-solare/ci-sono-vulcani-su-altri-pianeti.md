@@ -49,7 +49,7 @@ head:
 
 La Terra è un pianeta geologicamente attivo, con la presenza di numerosi vulcani che segnano il paesaggio e influenzano gli ecosistemi. Tuttavia, la Terra non è unica in questo: altri corpi celesti nel nostro sistema solare ospitano strutture vulcaniche mozzafiato. Scopriamo insieme se e dove i vulcani si ergono al di fuori del nostro pianeta.
 
-::photo-article.webp
+::photo-article
 ---
 title: Ci sono vulcani su altri pianeti?
 imageurl: https://blog.astroingeo.org/img/content/hay-volcanes-en-otros-planetas_1.webp
@@ -66,7 +66,7 @@ Marte, il "Pianeta Rosso", è la sede di *Olympus Mons*, il più grande vulcano 
 
 Il tetro paesaggio di Venere è definito da numerosi vulcani e pianure laviche. Nonostante l'atmosfera soffocante e le condizioni estreme, le sonde spaziali hanno identificato chiare prove di vulcanismo recente.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/hay-volcanes-en-otros-planetas_2.webp
 title: Ci sono vulcani su altri pianeti?

@@ -53,7 +53,7 @@ Sure! Here is an article tailored to your requests:
 
 La **Galassia Girandola**, conosciuta anche come **Messier 99** o **M99**, è un affascinante oggetto celeste distante circa 50 milioni di anni luce dalla Terra, nella costellazione della Chioma di Berenice. È una delle galassie a spirale più intriganti e studiate dagli astronomi, e rappresenta un vero e proprio laboratorio cosmico per osservare i fenomeni di formazione stellare e le dinamiche galattiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia Girandola (M99)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-molinillo-m99_3.webp
@@ -72,7 +72,7 @@ Messier 99 ha una forma particolare che richiama una girandola nel cielo. Le sue
 ### Il Nucleo Galattico
 Il nucleo, meno definito rispetto ad altre galassie a spirale, è il motore dinamico e un crogiuolo di vecchie stelle.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-molinillo-m99_2.webp
 title: Galassia Girandola (M99)

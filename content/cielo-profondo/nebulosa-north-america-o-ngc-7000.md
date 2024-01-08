@@ -45,7 +45,7 @@ head:
     - name: 'copyright'
       content: '© 2024 caleidoscopioastrale.it'
 ---
-#::photo-article.webp
+#::photo-article
 ---
 title: Nebulosa North America o NGC 7000
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-north-america-o-ngc-7000_3.webp
@@ -59,7 +59,7 @@ La notte ci offre un incantevole teatro di meraviglie celesti, e tra queste, la 
 #### **Alla Scoperta della NGC 7000**
 La **Nebulosa Nord Americana** prende il suo nome dall'inequivocabile somiglianza con il continente del Nord America, completo di una distintiva "Golfo del Messico". Si tratta di una **nebulosa ad emissione**, il che significa che il suo bagliore è il risultato di gas ionizzati che emettono luce a specifiche lunghezze d'onda.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-north-america-o-ngc-7000_2.webp
 title: Nebulosa North America o NGC 7000

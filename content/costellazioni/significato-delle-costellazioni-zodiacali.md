@@ -49,7 +49,7 @@ head:
 
 L'astrologia da sempre infonde curiosità e fascino, tessendo un legame indissolubile tra le stelle e i significati più profondi dell'esistenza umana. Le **costellazioni zodiacali** rappresentano non solo una sua fondamentale componente ma anche un'antica guida simbolica per il viaggio della vita. Scopriamo insieme i **significati delle costellazioni zodiacali** e come essi influenzano la nostra esistenza.
 
-::photo-article.webp
+::photo-article
 ---
 title: Significato delle costellazioni zodiacali
 imageurl: https://blog.astroingeo.org/img/content/significado-de-las-constelaciones-zodiacales_1.webp
@@ -65,7 +65,7 @@ Tra le braccia di Taurus (`20 aprile - 20 maggio`), troviamo una ricerca per la 
 ## Gemini: La Dualità Espressiva
 Gemini (`21 maggio - 20 giugno`), governato dal veloce Mercurio, rappresenta la comunicazione, l'intelletto e una naturale curiosità. Come indica il simbolo dei gemelli, le persone di questo segno posseggono spesso una personalità **versatile** ma potenzialmente contraddittoria.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/significado-de-las-constelaciones-zodiacales_2.webp
 title: Significato delle costellazioni zodiacali

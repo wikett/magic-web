@@ -49,7 +49,7 @@ head:
 
 L'avventura umana per carpire i segreti dello spazio si estende ben oltre l'atmosfera terrestre. Con una storia affascinante di **esplorazione spaziale**, la NASA ha spianato la strada alla nostra comprensione del sistema solare. Le missioni NASA nel sistema solare hanno illuminato scienziati e appassionati con scoperte rivelatrici e panorami mozzafiato di pianeti, lune e corpi celesti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Missioni NASA Sistema solare
 imageurl: https://blog.astroingeo.org/img/content/nasa-misiones-sistema-solar_1.webp
@@ -65,7 +65,7 @@ I primi contatti con il planeta Venere sono stati effettuati grazie alle sonde P
 ### Il Fascino di Marte
 Attraverso il **Programma Mariner**, gli occhi umani hanno potuto osservare Marte come mai prima d'ora. Con Mariner 4, 6, 7 e 9, abbiamo avuto un assaggio del paesaggio marziano e dei suoi misteri.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nasa-misiones-sistema-solar_2.webp
 title: Missioni NASA Sistema solare

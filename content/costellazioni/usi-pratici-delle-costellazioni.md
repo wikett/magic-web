@@ -49,7 +49,7 @@ head:
 
 Le costellazioni, da secoli, non sono solo disegni luminosi nell'immenso dipinto notturno del cielo, ma rappresentano un vero e proprio strumento per orientarsi nella vita di tutti i giorni. In un'epoca dominata dalle tecnologie GPS, potrebbe sembrare obsoleto parlare degli usi pratici delle costellazioni, ma queste configurazioni stellari celano ancora oggi applicazioni sorprendenti e utili.
 
-::photo-article.webp
+::photo-article
 ---
 title: Usi pratici delle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/usos-practicos-de-las-constelaciones_1.webp
@@ -75,7 +75,7 @@ Le costellazioni fungono anche da ponti tra le generazioni, tramandando leggende
 - **Costellazione come Identità:**
   - Ogni civiltà ha intessuto storie che riflettono la propria identità nelle figure celesti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/usos-practicos-de-las-constelaciones_2.webp
 title: Usi pratici delle costellazioni

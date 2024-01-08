@@ -49,7 +49,7 @@ head:
 
 Quando solleviamo lo sguardo verso il cielo notturno, l'ineffabile bellezza delle stelle ci incanta e sussurra segreti antichi. Ma, vi siete mai chiesti **quanto tempo impiega la loro luce a raggiungerci?** Lasciatevi guidare in questo viaggio cosmico alla scoperta dei tempi di percorrenza della luce stellare.
 
-::photo-article.webp
+::photo-article
 ---
 title: La luce delle stelle; quanto tempo ci vuole per vederla?
 imageurl: https://blog.astroingeo.org/img/content/la-luz-de-las-estrellas-cuanto-tiempo-nos-toma-verla_1.webp
@@ -64,7 +64,7 @@ Le stelle, architetture lontane e magnifiche dell'universo, emettono luce che at
 
 Prima di addentrarci nel cuore stellare della questione, è necessario capire un principio fondamentale: la **velocità della luce**. Nel vuoto, essa viaggia a circa 299.792 chilometri al secondo. Un numero che da solo riesce a stordirci con la sua grandezza.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-luz-de-las-estrellas-cuanto-tiempo-nos-toma-verla_2.webp
 title: La luce delle stelle; quanto tempo ci vuole per vederla?

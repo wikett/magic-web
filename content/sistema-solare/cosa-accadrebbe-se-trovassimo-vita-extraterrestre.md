@@ -49,7 +49,7 @@ head:
 
 La possibiltà di incontrare **vita al di fuori del nostro pianeta** è una questione che ha affascinato gli esseri umani per secoli. Se ciò accadesse, le implicazioni sarebbero enormi, da ogni punto di vista: scientifico, filosofico, religioso e sociale. In questo articolo, ci addentreremo nelle possibili conseguenze di uno degli eventi più rivoluzionari nella storia umana: la scoperta di **vita extraterrestre**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cosa accadrebbe se trovassimo vita extraterrestre?
 imageurl: https://blog.astroingeo.org/img/content/que-pasaria-si-encontramos-vida-extraterrestre_1.webp
@@ -64,7 +64,7 @@ Con il rinvenimento di esseri viventi non-terrestri, **l'astrobiologia** passere
 ### Avanzamenti in Astrochimica
 L'analisi di forme di vita aliena potrebbe fornire dati preziosi sulla **chimica interstellare** e sulle condizioni necessarie per l'insorgere della vita. Ciò porterebbe a sviluppi tecnologici inimmaginabili, potenzialmente utilizzabili anche nella vita quotidiana.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/que-pasaria-si-encontramos-vida-extraterrestre_2.webp
 title: Cosa accadrebbe se trovassimo vita extraterrestre?

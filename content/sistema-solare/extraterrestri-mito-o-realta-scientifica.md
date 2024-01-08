@@ -49,7 +49,7 @@ head:
 
 L'eterna domanda sulla **presenza** di vita al di fuori della Terra continua ad essere un argomento di grande interesse sia per il pubblico generale che per la comunità scientifica. Sono gli extraterrestri un mito fantascientifico o una realtà supportata da indagini scientifiche? Approfondiamo in questo testo aggiornato che intesse fattualità e curiosità, mirando a esplorare la possibilità dell'esistenza di vita extraterrestre.
 
-::photo-article.webp
+::photo-article
 ---
 title: Extraterrestri; mito o realtà scientifica?
 imageurl: https://blog.astroingeo.org/img/content/extraterrestres-mito-o-realidad-cientifica_1.webp
@@ -65,7 +65,7 @@ Il SETI utilizza antenne radio giganti per rilevare possibili **trasmissioni** d
 ### Missioni su Marte e la Ricerca di Vita Microscopica
 Il rover *Curiosity*, e ora anche *Perseverance*, conducono esperimenti su Marte per **scoprire tracce** di vita passata o presente. L'analisi del suolo e dell'atmosfera marziana offre spunti sulla possibile presenza di **organismi microscopici**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/extraterrestres-mito-o-realidad-cientifica_2.webp
 title: Extraterrestri; mito o realtà scientifica?

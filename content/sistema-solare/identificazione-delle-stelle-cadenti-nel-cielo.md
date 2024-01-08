@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è stato da sempre fonte di ispirazione e mistero per l'uomo. La magia di una stella cadente che solca l'immenso buio celeste è un evento che da millenni suscita stupore e desideri.
 
-::photo-article.webp
+::photo-article
 ---
 title: Identificazione delle stelle cadenti nel cielo
 imageurl: https://blog.astroingeo.org/img/content/identificacion-de-estrellas-fugaces-en-el-cielo_1.webp
@@ -71,7 +71,7 @@ Per identificare una stella cadente, non servono strumenti particolari: è suffi
 3. Attendere il momento migliore (generalmente dopo la mezzanotte)
 4. Rilassare la vista e guardare il cielo in modo complessivo
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/identificacion-de-estrellas-fugaces-en-el-cielo_2.webp
 title: Identificazione delle stelle cadenti nel cielo

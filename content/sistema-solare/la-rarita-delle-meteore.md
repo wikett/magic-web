@@ -49,7 +49,7 @@ head:
 
 Il firmamento notturno è da sempre oggetto di contemplazione e meraviglia. Tra i fenomeni astronomici più affascinanti che possiamo osservare a occhio nudo, le **piogge di meteoriti** occupano certamente un posto d'onore. Ma qual è la frequenza di questi eventi? E cosa determina la loro rarità?
 
-::photo-article.webp
+::photo-article
 ---
 title: La rarità delle meteore
 imageurl: https://blog.astroingeo.org/img/content/la-rareza-de-las-lluvias-de-meteoros_1.webp
@@ -71,7 +71,7 @@ Perché una pioggia di meteoriti sia osservabile, diversi fattori devono coincid
 3. **Fase lunare**: luna nuova o fase calante per evitare che la sua luminosità affievolisca quella delle meteore.
 4. **Posizione geografica**: alcune piogge di stelle sono più visibili da specifici punti del globo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-rareza-de-las-lluvias-de-meteoros_2.webp
 title: La rarità delle meteore

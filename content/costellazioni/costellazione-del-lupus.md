@@ -49,7 +49,7 @@ head:
 
 La **Costellazione del Lupo**, noto anche come **Lupus**, è una meraviglia celeste che da millenni incanta gli osservatori del cielo notturno. Vediamo insieme quali segreti nasconde questa affascinante configurazione stellare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione del lupus
 imageurl: https://blog.astroingeo.org/img/content/constelacion-lupus_3.webp
@@ -75,7 +75,7 @@ Situata nell'emisfero celeste meridionale, **Lupus** ha una posizione privilegia
 - **Migliori periodi per l'osservazione**: da Aprile a Luglio.
 - **Localizzazione**: tra le costellazioni del Centauro e dello Scorpione.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-lupus_2.webp
 title: Costellazione del lupus

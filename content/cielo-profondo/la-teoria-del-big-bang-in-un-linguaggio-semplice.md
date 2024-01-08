@@ -49,7 +49,7 @@ head:
 
 Capire l'origine dell'universo è sempre stato un viaggio affascinante. Nella ricerca di risposte, una teoria si distingue per la sua capacità di unire le osservazioni astronomiche con i concetti fisici: **la teoria del Big Bang**. Questo articolo è la tua guida per esplorare questo evento cosmico in termini semplici e comprensibili.
 
-::photo-article.webp
+::photo-article
 ---
 title: La teoria del Big Bang in un linguaggio semplice
 imageurl: https://blog.astroingeo.org/img/content/la-teoria-del-big-bang-en-un-lenguaje-sencillo_1.webp
@@ -70,7 +70,7 @@ Nei primi momenti dopo il Big Bang, l'universo era un luogo estremamente caldo e
 - **Tre Minuti**: Dopo circa tre minuti, avviene la nucleosintesi primordiale.
 - **380.000 Anni**: Gli atomi si formano e la radiazione cosmica di fondo viene rilasciata.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-teoria-del-big-bang-en-un-lenguaje-sencillo_2.webp
 title: La teoria del Big Bang in un linguaggio semplice

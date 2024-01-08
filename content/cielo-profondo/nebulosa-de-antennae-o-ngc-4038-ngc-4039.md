@@ -49,7 +49,7 @@ head:
 
 L'*Antennae Nebula*, conosciuta anche come **NGC 4038/NGC 4039**, rapisce l'immaginario degli appassionati di astronomia. Situata ai confini del Corvo, questo astro è il luogo di una danza cosmica senza tempo, dove due galassie interagiscono tra di loro.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa de Antennae o NGC 4038/NGC 4039
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-antennae-o-ngc-4038-ngc-4039_3.webp
@@ -68,7 +68,7 @@ L'immagine del duo galattico è stata spesso immortalata da telescopi potenti, c
 
 I dati raccolti dal famoso telescopio spaziale hanno evidenziato lo spettacolo della formazione stellare in atto. La zona centrale delle **Antennae Nebulae** è, infatti, un laboratorio naturale per lo studio dei processi che danno vita alle stelle.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-antennae-o-ngc-4038-ngc-4039_2.webp
 title: Nebulosa de Antennae o NGC 4038/NGC 4039

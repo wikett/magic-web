@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa del Cigno**, nota anche come **NGC 6888**, occupa un posto speciale nel firmamento, catturando l'attenzione degli astrofili e degli astronomi di tutto il mondo. Questa nuvola cosmica di gas e polveri è un gioiello dell'universo che cela misteri affascinanti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa del Cisne o NGC 6888
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-cisne-o-ngc-6888_3.webp
@@ -68,7 +68,7 @@ Nonostante la sua fama, l'origine della Nebulosa del Cigno è avvolta nel mister
 
 La NGC 6888 è il risultato di **venti stellari** potentissimi che si scontrano con il materiale precedentemente espulso dalla stella centrale, la **stella Wolf-Rayet HD 192163**. Questa dinamica interna è un processo affascinante che plasma la bellezza del **cosmo**.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-cisne-o-ngc-6888_2.webp
 title: Nebulosa del Cisne o NGC 6888

@@ -49,7 +49,7 @@ head:
 
 La notte tesse sopra di noi un manto scintillante di stelle, ognuna impegnata in una danza cosmica attorno al centro della Via Lattea. Tra queste, alcune sono più vicine alla nostra Terra di quanto possiamo immaginare. La **vicinanza interstellare** è un concetto relativo, ma ci regala una sensazione sorprendente di connessione con l'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le stelle più vicine alla Terra
 imageurl: https://blog.astroingeo.org/img/content/las-estrellas-mas-cercanas-a-la-tierra_1.webp
@@ -68,7 +68,7 @@ Situata a circa **4.24 anni luce** da noi, Proxima Centauri detiene il titolo di
 
 Ad una distanza quasi identica, troviamo il sistema **Alfa Centauri**, composto da due stelle simili al Sole, Alfa Centauri A e B, e la già menzionata Proxima Centauri. La coppia principale e la loro compagna nana compongono un sistema tri-stellare che affascina astronomi e astrofili.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-estrellas-mas-cercanas-a-la-tierra_2.webp
 title: Le stelle più vicine alla Terra

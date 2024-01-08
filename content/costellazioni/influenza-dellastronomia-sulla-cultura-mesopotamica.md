@@ -49,7 +49,7 @@ head:
 
 La Mesopotamia, nota come culla della civiltà, fu profondamente influenzata dall'**osservazione astrale e dalla **cosmologia nelle sue dinamiche culturali e sociali. Gli antichi Mesopotamici usarono la notte stellata non solo per interpretare i propri dei ma anche per fondare le basi della moderna astronomia, creando un legame indissolubile tra cielo e terra.
 
-::photo-article.webp
+::photo-article
 ---
 title: Influenza dellastronomia sulla cultura mesopotamica
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-la-astronomia-en-la-cultura-mesopotamica_1.webp
@@ -76,7 +76,7 @@ Gli dei mesopotamici erano incarnazioni celesti e ogni pianeta aveva una divinit
 
 Queste figure mitologiche plasmavano la vita sociale e religiosa, influenzando leggi e rituali.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-la-astronomia-en-la-cultura-mesopotamica_2.webp
 title: Influenza dellastronomia sulla cultura mesopotamica

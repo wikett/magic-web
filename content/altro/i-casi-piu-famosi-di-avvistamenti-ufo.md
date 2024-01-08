@@ -49,7 +49,7 @@ head:
 
 Gli **avvistamenti UFO** si sono verificati tutto intorno al globo e, attraverso i decenni, alcuni di essi hanno attirato l'attenzione del pubblico e dei media più di altri. Questi casi di avvistamenti non identificati sono diventati famosi per vari motivi: la credibilità dei testimoni, la documentazione disponibile o l'inspiegabile natura delle testimonianze. In quest'articolo, esploreremo alcuni fra gli incontri ravvicinati più famosi e le loro possibili spiegazioni.
 
-::photo-article.webp
+::photo-article
 ---
 title: I casi più famosi di avvistamenti UFO
 imageurl: https://blog.astroingeo.org/img/content/casos-mas-famosos-de-avistamientos-de-ovni_1.webp
@@ -68,7 +68,7 @@ Ancora nel 1947, pilotando il suo piccolo aereo nei cieli dell'America, **Kennet
 
 Il caso di Levelland, in Texas, illustro per la quantità e l'affidabilità dei testimoni, vide diversi individui - incluso un agente di polizia - segnalare l'incontro con un oggetto emittente una luce intensa che causava l'interruzione dei motori delle loro automobili. Le indagini successive furono inconclusive, lasciando il caso avvolto nel mistero.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/casos-mas-famosos-de-avistamientos-de-ovni_2.webp
 title: I casi più famosi di avvistamenti UFO

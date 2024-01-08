@@ -49,7 +49,7 @@ head:
 
 L'astronomia, quella musa celeste capace di ispirare l'uomo da millenni, porta la nostra attenzione verso la contemplazione di uno spettacolo celestiale: **la Costellazione dell'Orologio d'Argento**. Scintillante e misteriosa, essa è un frammento di universo che chiama all'ammirazione e alla scoperta. Con l'arte della SEO e dell'astrologia come nostre guide, addentriamoci in questo viaggio stellare.
 
-::photo-article.webp
+::photo-article
 ---
 title: Orologio dargento Costellazione
 imageurl: https://blog.astroingeo.org/img/content/constelacion-reloj-de-plata_1.webp
@@ -68,7 +68,7 @@ Composta da diverse stelle, **stelle variabili**, e **ammassi stellari**, l'Orol
 
 Situata nell'emisfero australe, questa costellazione si staglia vicino alla grande **Nube di Magellano**. Conoscere il suo esatto posizionamento può esaltare l'esperienza degli appassionati di astronomia, che armati di telescopi o di semplice curiosità, potranno individuarla tra i tesori della volta celeste.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-reloj-de-plata_2.webp
 title: Orologio dargento Costellazione

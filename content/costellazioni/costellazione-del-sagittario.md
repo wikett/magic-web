@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è sempre stato fonte di fascino e mistero, e poche costellazioni sono avvolte in un'aura di leggenda come il **Sagittario**. Questo gruppo stellare, visibile principalmente nei mesi estivi dell'emisfero settentrionale, non è solo una delle figure più riconoscibili dello zodiaco ma è anche un crocevia di oggetti astronomici affascinanti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione del Sagittario
 imageurl: https://blog.astroingeo.org/img/content/constelacion-sagitario_3.webp
@@ -68,7 +68,7 @@ Il **Sagittario** si colloca nella regione meridionale del cielo, confinando con
 ## La Nebulosa Lagoon e il Centro Galattico
 Fra gli oggetti celesti ospitati dal Sagittario, la **Nebulosa Lagoon** spicca per la sua bellezza, essendo una delle nebulose più grandi e brillanti del cielo. Questo vivido laboratorio cosmico è facilmente osservabile con un semplice binocolo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-sagitario_2.webp
 title: Costellazione del Sagittario

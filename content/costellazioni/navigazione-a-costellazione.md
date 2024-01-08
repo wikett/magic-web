@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno ha rappresentato per migliaia di anni una mappa vitale per i naviganti di tutto il mondo. Capire come orientarsi attraverso le costellazioni non è solo un'arte antica, ma anche una competenza che ancora oggi affascina e assiste chi ama l'avventura e la scoperta. In questo articolo, ci addentreremo nella pratica della **navigazione celeste** e scopriremo come possiamo utilizzare le costellazioni per trovare la nostra via tra i mari del cielo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Navigazione a costellazione
 imageurl: https://blog.astroingeo.org/img/content/navegacion-por-constelaciones_1.webp
@@ -67,7 +67,7 @@ Nonostante l'antica pratica di utilizzare solo gli occhi per la navigazione stel
 - **Misurazioni di altezza**: attraverso il sestante, si misura l'angolo tra la stella e l'orizzonte.
 - **Calcoli**: utilizzando le misurazioni e le tavole nautiche, ci si può orientare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/navegacion-por-constelaciones_2.webp
 title: Navigazione a costellazione

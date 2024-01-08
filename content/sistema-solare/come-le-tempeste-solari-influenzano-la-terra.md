@@ -49,7 +49,7 @@ head:
 
 Le tempeste solari sono fenomeni astronomici che possono avere un impatto significativo sul nostro pianeta. Quando il Sole emette una grande quantità di radiazioni elettromagnetiche sotto forma di vento solare, queste particelle energetiche viaggiano attraverso lo spazio e, in certe circostanze, colpiscono la Terra, innescando variazioni nel campo magnetico terrestre e influenzando vari aspetti della nostra vita quotidiana.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come le tempeste solari influenzano la Terra
 imageurl: https://blog.astroingeo.org/img/content/como-afectan-las-tormentas-solares-a-la-tierra_1.webp
@@ -68,7 +68,7 @@ Durante un evento di tempesta solare, le particelle cariche possono creare varia
 
 **I sistemi elettronici** sono particolarmente vulnerabili agli effetti delle tempeste solari. Le variazioni nel campo magnetico possono indurre correnti elettriche nei circuiti, causando sovraccarichi e danni.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-afectan-las-tormentas-solares-a-la-tierra_2.webp
 title: Come le tempeste solari influenzano la Terra

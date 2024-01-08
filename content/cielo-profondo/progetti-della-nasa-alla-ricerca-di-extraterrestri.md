@@ -49,7 +49,7 @@ head:
 
 La **NASA**, l'Agenzia Spaziale Americana, è da decenni in prima linea nella *ricerca di vita extraterrestre*. Con una moltitudine di progetti, iniziative e collaborazioni, questa istituzione ha aperto nuovi orizzonti nella comprensione dell'universo e nella possibilità di scoprire forme di vita al di fuori della Terra. In questo articolo, esploreremo dettagliatamente i programmi più significativi lanciati dalla NASA per cercare segni di vita extraterrestre.
 
-::photo-article.webp
+::photo-article
 ---
 title: Progetti della NASA alla ricerca di extraterrestri
 imageurl: https://blog.astroingeo.org/img/content/proyectos-de-la-nasa-sobre-busqueda-de-extraterrestres_1.webp
@@ -66,7 +66,7 @@ L'iconico telescopio spaziale **Hubble**, in orbita dal 1990, ha avuto un ruolo 
 
 Lanciato nel 2009, il telescopio spaziale **Kepler** ha rivoluzionato la caccia agli esopianeti. Ha scoperto migliaia di mondi alieni, espandendo significativamente il campo di ricerca per potenziali segni di vita.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/proyectos-de-la-nasa-sobre-busqueda-de-extraterrestres_2.webp
 title: Progetti della NASA alla ricerca di extraterrestri

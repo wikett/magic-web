@@ -49,7 +49,7 @@ head:
 
 Scoprire i segreti celati dietro le orbite planetarie è un viaggio affascinante attraverso le leggi della fisica e l'incredibile architettura del nostro Sistema Solare. In questo articolo, esploreremo come i pianeti tracciano i loro percorsi nel vuoto cosmico, le forze che determinano questi movimenti e l'impatto che hanno sulla comprensione del nostro posto nell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Orbite planetarie
 imageurl: https://blog.astroingeo.org/img/content/orbitas-planetarias_1.webp
@@ -72,7 +72,7 @@ Questi principi sono gli attori invisibili che dirigono l'orchestra celeste.
 
 Senza la fisica, i misteri dell'universo rimarrebbero senza soluzione. **Le Leggi di Keplero** sull'orbita dei pianeti svelano l'armonia tra i corpi celesti e la loro danza nello spazio.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/orbitas-planetarias_2.webp
 title: Orbite planetarie

@@ -49,7 +49,7 @@ head:
 
 L'idea di un universo in perenne movimento è una delle teorie più affascinanti dell'astrofisica contemporanea. Conosciuta come **Teoria dell'Universo Oscillante**, questa ipotesi suggerisce che l'universo potrebbe espandersi e contrarsi in un ciclo eterno. In questo articolo, viaggeremo attraverso i meandri di questa teoria, esplorando ogni sua sfaccettatura e le **domande cosmiche** che essa pone.
 
-::photo-article.webp
+::photo-article
 ---
 title: La teoria delluniverso oscillante
 imageurl: https://blog.astroingeo.org/img/content/la-teoria-del-universo-oscilante_1.webp
@@ -72,7 +72,7 @@ Anche se la **Teoria dell'Universo Oscillante** non è priva di critiche, alcuni
 
 Una delle domande più intriganti che sorgono quando si parla di universo oscillante riguarda la composizione del cosmo. Dopo ogni **ciclo cosmico**, la materia e l'energia dovrebbero ricomporsi per dare vita a un nuovo universo. Ciò solleva il dibattito su come le leggi fisiche potrebbero essere influenzate da queste transizioni.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-teoria-del-universo-oscilante_2.webp
 title: La teoria delluniverso oscillante

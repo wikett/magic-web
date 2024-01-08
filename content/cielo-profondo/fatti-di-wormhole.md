@@ -49,7 +49,7 @@ head:
 
 Il concetto dei **wormhole**, o tunnel spazio-temporali, ha da sempre affascinato la fantasia di scienziati e appassionati d'astronomia. In questo viaggio di parole, esploreremo alcuni dei fatti più intriganti sui wormhole, tra teoria scientifica e implicazioni cosmiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Fatti di wormhole
 imageurl: https://blog.astroingeo.org/img/content/realidades-sobre-los-agujeros-de-gusano_1.webp
@@ -71,7 +71,7 @@ Ci sono diversi tipi di wormhole, e ognuno presenta caratteristiche uniche:
 - **Wormhole Rotanti:** questi possono essere più stabili e richiederebbero meno materiale esotico.
 - **Wormhole Traversabili:** il Santo Graal per gli astrofisici, permetterebbero il passaggio di materia e informazioni.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/realidades-sobre-los-agujeros-de-gusano_2.webp
 title: Fatti di wormhole

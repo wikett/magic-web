@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è un affascinante mosaico di luci danzanti che ha suscitato curiosità e ispirazione per secoli. Molte persone guardano in alto e si chiedono **come identificare le stelle** che brillano sulla loro testa. Questo articolo è una guida per aiutarti a navigare il firmamento notturno e scoprire i **segreti dell'astronomia**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come identificare le stelle nel cielo notturno
 imageurl: https://blog.astroingeo.org/img/content/como-identificar-estrellas-en-el-cielo-nocturno_1.webp
@@ -80,7 +80,7 @@ Se sei interessato ad approfondire, considera di usare strumenti ottici:
 - **Binocoli**: perfetti per i principianti e per avere una vista più ampia del cielo.
 - **Telescopi**: ideali per osservare oggetti celesti più distanti e dettagliati.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-identificar-estrellas-en-el-cielo-nocturno_2.webp
 title: Come identificare le stelle nel cielo notturno

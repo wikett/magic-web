@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è una galleria d'arte naturale che offre una vista mozzafiato sulle stelle più brillanti dell'universo. Scintillanti come diamanti incastonati nel velluto nero, queste meraviglie celesti sono fonte di ispirazione e curiosità. In questo viaggio stellare, scopriremo quali sono le **stelle più visibili dalla Terra**, i loro segreti e i migliori modi per osservarle.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le stelle più visibili dalla Terra
 imageurl: https://blog.astroingeo.org/img/content/estrellas-mas-visibles-desde-la-tierra_1.webp
@@ -64,7 +64,7 @@ La visibilità delle stelle varia in base a numerosi fattori, tra cui luminosit�
 
 **Sirio**, la stella alpha del Cane Maggiore, è il faro più scintillante del nostro cielo. La sua luce, che sembra danzare tra le sfumature del blu e del bianco, la rende inconfondibile anche per i meno esperti.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/estrellas-mas-visibles-desde-la-tierra_2.webp
 title: Le stelle più visibili dalla Terra

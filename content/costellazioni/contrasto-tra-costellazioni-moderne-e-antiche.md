@@ -49,7 +49,7 @@ head:
 
 L'umanità ha osservato le stelle per millenni, vedendo in esse figure mitologiche e indicatori di destini. Il **contrast tra le antiche e moderne costellazioni** apre una finestra su come la nostra conoscenza del cielo si sia evoluta nel tempo. Questo articolo esplora le profondità celesti e illumina le differenze fra i disegni stellari di un tempo e quelli che oggi ornano i nostri atlanti astronomici.
 
-::photo-article.webp
+::photo-article
 ---
 title: Contrasto tra costellazioni moderne e antiche
 imageurl: https://blog.astroingeo.org/img/content/contraste-entre-constelaciones-modernas-y-antiguas_1.webp
@@ -70,7 +70,7 @@ Le costellazioni rappresentano non solo raggruppamenti di stelle ma anche un pat
 
 Con il progredire della scienza, la concezione delle costellazioni ha subito un notevole cambiamento. L'Unione Astronomica Internazionale (UAI) nel 1922 standardizzò le 88 costellazioni moderne, fornendo un riferimento fisso per astronomi e astrofili.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/contraste-entre-constelaciones-modernas-y-antiguas_2.webp
 title: Contrasto tra costellazioni moderne e antiche

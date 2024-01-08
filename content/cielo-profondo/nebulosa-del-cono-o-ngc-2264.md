@@ -49,7 +49,7 @@ head:
 
 Sospesa nel cosmo come un monumento di polveri e gas, la Nebulosa del Cono (o NGC 2264) incanta gli astronomi e gli appassionati di stelle con la sua maestosa bellezza. Questo fenomeno celeste, situato nella costellazione dell'Unicorno, è un luogo di nascita stellare, uno scrigno cosmico da cui emergono nuove stelle. Nel profondo universo, questa regione offre uno spettacolo affascinante per coloro che desiderano comprendere meglio le meraviglie della nostra galassia.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa del Cono o NGC 2264
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-cono-o-ngc-2264_3.webp
@@ -73,7 +73,7 @@ Le sue caratteristiche uniche la rendono oggetto di studi intensivi:
 
 Il paesaggio celeste di NGC 2264 è un capolavoro di natura e fisica. La sua parte più famosa, la nebulosa a emissione, brilla intensamente grazie all'azione ionizzante delle stelle giovani e massicce che rimodellano la regione con il loro potente soffio.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-cono-o-ngc-2264_2.webp
 title: Nebulosa del Cono o NGC 2264

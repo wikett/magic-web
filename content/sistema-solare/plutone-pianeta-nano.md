@@ -49,7 +49,7 @@ head:
 
 Plutone, la sfera gelata ai confini del nostro sistema solare, continua a catturare l'immaginazione collettiva e a sollevare interrogativi profondi tra gli appassionati di astronomia. Nonostante la sua ridimensione a pianeta nano, questo corpo celeste distante non ha perso il suo fascino né l'importanza nella ricerca spaziale. Attraverso un'analisi approfondita delle sue caratteristiche e del suo posto nell'universo, possiamo iniziare a disvelare i segreti che continua a custodire.
 
-::photo-article.webp
+::photo-article
 ---
 title: Plutone (pianeta nano)
 imageurl: https://blog.astroingeo.org/img/content/pluton-enano-planeta_1.webp
@@ -64,7 +64,7 @@ La storia di **Plutone** inizia circa 4,5 miliardi di anni fa, quando il nostro 
 
 Il dibattito sulla classificazione di Plutone ha tenuto banco per decenni. Nel 2006, l'Unione Astronomica Internazionale ha ridotto il suo status, attribuendogli la definizione di **pianeta nano** a causa della sua dimensione ridotta e del suo percorso orbitale che interseca quello di Nettuno. Nonostante questo, l'interesse scientifico nei confronti di Plutone non è scemato. 
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/pluton-enano-planeta_2.webp
 title: Plutone (pianeta nano)

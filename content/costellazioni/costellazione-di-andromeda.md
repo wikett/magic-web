@@ -49,7 +49,7 @@ head:
 
 La **costellazione di Andromeda** è una meraviglia celeste che da millenni affascina astronomi e appassionati di stelle. Legata a miti e leggende, questa costellazione è un crocevia di storie e oggetti celesti affascinanti. In questo articolo, vi porterò alla scoperta dell'Andromeda e dei suoi segreti stellari.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione di Andromeda
 imageurl: https://blog.astroingeo.org/img/content/constelacion-andromeda_3.webp
@@ -68,7 +68,7 @@ La costellazione di Andromeda è meglio visibile nei mesi autunnali dell'emisfer
 
 Andromeda vanta alcune stelle molto luminose, come **Alpheratz** (o Sirrah), che condivide con la costellazione di Pegaso. Mirach e Almach sono altre due **stelle brillanti** che compongono il contorno della costellazione.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-andromeda_2.webp
 title: Costellazione di Andromeda

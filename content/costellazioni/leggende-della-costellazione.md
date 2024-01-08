@@ -49,7 +49,7 @@ head:
 
 Le costellazioni sono sempre state fonti d'ispirazione per culture di tutto il mondo. Fin dalle epoche antiche, l'umanità ha guardato il vasto cielo notturno, tesseva narrazioni intorno agli schemi astrali e creava mappe cosmiche tramite connessioni immaginarie tra le stelle. Ogni gruppo di stelle ha un proprio racconto, un mito che supera i confini del tempo. Questi antichi **miti stellari** non solo adornano il cielo ma ci ricordano anche la nostra eterna ricerca di significato nell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Leggende della costellazione
 imageurl: https://blog.astroingeo.org/img/content/legendas-sobre-constelaciones_1.webp
@@ -68,7 +68,7 @@ Prendiamo ad esempio la **costellazione di Orione**, una delle più conosciute n
 
 Altra celebre costellazione è quella dei **Gemelli**, conosciuta anche come Gemini. Questa è legata alla storia di Castore e Polluce, due fratelli di cui uno mortale e l'altro immortale. Quando Castore morì, Polluce chiese a Zeus di condividerlo con il fratello, e così fecero, dividendosi il tempo tra l'Olimpo e l'Hadès.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/legendas-sobre-constelaciones_2.webp
 title: Leggende della costellazione

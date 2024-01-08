@@ -49,7 +49,7 @@ head:
 
 L'esplorazione spaziale ha sempre rappresentato la frontiera ultima del desiderio umano di conoscenza e avventura. Al centro di questa inarrestabile spinta verso l'ignoto vi sono le **tecnologie robotiche avanzate**, componenti imprescindibili di ogni moderna missione spaziale che si rispetti. In questo articolo approfondiremo come la robotica stia plasmando il futuro dell'esplorazione del cosmo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Tecnologia robotica per lesplorazione dello spazio
 imageurl: https://blog.astroingeo.org/img/content/tecnologia-en-robotica-para-exploracion-espacial_1.webp
@@ -68,7 +68,7 @@ I **robot spaziali** possono essere classificati in diverse categorie a seconda 
 
 Non si può parlare di robotica spaziale senza menzionare i rover marziani, le cui sofisticate tecnologie li rendono equipaggiamenti essenziali nello studio approfondito della superficie del Pianeta Rosso.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/tecnologia-en-robotica-para-exploracion-espacial_2.webp
 title: Tecnologia robotica per lesplorazione dello spazio

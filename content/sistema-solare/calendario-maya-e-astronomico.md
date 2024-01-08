@@ -49,7 +49,7 @@ head:
 
 Il calendario Maya, una creazione straordinaria di antiche conoscenze astronomiche, è un soggetto affascinante che continua a generare stupore e curiosità. In questo articolo, immergiamoci nelle profondità della cultura Maya e scopriamo come il celeste e l'antropologico si intrecciano nel loro complesso sistema calendariale.
 
-::photo-article.webp
+::photo-article
 ---
 title: Calendario Maya e astronomico
 imageurl: https://blog.astroingeo.org/img/content/calendario-maya-y-astronomico_1.webp
@@ -65,7 +65,7 @@ Il Tzolk'in è il cuore pulsante del sistema calendariale Maya, descrivendo un c
 ### Haab': L'Anno Solare Maya di 365 Giorni
 Parimenti rilevante è l'Haab', il calendario che misura l'anno solare. I Maya avevano capito che un anno solare non conta esattamente 365 giorni, quindi aggiungevano "giorni senza tempo" per mantenere l'allineamento astronomico.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/calendario-maya-y-astronomico_2.webp
 title: Calendario Maya e astronomico

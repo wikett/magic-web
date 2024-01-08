@@ -47,7 +47,7 @@ head:
 ---
 # Astronomia Antica: Guida alle Profezie Celesti
 
-::photo-article.webp
+::photo-article
 ---
 title: Previsioni e profezie basate sullastronomia antica
 imageurl: https://blog.astroingeo.org/img/content/predicciones-y-profecias-basadas-en-la-astronomia-antigua_1.webp
@@ -64,7 +64,7 @@ Fin dall'alba dei tempi, l'umanità ha alzato lo sguardo verso il cielo notturno
 
 Il celebre monumento di Stonehenge, eretto più di 5000 anni fa, rappresenta una delle prime testimonianze di **astronomia applicata**. Attraverso l'osservazione del solstizio, gli antichi costruttori potrebbero aver voluto predire le stagioni o interpretare gli eventi celesti come messaggi divini.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/predicciones-y-profecias-basadas-en-la-astronomia-antigua_2.webp
 title: Previsioni e profezie basate sullastronomia antica

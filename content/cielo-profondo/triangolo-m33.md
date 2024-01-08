@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno cela dei veri e propri tesori cosmici, e tra questi, la Galassia Triangolo, o **M33**, è una gemma astrale che ha stuzzicato tanto l'interesse degli astrofili quanto quello della comunità scientifica. Situato nel **Piccolo Triangolo**, questo oggetto celeste condivide una danza gravitazionale con la ben nota Galassia di Andromeda. Proseguiamo in un viaggio affascinante alla scoperta di questo spettacolo dell'universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Triangolo (M33)
 imageurl: https://blog.astroingeo.org/img/content/triangulo-m33_3.webp
@@ -67,7 +67,7 @@ M33, nota anche come NGC 598, è relativamente facile da individuare per gli app
 La Galassia Triangolo, con la sua forma a spirale, è un laboratorio cosmico per gli astronomi, poiché fornisce insight sui meccanismi di formazione stellare.
 Le sue regioni H II, zone di idrogeno ionizzato dove nascono nuove stelle, sono particolarmente evidenti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/triangulo-m33_2.webp
 title: Triangolo (M33)

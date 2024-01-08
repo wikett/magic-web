@@ -49,7 +49,7 @@ head:
 
 Guardare il vasto cielo notturno è un'attività che da sempre affascina l'umanità. Punta di diamante della curiosità umana, le stelle sono state spesso al centro di credenze e teorie. Ma **possono davvero le stelle predire il futuro**? In questo articolo esploreremo se e come l'astrologia e gli studi astronomici si intrecciano con i misteri del destino.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le stelle nel cielo possono prevedere il futuro?
 imageurl: https://blog.astroingeo.org/img/content/pueden-las-estrellas-del-cielo-predecir-el-futuro_1.webp
@@ -65,7 +65,7 @@ Gli antichi osservatori del cielo credevano fermamente che la posizione e il mov
 ## Astronomia: la Mappa del Cielo
 Anche se **l'astronomia moderna si basa su evidenze scientifiche**, non si può negare che l'esplorazione dello spazio abbia risvolti immaginativi e riflessivi sull'esistenza umana.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/pueden-las-estrellas-del-cielo-predecir-el-futuro_2.webp
 title: Le stelle nel cielo possono prevedere il futuro?

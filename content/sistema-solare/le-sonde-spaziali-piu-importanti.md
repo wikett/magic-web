@@ -49,7 +49,7 @@ head:
 
 Le esplorazioni del cosmo sono l'epitome del progresso umano. Ognuna delle **sonde spaziali** lanciate nel vasto universo è un portavoce della nostra capacità di spingerci oltre i confini terrestri. In questo articolato viaggio, esploreremo le missioni che hanno segnato la storia dell'**astronomia** e che continuano a dischiudere i segreti del nostro universo infinito.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le sonde spaziali più importanti
 imageurl: https://blog.astroingeo.org/img/content/las-sondas-espaciales-mas-importantes_1.webp
@@ -68,7 +68,7 @@ Marte, il Pianeta Rosso, è stato il palcoscenico per alcune delle **missioni sp
 
 L'orchestra cosmica ha avuto il suo apice con la missione **Cassini-Huygens**. Cassini ha danzato intorno a Saturno, tra anelli e lune, mentre Huygens ha compiuto il suo sacrificio finale, atterrando sulla misteriosa Titano e svelando un mondo straordinariamente terrestre.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-sondas-espaciales-mas-importantes_2.webp
 title: Le sonde spaziali più importanti

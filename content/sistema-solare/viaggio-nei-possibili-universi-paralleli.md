@@ -49,7 +49,7 @@ head:
 
 L'idea di **universi paralleli** ha affascinato l'umanità ben prima che la scienza offrisse una finestra sulla possibilità della loro esistenza. Partendo dalla fantascienza fino a toccare le attuali teorie scientifiche, l'immaginazione collettiva continua a esplorare la realtà di mondi alternativi che potrebbero esistere accanto al nostro. In questa **avventura cosmica**, ci inoltriamo per scoprire se la presenza di **universi paralleli** sia un mero frutto della fantasia o un fenomeno concreto sulla base delle ultime ricerche astronomiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Viaggio nei possibili universi paralleli
 imageurl: https://blog.astroingeo.org/img/content/viaje-hacia-posibles-universos-paralelos_1.webp
@@ -66,7 +66,7 @@ La **teoria dei multiversi** parte dall'assunto che il nostro universo potrebbe 
 
 In fisica quantistica, l'**interpretazione di molti mondi** propone che per ogni scelta effettuata esista un universo in cui si è verificata un'altra possibilità. Quest'avvincente interpretazione suggerisce che l'**avventura cosmica** sia composta da una serie di biforcazioni che portano a molteplici realtà.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/viaje-hacia-posibles-universos-paralelos_2.webp
 title: Viaggio nei possibili universi paralleli

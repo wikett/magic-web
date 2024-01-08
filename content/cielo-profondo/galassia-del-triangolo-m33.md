@@ -49,7 +49,7 @@ head:
 
 La **Galassia del Triangolo**, conosciuta anche come M33, è un incredibile laboratorio cosmico che continua a catturare l'interesse di astronomi professionisti e amatoriali. Situata a circa 2,73 milioni di anni luce dalla Terra, M33 offre uno spettacolo affascinante per chiunque sia equipaggiato con un buon telescopio. In questo articolo, vi condurremo attraverso un viaggio alla scoperta del terzo membro del Gruppo Locale delle galassie, svelando i suoi segreti e le ultime ricerche astronomiche.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia del Triangolo (M33)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-triangulo-m33_3.webp
@@ -63,7 +63,7 @@ La **Galassia del Triangolo** celebra la sua posizione nella piccola costellazio
 
 ## Struttura e Caratteristiche di M33
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-triangulo-m33_2.webp
 title: Galassia del Triangolo (M33)

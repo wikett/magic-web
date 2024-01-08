@@ -49,7 +49,7 @@ head:
 
 L'**Orsa Maggiore** è una delle costellazioni più rinomate e riconoscibili nel cielo notturno. Un vero e proprio faro per gli appassionati di **astronomia**, questo gruppo stellare ha stuzzicato la curiosità umana per millenni. Oggi immergersi nella sua storia e nelle sue peculiarità è un viaggio affascinante che attende di essere scoperto.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione dellOrsa Maggiore
 imageurl: https://blog.astroingeo.org/img/content/constelacion-osa-mayor_3.webp
@@ -68,7 +68,7 @@ Le origini mitologiche dell'**Orsa Maggiore** si perdono nella notte dei tempi. 
 
 L'**Orsa Maggiore** si trova nell'emisfero celeste boreale, rendendola visibile prevalentemente nell'emisfero nord del nostro pianeta. Tuttavia, alcune delle sue stelle sono visibili quasi tutto l'anno per gran parte degli abitanti della Terra, facendo di questa costellazione una presenza costante nelle nostre notti.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-osa-mayor_2.webp
 title: Costellazione dellOrsa Maggiore

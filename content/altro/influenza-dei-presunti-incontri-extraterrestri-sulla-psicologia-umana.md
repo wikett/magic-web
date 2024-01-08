@@ -49,7 +49,7 @@ head:
 
 Quando si parla di **incontri extraterrestri**, il nostro immaginario si popola immediatamente di immagini tratte da film di fantascienza o racconti di chi sostiene di aver vissuto esperienze straordinarie. Eppure, al di là dell'aura di mistero e fascinazione, qual è l'impatto reale di tali presunti incontri sulla psiche umana? Esploriamo insieme come queste esperienze possano influenzare la nostra mente e visione del mondo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Influenza dei presunti incontri extraterrestri sulla psicologia umana
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-supuestos-encuentros-extraterrestres-en-la-psicologia-humanas_1.webp
@@ -80,7 +80,7 @@ A seguito di un presunto incontro, alcune persone riportano sintomi tipici dell'
 
 Sebbene vi sia un numero considerevole di segnalazioni, molte di esse mancano di prove concrete. Nonostante questa mancanza, l'interesse del pubblico resta alto, complicando l'analisi critica di tali fenomeni e la comprensione degli effetti psicologici che ne derivano.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/influencia-de-supuestos-encuentros-extraterrestres-en-la-psicologia-humanas_2.webp
 title: Influenza dei presunti incontri extraterrestri sulla psicologia umana

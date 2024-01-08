@@ -53,7 +53,7 @@ Certainly! Below is an article structured according to your specifications:
 
 L'*astronomia per bambini* è un viaggio affascinante attraverso le stelle e i pianeti che stimola la curiosità e la voglia di sapere nelle menti giovani. Questa guida è stata progettata per spalancare le porte dell'universo ai ragazzi e alle ragazze che sognano di diventare i nuovi esploratori stellari.
 
-::photo-article.webp
+::photo-article
 ---
 title: Guida allastronomia per bambini
 imageurl: https://blog.astroingeo.org/img/content/guia-de-astronomia-para-ninos_1.webp
@@ -79,7 +79,7 @@ Il nostro sistema solare è una piccola parte di un vasto universo. È composto 
 - **Urano**: un pianeta ghiacciato con un asse molto inclinato
 - **Nettuno**: un altro gigante gassoso, con venti veloci
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/guia-de-astronomia-para-ninos_2.webp
 title: Guida allastronomia per bambini

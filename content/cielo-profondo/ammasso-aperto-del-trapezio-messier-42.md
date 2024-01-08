@@ -49,7 +49,7 @@ head:
 
 L'*Ammasso del Trapezio*, noto anche come **Messier 42**, è una delle meraviglie dell'universo che cattura l'immaginazione di astrofili e scienziati allo stesso modo. Nascosto nella costellazione di Orione, questo gioiello celeste racconta una storia di nascita stellare e misteri cosmici.
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso aperto del Trapezio (Messier 42)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-abiero-del-trapecio-messier-42_3.webp
@@ -66,7 +66,7 @@ Al centro della nota **Nebulosa di Orione** si trova l'Ammasso del Trapezio, un 
 
 Storicamente, l'ammasso è stato osservato per la prima volta da Galileo Galilei, ma fu Charles Messier a catalogarlo come il quarantaduesimo oggetto del suo famoso elenco. È un sito privilegiato per lo studio dell'evoluzione stellare, permettendoci di osservare processi che altrimenti rimarrebbero celati.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-abiero-del-trapecio-messier-42_2.webp
 title: Ammasso aperto del Trapezio (Messier 42)

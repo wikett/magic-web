@@ -49,7 +49,7 @@ head:
 
 L'astrobiologia è un campo di ricerca dinamico che esplora l'origine, l'evoluzione, la distribuzione e il futuro della vita nell'universo. Questa disciplina multidisciplinare si pone al crocevia tra astronomia, biologia, geologia, e chimica, offrendo una prospettiva unica sul nostro posto nel cosmo. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Astrobiologia
 imageurl: https://blog.astroingeo.org/img/content/astrobiologia_1.webp
@@ -72,7 +72,7 @@ Marte, con le sue condizioni estreme e il suo paesaggio ricco di minerali, rappr
 
 Oltre Marte, **i mondi oceanici** come Europa, una delle lune di Giove, e Encelado, satellite di Saturno, si presentano come luoghi promettenti per la ricerca astrobiologica. Questi corpi celesti ospitano vasti oceani sotto croste di ghiaccio, il che potrebbe fungere da rifugio per forme di vita.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/astrobiologia_2.webp
 title: Astrobiologia

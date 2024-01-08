@@ -49,7 +49,7 @@ head:
 
 L'universo è un vasto mistero, costellato di stelle, pianeti e fenomeni che continuano a suscitare domande ed ipotesi. Tra le molte questioni che affascinano l'umanità, una in particolare ha sempre suscitato curiosità e dibattito: le testimonianze degli astronauti sugli extraterrestri. Questi audaci esploratori dello spazio sono stati testimoni diretti delle meraviglie cosmiche. Ma cosa hanno realmente raccontato?
 
-::photo-article.webp
+::photo-article
 ---
 title: Testimonianze di astronauti sugli extraterrestri
 imageurl: https://blog.astroingeo.org/img/content/testimonios-de-astronautas-sobre-extraterrestres_1.webp
@@ -68,7 +68,7 @@ Non sono rari i report di oggetti volanti misteriosi segnalati dagli equipaggi d
 
 Alcuni astronauti hanno descritto incontri con fenomeni non identificati che sfidano le conoscenze scientifiche attuali. Tali testimonianze accrescono la curiosità popolare riguardo alla possibile presenza extraterrestre.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/testimonios-de-astronautas-sobre-extraterrestres_2.webp
 title: Testimonianze di astronauti sugli extraterrestri

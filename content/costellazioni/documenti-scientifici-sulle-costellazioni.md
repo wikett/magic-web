@@ -49,7 +49,7 @@ head:
 
 L'astronomia è una scienza antica quanto l'uomo, con le costellazioni che hanno sempre avuto un ruolo centrale nelle nostre indagini celesti. Gli articoli scientifici sulle costellazioni non sono semplici documenti; sono finestre che si aprono verso l'immensità dell'universo, offrendoci dettagli sulla sua struttura e storia. In questa esplorazione stellare, vi guiderò attraverso le migliori risorse scientifiche disponibili sulle costellazioni.
 
-::photo-article.webp
+::photo-article
 ---
 title: Documenti scientifici sulle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/trabajos-cientificos-sobre-constelaciones_1.webp
@@ -73,7 +73,7 @@ Non tutte le pubblicazioni scientifiche sono create uguali. Quando si cercano ar
 
 Le **mappe stellari** sono strumenti essenziali nell'astronomia. Attraverso gli articoli scientifici, possiamo capire come interpretare queste mappe e utilizzarle per identificare le costellazioni.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/trabajos-cientificos-sobre-constelaciones_2.webp
 title: Documenti scientifici sulle costellazioni

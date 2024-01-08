@@ -49,7 +49,7 @@ head:
 
 L'ammasso stellare noto come **Cluster della Farfalla** o **Messier 6** rappresenta una delle gemme più inaspettate nel velluto nero del nostro cielo. Scopriamo insieme le meraviglie di questo gioiello celeste, situato nella costellazione dello Scorpione, e come osservarlo al meglio.
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso della Farfalla (Messier 6)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-de-la-mariposa-messier-6_3.webp
@@ -65,7 +65,7 @@ Situato a **circa 1.600 anni luce** dalla Terra, Messier 6 gode di una posizione
 ### Le Componenti Stellari di Messier 6
 Il Cluster della Farfalla è composto da circa 80 stelle, le quali, osservate dai nostri telescopi, sembrano danzare in perfetta armonia, ricordando la forma di una farfalla con le ali spiegate.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-de-la-mariposa-messier-6_2.webp
 title: Ammasso della Farfalla (Messier 6)

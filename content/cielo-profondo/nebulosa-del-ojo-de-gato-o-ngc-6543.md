@@ -49,7 +49,7 @@ head:
 
 La **Nebulosa dell'Occhio di Gatto** (conosciuta anche come NGC 6543) è uno degli oggetti celesti più affascinanti e studiati dagli astronomi. Questo meraviglioso residuo stellare è una testimonianza della complessa fase che segna la fine della vita di una stella simile al nostro Sole. Scopriremo insieme i segreti di NGC 6543, esplorandone la struttura, le caratteristiche visuali, e il suo significato astronomico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa del Ojo de gato o NGC 6543
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-ojo-de-gato-o-ngc-6543_3.webp
@@ -68,7 +68,7 @@ Scrutando il cielo con potenti telescopi, gli astronomi osservano la Nebulosa de
 
 Al centro della nebulosa risiede una nana bianca, la stella morente che un tempo bruciava nel cuore dell'oggetto celeste. Questa stella sta lentamente rilasciando i suoi strati esterni nello spazio, creando l'affascinante spettacolo luminoso che vediamo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-del-ojo-de-gato-o-ngc-6543_2.webp
 title: Nebulosa del Ojo de gato o NGC 6543

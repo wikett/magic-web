@@ -49,7 +49,7 @@ head:
 
 La nostra ricerca incessante di vita al di fuori della Terra ci porta a focalizzarci sul Pianeta Rosso: Marte. Questo articolo esplora le potenziali condizioni di vita marziane e come potrebbero adattarsi gli organismi in un ambiente così alieno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Come potrebbe essere la vita su Marte?
 imageurl: https://blog.astroingeo.org/img/content/como-podria-ser-la-vida-en-marte_1.webp
@@ -76,7 +76,7 @@ Uno degli elementi chiave per la vita su Marte è l'**acqua**. Recenti scoperte 
 - Analisi di striature scure stagionali
 - Esplorazione di sali idrati
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-podria-ser-la-vida-en-marte_2.webp
 title: Come potrebbe essere la vita su Marte?

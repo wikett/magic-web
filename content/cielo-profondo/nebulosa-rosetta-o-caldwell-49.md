@@ -49,7 +49,7 @@ head:
 
 La Nebulosa Rosette è un affascinante e inquietante insieme di gas e polveri cosmiche che ha catturato l'attenzione degli astronomi per decenni. Conosciuta anche come Caldwell 49, questa nebulosa offre uno spettacolare panorama stellare ed è oggetto di studio per comprendere meglio i processi di nascita delle stelle.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Rosetta o Caldwell 49
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-roseta-o-caldwell-49_3.webp
@@ -68,7 +68,7 @@ La nebulosa è nota anche per essere una vivace "incubatrice" di stelle. All'int
 
 Comprendere la composizione della Nebulosa Rosette è cruciale per gli astronomi. Il suo gas ricco di idrogeno, il suo continuo processo di formazione stellare e i suoi misteriosi filamenti di polveri offrono indizi fondamentali sulla formazione dell'Universo e sulla nascita delle stelle.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-de-la-roseta-o-caldwell-49_2.webp
 title: Nebulosa Rosetta o Caldwell 49

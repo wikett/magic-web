@@ -49,7 +49,7 @@ head:
 
 Il firmamento ci affascina dal principio dei tempi, ricco di miti, storie e una quantità inesauribile di significati. Quando **le stelle compaiono nei nostri sogni**, risvegliano curiosità, domande e spesso una ricerca di comprensione più profonda. Quest'articolo si immerge nel simbolismo celestiale per scoprire il **significato di sognare le stelle nel cielo**.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il significato di sognare le stelle nel cielo
 imageurl: https://blog.astroingeo.org/img/content/el-significado-de-sonar-con-estrellas-en-el-cielo_1.webp
@@ -67,7 +67,7 @@ Sognare le stelle può avere varie interpretazioni, influenzate dall’**emozion
 ## Interpretazioni Psicologiche del Sognare le Stelle
 Dal **punto di vista psicologico**, le stelle nei sogni possono simboleggiare gli obiettivi e le aspirazioni. Al contempo, una pioggia di stelle potrebbe riflettere una trasformazione imminente, con desideri e intenzioni pronte ad abbattersi sulla realtà del sognatore.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-significado-de-sonar-con-estrellas-en-el-cielo_2.webp
 title: Il significato di sognare le stelle nel cielo

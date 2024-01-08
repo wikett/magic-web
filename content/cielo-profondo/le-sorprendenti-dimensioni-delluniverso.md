@@ -49,7 +49,7 @@ head:
 
 Immaginare le dimensioni dell'universo può essere un viaggio che confina con l'incredulità dei sensi. La sua vastità è talmente impressionante da sfidare ogni nostro concetto di spazio e tempo e mettere in discussione cosa significhi veramente essere parte di un tutto molto più grande. Dunque, quali sorprese ci regala la gigantesca estensione del cosmo? Viaggiare nelle sue profondità celesti ci porterà a comprendere meglio il nostro posto in esso.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le sorprendenti dimensioni delluniverso
 imageurl: https://blog.astroingeo.org/img/content/el-sorprendente-tamano-del-universo_1.webp
@@ -71,7 +71,7 @@ Nonostante le tecnologie avanzatissime a nostra disposizione, ciò che riusciamo
 ### **Il Limite dell'Osservabile**
 L'universo osservabile definisce il confine entro il quale possiamo percepire la luce, oltre questo limite esistono strutture e fenomeni che rimangono velati all'osservazione diretta.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-sorprendente-tamano-del-universo_2.webp
 title: Le sorprendenti dimensioni delluniverso

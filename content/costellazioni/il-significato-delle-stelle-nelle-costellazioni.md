@@ -49,7 +49,7 @@ head:
 
 L'universo, vasto ed enigmatico, è un inesauribile serbatoio di meraviglie e misteri. Il cielo notturno, un affresco imponente, tesse una rete di storie e significati, ove ogni stella contribuisce alla narrazione cosmica. Dall'antichità, l'umanità ha cercato di interpretare **il significato delle stelle nelle costellazioni**, attribuendo loro poteri, leggende e saggezza.
 
-::photo-article.webp
+::photo-article
 ---
 title: Il significato delle stelle nelle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/el-significado-de-las-estrellas-en-las-constelaciones_1.webp
@@ -66,7 +66,7 @@ Nelle antiche civiltà, il cielo notturno fungiva da mappa e calendario. Gli Egi
 
 ## Astronomia e Astrologia: Le Due Facce delle Costellazioni
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/el-significado-de-las-estrellas-en-las-constelaciones_2.webp
 title: Il significato delle stelle nelle costellazioni

@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è da sempre un libro aperto ricco di storie, miti e leggende che da millenni incantano l’umanità. Dalle arcaiche civiltà ai moderni astronomi, *ognuno ha lasciato il proprio segno nel modo di chiamare e interpretare le costellazioni*. Oggi esploreremo le appellazioni di queste meraviglie celesti, tessendo connessioni tra l’antico e il moderno.
 
-::photo-article.webp
+::photo-article
 ---
 title: I nomi delle costellazioni
 imageurl: https://blog.astroingeo.org/img/content/los-nombres-de-las-constelaciones_1.webp
@@ -72,7 +72,7 @@ Queste storie di eroi e creature leggendarie sono state riproposte nell'astrolog
 ### Il Contributo Arabo All'Astrologia
 Gli astronomi arabi, maestri nel campo della scienza celeste medievale, fornirono contributi significativi. Nomi come **Aldebaran** e **Betelgeuse** riflettono questa eredità linguistica.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-nombres-de-las-constelaciones_2.webp
 title: I nomi delle costellazioni

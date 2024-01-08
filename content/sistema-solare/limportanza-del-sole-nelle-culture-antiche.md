@@ -49,7 +49,7 @@ head:
 
 Il Sole, fonte vitale di energia e luce, ha sempre custodito un posto d'onore nelle culture antiche. I suoi cicli quotidiani e stagionali, accompagnati dal fascino della sua presenza costante e rassicurante nel cielo, ne hanno fatto un simbolo potentissimo in molteplici civiltà.
 
-::photo-article.webp
+::photo-article
 ---
 title: Limportanza del sole nelle culture antiche
 imageurl: https://blog.astroingeo.org/img/content/importancia-del-sol-en-las-culturas-antiguas_1.webp
@@ -72,7 +72,7 @@ Le fasi di cambio stagionale, legate ai **solstizi** e agli **equinozi**, veniva
 
 La grandezza delle costruzioni dedicate al sole è testimonianza della sua supremazia. Le piramidi, i templi e i megaliti erano spesso orientati per allinearsi con gli astri e segnare il passaggio del tempo. Il celebre Stonehenge o il Tempio di Karnak sono chiari esempi di come l'architettura antica fosse intrinsecamente legata ai cicli solari.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/importancia-del-sol-en-las-culturas-antiguas_2.webp
 title: Limportanza del sole nelle culture antiche

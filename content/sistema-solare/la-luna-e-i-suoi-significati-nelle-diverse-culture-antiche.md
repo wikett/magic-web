@@ -49,7 +49,7 @@ head:
 
 La Luna ha sempre esercitato una potente influenza sull'umanità. Fin dalle antiche civiltà, questo mistico corpo celeste è stato oggetto di adorazione, fonte di miti e simbolo di numerosi significati culturali. Scopriamo insieme quali segreti si celano dietro i suoi crateri silenziosi e la sua luce argentea che da millenni guida e ispira l'uomo.
 
-::photo-article.webp
+::photo-article
 ---
 title: La luna e i suoi significati nelle diverse culture antiche
 imageurl: https://blog.astroingeo.org/img/content/la-luna-y-sus-significados-en-diferentes-culturas-antiguas_1.webp
@@ -66,7 +66,7 @@ Nell'Antico Egitto, la Luna era incarnazione del dio Khonsu, divinità del tempo
 
 Per i Greci, Selene era la personificazione della Luna, sorella del sole Helios. Ogni notte, percorreva il cielo con un carro lucente, delineando un chiaro legame tra ciclo lunare e tempo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-luna-y-sus-significados-en-diferentes-culturas-antiguas_2.webp
 title: La luna e i suoi significati nelle diverse culture antiche

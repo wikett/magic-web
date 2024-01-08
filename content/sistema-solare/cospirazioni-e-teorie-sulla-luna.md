@@ -49,7 +49,7 @@ head:
 
 La Luna, il nostro vicino celeste, ha da sempre suscitato curiosità, meraviglia e, a volte, dubbi nei cuori degli uomini. Seduti sotto il cielo notturno, scrutiamo quella presenza costante che, pur essendo stata raggiunta dall'uomo nel 1969, per alcuni continua a nascondere segreti insondabili e questioni ancora aperte. In questo articolo viaggeremo tra le **teorie e i complotti lunari** più affascinanti, cercando di separare la sciocchezza dal potenzialmente plausibile.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cospirazioni e teorie sulla luna
 imageurl: https://blog.astroingeo.org/img/content/conspiraciones-y-teorias-sobre-la-luna_1.webp
@@ -66,7 +66,7 @@ Manufatti strani, bandiere che sventolano nel vuoto e ombre sospette sono l'ABC 
 ### Gli argomenti degli scettici
 Secondo i detrattori, le inconsistenze nelle foto e i filmati sarebbero prove inequivocabili di un inganno.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/conspiraciones-y-teorias-sobre-la-luna_2.webp
 title: Cospirazioni e teorie sulla luna

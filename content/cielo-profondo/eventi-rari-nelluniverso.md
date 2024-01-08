@@ -49,7 +49,7 @@ head:
 
 L'universo è un crogiolo di attività cosmiche, una tela dove momenti di stupefacente rarità vengono dipinti con i colori più vividi della fisica celeste. Alcuni di questi eventi sono così eccezionali che possono accadere solamente una volta ogni milioni di anni.
 
-::photo-article.webp
+::photo-article
 ---
 title: Eventi rari nelluniverso
 imageurl: https://blog.astroingeo.org/img/content/eventos-raros-en-el-universo_1.webp
@@ -70,7 +70,7 @@ Le **supernove** rappresentano uno degli eventi più energici dell'universo. Que
 - **Tipo Ib e Ic**: Collassi di stelle massicce depauperate del loro involucro di idrogeno.
 - **Tipo II**: Collassi di supergiganti rosse ricche di idrogeno.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/eventos-raros-en-el-universo_2.webp
 title: Eventi rari nelluniverso

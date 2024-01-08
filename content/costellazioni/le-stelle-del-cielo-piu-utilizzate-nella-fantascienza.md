@@ -49,7 +49,7 @@ head:
 
 Il firmamento è un palcoscenico infinito dove si mettono in scena le narrazioni più avvincenti della fantascienza. Tra le **stelle** e le **costellazioni**, alcune hanno catturato l'immaginazione degli autori fino a diventare icone del genere. Scopriamo insieme quali **sinfonie stellari** hanno ispirato i racconti che hanno viaggiato da una galassia all'altra nella letteratura, nel cinema e nell'immaginario collettivo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le stelle del cielo più utilizzate nella fantascienza
 imageurl: https://blog.astroingeo.org/img/content/las-estrellas-en-el-cielo-mas-utilizadas-en-la-ciencia-ficcion_1.webp
@@ -64,7 +64,7 @@ In molte opere di fantascienza, le vicende ruotano attorno alla **galassia di An
 ### **Orione e Sirio**: Epopee Interstellari
 La **costellazione di Orione** e la sua stella più brillante, **Sirio**, sono spesso raffigurate come punti di partenza per odissee intergalattiche. Questi luoghi celesti sono diventati sinonimi di avventura e mistero nella cultura pop.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-estrellas-en-el-cielo-mas-utilizadas-en-la-ciencia-ficcion_2.webp
 title: Le stelle del cielo più utilizzate nella fantascienza

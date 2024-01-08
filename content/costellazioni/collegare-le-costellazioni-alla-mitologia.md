@@ -49,7 +49,7 @@ head:
 
 L'osservazione del cielo stellato ha da sempre affascinato l'umanità, legando a secoli di mitologie e leggende. Le **costellazioni**, non semplici raggruppamenti di stelle, rappresentano una ricca tela dove culture diverse hanno dipinto i loro miti, connettendo le storie dell'umanità al vasto universo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Collegare le costellazioni alla mitologia
 imageurl: https://blog.astroingeo.org/img/content/conexion-de-las-constelaciones-con-la-mitologia_1.webp
@@ -68,7 +68,7 @@ Uno degli aspetti più suggestivi dell'**astronomia** è proprio l'intreccio con
 
 I **miti greci** e romani abbondano nel cielo. Nomi come Zeus, Ercole e Perseo affiorano tra le stelle, portando con sé avventure eroiche e insegnamenti morali.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/conexion-de-las-constelaciones-con-la-mitologia_2.webp
 title: Collegare le costellazioni alla mitologia

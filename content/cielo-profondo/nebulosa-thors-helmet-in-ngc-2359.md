@@ -49,7 +49,7 @@ head:
 
 L'universo è ricolmo di meraviglie astronomiche che incantano gli occhi e la mente, una di queste è la *Nebulosa Thors Helmet* situata nella vastità dello spazio profondo. Conosciuta anche come NGC 2359, questa nebulosa è un tesoro cosmico che si distingue per la sua forma peculiare e per le storie astrali che racchiude nelle sue braccia di gas e polvere.
  
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Thors Helmet in NGC 2359
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-thors-helmet-o-ngc-2359_3.webp
@@ -65,7 +65,7 @@ Questa stella centrale in NGC 2359 è una vera forza della natura celeste. I ven
 ## I Colori Di NGC 2359: Comprendere La Luminosità
 Le nebulose, come Thors Helmet, sono famose per il loro straordinario gioco di colori. Ma cosa determina questa tavolozza cosmica? Il segreto sta nei gas che, eccitati dalle radiazioni della stella, emettono luci di diversi colori. **Ossigeno**, azoto e soprattutto idrogeno si combinano in un balletto di luci che si espande per anni luce.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-thors-helmet-o-ngc-2359_2.webp
 title: Nebulosa Thors Helmet in NGC 2359

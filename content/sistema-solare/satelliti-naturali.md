@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è uno spettacolo che ha affascinato l'umanità per millenni. Le stelle, i pianeti e i **satelliti naturali** hanno catturato l'immaginazione di poeti, scienziati, e sognatori. Ma cosa sono esattamente questi accompagnatori cosmici, e perché sono così cruciali per la comprensione del nostro sistema solare?
 
-::photo-article.webp
+::photo-article
 ---
 title: Satelliti naturali
 imageurl: https://blog.astroingeo.org/img/content/satelites-naturales_1.webp
@@ -66,7 +66,7 @@ I satelliti naturali, comunemente noti come lune, sono corpi celesti che orbitan
 ## I Satelliti e il Loro Ruolo Nell'Ecosistema Spaziale
 I satelliti naturali hanno un impatto significativo sulla dinamica dei pianeti. Le **maree**, ad esempio, sono il risultato diretto dell'influenza gravitazionale della nostra Luna.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/satelites-naturales_2.webp
 title: Satelliti naturali

@@ -49,7 +49,7 @@ head:
 
 Quando ci voltiamo a guardare il cielo stellato, spesso ci sfiora la curiosità: siamo davvero soli nell'universo? Le testimonianze di incontri con entità extraterrestri abbondano nell'immaginario collettivo, e alcune di esse hanno catturato l'attenzione del pubblico e degli studiosi per la loro particolarità e per gli enigmi che ancora oggi portano con sé. In questo articolo esploreremo alcune fra le **relazioni extraterrestri** più sorprendenti e discuteremo sul perché continuano a incuriosire ed entusiasmare.
 
-::photo-article.webp
+::photo-article
 ---
 title: I più incredibili incontri extraterrestri segnalati
 imageurl: https://blog.astroingeo.org/img/content/los-encuentros-extraterrestres-mas-incredibles-reportados_1.webp
@@ -68,7 +68,7 @@ Le testimonianze di chi ha avvistato rottami insoliti e di militari coinvolti ne
 
 Nel 1975, **Travis Walton**, un operaio forestale dell'Arizona, all'improvviso scompare dopo che lui e il suo team avrebbero incontrato un UFO nei boschi. Walton riappare dopo cinque giorni, affermando di essere stato rapito dagli alieni.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/los-encuentros-extraterrestres-mas-incredibles-reportados_2.webp
 title: I più incredibili incontri extraterrestri segnalati

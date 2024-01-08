@@ -49,7 +49,7 @@ head:
 
 Il firmamento si estende sopra di noi come un immenso mosaico di stelle, pianeti e costellazioni. Tra queste, alcune si distinguono per la loro imponenza, capaci di catturare lo sguardo degli appassionati di astronomia e dei semplici osservatori del cielo notturno. Esploriamo insieme **le costellazioni più grandi** che adornano la volta celeste.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le costellazioni più grandi
 imageurl: https://blog.astroingeo.org/img/content/las-constelaciones-mas-grandes_1.webp
@@ -64,7 +64,7 @@ Nelle lunghe notti stellate, quando il cielo si presenta limpido e sgombro da in
 
 La **costellazione dell'Hydra** rappresenta il serpente marino più lungo del cielo. Si snoda attraverso un'enorme area, ma è costituito da stelle che non sono particolarmente luminose, il che rende necessaria una buona dose di pazienza e cieli limpidi per individuarla nelle sue interezze.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-constelaciones-mas-grandes_2.webp
 title: Le costellazioni più grandi

@@ -49,7 +49,7 @@ head:
 
 L'osservazione del cielo stellato ha sempre suscitato stupore e curiosità nell'uomo, non da meno nella grandiosa **civiltà romana**. Dalle divinità astrali ai calendari, passando per le tecniche di **navigazione** e di **agricoltura**, il cosmo ha influenzato in modo determinante la vita quotidiana e la cultura di questo popolo antico.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le conoscenze astronomiche nella civiltà romana
 imageurl: https://blog.astroingeo.org/img/content/conocimiento-astronomico-en-la-civilizacion-romana_1.webp
@@ -66,7 +66,7 @@ Prima del conoscere le straordinarie sfere celesti, dobbiamo però accennare all
 
 ## I Calendari e il Tempo dei Romani
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/conocimiento-astronomico-en-la-civilizacion-romana_2.webp
 title: Le conoscenze astronomiche nella civiltà romana

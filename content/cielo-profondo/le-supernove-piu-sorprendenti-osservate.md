@@ -49,7 +49,7 @@ head:
 
 Esplorare l'universo è come scartare regali sorprendenti che la natura ha sapientemente celato. Tra questi doni, le **supernovae** rappresentano le esplosioni di stelle più mozzafiato che possiamo osservare. In questo viaggio astronomico, scopriremo le **supernovae più straordinarie** mai osservate, quelle che hanno incantato scienziati e appassionati di astronomia con la loro potenza e bellezza.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le supernove più sorprendenti osservate
 imageurl: https://blog.astroingeo.org/img/content/las-supernovas-mas-impactantes-observadas_1.webp
@@ -70,7 +70,7 @@ Nel **1987**, l'Universo ci ha regalato una delle pagine più affascinanti della
 - La forma ad anello dei resti dell'esplosione che si è rivelata poi agli astronomi.
 - L'impatto della supernova sull'astrofisica e sulla comprensione delle stelle massicce.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-supernovas-mas-impactantes-observadas_2.webp
 title: Le supernove più sorprendenti osservate

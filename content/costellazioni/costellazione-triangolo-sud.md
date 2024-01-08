@@ -49,7 +49,7 @@ head:
 
 Quando si sposta lo sguardo verso la volta celeste nel cuore dell'emisfero australe, un gruppo di stelle si distingue formando una figura geometrica perfetta nel cielo. È il **Triangolo Australe**, una costellazione affascinante che ha stuzzicato la curiosità dell'umanità sin dalle epoche più remote.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione Triangolo Sud
 imageurl: https://blog.astroingeo.org/img/content/constelacion-triangulo-austral_1.webp
@@ -67,7 +67,7 @@ Le protagoniste di questa costellazione sono senza dubbio le sue stelle principa
 ### Atria: La Luminosa Guida
 Conosciuta anche come Atria, *Alpha Trianguli Australis* è la stella più brillante della costellazione, una gigante arancione che domina questo angolo di spazio.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-triangulo-austral_2.webp
 title: Costellazione Triangolo Sud

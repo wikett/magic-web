@@ -49,7 +49,7 @@ head:
 
 L'universo è un mosaico in continua evoluzione, disseminato di corpi celesti che compiono il loro viaggio cosmico. Al centro di tale dinamismo si trovano le stelle più giovani dell'universo, gioielli celesti che accendono i loro lumi lontano nel tempo e nello spazio. Da astrofisici a curiosi, molti si pongono domande su queste meraviglie astrali: dove si trovano? Come possiamo identificarle? Quale importanza rivestono nella comprensione del nostro universo? 
 
-::photo-article.webp
+::photo-article
 ---
 title: Le stelle più giovani dellUniverso
 imageurl: https://blog.astroingeo.org/img/content/las-estrellas-mas-jovenes-del-universo_1.webp
@@ -68,7 +68,7 @@ La formazione delle stelle è un processo affascinante e complesso. Le **nebulos
 
 Le protostelle, i precursori delle stelle vere e proprie, segnano il primo stadio evolutivo di una stella. Questi embrioni stellari si formano al centro di **densi nuclei** all'interno delle nebulose, dove il materiale continua ad accrescere fino a raggiungere le condizioni per scatenare la fusione nucleare.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-estrellas-mas-jovenes-del-universo_2.webp
 title: Le stelle più giovani dellUniverso

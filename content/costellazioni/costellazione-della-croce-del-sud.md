@@ -49,7 +49,7 @@ head:
 
 La **Croce del Sud**, conosciuta anche come *Crux*, non è solo una costellazione emblematica dell'emisfero australe, ma è un vero e proprio faro celeste per gli appassionati di astronomia e per i naviganti che si avvalgono delle stelle per l'orientamento notturno. In questo articolo, esploreremo le meraviglie di questa costellazione, le sue stelle più luminose e la sua importanza sia in ambito scientifico che culturale.
 
-::photo-article.webp
+::photo-article
 ---
 title: Costellazione della Croce del Sud
 imageurl: https://blog.astroingeo.org/img/content/constelacion-cruz-del-sur_3.webp
@@ -68,7 +68,7 @@ La **costellazione della Croce del Sud** si riconosce facilmente per la sua form
 ## Significato Storico e Culturale
 La **Croce del Sud** ha giocato un ruolo fondamentale attraverso diverse *culture e tradizioni*. Per gli aborigeni australiani, questo asterismo era legato a leggende del Dreamtime, mentre gli esploratori europei hanno usato Crux come punto di riferimento per la navigazione negli oceani meridionali. Anche nel mondo contemporaneo, resta un simbolo nazionale in bandiere e stemmi di vari Paesi dell'emisfero sud.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/constelacion-cruz-del-sur_2.webp
 title: Costellazione della Croce del Sud

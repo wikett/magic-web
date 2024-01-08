@@ -49,7 +49,7 @@ head:
 
 L'arte della scoperta celeste si fonde con l'esuberante potenza dei corpi stellari: benvenuti nel regno di **NGC 104**, noto come **47 Tucanae** - un ammasso globulare che sfida la comprensione umana. 
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso globulare 47 Tucanae (NGC 104)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-47-tucanae-ngc-104_3.webp
@@ -68,7 +68,7 @@ Gli ammassi globulari sono insiemi sferici di stelle, gravitazionalmente legati,
 
 NGC 104 brilla della luce di milioni di stelle, rendendolo visibile persino con un binocolo. La sua **lucentezza** si diffonde come un faro nella Via Lattea, rendendolo un oggetto di notevole interesse astronomico.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-47-tucanae-ngc-104_2.webp
 title: Ammasso globulare 47 Tucanae (NGC 104)

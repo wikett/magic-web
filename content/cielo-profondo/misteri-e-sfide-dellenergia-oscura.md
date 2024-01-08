@@ -49,7 +49,7 @@ head:
 
 Il concetto di **energia oscura** riveste un ruolo enigmatico nel contesto dell'astrofisica moderna. Questa forma misteriosa di energia è il motore sottostante all'accelerazione dell'espansione dell'universo, un fenomeno che sfida la nostra comprensione della fisica e spalanca le porte verso infinite domande sulla natura stessa del cosmo.
 
-::photo-article.webp
+::photo-article
 ---
 title: Misteri e sfide dellenergia oscura
 imageurl: https://blog.astroingeo.org/img/content/misterios-y-desafios-de-la-energia-oscura_1.webp
@@ -65,7 +65,7 @@ Nel tentativo di *svelare il velo* su questa forza misteriosa, gli scienziati ha
 ## Le Oscillazioni del Vuoto Quantistico
 Alcune teorie suggeriscono che l'energia oscura sia il risultato delle oscillazioni del vuoto quantistico. Questa interpretazione porta con sé nuovi paradossi, come il fatto che le predizioni teoriche sulla densità energetica del vuoto siano enormemente superiori ai valori osservati.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/misterios-y-desafios-de-la-energia-oscura_2.webp
 title: Misteri e sfide dellenergia oscura

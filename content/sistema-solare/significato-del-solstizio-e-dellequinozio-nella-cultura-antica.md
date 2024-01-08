@@ -49,7 +49,7 @@ head:
 
 La danza armoniosa dei cieli ha da sempre influenzato la vita umana, portando con sé misteri e significati profondi che si sono radicati nelle culture antiche. Il solstizio e l'equinozio sono tra questi fenomeni celesti, ed oggi ci addentreremo nei loro significati nascosti e nell'impatto che hanno avuto sulle civiltà passate.
 
-::photo-article.webp
+::photo-article
 ---
 title: Significato del solstizio e dellequinozio nella cultura antica
 imageurl: https://blog.astroingeo.org/img/content/significado-del-solsticio-y-el-equinoccio-en-la-antigua-cultura_1.webp
@@ -68,7 +68,7 @@ Molte civiltà antiche, come quella dei **Druidi**, celebravano il solstizio d'e
 
 Contrariamente, il solstizio d'inverno era segnato dal punto più basso del percorso del Sole, indicando un tempo di introspezione e rinnovamento spirituale. In questo periodo molte culture festeggiavano il ritorno della luce, come testimonia la Festa di **Saturnalia** nell'antica Roma o **Yule** nelle tradizioni nordiche.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/significado-del-solsticio-y-el-equinoccio-en-la-antigua-cultura_2.webp
 title: Significato del solstizio e dellequinozio nella cultura antica

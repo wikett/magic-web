@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno cela in sé una miriade di meraviglie che spesso sorpassano la fantasia dei più audaci romanzi di fantascienza. La vastità e la bellezza dell'universo sono da sempre fonte di ispirazione per autori e cineasti, ma alcuni dei fenomeni astrali reali sono così straordinari che sembrano usciti direttamente dalle pagine di un libro o da una scena di film.
 
-::photo-article.webp
+::photo-article
 ---
 title: Fenomeni astrali di tipo fantascientifico
 imageurl: https://blog.astroingeo.org/img/content/fenomenos-astrales-que-parecen-de-ciencia-ficcion_1.webp
@@ -65,7 +65,7 @@ All'interno della Nebulosa Aquila, giganteschi pilastri di gas e polveri si erig
 ## Ammassi Stellari e Superammassi: Incroci Galattici
 Gli ammassi stellari non sono da meno, con le loro stelle massicce brillanti di luce intensa. E poi ci sono i superammassi, vere e proprie città di galassie, in cui milioni di stelle condividono lo stesso vicinato cosmico.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/fenomenos-astrales-que-parecen-de-ciencia-ficcion_2.webp
 title: Fenomeni astrali di tipo fantascientifico

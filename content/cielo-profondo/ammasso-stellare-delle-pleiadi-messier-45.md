@@ -49,7 +49,7 @@ head:
 
 **L'ammasso delle Pleiadi**, noto anche come **Messier 45** o **M45**, è un insieme di stelle che ha catturato l'immaginazione umana fin dall'antichità. Situato nella costellazione del Toro, questo gioiello celeste offre uno spettacolo affascinante agli osservatori del cielo di tutto il mondo. In questo articolo, ci immergeremo nell'esplorazione delle Pleiadi, scoprendo la loro storia, la loro struttura e i segreti che racchiudono.
 
-::photo-article.webp
+::photo-article
 ---
 title: Ammasso stellare delle Pleiadi (Messier 45)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-estelar-de-las-pleyades-messier-45_3.webp
@@ -68,7 +68,7 @@ Questo ammasso stellare è composto da stelle relativamente giovani e calde. La 
 - Le stelle delle Pleiadi sono relativamente giovani, con un'età media intorno ai 100 milioni di anni.
 - L'ammasso si trova a una distanza di circa 444 anni luce dalla Terra, rendendolo uno dei più vicini e quindi più studiati.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-estelar-de-las-pleyades-messier-45_2.webp
 title: Ammasso stellare delle Pleiadi (Messier 45)

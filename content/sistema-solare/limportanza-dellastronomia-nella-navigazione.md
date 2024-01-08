@@ -49,7 +49,7 @@ head:
 
 Navigare i mari vasti è un'arte antica, nella quale il cielo notturno ha giocato un ruolo cruciale. La comprensione del cosmo e le sue applicazioni in mare aperto dimostrano quanto l'**astronomia** sia fondamentale nella **navigazione**. Esploriamo insieme i meccanismi astrali che hanno guidato i navigatori di tutti i tempi.
 
-::photo-article.webp
+::photo-article
 ---
 title: Limportanza dellastronomia nella navigazione
 imageurl: https://blog.astroingeo.org/img/content/la-importancia-de-la-astronomia-en-la-navegacion_1.webp
@@ -65,7 +65,7 @@ Alzare lo sguardo al cielo limpido di notte, marinaio o astrologo che tu sia, si
 ### Ortive e Occidenti
 La **rotazione della Terra** causa il movimento apparente di stelle ortive (nascenti) e occidenti (tramontanti). Conoscere questi movimenti stellari aiuta a calibrare il percorso durante la navigazione notturna.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-importancia-de-la-astronomia-en-la-navegacion_2.webp
 title: Limportanza dellastronomia nella navigazione

@@ -49,7 +49,7 @@ head:
 
 La vastità dello spazio è un teatro di meraviglie senza fine, e in questa scena cosmica vasta e insondabile, la **Galassia del Mulino a Vento (M51)** emerge come una protagonista affascinante e avvolta nel mistero. Scopriamo insieme i segreti che si celano dietro a questa straordinaria galassia a spirale e perchè continua a catturare l'attenzione di astrofili e astronomi professionisti.
 
-::photo-article.webp
+::photo-article
 ---
 title: Galassia Whirlpool (M51)
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-remolino-m51_3.webp
@@ -66,7 +66,7 @@ Analizzare la particolare disposizione degli astri all'interno della **Galassia 
 
 ## Il connesso fenomeno della supernova
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/galaxia-del-remolino-m51_2.webp
 title: Galassia Whirlpool (M51)

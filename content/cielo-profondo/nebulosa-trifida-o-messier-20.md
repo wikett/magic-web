@@ -49,7 +49,7 @@ head:
 
 La scienza dell'astronomia ci permette di scrutare gli angoli più remoti dell'universo e scoprire vere e proprie meraviglie celesti. Tra queste, spicca la Nebulosa Trifida, conosciuta anche come Messier 20, un affascinante laboratorio cosmico dove stelle nascono e materia si plasma in forme incredibili. Questo articolo, arricchito di dettagli sorprendenti e consigli pratici, vi guiderà alla scoperta di questo gioiello del cielo notturno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Nebulosa Trifida o Messier 20
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-trifida-o-messier-20_3.webp
@@ -69,7 +69,7 @@ Queste caratteristiche rendono M20 un luogo straordinario per l'osservazione e l
 ## Caratteristiche Astronomiche Da Non Perdere
 La **Trifid Nebula** rientra tra gli oggetti del Deep Sky più studiati per le sue peculiari caratteristiche. La combinazione di nebulose a emissione, a riflessione, e le nebulosità oscure che la frammiscono, forniscono un insieme unico e indicano un'attività di formazione stellare ancora in corso.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/nebulosa-trifida-o-messier-20_2.webp
 title: Nebulosa Trifida o Messier 20

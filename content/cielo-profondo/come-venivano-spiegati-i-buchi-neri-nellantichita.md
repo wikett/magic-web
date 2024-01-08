@@ -49,7 +49,7 @@ head:
 
 L'universo è sempre stato un enigma per l'umanità, un gigantesco puzzle costellato di fenomeni incomprensibili e oggetti celesti misteriosi. Tra questi, i buchi neri occupano un posto speciale: entità così potenti da ingoiare la luce stessa. Ma come venivano spiegati i **buchI neri** nell'antichità, quando la scienza moderna era solo un'eco nel futuro?
 
-::photo-article.webp
+::photo-article
 ---
 title: Come venivano spiegati i buchi neri nellantichità?
 imageurl: https://blog.astroingeo.org/img/content/como-se-explicaban-los-agujeros-negros-en-la-antigueedad_1.webp
@@ -64,7 +64,7 @@ Nonostante la complessità del concetto, le prime culture hanno tentato di compr
 
 Le antiche civiltà utilizzavano miti e leggende per spiegare gli eventi celesti. **Stelle**, comete e eclissi venivano attribuite all'intervento divino piuttosto che a fenomeni fisici.
 
-##.webp::photo-discover
+##::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/como-se-explicaban-los-agujeros-negros-en-la-antigueedad_2.webp
 title: Come venivano spiegati i buchi neri nellantichità?

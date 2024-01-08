@@ -49,7 +49,7 @@ head:
 
 Il cielo notturno è una vasta tela dove le stelle tessono storie antiche, dipingendo tra loro vere e proprie opere d'arte cosmiche: le costellazioni. Molti di noi sono a conoscenza delle più celebri, come Orione o lo Scorpione, ma avete mai volto lo sguardo verso le più discrete e minute tra queste? Oggi vi guideremo verso la scoperta delle **costellazioni più piccole**, quelle che, malgrado le loro dimensioni ridotte, nascondono fascino e mistero.
 
-::photo-article.webp
+::photo-article
 ---
 title: Le costellazioni più piccole
 imageurl: https://blog.astroingeo.org/img/content/las-constelaciones-mas-pequenas_1.webp
@@ -64,7 +64,7 @@ La **Croce del Sud** (Crux) non è solo una delle più piccole, ma anche una del
 ### L'Eschimese: un microcosmo stellare
 L'**Eschimese** (Caelum) è spesso trascurata a causa della sua estensione limitata e della luminosità relativamente bassa dei suoi astri. Tuttavia, gli appassionati d'astronomia sanno che osservare le sue stelle richiede attenzione e pazienza.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/las-constelaciones-mas-pequenas_2.webp
 title: Le costellazioni più piccole

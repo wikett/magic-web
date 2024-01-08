@@ -49,7 +49,7 @@ head:
 
 Il pianeta Nettuno, l'ultimo gigante gassoso del nostro sistema solare, rimane per molti aspetti un enigma. Avvolto in strati atmosferici profondi e dinamici, Nettuno invita gli astrofili e gli scienziati a sbirciare oltre il velo di gas per comprendere i segreti che racchiude. In questo articolo, immergeremo nella composizione, nella struttura e nelle curiosità che rendono l'atmosfera di Nettuno un vera meraviglia cosmica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Latmosfera di Nettuno spiegata
 imageurl: https://blog.astroingeo.org/img/content/la-atmosfera-de-neptuno-explicada_1.webp
@@ -65,7 +65,7 @@ Nettuno è noto per le sue intense condizioni meteorologiche. I venti soffiano a
 ## Strutture Nuvolose e Bande Atmosferiche
 Le bande atmosferiche di Nettuno sono simili a quelle di Giove e Saturno ma presentano uno spettacolo unico di *nuvole di metano cristallizzato* e strati più profondi. Queste strutture sono indicatori vitali delle attività climatiche e pressioni atmosferiche sul pianeta.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/la-atmosfera-de-neptuno-explicada_2.webp
 title: Latmosfera di Nettuno spiegata

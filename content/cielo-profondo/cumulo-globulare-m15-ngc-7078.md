@@ -49,7 +49,7 @@ head:
 
 Il **Cumulo Globulare M15 (NGC 7078)** è una meraviglia astronomica, un insieme di stelle legato gravitazionalmente che offre uno spettacolo luminoso nella volta celeste. Ancora oggi, per astronomi professionisti e appassionati, M15 rappresenta un oggetto di studio affascinante e ricco di mistero.
 
-::photo-article.webp
+::photo-article
 ---
 title: Cumulo globulare M15 (NGC 7078)
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-m15-ngc-7078_3.webp
@@ -68,7 +68,7 @@ Il cumulo globulare M15 si stima sia vecchio di circa **12 miliardi di anni**, r
 
 M15 non è solamente un aggregato di stelle; al suo interno si trovano **nebulose planetarie**, che forniscono indizi sul destino finale delle stelle di media massa. Queste particolarità fanno di M15 un oggetto ancora più intrigante agli occhi degli scienziati.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/cumulo-globular-m15-ngc-7078_2.webp
 title: Cumulo globulare M15 (NGC 7078)

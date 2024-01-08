@@ -49,7 +49,7 @@ head:
 
 L'idea che esseri multinati dall'oltrespazio possano aver toccato la nostra arte e cultura non è fantascienza, ma una realtà percepibile nella potenza dell'ispirazione musicale. La **musica ispirata da incontri extraterrestri** si estende attraverso generi e decenni, creando un ponte sonoro tra l'umano e l'alieno.
 
-::photo-article.webp
+::photo-article
 ---
 title: Musica ispirata agli incontri extraterrestri
 imageurl: https://blog.astroingeo.org/img/content/musica-inspirada-en-encuentros-extraterrestres_1.webp
@@ -68,7 +68,7 @@ Uno degli esempi più emblematici è **David Bowie**, con il suo alter ego Ziggy
 
 Compositori classici come Gustav Holst, con il suo capolavoro **"I pianeti"**, hanno interpretato l'astronomia in musica, traducendo in note il carattere mitologico e leggendario di corpi celesti e fenomeni astrali.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/musica-inspirada-en-encuentros-extraterrestres_2.webp
 title: Musica ispirata agli incontri extraterrestri

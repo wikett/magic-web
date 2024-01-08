@@ -49,7 +49,7 @@ head:
 
 L'astronomia è una scienza affascinante, in cui mistero e conoscenza si fondono nella ricerca delle origini e dei segreti dell'Universo. Le **teorie intriganti** nate da tale ricerca sono innumerevoli e costantemente oggetto di dibattiti e studi. Scopriamo insieme alcune delle più emozionanti ipotesi scientifiche che sforzano i confini della nostra comprensione cosmica.
 
-::photo-article.webp
+::photo-article
 ---
 title: Teorie intriganti dellastronomia
 imageurl: https://blog.astroingeo.org/img/content/teorias-intrigantes-de-la-astronomia_1.webp
@@ -66,7 +66,7 @@ Una delle teorie più affascinanti è quella dei **buchi bianchi**. Si tratta, s
 ## Universi Paralleli: Viaggi Al Di Là Della Nostra Realtà
 Passando a una teoria ancor più esplosiva, consideriamo quella degli **universi paralleli**. Secondo questa teoria, ci sarebbero infiniti universi con differenti versioni della realtà. Alcuni fisici teorizzano che ogni decisione crei una scissione nel tessuto spazio-temporale, generando un nuovo universo parallelo.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/teorias-intrigantes-de-la-astronomia_2.webp
 title: Teorie intriganti dellastronomia

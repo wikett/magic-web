@@ -49,7 +49,7 @@ head:
 
 La Terra: un pianeta sospeso nello spazio che continua a meravigliarci con i suoi misteri. Ma cosa si cela dietro il simbolo "$" in riferimento al nostro pianeta? In quest'articolo, ci addentreremo nelle curiosità e nelle caratteristiche uniche che rendono la Terra un corpo celeste senza eguali, ottimizzando la ricerca per "Earth$" attraverso un'attenta disamina SEO e copywriting.
 
-::photo-article.webp
+::photo-article
 ---
 title: Terra
 imageurl: https://blog.astroingeo.org/img/content/tierra_1.webp
@@ -74,7 +74,7 @@ Il clima influenza direttamente la capacità della Terra di sostenere la vita. L
 **Sostenibilità e Azione**
 Le azioni per combattere il cambiamento climatico diventano urgenti e necessarie per mantenere l'integrità del nostro pianeta.
 
-.webp::photo-discover
+::photo-discover
 ---
 imageurl: https://blog.astroingeo.org/img/content/tierra_2.webp
 title: Terra
