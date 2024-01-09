@@ -1,19 +1,28 @@
+::photo-article
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Casco de Thor, copyright - 
+Ritesh Biswas
+ -
+imageurl: https://apod.nasa.gov/apod/image/2401/ThorsHelmet_Biswas_1436.jpg
+---
+::
+
+---
+title: Casco de Thor
+description: Imagen astronómica del día martes, 9 de enero de 2024 por la NASA; Casco de Thor
 category: nasa
 published_time: 2024-01-09T07:19:27.239Z
-url: foto-del-dia-de-la-nasa-hoy
+url: casco-de-thor-2024-01-09
 created: 09 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/ThorsHelmet_Biswas_1436.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Casco de Thor'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Casco de Thor'
     - name: 'og:description'
       content: 'Imagen astronómica del día martes, 9 de enero de 2024 por la NASA; Casco de Thor'
     - name: 'og:type'
@@ -29,13 +38,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2401/ThorsHelmet_Biswas_1436.jpg'
     - name: 'og:url'
-      content: 'https://caleidoscopioastrale.it/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://caleidoscopioastrale.it/nasa/casco-de-thor-2024-01-09'
     - name: 'twitter:domain'
       content: 'caleidoscopioastrale.it'
     - name: 'twitter:url'
-      content: 'https://caleidoscopioastrale.it/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://caleidoscopioastrale.it/nasa/casco-de-thor-2024-01-09'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Casco de Thor'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2401/ThorsHelmet_Biswas_1436.jpg'
     - name: 'twitter:description'
@@ -45,21 +54,8 @@ head:
     - name: 'copyright'
       content: '© 2024 caleidoscopioastrale.it'
 ---
-# Foto del día de la NASA hoy
+# Casco de Thor
 martes, 9 de enero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-::photo-article
----
-title: Foto astronómica del día por la NASA, copyright - 
-Ritesh Biswas
- -
-imageurl: https://apod.nasa.gov/apod/image/2401/ThorsHelmet_Biswas_1436.jpg
----
-::
-
-## Casco de Thor
 
 Ciertamente, **NGC 2359**, conocida comúnmente como el _Casco de Thor_, es una fascinante nebulosa que adorna nuestros cielos nocturnos. Esta nube cósmica se asemeja a un casco con alas extendiéndose hacia afuera, algo que sin duda estaría a la altura de un dios nórdico. Sin embargo, más que ser un simple tocado estelar, **Thor's Helmet** es una burbuja interestelar, inflada por el viento rápido proveniente de una estrella masiva situada en el centro de la burbuja.
 
