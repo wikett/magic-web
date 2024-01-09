@@ -1,12 +1,3 @@
-::photo-article
----
-title: Casco de Thor, copyright - 
-Ritesh Biswas
- -
-imageurl: https://apod.nasa.gov/apod/image/2401/ThorsHelmet_Biswas_1436.jpg
----
-::
-
 ---
 title: Casco de Thor
 description: Imagen astronómica del día martes, 9 de enero de 2024 por la NASA; Casco de Thor
@@ -55,6 +46,13 @@ head:
       content: '© 2024 caleidoscopioastrale.it'
 ---
 # Casco de Thor
+::photo-article
+---
+title: Casco de Thor, copyright - Ritesh Biswas -
+imageurl: https://apod.nasa.gov/apod/image/2401/ThorsHelmet_Biswas_1436.jpg
+---
+::
+
 martes, 9 de enero de 2024
 
 Ciertamente, **NGC 2359**, conocida comúnmente como el _Casco de Thor_, es una fascinante nebulosa que adorna nuestros cielos nocturnos. Esta nube cósmica se asemeja a un casco con alas extendiéndose hacia afuera, algo que sin duda estaría a la altura de un dios nórdico. Sin embargo, más que ser un simple tocado estelar, **Thor's Helmet** es una burbuja interestelar, inflada por el viento rápido proveniente de una estrella masiva situada en el centro de la burbuja.

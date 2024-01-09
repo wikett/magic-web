@@ -26,3 +26,6 @@
     </div>
   </main>
 </template>
+<script setup lang="ts">
+const { data } = await useAsyncData('article', () => queryContent('/info').findOne())
+</script>

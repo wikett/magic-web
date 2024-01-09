@@ -37,7 +37,7 @@
 
       <!-- Timeline section -->
       <div class="mx-auto mt-8 max-w-7xl px-6 lg:px-8">
-        <h2 class="text-blue-600">{{ data.texto1 }}</h2>
+        <h2 class="text-blue-600">{{ data.traducciones[0].texto }}</h2>
         <div class="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4">
           <ThumbArticle v-for="item in articles.data._rawValue" :key="item.url"
         :post="item" />
@@ -114,8 +114,8 @@
       <!-- Stats -->
       <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
         <div class="mx-auto max-w-2xl lg:mx-0">
-          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ data.texto3 }} {{ data.category }}</h2>
-          <p class="mt-6 text-base leading-7 text-gray-600">{{ data.texto4 }}</p>
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{{ data.traducciones[2].texto  }} {{ data.category }}</h2>
+          <p class="mt-6 text-base leading-7 text-gray-600">{{ data.traducciones[3].texto  }}</p>
         </div>
         <div class="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end">
           <div v-for="item in data.datosCuriosos" 

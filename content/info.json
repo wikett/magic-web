@@ -135,13 +135,34 @@
       "color": "bg-orange-900"
     }
   ],
-  "texto1": "Artículos relacionados",
-  "texto2": "Nuestra tienda de confianza",
-  "texto3": "Aquí algunas curiosidades sobre:",
-  "texto4": "Aquí hay algunos datos divertidos para comenzar",
-  "texto5": "Otros artículos",
-  "texto6": "Nosotros",
-  "texto7": "Legal",
-  "texto8": "Todos los derechos reservados",
-  "texto9": "Ver los productos"
+  "traducciones": [
+    {
+      "texto": "Artículos relacionados"
+    },
+    {
+      "texto": "Nuestra tienda de confianza"
+    },
+    {
+      "texto": "Aquí algunas curiosidades sobre:"
+    },
+    {
+      "texto": "Aquí hay algunos datos divertidos para comenzar"
+    },
+    {
+      "texto": "Otros artículos"
+    },
+    {
+      "texto": "Nosotros"
+    },
+    {
+      "texto": "Legal"
+    },
+    {
+      "texto": "Todos los derechos reservados"
+    },
+    {
+      "texto": "Ver los productos"
+    }
+    
+  ]
 }

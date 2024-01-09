@@ -18,7 +18,7 @@
                 <h3 class="text-sm font-semibold leading-6 text-white">&nbsp;</h3>
               </div>
               <div class="mt-10 md:mt-0">
-                <h3 class="text-sm font-semibold leading-6 text-white">{{ data.texto5 }}</h3>
+                <h3 class="text-sm font-semibold leading-6 text-white">{{ data.traducciones[4].texto  }}</h3>
                 <ul role="list" class="list-none ml-0 mt-6 space-y-4">
                   <li v-for="item in articles.data._rawValue" :key="item.title">
                     <a :href="item._path" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.title }}</a>
@@ -28,7 +28,7 @@
             </div>
             <div class="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 class="text-sm font-semibold leading-6 text-white">{{ data.texto6 }}</h3>
+                <h3 class="text-sm font-semibold leading-6 text-white">{{ data.traducciones[5].texto  }}</h3>
                 <ul role="list" class="list-none ml-0 mt-6 space-y-4">
                   <li v-for="item in data.company" :key="item.name">
                     <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
@@ -36,7 +36,7 @@
                 </ul>
               </div>
               <div class="mt-10 md:mt-0">
-                <h3 class="text-sm font-semibold leading-6 text-white">{{ data.texto7 }}</h3>
+                <h3 class="text-sm font-semibold leading-6 text-white">{{ data.traducciones[6].texto  }}</h3>
                 <ul role="list" class="list-none ml-0 mt-6 space-y-4">
                   <li v-for="item in data.legal" :key="item.name">
                     <a :href="item.href" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.name }}</a>
@@ -47,7 +47,7 @@
           </div>
         </div>
         <div class="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24">
-          <span class="text-xs leading-5 text-gray-400">&copy; {{ year }} {{ data.domain }} {{ data.texto8 }} </span>
+          <span class="text-xs leading-5 text-gray-400">&copy; {{ year }} {{ data.domain }} {{ data.traducciones[7].texto  }} </span>
           <a class="text-xs leading-5 text-gray-400" :href="data.footerLink"> {{ data.footer }}</a>
         </div>
       </div>

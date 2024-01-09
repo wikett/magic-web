@@ -52,9 +52,7 @@ Cada día se presenta una imagen o fotografía diferente de nuestro fascinante u
 En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - 
-Ritesh Biswas
- -
+title: Foto astronómica del día por la NASA, copyright - Ritesh Biswas -
 imageurl: https://apod.nasa.gov/apod/image/2401/ThorsHelmet_Biswas_1436.jpg
 ---
 ::

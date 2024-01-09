@@ -637,7 +637,7 @@ switch (process.argv[2]) {
     break;
 
   case 'magic': {
-    for (let index = 0; index < 100; index++) {
+    for (let index = 0; index < 20; index++) {
       console.log('Calculando articulo: '+index)
       await obtenerCategoria();  
     }

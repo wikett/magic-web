@@ -118,28 +118,6 @@ async function generateImage(prompt, nombreFicheroImagen) {
   await downloadAssets(imagenChatGPT, nombreFicheroImagen)
 }
 
-async function createInfo() {
-
-  infoQuienesSomos = await chatgptMagic(promptQuienesSomos(), 'gpt-4-1106-preview')
-  descripcionSEO = await chatgptMagic(promptDescription(), 'gpt-4-1106-preview')
-
-  let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
-  cabeceroMarkdown += getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEO)
-  cabeceroMarkdown += '\n---\n'
-  articulo = cabeceroMarkdown + articulo
-  // articulo = limpiarArticulo(articulo)
-  articulo = addPicture(articulo, tituloSEO)
-  articulo = addDiscover(articulo, imagenSecundariaSEO, 3)
-  articulo = addDiscover(articulo, imagenDiscoverSEO, 6)
-  // articulo = addAnecdota(articulo, anecdota)
-
-  try {
-    await fs.writeFile(articuloPathSEO, articulo)
-    // await tweetAricle() 
-  } catch (error) {
-    console.error('Error appending content to file:', error);
-  }
-}
 
 async function chatgptMagic(contenido, model = 'gpt-4-1106-preview') {
     const completion = await openai.chat.completions.create({
@@ -170,11 +148,13 @@ async function writeJsonToFile() {
     infoJson.authorsDescription = await chatgptMagic(promptAuthorsDescription())
     infoJson.authorsSmallDescription = await chatgptMagic(promptAuthorsSmallDescription())
     infoJson.description = await chatgptMagic(promptDescription())
-    infoJson.domain = ""
+    // TODO: actualizar nuxt.conifg con el nuevo dominio
+    infoJson.domain = ""    
     infoJson.websiteName = ""
     infoJson.emailContacto = ""
     infoJson.footer = ""
     infoJson.footerLink = ""
+    //TODO: crear las carpetas de las nuevas categorias
     infoJson.navigation = [
       { 
           "name": "Hogar",
@@ -288,6 +268,36 @@ async function writeJsonToFile() {
           "color": "bg-orange-900"
       }
   ]
+  infoJson.traducciones = [
+    {
+      "texto": "Artículos relacionados"
+    },
+    {
+      "texto": "Nuestra tienda de confianza"
+    },
+    {
+      "texto": "Aquí algunas curiosidades sobre:"
+    },
+    {
+      "texto": "Aquí hay algunos datos divertidos para comenzar"
+    },
+    {
+      "texto": "Otros artículos"
+    },
+    {
+      "texto": "Nosotros"
+    },
+    {
+      "texto": "Legal"
+    },
+    {
+      "texto": "Todos los derechos reservados"
+    },
+    {
+      "texto": "Ver los productos"
+    }
+  ]
+
 
     const jsonString = JSON.stringify(infoJson, null, 2);
 
