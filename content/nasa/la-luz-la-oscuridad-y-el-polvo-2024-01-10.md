@@ -1,19 +1,26 @@
+::photo-article
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: La luz, la oscuridad y el polvo, copyright - Gábor Galambos -
+imageurl: https://apod.nasa.gov/apod/image/2401/Sh2_155_4K_5Mb.jpg
+---
+::
+
+---
+title: La luz, la oscuridad y el polvo
+description: Imagen astronómica del día miércoles, 10 de enero de 2024 por la NASA; La luz, la oscuridad y el polvo
 category: nasa
 published_time: 2024-01-10T08:13:01.894Z
-url: foto-del-dia-de-la-nasa-hoy
+url: la-luz-la-oscuridad-y-el-polvo-2024-01-10
 created: 10 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/Sh2_155_4K_5Mb.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'La luz, la oscuridad y el polvo'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'La luz, la oscuridad y el polvo'
     - name: 'og:description'
       content: 'Imagen astronómica del día miércoles, 10 de enero de 2024 por la NASA; La luz, la oscuridad y el polvo'
     - name: 'og:type'
@@ -29,13 +36,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2401/Sh2_155_4K_5Mb.jpg'
     - name: 'og:url'
-      content: 'https://caleidoscopioastrale.it/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://caleidoscopioastrale.it/nasa/la-luz-la-oscuridad-y-el-polvo-2024-01-10'
     - name: 'twitter:domain'
       content: 'caleidoscopioastrale.it'
     - name: 'twitter:url'
-      content: 'https://caleidoscopioastrale.it/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://caleidoscopioastrale.it/nasa/la-luz-la-oscuridad-y-el-polvo-2024-01-10'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'La luz, la oscuridad y el polvo'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2401/Sh2_155_4K_5Mb.jpg'
     - name: 'twitter:description'
@@ -45,19 +52,8 @@ head:
     - name: 'copyright'
       content: '© 2024 caleidoscopioastrale.it'
 ---
-# Foto del día de la NASA hoy
+# La luz, la oscuridad y el polvo
 miércoles, 10 de enero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-::photo-article
----
-title: Foto astronómica del día por la NASA, copyright - Gábor Galambos -
-imageurl: https://apod.nasa.gov/apod/image/2401/Sh2_155_4K_5Mb.jpg
----
-::
-
-## La luz, la oscuridad y el polvo
 
 Este **colorido panorama celestial** abarca aproximadamente el ancho de tres lunas llenas y se sitúa sobre campos estelares ricos en nebulosas a lo largo del plano de nuestra Galaxia Vía Láctea, dirigidos hacia la constelación real del norte, **Cefeo**. Cerca del límite de la región de la nube molecular masiva, a unos **2,400 años luz** de distancia, se encuentra la brillante región de emisión rojiza **Sharpless (Sh)2-155**, en el centro del encuadre, conocida también como la **Nebulosa de la Cueva**. Con alrededor de **10 años luz de ancho**, las brillantes paredes de gas de la cueva cósmica están ionizadas por la luz ultravioleta de las jóvenes y calurosas estrellas que las rodean.
 
