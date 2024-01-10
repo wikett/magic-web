@@ -1,10 +1,3 @@
-::photo-article
----
-title: La luz, la oscuridad y el polvo, copyright - Gábor Galambos -
-imageurl: https://apod.nasa.gov/apod/image/2401/Sh2_155_4K_5Mb.jpg
----
-::
-
 ---
 title: La luz, la oscuridad y el polvo
 description: Imagen astronómica del día miércoles, 10 de enero de 2024 por la NASA; La luz, la oscuridad y el polvo
@@ -53,6 +46,12 @@ head:
       content: '© 2024 caleidoscopioastrale.it'
 ---
 # La luz, la oscuridad y el polvo
+::photo-article
+---
+title: La luz, la oscuridad y el polvo, copyright - Gábor Galambos -
+imageurl: https://apod.nasa.gov/apod/image/2401/Sh2_155_4K_5Mb.jpg
+---
+::
 miércoles, 10 de enero de 2024
 
 Este **colorido panorama celestial** abarca aproximadamente el ancho de tres lunas llenas y se sitúa sobre campos estelares ricos en nebulosas a lo largo del plano de nuestra Galaxia Vía Láctea, dirigidos hacia la constelación real del norte, **Cefeo**. Cerca del límite de la región de la nube molecular masiva, a unos **2,400 años luz** de distancia, se encuentra la brillante región de emisión rojiza **Sharpless (Sh)2-155**, en el centro del encuadre, conocida también como la **Nebulosa de la Cueva**. Con alrededor de **10 años luz de ancho**, las brillantes paredes de gas de la cueva cósmica están ionizadas por la luz ultravioleta de las jóvenes y calurosas estrellas que las rodean.
