@@ -9,6 +9,7 @@ import * as deepl from 'deepl-node';
 import sharp from 'sharp';
 import path from 'path';
 
+let guiaSEO = ""
 let tituloSEO = ""
 let tituloSEOEnglish = ""
 let urlSEO = ""
@@ -21,7 +22,7 @@ let descripcionSEO = ""
 const dominio = "blog.astroingeo.org"
 const profesional = 'astronomy' // siempre en ingles
 const autores = 'Enrique'
-const categorias = ['Constelaciones', 'Cielo profundo', 'Telescopios', 'Sistema Solar']
+const categorias = ['Constelaciones', 'Cielo profundo', 'Telescopios', 'Sistema Solar', 'Otros']
 const currentDate = new Date();
 const nasaApiKey = process.env.NASA;
 const language = 'Spanish'
@@ -58,7 +59,7 @@ function promptAuthorsSmallDescription() {
 }
 
 function promptDescription() {
-  return `Act as an SEO expert. Write a meta description in ${language} of no more than 150 characters about ${tituloSEOEnglish}, which is attractive but not Clickbait.`
+  return `Act as an SEO expert. Write a meta description in ${language} of no more than 150 characters about ${tituloSEO}, which is attractive but not Clickbait.`
 }
 
 function promptAmazonDescription() {
@@ -80,16 +81,17 @@ const openai = new OpenAI({
 const translator = new deepl.Translator(process.env.DEEPL_AUTH);
 
 function promptArticulo(keyword) {
-  return `Act as an SEO expert and ${profesional}. Optimize the SEO and copywriting of the article you will write, considering the logical structure, semantic relationships (LSI) and the quality of the content. Write an article of 1500 words in ${language} in Markdown format, that solves the search for "${keyword}$". Use short paragraphs and clear sentences to enhance the user experience. Include secondary keywords related to ${keyword}$. Ensure a logical structure, focused development and closing without repetition or thin content. Create a 60-character H1 SEO title for "${keyword}$" that is creative and engaging. Avoid an H2 with "intro" or "introduction". Add 4-10 H2 headings, H3 subheadings and lists in Markdown. Highlight keywords or important phrases in bold. Use keywords and LSI appropriately. End with a paragraph without a "conclusion" or "summary" H2, but offer advice by highlighting a sentence in italics. Include 3 H3 frequently asked questions (FAQ) about ${keyword}$. Write in a perplexing and explosive way, without losing context. Avoid "${keyword}$" stuffing higher than 2% and repetition of phrases. Keep the salience score between 0.80 and 1. Use bold Markdown for keywords and relevant phrases, without repeating the same phrases. Use lists with Markdown format, know-how, and a step-by-step (if it is needed). Avoid unnecessary or junk content. Emphasize text with bold, italics or lists.
+  return `Act as an SEO expert and ${profesional}. Optimize the SEO and copywriting of the article you will write, considering the logical structure, semantic relationships (LSI) and the quality of the content. Write an article of 1500 words in ${language} in Markdown format, that solves the search for "${keyword}". Use short paragraphs and clear sentences to enhance the user experience. Include secondary keywords related to "${keyword}". Ensure a logical structure, focused development and closing without repetition or thin content. Create a 60-character H1 SEO title for "${keyword}" that is creative and engaging. Avoid an H2 with "intro" or "introduction". Add 4-10 H2 headings, H3 subheadings and lists in Markdown. Highlight keywords or important phrases in bold. Use keywords and LSI appropriately. End with a paragraph without a "conclusion" or "summary" H2, but offer advice by highlighting a sentence in italics. Include 3 H3 frequently asked questions (FAQ) about "${keyword}". Write in a perplexing and explosive way, without losing context. Avoid "${keyword}" stuffing higher than 2% and repetition of phrases. Keep the salience score between 0.80 and 1. Use bold Markdown for keywords and relevant phrases, without repeating the same phrases. Use lists with Markdown format, know-how, and a step-by-step (if it is needed). Avoid unnecessary or junk content. Emphasize text with bold, italics or lists.
   Write the word "octopus" before the first h2 (use plain format).
   Write the word "frodo" before the fourth h2 (use plain format).
   Write the word "chichi" before the seventh h2 if exists (use plain format).
   Do not include "h1", "h2", "h3" or "h4" in any title or subtitle.
-  Do not include "H1", "H2", "H3" or "H4" in any title or subtitle.`
+  Do not include "H1", "H2", "H3" or "H4" in any title or subtitle.
+  Write the article in ${language}.`
 }
 
 function getPromptCategorias(titulo) {
-  return `Clasifica esta frase "${titulo}" en alguna de estas categorías: ${categorias.toString()}. En la respuesta indica solo la categoría, por favor.`
+  return `Classify this phrase "${titulo}" in one of these categories: ${categorias.toString()}. In the response, please indicate only the category. The phrase and the categories are in ${language}`
 }
 
 function getPromptAPOD(texto) {
@@ -110,7 +112,7 @@ async function writeJsonToFile() {
     infoJson.emailContacto = ""
     infoJson.footer = ""
     infoJson.footerLink = ""
-    //TODO: crear las carpetas de las nuevas categorias
+    //TODO: crear las carpetas de las nuevas categorias seo url friendly
     infoJson.navigation = [
       { 
           "name": "Cielo Profundo",
@@ -346,6 +348,12 @@ async function downloadImage(source, url, sufijo, imageName) {
         pathWebp = `./public/img/nasa/${imageName}.webp`
         publicPicture = `https://${dominio}/img/nasa/${imageName}.webp`
       }
+
+      
+      if (sufijo === "5") {
+        path = `./public/img/${imageName}.${extension}`
+        pathWebp = `./public/img/${imageName}.webp`
+      }
       
 
       const response = await axios.get(url, { responseType: 'stream' });
@@ -433,7 +441,7 @@ async function generateDalle3Image(texto, filename) {
       size: "1024x1024", 
     });
 
-  await downloadImage("DALLE", image.data[0].url, "4", slugify(filename, {separator: '-'}))
+  await downloadImage("DALLE", image.data[0].url, "5", slugify(filename, {separator: '-'}))
 }
 
 async function translateTitle(title, language) {
@@ -489,27 +497,25 @@ async function obtenerCategoria() {
     tituloSEO = tituloSEO[0].toUpperCase() + tituloSEO.slice(1);
 
     tituloSEO = await cleanTexto(tituloSEO)
+    console.log('Generando articulo para : '+tituloSEO)
 
     tituloSEOEnglish = await translateTitle(tituloSEO, 'en-GB')
     // console.log(`Creando la magia para: ${tituloSEO}`);
     categoriaSEO = await chatgptMagic(getPromptCategorias(tituloSEO))
     // console.log('Categoria SEO: '+categoriaSEO)
     
-    categoriaSEO = await asignarCategoria(slugify(categoriaSEO, {separator: '-'}))
-    // console.log('Categoria SEO slugify: '+categoriaSEO)
+    categoriaSEO = slugify(categoriaSEO, {separator: '-'})
+    console.log('Categoria SEO slugify: '+categoriaSEO)
     urlSEO = slugify(tituloSEO, {separator: '-'})
-    await obtenerImagen();
+    await generateImage(tituloSEOEnglish);
 
-    if (!categoriaSEO.includes("salud")) {
-        articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`
-        guiaSEO = await chatgptMagic(promptArticulo(tituloSEO), "gpt-4-1106-preview");
-        // guiaSEO = guiaSEO.split(/\r\n|\r|\n/)
-        // guiaSEO = guiaSEO.filter((letter) => letter !== "")
-        
-        // await processContent(guiaSEO)
-        await createArticle()
-        // console.log('Articulo creado correctamente')
-    }
+    articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`
+    // guiaSEO = await chatgptMagic(promptArticulo(tituloSEO), "gpt-4-1106-preview");
+    // guiaSEO = guiaSEO.split(/\r\n|\r|\n/)
+    // guiaSEO = guiaSEO.filter((letter) => letter !== "")
+    
+    // await processContent(guiaSEO)
+    await createArticle()
 
     // Remove the first line
     lines.shift();
@@ -565,10 +571,10 @@ videourl: ${videoPrincipalSEO}
 }
 
 async function addPicture(contenido, caption) {
-  // Input String
-  const searchTerm = "## ";
+ 
   // String to be added
-  let stringToAdd = `::photo-article
+  let stringToAdd = `
+::photo-article
 ---
 title: ${caption}
 imageurl: ${imagenPrincipalSEO}
@@ -576,26 +582,28 @@ imageurl: ${imagenPrincipalSEO}
 ::
 
 `;
-  // Position to add string
-  let indexPosition = contenido.indexOf(searchTerm)
+let newContenido = contenido.replace('Octopus', stringToAdd)
+newContenido = newContenido.replace('octopus', stringToAdd)
+return newContenido
+
+
+  // Input String
+  // const searchTerm = "## ";
+  // // Position to add string
+  // let indexPosition = contenido.indexOf(searchTerm)
   
-  // Using substring method to split string
-  if (imagenPrincipalSEO !== undefined) {
-    const newString = contenido.substring(0, indexPosition)
-          + stringToAdd + contenido.substring(indexPosition)
-    return newString
-  }
-  return contenido
+  // // Using substring method to split string
+  // if (imagenPrincipalSEO !== undefined) {
+  //   const newString = contenido.substring(0, indexPosition)
+  //         + stringToAdd + contenido.substring(indexPosition)
+  //   return newString
+  // }
+  // return contenido
   
 }
 
-async function addDiscover(contenido, imagen, posicion) {
-  let re = new RegExp("##","ig");
-  let spaces = [];
-  let matched = "";
-  while ((matched = re.exec(contenido))) {
-    spaces.push(matched.index);
-  }
+async function addDiscover(contenido, imagen) {
+  
   let stringToAdd = `
 ::photo-discover
 ---
@@ -605,26 +613,48 @@ title: ${tituloSEO}
 ::
 
 `;
-let indexPosition = spaces[posicion]
-const newString = contenido.substring(0, indexPosition)
-+ stringToAdd + contenido.substring(indexPosition)
-return newString
+
+let newContenido = contenido.replace('Frodo', stringToAdd)
+newContenido = newContenido.replace('frodo', stringToAdd)
+return newContenido
+
+// let re = new RegExp("##","ig");
+//   let spaces = [];
+//   let matched = "";
+//   while ((matched = re.exec(contenido))) {
+//     spaces.push(matched.index);
+//   }
+// let indexPosition = spaces[posicion]
+// const newString = contenido.substring(0, indexPosition)
+// + stringToAdd + contenido.substring(indexPosition)
+// return newString
+}
+
+async function addPublicidad(contenido) {
+  let stringToAdd = ``;
+  
+  let newContenido = contenido.replace('Chichi', stringToAdd)
+  newContenido = newContenido.replace('chichi', stringToAdd)
+  return newContenido
 }
 
 async function createArticle() {
   let date = new Date().toUTCString().slice(5, 16);
-  let articulo = await chatgptMagic(promptArticulo(tituloSEOEnglish), 'gpt-4-1106-preview')
+  let articulo = await chatgptMagic(promptArticulo(tituloSEO), 'gpt-4-1106-preview')
   descripcionSEO = await chatgptMagic(promptDescription(), 'gpt-4-1106-preview')
   descripcionSEO = await cleanTexto(descripcionSEO)
 
-  let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
-  cabeceroMarkdown += await getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEO, dominio)
+  let fullUrlArticle = 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEO
+
+  let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${fullUrlArticle}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
+  cabeceroMarkdown += await getMetaData(tituloSEO.replace(/[\n\r]+/g, ''), fullUrlArticle , dominio)
   cabeceroMarkdown += '\n---\n'
   articulo = cabeceroMarkdown + articulo
   articulo = await addDate(articulo)
-  // articulo = limpiarArticulo(articulo)
+  console.log(articulo)
   articulo = await addPicture(articulo, tituloSEO)
-  articulo = await addDiscover(articulo, imagenSecundariaSEO, 3)
+  articulo = await addDiscover(articulo, imagenSecundariaSEO)
+  articulo = await addPublicidad(articulo)
 
   try {
     await fs.writeFile(articuloPathSEO, articulo)
@@ -647,18 +677,6 @@ async function chatgptMagic(contenido, model = 'gpt-4-1106-preview') {
         //     model: 'gpt-4-1106-preview',
       });
   return completion.choices[0].message.content
-}
-
-async function obtenerImagen(){
-  // const baseApiUrl = 'https://www.googleapis.com/youtube/v3';
-  // const url = `${baseApiUrl}/search?key=${youtubeApiKey}&type=video&part=snippet&q=${titulo}`
-  // const response = await axios.get(url)
-  
-
-  // imagenPrincipalSEO = await downloadImage(response.data.items[0].snippet.thumbnails.high.url, "1");
-  // imagenSecundariaSEO = await downloadImage(response.data.items[1].snippet.thumbnails.high.url, "2");
-  // console.log('Generando imagenes...')
-  await generateImage(tituloSEOEnglish);
 }
 
 async function pictureOfTheDay() {
@@ -828,6 +846,11 @@ switch (process.argv[2]) {
     break;
   }
 
+  case 'uno': {
+    await obtenerCategoria();
+    break;
+  }
+
   case 'traduccion': {
     traduccionTotal()
     break;
@@ -835,7 +858,7 @@ switch (process.argv[2]) {
     
   case 'dalle':
     // Generacion imagenes DALLE 3
-    await generateDalle3Image('Astronomy Calendar of Celestial Events', 'colision meteoro')
+    await generateDalle3Image('Polaris star in the middle of the space', 'polarisTwo')
     break;
 
   default:
