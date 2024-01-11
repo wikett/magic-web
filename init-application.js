@@ -157,28 +157,32 @@ async function writeJsonToFile() {
     //TODO: crear las carpetas de las nuevas categorias
     infoJson.navigation = [
       { 
-          "name": "Hogar",
-          "href": "/hogar"
+          "name": "Cielo Profundo",
+          "href": "/cielo-profundo",
+          "description": "",
+          "keywordImage": "nebula",
+          "image": ""
       },
       { 
-          "name": "Ropa",
-          "href": "/ropa"
+          "name": "Constelaciones",
+          "href": "/constelaciones",
+          "description": "",
+          "keywordImage": "Orion constellation",
+          "image": ""
       },
       { 
-          "name": "Tecnología",
-          "href": "/tecnologia"
+          "name": "Sistema Solar",
+          "href": "/sistema-solar",
+          "keywordImage": "Solar system",
+          "description": "",
+          "image": ""
       },
       { 
           "name": "Otros",
-          "href": "/otros"
-      },
-      { 
-          "name": "Quienes somos",
-          "href": "/quienes-somos"
-      },
-      { 
-          "name": "Contacto",
-          "href": "/contacto"
+          "href": "/otros",
+          "description": "",
+          "keywordImage": "Astronomy",
+          "image": ""
       }
   ]
     infoJson.company = [

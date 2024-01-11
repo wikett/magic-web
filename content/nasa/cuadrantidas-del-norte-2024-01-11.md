@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Cuadrántidas del Norte
+description: Imagen astronómica del día jueves, 11 de enero de 2024 por la NASA; Cuadrántidas del Norte
 category: nasa
 published_time: 2024-01-11T06:25:02.323Z
-url: foto-del-dia-de-la-nasa-hoy
+url: cuadrantidas-del-norte-2024-01-11
 created: 11 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/2024_quadrantids_240104_med_bsyeom.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Cuadrántidas del Norte'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Cuadrántidas del Norte'
     - name: 'og:description'
       content: 'Imagen astronómica del día jueves, 11 de enero de 2024 por la NASA; Cuadrántidas del Norte'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2401/2024_quadrantids_240104_med_bsyeom.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/cuadrantidas-del-norte-2024-01-11'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/cuadrantidas-del-norte-2024-01-11'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Cuadrántidas del Norte'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2401/2024_quadrantids_240104_med_bsyeom.jpg'
     - name: 'twitter:description'
@@ -45,21 +45,17 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Cuadrántidas del Norte
 jueves, 11 de enero de 2024
 
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-::photo-article
+#::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - 염범석 Yeom Beom-seok -
+title: Cuadrántidas del Norte, copyright - 염범석 Yeom Beom-seok -
 imageurl: https://apod.nasa.gov/apod/image/2401/2024_quadrantids_240104_med_bsyeom.jpg
 ---
 ::
 
-## Cuadrántidas del Norte
-
-### Lluvia de Meteoros Quadrántidas: Una Exhibición Celestial Anual
+## Lluvia de Meteoros Quadrántidas: Una Exhibición Celestial Anual
 
 La **Lluvia de Meteoros Quadrántidas** es un espectáculo anual que ilumina el cielo del hemisferio norte de nuestro planeta. Su nombre proviene de una constelación ya olvidada, **Quadrans Muralis**, que aunque no se utiliza en la astronomía moderna, aún nos sirve como punto de referencia para localizar este evento celestial.
 

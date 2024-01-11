@@ -9,34 +9,69 @@ import * as deepl from 'deepl-node';
 import sharp from 'sharp';
 import path from 'path';
 
-let guiaSEO = ""
 let tituloSEO = ""
 let tituloSEOEnglish = ""
 let urlSEO = ""
 let categoriaSEO = ""
 let articuloPathSEO = ""
-let seccionesParaPrompt = ""
 let videoPrincipalSEO = ""
 let imagenPrincipalSEO = ""
 let imagenSecundariaSEO = ""
-let imagenDiscoverSEO = ""
-let imagenDiscover = ""
 let descripcionSEO = ""
-let pasosSEO = ""
-const dominio = "caleidoscopioastrale.it"
+const dominio = "blog.astroingeo.org"
 const profesional = 'astronomy' // siempre en ingles
-const autores = 'Elena'
+const autores = 'Enrique'
 const categorias = ['Constelaciones', 'Cielo profundo', 'Telescopios', 'Sistema Solar']
 const currentDate = new Date();
-const youtubeApiKey = process.env.YOUTUBE_API_KEY;
 const nasaApiKey = process.env.NASA;
+const language = 'Spanish'
+const country = 'Spain'
+const categoriaWeb = "Astronomy"
+const expertos = "experto en astronomía"
+const infoQuienesSomos = "explicacion"
+const urlFacebook = "https://cvnet.cpd.ua.es/curriculum-breve/es/aparicio-arias-enrique-jesus/9322"
+const urlInstagram = ""
+const urlX = ""
+const urlLinkedin = "https://www.linkedin.com/in/enrique-aparicio-arias-861040b1/?originalSubdomain=es"
 
-// const client = new TwitterApi({
-//   appKey: process.env.TWITTER_API_KEY,
-//   appSecret: process.env.TWITTER_API_KEY_SECRET,
-//   accessToken: process.env.TWITTER_ACCESS_TOKEN,
-//   accessSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
-// });
+const infoJson = {}
+
+function promptTitle() {
+  // return `Actúa como un experto en Marketing y aficionado a la ${categoriaWeb}. Crea un listado con 6 nombres para una marca que hable sobre ${categoriaWeb}. Dame solo el resultado final.`
+  return `Act like a marketing expert and ${categoriaWeb} buff. Create a list of 10 names for a brand that talks about ${categoriaWeb} in ${language} for the ${country} market. Just give me the final result.`
+}
+
+function promptAuthor() {
+  return `Give me a list of 6 female and 6 male names with surnames typical of ${country}.`
+}
+
+function promptMainTitle() {
+  return `Act like a marketing expert and ${categoriaWeb} buff. Write a short sentence as a catchy title to read my ${categoriaWeb} blog in ${language}`
+}
+
+function promptAuthorsDescription() {
+  return `Act like an ${categoriaWeb} enthusiast. Write a short text in ${language} of about 100 words explaining the new adventure of creating this ${categoriaWeb} blog. Write it in first person. The result should be written in an HTML "p" tag, highlighting the most important parts with bold or italics. `
+}
+
+function promptAuthorsSmallDescription() {
+  return `Act as an ${categoriaWeb} enthusiast. Write a short text in ${language} of about 40 words introducing a person who is motivated to write a blog about ${categoriaWeb}.`
+}
+
+function promptDescription() {
+  return `Act as an SEO expert. Write a meta description in ${language} of no more than 150 characters about ${tituloSEOEnglish}, which is attractive but not Clickbait.`
+}
+
+function promptAmazonDescription() {
+  return `Act like an online marketing expert. Write a short text of no more than 40 words in ${language} that you want to recommend certain ${categoriaWeb} brands you trust.`
+}
+
+function promptCategoryDescription() {
+  return `Act like an ${categoriaWeb} enthusiast. Write a short text of about 50 words in ${language} explaining all the possibilities of writing a blog about ${categoriaWeb}.`
+}
+
+function promptDatosCuriosos() {
+ return `Act like an ${categoriaWeb} buff. Write a list of 3 curiosities about ${categoriaWeb} of about 50 words each in ${language}.`
+}
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_GPT_API
@@ -44,49 +79,193 @@ const openai = new OpenAI({
 
 const translator = new deepl.Translator(process.env.DEEPL_AUTH);
 
-// const twitterClient = client.readWrite;
-
-function promptArticulo(keyword, language) {
-  //return `Actúa como experto en SEO y ${profesional}. Optimiza el SEO y copywriting del artículo que redactarás, considerando la estructura lógica, relaciones semánticas (LSI) y la calidad del contenido.Escribe un artículo de 1500 palabras en español, en formato Markdown, que resuelva la búsqueda de"${tituloSEO}$". Utiliza párrafos cortos y frases claras para mejorar la experiencia del usuario. Incluye palabras clave secundarias relacionadas con ${tituloSEO}. Asegúrate de una estructura lógica, desarrollo enfocado y cierre sin repeticiones ni thin content. Crea un título SEO con H1 de 60 caracteres para "${tituloSEO}" que sea creativo y atractivo. Evita un H2 con "intro" o "introducción". Agrega entre 4 y 10 encabezados H2, subtítulos H3 y listas en Markdown. Resalta las palabras clave o frases importantes en negrita. Utiliza adecuadamente palabras clave y LSI. Finaliza con un párrafo sin H2 de "conclusión" o "resumen", pero ofrece consejos destacando alguna frase en cursiva. Incluye 3 H3 de preguntas frecuentes (FAQ) sobre ${tituloSEO}. Escribe de forma perpleja y explosiva, sin perder el contexto. Evita tituloSEO stuffing superior al 2% y repeticiones de frases. Mantén el salience score entre 0.80 y 1. Utiliza negritas en Markdown para palabras clave y frases relevantes, sin repetir frases iguales. Utiliza listas con formato Markdown, know-how, y un paso a paso. Evita contenido innecesario o basura. Enfacita el texto con negritas, cursiva o listas.`
-  return `Act as a SEO expert and ${profesional}. Optimize the SEO and copywriting of the article you will write, considering the logical structure, semantic relationships (LSI) and the quality of the content.Write an article of 1500 words in ${language}, in Markdown format, that solves the search for "${keyword}$". Use short paragraphs and clear sentences to enhance the user experience. Include secondary keywords related to ${keyword}. Ensure a logical structure, focused development and closing without repetition or thin content. Create a 60-character H1 SEO title for "${keyword}" that is creative and engaging. Avoid an H2 with "intro" or "introduction". Add 4-10 H2 headings, H3 subheadings and lists in Markdown. Highlight keywords or important phrases in bold. Use keywords and LSI appropriately. End with a paragraph without a "conclusion" or "summary" H2, but offer advice by highlighting a sentence in italics. Include 3 H3 frequently asked questions (FAQ) about ${keyword}. Write in a perplexing and explosive way, without losing context. Avoid "${keyword}" stuffing higher than 2% and repetition of phrases. Keep the salience score between 0.80 and 1. Use bold Markdown for keywords and relevant phrases, without repeating the same phrases. Use lists with Markdown format, know-how, and a step-by-step (if it is needed). Avoid unnecessary or junk content. Emphasize text with bold, italics or lists.`
-}
-
-
-function promptDescription(keyword, language) {
-  return `Act as an SEO expert. Optimize the copywriting of a meta description for a blog article with a maximum of 150 characters about ${keyword} in ${language}.`
-}
-
-function getPromptGuia(titulo) {
-  // return `Create an outline for an article that will be 2,000 words on the keyword "${titulo}" based on the top 10 results from Google in Spanish.Include every relevant heading possible. Keep the keyword density of the headings high.For each section of the outline, include the word count.Include FAQs section in the outline too, based on people also ask section from Google for the keyword.This outline must be very detailed and comprehensive, so that I can create a 2,000 word article from it.Generate a long list of LSI and NLP keywords related to my keyword. Also include any other words related to the keyword.Give me a list of 3 relevant external links to include and the recommended anchor text. Make sure they're not competing articles.`
-  return `Crea un guión en español para un artículo sobre las 2000 palabras para la palabra clave "${titulo}" basado en el top 10 resultados de Google de España. Incluye cada título relevante posible. Mantén la densidad de la palbra clave alta.Añade un titulo ClickBait para la palabra clave. Para cada sección del guión, incluye el total de palabras y este listado debe comenzar por la palabra "Sección". Incluye también una sección de Preguntas Frecuentes, basado en lo que las personas preguntan en Google para esta palabra clave. Este guión debe estar muy detallado y completo, del cual pueda crear un artículo de 2000 palabras aproximadamente. Estate seguro que lo los articulos no compiten entre sí`
-}
-
-function getPromptTitulo(titulo, palabras=200) {
-  //return `Write an article around ${palabras} words about '${titulo}', like a guy who knows 80% English, use very easy-to-understand English words, and give them nuance. Write this article in Spanish. Do not use normal AI words. Could you use markdown and emphasize some parts of the text?`
-  return `Escribe un artículo en español sobre "${titulo}" que tenga un total de ${palabras} aproximadamente, como una persona que sabe el 80% de español, utilizando palabras muy sencillas de entender y dándoles matices. No uses palabras normales de Inteligencia Artificial. ¿Podrías utilizar markdown y resaltar algunas partes del texto?`
+function promptArticulo(keyword) {
+  return `Act as an SEO expert and ${profesional}. Optimize the SEO and copywriting of the article you will write, considering the logical structure, semantic relationships (LSI) and the quality of the content. Write an article of 1500 words in ${language} in Markdown format, that solves the search for "${keyword}$". Use short paragraphs and clear sentences to enhance the user experience. Include secondary keywords related to ${keyword}$. Ensure a logical structure, focused development and closing without repetition or thin content. Create a 60-character H1 SEO title for "${keyword}$" that is creative and engaging. Avoid an H2 with "intro" or "introduction". Add 4-10 H2 headings, H3 subheadings and lists in Markdown. Highlight keywords or important phrases in bold. Use keywords and LSI appropriately. End with a paragraph without a "conclusion" or "summary" H2, but offer advice by highlighting a sentence in italics. Include 3 H3 frequently asked questions (FAQ) about ${keyword}$. Write in a perplexing and explosive way, without losing context. Avoid "${keyword}$" stuffing higher than 2% and repetition of phrases. Keep the salience score between 0.80 and 1. Use bold Markdown for keywords and relevant phrases, without repeating the same phrases. Use lists with Markdown format, know-how, and a step-by-step (if it is needed). Avoid unnecessary or junk content. Emphasize text with bold, italics or lists.
+  Write the word "octopus" before the first h2 (use plain format).
+  Write the word "frodo" before the fourth h2 (use plain format).
+  Write the word "chichi" before the seventh h2 if exists (use plain format).
+  Do not include "h1", "h2", "h3" or "h4" in any title or subtitle.
+  Do not include "H1", "H2", "H3" or "H4" in any title or subtitle.`
 }
 
 function getPromptCategorias(titulo) {
   return `Clasifica esta frase "${titulo}" en alguna de estas categorías: ${categorias.toString()}. En la respuesta indica solo la categoría, por favor.`
 }
 
-// function getPromptArticulo(language) {
-//   console.log('generando articulo para: '+tituloSEO)
-//   // return `Write an article in ${language} about "${tituloSEO} around 2000 words, `
-//   return `Write an article of around 2000 words about '${tituloSEO}', use very easy-to-understand words, and give them nuance. Write this article in ${language}. Do not use normal AI words. Use Markdown and emphasize some parts of the text (you can use bold, italic, lists or tables) and use h2 for the sections. Include an attractive title referring to the keyword but without being ClickBait at the beginning of the article.` 
-//   // return `Por favor,  escribe un artículo en español sobre "${tituloSEO}" de unas 2000 palabras, como una persona que sabe el 80% de español, utilizando palabras muy sencillas de entender y dándoles matices, que contenga las siguientes secciones:\n${seccionesParaPrompt}. El resultado redáctalo en Markdown, resaltando algunas partes del texto y utiliza cada sección como h2. No uses palabras normales de Inteligencia Artificial. Manten una densidad alta de la palabra clave. Incluye un título atractivo referente a la palabra clave pero sin ser ClickBait al principio del artículo.`
-// }
-
-function getPromptPasosMasLinks() {
-  return `Dime los pasos de '${tituloSEO}' y haz un lista de los productos que necesito comprar para poderlo hacer. El resultado redáctalo en Markdown, crea la lista en formato Markdown, resaltando algunas partes del texto y que solo aparezcan h2 y h3 como títulos (ningún h1)`
-}
-
-function getPromptAnecdotaPersonal() {
-  return `Escribe una anecdota personal de '${tituloSEO}'. Escríbela en primera persona del plural en femenino. El resultado redáctalo en Markdown, resaltando algunas partes del texto, sin que contenga h1. No uses palabras normales de Inteligencia Artificial.`
-}
-
 function getPromptAPOD(texto) {
-  return `Act as a astronomer. Following this text "${texto}", write a short explanation and add more interested data. Write this article in Spanish. Do not use normal AI words. Use markdown and emphasize some parts of the text. Do not use h1 and h2`
+  return `Act as a astronomer. Following this text "${texto}", write a short explanation and add more interested data. Write this article in ${language}. Do not use normal AI words. Use markdown and emphasize some parts of the text. Do not use h1 and h2`
+}
+
+async function writeJsonToFile() {
+  try {
+    infoJson.title = await chatgptMagic(promptTitle())
+    infoJson.author = await chatgptMagic(promptAuthor())
+    infoJson.mainTitle = await chatgptMagic(promptMainTitle())
+    infoJson.authorsDescription = await chatgptMagic(promptAuthorsDescription())
+    infoJson.authorsSmallDescription = await chatgptMagic(promptAuthorsSmallDescription())
+    infoJson.description = await chatgptMagic(promptDescription())
+    // TODO: actualizar nuxt.conifg con el nuevo dominio
+    infoJson.domain = ""    
+    infoJson.websiteName = ""
+    infoJson.emailContacto = ""
+    infoJson.footer = ""
+    infoJson.footerLink = ""
+    //TODO: crear las carpetas de las nuevas categorias
+    infoJson.navigation = [
+      { 
+          "name": "Cielo Profundo",
+          "href": "/cielo-profundo",
+          "description": "",
+          "keywordImage": "nebula",
+          "image": ""
+      },
+      { 
+          "name": "Constelaciones",
+          "href": "/constelaciones",
+          "description": "",
+          "keywordImage": "Orion constellation",
+          "image": ""
+      },
+      { 
+          "name": "Sistema Solar",
+          "href": "/sistema-solar",
+          "keywordImage": "Solar system",
+          "description": "",
+          "image": ""
+      },
+      { 
+          "name": "Otros",
+          "href": "/otros",
+          "description": "",
+          "keywordImage": "Astronomy",
+          "image": ""
+      }
+  ]
+    infoJson.company = [
+      { "name": "Quienes somos", "href": "/quienes-somos" },
+      { "name": "Contacto", "href": "/contacto" }
+    ]
+    infoJson.legal = [
+      { "name": "Aviso legal", "href": "/aviso-legal" },
+      { "name": "Política de cookies", "href": "/politica-de-cookies" },
+      { "name": "Política de privacidad", "href": "/politica-de-privacidad" }
+  ]
+    infoJson.facebookUrl = ""
+    infoJson.instagramUrl = ""
+    infoJson.xUrl = ""
+    infoJson.amazonDescription = await chatgptMagic(promptAmazonDescription())
+    infoJson.amazon = [
+      {
+          "image": "/img/amazon-basics.webp",
+          "url": "https://amzn.to/40Ggm4S",
+          "title": "Amazon basics"
+      },
+      {
+          "image": "/img/vanish.webp",
+          "url": "https://amzn.to/3MI7uWC",
+          "title": "Vanish"
+      },
+      {
+          "image": "/img/fairy.webp",
+          "url": "https://amzn.to/3syLiHw",
+          "title": "Fairy"
+      },
+      {
+          "image": "/img/frosch.webp",
+          "url": "https://amzn.to/47f4oS3",
+          "title": "Frosch"
+      },
+      {
+          "image": "/img/sanytol.webp",
+          "url": "https://amzn.to/3SHw79z",
+          "title": "Sanytol"
+      }
+  ],
+    infoJson.category = categoriaWeb
+    infoJson.categoryDescription = await chatgptMagic(promptCategoryDescription())
+    infoJson.categoryImages = [
+      {
+          "image": "/img/productos-de-limpieza.png",
+          "title": "productos de limpieza para casa"
+      },
+      {
+          "image": "/img/como-limpiar-la-lavadora.png",
+          "title": "productos de limpieza"
+      },
+      {
+          "image": "/img/como-limpiar-la-plata.png",
+          "title": "como limpiar plata"
+      },
+      {
+          "image": "/img/como-limpiar-zapatillas-blancas.png",
+          "title": "como limpiar zapatillas blancas"
+      }
+      
+  ]
+    infoJson.tiendaAmiga = [
+      {
+          "description": "Siempre nos gusta colaborar con aquella tienda de cercanía, que tiene buen trato y unos productos excelentes. La Droguería de percon es nuestra opción.",
+          "link": "https://www.awin1.com/cread.php?awinmid=63006&awinaffid=848509&ued=https%3A%2F%2Fladrogueria.com%2F",
+          "alt": "La droguería de percon",
+          "image": "/img/la-drogueria-de-percon.webp"
+      }
+  ]
+    infoJson.datosCuriososParaBorrar = await chatgptMagic(promptDatosCuriosos())
+    infoJson.datosCuriosos = [
+      {
+          "title": "📺",
+          "description": "Los mandos a distancia son uno de los objetos más sucios de una casa. No suelen limpiarse a menudo, por no hablar de que todo el mundo los toca, ¡y a veces incluso con las manos sucias!",
+          "color": "bg-orange-900"
+      },
+      {
+          "title": "250 calorías",
+          "description": "La limpieza no solamente ayuda a mejorar el aspecto de nuestro hogar, ¡también quema calorías! ¿Sabías que puedes quemar hasta 100 calorías por hora con una limpieza ligera y hasta 250 con una limpieza más intensiva?",
+          "color": "bg-orange-900"
+      },
+      {
+          "title": "200,000",
+          "description": "Las bayetas de cocina pueden contener unas 200,000 bacterias. Eso es unas 200 veces más que una taza de baño. Por eso es importante lavarlas con regularidad.",
+          "color": "bg-orange-900"
+      }
+  ]
+  infoJson.traducciones = [
+    {
+      "texto": "Artículos relacionados"
+    },
+    {
+      "texto": "Nuestra tienda de confianza"
+    },
+    {
+      "texto": "Aquí algunas curiosidades sobre:"
+    },
+    {
+      "texto": "Aquí hay algunos datos divertidos para comenzar"
+    },
+    {
+      "texto": "Otros artículos"
+    },
+    {
+      "texto": "Nosotros"
+    },
+    {
+      "texto": "Legal"
+    },
+    {
+      "texto": "Todos los derechos reservados"
+    },
+    {
+      "texto": "Ver los productos"
+    }
+  ]
+
+
+    const jsonString = JSON.stringify(infoJson, null, 2);
+
+    await fs.writeFile('./content/info.json', jsonString);
+    console.log('JSON has been written to the file successfully.');
+  } catch (err) {
+    console.error('An error occurred while writing the JSON to a file:', err);
+  }
 }
 
 async function tweetAricle() {
@@ -349,6 +528,7 @@ async function cleanTexto(texto) {
   let description = texto.replaceAll(':', ';')
   description = description.replaceAll('"','')
   description = description.replaceAll("'","")
+  description = description.replaceAll("\n","")
   return description
 }
 
@@ -433,8 +613,8 @@ return newString
 
 async function createArticle() {
   let date = new Date().toUTCString().slice(5, 16);
-  let articulo = await chatgptMagic(promptArticulo(tituloSEOEnglish, 'Italian'), 'gpt-4-1106-preview')
-  descripcionSEO = await chatgptMagic(promptDescription(tituloSEOEnglish, 'Italian'), 'gpt-4-1106-preview')
+  let articulo = await chatgptMagic(promptArticulo(tituloSEOEnglish), 'gpt-4-1106-preview')
+  descripcionSEO = await chatgptMagic(promptDescription(), 'gpt-4-1106-preview')
   descripcionSEO = await cleanTexto(descripcionSEO)
 
   let cabeceroMarkdown = `---\ntitle: ${tituloSEO}\ndescription: ${descripcionSEO}\ncategory: ${categoriaSEO}\npublished_time: ${currentDate.toISOString()}\nurl: ${urlSEO}\ncreated: ${date}\nimageUrl: ${imagenPrincipalSEO}\n`
@@ -531,7 +711,7 @@ async function pictureOfTheDay() {
   cabeceroMarkdownpod += await getMetaData(tituloTraducidopod.replace(/[\n\r]+/g, ''), 'https://'+dominio+'/'+categoriaSEO+'/'+urlSEOpod, dominio)
   cabeceroMarkdownpod += '\n---\n'
 
-  const autor = data.copyright;
+  const autor = cleanTexto(data.copyright);
 
   articulo = cabeceroMarkdown + articuloFinal
   articulo = await addDate(articulo)
@@ -631,6 +811,10 @@ async function traduccionTotal() {
 }
 
 switch (process.argv[2]) {
+  case 'init':
+    await writeJsonToFile()
+    break;
+
   case 'nasa':
     console.log('Calculando apod de la NASA')
     await pictureOfTheDay()
