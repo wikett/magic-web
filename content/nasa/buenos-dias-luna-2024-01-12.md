@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Buenos días Luna
+description: Imagen astronómica del día viernes, 12 de enero de 2024 por la NASA; Buenos días Luna
 category: nasa
 published_time: 2024-01-12T08:20:15.346Z
-url: foto-del-dia-de-la-nasa-hoy
+url: buenos-dias-luna-2024-01-12
 created: 12 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/HimmlichesDreieckSaarburg_TWAN_mercurybildweb.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Buenos días Luna'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Buenos días Luna'
     - name: 'og:description'
       content: 'Imagen astronómica del día viernes, 12 de enero de 2024 por la NASA; Buenos días Luna'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2401/HimmlichesDreieckSaarburg_TWAN_mercurybildweb.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/buenos-dias-luna-2024-01-12'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/buenos-dias-luna-2024-01-12'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Buenos días Luna'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2401/HimmlichesDreieckSaarburg_TWAN_mercurybildweb.jpg'
     - name: 'twitter:description'
@@ -45,12 +45,8 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Buenos días Luna
 viernes, 12 de enero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Buenos días Luna
 
 ### La Danza Celestial de la Luna y los Planetas
 
