@@ -51,7 +51,7 @@ viernes, 12 de enero de 2024
 
 ::photo-article
 ---
-title: Buenos días Luna, copyright - [object Promise] -
+title: Buenos días Luna, copyright - Michael Luy -
 imageurl: https://apod.nasa.gov/apod/image/2401/HimmlichesDreieckSaarburg_TWAN_mercurybildweb.jpg
 ---
 ::

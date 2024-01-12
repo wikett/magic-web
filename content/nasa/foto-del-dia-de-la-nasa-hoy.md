@@ -55,7 +55,7 @@ En esta página lo que queremos es acercar la astronomía a los hispanohablantes
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - [object Promise] -
+title: Foto astronómica del día por la NASA, copyright - Michael Luy -
 imageurl: https://apod.nasa.gov/apod/image/2401/HimmlichesDreieckSaarburg_TWAN_mercurybildweb.jpg
 ---
 ::
