@@ -20,8 +20,8 @@
               <div class="mt-10 md:mt-0">
                 <h3 class="text-sm font-semibold leading-6 text-white">{{ data.traducciones[4].texto  }}</h3>
                 <ul role="list" class="list-none ml-0 mt-6 space-y-4">
-                  <li v-for="item in articles.data._rawValue" :key="item.title">
-                    <a :href="item._path" class="text-sm leading-6 text-gray-300 hover:text-white">{{ item.title }}</a>
+                  <li>
+                    <a href="/otros" class="text-sm leading-6 text-gray-300 hover:text-white">Otros</a>
                   </li>
                 </ul>
               </div>

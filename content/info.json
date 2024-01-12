@@ -20,16 +20,16 @@
       "href": "/sistema-solar"
     },
     {
+      "name": "Catálogo Messier",
+      "href": "/catalogo-messier"
+    },
+    {
       "name": "Telescopios",
       "href": "/telescopios"
     },
     {
       "name": "Cielo Profundo",
       "href": "/cielo-profundo"
-    },
-    {
-      "name": "Otros",
-      "href": "/otros"
     },
     {
       "name": "APOD",
@@ -149,7 +149,7 @@
       "texto": "Aquí hay algunos datos divertidos para comenzar"
     },
     {
-      "texto": "Otros artículos"
+      "texto": "Más categorías"
     },
     {
       "texto": "Nosotros"
