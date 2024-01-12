@@ -631,7 +631,13 @@ return newContenido
 }
 
 async function addPublicidad(contenido) {
-  let stringToAdd = ``;
+  let stringToAdd = `
+  ::publi-block
+  ---
+  ---
+  ::
+  
+  `;
   
   let newContenido = contenido.replace('Chichi', stringToAdd)
   newContenido = newContenido.replace('chichi', stringToAdd)
