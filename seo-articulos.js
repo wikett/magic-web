@@ -95,7 +95,7 @@ function getPromptCategorias(titulo) {
 }
 
 function getPromptAPOD(texto) {
-  return `Act as a astronomer. Following this text "${texto}", write a short explanation and add more interested data. Write this article in ${language}. Do not use normal AI words. Use markdown and emphasize some parts of the text. Do not use h1 and h2`
+  return `Act as a astronomer. Following this text "${texto}", write a short explanation and add more interested data. Write this article in ${language}. Do not use normal AI words. Use markdown and emphasize some parts of the text. Do not use h1 and h2. Write the word "octopus" before the text (use plain format).`
 }
 
 async function writeJsonToFile() {
@@ -688,8 +688,7 @@ async function pictureOfTheDay() {
   let date = new Date().toUTCString().slice(5, 16);
   let localDate = new Date()
   const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-    
-  console.log(localDate.toLocaleDateString('es-ES', options));
+
 
   let articulo = await translateTitle(data.explanation, 'ES')
   console.log('articulo: '+articulo)

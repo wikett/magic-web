@@ -2,7 +2,7 @@
 title: Foto astronómica del día por la NASA
 description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
 category: nasa
-published_time: 2024-01-12T08:20:15.346Z
+published_time: 2024-01-12T08:32:36.262Z
 url: foto-del-dia-de-la-nasa-hoy
 created: 12 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/HimmlichesDreieckSaarburg_TWAN_mercurybildweb.jpg
@@ -19,9 +19,9 @@ head:
     - name: 'og:type'
       content: 'article'
     - name: 'article:published_time'
-      content: '2024-01-12T08:20:15.346Z'
+      content: '2024-01-12T08:32:36.262Z'
     - name: 'article:modified_time'
-      content: '2024-01-12T08:20:15.346Z'
+      content: '2024-01-12T08:32:36.262Z'
     - name: 'article:section'
       content: 'nasa'
     - name: 'article:author'
@@ -52,22 +52,26 @@ Cada día se presenta una imagen o fotografía diferente de nuestro fascinante u
 En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
 ## Buenos días Luna
 
-### La Danza Celestial de la Luna y los Planetas
 
-Ayer, **la Luna se encontraba en su fase Nueva**, invisible para nuestros ojos terrestres. Sin embargo, el **9 de enero**, los aficionados a la astronomía que se aventuraron a levantarse temprano, fueron recompensados con un espectáculo celeste singular. Justo antes del amanecer, cuando el cielo comenzaba a teñirse de claridad, podía apreciarse la fina silueta de la Luna en su fase menguante, un leve arco luminoso en el horizonte este.
+::photo-article
+---
+title: Foto astronómica del día por la NASA, copyright - [object Promise] -
+imageurl: https://apod.nasa.gov/apod/image/2401/HimmlichesDreieckSaarburg_TWAN_mercurybildweb.jpg
+---
+::
 
-Desde la pintoresca ciudad de **Saarburg**, en **Rineland-Palatinado**, oeste de Alemania, se captó la imagen que ahora nos ocupa. La lente de la cámara logró atrapar el cuenco de luz de la Luna vieja, que parecía sonreír tenuemente en los últimos momentos antes de que el Sol hiciera su entrada triunfal.
 
-Asombrosamente, el espectáculo matutino no terminó ahí. Siempre cercanos al astro rey y difíciles de atrapar visualmente, los planetas interiores **Venus y Mercurio** también se unieron a la vista celeste. Estos vecinos espaciales, debido a su proximidad con el Sol y su brillo, suelen ser de los más luminosos y fascinantes a observar.
 
-La escena no solo capturaba bellezas celestes, sino también terrestres. En el primer plano se alzaban orgullosos la torre histórica y el castillo con ruinas que datan del **siglo X**, testigos mudos del paso del tiempo y la historia de nuestro planeta.
+En el fascinante mundo de la astronomía, los movimientos celestes ofrecen un espectáculo sin igual a aquellos dispuestos a observar. Ayer, nuestra Luna se encontraba en la fase de **Luna Nueva**, un momento en el cual se sitúa entre la Tierra y el Sol, ocultando su cara iluminada a nuestros ojos. Sin embargo, el pasado **9 de enero**, los madrugadores de la Tierra tuvieron el privilegio de ser testigos de la **presencia de una Luna Vieja**, esta se alzaba baja en el este, delineada por un delgado creciente iluminado por los primeros rayos del amanecer.
 
-Además, este fenómeno ofrece datos interesantes para los aficionados a la observación celeste:
+Desde **Saarburg en Renania-Palatinado, en el oeste de Alemania**, una sencilla toma pudo capturar el resplandor de nuestro satélite natural en sus últimos trazos de luz antes de la salida del Sol. Pero la Luna no era la única protagonista en aquel panorama matutino: los **planetas interiores**, **Venus y Mercurio**, se dejaban ver cerca de la eclíptica, compartiendo la vista fría del cielo al amanecer. Estos planetas siempre aparecen cerca del Sol debido a sus órbitas internas en relación a la Tierra.
 
-- La **Luna menguante** se alinea con el Sol y los planetas interiores en lo que se conoce como una conjunción, es decir, un alineamiento o acercamiento aparente entre dos o más astros desde nuestra perspectiva terrestre.
-- **Venus**, conocido como el Lucifer del amanecer, es el objeto más brillante en el cielo nocturno después de la Luna.
-- **Mercurio**, siendo el planeta más cercano al Sol, suele ser opacado por el brillo solar, pero durante ciertas épocas del año, como ahora, se hace visible justo antes del amanecer o después del atardecer.
+El encanto de la fotografía se veía realzado por la histórica torre y el castillo con ruinas del **siglo X** que descansaban en el primer plano. Saarburg, con su rica herencia, proporcionó un contraste sublime entre la antigüedad terrenal y la eternidad cósmica.
 
-En resumen, lo que se presenció aquel 9 de enero fue un hermoso recordatorio de la danza constante y sincronizada que nos ofrece nuestro sistema solar, una danza que ha estado en curso desde hace miles de millones de años y que, con suerte, seguirá deslumbrando a las futuras generaciones de amantes del cielo y las estrellas.
+Para los entusiastas de la astronomía que se perdieron este encantador evento, es importante destacar que el ciclo lunar es **de aproximadamente 29.5 días**, y cada fase ofrece una oportunidad única de observación. La **Luna Vieja**, como la presenciada el 9 de enero, se presenta justo antes de la transición a la **nueva fase lunar** – un recordatorio de la constante danza entre los cuerpos celestes.
+
+Venus y Mercurio, por su parte, ofrecen otro espectáculo, visible en ciertos periodos del año, generalmente durante el amanecer o el atardecer debido a su proximidad con el Sol. Mercurio, siendo el más cercano al astro rey, es más difícil de avistar y sus apariciones son breves pero notables para los observadores atentos.
+
+El entendimiento de estos patrones celestes no sólo enriquece nuestra percepción del universo, sino que también ofrece una ventana a la historia de la observación astronómica, que desde tiempos antiguos ha marcado el desarrollo científico y cultural de la humanidad.
 
 _Artículo actualizado el viernes, 12 de enero de 2024_
