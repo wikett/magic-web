@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Alrededor del Sol
+description: Imagen astronómica del día sábado, 13 de enero de 2024 por la NASA; Alrededor del Sol
 category: nasa
 published_time: 2024-01-13T06:12:12.574Z
-url: foto-del-dia-de-la-nasa-hoy
+url: alrededor-del-sol-2024-01-13
 created: 13 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/22halo_Zboran.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Alrededor del Sol'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Alrededor del Sol'
     - name: 'og:description'
       content: 'Imagen astronómica del día sábado, 13 de enero de 2024 por la NASA; Alrededor del Sol'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2401/22halo_Zboran.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/alrededor-del-sol-2024-01-13'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/alrededor-del-sol-2024-01-13'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Alrededor del Sol'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2401/22halo_Zboran.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Alrededor del Sol
 sábado, 13 de enero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Alrededor del Sol
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Radoslav Zboran -
+title: Alrededor del Sol, copyright - Radoslav Zboran -
 imageurl: https://apod.nasa.gov/apod/image/2401/22halo_Zboran.jpg
 ---
 ::
