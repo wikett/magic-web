@@ -47,7 +47,7 @@ head:
 ---
 # Mirando al Cielo: Un Viaje por la Historia de la Astronomía en la Antigüedad
 
-La astronomía, el estudio de los cuerpos celestes y el universo, es una de las ciencias más antiguas desarrolladas por la humanidad. Desde tiempos remotos, los seres humanos han mirado hacia el firmamento con curiosidad y asombro, tratando de entender los misterios que esconde el cielo nocturno. A lo largo de los siglos, la astronomía ha estado íntimamente ligada a culturas y civilizaciones enteras, y ha desempeñado un papel crucial en la evolución de nuestro entendimiento del espacio que nos rodea.
+La astronomía, el estudio de los cuerpos celestes y el universo, es una de las ciencias **más antiguas desarrolladas por la humanidad**. Desde tiempos remotos, los seres humanos han mirado hacia el firmamento con curiosidad y asombro, tratando de entender los misterios que esconde el cielo nocturno. A lo largo de los siglos, la astronomía ha estado íntimamente ligada a culturas y civilizaciones enteras, y ha desempeñado un papel crucial en la evolución de nuestro entendimiento del espacio que nos rodea.
 
 ::photo-article
 ---
@@ -58,7 +58,7 @@ imageurl: https://blog.astroingeo.org/img/content/historia-de-la-astronomia-en-l
 
 ## Inicios de la Astronomía
 
-Los registros más tempranos de observaciones astronómicas datan desde antes de la escritura. Los pueblos primitivos usaban los patrones de las estrellas y los planetas para la navegación y para mantener un calendario. Construyeron monumentos megalíticos, como Stonehenge en Inglaterra y las líneas de Nazca en Perú, que algunos sugieren tenían propósitos astronómicos.
+Los registros más tempranos de observaciones astronómicas datan desde antes de la escritura. Los pueblos primitivos usaban los patrones de las estrellas y los planetas para la navegación y para mantener un calendario. Construyeron monumentos megalíticos, como [Stonehenge](https://blog.astroingeo.org/constelaciones/mito-de-las-construcciones-megaliticas-y-la-astronomia) en Inglaterra y las líneas de Nazca en Perú, que algunos sugieren tenían propósitos astronómicos.
 
 En Mesopotamia, los sumerios, babilonios y asirios hicieron contribuciones significativas a la astronomía antigua. Ellos fueron los primeros en llevar registros escritos de los movimientos celestiales. Los cálculos y modelos que desarrollaron fueron bastante avanzados para su tiempo, incluso algunos astrónomos de la antigüedad podían predecir eclipses.
 
@@ -66,7 +66,7 @@ En Mesopotamia, los sumerios, babilonios y asirios hicieron contribuciones signi
 
 ### Egipto Antiguo
 
-En el antiguo Egipto, la astronomía estaba ligada al orden divino y al calendario. Los egipcios se guiaban mucho por las estrellas para su agricultura y para determinar el flujo del río Nilo. La estrella Sirio, que llamaban Sothis, era especialmente importante porque su aparición helíaca coincidía con la temporada de inundaciones del Nilo.
+[En el antiguo Egipto](https://blog.astroingeo.org/constelaciones/astronomia-en-el-antiguo-egipto-como-afecto-su-civilizacion), la astronomía estaba ligada al orden divino y al calendario. Los egipcios se guiaban mucho por las estrellas para su agricultura y para determinar el flujo del río Nilo. La estrella Sirio, que llamaban Sothis, era especialmente importante porque su aparición helíaca coincidía con la temporada de inundaciones del Nilo.
 
 
 ::photo-discover
@@ -78,11 +78,11 @@ title: Historia de la astronomía en la antigüedad
 
 ### Civilizaciones de América Precolombina
 
-Los mayas, aztecas e incas estudiaban los cielos con gran precisión. Los mayas, en particular, tenían un calendario muy preciso. Realizaban observaciones detalladas de Venus, el Sol, la Luna y otros fenómenos celestes, y los registraban en códices. Su ciudad de Chichén Itzá contiene estructuras que se alinean con los eventos astronómicos.
+Los mayas, aztecas e incas estudiaban los cielos con gran precisión. Los mayas, en particular, tenían un calendario muy preciso. Realizaban observaciones detalladas de Venus, el Sol, la Luna y otros fenómenos celestes, y los registraban en códices. Su ciudad de Chichén Itzá contiene estructuras que se alinean con [los eventos astronómicos](https://blog.astroingeo.org/sistema-solar/el-calendario-maya-y-su-base-astronomica).
 
 ### Grecia Antigua
 
-La Grecia antigua es conocida por su floreciente filosofía y ciencia. Astrónomos como Aristarco de Samos, que propuso el primer modelo heliocéntrico, y Ptolomeo, con su modelo geocéntrico, tuvieron una influencia tremenda en la astronomía posterior. Aunque no todas sus ideas eran correctas, sentaron las bases para el pensamiento científico y el método observacional.
+[La Grecia antigua](https://blog.astroingeo.org/constelaciones/constelaciones-de-la-antigua-grecia) es conocida por su floreciente filosofía y ciencia. Astrónomos como Aristarco de Samos, que propuso el primer modelo heliocéntrico, y Ptolomeo, con su modelo geocéntrico, tuvieron una influencia tremenda en la astronomía posterior. Aunque no todas sus ideas eran correctas, sentaron las bases para el pensamiento científico y el método observacional.
 
 ## Instrumentos Astronómicos Antiguos
 
@@ -94,11 +94,11 @@ La astronomía antigua no solo consistía en mirar las estrellas a simple vista.
 
 ## Matemáticas y Astronomía
 
-Las matemáticas jugaron un papel crucial en el desarrollo de la astronomía. Con ellas, los antiguos astrónomos podían hacer cálculos más exactos sobre los movimientos de los cuerpos celestes. En Babilonia, las tablillas cuneiformes registraban cálculos complejos que predecían la posición de los planetas. También, los griegos mejoraron la geometría que era fundamental para la comprensión de los cielos.
+Las matemáticas jugaron un papel crucial en el desarrollo de la astronomía. Con ellas, los antiguos astrónomos podían hacer cálculos más exactos sobre los movimientos de los cuerpos celestes. En Babilonia, las tablillas cuneiformes registraban cálculos complejos que predecían la posición de los planetas. También, los griegos mejoraron **la geometría** que era fundamental para la comprensión de los cielos.
 
 ## Impacto Cultural de la Astronomía
 
-La influencia de la astronomía en la antigüedad fue mucho más allá de la mera observación del cielo; impactó en la religión, la filosofía y las artes. Las constelaciones fueron nombradas y dotadas de mitos y leyendas. El zodiaco, un elemento esencial de la astrología, también fue producto de estas antiguas prácticas astronómicas. Las alineaciones celestes determinaban las festividades y rituales que eran centrales en varias culturas.
+La influencia de la astronomía en la antigüedad fue mucho más allá de la mera observación del cielo; impactó en la religión, la filosofía y las artes. Las constelaciones fueron nombradas y dotadas de mitos y leyendas. El zodiaco, un elemento esencial de la astrología, también fue producto de estas antiguas **prácticas astronómicas**. Las alineaciones celestes determinaban las festividades y rituales que eran centrales en varias culturas.
 
 ## Astronomía y Exploración
 
@@ -106,7 +106,7 @@ La capacidad para navegar usando las estrellas fue otro regalo de la astronomía
 
 ## Legado de la Astronomía Antigua
 
-La astronomía de la antigüedad dejó un legado duradero que influenció las generaciones futuras. Las innovaciones y descubrimientos que se realizaron en aquellos tiempos fueron esenciales para el desarrollo de esta ciencia en el mundo moderno.
+[La astronomía de la antigüedad](https://blog.astroingeo.org/constelaciones/estudio-del-espacio-en-la-antigueedad) dejó un legado duradero que influenció las generaciones futuras. Las innovaciones y descubrimientos que se realizaron en aquellos tiempos fueron esenciales para el desarrollo de esta ciencia en el mundo moderno.
 
 Nuestro entendimiento contemporáneo del universo se basa en las observaciones y teorías de los antiguos astrónomos que, con recursos limitados, lograron descifrar patrones y eventos cósmicos. Ellos fueron los pioneros de una tradición de exploración y descubrimiento que continúa hasta el día de hoy.
 

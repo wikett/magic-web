@@ -47,7 +47,7 @@ head:
 ---
 # Misterios del cosmos: Las órbitas planetarias y su danza en el universo
 
-Las órbitas planetarias son rutas invisibles que planetas recorren alrededor de una estrella, como la Tierra alrededor del Sol. Es un baile celestial que sigue patrones precisos, gobernados por fuerzas que la física ha podido descubrir pero que aún nos guardan secretos asombrosos.
+Las órbitas planetarias son **rutas invisibles** que planetas recorren alrededor de una estrella, como la Tierra alrededor del [Sol](https://blog.astroingeo.org/sistema-solar/sol). Es un baile celestial que sigue patrones precisos, gobernados por fuerzas que la física ha podido descubrir pero que aún nos guardan secretos asombrosos.
 
 ::photo-article
 ---
@@ -58,7 +58,7 @@ imageurl: https://blog.astroingeo.org/img/content/orbitas-planetarias_1.webp
 
 ## ¿Qué son las órbitas planetarias?
 
-Una órbita planetaria es el camino que un planeta sigue mientras viaja alrededor de una estrella. Es importante destacar que las órbitas no son círculos perfectos, son más bien elípticas, es decir, como óvalos estirados. Un planeta está más cerca de su estrella en un punto de su órbita, conocido como perihelio, y más lejos en el afelio.
+Una órbita planetaria es el camino que un planeta sigue mientras viaja alrededor de una estrella. Es importante destacar que las órbitas no son círculos perfectos, son más bien elípticas, es decir, como óvalos estirados. Un planeta está más cerca de su estrella en un punto de su **órbita**, conocido como perihelio, y más lejos en el afelio.
 
 Estas órbitas no se deciden al azar. Están determinadas por la *gravedad*, una fuerza de atracción mutua entre dos masas, en este caso, la estrella y su planeta. La gravedad del Sol mantiene a los planetas en su lugar, evitando que se pierdan en el espacio.
 
@@ -101,7 +101,7 @@ La inclinación de la órbita también varía. La eclíptica es el plano de refe
 
 Aunque la gravedad es el factor dominante, otras fuerzas también afectan las órbitas planetarias. Los planetas pueden ejercer fuerza entre sí, alterando ligeramente sus rutas. Estos son conocidos como *efectos perturbadores*.
 
-Los cuerpos más pequeños, como asteroides y cometas, son más susceptibles a estas perturbaciones. Incluso el viento solar y la presión de la radiación, que son partículas y energía emanada del Sol, pueden causar cambios en sus trayectorias.
+Los cuerpos más pequeños, como asteroides y cometas, son más susceptibles a estas perturbaciones. Incluso el viento solar y la presión de la radiación, que son partículas y energía emanada del Sol, pueden causar [cambios en sus trayectorias](https://blog.astroingeo.org/sistema-solar/planetas-con-orbitas-inusuales).
 
 ## Órbitas planetarias y la vida en la Tierra
 
@@ -119,6 +119,6 @@ Este conocimiento también es crucial para la búsqueda de planetas fuera de nue
 
 A medida que nuestra tecnología mejora, nuestra comprensión de las órbitas planetarias se vuelve más precisa. Seguimos descubriendo cuerpos en el espacio con órbitas inusuales que desafían nuestras teorías y nos obligan a expandir nuestro entendimiento.
 
-Las órbitas planetarias seguirán siendo un pilar en la astronomía y la astrofísica. Con cada nueva misión espacial y telescopio más potente, revelamos más sobre estos misteriosos senderos celestiales que rigen la danza de los planetas en nuestro universo.
+Las órbitas planetarias seguirán siendo un pilar en la astronomía y la [astrofísica](https://blog.astroingeo.org/telescopios/astrofisica). Con cada nueva misión espacial y telescopio más potente, revelamos más sobre estos misteriosos senderos celestiales que rigen la danza de los planetas en nuestro universo.
 
 _Artículo publicado el 30 Dec 2023_

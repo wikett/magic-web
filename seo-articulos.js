@@ -8,6 +8,7 @@ import axios from 'axios'
 import * as deepl from 'deepl-node';
 import sharp from 'sharp';
 import path from 'path';
+import traducidos from './traducidos.json' assert { type: "json" };
 
 let guiaSEO = ""
 let tituloSEO = ""
@@ -792,8 +793,13 @@ async function traduccionTotal() {
   const directoryPath = './content/otros';
   const directoryPathDestino = './content/altro'
     try {
+      //const traducidos = await fs.readFile('traducidos.json', 'utf-8');
+      console.log('TRADUCIDOS')
+      console.log(traducidos)
+
         const files = await fs.readdir(directoryPath);
         for (let file of files) {
+          
           const filePath = path.join(directoryPath, file);
           const data = await fs.readFile(filePath, 'utf-8');
           const lines = data.split('\n');
@@ -803,10 +809,14 @@ async function traduccionTotal() {
           let imageUrl = ''
           let imagenSecundaria = ''
           let url = ''
+          let keyword = ''
           for (let line of lines) {
             // console.log(line)
             if (line.startsWith('title: ')) {
               titlePin = line.substring(7, line.length)
+            }
+            if (line.startsWith('url: ')) {
+              keyword = line.substring(5, line.length)
             }
             if (line.startsWith('description: ')) {
                 description = line.substring(13, line.length)
@@ -822,12 +832,15 @@ async function traduccionTotal() {
             }
             
           }
+          // console.log('-----------------------------------------------------')
           // console.log(titlePin);
           // console.log(description);
           // console.log(imageUrl)
           // console.log(imagenSecundaria);
           // console.log(url);
-          await generarArticuloTraducido(titlePin, imageUrl, imagenSecundaria, category )
+          // console.log(keyword);
+          // console.log('-----------------------------------------------------')
+          // await generarArticuloTraducido(titlePin, imageUrl, imagenSecundaria, category )
         }
     } catch (err) {
         console.error(`Error while reading directory: ${err}`);

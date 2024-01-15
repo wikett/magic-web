@@ -60,7 +60,7 @@ En la infinita inmensidad del universo, las estrellas son como los faros que gu�
 
 ## ¿Qué son las Estrellas?
 
-Las estrellas son esferas masivas de plasma, dominadas por fuerzas de gravedad y energía nuclear. Son los elementos básicos del cosmos, generando luz y calor a través de la fusión nuclear de hidrógeno en helio en sus núcleos. Desde pequeñas enanas rojas hasta **estrellas más grandes del universo**, todos estos cuerpos celestes juegan un papel crucial en la estructura y la evolución de las galaxias.
+Las estrellas son esferas masivas de plasma, dominadas por [fuerzas de gravedad](https://blog.astroingeo.org/sistema-solar/efectos-de-la-gravedad-en-el-espacio) y energía nuclear. Son los elementos básicos del cosmos, generando luz y calor a través de la fusión nuclear de hidrógeno en helio en sus núcleos. Desde pequeñas enanas rojas hasta **estrellas más grandes del universo**, todos estos cuerpos celestes juegan un papel crucial en la [estructura y la evolución de las galaxias](https://blog.astroingeo.org/cielo-profundo/clusters-de-galaxias-misteriosos).
 
 ## Criterio para Medir la Grandeza de una Estrella
 
@@ -82,13 +82,13 @@ Entre las **estrellas más grandes del universo**, varias han capturado nuestra 
   
 - **VY Canis Majoris**: Si bien alguna vez se pensó que era la estrella más grande, mediciones más recientes han reducido su tamaño, pero sigue siendo un gigante, con un tamaño impresionante.
 
-- **Betelgeuse**: Situada en la constelación de Orión, es famosa no solo por su tamaño sino también por su cambio de brillo, lo que sugiere que podría explotar como una supernova en un futuro astronómicamente cercano.
+- **Betelgeuse**: Situada en la constelación de [Orión](https://blog.astroingeo.org/catalogo-messier/m42-gran-nebulosa-de-orion), es famosa no solo por su tamaño sino también por su cambio de brillo, lo que sugiere que podría explotar como una supernova en un futuro astronómicamente cercano.
 
 ## ¿Cómo Terminan Las Estrellas Gigantes?
 
 Las **estrellas más grandes del universo** tienen un ciclo de vida que culmina de manera espectacular. Después de millones de años, estas estrellas agotan su combustible nuclear y pueden acabar su vida de dos principales maneras:
 
-1. **Supernova**: Una explosión catastrófica que puede superar en brillo a una galaxia entera por un corto periodo y es el precursor de la formación de una estrella de neutrones o un agujero negro.
+1. **Supernova**: Una explosión catastrófica que puede superar en brillo a una galaxia entera por un corto periodo y es el precursor de la formación de una estrella de neutrones o [un agujero negro](https://blog.astroingeo.org/cielo-profundo/agujeros-negros).
 
 2. **Nebulosa Planetaria**: En algunos casos, la estrella expulsa sus capas exteriores para formar una nebulosa alrededor de un núcleo caliente y denso conocido como enana blanca.
 
@@ -102,7 +102,7 @@ El estudio de las **estrellas más grandes del universo** no está exento de des
 
 ## Perspectivas Futuras
 
-A medida que la tecnología avanza, esperamos descubrir y comprender mejor las **estrellas más grandes del universo**. Con proyectos como el Telescopio Espacial James Webb y los avances en la radioastronomía, se abrirán nuevas ventanas al cosmos que podrían revelarnos estrellas aún más grandes y fenómenos astronómicos nunca antes vistos.
+A medida que la tecnología avanza, esperamos descubrir y comprender mejor las **estrellas más grandes del universo**. Con proyectos como el Telescopio Espacial James Webb y los avances en la [radioastronomía](https://blog.astroingeo.org/telescopios/enigmas-de-la-radioastronomia), se abrirán nuevas ventanas al cosmos que podrían revelarnos estrellas aún más grandes y fenómenos astronómicos nunca antes vistos.
 
 ## Conclusión
 

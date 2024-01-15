@@ -56,7 +56,7 @@ imageurl: https://blog.astroingeo.org/img/content/el-significado-de-sonar-con-es
 
 ## Introducción al mundo de los sueños y las estrellas
 
-Soñar con estrellas en el cielo es una experiencia que muchas personas tienen a lo largo de sus vidas. Las estrellas han sido siempre objetos de gran **admiración y curiosidad**, vinculadas con la magia, el destino y la guía espiritual. En los sueños, las estrellas pueden tener diferentes interpretaciones dependiendo de cómo aparecen y lo que significan para el soñador.
+Soñar con estrellas en el cielo es una experiencia que muchas personas tienen a lo largo de sus vidas. Las [estrellas](https://blog.astroingeo.org/constelaciones/mitologia-de-las-estrellas-en-el-cielo) han sido siempre objetos de gran **admiración y curiosidad**, vinculadas con la magia, el destino y la guía espiritual. En los sueños, las estrellas pueden tener diferentes interpretaciones dependiendo de cómo aparecen y lo que significan para el soñador.
 
 ## ¿Qué significan las estrellas en los sueños?
 
@@ -82,7 +82,7 @@ Ver estrellas brillando fuertemente en el cielo puede ser un reflejo de tus **as
 Las estrellas en el cielo a menudo representan un **sentimiento de esperanza** y optimismo. Si estás pasando por un momento difícil, soñar con estrellas podría ser una señal de que las cosas **mejorarán** pronto.
 
 ### Deseos y anhelos
-Desde niños se nos dice que pidamos deseos a las estrellas fugaces. Si en tu sueño ves una estrella fugaz, puede significar que tienes **deseos profundamente guardados** que esperas se hagan realidad.
+Desde niños se nos dice que pidamos deseos a las estrellas fugaces. Si en tu sueño ves una [estrella fugaz](https://blog.astroingeo.org/sistema-solar/meteoritos-y-meteoros), puede significar que tienes **deseos profundamente guardados** que esperas se hagan realidad.
 
 ### Reflexiones espirituales
 Las estrellas también pueden tener connotaciones **espirituales**. Soñar con ellas puede ser un recordatorio de que formas parte de algo mucho más grande y que debes contemplar tu lugar en el universo.
@@ -99,7 +99,7 @@ Un cielo repleto de estrellas en tu sueño puede indicar **abundancia y éxito**
 Si las estrellas se chocan o caen del cielo, podría ser un aviso para que estés alerta a posibles **problemas o fracasos**. Este sueño podría estar diciéndote que te prepares para enfrentar adversidades.
 
 ### Estrellas que no brillan
-Si las estrellas parecen débiles o sin brillo, esto puede reflejar **inseguridades** o la pérdida de dirección en tu vida. Puede ser un llamado a reavivar tu pasión y volver a encaminarte.
+Si las estrellas parecen débiles o [sin brillo](https://blog.astroingeo.org/sistema-solar/por-que-algunas-estrellas-en-el-cielo-son-mas-brillantes-que-otras), esto puede reflejar **inseguridades** o la pérdida de dirección en tu vida. Puede ser un llamado a reavivar tu pasión y volver a encaminarte.
 
 ## Cómo aplicar el significado de los sueños con estrellas en tu vida
 
