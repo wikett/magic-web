@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: El Orión que casi se puede ver
+description: Imagen astronómica del día martes, 16 de enero de 2024 por la NASA; El Orión que casi se puede ver
 category: nasa
 published_time: 2024-01-16T08:47:34.820Z
-url: foto-del-dia-de-la-nasa-hoy
+url: el-orion-que-casi-se-puede-ver-2024-01-16
 created: 16 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/OrionMcc_Guzzini_1366.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'El Orión que casi se puede ver'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'El Orión que casi se puede ver'
     - name: 'og:description'
       content: 'Imagen astronómica del día martes, 16 de enero de 2024 por la NASA; El Orión que casi se puede ver'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2401/OrionMcc_Guzzini_1366.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/el-orion-que-casi-se-puede-ver-2024-01-16'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/el-orion-que-casi-se-puede-ver-2024-01-16'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'El Orión que casi se puede ver'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2401/OrionMcc_Guzzini_1366.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# El Orión que casi se puede ver
 martes, 16 de enero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## El Orión que casi se puede ver
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Michele Guzzini -
+title: El Orión que casi se puede ver, copyright - Michele Guzzini -
 imageurl: https://apod.nasa.gov/apod/image/2401/OrionMcc_Guzzini_1366.jpg
 ---
 ::
