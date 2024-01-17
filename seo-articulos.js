@@ -689,6 +689,7 @@ async function chatgptMagic(contenido, model = 'gpt-4-1106-preview') {
 
 async function pictureOfTheDay() {
   const baseApiUrl = 'https://api.nasa.gov/planetary';
+  console.log(nasaApiKey)
   const url = `${baseApiUrl}/apod?api_key=${nasaApiKey}`
   const { data } = await axios.get(url)
   console.log(data)
