@@ -7,8 +7,7 @@ import axios from 'axios'
 // import { TwitterApi } from 'twitter-api-v2';
 import * as deepl from 'deepl-node';
 import sharp from 'sharp';
-import path from 'path';
-import traducidos from './traducidos.json' assert { type: "json" };
+import path, { join } from 'path';
 
 let guiaSEO = ""
 let tituloSEO = ""
@@ -506,7 +505,7 @@ async function obtenerCategoria() {
     // console.log('Categoria SEO: '+categoriaSEO)
     
     //categoriaSEO = slugify(categoriaSEO, {separator: '-'})
-    categoriaSEO = 'catalogo-messier'
+    categoriaSEO = 'astronomos'
     console.log('Categoria SEO slugify: '+categoriaSEO)
     urlSEO = slugify(tituloSEO, {separator: '-'})
     await generateImage(tituloSEOEnglish);
@@ -788,15 +787,17 @@ async function pictureOfTheDay() {
 
 async function traduccionTotal() {
   const language = 'it'
+  const traducidosFile = 'traducidos.json'
 
-  const category = 'altro'
+  const category = 'messier'
 
-  const directoryPath = './content/otros';
-  const directoryPathDestino = './content/altro'
+  const directoryPath = './content/catalogo-messier';
+  const directoryPathDestino = './content/messier'
     try {
-      //const traducidos = await fs.readFile('traducidos.json', 'utf-8');
+      const traducidos = await fs.readFile(traducidosFile, 'utf-8');
       console.log('TRADUCIDOS')
-      console.log(traducidos)
+      const articulosTraducidos = JSON.parse(traducidos);
+      console.log(articulosTraducidos)
 
         const files = await fs.readdir(directoryPath);
         for (let file of files) {
@@ -812,7 +813,7 @@ async function traduccionTotal() {
           let url = ''
           let keyword = ''
           for (let line of lines) {
-            // console.log(line)
+            
             if (line.startsWith('title: ')) {
               titlePin = line.substring(7, line.length)
             }
@@ -833,15 +834,30 @@ async function traduccionTotal() {
             }
             
           }
-          // console.log('-----------------------------------------------------')
-          // console.log(titlePin);
-          // console.log(description);
-          // console.log(imageUrl)
-          // console.log(imagenSecundaria);
-          // console.log(url);
-          // console.log(keyword);
-          // console.log('-----------------------------------------------------')
-          // await generarArticuloTraducido(titlePin, imageUrl, imagenSecundaria, category )
+          console.log('-----------------------------------------------------')
+          console.log(titlePin);
+          console.log(description);
+          console.log(imageUrl)
+          console.log(imagenSecundaria);
+          console.log(url);
+          console.log(keyword);
+          console.log('-----------------------------------------------------')
+          const found = articulosTraducidos.find((element) => element.keyword === keyword)
+          if (found === undefined) {
+           
+            // await generarArticuloTraducido(titlePin, imageUrl, imagenSecundaria, category )
+            // add articulo traducido
+            let object = {
+              keyword: keyword,
+              category: category
+            }
+            articulosTraducidos.push(object)
+            console.log(object)
+            let jsonString = JSON.stringify(articulosTraducidos, null, 2);
+            console.log(jsonString)
+            await fs.writeFile(traducidosFile, jsonString)
+          }
+          
         }
     } catch (err) {
         console.error(`Error while reading directory: ${err}`);
