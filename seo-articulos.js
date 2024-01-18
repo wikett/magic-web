@@ -505,7 +505,7 @@ async function obtenerCategoria() {
     // console.log('Categoria SEO: '+categoriaSEO)
     
     //categoriaSEO = slugify(categoriaSEO, {separator: '-'})
-    categoriaSEO = 'astronomos'
+    categoriaSEO = 'otros'
     console.log('Categoria SEO slugify: '+categoriaSEO)
     urlSEO = slugify(tituloSEO, {separator: '-'})
     await generateImage(tituloSEOEnglish);
