@@ -2,10 +2,10 @@
 title: Foto astronómica del día por la NASA
 description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
 category: nasa
-published_time: 2024-01-18T06:50:13.551Z
+published_time: 2024-01-19T08:44:13.754Z
 url: foto-del-dia-de-la-nasa-hoy
-created: 18 Jan 2024
-imageUrl: https://apod.nasa.gov/apod/image/2401/MagneticStormRohner.jpg
+created: 19 Jan 2024
+imageUrl: https://apod.nasa.gov/apod/image/2401/2024_01_15-Jup-2h30-Chronograph.png
 head:
   meta:
     - name: 'keywords'
@@ -15,19 +15,19 @@ head:
     - name: 'og:title'
       content: 'Foto astronómica del día por la NASA'
     - name: 'og:description'
-      content: 'Imagen astronómica del día jueves, 18 de enero de 2024 por la NASA; Auroras boreales desde la estratosfera'
+      content: 'Imagen astronómica del día viernes, 19 de enero de 2024 por la NASA; Júpiter en 2 horas y 30 minutos'
     - name: 'og:type'
       content: 'article'
     - name: 'article:published_time'
-      content: '2024-01-18T06:50:13.551Z'
+      content: '2024-01-19T08:44:13.754Z'
     - name: 'article:modified_time'
-      content: '2024-01-18T06:50:13.551Z'
+      content: '2024-01-19T08:44:13.754Z'
     - name: 'article:section'
       content: 'nasa'
     - name: 'article:author'
       content: 'Enrique'
     - name: 'og:image'
-      content: 'https://apod.nasa.gov/apod/image/2401/MagneticStormRohner.jpg'
+      content: 'https://apod.nasa.gov/apod/image/2401/2024_01_15-Jup-2h30-Chronograph.png'
     - name: 'og:url'
       content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
     - name: 'twitter:domain'
@@ -37,39 +37,43 @@ head:
     - name: 'twitter:title'
       content: 'Foto astronómica del día por la NASA'
     - name: 'twitter:card'
-      content: 'https://apod.nasa.gov/apod/image/2401/MagneticStormRohner.jpg'
+      content: 'https://apod.nasa.gov/apod/image/2401/2024_01_15-Jup-2h30-Chronograph.png'
     - name: 'twitter:description'
-      content: 'Imagen astronómica del día jueves, 18 de enero de 2024 por la NASA; Auroras boreales desde la estratosfera'
+      content: 'Imagen astronómica del día viernes, 19 de enero de 2024 por la NASA; Júpiter en 2 horas y 30 minutos'
     - name: 'twitter:image'
-      content: 'https://apod.nasa.gov/apod/image/2401/MagneticStormRohner.jpg'
+      content: 'https://apod.nasa.gov/apod/image/2401/2024_01_15-Jup-2h30-Chronograph.png'
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
 # Foto del día de la NASA hoy
-jueves, 18 de enero de 2024
+viernes, 19 de enero de 2024
 
 Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
 En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Auroras boreales desde la estratosfera
+## Júpiter en 2 horas y 30 minutos
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Ralf Rohner -
-imageurl: https://apod.nasa.gov/apod/image/2401/MagneticStormRohner.jpg
+title: Foto astronómica del día por la NASA
+imageurl: https://apod.nasa.gov/apod/image/2401/2024_01_15-Jup-2h30-Chronograph.png
 ---
 ::
 
 
 
-En la extensa bóveda celeste, las **luces norteñas** brillaron con intensidad en la noche del 15 de enero, capturadas desde la estratosfera de nuestro planeta, justo sobre **Winnipeg, Canadá**. La imagen es el resultado de una exposición única de 5 segundos, tomada con una cámara sostenida a mano a bordo de una aeronave. Durante ese breve lapso, las luces terrestres dejaron estelas de colores a lo largo de la dirección del vuelo del avión, evidencia del vertiginoso movimiento a través del cielo nocturno.
+**Júpiter**, el gigante gaseoso que reina en nuestro Sistema Solar, es también el **planeta que gira más rápido**, completando una rotación en menos de 10 horas. Esta rapidez es inusual entre los planetas de nuestro sistema, y es aún más notable considerando el inmenso tamaño de Júpiter. Sin embargo, el gigante gaseoso no gira como un cuerpo sólido. Un día en **Júpiter** dura aproximadamente **9 horas y 56 minutos en los polos**, disminuyendo a 9 horas y 50 minutos cerca del ecuador. Esta diferencia se debe al fenómeno conocido como **dilatación ecuatorial** causada por la rápida rotación del planeta.
 
-Más allá del horizonte, partículas energéticas aceleradas a lo largo del **campo magnético terrestre** en la región polar impactan con oxígeno atómico en la atmósfera superior, provocando la luminiscencia conocida como **Aurora Boreal**. La tonalidad verde característica de las auroras se produce a altitudes comprendidas entre los 100 y 300 kilómetros, mientras que el rojo se observa a altitudes aún mayores y en densidades atmosféricas más bajas.
+La **velocidad de rotación** de Júpiter genera corrientes de chorro muy fuertes, que a su vez originan la separación de sus nubes en bandas oscuras llamadas cinturones y zonas brillantes que circundan el planeta. Estas características son tan distintivas que, incluso con un pequeño telescopio, se pueden **observar desde la Tierra**.
 
-Por encima del resplandor terrestre, el débil brillo de las estrellas distantes sigue el camino de nuestra propia galaxia, la **Vía Láctea**, dibujando un arco a través de la noche estrellada. Un pequeño vislumbre de la galaxia de **Andrómeda**, la espiral grande más cercana a la Vía Láctea, se distingue apenas hacia la parte superior izquierda de la imagen. Aunque a simple vista pueda parecer difusa y modesta, Andrómeda es, en realidad, grandiosa y extensa, con un diámetro de aproximadamente 220,000 años luz y alberga cerca de un billón de estrellas.
+En una secuencia nítida de imágenes tomadas la noche del 15 de enero, con una cámara y un pequeño telescopio en las afueras de París, Francia, podemos seguir la rápida rotación de Júpiter. Ubicado justo al sur del ecuador, el sistema de tormentas gigantesco de Júpiter, conocido como la **Gran Mancha Roja**, se puede ver moviéndose de izquierda a derecha junto con la rotación del planeta. La secuencia abarca aproximadamente **2 horas y 30 minutos**, demostrando el dinamismo y la velocidad de este coloso gaseoso.
 
-Un aspecto fascinante de este fenómeno es que las auroras boreales no son exclusivas de nuestro planeta. Gracias a telescopios y sondas espaciales, sabemos que **otros planetas del sistema solar**, como Júpiter y Saturno, también presentan estos espectáculos de luz, causados por interacciones similares entre su campo magnético y el viento solar.
+La **Gran Mancha Roja** es una tormenta tan grande que podría englullir la Tierra con facilidad. Ha sido observada desde hace más de 300 años, y aunque ha disminuido en tamaño en las últimas décadas, sigue siendo una característica prominente de Júpiter.
 
-Para los aficionados a la astrofotografía y la astronomía, estos eventos naturales representan una oportunidad de capturar con sus lentes un cuadro vivo de la danza cósmica entre partículas, luz y los campos magnéticos planetarios. Cada imagen de este tipo nos recuerda que formamos parte de un universo extraordinariamente bello y dinámico.
+Además, Júpiter posee un campo magnético extremadamente potente, mucho más fuerte que el de la Tierra, y alberga al menos **79 lunas confirmadas**, incluida Ganímedes, la luna más grande del Sistema Solar, que incluso supera en tamaño al planeta Mercurio.
 
-_Artículo actualizado el jueves, 18 de enero de 2024_
+La rápida rotación de Júpiter no solamente afecta su atmósfera y su forma, también tiene un impacto en su campo magnético y en la distribución de sus lunas. Estudiar estos aspectos nos proporciona información valiosa sobre la naturaleza de los planetas gaseosos y las dinámicas atmosféricas en condiciones extremas, lejos de las que existen en nuestro propio planeta.
+
+**Estudiar a Júpiter** es sumergirse en una danza cósmica de vientos huracanados, química atmosférica compleja y misterios que nos esperan en las vastedades del espacio, un recordatorio constante de la majestuosidad de nuestro Sistema Solar.
+
+_Artículo actualizado el viernes, 19 de enero de 2024_

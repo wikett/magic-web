@@ -431,6 +431,14 @@ async function generateImage(subject) {
   // await downloadImage("DALLE", imagenDiscover, "3", "")
 }
 
+async function resizeImagen() {
+  const imagenPath = './public/img/content/antares_1.png'
+  await sharp(imagenPath)
+  .resize(5417, 5417)
+  .sharpen() // this sharpens the image after resize
+  .toFormat('png', { quality: 100 })
+  .toFile('./public/img/content/antares_1_print.png');
+}
 
 async function generateDalle3Image(texto, filename) {
   const image = await openai.images.generate(
@@ -895,6 +903,10 @@ switch (process.argv[2]) {
   case 'dalle':
     // Generacion imagenes DALLE 3
     await generateDalle3Image('Messier catalogue', 'Messier catalogue')
+    break;
+
+  case 'resize':
+    await resizeImagen()
     break;
 
   default:
