@@ -49,6 +49,8 @@ head:
 
 Las estrellas han sido una fuente de inspiración y maravilla desde que el ser humano levantó la vista hacia el cielo nocturno. No es de sorprender que diferentes culturas a través del tiempo hayan dado **nombres únicos** a estas brillantes guías celestiales. En esta exploración, ahondaremos en cómo varias civilizaciones han nombrado a las estrellas, reflejando su propio mundo y su comprensión del universo.
 
+[👶 Listado de nombres de estrellas para niño o niña](#nombres-de-estrellas-para-niños-o-niñas)
+
 ::photo-article
 ---
 title: Los nombres de las estrellas en diferentes culturas
@@ -74,6 +76,50 @@ La mitología griega ha ejercido una gran influencia en la forma en que nombramo
 Los astrónomos árabes jugaron un papel crucial en la preservación y expansión del conocimiento astronómico. Estrellas como Aldebarán y Altair mantienen sus nombres de origen árabe, lo cual es un testamento de su profundo entendimiento y respeto por el cosmos.
 
 Muchos de los nombres árabes de estrellas tienen raíces en descripciones de su posición o su relación con otras estrellas. Por ejemplo, __"Rigel"__, que se encuentra en la constelación de [Orion](https://blog.astroingeo.org/cielo-profundo/nebulosa-de-orion-o-messier-42), deriva de la palabra árabe para __"pie"__, ya que marca el pie del cazador mitológico.
+
+## Nombres de estrellas para niños o niñas
+
+Listado con 20 nombres de estrellas para tu bebé, tanto si es niño o si es niña:
+
+1. **Sirius**: De la lengua griega, significa "resplandeciente" o "abrasador". Una estrella de la constelación [Canis Major](https://blog.astroingeo.org/constelaciones/sirio).
+
+2. **Rigel**: Una palabra árabe que significa "pie". Es una estrella brillante en la constelación de Orión.
+
+3. **Vega**: Nombre de origen árabe que significa "aguila caída". [Es la estrella más brillante](https://blog.astroingeo.org/constelaciones/vega) de la constelación de Lyra.
+
+4. **Antares**: Significa "rival de Ares" en griego. Es la estrella más brillante en la constelación de Escorpio.
+
+5. **Aldebarán**: De origen árabe significa "el seguidor". Es la estrella más brillante en la constelación de Tauro.
+
+6. **Betelgeuse**: De origen árabe, significa "la mano del gigante". Es la segunda estrella más brillante de Orión.
+
+7. **Bellatrix**: Nombre de origen latín que significa "guerrera". Es la tercera estrella más brillante de Orión.
+
+8. **Polaris**: También conocida como la [estrella del norte](https://blog.astroingeo.org/constelaciones/estrella-polar), es una estrella guía para la navegación.
+
+9. **Achernar**: En árabe significa "El fin del río". Es la estrella más brillante de la constelación de Eridanus.
+
+10. **Altair**: Nombre de origen árabe que significa "el volar". Es la estrella más brillante en la constelación de Águila.
+
+11. **Capela**: Un nombre que proviene del latín que significa "cabra pequeña". Es la estrella más brillante en la constelación de Auriga o el cochero.
+
+12. **Castor**: Es una de las dos estrellas brillantes en la constelación de [Géminis](https://blog.astroingeo.org/constelaciones/constelacion-gemini), lleva el nombre de un personaje de la mitología griega.
+
+13. **Procyon**: Proviene del griego y significa "antes del perro". Es la estrella más brillante en la constelación de Canis Minor.
+
+14. **Deneb**: Significa "cola" en árabe. Está ubicado en la constelación de Cisne.
+
+15. **Regulus**: Nombre de origen latín que significa "pequeño rey". Estrella más brillante de la constelación de León.
+
+16. **Spica**: Del latín, significa "espiga de trigo". Es la estrella más brillante de la constelación de Virgo.
+
+17. **Fomalhaut**: En árabe significa "la boca del pez". Es la estrella más brillante de la constelación del Pez Austral.
+
+18. **Canopus**: El segundo astro más brillante del cielo nocturno, nombrado en honor del mitológico capitán Canopus.
+
+19. **Algol**: Es una estrella brillante de la constelación de Perseo. Su nombre deriva del árabe y significa "el demonio".
+
+20. **Hadar**: Significa "suelo" en árabe. Es una estrella súper gigante en la constelación de Centaurus.
 
 
 ::photo-discover

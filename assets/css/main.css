@@ -19,7 +19,7 @@
     }
 
     ul, ol {
-        @apply list-disc ml-12;
+        @apply list-disc ml-12 mt-4;
     }
 
 
