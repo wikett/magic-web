@@ -2,7 +2,7 @@
 title: Los nombres de las estrellas en diferentes culturas
 description: Descubre cómo distintas culturas nombran y clasifican estrellas, reflejando su historia y cosmología. Explora la diversidad celeste a través de los nombres.
 category: constelaciones
-published_time: 2023-12-31T12:04:27.201Z
+published_time: 2024-01-21T12:04:27.201Z
 url: los-nombres-de-las-estrellas-en-diferentes-culturas
 created: 31 Dec 2023
 imageUrl: https://blog.astroingeo.org/img/content/los-nombres-de-las-estrellas-en-diferentes-culturas_1.webp
@@ -19,9 +19,9 @@ head:
     - name: 'og:type'
       content: 'article'
     - name: 'article:published_time'
-      content: '2023-12-31T12:04:27.201Z'
+      content: '2024-01-21T12:04:27.201Z'
     - name: 'article:modified_time'
-      content: '2023-12-31T12:04:27.201Z'
+      content: '2024-01-21T12:04:27.201Z'
     - name: 'article:section'
       content: 'constelaciones'
     - name: 'article:author'
@@ -43,7 +43,7 @@ head:
     - name: 'twitter:image'
       content: 'https://blog.astroingeo.org/img/content/los-nombres-de-las-estrellas-en-diferentes-culturas_1.webp'
     - name: 'copyright'
-      content: '© 2023 blog.astroingeo.org'
+      content: '© 2024 blog.astroingeo.org'
 ---
 # El legado estelar: Nombres de estrellas en diversas culturas
 
@@ -146,4 +146,4 @@ La popularidad de "bautizar" o "comprar" una estrella con el nombre de un ser qu
 
 En conclusión, los nombres de las estrellas no son solo designaciones arbitrarias, sino que son reflejo de la historia, [mitología](https://blog.astroingeo.org/constelaciones/mitologia-de-las-estrellas-en-el-cielo) y valores de diferentes culturas alrededor del mundo. Las estrellas siguen brillando sobre nosotros, al igual que los nombres que les hemos dado continúan contando historias de nuestra humanidad compartida.
 
-_Artículo publicado el 31 Dec 2023_
+_Artículo actualizado el 21 Ene 2024_
