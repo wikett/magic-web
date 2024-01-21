@@ -432,12 +432,28 @@ async function generateImage(subject) {
 }
 
 async function resizeImagen() {
-  const imagenPath = './public/img/content/antares_1.png'
-  await sharp(imagenPath)
-  .resize(5417, 5417)
-  .sharpen() // this sharpens the image after resize
-  .toFormat('png', { quality: 100 })
-  .toFile('./public/img/content/antares_1_print.png');
+
+  const imagenPath = './public/img/content'
+
+  const directoryPath = './public/img/content';
+  const directoryPathDestino = './public/img/content/latostadora'
+    try {
+        const files = await fs.readdir(directoryPath);
+        for (let file of files) {
+          if (file.endsWith('.png')) {
+            
+            const nombreFichero = file.split('.')[0]
+            console.log(nombreFichero);
+            await sharp(`${imagenPath}/${nombreFichero}.png`)
+            .resize(5000, 5000)
+            .sharpen() // this sharpens the image after resize
+            .toFormat('png', { quality: 100 })
+            .toFile(`${directoryPathDestino}/${nombreFichero}_print.png`);
+          }
+        }
+    } catch (err) {
+        console.error(`Error while reading directory: ${err}`);
+    }
 }
 
 async function generateDalle3Image(texto, filename) {
