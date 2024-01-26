@@ -924,6 +924,9 @@ switch (process.argv[2]) {
   case 'resize':
     await resizeImagen()
     break;
+  case 'prueba':
+    console.log('Probando: '+Date.now())
+    break;
 
   default:
     break;
