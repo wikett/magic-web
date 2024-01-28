@@ -2,7 +2,7 @@
 title: Plutón en color real
 description: Imagen astronómica del día domingo, 28 de enero de 2024 por la NASA; Plutón en color real
 category: nasa
-published_time: 2024-01-28T10:30:46.441Z
+published_time: 2024-01-28T10:36:13.548Z
 url: pluton-en-color-real-2024-01-28
 created: 28 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/PlutoTrueColor_NewHorizons_8000.jpg
@@ -19,9 +19,9 @@ head:
     - name: 'og:type'
       content: 'article'
     - name: 'article:published_time'
-      content: '2024-01-28T10:30:46.441Z'
+      content: '2024-01-28T10:36:13.548Z'
     - name: 'article:modified_time'
-      content: '2024-01-28T10:30:46.441Z'
+      content: '2024-01-28T10:36:13.548Z'
     - name: 'article:section'
       content: 'nasa'
     - name: 'article:author'
@@ -58,14 +58,16 @@ imageurl: https://apod.nasa.gov/apod/image/2401/PlutoTrueColor_NewHorizons_8000.
 
 
 
-**¿De qué color es realmente Plutón?** La respuesta no es sencilla y requirió un esfuerzo considerable para determinarla. A pesar de las imágenes enviadas a la Tierra por la nave espacial no tripulada *New Horizons* que pasó cerca de Plutón en 2015, procesar estos fotogramas multispectrales para aproximar lo que el ojo humano vería fue un desafío. El resultado presentado aquí, publicado tres años después de que *New Horizons* adquiriera los datos brutos, es la imagen de Plutón en verdadero color y de la más alta resolución jamás tomada. En la imagen se puede observar la clara forma de corazón denominada *Tombaugh Regio*, con la sorprendentemente lisa *Sputnik Planitia*, compuesta de nitrógeno congelado, llenando su lóbulo occidental.
+**¿Cuál es el color real de Plutón?** Esta pregunta requirió un esfuerzo considerable para responderla. Incluso después de haber recibido incontables imágenes del lejano mundo cuando la nave espacial robótica New Horizons pasó velozmente cerca de Plutón en 2015, fue un reto procesar los cuadros multiespectrales para aproximar lo que el ojo humano percibiría. El resultado, mostrado aquí y publicado tres años después de la adquisición de los datos crudos por New Horizons, es la imagen de Plutón en Color verdadero de mayor resolución jamás tomada.
 
-*New Horizons* encontró que el planeta enano tiene una superficie sorprendentemente compleja compuesta por muchas regiones con tonalidades perceptiblemente distintas. Sin embargo, en términos generales, **Plutón es mayormente marrón**, con gran parte de su color apagado originándose a partir de pequeñas cantidades de metano superficial que son energizadas por la luz ultravioleta del Sol.
+Visible en la imagen está la claridad del _Tombaugh Regio_ en forma de corazón, con la lisa e inesperada _Sputnik Planitia_, compuesta de nitrógeno congelado, ocupando su lóbulo occidental. La misión New Horizons reveló que el planeta enano posee una superficie sorprendentemente compleja, compuesta de numerosas regiones con matices perceptiblemente distintos. Sin embargo, en conjunto, Plutón es mayormente marrón, y gran parte de este color suave proviene de pequeñas cantidades de metano en la superficie que han sido energizadas por la luz ultravioleta del Sol.
 
-Además de su coloración, Plutón ha sorprendido a los científicos con su diversidad geológica, incluyendo montañas de hielo de agua que se elevan hasta 3,500 metros por encima de la superficie y vastas planicies de hielo de nitrógeno. **Los datos térmicos** también han revelado que Plutón posee un subsuelo oceánico potencialmente habitable, algo que antes se pensaba que era imposible en un mundo tan lejano y frío.
+**Datos adicionales sorprendentes de Plutón:**
 
-La exploración de *New Horizons* extendió nuestro conocimiento significativamente, **demostrando la presencia de nieblas complejas y capas atmosféricas**, así como evidencia de un ciclo de hielo de nitrógeno activo. La misión nos ha llevado a reconsiderar lo que es posible en los confines de nuestro Sistema Solar, proporcionando una ventana fascinante a uno de los muchos cuerpos celestes que surcan la oscura frontera más allá de Neptuno. 
+- **Montañas Gigantes:** Plutón alberga montañas de agua helada que se elevan hasta 3,500 metros por encima de su superficie.
+- **Capas de Haze:** Más allá de la superficie, Plutón tiene capas de neblinas que se extienden hasta 200 km en la atmósfera, creando un efecto brumoso.
+- **Variación de Temperatura:** A pesar de estar a 3.670 millones de millas de distancia del Sol, Plutón experimenta variaciones estacionales.
 
-En definitiva, Plutón ha demostrado ser un objeto celestial de estudio vasto y enriquecedor, desafiando nuestras expectativas y expandiendo nuestra comprensión del Sistema Solar.
+Estos datos emergentes de Plutón, antes visto como un mundo distante y estático, solo realzan su estatus en la corta pero fascinante lista de mundos complejos y dinámicos en nuestro sistema solar. Con cada nueva misión y observación, seguimos ampliando nuestra comprensión del cosmos y del singular baile de elementos y condiciones que hacen que cada cuerpo celeste sea único.
 
 _Artículo actualizado el domingo, 28 de enero de 2024_
