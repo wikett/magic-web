@@ -8,10 +8,10 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "nasa": "node seo-articulos.js nasa && git add . && git commit -m `articles` && git push --all",
-    "magic": "node seo-articulos.js magic && git add . && git commit -m `articles` && git push --all",
+    "nasa": "node seo-articulos.js nasa && git add . && git commit -m 'nasa'  && git push --all",
+    "magic": "node seo-articulos.js magic && git add . && git commit -m 'magic' && git push --all",
     "prueba": "node seo-articulos.js prueba",
-    "uno": "node seo-articulos.js uno && git add . && git commit -m `articles` && git push --all"
+    "uno": "node seo-articulos.js uno && git add . && git commit -m 'uno' && git push --all"
   },
   "devDependencies": {
     "@nuxt/content": "^2.8.2",
