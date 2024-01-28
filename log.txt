@@ -100,3 +100,27 @@ Probando: 1706396102619
 
 Probando: 1706396162735
  -- FIN --
+
+> prueba
+> node seo-articulos.js prueba
+
+Probando: 1706396222829
+ -- FIN --
+
+> prueba
+> node seo-articulos.js prueba
+
+Probando: 1706396282940
+ -- FIN --
+
+> prueba
+> node seo-articulos.js prueba
+
+Probando: 1706396343041
+ -- FIN --
+
+> prueba
+> node seo-articulos.js prueba
+
+Probando: 1706396402209
+ -- FIN --
