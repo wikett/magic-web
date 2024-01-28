@@ -2,9 +2,9 @@
 title: Foto astronómica del día por la NASA
 description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
 category: nasa
-published_time: 2024-01-27T09:10:44.476Z
+published_time: 2024-01-28T10:28:24.016Z
 url: foto-del-dia-de-la-nasa-hoy
-created: 27 Jan 2024
+created: 28 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/Full_Moon_Jan_24_Beletsky.jpg
 head:
   meta:
@@ -15,13 +15,13 @@ head:
     - name: 'og:title'
       content: 'Foto astronómica del día por la NASA'
     - name: 'og:description'
-      content: 'Imagen astronómica del día sábado, 27 de enero de 2024 por la NASA; Luna llena del Observatorio'
+      content: 'Imagen astronómica del día domingo, 28 de enero de 2024 por la NASA; Luna llena del Observatorio'
     - name: 'og:type'
       content: 'article'
     - name: 'article:published_time'
-      content: '2024-01-27T09:10:44.476Z'
+      content: '2024-01-28T10:28:24.016Z'
     - name: 'article:modified_time'
-      content: '2024-01-27T09:10:44.476Z'
+      content: '2024-01-28T10:28:24.016Z'
     - name: 'article:section'
       content: 'nasa'
     - name: 'article:author'
@@ -39,14 +39,14 @@ head:
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2401/Full_Moon_Jan_24_Beletsky.jpg'
     - name: 'twitter:description'
-      content: 'Imagen astronómica del día sábado, 27 de enero de 2024 por la NASA; Luna llena del Observatorio'
+      content: 'Imagen astronómica del día domingo, 28 de enero de 2024 por la NASA; Luna llena del Observatorio'
     - name: 'twitter:image'
       content: 'https://apod.nasa.gov/apod/image/2401/Full_Moon_Jan_24_Beletsky.jpg'
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
 # Foto del día de la NASA hoy
-sábado, 27 de enero de 2024
+domingo, 28 de enero de 2024
 
 Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
 En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
@@ -62,14 +62,16 @@ imageurl: https://apod.nasa.gov/apod/image/2401/Full_Moon_Jan_24_Beletsky.jpg
 
 
 
-En el hemisferio norte, la luna llena de enero recibe el nombre de _Luna Llena de Lobo_. Esta denominación se origina de las tradiciones de los nativos americanos y de los antiguos colonos europeos que escuchaban a los lobos aullar afuera en las frías noches de invierno. En la noche fría y despejada, esta luna resplandece sobre el Observatorio Las Campanas, creando una escena terrestre y lunar fascinante. En primer plano, como si fueran los ojos de la astronomía, se encuentran los **dos telescopios Magallanes de 6.5 metros de diámetro** cada uno. 
+El conocido **"Full Wolf Moon"** es el nombre que recibe la primera luna llena de enero en el hemisferio norte, una denominación que evoca imágenes de lobos aullando en las frías noches de invierno. Este evento celestial tiene también un especial protagonismo al emerger sobre el **Observatorio Las Campanas**, situado en el dramático paisaje terrestre y lunar del Desierto de Atacama en Chile. A través de la mirada de los ojos astronómicos que son los **telescopios Magellan**, gemelos de 6.5 metros de diámetro, se ha capturado esta impresionante imagen con un objetivo telefoto, tomando la escena desde una distancia aproximada de **9 millas** del observatorio, mientras que la luna se encontraba a unos **240,000 millas** de la superficie terrestre.
 
-La dramática fotografía fue capturada con un lente telefoto, atravesando el terreno accidentado del Desierto de Atacama en Chile, a una distancia aproximada de 9 millas desde el observatorio y unos 240,000 millas de la superficie lunar. Esta toma no solo captura la belleza del paisaje sino que también resalta el poder de la observación astronómica.
+No menos importante es el primer plenilunio del **año lunar nuevo**, a menudo conocido como el **"Full Snow Moon"**, que hará su aparición el **24 de febrero**. Esta es una excelente oportunidad para los aficionados a la astronomía y para el público en general de presenciar un espectáculo lumínico en el firmamento invernal.
 
-Vale la pena mencionar que el primer plenilunio del nuevo año lunar, conocido por algunos como la _Luna Llena de Nieve_, hará su aparición en el cielo el **24 de febrero**. Esta luna adquiere su nombre debido a las tormentas de nieve que son comunes durante este mes en algunas regiones.
+En la astrofotografía, capturar la belleza del cielo nocturno junto con el terreno terrestre requiere no solo de equipo especializado, sino también de una planificación meticulosa y un entendimiento profundo de los fenómenos celestes. El **Desierto de Atacama**, además de ser uno de los lugares más áridos del mundo, es conocido entre los astrónomos por su cielo extremadamente claro y su mínima contaminación lumínica, lo cual lo convierte en un sitio ideal para la observación astronómica.
 
-Los observatorios como Las Campanas son vitales para la investigación astronómica. Ubicados generalmente en lugares remotos y altos para evitar la contaminación lumínica y atmosférica, estos centros nos permiten profundizar nuestro conocimiento sobre el cosmos. Además, los dos telescopios Magallanes han sido piezas fundamentales en descubrimientos como la determinación de propiedades de estrellas lejanas, la búsqueda de otros mundos, y el estudio de la materia y energía oscuras que constituyen la mayor parte del universo.
+Los telescopios Magellan, con sus espejos de gran tamaño y avanzada tecnología, son herramientas esenciales en la investigación astronómica moderna. Contribuyen significativamente a nuestra comprensión del universo, facilitando el estudio de objetos distantes como galaxias, nebulosas y otros cuerpos celestes.
 
-La luna llena ofrece no solo un espectáculo visual, sino que también es de gran interés científico; las fases lunares impactan en la observación de otros cuerpos celestes y en la realización de ciertos tipos de investigaciones astronómicas. Con cada luna llena, nos recuerda el vínculo perpetuo entre nuestro planeta y este nuestro más cercano compañero celeste.
+El atractivo que ejerce la luna sobre nosotros no ha mermado con el tiempo y continúa inspirando tanto a científicos como a soñadores, marcando un ritmo que, desde tiempos ancestrales, ha dictado semillas de mitos y leyendas, mientras que en la actualidad dicta ciclos de estudio y exploración.
 
-_Artículo actualizado el sábado, 27 de enero de 2024_
+Es importante recordar que nombres como "Full Wolf Moon" y "Full Snow Moon" provienen de las tradiciones de las tribus nativas americanas y de los primeros colonos europeos que utilizaban estos nombres para llevar registro de las estaciones. Hoy en día, continúan siendo parte de nuestra cultura popular y son usados comúnmente por medios de comunicación y entusiastas del firmamento para referirse a estos eventos de luna llena.
+
+_Artículo actualizado el domingo, 28 de enero de 2024_
