@@ -433,10 +433,10 @@ async function generateImage(subject) {
 
 async function resizeImagen() {
 
-  const imagenPath = './public/img/content'
+  const imagenPath = './public/img/base'
 
-  const directoryPath = './public/img/content';
-  const directoryPathDestino = './public/img/content/latostadora'
+  const directoryPath = './public/img/base';
+  const directoryPathDestino = './public/img/2024/febrero'
     try {
         const files = await fs.readdir(directoryPath);
         for (let file of files) {
@@ -918,7 +918,7 @@ switch (process.argv[2]) {
     
   case 'dalle':
     // Generacion imagenes DALLE 3
-    await generateDalle3Image('Messier catalogue', 'Messier catalogue')
+    await generateDalle3Image('Astrobiology', 'astrobiology')
     break;
 
   case 'resize':

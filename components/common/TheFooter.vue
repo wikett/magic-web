@@ -23,6 +23,9 @@
                   <li>
                     <a href="/otros" class="text-sm leading-6 text-gray-300 hover:text-white">Otros</a>
                   </li>
+                  <li>
+                    <a href="/astrobiologia" class="text-sm leading-6 text-gray-300 hover:text-white">Astrobiologia</a>
+                  </li>
                 </ul>
               </div>
             </div>

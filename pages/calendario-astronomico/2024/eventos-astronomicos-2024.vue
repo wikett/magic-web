@@ -34,6 +34,7 @@
             </div>
           </li>
         </ul>
+        <p class="mt-5">Abre el siguiente enlace sobre el <a class="font-medium text-blue-500" href="/calendario-astronomico/2024/guia-observacion-cielo-febrero-2024" title="Cielo de Febrero para observar" >Cielo en el Mes de Febrero en España</a> si quieres una guia más detallada de los eventos astronómicos para el mes de Febrero, conjunto con un mapa celestial para este mes</p>
         <hr class="my-12" />
         <a href="#" title="Guia de observacion de cielo Marzo 2024"><h2 class="text-xl font-medium text-gray-500">Marzo 2024</h2></a>
         <ul role="list" class="mt-3 grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-4">
