@@ -2,7 +2,7 @@
 title: Plutón en color real
 description: Imagen astronómica del día domingo, 28 de enero de 2024 por la NASA; Plutón en color real
 category: nasa
-published_time: 2024-01-28T10:29:46.642Z
+published_time: 2024-01-28T10:30:46.441Z
 url: pluton-en-color-real-2024-01-28
 created: 28 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/PlutoTrueColor_NewHorizons_8000.jpg
@@ -19,9 +19,9 @@ head:
     - name: 'og:type'
       content: 'article'
     - name: 'article:published_time'
-      content: '2024-01-28T10:29:46.642Z'
+      content: '2024-01-28T10:30:46.441Z'
     - name: 'article:modified_time'
-      content: '2024-01-28T10:29:46.642Z'
+      content: '2024-01-28T10:30:46.441Z'
     - name: 'article:section'
       content: 'nasa'
     - name: 'article:author'
@@ -58,14 +58,14 @@ imageurl: https://apod.nasa.gov/apod/image/2401/PlutoTrueColor_NewHorizons_8000.
 
 
 
-**¿Cuál es realmente el color de Plutón?** Fue un desafío descubrirlo. A pesar de todas las imágenes enviadas a la Tierra cuando la nave espacial robótica New Horizons pasó cerca de Plutón en 2015, procesar estos cuadros multiespectrales para aproximar lo que el ojo humano vería fue una tarea complicada. El resultado presentado aquí, publicado tres años después de que New Horizons adquiriese los datos crudos, es la imagen en verdadero color de la más alta resolución de Plutón jamás obtenida.
+**¿De qué color es realmente Plutón?** La respuesta no es sencilla y requirió un esfuerzo considerable para determinarla. A pesar de las imágenes enviadas a la Tierra por la nave espacial no tripulada *New Horizons* que pasó cerca de Plutón en 2015, procesar estos fotogramas multispectrales para aproximar lo que el ojo humano vería fue un desafío. El resultado presentado aquí, publicado tres años después de que *New Horizons* adquiriera los datos brutos, es la imagen de Plutón en verdadero color y de la más alta resolución jamás tomada. En la imagen se puede observar la clara forma de corazón denominada *Tombaugh Regio*, con la sorprendentemente lisa *Sputnik Planitia*, compuesta de nitrógeno congelado, llenando su lóbulo occidental.
 
-Visible en la imagen está la región clara con forma de corazón, conocida como **Tombaugh Regio**, con la insólitamente lisa **Sputnik Planitia**, compuesta de nitrógeno congelado, ocupando su lóbulo occidental. New Horizons descubrió que el planeta enano tiene una superficie sorprendentemente compleja compuesta por muchas regiones con tonalidades perceptiblemente diferentes. Sin embargo, en general, Plutón es mayormente de color marrón, y gran parte de este color atenuado proviene de pequeñas cantidades de metano en la superficie que son energizadas por la luz ultravioleta del Sol.
+*New Horizons* encontró que el planeta enano tiene una superficie sorprendentemente compleja compuesta por muchas regiones con tonalidades perceptiblemente distintas. Sin embargo, en términos generales, **Plutón es mayormente marrón**, con gran parte de su color apagado originándose a partir de pequeñas cantidades de metano superficial que son energizadas por la luz ultravioleta del Sol.
 
-Los científicos han determinado que esta **interacción de la luz solar con los compuestos de metano y otros elementos** produce una serie de reacciones químicas que crean moléculas más complejas, llamadas **toilinas**, responsables del color rojizo-marrón de la superficie.
+Además de su coloración, Plutón ha sorprendido a los científicos con su diversidad geológica, incluyendo montañas de hielo de agua que se elevan hasta 3,500 metros por encima de la superficie y vastas planicies de hielo de nitrógeno. **Los datos térmicos** también han revelado que Plutón posee un subsuelo oceánico potencialmente habitable, algo que antes se pensaba que era imposible en un mundo tan lejano y frío.
 
-Además de los colores, la **misión New Horizons reveló montañas de agua helada** que alcanzan alturas de hasta 3500 metros, vastas planicies y lo que parecen ser glaciares de nitrógeno. La atmósfera de Plutón, compuesta principalmente de nitrógeno con rastros de metano y monóxido de carbono, ha permitido a los científicos estudiar cómo varía su presión y composición con la distancia al Sol, ya que Plutón tiene una órbita altamente elíptica.
+La exploración de *New Horizons* extendió nuestro conocimiento significativamente, **demostrando la presencia de nieblas complejas y capas atmosféricas**, así como evidencia de un ciclo de hielo de nitrógeno activo. La misión nos ha llevado a reconsiderar lo que es posible en los confines de nuestro Sistema Solar, proporcionando una ventana fascinante a uno de los muchos cuerpos celestes que surcan la oscura frontera más allá de Neptuno. 
 
-La exploración de Plutón ha revelado un mundo mucho más variado y dinámico de lo que se sospechaba, uno que sigue capturando la imaginación tanto de astrónomos profesionales como de entusiastas del espacio. Con cada nueva pieza de información, **nuestra comprensión de los objetos del Cinturón de Kuiper**, como Plutón, se amplía y nos lleva a preguntas aún más profundas sobre la formación y evolución de nuestro sistema solar.
+En definitiva, Plutón ha demostrado ser un objeto celestial de estudio vasto y enriquecedor, desafiando nuestras expectativas y expandiendo nuestra comprensión del Sistema Solar.
 
 _Artículo actualizado el domingo, 28 de enero de 2024_
