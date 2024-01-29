@@ -82,11 +82,9 @@
         <div class="col-end-1 w-16 lg:row-span-4 lg:w-72">
           <img
               class="aspect-square object-cover rounded-xl bg-indigo-50 lg:rounded-3xl"
-              srcset="/img/autor-mobile.webp 64w, 
-                    /img/autor288.webp 288w"
-              sizes="(max-width: 1024px) 64px,
-                    288px"
-              src="/img/autor288.webp"
+              width="288"
+              height="288"
+              :src="autorPicture"
               :alt="data.author"
               :title="data.author"
               loading="lazy" />
@@ -145,7 +143,9 @@ defineOgImage({
 
 // console.log(page.value._path)
 // console.log(data._rawValue.author)
-
+const enriques = ['autor288.webp','autor288_1.webp', 'autor288_2.webp', 'autor288_3.webp' ]
+let autorRandom = Math.floor(Math.random() * 4)
+const autorPicture = `/img/${enriques[autorRandom]}` 
 let navigation = {
     social: [
       {

@@ -529,7 +529,7 @@ async function obtenerCategoria() {
     // console.log('Categoria SEO: '+categoriaSEO)
     
     //categoriaSEO = slugify(categoriaSEO, {separator: '-'})
-    categoriaSEO = 'constelaciones'
+    categoriaSEO = 'sistema-solar'
     console.log('Categoria SEO slugify: '+categoriaSEO)
     urlSEO = slugify(tituloSEO, {separator: '-'})
     await generateImage(tituloSEOEnglish);
@@ -899,7 +899,7 @@ switch (process.argv[2]) {
     break;
 
   case 'magic': {
-    for (let index = 0; index < 101; index++) {
+    for (let index = 0; index < 2; index++) {
       console.log('Calculando articulo: '+index)
       await obtenerCategoria();  
     }
