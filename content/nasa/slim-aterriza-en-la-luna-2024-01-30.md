@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: SLIM aterriza en la Luna
+description: Imagen astronómica del día martes, 30 de enero de 2024 por la NASA; SLIM aterriza en la Luna
 category: nasa
 published_time: 2024-01-30T07:00:02.371Z
-url: foto-del-dia-de-la-nasa-hoy
+url: slim-aterriza-en-la-luna-2024-01-30
 created: 30 Jan 2024
 imageUrl: https://apod.nasa.gov/apod/image/2401/Slim_jaxa_960.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'SLIM aterriza en la Luna'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'SLIM aterriza en la Luna'
     - name: 'og:description'
       content: 'Imagen astronómica del día martes, 30 de enero de 2024 por la NASA; SLIM aterriza en la Luna'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2401/Slim_jaxa_960.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/slim-aterriza-en-la-luna-2024-01-30'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/slim-aterriza-en-la-luna-2024-01-30'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'SLIM aterriza en la Luna'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2401/Slim_jaxa_960.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# SLIM aterriza en la Luna
 martes, 30 de enero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## SLIM aterriza en la Luna
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - JAXA, Takara Tomy, Sony Co., Doshisha U. -
+title: SLIM aterriza en la Luna, copyright - JAXA, Takara Tomy, Sony Co., Doshisha U. -
 imageurl: https://apod.nasa.gov/apod/image/2401/Slim_jaxa_960.jpg
 ---
 ::
