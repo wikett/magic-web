@@ -39,7 +39,7 @@ export default defineNuxtConfig({
     },
   },
   gtm: {
-    id: "GTM-N7BN33VN",
+    id: "GTM-PDBHS6S8",
     defer: true,
     compatibility: false,
     nonce: "2726c7f26c",
@@ -51,7 +51,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       gtm: {
-        id: "GTM-N7BN33VN",
+        id: "GTM-PDBHS6S8",
         defer: true,
         compatibility: false,
         nonce: "2726c7f26c",
