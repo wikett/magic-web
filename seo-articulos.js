@@ -436,7 +436,7 @@ async function resizeImagen() {
   const imagenPath = './public/img/base'
 
   const directoryPath = './public/img/base';
-  const directoryPathDestino = './public/img/2024/febrero'
+  const directoryPathDestino = './public/img/rescale'
     try {
         const files = await fs.readdir(directoryPath);
         for (let file of files) {
