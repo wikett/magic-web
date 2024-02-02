@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: NGC 1893 y los renacuajos de IC 410
+description: Imagen astronómica del día viernes, 2 de febrero de 2024 por la NASA; NGC 1893 y los renacuajos de IC 410
 category: nasa
 published_time: 2024-02-02T07:00:02.900Z
-url: foto-del-dia-de-la-nasa-hoy
+url: ngc-1893-y-los-renacuajos-de-ic-410-2024-02-02
 created: 02 Feb 2024
 imageUrl: https://apod.nasa.gov/apod/image/2402/Tadpoles2048original.png
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'NGC 1893 y los renacuajos de IC 410'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'NGC 1893 y los renacuajos de IC 410'
     - name: 'og:description'
       content: 'Imagen astronómica del día viernes, 2 de febrero de 2024 por la NASA; NGC 1893 y los renacuajos de IC 410'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2402/Tadpoles2048original.png'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/ngc-1893-y-los-renacuajos-de-ic-410-2024-02-02'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/ngc-1893-y-los-renacuajos-de-ic-410-2024-02-02'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'NGC 1893 y los renacuajos de IC 410'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2402/Tadpoles2048original.png'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# NGC 1893 y los renacuajos de IC 410
 viernes, 2 de febrero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## NGC 1893 y los renacuajos de IC 410
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Sander de Jong -
+title: NGC 1893 y los renacuajos de IC 410, copyright - Sander de Jong -
 imageurl: https://apod.nasa.gov/apod/image/2402/Tadpoles2048original.png
 ---
 ::
