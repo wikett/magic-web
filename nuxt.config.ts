@@ -8,11 +8,11 @@ export default defineNuxtConfig({
   },
   modules: [
     "@nuxt/content",
-    "nuxt-simple-sitemap",
     "@zadigetvoltaire/nuxt-gtm",
     "nuxt-jsonld",
     "nuxt-og-image",
     "@stefanobartoletti/nuxt-social-share",
+    "@nuxtjs/sitemap",
   ],
   components: [
     { path: "~/components/common" },
