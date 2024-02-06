@@ -2,7 +2,7 @@
   "title": "Astroingeo Blog",
   "author": "Enrique Aparicio Arias",
   "mainTitle": "Explora el Universo: Desvelando los Secretos del Más Allá, un Viaje Cósmico a Tu Alcance",
-  "authorsDescription":"<p class='text-lg leading-8 text-gray-600'>Hola, entusiastas del universo! <strong>Estoy emocionado de compartir  </strong> con ustedes la creación de mi nuevo blog de Astronomía, un espacio dedicado a <strong>nuestras aventuras celestiales</strong>.   Desde las <strong>maravillas del sistema solar</strong> hasta los misterios de las galaxias distantes,   este blog buscará explorar el cosmos a través de observaciones,   análisis y las últimas noticias astronómicas. Invito a cada alma curiosa a unirse <strong>este viaje estelar</strong> para descubrir más sobre nuestra   deslumbrante bóveda celeste. ¡Levantemos los ojos al cielo y comencemos a soñar con las estrellas!</p>",
+  "authorsDescription": "<p class='text-lg leading-8 text-gray-600'>Hola, entusiastas del universo! <strong>Estoy emocionado de compartir  </strong> con ustedes la creación de mi nuevo blog de Astronomía, un espacio dedicado a <strong>nuestras aventuras celestiales</strong>.   Desde las <strong>maravillas del sistema solar</strong> hasta los misterios de las galaxias distantes,   este blog buscará explorar el cosmos a través de observaciones,   análisis y las últimas noticias astronómicas. Invito a cada alma curiosa a unirse <strong>este viaje estelar</strong> para descubrir más sobre nuestra   deslumbrante bóveda celeste. ¡Levantemos los ojos al cielo y comencemos a soñar con las estrellas!</p>",
   "authorsSmallDescription": "¡Hola, cosmoscuriosos! Soy Enrique, apasionado por las estrellas y los vastos misterios del universo. Decidí crear este blog para compartir mi fascinación por la astronomía, explorar juntos los últimos descubrimientos y conectar con almas aventureras que anhelan comprender el cosmos. ¡Únanse a mi viaje estelar!",
   "description": "Explora el universo con nosotros: descubre las maravillas de la astronomía, desde estrellas y galaxias hasta los últimos hallazgos cósmicos.",
   "domain": "blog.astroingeo.org",
@@ -71,6 +71,7 @@
   "linkedinUrl": "https://www.linkedin.com/in/enrique-aparicio-arias-861040b1/",
   "instagramUrl": "https://www.instagram.com/ua_astroingeo/",
   "xUrl": "https://twitter.com/UA_astroingeo",
+  "facebookUrl": "",
   "amazonDescription": "Como aficionado a la astronomía, recomiendo encarecidamente marcas como Celestron, Sky-Watcher y Orion. Ofrecen telescopios robustos y accesorios de calidad para principiantes y avanzados, asegurando experiencias celestiales inolvidables. ¡No te decepcionarán!",
   "amazon": [
     {
@@ -163,6 +164,5 @@
     {
       "texto": "Ver los productos"
     }
-    
   ]
 }

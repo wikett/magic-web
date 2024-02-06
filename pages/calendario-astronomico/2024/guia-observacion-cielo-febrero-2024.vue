@@ -320,16 +320,16 @@ const urlPage = `https://blog.astroingeo.org/calendario-astronomico/2024/guia-ob
 const imagePage =
   "https://blog.astroingeo.org/img/2024/febrero/cielo-febrero-2024-hemisferio-norte.webp";
 
-const gtm = useGtm();
+// const gtm = useGtm();
 
-function triggerEvent() {
-  console.log("triggerEvent");
-  gtm.trackEvent({
-    event: "ctr_pdf",
-    category: "calendario",
-    action: "click",
-  });
-}
+// function triggerEvent() {
+//   console.log("triggerEvent");
+//   gtm.trackEvent({
+//     event: "ctr_pdf",
+//     category: "calendario",
+//     action: "click",
+//   });
+// }
 
 useHead({
   title: titlePage,

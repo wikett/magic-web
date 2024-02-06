@@ -1,16 +1,19 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: false,
   nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/", "/404.html"],
+    },
     compressPublicAssets: {
       brotli: true,
     },
   },
   modules: [
     "@nuxt/content",
-    "@zadigetvoltaire/nuxt-gtm",
     "nuxt-jsonld",
-    "nuxt-og-image",
     "@stefanobartoletti/nuxt-social-share",
     "@nuxtjs/sitemap",
   ],
@@ -20,6 +23,9 @@ export default defineNuxtConfig({
   ],
   content: {
     documentDriven: true,
+    experimental: {
+      clientDB: true,
+    },
   },
   css: ["~/assets/css/main.css"],
   postcss: {
@@ -36,30 +42,6 @@ export default defineNuxtConfig({
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
       htmlAttrs: { dir: "ltr", lang: "es" },
-    },
-  },
-  gtm: {
-    id: "GTM-PDBHS6S8",
-    defer: true,
-    compatibility: false,
-    nonce: "2726c7f26c",
-    enabled: true,
-    debug: true,
-    trackOnNextTick: false,
-    devtools: true,
-  },
-  runtimeConfig: {
-    public: {
-      gtm: {
-        id: "GTM-PDBHS6S8",
-        defer: true,
-        compatibility: false,
-        nonce: "2726c7f26c",
-        enabled: true,
-        debug: true,
-        trackOnNextTick: false,
-        devtools: true,
-      },
     },
   },
 });

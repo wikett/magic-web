@@ -17,15 +17,14 @@
         >
           <ContentList path="/nasa" v-slot="{ list }">
             <ThumbArticle
-                v-for="(post, index) in list"
-                :key="index"
-                :post="post" />
+              v-for="(post, index) in list"
+              :key="index"
+              :post="post"
+            />
           </ContentList>
         </div>
       </div>
     </div>
   </main>
 </template>
-<script setup lang="ts">
-const { data } = await useAsyncData('article', () => queryContent('/info').findOne())
-</script>
+<script setup lang="ts"></script>
