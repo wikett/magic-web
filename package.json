@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare",
     "nasa": "node seo-articulos.js nasa && git pull && git add . && git commit -m 'nasa'  && git push --all",
     "magic": "node seo-articulos.js magic && git pull && git add . && git commit -m 'magic' && git push --all",
+    "magiclow": "git pull && node seo-articulos.js magiclow && git add . && git commit -m 'magic' && git push --all",
     "prueba": "node seo-articulos.js prueba",
     "uno": "node seo-articulos.js uno && git pull && git add . && git commit -m 'uno' && git push --all"
   },

@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
+  routeRules: {
+    '/**': { prerender: true }
+  },
   nitro: {
     prerender: {
       crawlLinks: true,

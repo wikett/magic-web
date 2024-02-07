@@ -24,10 +24,13 @@ const profesional = "astronomy"; // siempre en ingles
 const autores = "Enrique";
 const categorias = [
   "Astrobiologia",
+  "Astrologia",
   "Astronomos",
   "Cielo profundo",
   "Constelaciones",
   "Eclipses",
+  "Geografia",
+  "Mitologia",
   "Otros",
   "Sistema Solar",
   "Telescopios",
@@ -47,6 +50,7 @@ const urlLinkedin =
   "https://www.linkedin.com/in/enrique-aparicio-arias-861040b1/?originalSubdomain=es";
 
 const infoJson = {};
+let calidad = 'normal'
 
 function promptTitle() {
   // return `Actúa como un experto en Marketing y aficionado a la ${categoriaWeb}. Crea un listado con 6 nombres para una marca que hable sobre ${categoriaWeb}. Dame solo el resultado final.`
@@ -426,31 +430,21 @@ async function generateImage(subject) {
     size: "1024x1024",
   });
 
-  const imageVariant = await openai.images.generate({
-    model: "dall-e-3",
-    // prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', minimalist, blueprint`,
-    prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', creative, futuristic, expressive`,
-    n: 1,
-    size: "1024x1024",
-  });
-
-  // console.log('calculando imageDiscover...')
-
-  // const imageDiscover = await openai.images.generate(
-  //   {
-  //     model: "dall-e-3",
-  //     prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', creative, futuristic, expressive`,
-  //     n: 1,
-  //     size: "1024x1024",
-  //   });
+  if( calidad !== 'low') {
+    const imageVariant = await openai.images.generate({
+      model: "dall-e-3",
+      // prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', minimalist, blueprint`,
+      prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a picture of '${subject}', creative, futuristic, expressive`,
+      n: 1,
+      size: "1024x1024",
+    });
+    imagenSecundariaSEO = imageVariant.data[0].url;
+    await downloadImage("DALLE", imagenSecundariaSEO, "2", "");
+  }
 
   imagenPrincipalSEO = image.data[0].url;
-  imagenSecundariaSEO = imageVariant.data[0].url;
-  // imagenDiscover = imageDiscover.data[0].url
 
   await downloadImage("DALLE", imagenPrincipalSEO, "1", "");
-  await downloadImage("DALLE", imagenSecundariaSEO, "2", "");
-  // await downloadImage("DALLE", imagenDiscover, "3", "")
 }
 
 async function resizeImagen() {
@@ -540,6 +534,9 @@ async function obtenerCategoria() {
     const data = await fs.readFile(filepath, "utf8");
 
     const lines = data.split("\n");
+    if (lines.length>0){
+      return;
+    }
     tituloSEO = lines[0];
     tituloSEO = tituloSEO[0].toUpperCase() + tituloSEO.slice(1);
 
@@ -558,11 +555,6 @@ async function obtenerCategoria() {
     await generateImage(tituloSEOEnglish);
 
     articuloPathSEO = `./content/${categoriaSEO}/${urlSEO}.md`;
-    // guiaSEO = await chatgptMagic(promptArticulo(tituloSEO), "gpt-4-1106-preview");
-    // guiaSEO = guiaSEO.split(/\r\n|\r|\n/)
-    // guiaSEO = guiaSEO.filter((letter) => letter !== "")
-
-    // await processContent(guiaSEO)
     await createArticle();
 
     // Remove the first line
@@ -663,6 +655,15 @@ title: ${tituloSEO}
 ::
 
 `;
+if (calidad === 'low') {
+  stringToAdd = `
+  ::publi-block
+  ---
+  ---
+  ::
+  
+  `;
+}
 
   let newContenido = contenido.replace("Frodo", stringToAdd);
   newContenido = newContenido.replace("frodo", stringToAdd);
@@ -962,6 +963,15 @@ switch (process.argv[2]) {
 
   case "magic": {
     for (let index = 0; index < 215; index++) {
+      console.log("Calculando articulo: " + index);
+      await obtenerCategoria();
+    }
+    break;
+  }
+
+  case "magiclow": {
+    calidad = 'low'
+    for (let index = 0; index < 50; index++) {
       console.log("Calculando articulo: " + index);
       await obtenerCategoria();
     }
