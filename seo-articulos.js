@@ -534,7 +534,8 @@ async function obtenerCategoria() {
     const data = await fs.readFile(filepath, "utf8");
 
     const lines = data.split("\n");
-    if (lines.length>0){
+    console.log('lines: '+lines.length)
+    if (lines.length===0){
       return;
     }
     tituloSEO = lines[0];
