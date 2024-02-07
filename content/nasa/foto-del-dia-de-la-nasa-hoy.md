@@ -2,9 +2,9 @@
 title: Foto astronómica del día por la NASA
 description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
 category: nasa
-published_time: 2024-02-06T07:00:02.613Z
+published_time: 2024-02-07T07:00:02.232Z
 url: foto-del-dia-de-la-nasa-hoy
-created: 06 Feb 2024
+created: 07 Feb 2024
 imageUrl: https://apod.nasa.gov/apod/image/2402/Ngc1566_HubbleWebb_2125.jpg
 head:
   meta:
@@ -15,13 +15,13 @@ head:
     - name: 'og:title'
       content: 'Foto astronómica del día por la NASA'
     - name: 'og:description'
-      content: 'Imagen astronómica del día martes, 6 de febrero de 2024 por la NASA; NGC 1566; Una galaxia espiral desde Webb y Hubble'
+      content: 'Imagen astronómica del día miércoles, 7 de febrero de 2024 por la NASA; NGC 1566; Una galaxia espiral desde Webb y Hubble'
     - name: 'og:type'
       content: 'article'
     - name: 'article:published_time'
-      content: '2024-02-06T07:00:02.613Z'
+      content: '2024-02-07T07:00:02.232Z'
     - name: 'article:modified_time'
-      content: '2024-02-06T07:00:02.613Z'
+      content: '2024-02-07T07:00:02.232Z'
     - name: 'article:section'
       content: 'nasa'
     - name: 'article:author'
@@ -39,14 +39,14 @@ head:
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2402/Ngc1566_HubbleWebb_2125.jpg'
     - name: 'twitter:description'
-      content: 'Imagen astronómica del día martes, 6 de febrero de 2024 por la NASA; NGC 1566; Una galaxia espiral desde Webb y Hubble'
+      content: 'Imagen astronómica del día miércoles, 7 de febrero de 2024 por la NASA; NGC 1566; Una galaxia espiral desde Webb y Hubble'
     - name: 'twitter:image'
       content: 'https://apod.nasa.gov/apod/image/2402/Ngc1566_HubbleWebb_2125.jpg'
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
 # Foto del día de la NASA hoy
-martes, 6 de febrero de 2024
+miércoles, 7 de febrero de 2024
 
 Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
 En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
@@ -62,16 +62,16 @@ imageurl: https://apod.nasa.gov/apod/image/2402/Ngc1566_HubbleWebb_2125.jpg
 
 
 
-La galaxia **Bailarina Española**, o NGC 1566, es una muestra emblemática de belleza celestial debido a su estructura espiral, tan representativa de lo que imaginamos cuando pensamos en galaxias. Pero lo que hace realmente especial la imagen de NGC 1566 que nos presenta la **NASA** no es solamente el galaxia en sí, sino la manera en que ha sido capturada y presentada para nuestro asombro y análisis.
+La **galaxia Bailarina Española**, o NGC 1566, es una de las galaxias espirales más representativas y atractivas visualmente de nuestro firmamento. A primera vista, no parece tener características extraordinarias que la distingan de otras galaxias espirales; sin embargo, la combinación de imágenes de la _Hubble Space Telescope_ y del _James Webb Space Telescope_ nos revelan facetas inesperadas de esta hermosa galaxia.
 
-Esta imagen es una combinación diagonal de dos fotografías tomadas por los telescopios más avanzados de nuestra era: el **Telescopio Espacial Hubble** en la parte superior izquierda, y el **Telescopio Espacial James Webb** (JWST), en la parte inferior derecha. Estas dos perspectivas nos ofrecen una visión comparativa y complementaria de esta distante masa estelar.
+La imagen procesada que observamos es una combinación diagonal de dos tomas: en la parte superior izquierda, una imagen tomada por el _Hubble_ en luz ultravioleta, la cual resalta la presencia de estrellas jóvenes, masivas y calientes que brillan intensamente en esta longitud de onda y revela también las intrincadas estructuras de polvo que se entretejen a lo largo de los brazos espirales de NGC 1566. En contraste, la imagen inferior derecha, cortesía del _James Webb_, captura el espectro infrarrojo que nos permite apreciar cómo el mismo polvo que oscurece las estrellas en luz visible, brilla al liberar energía en el infrarrojo.
 
-El **Hubble**, conocido por sus años de servicio y su invaluable contribución a la astronomía, capturó esta parte de NGC 1566 en luz ultravioleta, una técnica que resalta la presencia de estrellas azules jóvenes y masivas, así como las intrincadas líneas de polvo cósmico que serpentean los brazos espirales de la galaxia. Por su parte, el **JWST**, una maravilla tecnológica lanzada recientemente, utiliza su capacidad para ver en el infrarrojo para mostrar las mismas regiones de polvo, solo que esta vez revelando la luz que emiten dichas partículas, más allá de lo que el ojo humano puede percibir.
+Este juego de imágenes nos permite hacer un interesante **"crunching"** o análisis de los datos astronómicos. Al entrecruzar las imágenes del Hubble y del Webb, podemos discernir qué estrellas son especialmente calientes, ya que resplandecen más en el espectro ultravioleta, así como diferenciar entre lo que parece espacio vacío y lo que es, en realidad, polvo emitiendo luz en el infrarrojo. Es el arte del **cielo profundo** llevado a una expresión que no solo es visual, sino también analítica.
 
-Es fascinante apreciar cómo al 'parpadear' entre estas dos imágenes se revelan estrellas notablemente calientes, evidenciadas por su brillo en la longitud de onda ultravioleta, mientras que las zonas que pueden parecer vacías en una imagen estallan con actividad en la otra debido al resplandor del polvo en el infrarrojo.
+El reto propuesto por la **NASA's Astrophoto Challenge** invita a astrónomos amateurs y entusiastas a participar en el procesamiento de estas imágenes, proporcionando la oportunidad de contribuir al entendimiento de los rincones más lejanos de nuestro universo.
 
-Esta amalgama de datos no solo nos deleita visualmente sino que también nos invita a participar en el desafío **Astrophoto** de la NASA, dando a los aficionados la oportunidad de trabajar con imágenes astronómicas de alta calidad y aprender más sobre cómo los astrónomos procesan, comparan y analizan datos para entender mejor los secretos del universo.
+NGC 1566 es parte del _Grupo Dorado_, localizada a unos impresionantes **40 millones de años luz** de distancia en la constelación de Dorado. Es una galaxia activa que alberga un núcleo Seyfert, lo que significa que su núcleo es extremadamente luminoso, probablemente debido a la presencia de un agujero negro supermasivo central que está devorando material estelar a un ritmo voraz.
 
-NGC 1566 es más que una postal del cosmos; es un laboratorio dinámico para el estudio de la formación estelar, la distribución de la materia interestelar y la influencia de la luz en los entornos galácticos. Al observar cuidadosamente los detalles en las imágenes del Hubble y del JWST, no solo apreciamos la belleza de NGC 1566, sino que también obtenemos pistas fundamentales sobre la composición y la historia de las galaxias espirales, las cuales están entre las estructuras más magníficas y misteriosas de nuestro universo.
+Por tanto, la colaboración de imágenes de estos dos telescopios espaciales no solo nos proporciona un espectáculo visual sin parangón, sino que también ofrece insights críticos para comprender la física y la dinámica de las galaxias espirales como la nuestra, la Vía Láctea. El universo es un tesoro de maravillas que aún tenemos mucho por descubrir, y herramientas como estas imágenes son las llaves que abren puertas a esos secretos celestiales.
 
-_Artículo actualizado el martes, 6 de febrero de 2024_
+_Artículo actualizado el miércoles, 7 de febrero de 2024_
