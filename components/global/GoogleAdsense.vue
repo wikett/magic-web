@@ -1,22 +1,21 @@
 <template>
   <component v-if="isShow" :class="_class" :is="tag">
-    <!-- <ins
-      v-if="type == 'link'"
-      class="adsbygoogle"
-      style="display: block"
-      :data-ad-channel="channel"
-      data-ad-format="fluid"
-      data-ad-layout-key="-gb+7+v-no+1a7"
-      data-ad-client="ca-pub-8122******"
-      data-ad-slot="2872******"
-    ></ins> -->
     <ins
+      v-if="type == 'in-article'"
       class="adsbygoogle"
       style="display: block; text-align: center"
       data-ad-layout="in-article"
       data-ad-format="fluid"
       data-ad-client="ca-pub-5731349288066148"
       data-ad-slot="4197687694"
+    ></ins>
+    <ins
+      v-if="type == 'multiplex'"
+      class="adsbygoogle"
+      style="display: block"
+      data-ad-format="autorelaxed"
+      data-ad-client="ca-pub-5731349288066148"
+      data-ad-slot="2183319321"
     ></ins>
   </component>
 </template>
@@ -33,11 +32,7 @@ const props = defineProps({
   },
   type: {
     type: String,
-    default: 'display',
-  },
-  channel: {
-    type: String,
-    default: 'nochannel',
+    default: 'in-article',
   },
 });
 console.log(isShow);

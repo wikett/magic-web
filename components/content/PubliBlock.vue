@@ -1,3 +1,3 @@
 <template>
-  <google-adsense />
+  <google-adsense type="in-article" />
 </template>
