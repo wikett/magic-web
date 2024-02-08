@@ -60,6 +60,11 @@ La constelación Fénix es un grupo de estrellas que nos fascina y nos cuenta hi
 
 Descubierta hace mucho tiempo, esta constelación no es una de las más conocidas, pero sí es especial para aquellos que ponen sus ojos en las estrellas. Tiene una historia rica, asociada con culturas de todo el mundo, y su presencia en el firmamento siempre ha sido un tema de gran interés para astrónomos y aficionados por igual.
 
+::publi-block
+---
+---
+::
+
 ## Ubicación y Visibilidad de la Constelación Fénix
 
 La constelación Fénix se encuentra en el sur del cielo. Para quienes viven en el hemisferio sur, es mucho más fácil ver la constelación Fénix, especialmente durante los meses de octubre y noviembre. En estas épocas, la constelación Fénix se ve alta y clara en el cielo nocturno.
@@ -103,6 +108,11 @@ Además, la constelación Fénix es parte de un grupo de constelaciones que los 
 El nombre e imagen del fénix se utilizan mucho en la cultura. Desde libros y películas hasta equipos deportivos y empresas, la idea de renacimiento y fuerza que representa el fénix es algo que sigue inspirando a la gente hoy en día.
 
 En el cielo, la constelación Fénix igualmente inspira a los que la observan, recordándonos que hay un ciclo en todo y que incluso en la oscuridad, hay luz y belleza. La constelación Fénix, con sus estrellas distantes, es un recordatorio de la persistencia y la posibilidad del renacimiento.
+
+::publi-block
+---
+---
+::
 
 ## Conclusión: El Legado de la Constelación Fénix
 

@@ -57,6 +57,11 @@ imageurl: https://blog.astroingeo.org/img/content/la-cultura-inca-y-su-conocimie
 ## Introducción al Mundo Inca y la Astronomía
 Los **Incas** fueron una civilización llena de misterios, cultura rica y sabiduría antigua. Entre los muchos conocimientos que tenían, su comprensión del cosmos – o la **astronomía** – era algo muy adelantado para su tiempo. Los Incas no solo admiraban la belleza del cielo, sino que también lo estudiaban detenidamente y basaban en él muchos aspectos de su vida cotidiana.
 
+::publi-block
+---
+---
+::
+
 ## La Importancia de la Astronomía en la Cultura Inca
 Para los Incas, la **astronomía** no era solo ciencia, era parte esencial de su cultura y religión. Ellos pensaban que el cosmos estaba directamente conectado con la tierra, y que observando los cielos podían predecir el clima, saber cuándo plantar y cosechar, e incluso realizar sus festividades religiosas. Todo esto muestra cuánto respeto y valor tenían por la **astronomía**.
 
@@ -88,6 +93,11 @@ Muchas festividades Incas tenían conexión astronómica. Celebraciones como el 
 
 ## El Cielo Nocturno y la Vida Cotidiana Inca
 El cielo nocturno era una presencia constante en la vida de todo Inca. Su día a día, sus creencias y su cultura estaban íntimamente ligados a los fenómenos celestiales observados y entendidos por ellos. La **astronomía** no era un campo de estudio aparte, era el hilo que tejía su existencia con el universo.
+
+::publi-block
+---
+---
+::
 
 ## Los Legados Astronómicos de los Incas Hoy
 A pesar de que el imperio Inca desapareció, su conocimiento astronómico nos sigue asombrando. Muchos de sus métodos de observación y sistemas de calendario aún influyen en comunidades andinas modernas, y su manera de entender el cosmos continúa inspirando a astrónomos y aficionados alrededor del mundo.

@@ -47,6 +47,11 @@ head:
 ---
 # El Gran Espiral en el Cielo: El Origen de Nuestra Vía Láctea
 
+::publi-block
+---
+---
+::
+
 La Vía Láctea, ese espléndido despliegue de estrellas, gas y polvo que se extiende a través de la bóveda celeste, es la galaxia que llamamos nuestro hogar cósmico. Su origen, es una historia de asombros, repleta de acontecimientos cósmicos que desafían la imaginación y nos recuerdan nuestra pequeña parte en el vasto universo. A continuación, exploraremos las etapas fundamentales en la formación de la Vía Láctea, utilizando términos sencillos y fáciles de comprender.
 
 ::photo-article
@@ -107,6 +112,11 @@ Nuestra galaxia ha colisionado y se ha fusionado con muchas otras a lo largo de 
 ### La formación y muerte de las estrellas
 
 Las estrellas están naciendo y muriendo constantemente en la Vía Láctea. Cuando una estrella muere, puede explotar como una supernova y esparcir los elementos que había fusionado, contribuyendo al material del que se formarán nuevas estrellas y planetas. 
+
+::publi-block
+---
+---
+::
 
 ## El futuro de la Vía Láctea
 

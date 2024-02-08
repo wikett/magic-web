@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white px-6 py-8 lg:px-8">
+  <main class="bg-white px-6 py-8 lg:px-8">
     <div class="mx-auto max-w-4xl text-base leading-7 text-gray-700">
       <TransitionRoot as="template" :show="open">
         <Dialog as="div" class="relative z-10" @close="open = false">
@@ -193,7 +193,7 @@
         </div>
       </section>
     </div>
-  </div>
+  </main>
 </template>
 <script setup>
 import { ref } from 'vue';

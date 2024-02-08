@@ -60,6 +60,11 @@ imageurl: https://blog.astroingeo.org/img/content/que-son-y-como-se-forman-las-n
 
 Las nebulosas son nubes gigantes en el espacio, llenas de gas y polvo. Cuando miramos las fotos de nebulosas tomadas por telescopios, notamos su belleza por los colores y formas únicas que presentan. Hay diferentes tipos de nebulosas y cada una tiene su propia identidad y razón de ser.
 
+::publi-block
+---
+---
+::
+
 ### Nebulosa de Emisión
 
 Estas nebulosas brillan con luz propia. La energía de las estrellas jóvenes y calientes que hay cerca las excita, haciendo que emitan luz en distintos colores, dependiendo de la composición de los gases.
@@ -119,6 +124,11 @@ Los poderosos telescopios en la tierra, como el Very Large Telescope en Chile, p
 ### Telescopios Espaciales
 
 El Telescopio Espacial Hubble, y próximamente el Telescopio Espacial James Webb, son herramientas clave para observar nebulosas ya que no tienen la interferencia de la atmósfera de la tierra.
+
+::publi-block
+---
+---
+::
 
 ## La Importancia de las Nebulosas
 

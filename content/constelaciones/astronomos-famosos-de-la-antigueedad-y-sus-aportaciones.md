@@ -66,6 +66,11 @@ Los astrónomos de Babilonia son entre los primeros en dejar una marca en la his
 - **Calendarios**: Desarrollaron un calendario lunar que influyó en culturas subsiguientes.
 - **Cálculos astronómicos**: Usaron sistemas numéricos avanzados, que les permitían realizar complicados cálculos astronómicos.
 
+::publi-block
+---
+---
+::
+
 ## Tales de Mileto y la Previsión de Eclipses
 
 **Tales de Mileto**, un sabio griego del siglo VI a.C., es conocido por su capacidad de predecir eclipses solares. Aunque no dejó escritos, sus contemporáneos y filósofos posteriores mencionan sus observaciones y teorías.
@@ -129,6 +134,11 @@ Aunque su modelo no fue aceptado en su tiempo, **Aristarco de Samos** tuvo una v
 
 - **Circunferencia de la Tierra**: Realizó la primera medición conocida de la circunferencia terrestre, sorprendentemente precisa para su época.
 - **Catálogos geográficos**: A través de sus trabajos, contribuyó al conocimiento geográfico de su tiempo, lo cual era esencial para la astronomía.
+
+::publi-block
+---
+---
+::
 
 ## Zhang Heng y la Astronomía China
 

@@ -62,6 +62,11 @@ La constelación Grulla, conocida también por su nombre en latín, "Grus", es u
 
 En la Constelación Grulla podemos identificar varias estrellas que son importantes por su brillo y que han sido usadas por los navegantes para orientarse. Su forma recuerda, como su nombre indica, a una grulla en pleno vuelo, y esta sencillez en su patrón hace que sea fácil de reconocer una vez que se sabe dónde mirar.
 
+  ::publi-block
+  ---
+  ---
+  ::
+
 ## Historia y Mitología
 
 Aunque no forma parte de las constelaciones tradicionales que fueron catalogadas por los antiguos griegos, la Constelación Grulla sí que ha inspirado historias y leyendas. En algunas culturas, las grullas son vistas como símbolos de longevidad y sabiduría, y en otras, son portadoras de almas y mensajeras de los dioses.
@@ -115,6 +120,11 @@ Sin embargo, en las historias de navegantes y exploradores, la Constelación Gru
 Una curiosidad de esta constelación es que no contiene cúmulos estelares o nebulosas brillantes, como es el caso en otras constelaciones más conocidas y estudiadas. Su encanto radica en la sencillez de su patrón y la belleza de sus estrellas.
 
 La estrella Alnair, a pesar de ser la más brillante de la Constelación Grulla, es una estrella bastante común en términos astronómicos. Sin embargo, su posición y brillo hacen que tenga un papel importante, siendo una de las estrellas más destacadas para los observadores del cielo austral.
+
+::publi-block
+---
+---
+::
 
 ## El Futuro de la Constelación Grulla en la Astronomía
 

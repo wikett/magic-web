@@ -64,6 +64,11 @@ Por ejemplo, los *Babilonios* eran expertos en seguir los movimientos de los pla
 
 En los Andes, el pueblo *Inca* alineó cuidadosamente sus ciudades, templos y líneas misteriosas llamadas Nazca con eventos celestiales importantes como solsticios y equinoccios. Ellos veían el cielo como un reino divino que reflejaba su orden social y su cosmovisión.
 
+::publi-block
+---
+---
+::
+
 ## Astronomía y astrología en las civilizaciones antiguas
 
 Para las civilizaciones antiguas, la astronomía y la astrología eran partes de una misma ciencia que buscaba comprender no solo la mecánica del cielo, sino su influencia en los asuntos humanos.
@@ -103,6 +108,11 @@ Las civilizaciones antiguas no solo miraban los astros por razones espirituales 
 Los marineros fenicios, por ejemplo, navegaban el Mediterráneo usando las estrellas para orientarse. Sabían que al seguir la estrella Polaris, podían mantener un curso hacia el norte.
 
 Los agricultores de muchas culturas usaban un calendario basado en los ciclos lunares para saber cuándo sembrar y cuándo cosechar. Este conocimiento era esencial para la supervivencia y prosperidad de las civilizaciones antiguas.
+
+::publi-block
+---
+---
+::
 
 ## Conclusiones: Los astros y su legado
 
