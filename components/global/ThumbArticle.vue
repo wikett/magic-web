@@ -6,7 +6,7 @@
       :src="post.imageUrl"
       :alt="post.title"
       :title="post.title"
-      class="absolute inset-0 -z-10 w-full object-fill h-24"
+      class="absolute inset-0 -z-10 w-full object-cover h-24"
       width="40"
       height="80"
       loading="lazy"

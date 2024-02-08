@@ -174,11 +174,9 @@
                 v-if="prev && prev._path !== '/info'"
                 :post="prev"
               />
-              <ThumbArticle
-                v-for="(item, index) in data"
-                :key="index"
-                :post="item"
-              />
+              <ThumbArticle :post="postUno" />
+              <ThumbArticle :post="postDos" />
+
               <ThumbArticle v-if="next" :post="next" />
             </div>
             <google-adsense type="multiplex" />
@@ -197,7 +195,7 @@
     </div>
   </div>
 </template>
-<script setup lang="ts">
+<script setup>
 import { ref } from 'vue';
 import {
   Dialog,
@@ -211,24 +209,26 @@ import { XMarkIcon } from '@heroicons/vue/24/outline';
 const { prev, page, next, toc } = useContent();
 const route = useRoute();
 import info from '../content/info.json';
+let postUno = null;
+let postDos = null;
 
-console.log('prev');
-console.log(prev.value.url);
 const categoria = page.value.category ?? '/';
-const { data } = await useAsyncData('home', () =>
-  queryContent(categoria).limit(2).find()
+const { data } = await useAsyncData(categoria, () =>
+  queryContent(categoria).find()
 );
-console.log('data');
-console.log(data.value);
-// console.log(info.author)
-const enriques = [
-  'autor288.webp',
-  'autor288_1.webp',
-  'autor288_2.webp',
-  'autor288_3.webp',
-];
-let autorRandom = Math.floor(Math.random() * 4);
-const autorPicture = `/img/${enriques[autorRandom]}`;
+if (data.value) {
+  const randomPost = data.value?.length
+    ? Math.floor(Math.random() * data.value?.length)
+    : 10;
+  const randomPost2 = data.value?.length
+    ? Math.floor(Math.random() * data.value?.length)
+    : 10;
+  postUno = data.value[randomPost];
+  postDos = data.value[randomPost2];
+}
+
+let autorRandom = Math.floor(Math.random() * 6 + 1);
+const autorPicture = `/img/autor288_${autorRandom}.webp`;
 let navigation = {
   social: [
     {

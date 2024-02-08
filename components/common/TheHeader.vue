@@ -52,9 +52,8 @@
             <a href="/" class="-m-1.5 p-1.5">
               <span class="sr-only">{{ data.domain }}</span>
               <img
-                class="h-14 w-auto"
                 src="/img/logo.webp"
-                width="167"
+                width="137"
                 height="56"
                 :alt="data.domain"
                 :title="data.domain"
@@ -89,10 +88,10 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-import { Dialog, DialogPanel } from "@headlessui/vue";
-import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
-import data from "../../content/info.json";
+import { ref } from 'vue';
+import { Dialog, DialogPanel } from '@headlessui/vue';
+import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline';
+import data from '../../content/info.json';
 
 const mobileMenuOpen = ref(false);
 </script>
