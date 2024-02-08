@@ -1,4 +1,3 @@
 <template>
-    <div>
-    </div>
-  </template>
+  <google-adsense />
+</template>

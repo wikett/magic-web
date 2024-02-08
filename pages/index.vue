@@ -32,24 +32,8 @@
         class="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32"
       />
     </div>
-    <h3>ADS</h3>
     <div>
       <google-adsense />
-      <!-- <Adsbygoogle
-        ad-format="fluid"
-        ad-layout="in-article"
-        ad-slot="4197687694"
-        data-ad-full-width-responsive="true"
-        :ad-style="{
-          display: 'block',
-          'text-align': 'center',
-        }"
-      /> -->
-      <!-- <Adsbygoogle
-        ad-format="auto"
-        ad-slot="9642724131"
-        data-ad-full-width-responsive="true"
-      /> -->
     </div>
 
     <div v-if="true" class="bg-white">
