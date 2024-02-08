@@ -20,11 +20,8 @@
             hemos sido capaces de descubrir y estudiar fenómenos astronómicos
             como estrellas, planetas, galaxias y nebulosas.
 
-            <br /><img
-              :src="data.categoryImages[0].image"
-              :alt="data.categoryImages[0].title"
-              class="aspect-[7/5] w-[37rem] mx-6 max-w-none rounded-2xl object-cover float-right"
-            />Existen diferentes tipos de <strong>telescopios</strong>, cada uno
+            <br />
+            Existen diferentes tipos de <strong>telescopios</strong>, cada uno
             con sus propias características y aplicaciones. Por ejemplo, los
             <strong>telescopios</strong> refractores utilizan lentes para
             enfocar la luz, mientras que los
@@ -43,9 +40,9 @@
             descubrimientos asombrosos. Por ejemplo, el telescopio Hubble nos ha
             mostrado imágenes detalladas de galaxias distantes, ayudándonos a
             entender mejor la evolución del universo. También hemos podido
-            observar exoplanetas fuera de nuestro
-            <a href="/sistema-solar">Sistema Solar</a>, lo que nos acerca a
-            responder la antigua pregunta "¿estamos solos en el universo?".
+            observar exoplanetas fuera de nuestro Sistema Solar, lo que nos
+            acerca a responder la antigua pregunta "¿estamos solos en el
+            universo?".
 
             <br />Además de su importancia científica, los telescopios también
             nos permiten conectarnos con el cosmos y apreciar su belleza.
@@ -64,18 +61,18 @@
         <div
           class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
         >
-          <ContentList path="/telescopios" v-slot="{ list }">
-            <ThumbArticle
-              v-for="(post, index) in list"
-              :key="index"
-              :post="post"
-            />
-          </ContentList>
+          <ThumbArticle
+            v-for="(post, index) in data"
+            :key="index"
+            :post="post"
+          />
         </div>
       </div>
     </div>
   </main>
 </template>
 <script setup>
-import data from "../content/info.json";
+const { data } = await useAsyncData('/telescopios', () =>
+  queryContent('/telescopios').find()
+);
 </script>

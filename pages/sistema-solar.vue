@@ -19,11 +19,8 @@
             Estos cuerpos incluyen planetas, lunas, asteroides, cometas y muchos
             otros objetos cósmicos.
 
-            <br /><img
-              :src="data.categoryImages[0].image"
-              :alt="data.categoryImages[0].title"
-              class="aspect-[7/5] w-[37rem] mx-6 max-w-none rounded-2xl object-cover float-right"
-            />Comencemos por el astro rey, <strong>el Sol</strong>. Es una
+            <br />
+            Comencemos por el astro rey, <strong>el Sol</strong>. Es una
             estrella gigantesca compuesta principalmente de hidrógeno y helio, y
             es responsable de proporcionar la energía necesaria para que la vida
             en la Tierra prospere. Su luz y calor brindan un ambiente propicio
@@ -65,18 +62,18 @@
         <div
           class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
         >
-          <ContentList path="/sistema-solar" v-slot="{ list }">
-            <ThumbArticle
-              v-for="(post, index) in list"
-              :key="index"
-              :post="post"
-            />
-          </ContentList>
+          <ThumbArticle
+            v-for="(post, index) in data"
+            :key="index"
+            :post="post"
+          />
         </div>
       </div>
     </div>
   </main>
 </template>
 <script setup>
-import data from "../content/info.json";
+const { data } = await useAsyncData('/sistema-solar', () =>
+  queryContent('/sistema-solar').find()
+);
 </script>

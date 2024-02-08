@@ -1,11 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: false,
   routeRules: {
-    "/**": { isr: true },
-    "/api/**": { isr: false },
+    '/**': { prerender: true }
   },
   nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ["/", "/404.html"],
+    },
     compressPublicAssets: {
       brotli: true,
     },
@@ -23,6 +27,9 @@ export default defineNuxtConfig({
   ],
   content: {
     documentDriven: true,
+    experimental: {
+      clientDB: true,
+    },
   },
   css: ["~/assets/css/main.css"],
   postcss: {

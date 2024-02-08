@@ -20,8 +20,8 @@
             rodean.
 
             <br /><img
-              :src="data.categoryImages[2].image"
-              :alt="data.categoryImages[2].title"
+              :src="info.categoryImages[2].image"
+              :alt="info.categoryImages[2].title"
               class="aspect-[7/5] w-[37rem] mx-6 max-w-none rounded-2xl object-cover float-right"
             />La palabra <strong>"constelación"</strong> deriva del término
             latino <strong>"constellatio"</strong>, que significa "conjunto de
@@ -65,18 +65,19 @@
         <div
           class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
         >
-          <ContentList path="/constelaciones" v-slot="{ list }">
-            <ThumbArticle
-              v-for="(post, index) in list"
-              :key="index"
-              :post="post"
-            />
-          </ContentList>
+          <ThumbArticle
+            v-for="(post, index) in data"
+            :key="index"
+            :post="post"
+          />
         </div>
       </div>
     </div>
   </main>
 </template>
 <script setup>
-import data from "../content/info.json";
+import info from '../content/info.json';
+const { data } = await useAsyncData('/cielo-profundo', () =>
+  queryContent('/cielo-profundo').find()
+);
 </script>

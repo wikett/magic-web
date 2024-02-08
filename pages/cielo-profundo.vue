@@ -14,18 +14,14 @@
             misterioso rincón del universo.
 
             <br />El Cielo Profundo se refiere a todo aquello que se encuentra
-            más allá de
-            <strong><a href="/sistema-solar">nuestro Sistema Solar</a></strong
-            >. A diferencia de las estrellas individuales y los planetas que
-            componen nuestro sistema estelar cercano, el Cielo Profundo nos
-            muestra estructuras cósmicas más grandes, como galaxias, cúmulos
-            estelares, nebulosas y otros objetos celestes.
+            más allá de <strong>nuestro Sistema Solar</strong>. A diferencia de
+            las estrellas individuales y los planetas que componen nuestro
+            sistema estelar cercano, el Cielo Profundo nos muestra estructuras
+            cósmicas más grandes, como galaxias, cúmulos estelares, nebulosas y
+            otros objetos celestes.
 
-            <br /><img
-              :src="data.categoryImages[3].image"
-              :alt="data.categoryImages[3].title"
-              class="aspect-[7/5] w-[37rem] mx-6 max-w-none rounded-2xl object-cover float-right"
-            />Uno de los aspectos más fascinantes del
+            <br />
+            Uno de los aspectos más fascinantes del
             <strong>Cielo Profundo</strong> es la gran cantidad de galaxias que
             podemos observar. Estas vastas agrupaciones de estrellas, gas y
             polvo cósmico nos muestran la diversidad y la inmensidad del
@@ -49,10 +45,9 @@
             catastróficas.
 
             <br />Explorar el Cielo Profundo es un desafío apasionante para los
-            astrónomos. Utilizando
-            <a href="/telescopios">telescopios</a> potentes y tecnologías
-            avanzadas, podemos adentrarnos en el reino de los objetos celestes
-            distantes y desvelar sus secretos.
+            astrónomos. Utilizando telescopios potentes y tecnologías avanzadas,
+            podemos adentrarnos en el reino de los objetos celestes distantes y
+            desvelar sus secretos.
 
             <br />El estudio del Cielo Profundo nos ayuda a comprender la
             evolución del universo, cómo se forman y se desarrollan las
@@ -71,18 +66,18 @@
         <div
           class="mx-auto mt-16 grid max-w-2xl auto-rows-fr grid-cols-1 gap-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
         >
-          <ContentList path="/cielo-profundo" v-slot="{ list }">
-            <ThumbArticle
-              v-for="(post, index) in list"
-              :key="index"
-              :post="post"
-            />
-          </ContentList>
+          <ThumbArticle
+            v-for="(post, index) in data"
+            :key="index"
+            :post="post"
+          />
         </div>
       </div>
     </div>
   </main>
 </template>
 <script setup>
-import data from "../content/info.json";
+const { data } = await useAsyncData('/cielo-profundo', () =>
+  queryContent('/cielo-profundo').find()
+);
 </script>
