@@ -14,10 +14,11 @@ export default defineNuxtConfig({
       brotli: true,
     },
   },
+  // "@zadigetvoltaire/nuxt-gtm",
   modules: [
     "@nuxt/content",
     "nuxt-jsonld",
-    "@stefanobartoletti/nuxt-social-share",
+    "@stefanobartoletti/nuxt-social-share",    
     "@nuxtjs/sitemap",
   ],
   components: [
@@ -47,4 +48,23 @@ export default defineNuxtConfig({
       htmlAttrs: { dir: "ltr", lang: "es" },
     },
   },
+  runtimeConfig: {
+    public: {
+      enableAdsense: true
+    }
+  }
+  // runtimeConfig: {
+  //   public: {
+  //     gtm: {
+  //       id: 'GTM-5TWXHMZ6',
+  //       defer: false,
+  //       compatibility: false,
+  //       nonce: '2726c7f26c',
+  //       enabled: true,
+  //       debug: true,
+  //       trackOnNextTick: false,
+  //       devtools: true,
+  //     }
+  //   }
+  // },
 });

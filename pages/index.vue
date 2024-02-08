@@ -32,8 +32,27 @@
         class="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32"
       />
     </div>
+    <h3>ADS</h3>
+    <div>
+      <google-adsense />
+      <!-- <Adsbygoogle
+        ad-format="fluid"
+        ad-layout="in-article"
+        ad-slot="4197687694"
+        data-ad-full-width-responsive="true"
+        :ad-style="{
+          display: 'block',
+          'text-align': 'center',
+        }"
+      /> -->
+      <!-- <Adsbygoogle
+        ad-format="auto"
+        ad-slot="9642724131"
+        data-ad-full-width-responsive="true"
+      /> -->
+    </div>
 
-    <div v-if="false" class="bg-white">
+    <div v-if="true" class="bg-white">
       <div class="mx-auto max-w-7xl py-20 sm:px-6 sm:py-20 lg:px-8">
         <div
           class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16"
@@ -54,9 +73,9 @@
               >Calendario astronómico 2024</a
             >
             <a
-              href="/calendario-astronomico/2024/guia-observacion-cielo-enero-2024"
+              href="/calendario-astronomico/2024/guia-observacion-cielo-febrero-2024"
               class="text-sm font-semibold leading-6 text-white"
-              >Cielo para enero 2024 <span aria-hidden="true">→</span></a
+              >Cielo para febrero 2024 <span aria-hidden="true">→</span></a
             >
           </div>
           <svg
@@ -275,19 +294,19 @@
   </main>
 </template>
 <script setup>
-import { ref } from "vue";
-import data from "../content/info.json";
-const articles = await useAsyncData("home", () =>
-  queryContent("/")
-    .where({ title: { $ne: "Astroingeo Blog" } })
+import { ref } from 'vue';
+import data from '../content/info.json';
+const articles = await useAsyncData('home', () =>
+  queryContent('/')
+    .where({ title: { $ne: 'Astroingeo Blog' } })
     .limit(4)
     .find()
 );
 
 useHead({
   title: data.title,
-  meta: [{ name: "description", content: data.description }],
-  link: [{ rel: "canonical", href: data.domain }],
+  meta: [{ name: 'description', content: data.description }],
+  link: [{ rel: 'canonical', href: data.domain }],
 });
 
 const mobileMenuOpen = ref(false);
