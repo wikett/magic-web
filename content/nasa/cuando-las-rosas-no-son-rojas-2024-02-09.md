@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Cuando las rosas no son rojas
+description: Imagen astronómica del día viernes, 9 de febrero de 2024 por la NASA; Cuando las rosas no son rojas
 category: nasa
 published_time: 2024-02-09T07:00:02.154Z
-url: foto-del-dia-de-la-nasa-hoy
+url: cuando-las-rosas-no-son-rojas-2024-02-09
 created: 09 Feb 2024
 imageUrl: https://apod.nasa.gov/apod/image/2402/Rosette2024newt533mmcopy.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Cuando las rosas no son rojas'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Cuando las rosas no son rojas'
     - name: 'og:description'
       content: 'Imagen astronómica del día viernes, 9 de febrero de 2024 por la NASA; Cuando las rosas no son rojas'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2402/Rosette2024newt533mmcopy.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/cuando-las-rosas-no-son-rojas-2024-02-09'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/cuando-las-rosas-no-son-rojas-2024-02-09'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Cuando las rosas no son rojas'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2402/Rosette2024newt533mmcopy.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Cuando las rosas no son rojas
 viernes, 9 de febrero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Cuando las rosas no son rojas
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Tommy Lease -
+title: Cuando las rosas no son rojas, copyright - Tommy Lease -
 imageurl: https://apod.nasa.gov/apod/image/2402/Rosette2024newt533mmcopy.jpg
 ---
 ::
