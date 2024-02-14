@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Rosette Campo Profundo
+description: Imagen astronómica del día miércoles, 14 de febrero de 2024 por la NASA; Rosette Campo Profundo
 category: nasa
 published_time: 2024-02-14T22:21:23.132Z
-url: foto-del-dia-de-la-nasa-hoy
+url: rosette-campo-profundo-2024-02-14
 created: 14 Feb 2024
 imageUrl: https://apod.nasa.gov/apod/image/2402/RosetteCone_Bernard_5398.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Rosette Campo Profundo'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Rosette Campo Profundo'
     - name: 'og:description'
       content: 'Imagen astronómica del día miércoles, 14 de febrero de 2024 por la NASA; Rosette Campo Profundo'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2402/RosetteCone_Bernard_5398.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/rosette-campo-profundo-2024-02-14'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/rosette-campo-profundo-2024-02-14'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Rosette Campo Profundo'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2402/RosetteCone_Bernard_5398.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Rosette Campo Profundo
 miércoles, 14 de febrero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Rosette Campo Profundo
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Olivier Bernard & Philippe Bernhard -
+title: Rosette Campo Profundo, copyright - Olivier Bernard & Philippe Bernhard -
 imageurl: https://apod.nasa.gov/apod/image/2402/RosetteCone_Bernard_5398.jpg
 ---
 ::
