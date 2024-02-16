@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Estructura de la cola del cometa 12P/Pons-Brooks
+description: Imagen astronómica del día viernes, 16 de febrero de 2024 por la NASA; Estructura de la cola del cometa 12P/Pons-Brooks
 category: nasa
 published_time: 2024-02-16T07:00:03.036Z
-url: foto-del-dia-de-la-nasa-hoy
+url: estructura-de-la-cola-del-cometa-12-p-pons-brooks-2024-02-16
 created: 16 Feb 2024
 imageUrl: https://apod.nasa.gov/apod/image/2402/12P_Pons_Brooks_2024_02_11_185335PST_JuneLake_DEBartlett.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Estructura de la cola del cometa 12P/Pons-Brooks'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Estructura de la cola del cometa 12P/Pons-Brooks'
     - name: 'og:description'
       content: 'Imagen astronómica del día viernes, 16 de febrero de 2024 por la NASA; Estructura de la cola del cometa 12P/Pons-Brooks'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2402/12P_Pons_Brooks_2024_02_11_185335PST_JuneLake_DEBartlett.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/estructura-de-la-cola-del-cometa-12-p-pons-brooks-2024-02-16'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/estructura-de-la-cola-del-cometa-12-p-pons-brooks-2024-02-16'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Estructura de la cola del cometa 12P/Pons-Brooks'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2402/12P_Pons_Brooks_2024_02_11_185335PST_JuneLake_DEBartlett.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Estructura de la cola del cometa 12P/Pons-Brooks
 viernes, 16 de febrero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Estructura de la cola del cometa 12P/Pons-Brooks
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Dan Bartlett -
+title: Estructura de la cola del cometa 12P/Pons-Brooks, copyright - Dan Bartlett -
 imageurl: https://apod.nasa.gov/apod/image/2402/12P_Pons_Brooks_2024_02_11_185335PST_JuneLake_DEBartlett.jpg
 ---
 ::
