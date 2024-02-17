@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Meteoro sobre la bahía de Nápoles
+description: Imagen astronómica del día sábado, 17 de febrero de 2024 por la NASA; Meteoro sobre la bahía de Nápoles
 category: nasa
 published_time: 2024-02-17T07:00:02.835Z
-url: foto-del-dia-de-la-nasa-hoy
+url: meteoro-sobre-la-bahia-de-napoles-2024-02-17
 created: 17 Feb 2024
 imageUrl: https://apod.nasa.gov/apod/image/2402/MeteorBayofNaples_V2.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Meteoro sobre la bahía de Nápoles'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Meteoro sobre la bahía de Nápoles'
     - name: 'og:description'
       content: 'Imagen astronómica del día sábado, 17 de febrero de 2024 por la NASA; Meteoro sobre la bahía de Nápoles'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2402/MeteorBayofNaples_V2.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/meteoro-sobre-la-bahia-de-napoles-2024-02-17'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/meteoro-sobre-la-bahia-de-napoles-2024-02-17'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Meteoro sobre la bahía de Nápoles'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2402/MeteorBayofNaples_V2.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Meteoro sobre la bahía de Nápoles
 sábado, 17 de febrero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Meteoro sobre la bahía de Nápoles
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Wang Letian -
+title: Meteoro sobre la bahía de Nápoles, copyright - Wang Letian -
 imageurl: https://apod.nasa.gov/apod/image/2402/MeteorBayofNaples_V2.jpg
 ---
 ::
