@@ -1,19 +1,26 @@
+::video-article
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Mirando de reojo desde la sonda solar Parker
+videourl: https://www.youtube.com/embed/x-wX-wClfig?rel=0
+---
+::
+
+---
+title: Mirando de reojo desde la sonda solar Parker
+description: Imagen astronómica del día lunes, 19 de febrero de 2024 por la NASA; Mirando de reojo desde la sonda solar Parker
 category: nasa
 published_time: 2024-02-19T07:00:02.709Z
-url: foto-del-dia-de-la-nasa-hoy
+url: mirando-de-reojo-desde-la-sonda-solar-parker-2024-02-19
 created: 19 Feb 2024
 imageUrl: 
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Mirando de reojo desde la sonda solar Parker'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Mirando de reojo desde la sonda solar Parker'
     - name: 'og:description'
       content: 'Imagen astronómica del día lunes, 19 de febrero de 2024 por la NASA; Mirando de reojo desde la sonda solar Parker'
     - name: 'og:type'
@@ -29,13 +36,13 @@ head:
     - name: 'og:image'
       content: ''
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/mirando-de-reojo-desde-la-sonda-solar-parker-2024-02-19'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/mirando-de-reojo-desde-la-sonda-solar-parker-2024-02-19'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Mirando de reojo desde la sonda solar Parker'
     - name: 'twitter:card'
       content: ''
     - name: 'twitter:description'
@@ -45,19 +52,8 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Mirando de reojo desde la sonda solar Parker
 lunes, 19 de febrero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-::video-article
----
-title: Mirando de reojo desde la sonda solar Parker
-videourl: https://www.youtube.com/embed/x-wX-wClfig?rel=0
----
-::
-
-## Mirando de reojo desde la sonda solar Parker
 
 octopus
 
@@ -76,12 +72,3 @@ Se puede observar el ondular de la corona solar, así como una eyección de masa
 **El valor de estas observaciones es incalculable**; a medida que entendemos más acerca de nuestra estrella más cercana, podremos desarrollar una comprensión más profunda del universo y de nuestra propia existencia dentro de él.
 
 _Artículo actualizado el lunes, 19 de febrero de 2024_
-
-::photo-article
-  ---
-  title: Mirando de reojo desde la sonda solar Parker, imagen generada por DALLE 3
-  imageurl: 
-  ---
-  ::
-
-  
