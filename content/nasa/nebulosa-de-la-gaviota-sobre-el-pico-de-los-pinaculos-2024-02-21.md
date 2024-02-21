@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Nebulosa de la Gaviota sobre el Pico de los Pináculos
+description: Imagen astronómica del día miércoles, 21 de febrero de 2024 por la NASA; Nebulosa de la Gaviota sobre el Pico de los Pináculos
 category: nasa
 published_time: 2024-02-21T07:00:02.706Z
-url: foto-del-dia-de-la-nasa-hoy
+url: nebulosa-de-la-gaviota-sobre-el-pico-de-los-pinaculos-2024-02-21
 created: 21 Feb 2024
 imageUrl: https://apod.nasa.gov/apod/image/2402/SeagullPinnacles_Venkatraman_2051.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Nebulosa de la Gaviota sobre el Pico de los Pináculos'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Nebulosa de la Gaviota sobre el Pico de los Pináculos'
     - name: 'og:description'
       content: 'Imagen astronómica del día miércoles, 21 de febrero de 2024 por la NASA; Nebulosa de la Gaviota sobre el Pico de los Pináculos'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2402/SeagullPinnacles_Venkatraman_2051.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/nebulosa-de-la-gaviota-sobre-el-pico-de-los-pinaculos-2024-02-21'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/nebulosa-de-la-gaviota-sobre-el-pico-de-los-pinaculos-2024-02-21'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Nebulosa de la Gaviota sobre el Pico de los Pináculos'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2402/SeagullPinnacles_Venkatraman_2051.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Nebulosa de la Gaviota sobre el Pico de los Pináculos
 miércoles, 21 de febrero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Nebulosa de la Gaviota sobre el Pico de los Pináculos
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Dheera Venkatraman -
+title: Nebulosa de la Gaviota sobre el Pico de los Pináculos, copyright - Dheera Venkatraman -
 imageurl: https://apod.nasa.gov/apod/image/2402/SeagullPinnacles_Venkatraman_2051.jpg
 ---
 ::
