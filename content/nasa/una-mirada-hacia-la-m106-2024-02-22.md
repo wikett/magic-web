@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Una mirada hacia la M106
+description: Imagen astronómica del día jueves, 22 de febrero de 2024 por la NASA; Una mirada hacia la M106
 category: nasa
 published_time: 2024-02-22T07:00:02.696Z
-url: foto-del-dia-de-la-nasa-hoy
+url: una-mirada-hacia-la-m106-2024-02-22
 created: 22 Feb 2024
 imageUrl: https://apod.nasa.gov/apod/image/2402/M106field_KyunghoonLim2048.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Una mirada hacia la M106'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Una mirada hacia la M106'
     - name: 'og:description'
       content: 'Imagen astronómica del día jueves, 22 de febrero de 2024 por la NASA; Una mirada hacia la M106'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2402/M106field_KyunghoonLim2048.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/una-mirada-hacia-la-m106-2024-02-22'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/una-mirada-hacia-la-m106-2024-02-22'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Una mirada hacia la M106'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2402/M106field_KyunghoonLim2048.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Una mirada hacia la M106
 jueves, 22 de febrero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Una mirada hacia la M106
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Kyunghoon Lim -
+title: Una mirada hacia la M106, copyright - Kyunghoon Lim -
 imageurl: https://apod.nasa.gov/apod/image/2402/M106field_KyunghoonLim2048.jpg
 ---
 ::
