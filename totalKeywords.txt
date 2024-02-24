@@ -1,3 +1,5 @@
+1,Cosmología moderna,Orígenes del universo,Origins of the Universe
+2,Cosmología moderna,Principios de cosmología,Principles of Cosmology
 3,Cosmología moderna,Teoría del Big Bang,Big Bang Theory
 4,Cosmología moderna,Materia oscura explicación,Dark Matter Explanation
 5,Cosmología moderna,Expansión del universo,Expansion of the Universe
@@ -386,8 +388,8 @@
 28,Pulsares y Quásares,Quásares agujeros negros devoradores,Devouring black holes quasars
 29,Pulsares y Quásares,Pulsares patrones de emisión,Emission patterns pulsars
 30,Pulsares y Quásares,Quásares modelos matemáticos,Mathematical models quasars
-1, El Universo Oscuro, Misterios del cosmos, Dark matter Dark universe 
-2, El Universo Oscuro, Interacciones gravitacionales, Gravity theories Gravitational interactions 
+1, El Universo Oscuro, Misterios del cosmos, Dark matter, Dark universe 
+2, El Universo Oscuro, Interacciones gravitacionales, Gravity theories, Gravitational interactions 
 3, El Universo Oscuro, Teorías alternativas, Alternative theories 
 4, El Universo Oscuro, Energía oscura, Dark energy 
 5, El Universo Oscuro, Agujeros negros, Black holes 
@@ -397,7 +399,7 @@
 9, El Universo Oscuro, Investigaciones científicas, Scientific research 
 10, El Universo Oscuro, Origen del universo, Origin of the universe 
 11, El Universo Oscuro, Suposiciones teóricas, Theoretical assumptions 
-12, El Universo Oscuro, Espacio-tiempo, Space-time 
+12, El Universo Oscuro, Espacio,tiempo, Space,time 
 13, El Universo Oscuro, Radiación cósmica, Cosmic radiation 
 14, El Universo Oscuro, Constelaciones oscuras, Dark constellations 
 15, El Universo Oscuro, Componentes invisibles, Invisible components 
@@ -406,7 +408,7 @@
 18, El Universo Oscuro, Física cuántica, Quantum physics 
 19, El Universo Oscuro, Expansión del universo, Universe expansion 
 20, El Universo Oscuro, Naturaleza del cosmos, Nature of the cosmos 
-21, El Universo Oscuro, Materia no bariónica, Non-baryonic matter 
+21, El Universo Oscuro, Materia no bariónica, Non,baryonic matter 
 22, El Universo Oscuro, Ondas gravitacionales, Gravitational waves 
 23, El Universo Oscuro, Observatorios astronómicos, Astronomical observatories 
 24, El Universo Oscuro, Mundos paralelos, Parallel worlds 
@@ -416,65 +418,65 @@
 28, El Universo Oscuro, Teoría del todo, Theory of everything 
 29, El Universo Oscuro, Colisiones estelares, Stellar collisions 
 30, El Universo Oscuro, Universos paralelos, Parallel universes
-1, Estrellas de neutrones, Estrellas de neutrones ¿Qué son?,  Neutron stars What are they?
-2, Estrellas de neutrones, Estrellas de neutrones Formación, Formation
-3, Estrellas de neutrones, Estrellas de neutrones Características principales, Main characteristics
-4, Estrellas de neutrones, Estrellas de neutrones Tamaño y densidad, Size and density
-5, Estrellas de neutrones, Estrellas de neutrones Composición química, Chemical compositio
-6, Estrellas de neutrones, Estrellas de neutrones Importancia en el universo, Importance in the universe
-7, Estrellas de neutrones, Estrellas de neutrones Vida útil, Lifespan
-8, Estrellas de neutrones, Estrellas de neutrones Tipos existentes, Existing types
-9, Estrellas de neutrones, Estrellas de neutrones Historia del descubrimiento, Discovery history
-10, Estrellas de neutrones, Estrellas de neutrones Efectos gravitacionales, Gravitational effects
-11, Estrellas de neutrones, Estrellas de neutrones Relación con agujeros negros, Relationship with black holes
-12, Estrellas de neutrones, Estrellas de neutrones Observaciones astronómicas, Astronomical observations
-13, Estrellas de neutrones, Estrellas de neutrones Teorías sobre su origen, Theories about their origin
-14, Estrellas de neutrones, Estrellas de neutrones Energía liberada, Released energy
-15, Estrellas de neutrones, Estrellas de neutrones Investigaciones científicas actuales, Current scietific research
-16, Estrellas de neutrones, Fenómeno de pulsares, Pulsar phenomenon
-17, Estrellas de neutrones,Estrellas de neutrones Distancia aproximada de la Tierra, Approximate distance from Earth
-18, Estrellas de neutrones,Estrellas de neutrones Relación con estrellas de quarks, Relationship with quark stars
-19, Estrellas de neutrones,Estrellas de neutrones Radiación emitida, Emitted radiation
-20, Estrellas de neutrones,Estrellas de neutrones Riesgos potenciales para la Tierra, Potential risks for Earth
-21, Estrellas de neutrones,Estrellas de neutrones Impacto en la evolución del universo, Impact on the evolution of the universe
-22, Estrellas de neutrones,Estrellas de neutrones Posible formación de elementos pesados, Possible formation of heavy elements
-23, Estrellas de neutrones,Estrellas de neutrones Aplicaciones en la tecnología moderna, Applications in modern technology
-24, Estrellas de neutrones,Estrellas de neutrones Descubrimientos recientes, Recent discoveries
-25, Estrellas de neutrones,Estrellas de neutrones Interacciones con otras estrellas, Interactions with other stars
-26, Estrellas de neutrones,Estrellas de neutrones Durabilidad frente a la descomposición, Durability against decomposition
-27, Estrellas de neutrones,Estrellas de neutrones Estabilidad estructural, Structural stability
-28, Estrellas de neutrones,Estrellas de neutrones Fenómeno de magnetars, Magnetar phenomenon
-29, Estrellas de neutrones,Estrellas de neutrones Comparación con otros objetos celestes, Comparison with other celestial objects
+1, Estrellas de neutrones, Estrellas de neutrones ¿Qué son?,  Neutron stars, What are they?
+2, Estrellas de neutrones, Estrellas de neutrones Formación, Formation, 
+3, Estrellas de neutrones, Estrellas de neutrones Características principales, Main characteristics,
+4, Estrellas de neutrones, Estrellas de neutrones Tamaño y densidad, Size and density,
+5, Estrellas de neutrones, Estrellas de neutrones Composición química, Chemical composition,
+6, Estrellas de neutrones, Estrellas de neutrones Importancia en el universo, Importance in the universe,
+7, Estrellas de neutrones, Estrellas de neutrones Vida útil, Lifespan,
+8, Estrellas de neutrones, Estrellas de neutrones Tipos existentes, Existing types,
+9, Estrellas de neutrones, Estrellas de neutrones Historia del descubrimiento, Discovery history,
+10, Estrellas de neutrones, Estrellas de neutrones Efectos gravitacionales, Gravitational effects,
+11, Estrellas de neutrones, Estrellas de neutrones Relación con agujeros negros, Relationship with black holes,
+12, Estrellas de neutrones, Estrellas de neutrones Observaciones astronómicas, Astronomical observations,
+13, Estrellas de neutrones, Estrellas de neutrones Teorías sobre su origen, Theories about their origin,
+14, Estrellas de neutrones, Estrellas de neutrones Energía liberada, Released energy,
+15, Estrellas de neutrones, Estrellas de neutrones Investigaciones científicas actuales, Current scientific research,
+16, Estrellas de neutrones, Fenómeno de pulsares, Pulsar phenomenon,
+17, Estrellas de neutrones,Estrellas de neutrones Distancia aproximada de la Tierra, Approximate distance from Earth,
+18, Estrellas de neutrones,Estrellas de neutrones Relación con estrellas de quarks, Relationship with quark stars,
+19, Estrellas de neutrones,Estrellas de neutrones Radiación emitida, Emitted radiation,
+20, Estrellas de neutrones,Estrellas de neutrones Riesgos potenciales para la Tierra, Potential risks for Earth,
+21, Estrellas de neutrones,Estrellas de neutrones Impacto en la evolución del universo, Impact on the evolution of the universe,
+22, Estrellas de neutrones,Estrellas de neutrones Posible formación de elementos pesados, Possible formation of heavy elements,
+23, Estrellas de neutrones,Estrellas de neutrones Aplicaciones en la tecnología moderna, Applications in modern technology,
+24, Estrellas de neutrones,Estrellas de neutrones Descubrimientos recientes, Recent discoveries,
+25, Estrellas de neutrones,Estrellas de neutrones Interacciones con otras estrellas, Interactions with other stars,
+26, Estrellas de neutrones,Estrellas de neutrones Durabilidad frente a la descomposición, Durability against decomposition,
+27, Estrellas de neutrones,Estrellas de neutrones Estabilidad estructural, Structural stability,
+28, Estrellas de neutrones,Estrellas de neutrones Fenómeno de magnetars, Magnetar phenomenon,
+29, Estrellas de neutrones,Estrellas de neutrones Comparación con otros objetos celestes, Comparison with other celestial objects,
 30, Estrellas de neutrones,Estrellas de neutrones Potencial para la futura exploración espacial, Potential for future space exploration
-1, Estudio de planetas enanos, Planetas enanos, Dwarf planets
-2, Estudio de planetas enanos, Cuerpos celestes, Celestial bodies
-3, Estudio de planetas enanos, Exploración espacial, Space exploration
-4, Estudio de planetas enanos, Sistema solar, Solar system
-5, Estudio de planetas enanos, Astronomía planetaria, Planetary asronomy
-6, Estudio de planetas enanos, Nuevos descubrimientos, New discoveries
-7, Estudio de planetas enanos, Características superficiales, Surface characteristics
-8, Estudio de planetas enanos, Órbitas planetarias, Planetary orbits
-9, Estudio de planetas enanos, Observaciones telescópicas, Telescopic observations
-10, Estudio de planetas enanos, Composición geológica, Geological composition
-11, Estudio de planetas enanos, Tamaño y masa, Size and mass
-12, Estudio de planetas enanos, Plutón y Caronte, Pluto and Charon
-13, Estudio de planetas enanos, Astronomía comparativa, Comparative astronomy
-14, Estudio de planetas enanos, Historia de la cosmoastronomía, History of cosmoastronomy
-15, Estudio de planetas enanos, Exploración de la Oort, Oort exploration
-16, Estudio de planetas enanos, Estudio de la luna Titán, Study of moon Titan
-17, Estudio de planetas enanos, Meteoritos y asteroides, Meteorites and asteroids
-18, Estudio de planetas enanos, Observatorio espacial Hubble, Hubble Space Telescope
-19, Estudio de planetas enanos, Misiones espaciales, Space missions
-20, Estudio de planetas enanos, Historia del sistema solar, History of solar system
-21, Estudio de planetas enanos, Movimientos planetarios, Planetary movements
-22, Estudio de planetas enanos, Exploración de la luna Europa, Exploration of moon Europa
-23, Estudio de planetas enanos, Fenómenos astrofísicos, Astrophysical phenomena
-24, Estudio de planetas enanos, Geología extraterrestre, Extraterrestrial geology
-25, Estudio de planetas enanos, Agujeros negros, Black holes
-26, Estudio de planetas enanos, Vida extraterrestre, Extraterrestrial life
-27, Estudio de planetas enanos, Laboratorio espacial, Space laboratory
-28, Estudio de planetas enanos, Cinturón de Kuiper, Kuiper Belt
-29, Estudio de planetas enanos, Observatorio de Arecibo, Arecibo Observatory
+1, Estudio de planetas enanos, Planetas enanos, Dwarf planets, 
+2, Estudio de planetas enanos, Cuerpos celestes, Celestial bodies, 
+3, Estudio de planetas enanos, Exploración espacial, Space exploration, 
+4, Estudio de planetas enanos, Sistema solar, Solar system, 
+5, Estudio de planetas enanos, Astronomía planetaria, Planetary astronomy, 
+6, Estudio de planetas enanos, Nuevos descubrimientos, New discoveries, 
+7, Estudio de planetas enanos, Características superficiales, Surface characteristics, 
+8, Estudio de planetas enanos, Órbitas planetarias, Planetary orbits, 
+9, Estudio de planetas enanos, Observaciones telescópicas, Telescopic observations, 
+10, Estudio de planetas enanos, Composición geológica, Geological composition, 
+11, Estudio de planetas enanos, Tamaño y masa, Size and mass, 
+12, Estudio de planetas enanos, Plutón y Caronte, Pluto and Charon, 
+13, Estudio de planetas enanos, Astronomía comparativa, Comparative astronomy, 
+14, Estudio de planetas enanos, Historia de la cosmoastronomía, History of cosmoastronomy, 
+15, Estudio de planetas enanos, Exploración de la Oort, Oort exploration, 
+16, Estudio de planetas enanos, Estudio de la luna Titán, Study of moon Titan, 
+17, Estudio de planetas enanos, Meteoritos y asteroides, Meteorites and asteroids, 
+18, Estudio de planetas enanos, Observatorio espacial Hubble, Hubble Space Telescope, 
+19, Estudio de planetas enanos, Misiones espaciales, Space missions, 
+20, Estudio de planetas enanos, Historia del sistema solar, History of solar system, 
+21, Estudio de planetas enanos, Movimientos planetarios, Planetary movements, 
+22, Estudio de planetas enanos, Exploración de la luna Europa, Exploration of moon Europa, 
+23, Estudio de planetas enanos, Fenómenos astrofísicos, Astrophysical phenomena, 
+24, Estudio de planetas enanos, Geología extraterrestre, Extraterrestrial geology, 
+25, Estudio de planetas enanos, Agujeros negros, Black holes, 
+26, Estudio de planetas enanos, Vida extraterrestre, Extraterrestrial life, 
+27, Estudio de planetas enanos, Laboratorio espacial, Space laboratory, 
+28, Estudio de planetas enanos, Cinturón de Kuiper, Kuiper Belt, 
+29, Estudio de planetas enanos, Observatorio de Arecibo, Arecibo Observatory, 
 30, Estudio de planetas enanos, Efecto invernadero, Greenhouse effect
 1, Radiotelescopios, Funcionamiento de antenas, Antenna operation
 2, Radiotelescopios, Observación del espacio, Space observation
@@ -505,7 +507,7 @@
 27, Radiotelescopios, Historia de la astronomía, History of astronomy
 28, Radiotelescopios, Desarrollo de radiotelescopios, Development of radio telescopes
 29, Radiotelescopios, Redes de observatorios, Observatory networks
-30, Radiotelescopios, Astrofísica y radioastronomía, Astrophysics and radio astronomy
+30, Radiotelescopios, Astrofísica y radioastronomía, Astrophysics and radio astronomyA, TOPIC, VARIATIONS, ENGLISH
 1, Language learning, Aprender idiomas, Learn languages
 2, Language proficiency, Nivel de idioma, Language level
 3, Language exchange, Intercambio de idiomas, Language swap

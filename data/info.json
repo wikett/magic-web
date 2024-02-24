@@ -1,0 +1,169 @@
+{
+    "title": "Astroingeo Blog",
+    "author": "Enrique Aparicio Arias",
+    "mainTitle": "Explora el Universo: Desvelando los Secretos del Más Allá, un Viaje Cósmico a Tu Alcance",
+    "authorsDescription": "<p class='text-lg leading-8 text-gray-600'>Hola, entusiastas del universo! <strong>Estoy emocionado de compartir  </strong> con ustedes la creación de mi nuevo blog de Astronomía, un espacio dedicado a <strong>nuestras aventuras celestiales</strong>.   Desde las <strong>maravillas del sistema solar</strong> hasta los misterios de las galaxias distantes,   este blog buscará explorar el cosmos a través de observaciones,   análisis y las últimas noticias astronómicas. Invito a cada alma curiosa a unirse <strong>este viaje estelar</strong> para descubrir más sobre nuestra   deslumbrante bóveda celeste. ¡Levantemos los ojos al cielo y comencemos a soñar con las estrellas!</p>",
+    "authorsSmallDescription": "¡Hola, cosmoscuriosos! Soy Enrique, apasionado por las estrellas y los vastos misterios del universo. Decidí crear este blog para compartir mi fascinación por la astronomía, explorar juntos los últimos descubrimientos y conectar con almas aventureras que anhelan comprender el cosmos. ¡Únanse a mi viaje estelar!",
+    "description": "Explora el universo con nosotros: descubre las maravillas de la astronomía, desde estrellas y galaxias hasta los últimos hallazgos cósmicos.",
+    "domain": "blog.astroingeo.org",
+    "websiteName": "Astroingeo Blog",
+    "emailContacto": "astroingeo@gmail.com",
+    "footer": "Web hija de astroingeo.org",
+    "footerLink": "https://astroingeo.org",
+    "navigation": [
+      {
+        "name": "Constelaciones",
+        "href": "/constelaciones"
+      },
+      {
+        "name": "Sistema Solar",
+        "href": "/sistema-solar"
+      },
+      {
+        "name": "Catálogo Messier",
+        "href": "/catalogo-messier"
+      },
+      {
+        "name": "Telescopios",
+        "href": "/telescopios"
+      },
+      {
+        "name": "Cielo Profundo",
+        "href": "/cielo-profundo"
+      },
+      {
+        "name": "APOD",
+        "href": "/nasa/foto-del-dia-de-la-nasa-hoy"
+      },
+      {
+        "name": "Calendario Astronómico 2024",
+        "href": "/calendario-astronomico/2024/eventos-astronomicos-2024"
+      }
+    ],
+    "company": [
+      {
+        "name": "Quienes somos",
+        "href": "/quienes-somos"
+      },
+      {
+        "name": "Contacto",
+        "href": "/contacto"
+      },
+      {
+        "name": "Sitemap",
+        "href": "/sitemap.xml"
+      }
+    ],
+    "legal": [
+      {
+        "name": "Aviso legal",
+        "href": "/aviso-legal"
+      },
+      {
+        "name": "Política de cookies",
+        "href": "/politica-de-cookies"
+      },
+      {
+        "name": "Política de privacidad",
+        "href": "/politica-de-privacidad"
+      }
+    ],
+    "linkedinUrl": "https://www.linkedin.com/in/enrique-aparicio-arias-861040b1/",
+    "instagramUrl": "https://www.instagram.com/ua_astroingeo/",
+    "xUrl": "https://twitter.com/UA_astroingeo",
+    "facebookUrl": "",
+    "amazonDescription": "Como aficionado a la astronomía, recomiendo encarecidamente marcas como Celestron, Sky-Watcher y Orion. Ofrecen telescopios robustos y accesorios de calidad para principiantes y avanzados, asegurando experiencias celestiales inolvidables. ¡No te decepcionarán!",
+    "amazon": [
+      {
+        "image": "/img/celestron.webp",
+        "url": "https://amzn.to/3TmNeOf",
+        "title": "Celestron"
+      },
+      {
+        "image": "/img/sky-watcher.webp",
+        "url": "https://amzn.to/48cl6BK",
+        "title": "Sky-Watcher"
+      },
+      {
+        "image": "/img/orion.webp",
+        "url": "https://amzn.to/46WpxPW",
+        "title": "Orion"
+      }
+    ],
+    "category": "Astronomía",
+    "categoryDescription": "Escribir un blog de Astronomía es embarcarse en una odisea cósmica. Puedes explorar temas fascinantes: desde las maravillas de sistemas exoplanetarios hasta las peculiares propiedades de las estrellas de neutrones. Comparte guías de observación, debate teorías científicas actualizadas, y crea una comunidad unida por el asombro del universo infinito.",
+    "categoryImages": [
+      {
+        "image": "/img/colision-meteoro.webp",
+        "title": "Colión meteoro con la Tierra"
+      },
+      {
+        "image": "/img/aurora-boreal.webp",
+        "title": "Auroras boreales en Lofoten"
+      },
+      {
+        "image": "/img/the-milky-way.webp",
+        "title": "Vía Lactea"
+      },
+      {
+        "image": "/img/nebulosa.webp",
+        "title": "Nebulosa"
+      }
+    ],
+    "tiendaAmiga": [
+      {
+        "description": "Siempre nos gusta colaborar con aquella tienda de cercanía, que tiene buen trato y unos productos excelentes. Astroshop es nuestra opción.",
+        "link": "https://www.astroshop.es/?affiliate_id=astroingeo",
+        "alt": "Astroshop",
+        "image": "/img/astroshop.webp"
+      }
+    ],
+    "datosCuriososParaBorrar": "\n   Aunque el helio es el segundo elemento más abundante en el universo, fue identificado por primera vez no en nuestro planeta, sino en el Sol durante un eclipse en 1868. Los astrónomos Pierre Janssen y Norman Lockyer observaron una línea espectral amarilla en la luz solar que no coincidía con ningún elemento conocido en la Tierra. Más tarde, nombraron este nuevo elemento \"helio\" por Helios, el dios griego del Sol.\n\n2. **Venus rota al revés:**\n   Venus tiene una rotación única en el sistema solar; gira sobre su eje en la dirección opuesta a la de la Tierra y la mayoría de los otros planetas. Esto significa que el Sol sale por el oeste y se pone por el este en Venus. Además, su rotación es extremadamente lenta; un día venusino es más largo que un año venusino.\n\n3. **La montaña más alta conocida está en Marte:**\n   El Monte Olimpo, o Olympus Mons, es un enorme volcán en Marte que mide aproximadamente 22 km de altura. Si lo comparamos con la montaña más alta de la Tierra, el Monte Everest, que mide cerca de 8.8 km, Olympus Mons es unas 2.5 veces más alto y es considerado el pico más alto del sistema solar. Su base es aproximadamente del tamaño del estado de Nuevo México, lo que lo convierte en un coloso en términos geográficos.",
+    "datosCuriosos": [
+      {
+        "title": "El Helio fue descubierto en el Sol antes que en la Tierra",
+        "description": "Aunque el helio es el segundo elemento más abundante en el universo, fue identificado por primera vez no en nuestro planeta, sino en el Sol durante un eclipse en 1868. Los astrónomos Pierre Janssen y Norman Lockyer observaron una línea espectral amarilla en la luz solar que no coincidía con ningún elemento conocido en la Tierra. Más tarde, nombraron este nuevo elemento \"helio\" por Helios, el dios griego del Sol",
+        "color": "bg-orange-900"
+      },
+      {
+        "title": "Venus rota al revés",
+        "description": "Venus tiene una rotación única en el sistema solar; gira sobre su eje en la dirección opuesta a la de la Tierra y la mayoría de los otros planetas. Esto significa que el Sol sale por el oeste y se pone por el este en Venus. Además, su rotación es extremadamente lenta; un día venusino es más largo que un año venusino.",
+        "color": "bg-orange-900"
+      },
+      {
+        "title": "La montaña más alta conocida está en Marte",
+        "description": "El Monte Olimpo, o Olympus Mons, es un enorme volcán en Marte que mide aproximadamente 22 km de altura. Si lo comparamos con la montaña más alta de la Tierra, el Monte Everest, que mide cerca de 8.8 km, Olympus Mons es unas 2.5 veces más alto y es considerado el pico más alto del sistema solar. Su base es aproximadamente del tamaño del estado de Nuevo México, lo que lo convierte en un coloso en términos geográficos.",
+        "color": "bg-orange-900"
+      }
+    ],
+    "traducciones": [
+      {
+        "texto": "Artículos relacionados"
+      },
+      {
+        "texto": "Nuestra tienda de confianza"
+      },
+      {
+        "texto": "Aquí algunas curiosidades sobre:"
+      },
+      {
+        "texto": "Aquí hay algunos datos divertidos para comenzar"
+      },
+      {
+        "texto": "Más categorías"
+      },
+      {
+        "texto": "Nosotros"
+      },
+      {
+        "texto": "Legal"
+      },
+      {
+        "texto": "Todos los derechos reservados"
+      },
+      {
+        "texto": "Ver los productos"
+      }
+    ]
+  }
+  
