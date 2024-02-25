@@ -1059,7 +1059,7 @@ switch (process.argv[2]) {
 
   case "magiclow": {
     calidad = 'low'
-    for (let index = 0; index < 1; index++) {
+    for (let index = 0; index < 666; index++) {
       console.log("Calculando articulo: " + index);
       await obtenerCategoria();
     }
