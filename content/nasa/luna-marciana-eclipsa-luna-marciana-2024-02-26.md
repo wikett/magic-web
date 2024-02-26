@@ -1,19 +1,26 @@
+::video-article
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Luna marciana Eclipsa Luna marciana
+videourl: https://youtube.com/embed/hwQTH0IGrwE?rel=0
+---
+::
+
+---
+title: Luna marciana Eclipsa Luna marciana
+description: Imagen astronómica del día lunes, 26 de febrero de 2024 por la NASA; Luna marciana Eclipsa Luna marciana
 category: nasa
 published_time: 2024-02-26T07:00:02.326Z
-url: foto-del-dia-de-la-nasa-hoy
+url: luna-marciana-eclipsa-luna-marciana-2024-02-26
 created: 26 Feb 2024
 imageUrl: 
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Luna marciana Eclipsa Luna marciana'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Luna marciana Eclipsa Luna marciana'
     - name: 'og:description'
       content: 'Imagen astronómica del día lunes, 26 de febrero de 2024 por la NASA; Luna marciana Eclipsa Luna marciana'
     - name: 'og:type'
@@ -29,13 +36,13 @@ head:
     - name: 'og:image'
       content: ''
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/luna-marciana-eclipsa-luna-marciana-2024-02-26'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/luna-marciana-eclipsa-luna-marciana-2024-02-26'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Luna marciana Eclipsa Luna marciana'
     - name: 'twitter:card'
       content: ''
     - name: 'twitter:description'
@@ -45,19 +52,8 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Luna marciana Eclipsa Luna marciana
 lunes, 26 de febrero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-::video-article
----
-title: Luna marciana Eclipsa Luna marciana
-videourl: https://youtube.com/embed/hwQTH0IGrwE?rel=0
----
-::
-
-## Luna marciana Eclipsa Luna marciana
 
 octopus
 
@@ -74,12 +70,3 @@ Por otro lado, debido a esta cercanía, Phobos es un candidato prominente para f
 Este tipo de fenómenos no solo proporciona un espectáculo visual sorprendente, sino que también ofrece una oportunidad para estudiar la dinámica orbital y las interacciones gravitacionales en sistemas de múltiples lunas, lo cual amplía nuestra comprensión del cosmos y sus innumerables maravillas.
 
 _Artículo actualizado el lunes, 26 de febrero de 2024_
-
-::photo-article
-  ---
-  title: Luna marciana Eclipsa Luna marciana, imagen generada por DALLE 3
-  imageurl: 
-  ---
-  ::
-
-  
