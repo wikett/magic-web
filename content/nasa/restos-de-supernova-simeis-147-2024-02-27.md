@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Restos de supernova Simeis 147
+description: Imagen astronómica del día martes, 27 de febrero de 2024 por la NASA; Restos de supernova Simeis 147
 category: nasa
 published_time: 2024-02-27T07:00:02.298Z
-url: foto-del-dia-de-la-nasa-hoy
+url: restos-de-supernova-simeis-147-2024-02-27
 created: 27 Feb 2024
 imageUrl: https://apod.nasa.gov/apod/image/2402/Simeis147_Vetter_3000.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Restos de supernova Simeis 147'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Restos de supernova Simeis 147'
     - name: 'og:description'
       content: 'Imagen astronómica del día martes, 27 de febrero de 2024 por la NASA; Restos de supernova Simeis 147'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2402/Simeis147_Vetter_3000.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/restos-de-supernova-simeis-147-2024-02-27'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/restos-de-supernova-simeis-147-2024-02-27'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Restos de supernova Simeis 147'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2402/Simeis147_Vetter_3000.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Restos de supernova Simeis 147
 martes, 27 de febrero de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Restos de supernova Simeis 147
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Stéphane Vetter(Nuits sacrées) -
+title: Restos de supernova Simeis 147, copyright - Stéphane Vetter(Nuits sacrées) -
 imageurl: https://apod.nasa.gov/apod/image/2402/Simeis147_Vetter_3000.jpg
 ---
 ::
