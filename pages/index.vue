@@ -57,9 +57,9 @@
               >Calendario astronómico 2024</a
             >
             <a
-              href="/calendario-astronomico/2024/guia-observacion-cielo-febrero-2024"
+              href="/calendario-astronomico/2024/guia-observacion-cielo-marzo-2024"
               class="text-sm font-semibold leading-6 text-white"
-              >Cielo para febrero 2024 <span aria-hidden="true">→</span></a
+              >Cielo para Marzo 2024 <span aria-hidden="true">→</span></a
             >
           </div>
           <svg

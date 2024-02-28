@@ -1,0 +1,532 @@
+<template>
+  <main>
+    <div class="bg-white px-6 py-12 lg:px-8">
+      <div class="mx-auto max-w-2xl text-center">
+        <p class="text-base font-semibold leading-7 text-indigo-600">
+          Eventos astronómicos para el mes de Marzo de 2024
+        </p>
+        <h1
+          class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl"
+        >
+          Guia del cielo para el mes de Marzo 2024
+        </h1>
+        <p class="mt-6 text-lg leading-8 text-gray-600">
+          Todos los <strong>eventos astronómicos</strong> más importantes para
+          el mes de Marzo 2024. Fases de la luna, eclipses, lluvia de meteoros y
+          otros eventos.
+        </p>
+      </div>
+    </div>
+    <div class="relative bg-gray-900">
+      <div
+        class="relative h-80 overflow-hidden bg-white md:absolute md:left-0 md:h-full md:w-1/3 lg:w-1/2"
+      >
+        <a
+          href="/img/2024/marzo/cielo-marzo-2024-hemisferio-norte.webp"
+          target="_blank"
+          title="cielo Marzo 2024"
+        >
+          <img
+            class="h-full w-full object-cover"
+            src="/img/2024/marzo/cielo-marzo-2024-hemisferio-norte.webp"
+            alt="Cielo Marzo 2024 Hemisferio Norte"
+            title="Cielo Marzo 2024 Hemisferio Norte"
+          />
+        </a>
+      </div>
+      <div class="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-40">
+        <div
+          class="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32"
+        >
+          <p class="text-base font-semibold leading-7 text-indigo-400">
+            Posición del cielo Marzo 2024 hemisferio Norte
+          </p>
+          <h2
+            class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl"
+          >
+            Mapa de las posiciones de los planetas en Marzo 2024
+          </h2>
+          <p class="mt-6 text-base leading-7 text-gray-300">
+            Guia de observación del cielo para el mes de Marzo en el hemisferio
+            Norte
+          </p>
+          <div class="mt-8">
+            <a
+              href="/img/2024/marzo/cielo-marzo-2024-hemisferio-norte.webp"
+              target="_blank"
+              class="inline-flex rounded-md bg-white/10 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            >
+              Ver mapa</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white px-6 py-32 lg:px-8">
+      <div class="mx-auto max-w-3xl text-base leading-7 text-gray-700">
+        <div class="md:grid md:grid-cols-2 md:divide-x md:divide-gray-200">
+          <div class="md:pr-14">
+            <div class="flex items-center">
+              <h2 class="flex-auto text-sm font-semibold text-gray-900">
+                Marzo 2024
+              </h2>
+            </div>
+            <div
+              class="mt-10 grid grid-cols-7 text-center text-xs leading-6 text-gray-500"
+            >
+              <div>L</div>
+              <div>M</div>
+              <div>X</div>
+              <div>J</div>
+              <div>V</div>
+              <div>S</div>
+              <div>D</div>
+            </div>
+            <div class="mt-2 grid grid-cols-7 text-sm">
+              <div
+                v-for="(day, dayIdx) in days"
+                :key="day.date"
+                :class="[dayIdx > 6 && 'border-t border-gray-200', 'py-2']"
+              >
+                <button
+                  type="button"
+                  :class="[
+                    day.isSelected && 'text-white',
+                    !day.isSelected &&
+                      !day.isToday &&
+                      day.isCurrentMonth &&
+                      'text-gray-900',
+                    !day.isSelected &&
+                      !day.isToday &&
+                      !day.isCurrentMonth &&
+                      'text-gray-400',
+                    day.isSelected && day.isToday && 'bg-indigo-600',
+                    day.bgColor,
+                    !day.isSelected && 'hover:bg-gray-200',
+                    (day.isSelected || day.isToday) && 'font-semibold',
+                    'mx-auto flex h-8 w-8 items-center justify-center rounded-full',
+                  ]"
+                >
+                  <time :datetime="day.date">{{
+                    day.date.split('-').pop().replace(/^0/, '')
+                  }}</time>
+                </button>
+              </div>
+            </div>
+          </div>
+          <section class="mt-12 md:mt-0 md:pl-2">
+            <h2 class="text-base font-semibold leading-6 text-gray-900 lg:ml-2">
+              Eventos astronómicos para
+              <time datetime="2022-02-01">Marzo 2024</time>
+            </h2>
+            <ol
+              class="mt-4 space-y-1 text-sm leading-6 text-blue-800 ml-0 lg:ml-4"
+            >
+              <li
+                v-for="item in agenda"
+                :key="item.id"
+                :class="[
+                  item.bgColor,
+                  item.bgColorHover,
+                  'group flex items-center space-x-4 rounded-xl px-4 py-2  focus-within:bg-gray-100',
+                ]"
+              >
+                <img
+                  :src="item.imageUrl"
+                  :alt="item.type"
+                  class="h-10 w-10 flex-none rounded-full"
+                />
+                <div class="flex-auto">
+                  <p class="text-gray-900">{{ item.name }}</p>
+                  <p class="mt-0.5 font-bold">
+                    {{ item.label }}
+                  </p>
+                </div>
+              </li>
+            </ol>
+          </section>
+        </div>
+        <p class="mt-24 text-base font-semibold leading-7 text-indigo-600">
+          Hemisferio Norte
+        </p>
+        <h2
+          class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+        >
+          Guía de observación del cielo en Marzo de 2024
+        </h2>
+        <p class="mt-6 text-xl leading-8">
+          En esta guía de observación del cielo, exploraremos los fenómenos
+          celestiales más destacados que se podrán apreciar durante este mes.
+          Desde los majestuosos planetas hasta las brillantes estrellas,
+          descubriremos qué maravillas nos esperan en la vastedad del universo.
+        </p>
+        <div class="mt-10 max-w-2xl">
+          <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+            Los planetas
+          </h2>
+          <p class="mt-6">
+            <strong>Mercurio</strong> es visible al anochecer sobre el horizonte
+            oeste durante gran parte del mes, sobre todo en su segunda mitad y
+            especialmente bien entre los dias 21 y 27 de marzo, cuando puede
+            contemplarse mas alto que cualquier otro dia del afio y su ocaso
+            coincide con el inicio de la noche cerrada. Se trata de su mejor
+            aparicién de 2024 pese a que el dia 24 la maxima elongacion que
+            alcanza solo lo separa del Sol 18.7° hacia el este.
+          </p>
+          <p class="mt-6">
+            <strong>Venus</strong> se ve con magnitud -3.9 al amanecer, cada dia
+            mas pegado al horizonte este- sureste poco antes de la salida del
+            Sol. Se encuentra en Capricornio el primer tercio de marzo,
+            atravesando Acuario el resto del mes, cuando va empeorando su
+            visibilidad.
+          </p>
+          <p class="mt-6">
+            <strong>Marte</strong> puede verse durante el alba, a poca altura
+            sobre el horizonte este-sureste. Su visibilidad va mejorando muy
+            lentamente conforme avanza el mes. Se desplaza entre Capricornio y
+            Acuario con magnitud 1.2.
+          </p>
+          <p class="mt-6">
+            <strong>Júpiter</strong> se observa las primeras horas de la noche,
+            hacia el oeste. Se encuentra en Aries, donde brilla con una magnitud
+            de -2.2.
+          </p>
+          <p class="mt-6">
+            <strong>Saturno</strong> no es visible la practica totalidad del
+            mes. Tan solo los ultimos dias de marzo puede verse al amanecer con
+            dificultad, a escasa altura sobre el horizonte este-sureste poco
+            antes de salir el Sol. Muestra la magnitud 1.1 en Acuario.
+          </p>
+          <div>
+            <div class="mt-8 flow-root overflow-hidden">
+              <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                <table class="w-full text-left">
+                  <thead class="bg-white">
+                    <tr>
+                      <th
+                        scope="col"
+                        class="relative isolate py-3.5 pr-3 text-left text-sm font-semibold text-gray-900"
+                      >
+                        Fases de la Luna
+                        <div
+                          class="absolute inset-y-0 right-full -z-10 w-screen border-b border-b-gray-200"
+                        />
+                        <div
+                          class="absolute inset-y-0 left-0 -z-10 w-screen border-b border-b-gray-200"
+                        />
+                      </th>
+                      <th
+                        scope="col"
+                        class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 sm:table-cell"
+                      ></th>
+                      <th
+                        scope="col"
+                        class="hidden px-3 py-3.5 text-left text-sm font-semibold text-gray-900 md:table-cell"
+                      ></th>
+                      <th
+                        scope="col"
+                        class="px-3 py-3.5 text-left text-sm font-semibold text-gray-900"
+                      >
+                        Fecha
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr v-for="person in people" :key="person.email">
+                      <td
+                        class="relative py-4 pr-3 text-sm font-medium text-gray-900"
+                      >
+                        {{ person.name }}
+                        <div
+                          class="absolute bottom-0 right-full h-px w-screen bg-gray-100"
+                        />
+                        <div
+                          class="absolute bottom-0 left-0 h-px w-screen bg-gray-100"
+                        />
+                      </td>
+                      <td
+                        class="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell"
+                      ></td>
+                      <td
+                        class="hidden px-3 py-4 text-sm text-gray-500 md:table-cell"
+                      ></td>
+                      <td class="px-3 py-4 text-sm text-gray-500">
+                        {{ person.role }}
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <figure class="mt-16">
+          <a
+            href="/img/2024/luna/fases-luna-marzo-2024.webp"
+            target="_blank"
+            title="Fases de la luna Marzo 2024"
+          >
+            <img
+              class="aspect-video rounded-xl bg-gray-50 object-cover"
+              src="/img/2024/luna/fases-luna-marzo-2024.webp"
+              alt="Fases de la luna Marzo 2024"
+            />
+          </a>
+
+          <figcaption class="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
+            <InformationCircleIcon
+              class="mt-0.5 h-5 w-5 flex-none text-gray-300"
+              aria-hidden="true"
+            />
+            Fases de la luna Marzo 2024
+          </figcaption>
+        </figure>
+        <h3 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+          Compártelo con tus amigos:
+        </h3>
+        <div class="flex flex-row gap-2">
+          <SocialShare
+            v-for="network in [
+              'facebook',
+              'twitter',
+              'linkedin',
+              'whatsapp',
+              'telegram',
+            ]"
+            :key="network"
+            :network="network"
+            :styled="false"
+            :label="false"
+            class="p-4 rounded-none"
+          />
+        </div>
+      </div>
+    </div>
+  </main>
+</template>
+<script setup>
+import { InformationCircleIcon } from '@heroicons/vue/20/solid';
+const { data } = await useAsyncData('article', () =>
+  queryContent('/info').findOne()
+);
+const titlePage = 'Eventos astronómicos para el mes de Marzo de 2024';
+const descriptionPage =
+  'Una guia para no perderte nada del cielo en este Marzo 2024. Posición de la Luna, planetas, meteoros y mucho más.';
+const urlPage = `https://blog.astroingeo.org/calendario-astronomico/2024/guia-observacion-cielo-Marzo-2024`;
+const imagePage =
+  'https://blog.astroingeo.org/img/2024/Marzo/cielo-Marzo-2024-hemisferio-norte.webp';
+
+// const gtm = useGtm();
+
+// function triggerEvent() {
+//   console.log("triggerEvent");
+//   gtm.trackEvent({
+//     event: "ctr_pdf",
+//     category: "calendario",
+//     action: "click",
+//   });
+// }
+
+useHead({
+  title: titlePage,
+  description: descriptionPage,
+  link: [{ rel: 'canonical', href: urlPage }],
+  meta: [
+    { hid: 'description', name: 'description', content: descriptionPage },
+    { hid: 'og:title', property: 'og:title', content: titlePage },
+    { hid: 'og:type', property: 'og:type', content: 'website' },
+    { hid: 'og:url', property: 'og:url', content: urlPage },
+    {
+      hid: 'og:description',
+      property: 'og:description',
+      content: descriptionPage,
+    },
+    { hid: 'og:image', property: 'og:image', content: imagePage },
+
+    // twitter card
+    { hid: 'twitter:title', name: 'twitter:title', content: titlePage },
+    { hid: 'twitter:url', name: 'twitter:url', content: urlPage },
+    {
+      hid: 'twitter:description',
+      name: 'twitter:description',
+      content: descriptionPage,
+    },
+    { hid: 'twitter:image', name: 'twitter:image', content: imagePage },
+  ],
+});
+
+const todayMarzo = '2024-02-01T17:14:32.901Z';
+
+const people = [
+  {
+    name: 'Cuarto menguante',
+    role: ' 3 de marzo, bajo el signo de Sagitario (16:23 horas)',
+  },
+  {
+    name: 'Luna nueva',
+    role: ' 10 de marzo, bajo el signo de Piscis (10:00 horas)',
+  },
+  {
+    name: 'Cuarto creciente',
+    role: '17 de marzo (5:11 horas), bajo el signo de Géminis',
+  },
+  {
+    name: 'Luna llena',
+    role: ' 25 de marzo (8:00 horas), bajo el signo de Libra',
+  },
+];
+const days = [
+  { date: '2024-02-26', isCurrentMonth: false },
+  { date: '2024-02-27', isCurrentMonth: false },
+  { date: '2024-02-28', isCurrentMonth: false },
+  { date: '2024-02-29', isCurrentMonth: false },
+  { date: '2024-03-01', isCurrentMonth: true, bgColor: 'bg-red-600' },
+  { date: '2024-03-02', isCurrentMonth: true },
+  { date: '2024-03-03', isCurrentMonth: true },
+  { date: '2024-03-04', isCurrentMonth: true },
+  { date: '2024-03-05', isCurrentMonth: true },
+  { date: '2024-03-06', isCurrentMonth: true },
+  { date: '2024-03-07', isCurrentMonth: true },
+  { date: '2024-03-08', isCurrentMonth: true, bgColor: 'bg-purple-600' },
+  { date: '2024-03-09', isCurrentMonth: true },
+  { date: '2024-03-10', isCurrentMonth: true, bgColor: 'bg-purple-600' },
+  { date: '2024-03-11', isCurrentMonth: true },
+  { date: '2024-03-12', isCurrentMonth: true },
+  { date: '2024-03-13', isCurrentMonth: true },
+  { date: '2024-03-14', isCurrentMonth: true, bgColor: 'bg-purple-600' },
+  { date: '2024-03-15', isCurrentMonth: true },
+  { date: '2024-03-16', isCurrentMonth: true },
+  { date: '2024-03-17', isCurrentMonth: true },
+  { date: '2024-03-18', isCurrentMonth: true },
+  { date: '2024-03-19', isCurrentMonth: true },
+  { date: '2024-03-20', isCurrentMonth: true, bgColor: 'bg-green-600' },
+  { date: '2024-03-21', isCurrentMonth: true },
+  { date: '2024-03-22', isCurrentMonth: true },
+  { date: '2024-03-23', isCurrentMonth: true },
+  { date: '2024-03-24', isCurrentMonth: true, bgColor: 'bg-blue-600' },
+  { date: '2024-03-25', isCurrentMonth: true, bgColor: 'bg-purple-600' },
+  { date: '2024-03-26', isCurrentMonth: true },
+  { date: '2024-03-27', isCurrentMonth: true },
+  { date: '2024-03-28', isCurrentMonth: true },
+  { date: '2024-03-29', isCurrentMonth: true },
+  { date: '2024-03-30', isCurrentMonth: true },
+  { date: '2024-03-31', isCurrentMonth: true },
+  { date: '2024-04-02', isCurrentMonth: false },
+  { date: '2024-04-02', isCurrentMonth: false },
+  { date: '2024-04-03', isCurrentMonth: false },
+];
+const agenda = [
+  {
+    id: 1,
+    name: 'El cometa C/2021 S3 (PANSTARRS) alcanza su brillo máximo',
+    imageUrl: '/img/icono-meteoros.webp',
+    type: 'Luna',
+    label: '1 de Marzo',
+    bgColor: 'bg-red-300',
+    bgColorHover: 'hover:bg-red-400',
+  },
+  {
+    id: 2,
+    name: 'Conjunción de la Luna y Marte',
+    imageUrl: '/img/icono-luna.webp',
+    type: 'Luna',
+    label: '8 de Marzo',
+    bgColor: 'bg-purple-300',
+    bgColorHover: 'hover:bg-purple-400',
+  },
+  {
+    id: 3,
+    name: 'Luna Nueva',
+    imageUrl: '/img/icono-luna.webp',
+    type: 'Luna',
+    label: '10 de Marzo',
+    bgColor: 'bg-purple-300',
+    bgColorHover: 'hover:bg-purple-400',
+  },
+  {
+    id: 5,
+    name: 'Conjunción de la Luna y Júpiter',
+    imageUrl: '/img/icono-luna.webp',
+    type: 'Luna',
+    label: '14 de Marzo',
+    bgColor: 'bg-purple-300',
+    bgColorHover: 'hover:bg-purple-400',
+  },
+  {
+    id: 6,
+    name: 'Equinoccio de marzo',
+    imageUrl: '/img/icono-equinocio.webp',
+    type: 'Luna',
+    label: '20 de Marzo',
+    bgColor: 'bg-green-300',
+    bgColorHover: 'hover:bg-green-400',
+  },
+  {
+    id: 7,
+    name: 'Mercurio en máxima elongación este',
+    imageUrl: '/img/icono-planetas.webp',
+    type: 'Luna',
+    label: '24 de Marzo',
+    bgColor: 'bg-blue-300',
+    bgColorHover: 'hover:bg-blue-400',
+  },
+  {
+    id: 8,
+    name: 'Eclipse penumbral de Luna (y Luna Llena).',
+    imageUrl: '/img/icono-luna.webp',
+    type: 'Luna',
+    label: '25 de Marzo',
+    bgColor: 'bg-purple-300',
+    bgColorHover: 'hover:bg-purple-400',
+  },
+];
+
+useJsonld([
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: 'Eventos astronómicos para el mes de Marzo de 2024',
+    image: {
+      '@type': 'ImageObject',
+      url: 'https://blog.astroingeo.org/img/2024/Marzo/cielo-Marzo-2024-hemisferio-norte.webp',
+      width: '1024',
+      height: '1024',
+    },
+    author: {
+      '@type': 'Person',
+      name: `${data._rawValue.author}`,
+      url: `https://${data._rawValue.domain}/quienes-somos`,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: `${data._rawValue.domain}`,
+      logo: {
+        '@type': 'ImageObject',
+        url: `https://${data._rawValue.domain}/img/logo.webp`,
+        width: '600',
+        height: '200',
+      },
+    },
+    datePublished: todayMarzo,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: 'Eventos astronómicos para el mes de Marzo de 2024',
+    image: {
+      '@type': 'ImageObject',
+      url: 'https://blog.astroingeo.org/img/2024/Marzo/cielo-Marzo-2024-hemisferio-norte.webp',
+      width: '1024',
+      height: '1024',
+    },
+    datePublished: todayMarzo,
+    dateModified: todayMarzo,
+    author: {
+      '@type': 'Person',
+      name: `${data._rawValue.author}`,
+      url: `https://${data._rawValue.domain}/quienes-somos}`,
+    },
+  },
+]);
+</script>
