@@ -800,6 +800,7 @@ async function chatgptMagic(contenido, model = "gpt-4-1106-preview") {
 
 async function pictureOfTheDay() {
   const baseApiUrl = "https://api.nasa.gov/planetary";
+  // const oldDate = "2024-03-01";
   const oldDate = "";
   const url =
     oldDate.length === 0
