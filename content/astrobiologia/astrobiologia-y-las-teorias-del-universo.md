@@ -45,7 +45,6 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-```markdown
 # Descubriendo la Astrobiología y las Nuevas Perspectivas del Universo
 
 La astrobiología, esa rama interdisciplinaria de la ciencia que busca entender los orígenes de la vida y su posible existencia en otros lugares del universo, se entrelaza íntimamente con diversas teorías cosmológicas. En este artículo, nos adentraremos en los enigmas que la astrobiología intenta desentrañar, y cómo se relacionan con nuestra concepción del cosmos.
@@ -134,6 +133,5 @@ Las investigaciones en astrobiología no solo persiguen descubrir vida en otros 
 1. ¿Qué es la astrobiología?
 2. ¿Cómo se relacionan las teorías del universo con la búsqueda de vida extraterrestre?
 3. ¿Es posible que encuentren vida en otros planetas en el futuro cercano?
-```
 
 _Artículo actualizado el sábado, 20 de enero de 2024_

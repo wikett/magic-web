@@ -488,9 +488,10 @@ async function resizeImagen() {
 }
 
 async function generateDalle3Image(texto, filename) {
+  console.log(texto)
   const image = await openai.images.generate({
     model: "dall-e-3",
-    prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: a photograph of someone doing '${texto}'`,
+    prompt: `I NEED to test how the tool works with extremely simple prompts. DO NOT add any detail, just use it AS-IS: '${texto}'`,
     n: 1,
     size: "1024x1024",
   });
@@ -1079,7 +1080,7 @@ switch (process.argv[2]) {
 
   case "dalle":
     // Generacion imagenes DALLE 3
-    await generateDalle3Image("Astrobiology", "astrobiology");
+    await generateDalle3Image("dark deep space", "espacio oscuro");
     break;
 
   case "resize":

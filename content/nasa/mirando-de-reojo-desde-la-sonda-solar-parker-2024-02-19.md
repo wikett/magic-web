@@ -1,10 +1,3 @@
-::video-article
----
-title: Mirando de reojo desde la sonda solar Parker
-videourl: https://www.youtube.com/embed/x-wX-wClfig?rel=0
----
-::
-
 ---
 title: Mirando de reojo desde la sonda solar Parker
 description: Imagen astronómica del día lunes, 19 de febrero de 2024 por la NASA; Mirando de reojo desde la sonda solar Parker
@@ -55,11 +48,17 @@ head:
 # Mirando de reojo desde la sonda solar Parker
 lunes, 19 de febrero de 2024
 
-octopus
 
 **¿Qué está sucediendo cerca del Sol?** Para descubrirlo, la NASA lanzó la sonda robótica Parker Solar Probe (PSP) para investigar regiones más cercanas al Sol que nunca antes. La órbita en bucle de la PSP la lleva cada vez más cerca del Sol—cada pocos meses. El vídeo time-lapse destacado muestra la vista lateral desde detrás del escudo solar de la PSP durante su aproximación número 16 al Sol el año pasado—dentro de la órbita de Mercurio. Las cámaras del Imager de Campo Amplio para el Solar Probe (WISPR) de la PSP tomaron las imágenes durante once días, pero aquí están comprimidas digitalmente en un vídeo de aproximadamente un minuto de duración.
 
 Se puede observar el ondular de la corona solar, así como una eyección de masa coronal, con estrellas, planetas e incluso la banda central de nuestra Vía Láctea desplazándose en el fondo mientras la PSP orbita alrededor del Sol. La PSP ha encontrado que el vecindario solar es sorprendentemente complejo e incluye _'switchbacks'_, momentos en los cuales el campo magnético del Sol brevemente se invierte.
+
+::video-article
+---
+title: Mirando de reojo desde la sonda solar Parker
+videourl: https://www.youtube.com/embed/x-wX-wClfig?rel=0
+---
+::
 
 **Datos interesantes adicionales**:
 

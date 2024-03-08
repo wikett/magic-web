@@ -54,7 +54,6 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-```
 # La Magia de Mirar al Sol: Guía Avanzada de la Observación Solar
 
 Descubrir los secretos del sol a través de la observación solar es una de las actividades más fascinantes para los aficionados a la astronomía. Sin embargo, es fundamental entender que mirar directamente al sol sin las medidas adecuadas puede ser peligroso. Aquí te guiamos con seguridad hacia las maravillas del astro rey.
@@ -132,7 +131,6 @@ Un **filtro solar** es un accesorio que se coloca en la parte frontal del telesc
 
 #### ¿Cómo puedo participar en eventos de observación solar?
 Puedes buscar clubes de astronomía locales, eventos en centros de ciencia o planetarios, y unirte a comunidades de astronomía en línea para participar en eventos de **observación solar** y aprender más sobre el tema.
-```
 
 
 _Artículo actualizado el domingo, 25 de febrero de 2024_

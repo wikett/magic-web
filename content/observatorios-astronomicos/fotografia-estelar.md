@@ -92,9 +92,7 @@ Experimentar con estos ajustes te ayudará a encontrar el equilibrio perfecto pa
 
 Al fotografiar estrellas, queremos evitar las estelas que pueden aparecer debido al movimiento de la Tierra. La **regla del 500** nos ayuda a calcular la exposición:
 
-```
 500 / (Distancia focal efectiva de tu lente) = Tiempo máximo de exposición en segundos
-```
 
 Esto asegura que las estrellas aparezcan como puntos nítidos en lugar de trazos.
 

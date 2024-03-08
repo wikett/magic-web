@@ -92,12 +92,10 @@ Los detectores de neutrinos han progresado enormemente desde los días de Reines
 ## Neutrinos como Sondas de la Física Extraterrestre
 Aparte de sus aplicaciones cosmológicas, los neutrinos nos permiten estudiar eventos astronómicos de alta energía. Siendo prácticamente no afectados por campos electromagnéticos, viajan directos desde su fuente, **dando información valiosa sobre fenómenos lejanos** y exóticos.
 
-```markdown
 - Naturaleza y Descubrimiento de los Neutrinos
 - Importancia en la Formación de Estructuras
 - Influencia en el Fondo Cósmico de Microondas
 - Avances en la Detección
-```
 
 ### El Potencial Oscuro de los Neutrinos
 La posible conexión entre los neutrinos y la materia oscura es uno de los temas más **apasionantes y enigmáticos en la astrofísica moderna**. Aunque aún no se ha demostrado un vínculo directo, la sola idea estimula investigaciones que podrían revolucionar nuestra comprensión del universo.

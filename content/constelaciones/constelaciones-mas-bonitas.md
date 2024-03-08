@@ -59,13 +59,11 @@ imageurl: https://blog.astroingeo.org/img/content/constelaciones-mas-bonitas_1.w
 
 
 ## El Destello de Orión: un Joyero en el Firmamento
-```markdown
 Orión, el cazador, es quizás la constelación más conocida y fácilmente identificable en el cielo nocturno. Sus **estrellas brillantes** forman lo que parece ser la figura de un guerrero, con el cinturón y la espada distintivos que atraen la mirada de admiradores tanto novatos como expertos en astronomía. Destacando en Orión están:
 
 - Betelgeuse: una súper gigante roja que palpita con un fulgor rojizo.
 - Rigel: una estelar gigante azul que contrasta espectacularmente con Betelgeuse.
 - La Nebulosa de Orión: una guardería estelar visible a simple vista bajo cielos oscuros.
-```
 
 ## Las Gemas de Tauro: el Toro Celestial
 La constelación de Tauro se hace presente en el firmamento con su característica forma de V que representa la cabeza del toro. Entre sus **tesoros cósmicos**, destacan:
@@ -74,13 +72,12 @@ La constelación de Tauro se hace presente en el firmamento con su característi
 - Las Pléyades: un cúmulo abierto conocido como "las siete hermanas", cuyo encanto ha inspirado mitos y leyendas.
 
 ## Cruz del Sur: Faro del Hemisferio Austral
-```markdown
 En el hemisferio sur, la Cruz del Sur es una señal inconfundible. Cuatro estrellas principales dibujan una cruz distintiva que ha sido un faro para navegantes y exploradores:
 
 1. Acrux: la estrella más brillante de la constelación.
 2. Becrux: conocida también como Mimosa, acompaña a Acrux en el eje vertical.
 3. Gacrux: la tercera estrella más brillante, completando la cruz.
-```
+
 **La Cruz del Sur** está rodeada por el escurridizo y deslumbrante Saco de Carbón, una nebulosa oscura que complementa el esplendor de esta constelación.
 
 
