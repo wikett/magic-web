@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Luna llena de plancton
+description: Imagen astronómica del día lunes, 11 de marzo de 2024 por la NASA; Luna llena de plancton
 category: nasa
 published_time: 2024-03-11T07:00:04.048Z
-url: foto-del-dia-de-la-nasa-hoy
+url: luna-llena-de-plancton-2024-03-11
 created: 11 Mar 2024
 imageUrl: https://apod.nasa.gov/apod/image/2403/FullPlantonMoon_Horalek_1022.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Luna llena de plancton'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Luna llena de plancton'
     - name: 'og:description'
       content: 'Imagen astronómica del día lunes, 11 de marzo de 2024 por la NASA; Luna llena de plancton'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2403/FullPlantonMoon_Horalek_1022.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/luna-llena-de-plancton-2024-03-11'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/luna-llena-de-plancton-2024-03-11'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Luna llena de plancton'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2403/FullPlantonMoon_Horalek_1022.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Luna llena de plancton
 lunes, 11 de marzo de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Luna llena de plancton
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Petr Horálek /Institute of Physics in Opava -
+title: Luna llena de plancton, copyright - Petr Horálek /Institute of Physics in Opava -
 imageurl: https://apod.nasa.gov/apod/image/2403/FullPlantonMoon_Horalek_1022.jpg
 ---
 ::
