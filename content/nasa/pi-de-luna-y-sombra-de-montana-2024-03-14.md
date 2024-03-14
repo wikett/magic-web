@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Pi de luna y sombra de montaña
+description: Imagen astronómica del día jueves, 14 de marzo de 2024 por la NASA; Pi de luna y sombra de montaña
 category: nasa
 published_time: 2024-03-14T07:00:04.627Z
-url: foto-del-dia-de-la-nasa-hoy
+url: pi-de-luna-y-sombra-de-montana-2024-03-14
 created: 14 Mar 2024
 imageUrl: https://apod.nasa.gov/apod/image/2403/MoonriseShadowDLopez_1.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Pi de luna y sombra de montaña'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Pi de luna y sombra de montaña'
     - name: 'og:description'
       content: 'Imagen astronómica del día jueves, 14 de marzo de 2024 por la NASA; Pi de luna y sombra de montaña'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2403/MoonriseShadowDLopez_1.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/pi-de-luna-y-sombra-de-montana-2024-03-14'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/pi-de-luna-y-sombra-de-montana-2024-03-14'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Pi de luna y sombra de montaña'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2403/MoonriseShadowDLopez_1.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Pi de luna y sombra de montaña
 jueves, 14 de marzo de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Pi de luna y sombra de montaña
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - El Cielo de Canarias -
+title: Pi de luna y sombra de montaña, copyright - El Cielo de Canarias -
 imageurl: https://apod.nasa.gov/apod/image/2403/MoonriseShadowDLopez_1.jpg
 ---
 ::
