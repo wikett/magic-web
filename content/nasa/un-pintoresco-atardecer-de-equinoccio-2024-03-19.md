@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Un pintoresco atardecer de equinoccio
+description: Imagen astronómica del día martes, 19 de marzo de 2024 por la NASA; Un pintoresco atardecer de equinoccio
 category: nasa
 published_time: 2024-03-19T07:00:04.193Z
-url: foto-del-dia-de-la-nasa-hoy
+url: un-pintoresco-atardecer-de-equinoccio-2024-03-19
 created: 19 Mar 2024
 imageUrl: https://apod.nasa.gov/apod/image/2403/EquinoxSunset_Dyer_1701.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Un pintoresco atardecer de equinoccio'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Un pintoresco atardecer de equinoccio'
     - name: 'og:description'
       content: 'Imagen astronómica del día martes, 19 de marzo de 2024 por la NASA; Un pintoresco atardecer de equinoccio'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2403/EquinoxSunset_Dyer_1701.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/un-pintoresco-atardecer-de-equinoccio-2024-03-19'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/un-pintoresco-atardecer-de-equinoccio-2024-03-19'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Un pintoresco atardecer de equinoccio'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2403/EquinoxSunset_Dyer_1701.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Un pintoresco atardecer de equinoccio
 martes, 19 de marzo de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Un pintoresco atardecer de equinoccio
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Alan Dyer, Amazingsky.com,TWAN -
+title: Un pintoresco atardecer de equinoccio, copyright - Alan Dyer, Amazingsky.com,TWAN -
 imageurl: https://apod.nasa.gov/apod/image/2403/EquinoxSunset_Dyer_1701.jpg
 ---
 ::
