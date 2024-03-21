@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: El Trío Leo
+description: Imagen astronómica del día jueves, 21 de marzo de 2024 por la NASA; El Trío Leo
 category: nasa
 published_time: 2024-03-21T07:00:04.411Z
-url: foto-del-dia-de-la-nasa-hoy
+url: el-trio-leo-2024-03-21
 created: 21 Mar 2024
 imageUrl: https://apod.nasa.gov/apod/image/2403/leotripletasi294large.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'El Trío Leo'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'El Trío Leo'
     - name: 'og:description'
       content: 'Imagen astronómica del día jueves, 21 de marzo de 2024 por la NASA; El Trío Leo'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2403/leotripletasi294large.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/el-trio-leo-2024-03-21'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/el-trio-leo-2024-03-21'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'El Trío Leo'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2403/leotripletasi294large.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# El Trío Leo
 jueves, 21 de marzo de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## El Trío Leo
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Steve Cannistra -
+title: El Trío Leo, copyright - Steve Cannistra -
 imageurl: https://apod.nasa.gov/apod/image/2403/leotripletasi294large.jpg
 ---
 ::
