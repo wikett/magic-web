@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Fobos; Luna sobre Marte
+description: Imagen astronómica del día viernes, 22 de marzo de 2024 por la NASA; Fobos; Luna sobre Marte
 category: nasa
 published_time: 2024-03-22T07:00:04.720Z
-url: foto-del-dia-de-la-nasa-hoy
+url: fobos-luna-sobre-marte-2024-03-22
 created: 22 Mar 2024
 imageUrl: https://apod.nasa.gov/apod/image/2403/STSCI-MarsPhobosComp3000.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Fobos; Luna sobre Marte'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Fobos; Luna sobre Marte'
     - name: 'og:description'
       content: 'Imagen astronómica del día viernes, 22 de marzo de 2024 por la NASA; Fobos; Luna sobre Marte'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2403/STSCI-MarsPhobosComp3000.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/fobos-luna-sobre-marte-2024-03-22'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/fobos-luna-sobre-marte-2024-03-22'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Fobos; Luna sobre Marte'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2403/STSCI-MarsPhobosComp3000.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Fobos; Luna sobre Marte
 viernes, 22 de marzo de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Fobos; Luna sobre Marte
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA
+title: Fobos; Luna sobre Marte
 imageurl: https://apod.nasa.gov/apod/image/2403/STSCI-MarsPhobosComp3000.jpg
 ---
 ::
