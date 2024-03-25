@@ -1,19 +1,26 @@
+::video-article
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Sonificado; El remanente de supernova de la nebulosa Medusa
+videourl: https://youtube.com/embed/NqBfQeJqkfU?rel=0
+---
+::
+
+---
+title: Sonificado; El remanente de supernova de la nebulosa Medusa
+description: Imagen astronómica del día lunes, 25 de marzo de 2024 por la NASA; Sonificado; El remanente de supernova de la nebulosa Medusa
 category: nasa
 published_time: 2024-03-25T07:00:04.175Z
-url: foto-del-dia-de-la-nasa-hoy
+url: sonificado-el-remanente-de-supernova-de-la-nebulosa-medusa-2024-03-25
 created: 25 Mar 2024
 imageUrl: 
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Sonificado; El remanente de supernova de la nebulosa Medusa'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Sonificado; El remanente de supernova de la nebulosa Medusa'
     - name: 'og:description'
       content: 'Imagen astronómica del día lunes, 25 de marzo de 2024 por la NASA; Sonificado; El remanente de supernova de la nebulosa Medusa'
     - name: 'og:type'
@@ -29,13 +36,13 @@ head:
     - name: 'og:image'
       content: ''
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/sonificado-el-remanente-de-supernova-de-la-nebulosa-medusa-2024-03-25'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/sonificado-el-remanente-de-supernova-de-la-nebulosa-medusa-2024-03-25'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Sonificado; El remanente de supernova de la nebulosa Medusa'
     - name: 'twitter:card'
       content: ''
     - name: 'twitter:description'
@@ -45,19 +52,8 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Sonificado; El remanente de supernova de la nebulosa Medusa
 lunes, 25 de marzo de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-::video-article
----
-title: Sonificado; El remanente de supernova de la nebulosa Medusa
-videourl: https://youtube.com/embed/NqBfQeJqkfU?rel=0
----
-::
-
-## Sonificado; El remanente de supernova de la nebulosa Medusa
 
 octopus
 
@@ -80,12 +76,3 @@ La luz de la supernova que creó la Nebulosa del Medusa partió hace aproximadam
 La sonificación de objetos astronómicos proporciona una nueva herramienta para el análisis y la divulgación de la belleza y la complejidad del universo, permitiendo un enfoque multisensorial que puede ser particularmente enriquecedor y revelador. A través de sonidos, podríamos "escuchar" las pistas del cosmos que de otra manera serían inalcanzables, sumergiéndonos en una experiencia astronómica sublime.
 
 _Artículo actualizado el lunes, 25 de marzo de 2024_
-
-::photo-article
-  ---
-  title: Sonificado; El remanente de supernova de la nebulosa Medusa, imagen generada por DALLE 3
-  imageurl: 
-  ---
-  ::
-
-  
