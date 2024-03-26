@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: Cola de iones del cometa Pons-Brooks
+description: Imagen astronómica del día martes, 26 de marzo de 2024 por la NASA; Cola de iones del cometa Pons-Brooks
 category: nasa
 published_time: 2024-03-26T07:00:04.755Z
-url: foto-del-dia-de-la-nasa-hoy
+url: cola-de-iones-del-cometa-pons-brooks-2024-03-26
 created: 26 Mar 2024
 imageUrl: https://apod.nasa.gov/apod/image/2403/CometPons_Peirce_5119.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Cola de iones del cometa Pons-Brooks'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Cola de iones del cometa Pons-Brooks'
     - name: 'og:description'
       content: 'Imagen astronómica del día martes, 26 de marzo de 2024 por la NASA; Cola de iones del cometa Pons-Brooks'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2403/CometPons_Peirce_5119.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/cola-de-iones-del-cometa-pons-brooks-2024-03-26'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/cola-de-iones-del-cometa-pons-brooks-2024-03-26'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'Cola de iones del cometa Pons-Brooks'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2403/CometPons_Peirce_5119.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# Cola de iones del cometa Pons-Brooks
 martes, 26 de marzo de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## Cola de iones del cometa Pons-Brooks
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA
+title: Cola de iones del cometa Pons-Brooks
 imageurl: https://apod.nasa.gov/apod/image/2403/CometPons_Peirce_5119.jpg
 ---
 ::
