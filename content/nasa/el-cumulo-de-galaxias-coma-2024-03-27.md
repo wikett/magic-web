@@ -1,19 +1,19 @@
 ---
-title: Foto astronómica del día por la NASA
-description: Foto astronómica del día por la NASA. Cada día la NASA elige una imagen de los aficionados a la astronomía para ser la foto del día.
+title: El cúmulo de galaxias Coma
+description: Imagen astronómica del día miércoles, 27 de marzo de 2024 por la NASA; El cúmulo de galaxias Coma
 category: nasa
 published_time: 2024-03-27T07:00:03.723Z
-url: foto-del-dia-de-la-nasa-hoy
+url: el-cumulo-de-galaxias-coma-2024-03-27
 created: 27 Mar 2024
 imageUrl: https://apod.nasa.gov/apod/image/2403/ComaCluster_Hua_960.jpg
 head:
   meta:
     - name: 'keywords'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'El cúmulo de galaxias Coma'
     - name: 'robots'
       content: 'index, follow'
     - name: 'og:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'El cúmulo de galaxias Coma'
     - name: 'og:description'
       content: 'Imagen astronómica del día miércoles, 27 de marzo de 2024 por la NASA; El cúmulo de galaxias Coma'
     - name: 'og:type'
@@ -29,13 +29,13 @@ head:
     - name: 'og:image'
       content: 'https://apod.nasa.gov/apod/image/2403/ComaCluster_Hua_960.jpg'
     - name: 'og:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/el-cumulo-de-galaxias-coma-2024-03-27'
     - name: 'twitter:domain'
       content: 'blog.astroingeo.org'
     - name: 'twitter:url'
-      content: 'https://blog.astroingeo.org/nasa/foto-del-dia-de-la-nasa-hoy'
+      content: 'https://blog.astroingeo.org/nasa/el-cumulo-de-galaxias-coma-2024-03-27'
     - name: 'twitter:title'
-      content: 'Foto astronómica del día por la NASA'
+      content: 'El cúmulo de galaxias Coma'
     - name: 'twitter:card'
       content: 'https://apod.nasa.gov/apod/image/2403/ComaCluster_Hua_960.jpg'
     - name: 'twitter:description'
@@ -45,17 +45,13 @@ head:
     - name: 'copyright'
       content: '© 2024 blog.astroingeo.org'
 ---
-# Foto del día de la NASA hoy
+# El cúmulo de galaxias Coma
 miércoles, 27 de marzo de 2024
-
-Cada día se presenta una imagen o fotografía diferente de nuestro fascinante universo, junto con una breve explicación escrita por un astrónomo profesional elegida por la NASA.
-En esta página lo que queremos es acercar la astronomía a los hispanohablantes, ya que estas imagenes y su texto solo se publican en inglés.
-## El cúmulo de galaxias Coma
 
 
 ::photo-article
 ---
-title: Foto astronómica del día por la NASA, copyright - Joe Hua -
+title: El cúmulo de galaxias Coma, copyright - Joe Hua -
 imageurl: https://apod.nasa.gov/apod/image/2403/ComaCluster_Hua_960.jpg
 ---
 ::
